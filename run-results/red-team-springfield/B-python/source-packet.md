@@ -444,28 +444,28 @@ S443 | RFP-056 p. 16 line 40 | Notary Public
 S444 | RFP-056 p. 16 line 41 | SEAL
 S445 | RFP-056 p. 17 line 2 | Company ID Number:
 S446 | RFP-056 p. 17 line 3 | Approved by:
-S447 | RFP-056 p. 17 line 4 | Employer
+S447 | RFP-056 p. 17 line 4 (columns 1–1 of 2) | Employer
 S448 | RFP-056 p. 17 line 5 | Name (Please Type or Print) | Title
 S449 | RFP-056 p. 17 line 6 | Signature | Date
-S450 | RFP-056 p. 17 line 7 | Department of Homeland Security – Verification Division
+S450 | RFP-056 p. 17 line 7 (columns 1–1 of 2) | Department of Homeland Security – Verification Division
 S451 | RFP-056 p. 17 line 8 | Name (Please Type or Print) | Title
 S452 | RFP-056 p. 17 line 9 | Signature | Date
 S453 | RFP-056 p. 18 line 2 | Company ID Number:
 S454 | RFP-056 p. 18 line 3 | Information Required for the E-Verify Program
 S455 | RFP-056 p. 18 line 4 | Information relating to your Company:
-S456 | RFP-056 p. 18 line 5 | Company Name
-S457 | RFP-056 p. 18 line 6 | Company Facility Address
-S458 | RFP-056 p. 18 line 7 | Company Alternate Address
-S459 | RFP-056 p. 18 line 8 | County or Parish
-S460 | RFP-056 p. 18 line 9 | Employer Identification Number
-S461 | RFP-056 p. 18 line 10 | North American Industry Classification Systems Code
+S456 | RFP-056 p. 18 line 5 (columns 1–1 of 3) | Company Name
+S457 | RFP-056 p. 18 line 6 (columns 1–1 of 3) | Company Facility Address
+S458 | RFP-056 p. 18 line 7 (columns 1–1 of 3) | Company Alternate Address
+S459 | RFP-056 p. 18 line 8 (columns 1–1 of 3) | County or Parish
+S460 | RFP-056 p. 18 line 9 (columns 1–1 of 3) | Employer Identification Number
+S461 | RFP-056 p. 18 line 10 (columns 1–1 of 3) | North American Industry Classification Systems Code
 S462 | RFP-056 p. 18 line 11 | North American Industry
 S463 | RFP-056 p. 18 line 12 | Classification Systems Code
-S464 | RFP-056 p. 18 line 13 | Parent Company
-S465 | RFP-056 p. 18 line 14 | Number of Employees
-S466 | RFP-056 p. 18 line 15 | Number of Sites Verified for
-S467 | RFP-056 p. 18 line 16 | Number of Employees
-S468 | RFP-056 p. 18 line 17 | Number of Sites Verified for
+S464 | RFP-056 p. 18 line 13 (columns 1–1 of 3) | Parent Company
+S465 | RFP-056 p. 18 line 14 (columns 1–1 of 3) | Number of Employees
+S466 | RFP-056 p. 18 line 15 (columns 1–1 of 3) | Number of Sites Verified for
+S467 | RFP-056 p. 18 line 16 (columns 1–1 of 3) | Number of Employees
+S468 | RFP-056 p. 18 line 17 (columns 1–1 of 3) | Number of Sites Verified for
 S469 | RFP-056 p. 19 line 2 | 12.0 INSURANCE: Before a contract is executed, the successful respondent shall furnish the City with a CERTIFICATE OF INSURANCE (COI) as described in Requirements PART IV.
 S470 | RFP-056 p. 19 line 4 | 13.0 COMPLIANCE: The following items shall be provided by the Offeror to the City of Springfield Division of Purchases through its e-bidding service provider, DemandStar (soon to be Euna OpenBids) to be considered responsive.
 S471 | RFP-056 p. 19 line 5 | Offeror must complete, execute, and submit all Pages identified with “RETURN THIS PAGE” of this RFP document to be deemed responsive and considered for award.
@@ -529,413 +529,418 @@ S528 | RFP-056 p. 21 line 5 | Final Completion of the contract shall be determin
 S529 | RFP-056 p. 21 line 7 | 5. This Contract may be executed and delivered by the parties electronically, and fully executed electronic versions of the contract instrument, or reproductions thereof, will be deemed to be original counterparts.
 S530 | RFP-056 p. 21 line 9 | 6. This contract shall be binding on the parties thereto only after it has been duly executed and approved by the City and the Service Provider.
 S531 | RFP-056 p. 21 line 11 | IN WITNESS WHEREOF, the parties hereto evidence their agreement to the terms of this Contract by their signatures below.
-S532 | RFP-056 p. 21 line 12 | CERTIFICATE OF DIRECTOR OF FINANCE SERVICE PROVIDER
-S533 | RFP-056 p. 21 line 13 | I certify that the expenditure contemplated by this document is within the purpose of the appropriation to which it is to be By: ______________________________ ____________ charged and that there is an unencumbered balance of Company Authorized Signature Date appropriated and available funds to pay therefore.
-S534 | RFP-056 p. 21 line 17 | Name: _______________________________
-S535 | RFP-056 p. 21 line 18 | Print
-S536 | RFP-056 p. 21 line 19 | Title: _________________________________
-S537 | RFP-056 p. 21 line 20 | _______________________________ ____________ CITY OF SPRINGFIELD, MISSOURI
-S538 | RFP-056 p. 21 line 21 | David Holtmann, Director of Finance Date Division of Purchases or
-S539 | RFP-056 p. 21 line 23 | Acting Director of Finance
-S540 | RFP-056 p. 21 line 24 | By: ____________________________ _____________
-S541 | RFP-056 p. 21 line 25 | Cindy Scholten, Purchasing Agent Date or Acting Purchasing Agent
-S542 | RFP-056 p. 21 line 27 | APPROVED AS TO FORM
-S543 | RFP-056 p. 21 line 28 | ________________________ ___________
-S544 | RFP-056 p. 21 line 29 | City Attorney or Date
-S545 | RFP-056 p. 21 line 30 | Assistant City Attorney
-S546 | RFP-056 p. 22 line 2 | 15.0 QUESTIONS REGARDING SPECIFICATIONS OR PROPOSAL PROCESS: To ensure fair consideration for all Offerors, the City prohibits communication to or with any department, board, or employee during the submission process, except as provided.
-S547 | RFP-056 p. 22 line 4 | Additionally, the City prohibits communications initiated by an Offeror to the City official(s) or employee(s) evaluating or considering the proposals prior to the time a fully executed contract is in place.
-S548 | RFP-056 p. 22 line 5 | Any communication between the Offeror and the City will be initiated by the appropriate City Official(s) or employee(s) in order to obtain information or clarification needed to develop a proper, accurate evaluation of the proposal.
-S549 | RFP-056 p. 22 line 7 | Such communications initiated by an Offeror may be grounds for disqualifying the offending Offeror from consideration for award of the proposal and/or any future proposal(s).
-S550 | RFP-056 p. 22 line 9 | 15.1 Any questions relative to the interpretation of specifications or the proposal process shall be addressed to the Buyer in writing, in ample time before the period set for the receipt and opening of proposals.
-S551 | RFP-056 p. 22 line 10 | No inquiries, if received after the deadline for final questions date listed in this solicitation will be given any consideration.
-S552 | RFP-056 p. 22 line 11 | Any interpretation made to prospective Offerors will be expressed in the form of an addendum to the RFP which, if issued, will be conveyed in writing to all prospective Offerors by the City’s response to question date listed in this solicitation.
-S553 | RFP-056 p. 22 line 14 | 15.2 It will be the responsibility of the Offeror to contact the Division of Purchases prior to submitting a proposal to ascertain if any addenda have been issued, to obtain all such addenda, and to acknowledge addendum with the proposal.
-S554 | RFP-056 p. 22 line 15 | Receipt of an addendum to an RFP by an Offeror must be acknowledged by signing and uploading the addendum with your proposal to https://www.demandstar.com/supplier/bids/agency_inc/bid_list.asp?f=search&mi=548029 prior to the opening time and date.
-S555 | RFP-056 p. 22 line 19 | 15.3 The successful Offeror will be notified electronically.
-S556 | RFP-056 p. 22 line 20 | 16.0 CRITERIA FOR AWARD: The Evaluation Committee will evaluate proposals, and a recommendation will be made to the Buyer.
-S557 | RFP-056 p. 22 line 21 | Each proposal will be evaluated for full compliance with the RFP instructions to the Offeror and the mandatory terms and conditions set forth within the RFP.
-S558 | RFP-056 p. 22 line 22 | The objective of the evaluation will be to recommend the Offeror who is most responsive to the herein described needs of the City.
-S559 | RFP-056 p. 22 line 23 | Proposals which are responsive to this Request for Proposal will be evaluated based on, but not limited to the following criteria:
-S560 | RFP-056 p. 22 line 25 | 16.1 30 number of points for Evidence of Experience & References with Similar Projects (FORM 3).
-S561 | RFP-056 p. 22 line 25 | Reference checks will be performed by the Project Manager.
-S562 | RFP-056 p. 22 line 26 | The results from the reference(s) check will be shared with the Evaluation Committee members.
-S563 | RFP-056 p. 22 line 28 | 16.2 30 number of points for Expertise of Firm/Provider Personnel (FORM 4)
-S564 | RFP-056 p. 22 line 29 | 16.3 10 number of points for Applicable Resources (FORM 1, 2, AND 5)
-S565 | RFP-056 p. 22 line 30 | 16.4 20 number of points for Project Approach Narrative (FORM 5)
-S566 | RFP-056 p. 22 line 31 | 16.5 10 number of points for Cost (FORM(S) 6 A, B) * Points for cost shall be calculated by the Division of Purchases.
-S567 | RFP-056 p. 22 line 32 | *On April 21, 2025, City Council passed General Ordinance 6925, a general ordinance adopting a new City of Springfield, Missouri Purchasing Policy governing the purchase and sale of property, supplies, materials, equipment and services for the city; and amending the Springfield City Code, Chapter 2 “Administration,” Article VI “Finances,” Division 2, “Purchasing,” Section 2-401, “Purchasing manual adopted,” to replace the existing Purchasing Manual with a new Purchasing Policy.
-S568 | RFP-056 p. 22 line 36 | Subsection 35.3 RFPs of section 35.0 Local Preference Policy of the Purchasing Policy states, “When an RFP is evaluated, the score given to Offerors with the Springfield Metropolitan Statistical Area (SMSA) for the criteria of cost shall be increased by ten percent of the total points possible for cost.”
-S569 | RFP-056 p. 22 line 39 | Points for cost shall be calculated by the Division of Purchases.
-S570 | RFP-056 p. 22 line 39 | In case of an error in the extension of prices in the proposal, the unit price shall govern.
-S571 | RFP-056 p. 22 line 40 | Said unit price shall be utilized by the City to calculate the correct extended price for determining the potential award.
-S572 | RFP-056 p. 22 line 42 | 16.6 EVALUATION CRITERIA DEFINITIONS: (The following definitions are from Merriam-Webster.com/dictionary)
-S573 | RFP-056 p. 22 line 43 | 16.6.1 Acceptable: Capable or worthy of being accepted.
-S574 | RFP-056 p. 23 line 2 | 16.6.2 Marginal: Close to the lower limit of qualification, acceptability, or function, barely exceeding the minimum requirements.
-S575 | RFP-056 p. 23 line 4 | 16.6.3 Unacceptable: Not acceptable.
-S576 | RFP-056 p. 24 line 2 | ENCLOSURE I
-S577 | RFP-056 p. 24 line 3 | PROPOSAL RANKING SCORE SHEET
-S578 | RFP-056 p. 24 line 4 | SCORING RANGES
-S579 | RFP-056 p. 24 line 5 | 30 Point Questions 20 Point Questions 10 Point Questions
-S580 | RFP-056 p. 24 line 6 | Acceptable 21 – 30 14 – 20 7 – 10
-S581 | RFP-056 p. 24 line 7 | Marginal 10 – 20 7 – 13 4 – 6
-S582 | RFP-056 p. 24 line 8 | Unacceptable 0 – 9 0 – 6 0 – 3
-S583 | RFP-056 p. 24 line 9 | Evaluation Criteria Maximum Points Score
-S584 | RFP-056 p. 24 line 10 | 1. Evidence of Experience & References with Similar Projects (FORM 3) 30 ______
-S585 | RFP-056 p. 24 line 11 | Consider experience and references listed by the firm/provider on Form 3 of the RFP.
-S586 | RFP-056 p. 24 line 11 | Is the provider experienced in providing services similar to those requested in the RFP?
-S587 | RFP-056 p. 24 line 13 | • Familiarity and experience with similar projects.
-S588 | RFP-056 p. 24 line 14 | • Consider any sub-consultants to be used and their experience (if applicable).
-S589 | RFP-056 p. 24 line 15 | 2. Expertise of Firm/Provider Personnel (FORM 4) 30 ______
-S590 | RFP-056 p. 24 line 16 | Consider comparable experience and background of specific personnel that shall be assigned to the City’s project as outlined in Form 4 of the RFP.
-S591 | RFP-056 p. 24 line 17 | Also, consider the specific involvement of those persons in projects listed on Form 3 of the RFP.
-S592 | RFP-056 p. 24 line 18 | Experience on projects of similar scope and size:
-S593 | RFP-056 p. 24 line 19 | • Project Manager
-S594 | RFP-056 p. 24 line 20 | • Project team
-S595 | RFP-056 p. 24 line 21 | • Sub-consultants (if applicable)
-S596 | RFP-056 p. 24 line 22 | 3. Applicable Resources (FORM 1, 2, AND 5) 10 ______
-S597 | RFP-056 p. 24 line 23 | Evaluate the extent of applicable resources available to the firm / provider to complete the City’s project as listed on Forms 1, 2, and 5 of the RFP.
-S598 | RFP-056 p. 24 line 25 | • Standard Quality Assurance/Quality Control program or procedures the firm has in place.
-S599 | RFP-056 p. 24 line 26 | • Adequacy of proposed team/resources to complete the project within proposed time frame.
-S600 | RFP-056 p. 24 line 27 | 4. Project Approach (FORM 5) 20 ______
-S601 | RFP-056 p. 24 line 28 | Evaluate the firm/provider’s approach to and understanding of the Scope of Services required in the RFP as evidenced by the project approach presented in Form 5.
-S602 | RFP-056 p. 24 line 30 | • Project schedule and detailed approach are reasonable/responsive to the City’s needs.
-S603 | RFP-056 p. 24 line 31 | • Roles of all involved parties clearly identified.
-S604 | RFP-056 p. 24 line 32 | • Familiarity with project location as evidenced by proposal (if applicable).
-S605 | RFP-056 p. 24 line 33 | • Identify/recognize critical or unique issues specific to the project.
-S606 | RFP-056 p. 24 line 34 | • Adequacy of proposed communications process.
-S607 | RFP-056 p. 24 line 35 | • Unique approaches that have been successful elsewhere.
-S608 | RFP-056 p. 24 line 36 | 5. Cost (FORM(S) 6 A, B, C, D) 10
-S609 | RFP-056 p. 24 line 37 | Determination of cost and pricing data: Consider whether all elements of cost and pricing conform to the requirements of the RFP.
-S610 | RFP-056 p. 24 line 39 | Ranked By: ___________________
-S611 | RFP-056 p. 24 line 40 | TOTAL POINTS
-S612 | RFP-056 p. 24 line 41 | (100)
-S613 | RFP-056 p. 25 line 2 | ENCLOSURE II
-S614 | RFP-056 p. 25 line 3 | INTERVIEW RANKING SCORE SHEET
-S615 | RFP-056 p. 25 line 4 | SCORING RANGES
-S616 | RFP-056 p. 25 line 5 | 30 Point Questions 20 Point Questions 10 Point Questions
-S617 | RFP-056 p. 25 line 6 | Acceptable 21 – 30 14 – 20 7 – 10
-S618 | RFP-056 p. 25 line 7 | Marginal 10 – 20 7 – 13 4 – 6
-S619 | RFP-056 p. 25 line 8 | Unacceptable 0 – 9 0 – 6 0 – 3
-S620 | RFP-056 p. 25 line 9 | Evaluation Criteria Maximum Points Score
-S621 | RFP-056 p. 25 line 10 | 1. Evidence of Experience & References with Similar Projects (FORM 3) 30 ______
-S622 | RFP-056 p. 25 line 11 | Consider experience and references listed by the firm/provider on Form 3 of the RFP.
-S623 | RFP-056 p. 25 line 11 | Is the provider experienced in providing services similar to those requested in the RFP?
-S624 | RFP-056 p. 25 line 13 | • Familiarity and experience with similar projects.
-S625 | RFP-056 p. 25 line 14 | • Consider any sub-consultants to be used and their experience (if applicable).
-S626 | RFP-056 p. 25 line 15 | 2. Expertise of Firm/Provider Personnel (FORM 4) 30 ______
-S627 | RFP-056 p. 25 line 16 | Consider comparable experience and background of specific personnel that shall be assigned to the City’s project as outlined in Form 4 of the RFP.
-S628 | RFP-056 p. 25 line 17 | Also, consider the specific involvement of those persons in projects listed on Form 3 of the RFP.
-S629 | RFP-056 p. 25 line 18 | Experience on projects of similar scope and size:
-S630 | RFP-056 p. 25 line 20 | • Project Manager
-S631 | RFP-056 p. 25 line 21 | • Project team
-S632 | RFP-056 p. 25 line 22 | • Sub-consultants (if applicable)
-S633 | RFP-056 p. 25 line 23 | 3. Applicable Resources (FORM 1, 2, AND 5) 10 ______
-S634 | RFP-056 p. 25 line 24 | Evaluate the extent of applicable resources available to the firm / provider to complete the City’s project as listed on Forms 1, 2, and 5 of the RFP.
-S635 | RFP-056 p. 25 line 26 | • Standard Quality Assurance/Quality Control program or procedures the firm has in place.
-S636 | RFP-056 p. 25 line 27 | • Adequacy of proposed team/resources to complete the project within proposed time frame.
-S637 | RFP-056 p. 25 line 28 | 4. Project Approach (FORM 5) 20 ______
-S638 | RFP-056 p. 25 line 29 | Evaluate the firm/provider’s approach to and understanding of the Scope of Services required in the RFP as evidenced by the project approach presented in Form 5.
-S639 | RFP-056 p. 25 line 31 | • Project schedule and detailed approach are reasonable/responsive to the City’s needs.
-S640 | RFP-056 p. 25 line 32 | • Roles of all involved parties clearly identified.
-S641 | RFP-056 p. 25 line 33 | • Familiarity with project location as evidenced by proposal (if applicable).
-S642 | RFP-056 p. 25 line 34 | • Identify/recognize critical or unique issues specific to the project.
-S643 | RFP-056 p. 25 line 35 | • Adequacy of proposed communications process.
-S644 | RFP-056 p. 25 line 36 | • Unique approaches that have been successful elsewhere.
-S645 | RFP-056 p. 25 line 37 | 5. Cost (FORM(S) 6 A, B, C, D) 10
-S646 | RFP-056 p. 25 line 38 | Determination of cost and pricing data: Consider whether all elements of cost and pricing conform to the requirements of the RFP.
-S647 | RFP-056 p. 25 line 40 | Ranked By: ___________________
-S648 | RFP-056 p. 25 line 41 | TOTAL POINTS
-S649 | RFP-056 p. 25 line 42 | (100)
-S650 | RFP-056 p. 26 line 2 | ENCLOSURE III
-S651 | RFP-056 p. 26 line 3 | TABLE OF CONTENTS FOR SUBMITTAL
-S652 | RFP-056 p. 26 line 4 | The following table sets forth the specific items to be addressed in the proposal.
-S653 | RFP-056 p. 26 line 4 | Respondents are requested to use this page with their proposal and with the corresponding page numbers indicated on the information submitted within their proposal:
-S654 | RFP-056 p. 26 line 6 | A. | TITLE-SIGNATURE PAGE This form must be executed and submitted with proposal. | Page 1
-S655 | RFP-056 p. 26 line 7 | B. | TABLE OF CONTENTS: Submit this page with page numbers provided. | Page 2
-S656 | RFP-056 p. 26 line 8 | C. | LETTER OF TRANSMITTAL: Limit to four (4) pages; to be submitted on the provider’s letterhead. 1. Concisely state the provider's understanding of the services required by the City. 2. Include additional relevant information not requested elsewhere in this RFP. 3. The signature of the letter shall be that of a person authorized to represent and bind the firm/provider. | Attachment
-S657 | RFP-056 p. 26 line 9 | D. | EXECUTED ADDENDA (if applicable) The respondent must return the correct number of all numbered addenda with submitted proposal. All addenda must be signed. | Attachment
-S658 | RFP-056 p. 26 line 10 | E. | PROVIDER PROFILE: Form No. 1 provided | Page 3
-S659 | RFP-056 p. 26 line 11 | F. | KEY OUTSIDE CONSULTANTS: Form No. 2 provided | Page 4
-S660 | RFP-056 p. 26 line 12 | G. | LIST OF REFERENCES AND EXPERIENCE: Form No. 3 provided (Form 3 may be reproduced and attached in sequence if more space is required). | Page _____ - _____
-S661 | RFP-056 p. 26 line 13 | H. | PERSONNEL QUALIFICATIONS: Form No. 4 provided (Form 4 may be reproduced and attached in sequence if more space is required). | Page _____
-S662 | RFP-056 p. 26 line 14 | I. | PROJECT APPROACH NARRATIVE: Form No. 5 provided | Page _____ - _____
-S663 | RFP-056 p. 26 line 15 | J. | COST: Form(s) provided: (Use any of these forms 6A, 6B) | Page ______
-S664 | RFP-056 p. 26 line 16 | K. | AFFIDAVIT OF COMPLIANCE Form No. 7. This form must be executed and submitted with proposal. | Page ______
-S665 | RFP-056 p. 26 line 17 | L. | CERTIFICATION REGARDING POTENTIAL CONFLICTS OF INTEREST (This form must be signed and dated). Form No. 8 | Page ______
-S666 | RFP-056 p. 26 line 18 | O. | STATEMENT OF NO PROPOSAL Form No. 9 | Page ______
-S667 | RFP-056 p. 26 line 19 | P. | E-Verify Program’s Memorandum of Understanding Electronic Signature Page (Must be submitted prior to the issuance of a contract-if applicable (over $5,000) | Page ______
-S668 | RFP-056 p. 26 line 20 | Q. | ADDITIONAL AGREEMENT(S)/CONTRACTS: (if applicable) Any additional agreement(s)/contracts proposed by the Offeror shall be included with the Offeror’s proposal as an attachment and may become exhibits of an ensuing City contract. | Attachment(s): #
-S669 | RFP-056 p. 26 line 24 | RETURN THIS PAGE
-S670 | RFP-056 p. 27 line 2 | FORM NO.
-S671 | RFP-056 p. 27 line 2 | 1: PROVIDER PROFILE
-S672 | RFP-056 p. 27 line 3 | 1. Lead Service Provider/Firm(s) (or Joint Venture) Name and Address:
-S673 | RFP-056 p. 27 line 4 | 1a. Provider /Firm is: ___ National ___ Regional ___ Local
-S674 | RFP-056 p. 27 line 5 | 1b. Year Provider/Firm Established:
-S675 | RFP-056 p. 27 line 6 | Years of Experience providing RFP identified services/projects for municipalities:
-S676 | RFP-056 p. 27 line 7 | Years of Experience with Commercial Video Productions
-S677 | RFP-056 p. 27 line 8 | 1c. Licensed to do business in the State of Missouri: ___ Yes ___ No
-S678 | RFP-056 p. 27 line 9 | 1d. Principal contact information: Name, title, telephone number, and email address:
-S679 | RFP-056 p. 27 line 10 | 1e. Address of office to perform work, if different from Item No. 1:
-S680 | RFP-056 p. 27 line 11 | 2. Please list the number of persons by discipline that your Firm/Joint Venture will commit to the City's project or the services to be provided:
-S681 | RFP-056 p. 27 line 13 | 3. If the submittal is by Joint Venture or utilizes subcontractors, list participating firms/providers and outline specific areas of responsibility (including administrative, technical, and financial) for each firm:
-S682 | RFP-056 p. 27 line 15 | 3a. Has this Joint Venture previously worked together? ___ Yes ___ No
-S683 | RFP-056 p. 27 line 19 | RETURN THIS PAGE
-S684 | RFP-056 p. 28 line 2 | FORM NO.
-S685 | RFP-056 p. 28 line 2 | 2: KEY OUTSIDE CONSULTANTS
-S686 | RFP-056 p. 28 line 3 | Each respondent must complete this form for all proposed sub-consultants.
-S687 | RFP-056 p. 28 line 4 | SUB-CONSULTANT #1
-S688 | RFP-056 p. 28 line 5 | Name & Address
-S689 | RFP-056 p. 28 line 6 | Specialty/Role with this Project:
-S690 | RFP-056 p. 28 line 7 | Worked with Lead Firm Before: ___ Yes ___ No
-S691 | RFP-056 p. 28 line 8 | Year Firm Established:
-S692 | RFP-056 p. 28 line 9 | Years of Experience providing________ Commercial Video Productions
-S693 | RFP-056 p. 28 line 10 | • Complete Form 4 for all key personnel assigned to this project for this sub-consultant.
-S694 | RFP-056 p. 28 line 11 | SUB-CONSULTANT #2
-S695 | RFP-056 p. 28 line 12 | Name & Address
-S696 | RFP-056 p. 28 line 13 | Specialty / Role with this Project:
-S697 | RFP-056 p. 28 line 14 | Worked with Lead Firm Before: ___ Yes ___ No
-S698 | RFP-056 p. 28 line 15 | Year Firm Established:
-S699 | RFP-056 p. 28 line 16 | • Years of Experience providing _______Commercial Video Productions
-S700 | RFP-056 p. 28 line 17 | • Complete Form 4 for all key personnel assigned to this project for this sub-consultant.
-S701 | RFP-056 p. 28 line 18 | SUB-CONSULTANT #3
-S702 | RFP-056 p. 28 line 19 | Name & Address
-S703 | RFP-056 p. 28 line 20 | Specialty / Role with this Project:
-S704 | RFP-056 p. 28 line 21 | Worked with Lead Firm Before: ___ Yes ___ No
-S705 | RFP-056 p. 28 line 22 | Year Firm Established:
-S706 | RFP-056 p. 28 line 23 | • Years of Experience providing _________Commercial Video Productions
-S707 | RFP-056 p. 28 line 24 | • Complete Form 4 for all key personnel assigned to this project for this sub-consultant.
-S708 | RFP-056 p. 28 line 28 | RETURN THIS PAGE
-S709 | RFP-056 p. 29 line 2 | FORM NO.
-S710 | RFP-056 p. 29 line 2 | 3: LIST OF REFERENCES AND EXPERIENCE
-S711 | RFP-056 p. 29 line 3 | Work by the Service Provider/Firm (including any subcontractors or Joint-Venture companies) that best illustrate current qualifications relevant to the City's project that has been/is being accomplished by personnel during the past five (5) years that shall be assigned to the City's project.
-S712 | RFP-056 p. 29 line 5 | List no more than ten (10) total projects:
-S713 | RFP-056 p. 29 line 6 | Project Name & Location:
-S714 | RFP-056 p. 29 line 7 | Completion Date (Actual or Estimated):
-S715 | RFP-056 p. 29 line 8 | Project Owners Name & Address:
-S716 | RFP-056 p. 29 line 9 | Project Owner's Contact Person, Title & Telephone Number:
-S717 | RFP-056 p. 29 line 10 | Estimated Cost (in Thousands) for Entire Project: $
-S718 | RFP-056 p. 29 line 11 | Estimated Cost (in Thousands) for work performed by the responsible Service Provider/Firm: $ Scope of Entire Project: (Please give quantitative indications wherever possible).
-S719 | RFP-056 p. 29 line 13 | Nature of the Service Provider’s/Firm's responsibility in the project: (Please give quantitative indications wherever possible).
-S720 | RFP-056 p. 29 line 14 | The Service Provider’s/Firm’s Personnel (Name/Project Assignment) who worked on the stated project that shall be assigned to the City's project:
-S721 | RFP-056 p. 29 line 19 | RETURN THIS PAGE
-S722 | RFP-056 p. 30 line 2 | FORM NO.
-S723 | RFP-056 p. 30 line 2 | 4: PERSONNEL QUALIFICATIONS:
-S724 | RFP-056 p. 30 line 3 | Provide a brief resume of key persons, specialists, and individual service providers that shall be assigned to the City project:
-S725 | RFP-056 p. 30 line 4 | a. Name and Title:
-S726 | RFP-056 p. 30 line 5 | b. Project Assignment:
-S727 | RFP-056 p. 30 line 6 | c. Name of Contractor/Firm with which associated:
-S728 | RFP-056 p. 30 line 7 | d. Years of Experience:
-S729 | RFP-056 p. 30 line 8 | With this Contractor/Firm ___ other Contractors/Firms ___
-S730 | RFP-056 p. 30 line 9 | e. Education: Degree(s)/Year/Specialization:
-S731 | RFP-056 p. 30 line 10 | f. Current Registration(s):
-S732 | RFP-056 p. 30 line 11 | g. Other Experience & Qualifications relevant to the proposed project:
-S733 | RFP-056 p. 30 line 15 | RETURN THIS PAGE
-S734 | RFP-056 p. 31 line 2 | FORM NO.
-S735 | RFP-056 p. 31 line 2 | 5: PROJECT APPROACH NARRATIVE
-S736 | RFP-056 p. 31 line 3 | Use this space to provide a detailed project approach including but not limited to:
-S737 | RFP-056 p. 31 line 4 | • Project schedule and detailed approach are reasonable/responsive to the City’s needs.
-S738 | RFP-056 p. 31 line 5 | • Roles of all involved parties clearly identified.
-S739 | RFP-056 p. 31 line 6 | • Familiarity with project location as evidenced by pre-proposal attendance, proposal/interview (if applicable).
-S740 | RFP-056 p. 31 line 7 | • Identify/recognize critical or unique issues specific to the project and successful critical or unique approaches used elsewhere.
-S741 | RFP-056 p. 31 line 8 | • Proposed communication process.
-S742 | RFP-056 p. 31 line 12 | RETURN THIS PAGE
-S743 | RFP-056 p. 32 line 2 | FORM NO.
-S744 | RFP-056 p. 32 line 2 | 6A:
-S745 | RFP-056 p. 32 line 3 | ITEMIZED PRICING FORM:
-S746 | RFP-056 p. 32 line 4 | ITEMIZED PRICING FORM: Please include breakout pricing for all the aspects of the commercial projection.
-S747 | RFP-056 p. 32 line 4 | (EX: Shooting time, editing time, talent, voiceover work, production team, script development etc.)
-S748 | RFP-056 p. 32 line 9 | RETURN THIS PAGE
-S749 | RFP-056 p. 33 line 2 | FORM NO.
-S750 | RFP-056 p. 33 line 2 | 6B: TOTAL COST
-S751 | RFP-056 p. 33 line 3 | Overall total project cost includes all related costs associated with the proposed project or scope of services, including but not limited to: Personnel, total hours, and service-related expenses.
-S752 | RFP-056 p. 33 line 5 | TOTAL COST $_______________________________________________________
-S753 | RFP-056 p. 33 line 6 | Numeric
-S754 | RFP-056 p. 33 line 7 | _____________________________________________________________________
-S755 | RFP-056 p. 33 line 8 | Use words, Dollars/Cents
-S756 | RFP-056 p. 33 line 12 | RETURN THIS PAGE
-S757 | RFP-056 p. 34 line 2 | FORM NO.7 AFFIDAVIT OF COMPLIANCE-This form must be executed and submitted with proposal.
-S758 | RFP-056 p. 34 line 3 | To be submitted with the Service Provider’s proposal.
-S759 | RFP-056 p. 34 line 4 | ______ We DO NOT take exception to the RFP Documents/Requirements.
-S760 | RFP-056 p. 34 line 5 | ______ We TAKE exception to the RFP Documents/Requirements as follows:
-S761 | RFP-056 p. 34 line 6 | Specific exceptions are as follows:
-S762 | RFP-056 p. 34 line 7 | I have carefully examined the Request for Proposal and agree to abide by all submitted pricing, delivery, terms, and conditions of this RFP unless otherwise stipulated herein.
-S763 | RFP-056 p. 34 line 9 | Company Name: ____________________________ Telephone Number: _________________________
-S764 | RFP-056 p. 34 line 10 | By: _______________________________________ Fax Number: _______________________________
-S765 | RFP-056 p. 34 line 11 | (Authorized Person's Signature)
-S766 | RFP-056 p. 34 line 12 | _________________________________________ Email: _____________________________________
-S767 | RFP-056 p. 34 line 13 | (Print or type name and title of Signer)
-S768 | RFP-056 p. 34 line 14 | _________________________________________ Federal Tax ID No.: ________________________________ (Company Street/P.O.
-S769 | RFP-056 p. 34 line 15 | Box Address)
-S770 | RFP-056 p. 34 line 16 | __________________________________________ Date: _________________
-S771 | RFP-056 p. 34 line 17 | (City, State, Zip Code)
-S772 | RFP-056 p. 34 line 18 | DBE Vendor (Yes/No): ______
-S773 | RFP-056 p. 34 line 19 | Minority Owned: ____
-S774 | RFP-056 p. 34 line 20 | Women Owned: ____
-S775 | RFP-056 p. 34 line 21 | Veteran Owned: ____
-S776 | RFP-056 p. 34 line 25 | RETURN THIS PAGE
-S777 | RFP-056 p. 35 line 2 | FORM NO.
-S778 | RFP-056 p. 35 line 2 | 8 CERTIFICATION REGARDING POTENTIAL CONFLICTS OF INTEREST:
-S779 | RFP-056 p. 35 line 3 | The City’s Charter, Sec. 19.16, prohibits any Council member or employee of the City from having a financial interest, direct or indirect, in any contract with the City and any member of a City board or commission from having a financial interest, direct or indirect, in any contract with the department or administrative agency managed or operated by the board or commission on which he or she serves.
-S780 | RFP-056 p. 35 line 7 | ***If the prohibition above is violated, the contract is void and the Council member, City board or commission member forfeits his or her office or the employee forfeits his or her employment***
-S781 | RFP-056 p. 35 line 9 | Vendor certifies that (check all that apply):
-S782 | RFP-056 p. 35 line 10 | Zero conflicts to declare:
-S783 | RFP-056 p. 35 line 11 | 1. No City Council member, City employee, or City board or commission member is an employee, officer, partner, owner, etc., of vendor.
-S784 | RFP-056 p. 35 line 13 | 2. No spouse or dependent child of a City Council member, City employee, or City board or commission member is an employee, officer, partner, owner, etc., of vendor.
-S785 | RFP-056 p. 35 line 15 | Potential conflicts to declare:
-S786 | RFP-056 p. 35 line 16 | 3. A City Council member, spouse, or dependent child is an employee, officer, partner, owner, etc., of vendor.
-S787 | RFP-056 p. 35 line 17 | 4. A City employee, spouse, or dependent child is an employee, officer, partner, owner, etc., of vendor.
-S788 | RFP-056 p. 35 line 18 | 5. A City board/commission member, spouse, or dependent child is an employee, officer, partner, owner, etc., of vendor.
-S789 | RFP-056 p. 35 line 20 | If choosing 3, 4, or 5, please provide name of Council member, employee, board or commission member, or spouse:
-S790 | RFP-056 p. 35 line 21 | ________________________________________________________________________________________________________ Vendor Certification:
-S791 | RFP-056 p. 35 line 23 | I certify the information above is true and accurate.
-S792 | RFP-056 p. 35 line 24 | ___________________________________________
-S793 | RFP-056 p. 35 line 25 | By: ________________________________________
-S794 | RFP-056 p. 35 line 26 | Title: ______________________________________
-S795 | RFP-056 p. 35 line 27 | Company: __________________________________
-S796 | RFP-056 p. 35 line 28 | Please note whether the Charter is violated is fact-specific.
-S797 | RFP-056 p. 35 line 28 | City staff will follow up with you for additional information.
-S798 | RFP-056 p. 36 line 2 | FORM NO.
-S799 | RFP-056 p. 36 line 2 | 9 STATEMENT OF “NO PROPOSAL”:
-S800 | RFP-056 p. 36 line 3 | RETURN THIS PAGE ONLY IF YOUR COMPANY PROVIDES THE PRODUCTS/SERVICES BEING PROPOSED ON AND DECLINES TO DO SO.
-S801 | RFP-056 p. 36 line 4 | WE, THE UNDERSIGNED, HAVE DECLINED TO PROPOSAL ON YOUR RFP #056-2026 FOR COMMERCIAL PRODUCTION FOR SPRINGFIELD-
-S802 | RFP-056 p. 36 line 5 | BRANSON NATIONAL AIRPORT FOR THE FOLLOWING REASON(S):
-S803 | RFP-056 p. 36 line 6 | _______ SPECIFICATIONS ARE TOO “RESTRICTIVE,” I.E. GEARED TOWARD ONE BRAND OR MANUFACTURER ONLY
-S804 | RFP-056 p. 36 line 7 | (PLEASE EXPLAIN BELOW).
-S805 | RFP-056 p. 36 line 8 | _______ INSUFFICIENT TIME TO RESPOND TO INVITATION FOR PROPOSAL.
-S806 | RFP-056 p. 36 line 9 | _______ WE DO NOT OFFER THIS PRODUCT(S) OR EQUIVALENT.
-S807 | RFP-056 p. 36 line 10 | _______ REMOVE US FROM YOUR VENDOR LIST FOR THIS COMMODITY OR SERVICE
-S808 | RFP-056 p. 36 line 11 | _______ OUR PRODUCT SCHEDULE WOULD NOT PERMIT US TO PERFORM.
-S809 | RFP-056 p. 36 line 12 | _______ UNABLE TO MEET SPECIFICATIONS.
-S810 | RFP-056 p. 36 line 13 | _______ UNABLE TO MEET INSURANCE REQUIREMENTS.
-S811 | RFP-056 p. 36 line 14 | _______ SPECIFICATIONS UNCLEAR (PLEASE EXPLAIN BELOW).
-S812 | RFP-056 p. 36 line 15 | _______ OTHER (PLEASE SPECIFY BELOW).
-S813 | RFP-056 p. 36 line 16 | REMARKS: ___________________________________________________________________________________________________ ____________________________________________________________________________________________________________ ____________________________________________________________________________________________________________ ____________________________________________________________________________________________________________ COMPANY NAME: ___________________________________________________________________________
-S814 | RFP-056 p. 36 line 21 | ADDRESS: __________________________________________________________________________________ SIGNATURE AND TITLE: _______________________________________________________________________ TELEPHONE NUMBER: ________________________________________________________________________
-S815 | RFP-056 p. 36 line 24 | DATE: _________________________________________
-S816 | RFP-056 p. 37 line 2 | PART IV
-S817 | RFP-056 p. 37 line 3 | INSURANCE REQUIREMENTS
-S818 | RFP-056 p. 37 line 4 | 7.0 INSURANCE REQUIREMENTS:
-S819 | RFP-056 p. 37 line 5 | Without limiting any of the other obligations or liabilities of the Contractor, the Contractor shall secure and maintain at its own cost and expense, throughout the duration of this Contract and until the work is completed and accepted by the City, insurance of such types and in such amounts as may be necessary to protect it and the interests of the City against all hazards or risks of loss as hereunder specified or which may arise out of the performance of the Contract Documents.
-S820 | RFP-056 p. 37 line 8 | The form and limits of such insurance, together with the underwriter thereof in each case, are subject to approval by the City.
-S821 | RFP-056 p. 37 line 9 | Regardless of such approval, it shall be the responsibility of the contractor to maintain adequate insurance coverage at all times during the term of the Contract.
-S822 | RFP-056 p. 37 line 10 | Failure of the Contractor to maintain coverage shall not relieve it of any contractual responsibility or obligation or liability under the Contract Documents.
-S823 | RFP-056 p. 37 line 12 | The certificate(s) of insurance, including evidence of the required endorsements hereunder or the policies, shall be filed with the City within ten (10) days after the date of the receipt of Notice of Award of the Contract to the Contractor and prior to the start of work.
-S824 | RFP-056 p. 37 line 14 | All insurance policies shall provide thirty (30) days’ written notice to be given by the insurance company in question prior to modification or cancellation of such insurance and shall list the City as an additional insured and shall be accompanied by the policy’s endorsements adding the City as an additional insured.
-S825 | RFP-056 p. 37 line 16 | Such notices shall be sent via email to purchasingquotes@springfieldmo.gov, faxed to 417-864-1927, or mailed to:
-S826 | RFP-056 p. 37 line 18 | City of Springfield - 218 E. Central, Springfield, MO 65802
-S827 | RFP-056 p. 37 line 19 | As of January 1, 2022, the minimum coverage for the insurance referred to herein shall be as set out below:
-S828 | RFP-056 p. 37 line 20 | A. Workers' Compensation: Statutory coverage per RSMo 287.010 et seq
-S829 | RFP-056 p. 37 line 21 | Employer's Liability: $1,000,000.00
-S830 | RFP-056 p. 37 line 22 | B. Commercial General Liability Insurance, including coverage for Contractual Liability and Independent Contractors Liability.
-S831 | RFP-056 p. 37 line 22 | Such coverage shall apply to bodily injury and property damage on an “Occurrence Form Basis” with limits of at least Three Million and no/100 Dollars ($3,000,000.00) for all claims arising out of a single accident or occurrence.
-S832 | RFP-056 p. 37 line 24 | Contractor agrees that the proceeds of such insurance policy shall first be used to pay any award, damages, costs, and/or attorney fees incurred by or assessed against City, its employees, officers and agents, before payment of any award, damages, costs or attorneys’ fees of Service Provider, its employees, officers or agents.
-S833 | RFP-056 p. 37 line 27 | Service Provider agrees to cause its insurer to name City as an additional insured on such insurance policy, including the City as an additional insured for coverage under its products-completed operations hazard, and said policy shall be primary and noncontributory.
-S834 | RFP-056 p. 37 line 30 | C. Automobile Liability Insurance: Covering Bodily Injury and Property Damage for owned, non-owned and hired vehicles with limits of Three Million and no/100 Dollars ($3,000,000.00) for all claims arising out of a single accident or occurrence.
-S835 | RFP-056 p. 37 line 31 | Contractor agrees to cause its insurer to name City as an additional insured on such insurance policy.
-S836 | RFP-056 p. 37 line 33 | D. Errors and Omissions Insurance: The Contractor shall maintain a professional liability insurance policy in the amount of $1,000,000.00 and its terms shall be subject to the approval of the City.
-S837 | RFP-056 p. 37 line 34 | This policy shall remain in full force and effect for a period of one year after completion and acceptance by the City of the project.
-S838 | RFP-056 p. 37 line 35 | If insurance is written on a claims-made basis, vendor must maintain continuous coverage with retro-active date prior to the effective date of the contract.
-S839 | RFP-056 p. 37 line 37 | E. Subcontracts: In case any or all of this work is sublet, the Contractor shall require the subcontractor to procure and maintain all insurance required by the City of Springfield as listed above.
-S840 | RFP-056 p. 37 line 38 | Contractor shall require any and all subcontractors with whom it enters into a contract to perform work on this project to protect the City through insurance against applicable hazards or risks, upon request of the City, provide evidence of such insurance.
-S841 | RFP-056 p. 37 line 41 | F. Notice: The Contractor shall furnish to the City prior to beginning the work, satisfactory proof of carriage of all the insurance required by this contract, with the provision that policies shall not be canceled, modified or non-renewed without thirty (30) days written notice to the City of Springfield.
-S842 | RFP-056 p. 37 line 43 | The thirty (30) day cancellation notice is required to be identified on the submitted Certificate of Insurance (COI).
-S843 | RFP-056 p. 38 line 2 | PART V
-S844 | RFP-056 p. 38 line 3 | STANDARD TERMS AND CONDITIONS
-S845 | RFP-056 p. 38 line 4 | A. Services.
-S846 | RFP-056 p. 38 line 4 | The City agrees to engage the services of the Service Provider, and the Service Provider agrees to perform the services hereinafter set forth in accordance with the standard of care, skill and expertise ordinarily used by other members of Service Provider’s profession in performing similar services.
-S847 | RFP-056 p. 38 line 6 | No services shall be provided by Service Provider until this Contract has been fully executed.
-S848 | RFP-056 p. 38 line 8 | B. Addition to Services.
-S849 | RFP-056 p. 38 line 8 | The City may add to the Service Provider services or delete therefrom activities of a similar nature provided that the total cost of such work does not exceed the total cost allowance as specified in the final contract document.
-S850 | RFP-056 p. 38 line 9 | The Service Provider shall undertake such changed activities only upon the direction of the City.
-S851 | RFP-056 p. 38 line 10 | All such directives and changes shall be in written form and prepared and approved by the City and shall be accepted and countersigned by the Service Provider.
-S852 | RFP-056 p. 38 line 12 | C. Exchange of Data.
-S853 | RFP-056 p. 38 line 12 | All information, data, and reports in the City’s possession and necessary for the carrying out of the services related to this Contract, shall be furnished to the Service Provider without charge, and the parties shall reasonably cooperate in connection with this Contract.
-S854 | RFP-056 p. 38 line 15 | D. Personnel.
-S855 | RFP-056 p. 38 line 15 | The Service Provider represents that Service Provider will secure at Service Provider's own expense; all personnel required to perform the services called for under this Contract by Service Provider.
-S856 | RFP-056 p. 38 line 16 | Such personnel shall not be employees of or have any contractual relationship with the City except as employees or independent contractors of the Service Provider.
-S857 | RFP-056 p. 38 line 17 | All of the services required hereunder will be performed by the Service Provider or under Service Provider's direct supervision and all personnel engaged in the services shall be fully qualified and shall be authorized under state and local law to perform such services.
-S858 | RFP-056 p. 38 line 20 | None of the work or services covered by this Contract shall be subcontracted without the written approval of the City.
-S859 | RFP-056 p. 38 line 21 | E. Conditioned upon acceptable performance.
-S860 | RFP-056 p. 38 line 21 | Provided Service Provider performs the services in the manner set forth in paragraph A hereof, the City agrees to pay the Service Provider in accordance with the terms set forth in this Contract, which shall constitute complete compensation for all services to be rendered under this Contract; provided, that where payments are to be made periodically to Service Provider for services rendered under this Contract, the City expressly reserves the right to disapprove in whole or in part a request for payment where the services rendered during the period for which payment is claimed are not performed in a timely or satisfactory manner in accordance with the schedule and description of services set forth in this contract.
-S861 | RFP-056 p. 38 line 27 | F. Termination of Contract:
-S862 | RFP-056 p. 38 line 28 | 1. Termination for breach.
-S863 | RFP-056 p. 38 line 28 | Failure of the Service Provider to fulfill Service Provider's obligations under this Contract in a timely and satisfactory manner in accordance with the schedule and description of services set forth in the Contract Parts shall constitute a breach of the Contract, and the City shall thereupon have the right to immediately terminate the Contract.
-S864 | RFP-056 p. 38 line 30 | The City shall give written notice of termination to the Service Provider by one of four different means: Facsimile Transmission ("FAX") if Service Provider has a FAX number; U.S. Postal Service Mail; or by hand delivering a copy of the same to the Service Provider; or by electronic mail to the address identified on contract document; or may give notice by any combination of the above methods.
-S865 | RFP-056 p. 38 line 34 | The date of termination shall be the date upon which notice of termination is hand delivered to Service Provider or given by FAX or electronic mail, or the third day following mailing of the notice of termination, whichever first occurs.
-S866 | RFP-056 p. 38 line 36 | In the event of termination for breach, all finished or unfinished documents, data, studies, surveys, drawings, maps, models, photographs, and reports or other materials prepared by the Service Provider related to this Contract shall at the option of the City become its property, and the Service Provider shall be entitled to receive just and equitable compensation for any satisfactory work completed on such documents and other materials; provided, that the Service Provider shall not be relieved of liability to the City for any damages sustained by the City by virtue of any such breach of the Contract by the Service Provider.
-S867 | RFP-056 p. 38 line 42 | 1a. Attorney Fees: In the event of any litigation arising from breach of this Contract, the City shall be entitled to recover from the Service Provider all reasonable costs incurred for such litigation, including staff time, court costs, attorney fees, and all other related expenses incurred in such litigation.
-S868 | RFP-056 p. 38 line 45 | 2. Termination for Convenience.
-S869 | RFP-056 p. 38 line 45 | The City shall have the right at any time upon 15 days’ written notice to Service Provider to terminate and cancel this Contract, without cause, for the convenience of the City, and Service Provider shall immediately stop work upon issuance of such notice.
-S870 | RFP-056 p. 38 line 47 | In such event City shall not be liable to Service Provider except for payment for actual work performed prior to such notice in an amount proportionate to the completed contract price and for the actual costs of preparations made by Service Provider for the performance of the cancelled portions of the Contract, including a reasonable allowance of profit applicable to the actual work performed and such preparations.
-S871 | RFP-056 p. 39 line 4 | Anticipatory profits and consequential damages shall not be recoverable by Service Provider.
-S872 | RFP-056 p. 39 line 6 | G. Confidentiality of Documents.
-S873 | RFP-056 p. 39 line 6 | Any reports, data, design or similar information given to or prepared or assembled by the Service Provider under this Contract which the City requests to be kept as confidential shall not be made available to any individual or organization by the Service Provider without prior written approval of the City.
-S874 | RFP-056 p. 39 line 9 | H. Discrimination.
-S875 | RFP-056 p. 39 line 9 | The Contractor agrees in the performance of this Contract not to discriminate on the ground or because of race, creed, color, national origin or ancestry, sex, religion, handicap, age, status as a protected veteran or status as a qualified individual with a disability, or political opinion or affiliation, against any employee of Contractor or applicant for employment and shall include a similar provision in all subcontracts let or awarded hereunder.
-S876 | RFP-056 p. 39 line 12 | The parties hereby incorporate the requirements of 41 C.F.R. §§ 60-1.4(a)(7), 29 C.F.R. Part 471, Appendix A to Subpart A, 41 C.F.R. § 60-300.5(a) and 41 C.F.R. § 60-741.5(a), if applicable.
-S877 | RFP-056 p. 39 line 14 | 1. This contractor and any authorized subcontractor shall abide by the requirements of 41 C.F.R. § 60-300.5(a).
-S878 | RFP-056 p. 39 line 14 | This regulation prohibits discrimination against qualified protected veterans and requires affirmative action by covered prime contractors and subcontractors to employ and advance in employment qualified protected veterans.
-S879 | RFP-056 p. 39 line 17 | 2. This contractor and any authorized subcontractor shall abide by the requirements of 41 C.F.R. § 60-741.5(a).
-S880 | RFP-056 p. 39 line 17 | This regulation prohibits discrimination against qualified individuals on the basis of disability and requires affirmative action by covered prime contractors and subcontractors to employ and advance in employment qualified individuals with disabilities.
-S881 | RFP-056 p. 39 line 20 | I. Occupational License: The Service Provider shall obtain and maintain an occupational license with the City of Springfield, Missouri, if required by City Code as well as any required state or federal license.
-S882 | RFP-056 p. 39 line 21 | The cost for this occupational license shall be borne by the Service Provider.
-S883 | RFP-056 p. 39 line 22 | No contract will be executed by the City until this occupational license has been obtained.
-S884 | RFP-056 p. 39 line 23 | J. Nonresident/Foreign Service Providers.
-S885 | RFP-056 p. 39 line 23 | The Service Provider shall procure and maintain during the life of this Contract:
-S886 | RFP-056 p. 39 line 24 | 1. If the Service Provider is a foreign corporation, a certificate of authority to transact business in the State of Missouri from the Secretary of State, unless exempt pursuant to the provisions of Section 351.572 RSMo.; and
-S887 | RFP-056 p. 39 line 26 | 2. A certificate from the Missouri Director of Revenue evidencing compliance with the transient employer financial assurance law, unless exempt pursuant to the provisions of Section 285.230 RSMo.
-S888 | RFP-056 p. 39 line 28 | K. General Independent Service Provider Clause.
-S889 | RFP-056 p. 39 line 28 | This Contract does not create an employee/employer relationship between the parties.
-S890 | RFP-056 p. 39 line 29 | It is the parties' intention that the Service Provider will be an independent contractor and not the City's employee for all purposes, including, but not limited to: the application of the Fair Labor Standards Act minimum wage and overtime payments, Federal Insurance Contribution Act, the Social Security Act, the Federal Unemployment Tax Act, the provisions of the Internal Revenue Code, Missouri revenue and taxation laws, Missouri workers' compensation and unemployment insurance laws.
-S891 | RFP-056 p. 39 line 32 | The Service Provider will retain sole and absolute discretion in the judgment of the manner and means of carrying out the Service Provider's activities and responsibilities hereunder.
-S892 | RFP-056 p. 39 line 34 | The Service Provider agrees that it is a separate and independent enterprise from the City, that it has a full opportunity to find other work, that it has made its own investment in its business, and that it will utilize a high level of skill necessary to perform the services.
-S893 | RFP-056 p. 39 line 36 | This Contract shall not be construed as creating any joint employment relationship between the Service Provider and the City, and the City will not be liable for any obligation incurred by the Service Provider, including but not limited to unpaid minimum wages and/or overtime premiums.
-S894 | RFP-056 p. 39 line 39 | L. City Benefits.
-S895 | RFP-056 p. 39 line 39 | The Service Provider shall not be entitled to any of the benefits established for the employees of the City nor be covered by the Workers’ Compensation Program of the City.
-S896 | RFP-056 p. 39 line 41 | M. Notices.
-S897 | RFP-056 p. 39 line 41 | All notices required or permitted hereinunder and required to be in writing may be given by FAX, electronic mail (if to Service Provider), or by first class mail addressed to City or Service Provider at the addresses identified on the contract document.
-S898 | RFP-056 p. 39 line 43 | The date of delivery of any notice provided by mail shall be the date falling on the third day after the day of its mailing.
-S899 | RFP-056 p. 39 line 43 | The date of delivery of notice by FAX transmission or electronic mail (if to Service Provider) shall be deemed to be the date transmission occurs, except where the transmission is not completed by 5:00 p.m. on a regular business day at the location of the receiving party, in which case the date of delivery shall be deemed to fall on the next regular business day for the receiving party.
-S900 | RFP-056 p. 40 line 4 | N. Jurisdiction.
-S901 | RFP-056 p. 40 line 4 | This Contract and every question arising hereunder shall be construed or determined according to the laws of the State of Missouri.
-S902 | RFP-056 p. 40 line 5 | Should any part of this Contract be litigated, venue shall be proper only in the Circuit Court of Greene County, Missouri.
-S903 | RFP-056 p. 40 line 7 | O. Delivery: Time is of the essence of this project.
-S904 | RFP-056 p. 40 line 7 | If completion times are not met at the time agreed upon, the City reserves the right to cancel or to purchase elsewhere and hold Service Provider liable for any re-procurement costs.
-S905 | RFP-056 p. 40 line 9 | P. Invoices: An invoice shall be submitted and shall show the purchase order number or contract number and contain full descriptive information of items or services furnished.
-S906 | RFP-056 p. 40 line 10 | All invoices must be received within one year of completion of project or receipt of goods by the City or any possible payment is forfeited.
-S907 | RFP-056 p. 40 line 12 | Q. Bankruptcy or Insolvency: In the event of any proceedings by or against either party, voluntary or involuntary, in bankruptcy or insolvency, or for the appointment of a receiver or trustee or an assignee for the benefit of creditors, of the property of Service Provider, or in the event of breach of any of the terms hereof including the warranties of the Service Provider, City may cancel this contract or affirm the contract and hold Service Provider responsible in damages.
-S908 | RFP-056 p. 40 line 16 | R. Compliance with Applicable Laws: The Service Provider warrants it has complied with all applicable laws, rules and ordinances of the United States, or any state, municipality or any other governmental authority or agency in the provision of service covered by this contract, including but not limited to all provisions of the Fair Labor Standard Act of 1938, as amended.
-S909 | RFP-056 p. 40 line 18 | All applicable laws and Springfield City Code and Purchasing Manual will apply to any resulting contract, contract, or purchase order.
-S910 | RFP-056 p. 40 line 19 | Any involvement with the City Procurement shall be in accordance with the Procurement Regulations, Policies and Purchasing Manual.
-S911 | RFP-056 p. 40 line 21 | Service Provider agrees to comply with all applicable federal, state and local laws and rules and regulations applicable to the provision of services and products hereunder.
-S912 | RFP-056 p. 40 line 22 | Service Provider affirmatively states that payment of all local, state, and federal taxes and assessments issued to Service Provider has been made in full.
-S913 | RFP-056 p. 40 line 24 | S. Interpretation of Contract and Assignments: The contract shall be construed according to the laws of the State of Missouri.
-S914 | RFP-056 p. 40 line 24 | The contract, or any rights, obligations or duties hereunder may not be assigned by Service Provider without City's written consent or any attempted assignment without such consent shall be void.
-S915 | RFP-056 p. 40 line 27 | T. Provisions by Law Deemed Inserted: Each and every provision of the law and clauses required by law to be inserted in this contract will be deemed to be inserted herein and will read and enforced as though it were included herein, and if through mistake, or otherwise any such provision is not inserted, then upon the application of either party the contract will be physically amended to make such insertion or correction.
-S916 | RFP-056 p. 40 line 31 | U. Assignment: The Service Provider shall not assign any interest in this contract and shall not transfer any interest in the same whether by assignment or novation), without prior written consent of the City thereto.
-S917 | RFP-056 p. 40 line 32 | Provided, however, that claims for money due or to become due to the Service Provider from the City under this contract may be assigned to a bank, trust company, or other financial institution without such approval.
-S918 | RFP-056 p. 40 line 34 | Notice of such assignment or transfer shall be furnished in writing promptly to the City.
-S919 | RFP-056 p. 40 line 35 | Any such assignment is expressly subject to all rights and remedies of the City under this contract, including the right to change or delete activities from the contract or to terminate the same as provided herein, and no such assignment shall require the City to give any notice to any such assignee of any actions which the City may take under this contract, though City will attempt to so notify any such assignee.
-S920 | RFP-056 p. 40 line 39 | V. Proprietary Information: In accordance with the Missouri Sunshine Law, and except as may be provided by other applicable state and federal law, all Service Providers should be aware that Requests for Proposals and the responses thereto become open public records once a contract is negotiated or all proposals are rejected.
-S921 | RFP-056 p. 40 line 41 | However, Service Providers are requested to identify specifically any information contained in their Proposals which they consider confidential and/or proprietary and which they believe to be exempt from disclosure, citing specifically the applicable exempting law.
-S922 | RFP-056 p. 40 line 43 | Failure of Service Provider to cite specifically to the applicable law exempting disclosure under the Sunshine Law may result in disclosure of such information.
-S923 | RFP-056 p. 40 line 45 | Service Provider should identify any information as confidential and/or proprietary by stamping each page with such information “Confidential” and/or “Proprietary.”
-S924 | RFP-056 p. 40 line 46 | This requirement also applies to the electronic copy that is to be submitted.
-S925 | RFP-056 p. 41 line 3 | All Proposals received from Service Providers in response to this Request for Proposal will become the property of the City of Springfield and will not be returned to the Service Providers.
-S926 | RFP-056 p. 41 line 4 | In the event of contract award, all documentation produced as part of the contract will become the exclusive property of the City.
-S927 | RFP-056 p. 41 line 6 | W. Indemnity and Hold Harmless:
-S928 | RFP-056 p. 41 line 7 | a. In no event shall the City be liable to the Contractor for special, indirect, or consequential damages, except those caused by the City’s gross negligence or willful or wanton misconduct arising out of or in any way connected with a breach of this Contract.
-S929 | RFP-056 p. 41 line 7 | The maximum liability of the City shall be limited to the amount of money to be paid or received by the City under this Contract. b.
-S930 | RFP-056 p. 41 line 7 | The Contractor shall defend, indemnify and save harmless the City, its elected or appointed officials, agents and employees from and against any and all liability, suits, damages, costs (including attorney fees), losses, outlays and expenses from claims in any manner caused by, or allegedly caused by, or arising out of, or connected with, this Contract, or the work or any subcontract thereunder (the Contractor hereby assuming full responsibility for relations with subcontractors), including, but not limited to, claims for personal injuries, death, property damage, or for damages from the award of this Contract to Contractor. c.
-S931 | RFP-056 p. 41 line 7 | The Contractor shall indemnify and hold the City harmless from all wages or overtime compensation due any employees in rendering services pursuant to this agreement or any subcontract, including payment of reasonable attorneys’ fees and costs in the defense of any claim made under the Fair Labor Standards Act, the Missouri Prevailing Wage Law or any other federal or state law. d.
-S932 | RFP-056 p. 41 line 7 | The indemnification obligations of Contractor hereunder shall not be limited by any limitations as to the amount or type of damages, compensation or benefits payable by or for the Contractor, under any federal or state law, to any person asserting the claim against City, its elected or appointed officials, agents and employees, for which indemnification is sought. e.
-S933 | RFP-056 p. 41 line 7 | The indemnification obligations herein shall not negate, abridge or reduce in any way any additional indemnification rights of the City, its elected or appointed officials, agents and employees, which are otherwise available under statute, or in law or equity. f.
-S934 | RFP-056 p. 41 line 7 | Contractor affirms that it has had the opportunity to recover the costs of the liability insurance required in this agreement in its Contract price.
-S935 | RFP-056 p. 41 line 7 | Contractor’s obligation under this agreement to defend, indemnify and hold harmless any person from that person’s own negligence or wrongdoing is limited to the coverage and limits of the applicable insurance. g.
-S936 | RFP-056 p. 41 line 7 | The Contractor shall indemnify and hold the City harmless for any penalties, fines, fees or costs, including costs of defense, which are charged or assessed by any Federal, state or local agency including, but not limited to, Environmental Protection Agency or Department of Natural Resources.
-S937 | RFP-056 p. 41 line 8 | X. Sub-Contracts:
-S938 | RFP-056 p. 41 line 9 | a. The Contractor shall not execute an agreement with any sub-contractor to perform any work until the City has provided written consent of the use of such sub-contractor. b.
-S939 | RFP-056 p. 41 line 9 | The Contractor shall be fully responsible to the City for the acts and omissions of any sub-contractors, and of persons either directly or indirectly employed by them, as Contractor is for the acts and omissions of persons directly employed by them. c.
-S940 | RFP-056 p. 41 line 9 | The Contractor shall cause appropriate provisions to be inserted in all sub-contracts relative to the work to require compliance by each sub-contractor with the provisions of the Contract. d.
-S941 | RFP-056 p. 41 line 9 | Nothing contained in the Conditions shall create any contractual relationship between any sub-contractor and the City.
+S532 | RFP-056 p. 21 line 12 (columns 1–1 of 2) | CERTIFICATE OF DIRECTOR OF FINANCE SERVICE PROVIDER
+S533 | RFP-056 p. 21 line 13 (columns 1–1 of 2) | I certify that the expenditure contemplated by this document is
+S534 | RFP-056 p. 21 line 14 (columns 1–1 of 2) | within the purpose of the appropriation to which it is to be By: ______________________________ ____________
+S535 | RFP-056 p. 21 line 15 (columns 1–1 of 2) | charged and that there is an unencumbered balance of Company Authorized Signature Date
+S536 | RFP-056 p. 21 line 16 (columns 1–1 of 2) | appropriated and available funds to pay therefore.
+S537 | RFP-056 p. 21 line 17 (columns 1–1 of 2) | Name: _______________________________
+S538 | RFP-056 p. 21 line 18 (columns 2–2 of 2) | Print
+S539 | RFP-056 p. 21 line 19 (columns 1–1 of 2) | Title: _________________________________
+S540 | RFP-056 p. 21 line 20 (columns 1–1 of 2) | _______________________________ ____________ CITY OF SPRINGFIELD, MISSOURI
+S541 | RFP-056 p. 21 line 21 (columns 1–1 of 2) | David Holtmann, Director of Finance Date Division of Purchases
+S542 | RFP-056 p. 21 line 22 (columns 1–1 of 2) | or
+S543 | RFP-056 p. 21 line 23 (columns 1–1 of 2) | Acting Director of Finance
+S544 | RFP-056 p. 21 line 24 (columns 1–1 of 2) | By: ____________________________ _____________
+S545 | RFP-056 p. 21 line 25 (columns 1–1 of 2) | Cindy Scholten, Purchasing Agent Date
+S546 | RFP-056 p. 21 line 26 (columns 1–1 of 2) | or Acting Purchasing Agent
+S547 | RFP-056 p. 21 line 27 (columns 1–1 of 2) | APPROVED AS TO FORM
+S548 | RFP-056 p. 21 line 28 | ________________________ ___________
+S549 | RFP-056 p. 21 line 29 | City Attorney or Date
+S550 | RFP-056 p. 21 line 30 | Assistant City Attorney
+S551 | RFP-056 p. 22 line 2 | 15.0 QUESTIONS REGARDING SPECIFICATIONS OR PROPOSAL PROCESS: To ensure fair consideration for all Offerors, the City prohibits communication to or with any department, board, or employee during the submission process, except as provided.
+S552 | RFP-056 p. 22 line 4 | Additionally, the City prohibits communications initiated by an Offeror to the City official(s) or employee(s) evaluating or considering the proposals prior to the time a fully executed contract is in place.
+S553 | RFP-056 p. 22 line 5 | Any communication between the Offeror and the City will be initiated by the appropriate City Official(s) or employee(s) in order to obtain information or clarification needed to develop a proper, accurate evaluation of the proposal.
+S554 | RFP-056 p. 22 line 7 | Such communications initiated by an Offeror may be grounds for disqualifying the offending Offeror from consideration for award of the proposal and/or any future proposal(s).
+S555 | RFP-056 p. 22 line 9 | 15.1 Any questions relative to the interpretation of specifications or the proposal process shall be addressed to the Buyer in writing, in ample time before the period set for the receipt and opening of proposals.
+S556 | RFP-056 p. 22 line 10 | No inquiries, if received after the deadline for final questions date listed in this solicitation will be given any consideration.
+S557 | RFP-056 p. 22 line 11 | Any interpretation made to prospective Offerors will be expressed in the form of an addendum to the RFP which, if issued, will be conveyed in writing to all prospective Offerors by the City’s response to question date listed in this solicitation.
+S558 | RFP-056 p. 22 line 14 | 15.2 It will be the responsibility of the Offeror to contact the Division of Purchases prior to submitting a proposal to ascertain if any addenda have been issued, to obtain all such addenda, and to acknowledge addendum with the proposal.
+S559 | RFP-056 p. 22 line 15 | Receipt of an addendum to an RFP by an Offeror must be acknowledged by signing and uploading the addendum with your proposal to https://www.demandstar.com/supplier/bids/agency_inc/bid_list.asp?f=search&mi=548029 prior to the opening time and date.
+S560 | RFP-056 p. 22 line 19 | 15.3 The successful Offeror will be notified electronically.
+S561 | RFP-056 p. 22 line 20 | 16.0 CRITERIA FOR AWARD: The Evaluation Committee will evaluate proposals, and a recommendation will be made to the Buyer.
+S562 | RFP-056 p. 22 line 21 | Each proposal will be evaluated for full compliance with the RFP instructions to the Offeror and the mandatory terms and conditions set forth within the RFP.
+S563 | RFP-056 p. 22 line 22 | The objective of the evaluation will be to recommend the Offeror who is most responsive to the herein described needs of the City.
+S564 | RFP-056 p. 22 line 23 | Proposals which are responsive to this Request for Proposal will be evaluated based on, but not limited to the following criteria:
+S565 | RFP-056 p. 22 line 25 | 16.1 30 number of points for Evidence of Experience & References with Similar Projects (FORM 3).
+S566 | RFP-056 p. 22 line 25 | Reference checks will be performed by the Project Manager.
+S567 | RFP-056 p. 22 line 26 | The results from the reference(s) check will be shared with the Evaluation Committee members.
+S568 | RFP-056 p. 22 line 28 | 16.2 30 number of points for Expertise of Firm/Provider Personnel (FORM 4)
+S569 | RFP-056 p. 22 line 29 | 16.3 10 number of points for Applicable Resources (FORM 1, 2, AND 5)
+S570 | RFP-056 p. 22 line 30 | 16.4 20 number of points for Project Approach Narrative (FORM 5)
+S571 | RFP-056 p. 22 line 31 | 16.5 10 number of points for Cost (FORM(S) 6 A, B) * Points for cost shall be calculated by the Division of Purchases.
+S572 | RFP-056 p. 22 line 32 | *On April 21, 2025, City Council passed General Ordinance 6925, a general ordinance adopting a new City of Springfield, Missouri Purchasing Policy governing the purchase and sale of property, supplies, materials, equipment and services for the city; and amending the Springfield City Code, Chapter 2 “Administration,” Article VI “Finances,” Division 2, “Purchasing,” Section 2-401, “Purchasing manual adopted,” to replace the existing Purchasing Manual with a new Purchasing Policy.
+S573 | RFP-056 p. 22 line 36 | Subsection 35.3 RFPs of section 35.0 Local Preference Policy of the Purchasing Policy states, “When an RFP is evaluated, the score given to Offerors with the Springfield Metropolitan Statistical Area (SMSA) for the criteria of cost shall be increased by ten percent of the total points possible for cost.”
+S574 | RFP-056 p. 22 line 39 | Points for cost shall be calculated by the Division of Purchases.
+S575 | RFP-056 p. 22 line 39 | In case of an error in the extension of prices in the proposal, the unit price shall govern.
+S576 | RFP-056 p. 22 line 40 | Said unit price shall be utilized by the City to calculate the correct extended price for determining the potential award.
+S577 | RFP-056 p. 22 line 42 | 16.6 EVALUATION CRITERIA DEFINITIONS: (The following definitions are from Merriam-Webster.com/dictionary)
+S578 | RFP-056 p. 22 line 43 | 16.6.1 Acceptable: Capable or worthy of being accepted.
+S579 | RFP-056 p. 23 line 2 | 16.6.2 Marginal: Close to the lower limit of qualification, acceptability, or function, barely exceeding the minimum requirements.
+S580 | RFP-056 p. 23 line 4 | 16.6.3 Unacceptable: Not acceptable.
+S581 | RFP-056 p. 24 line 2 | ENCLOSURE I
+S582 | RFP-056 p. 24 line 3 | PROPOSAL RANKING SCORE SHEET
+S583 | RFP-056 p. 24 line 4 | SCORING RANGES
+S584 | RFP-056 p. 24 line 5 | 30 Point Questions 20 Point Questions 10 Point Questions
+S585 | RFP-056 p. 24 line 6 | Acceptable 21 – 30 14 – 20 7 – 10
+S586 | RFP-056 p. 24 line 7 | Marginal 10 – 20 7 – 13 4 – 6
+S587 | RFP-056 p. 24 line 8 | Unacceptable 0 – 9 0 – 6 0 – 3
+S588 | RFP-056 p. 24 line 9 | Evaluation Criteria Maximum Points Score
+S589 | RFP-056 p. 24 line 10 | 1. Evidence of Experience & References with Similar Projects (FORM 3) 30 ______
+S590 | RFP-056 p. 24 line 11 | Consider experience and references listed by the firm/provider on Form 3 of the RFP.
+S591 | RFP-056 p. 24 line 11 | Is the provider experienced in providing services similar to those requested in the RFP?
+S592 | RFP-056 p. 24 line 13 | • Familiarity and experience with similar projects.
+S593 | RFP-056 p. 24 line 14 | • Consider any sub-consultants to be used and their experience (if applicable).
+S594 | RFP-056 p. 24 line 15 | 2. Expertise of Firm/Provider Personnel (FORM 4) 30 ______
+S595 | RFP-056 p. 24 line 16 | Consider comparable experience and background of specific personnel that shall be assigned to the City’s project as outlined in Form 4 of the RFP.
+S596 | RFP-056 p. 24 line 17 | Also, consider the specific involvement of those persons in projects listed on Form 3 of the RFP.
+S597 | RFP-056 p. 24 line 18 | Experience on projects of similar scope and size:
+S598 | RFP-056 p. 24 line 19 | • Project Manager
+S599 | RFP-056 p. 24 line 20 | • Project team
+S600 | RFP-056 p. 24 line 21 | • Sub-consultants (if applicable)
+S601 | RFP-056 p. 24 line 22 | 3. Applicable Resources (FORM 1, 2, AND 5) 10 ______
+S602 | RFP-056 p. 24 line 23 | Evaluate the extent of applicable resources available to the firm / provider to complete the City’s project as listed on Forms 1, 2, and 5 of the RFP.
+S603 | RFP-056 p. 24 line 25 | • Standard Quality Assurance/Quality Control program or procedures the firm has in place.
+S604 | RFP-056 p. 24 line 26 | • Adequacy of proposed team/resources to complete the project within proposed time frame.
+S605 | RFP-056 p. 24 line 27 | 4. Project Approach (FORM 5) 20 ______
+S606 | RFP-056 p. 24 line 28 | Evaluate the firm/provider’s approach to and understanding of the Scope of Services required in the RFP as evidenced by the project approach presented in Form 5.
+S607 | RFP-056 p. 24 line 30 | • Project schedule and detailed approach are reasonable/responsive to the City’s needs.
+S608 | RFP-056 p. 24 line 31 | • Roles of all involved parties clearly identified.
+S609 | RFP-056 p. 24 line 32 | • Familiarity with project location as evidenced by proposal (if applicable).
+S610 | RFP-056 p. 24 line 33 | • Identify/recognize critical or unique issues specific to the project.
+S611 | RFP-056 p. 24 line 34 | • Adequacy of proposed communications process.
+S612 | RFP-056 p. 24 line 35 | • Unique approaches that have been successful elsewhere.
+S613 | RFP-056 p. 24 line 36 | 5. Cost (FORM(S) 6 A, B, C, D) 10
+S614 | RFP-056 p. 24 line 37 | Determination of cost and pricing data: Consider whether all elements of cost and pricing conform to the requirements of the RFP.
+S615 | RFP-056 p. 24 line 39 | Ranked By: ___________________
+S616 | RFP-056 p. 24 line 40 | TOTAL POINTS
+S617 | RFP-056 p. 24 line 41 | (100)
+S618 | RFP-056 p. 25 line 2 | ENCLOSURE II
+S619 | RFP-056 p. 25 line 3 | INTERVIEW RANKING SCORE SHEET
+S620 | RFP-056 p. 25 line 4 | SCORING RANGES
+S621 | RFP-056 p. 25 line 5 | 30 Point Questions 20 Point Questions 10 Point Questions
+S622 | RFP-056 p. 25 line 6 | Acceptable 21 – 30 14 – 20 7 – 10
+S623 | RFP-056 p. 25 line 7 | Marginal 10 – 20 7 – 13 4 – 6
+S624 | RFP-056 p. 25 line 8 | Unacceptable 0 – 9 0 – 6 0 – 3
+S625 | RFP-056 p. 25 line 9 | Evaluation Criteria Maximum Points Score
+S626 | RFP-056 p. 25 line 10 | 1. Evidence of Experience & References with Similar Projects (FORM 3) 30 ______
+S627 | RFP-056 p. 25 line 11 | Consider experience and references listed by the firm/provider on Form 3 of the RFP.
+S628 | RFP-056 p. 25 line 11 | Is the provider experienced in providing services similar to those requested in the RFP?
+S629 | RFP-056 p. 25 line 13 | • Familiarity and experience with similar projects.
+S630 | RFP-056 p. 25 line 14 | • Consider any sub-consultants to be used and their experience (if applicable).
+S631 | RFP-056 p. 25 line 15 | 2. Expertise of Firm/Provider Personnel (FORM 4) 30 ______
+S632 | RFP-056 p. 25 line 16 | Consider comparable experience and background of specific personnel that shall be assigned to the City’s project as outlined in Form 4 of the RFP.
+S633 | RFP-056 p. 25 line 17 | Also, consider the specific involvement of those persons in projects listed on Form 3 of the RFP.
+S634 | RFP-056 p. 25 line 18 | Experience on projects of similar scope and size:
+S635 | RFP-056 p. 25 line 20 | • Project Manager
+S636 | RFP-056 p. 25 line 21 | • Project team
+S637 | RFP-056 p. 25 line 22 | • Sub-consultants (if applicable)
+S638 | RFP-056 p. 25 line 23 | 3. Applicable Resources (FORM 1, 2, AND 5) 10 ______
+S639 | RFP-056 p. 25 line 24 | Evaluate the extent of applicable resources available to the firm / provider to complete the City’s project as listed on Forms 1, 2, and 5 of the RFP.
+S640 | RFP-056 p. 25 line 26 | • Standard Quality Assurance/Quality Control program or procedures the firm has in place.
+S641 | RFP-056 p. 25 line 27 | • Adequacy of proposed team/resources to complete the project within proposed time frame.
+S642 | RFP-056 p. 25 line 28 | 4. Project Approach (FORM 5) 20 ______
+S643 | RFP-056 p. 25 line 29 | Evaluate the firm/provider’s approach to and understanding of the Scope of Services required in the RFP as evidenced by the project approach presented in Form 5.
+S644 | RFP-056 p. 25 line 31 | • Project schedule and detailed approach are reasonable/responsive to the City’s needs.
+S645 | RFP-056 p. 25 line 32 | • Roles of all involved parties clearly identified.
+S646 | RFP-056 p. 25 line 33 | • Familiarity with project location as evidenced by proposal (if applicable).
+S647 | RFP-056 p. 25 line 34 | • Identify/recognize critical or unique issues specific to the project.
+S648 | RFP-056 p. 25 line 35 | • Adequacy of proposed communications process.
+S649 | RFP-056 p. 25 line 36 | • Unique approaches that have been successful elsewhere.
+S650 | RFP-056 p. 25 line 37 | 5. Cost (FORM(S) 6 A, B, C, D) 10
+S651 | RFP-056 p. 25 line 38 | Determination of cost and pricing data: Consider whether all elements of cost and pricing conform to the requirements of the RFP.
+S652 | RFP-056 p. 25 line 40 | Ranked By: ___________________
+S653 | RFP-056 p. 25 line 41 | TOTAL POINTS
+S654 | RFP-056 p. 25 line 42 | (100)
+S655 | RFP-056 p. 26 line 2 | ENCLOSURE III
+S656 | RFP-056 p. 26 line 3 | TABLE OF CONTENTS FOR SUBMITTAL
+S657 | RFP-056 p. 26 line 4 | The following table sets forth the specific items to be addressed in the proposal.
+S658 | RFP-056 p. 26 line 4 | Respondents are requested to use this page with their proposal and with the corresponding page numbers indicated on the information submitted within their proposal:
+S659 | RFP-056 p. 26 line 6 | A. | TITLE-SIGNATURE PAGE This form must be executed and submitted with proposal. | Page 1
+S660 | RFP-056 p. 26 line 7 | B. | TABLE OF CONTENTS: Submit this page with page numbers provided. | Page 2
+S661 | RFP-056 p. 26 line 8 | C. | LETTER OF TRANSMITTAL: Limit to four (4) pages; to be submitted on the provider’s letterhead. 1. Concisely state the provider's understanding of the services required by the City. 2. Include additional relevant information not requested elsewhere in this RFP. 3. The signature of the letter shall be that of a person authorized to represent and bind the firm/provider. | Attachment
+S662 | RFP-056 p. 26 line 9 | D. | EXECUTED ADDENDA (if applicable) The respondent must return the correct number of all numbered addenda with submitted proposal. All addenda must be signed. | Attachment
+S663 | RFP-056 p. 26 line 10 | E. | PROVIDER PROFILE: Form No. 1 provided | Page 3
+S664 | RFP-056 p. 26 line 11 | F. | KEY OUTSIDE CONSULTANTS: Form No. 2 provided | Page 4
+S665 | RFP-056 p. 26 line 12 | G. | LIST OF REFERENCES AND EXPERIENCE: Form No. 3 provided (Form 3 may be reproduced and attached in sequence if more space is required). | Page _____ - _____
+S666 | RFP-056 p. 26 line 13 | H. | PERSONNEL QUALIFICATIONS: Form No. 4 provided (Form 4 may be reproduced and attached in sequence if more space is required). | Page _____
+S667 | RFP-056 p. 26 line 14 | I. | PROJECT APPROACH NARRATIVE: Form No. 5 provided | Page _____ - _____
+S668 | RFP-056 p. 26 line 15 | J. | COST: Form(s) provided: (Use any of these forms 6A, 6B) | Page ______
+S669 | RFP-056 p. 26 line 16 | K. | AFFIDAVIT OF COMPLIANCE Form No. 7. This form must be executed and submitted with proposal. | Page ______
+S670 | RFP-056 p. 26 line 17 | L. | CERTIFICATION REGARDING POTENTIAL CONFLICTS OF INTEREST (This form must be signed and dated). Form No. 8 | Page ______
+S671 | RFP-056 p. 26 line 18 | O. | STATEMENT OF NO PROPOSAL Form No. 9 | Page ______
+S672 | RFP-056 p. 26 line 19 | P. | E-Verify Program’s Memorandum of Understanding Electronic Signature Page (Must be submitted prior to the issuance of a contract-if applicable (over $5,000) | Page ______
+S673 | RFP-056 p. 26 line 20 | Q. | ADDITIONAL AGREEMENT(S)/CONTRACTS: (if applicable) Any additional agreement(s)/contracts proposed by the Offeror shall be included with the Offeror’s proposal as an attachment and may become exhibits of an ensuing City contract. | Attachment(s): #
+S674 | RFP-056 p. 26 line 24 | RETURN THIS PAGE
+S675 | RFP-056 p. 27 line 2 | FORM NO.
+S676 | RFP-056 p. 27 line 2 | 1: PROVIDER PROFILE
+S677 | RFP-056 p. 27 line 3 | 1. Lead Service Provider/Firm(s) (or Joint Venture) Name and Address:
+S678 | RFP-056 p. 27 line 4 | 1a. Provider /Firm is: ___ National ___ Regional ___ Local
+S679 | RFP-056 p. 27 line 5 | 1b. Year Provider/Firm Established:
+S680 | RFP-056 p. 27 line 6 | Years of Experience providing RFP identified services/projects for municipalities:
+S681 | RFP-056 p. 27 line 7 | Years of Experience with Commercial Video Productions
+S682 | RFP-056 p. 27 line 8 | 1c. Licensed to do business in the State of Missouri: ___ Yes ___ No
+S683 | RFP-056 p. 27 line 9 | 1d. Principal contact information: Name, title, telephone number, and email address:
+S684 | RFP-056 p. 27 line 10 | 1e. Address of office to perform work, if different from Item No. 1:
+S685 | RFP-056 p. 27 line 11 | 2. Please list the number of persons by discipline that your Firm/Joint Venture will commit to the City's project or the services to be provided:
+S686 | RFP-056 p. 27 line 13 | 3. If the submittal is by Joint Venture or utilizes subcontractors, list participating firms/providers and outline specific areas of responsibility (including administrative, technical, and financial) for each firm:
+S687 | RFP-056 p. 27 line 15 | 3a. Has this Joint Venture previously worked together? ___ Yes ___ No
+S688 | RFP-056 p. 27 line 19 | RETURN THIS PAGE
+S689 | RFP-056 p. 28 line 2 | FORM NO.
+S690 | RFP-056 p. 28 line 2 | 2: KEY OUTSIDE CONSULTANTS
+S691 | RFP-056 p. 28 line 3 | Each respondent must complete this form for all proposed sub-consultants.
+S692 | RFP-056 p. 28 line 4 | SUB-CONSULTANT #1
+S693 | RFP-056 p. 28 line 5 | Name & Address
+S694 | RFP-056 p. 28 line 6 | Specialty/Role with this Project:
+S695 | RFP-056 p. 28 line 7 | Worked with Lead Firm Before: ___ Yes ___ No
+S696 | RFP-056 p. 28 line 8 | Year Firm Established:
+S697 | RFP-056 p. 28 line 9 | Years of Experience providing________ Commercial Video Productions
+S698 | RFP-056 p. 28 line 10 | • Complete Form 4 for all key personnel assigned to this project for this sub-consultant.
+S699 | RFP-056 p. 28 line 11 | SUB-CONSULTANT #2
+S700 | RFP-056 p. 28 line 12 | Name & Address
+S701 | RFP-056 p. 28 line 13 | Specialty / Role with this Project:
+S702 | RFP-056 p. 28 line 14 | Worked with Lead Firm Before: ___ Yes ___ No
+S703 | RFP-056 p. 28 line 15 | Year Firm Established:
+S704 | RFP-056 p. 28 line 16 | • Years of Experience providing _______Commercial Video Productions
+S705 | RFP-056 p. 28 line 17 | • Complete Form 4 for all key personnel assigned to this project for this sub-consultant.
+S706 | RFP-056 p. 28 line 18 | SUB-CONSULTANT #3
+S707 | RFP-056 p. 28 line 19 | Name & Address
+S708 | RFP-056 p. 28 line 20 | Specialty / Role with this Project:
+S709 | RFP-056 p. 28 line 21 | Worked with Lead Firm Before: ___ Yes ___ No
+S710 | RFP-056 p. 28 line 22 | Year Firm Established:
+S711 | RFP-056 p. 28 line 23 | • Years of Experience providing _________Commercial Video Productions
+S712 | RFP-056 p. 28 line 24 | • Complete Form 4 for all key personnel assigned to this project for this sub-consultant.
+S713 | RFP-056 p. 28 line 28 | RETURN THIS PAGE
+S714 | RFP-056 p. 29 line 2 | FORM NO.
+S715 | RFP-056 p. 29 line 2 | 3: LIST OF REFERENCES AND EXPERIENCE
+S716 | RFP-056 p. 29 line 3 | Work by the Service Provider/Firm (including any subcontractors or Joint-Venture companies) that best illustrate current qualifications relevant to the City's project that has been/is being accomplished by personnel during the past five (5) years that shall be assigned to the City's project.
+S717 | RFP-056 p. 29 line 5 | List no more than ten (10) total projects:
+S718 | RFP-056 p. 29 line 6 | Project Name & Location:
+S719 | RFP-056 p. 29 line 7 | Completion Date (Actual or Estimated):
+S720 | RFP-056 p. 29 line 8 | Project Owners Name & Address:
+S721 | RFP-056 p. 29 line 9 | Project Owner's Contact Person, Title & Telephone Number:
+S722 | RFP-056 p. 29 line 10 | Estimated Cost (in Thousands) for Entire Project: $
+S723 | RFP-056 p. 29 line 11 | Estimated Cost (in Thousands) for work performed by the responsible Service Provider/Firm: $ Scope of Entire Project: (Please give quantitative indications wherever possible).
+S724 | RFP-056 p. 29 line 13 | Nature of the Service Provider’s/Firm's responsibility in the project: (Please give quantitative indications wherever possible).
+S725 | RFP-056 p. 29 line 14 | The Service Provider’s/Firm’s Personnel (Name/Project Assignment) who worked on the stated project that shall be assigned to the City's project:
+S726 | RFP-056 p. 29 line 19 | RETURN THIS PAGE
+S727 | RFP-056 p. 30 line 2 | FORM NO.
+S728 | RFP-056 p. 30 line 2 | 4: PERSONNEL QUALIFICATIONS:
+S729 | RFP-056 p. 30 line 3 | Provide a brief resume of key persons, specialists, and individual service providers that shall be assigned to the City project:
+S730 | RFP-056 p. 30 line 4 | a. Name and Title:
+S731 | RFP-056 p. 30 line 5 | b. Project Assignment:
+S732 | RFP-056 p. 30 line 6 | c. Name of Contractor/Firm with which associated:
+S733 | RFP-056 p. 30 line 7 | d. Years of Experience:
+S734 | RFP-056 p. 30 line 8 | With this Contractor/Firm ___ other Contractors/Firms ___
+S735 | RFP-056 p. 30 line 9 | e. Education: Degree(s)/Year/Specialization:
+S736 | RFP-056 p. 30 line 10 | f. Current Registration(s):
+S737 | RFP-056 p. 30 line 11 | g. Other Experience & Qualifications relevant to the proposed project:
+S738 | RFP-056 p. 30 line 15 | RETURN THIS PAGE
+S739 | RFP-056 p. 31 line 2 | FORM NO.
+S740 | RFP-056 p. 31 line 2 | 5: PROJECT APPROACH NARRATIVE
+S741 | RFP-056 p. 31 line 3 | Use this space to provide a detailed project approach including but not limited to:
+S742 | RFP-056 p. 31 line 4 | • Project schedule and detailed approach are reasonable/responsive to the City’s needs.
+S743 | RFP-056 p. 31 line 5 | • Roles of all involved parties clearly identified.
+S744 | RFP-056 p. 31 line 6 | • Familiarity with project location as evidenced by pre-proposal attendance, proposal/interview (if applicable).
+S745 | RFP-056 p. 31 line 7 | • Identify/recognize critical or unique issues specific to the project and successful critical or unique approaches used elsewhere.
+S746 | RFP-056 p. 31 line 8 | • Proposed communication process.
+S747 | RFP-056 p. 31 line 12 | RETURN THIS PAGE
+S748 | RFP-056 p. 32 line 2 | FORM NO.
+S749 | RFP-056 p. 32 line 2 | 6A:
+S750 | RFP-056 p. 32 line 3 | ITEMIZED PRICING FORM:
+S751 | RFP-056 p. 32 line 4 | ITEMIZED PRICING FORM: Please include breakout pricing for all the aspects of the commercial projection.
+S752 | RFP-056 p. 32 line 4 | (EX: Shooting time, editing time, talent, voiceover work, production team, script development etc.)
+S753 | RFP-056 p. 32 line 9 | RETURN THIS PAGE
+S754 | RFP-056 p. 33 line 2 | FORM NO.
+S755 | RFP-056 p. 33 line 2 | 6B: TOTAL COST
+S756 | RFP-056 p. 33 line 3 | Overall total project cost includes all related costs associated with the proposed project or scope of services, including but not limited to: Personnel, total hours, and service-related expenses.
+S757 | RFP-056 p. 33 line 5 | TOTAL COST $_______________________________________________________
+S758 | RFP-056 p. 33 line 6 | Numeric
+S759 | RFP-056 p. 33 line 7 | _____________________________________________________________________
+S760 | RFP-056 p. 33 line 8 | Use words, Dollars/Cents
+S761 | RFP-056 p. 33 line 12 | RETURN THIS PAGE
+S762 | RFP-056 p. 34 line 2 | FORM NO.7 AFFIDAVIT OF COMPLIANCE-This form must be executed and submitted with proposal.
+S763 | RFP-056 p. 34 line 3 | To be submitted with the Service Provider’s proposal.
+S764 | RFP-056 p. 34 line 4 | ______ We DO NOT take exception to the RFP Documents/Requirements.
+S765 | RFP-056 p. 34 line 5 | ______ We TAKE exception to the RFP Documents/Requirements as follows:
+S766 | RFP-056 p. 34 line 6 | Specific exceptions are as follows:
+S767 | RFP-056 p. 34 line 7 | I have carefully examined the Request for Proposal and agree to abide by all submitted pricing, delivery, terms, and conditions of this RFP unless otherwise stipulated herein.
+S768 | RFP-056 p. 34 line 9 | Company Name: ____________________________ Telephone Number: _________________________
+S769 | RFP-056 p. 34 line 10 | By: _______________________________________ Fax Number: _______________________________
+S770 | RFP-056 p. 34 line 11 | (Authorized Person's Signature)
+S771 | RFP-056 p. 34 line 12 | _________________________________________ Email: _____________________________________
+S772 | RFP-056 p. 34 line 13 | (Print or type name and title of Signer)
+S773 | RFP-056 p. 34 line 14 | _________________________________________ Federal Tax ID No.: ________________________________ (Company Street/P.O.
+S774 | RFP-056 p. 34 line 15 | Box Address)
+S775 | RFP-056 p. 34 line 16 | __________________________________________ Date: _________________
+S776 | RFP-056 p. 34 line 17 | (City, State, Zip Code)
+S777 | RFP-056 p. 34 line 18 | DBE Vendor (Yes/No): ______
+S778 | RFP-056 p. 34 line 19 | Minority Owned: ____
+S779 | RFP-056 p. 34 line 20 | Women Owned: ____
+S780 | RFP-056 p. 34 line 21 | Veteran Owned: ____
+S781 | RFP-056 p. 34 line 25 | RETURN THIS PAGE
+S782 | RFP-056 p. 35 line 2 | FORM NO.
+S783 | RFP-056 p. 35 line 2 | 8 CERTIFICATION REGARDING POTENTIAL CONFLICTS OF INTEREST:
+S784 | RFP-056 p. 35 line 3 | The City’s Charter, Sec. 19.16, prohibits any Council member or employee of the City from having a financial interest, direct or indirect, in any contract with the City and any member of a City board or commission from having a financial interest, direct or indirect, in any contract with the department or administrative agency managed or operated by the board or commission on which he or she serves.
+S785 | RFP-056 p. 35 line 7 | ***If the prohibition above is violated, the contract is void and the Council member, City board or commission member forfeits his or her office or the employee forfeits his or her employment***
+S786 | RFP-056 p. 35 line 9 | Vendor certifies that (check all that apply):
+S787 | RFP-056 p. 35 line 10 | Zero conflicts to declare:
+S788 | RFP-056 p. 35 line 11 | 1. No City Council member, City employee, or City board or commission member is an employee, officer, partner, owner, etc., of vendor.
+S789 | RFP-056 p. 35 line 13 | 2. No spouse or dependent child of a City Council member, City employee, or City board or commission member is an employee, officer, partner, owner, etc., of vendor.
+S790 | RFP-056 p. 35 line 15 | Potential conflicts to declare:
+S791 | RFP-056 p. 35 line 16 | 3. A City Council member, spouse, or dependent child is an employee, officer, partner, owner, etc., of vendor.
+S792 | RFP-056 p. 35 line 17 | 4. A City employee, spouse, or dependent child is an employee, officer, partner, owner, etc., of vendor.
+S793 | RFP-056 p. 35 line 18 | 5. A City board/commission member, spouse, or dependent child is an employee, officer, partner, owner, etc., of vendor.
+S794 | RFP-056 p. 35 line 20 | If choosing 3, 4, or 5, please provide name of Council member, employee, board or commission member, or spouse:
+S795 | RFP-056 p. 35 line 21 | ________________________________________________________________________________________________________ Vendor Certification:
+S796 | RFP-056 p. 35 line 23 | I certify the information above is true and accurate.
+S797 | RFP-056 p. 35 line 24 | ___________________________________________
+S798 | RFP-056 p. 35 line 25 | By: ________________________________________
+S799 | RFP-056 p. 35 line 26 | Title: ______________________________________
+S800 | RFP-056 p. 35 line 27 | Company: __________________________________
+S801 | RFP-056 p. 35 line 28 | Please note whether the Charter is violated is fact-specific.
+S802 | RFP-056 p. 35 line 28 | City staff will follow up with you for additional information.
+S803 | RFP-056 p. 36 line 2 | FORM NO.
+S804 | RFP-056 p. 36 line 2 | 9 STATEMENT OF “NO PROPOSAL”:
+S805 | RFP-056 p. 36 line 3 | RETURN THIS PAGE ONLY IF YOUR COMPANY PROVIDES THE PRODUCTS/SERVICES BEING PROPOSED ON AND DECLINES TO DO SO.
+S806 | RFP-056 p. 36 line 4 | WE, THE UNDERSIGNED, HAVE DECLINED TO PROPOSAL ON YOUR RFP #056-2026 FOR COMMERCIAL PRODUCTION FOR SPRINGFIELD-
+S807 | RFP-056 p. 36 line 5 | BRANSON NATIONAL AIRPORT FOR THE FOLLOWING REASON(S):
+S808 | RFP-056 p. 36 line 6 | _______ SPECIFICATIONS ARE TOO “RESTRICTIVE,” I.E. GEARED TOWARD ONE BRAND OR MANUFACTURER ONLY
+S809 | RFP-056 p. 36 line 7 | (PLEASE EXPLAIN BELOW).
+S810 | RFP-056 p. 36 line 8 | _______ INSUFFICIENT TIME TO RESPOND TO INVITATION FOR PROPOSAL.
+S811 | RFP-056 p. 36 line 9 | _______ WE DO NOT OFFER THIS PRODUCT(S) OR EQUIVALENT.
+S812 | RFP-056 p. 36 line 10 | _______ REMOVE US FROM YOUR VENDOR LIST FOR THIS COMMODITY OR SERVICE
+S813 | RFP-056 p. 36 line 11 | _______ OUR PRODUCT SCHEDULE WOULD NOT PERMIT US TO PERFORM.
+S814 | RFP-056 p. 36 line 12 | _______ UNABLE TO MEET SPECIFICATIONS.
+S815 | RFP-056 p. 36 line 13 | _______ UNABLE TO MEET INSURANCE REQUIREMENTS.
+S816 | RFP-056 p. 36 line 14 | _______ SPECIFICATIONS UNCLEAR (PLEASE EXPLAIN BELOW).
+S817 | RFP-056 p. 36 line 15 | _______ OTHER (PLEASE SPECIFY BELOW).
+S818 | RFP-056 p. 36 line 16 | REMARKS: ___________________________________________________________________________________________________ ____________________________________________________________________________________________________________ ____________________________________________________________________________________________________________ ____________________________________________________________________________________________________________ COMPANY NAME: ___________________________________________________________________________
+S819 | RFP-056 p. 36 line 21 | ADDRESS: __________________________________________________________________________________ SIGNATURE AND TITLE: _______________________________________________________________________ TELEPHONE NUMBER: ________________________________________________________________________
+S820 | RFP-056 p. 36 line 24 | DATE: _________________________________________
+S821 | RFP-056 p. 37 line 2 | PART IV
+S822 | RFP-056 p. 37 line 3 | INSURANCE REQUIREMENTS
+S823 | RFP-056 p. 37 line 4 | 7.0 INSURANCE REQUIREMENTS:
+S824 | RFP-056 p. 37 line 5 | Without limiting any of the other obligations or liabilities of the Contractor, the Contractor shall secure and maintain at its own cost and expense, throughout the duration of this Contract and until the work is completed and accepted by the City, insurance of such types and in such amounts as may be necessary to protect it and the interests of the City against all hazards or risks of loss as hereunder specified or which may arise out of the performance of the Contract Documents.
+S825 | RFP-056 p. 37 line 8 | The form and limits of such insurance, together with the underwriter thereof in each case, are subject to approval by the City.
+S826 | RFP-056 p. 37 line 9 | Regardless of such approval, it shall be the responsibility of the contractor to maintain adequate insurance coverage at all times during the term of the Contract.
+S827 | RFP-056 p. 37 line 10 | Failure of the Contractor to maintain coverage shall not relieve it of any contractual responsibility or obligation or liability under the Contract Documents.
+S828 | RFP-056 p. 37 line 12 | The certificate(s) of insurance, including evidence of the required endorsements hereunder or the policies, shall be filed with the City within ten (10) days after the date of the receipt of Notice of Award of the Contract to the Contractor and prior to the start of work.
+S829 | RFP-056 p. 37 line 14 | All insurance policies shall provide thirty (30) days’ written notice to be given by the insurance company in question prior to modification or cancellation of such insurance and shall list the City as an additional insured and shall be accompanied by the policy’s endorsements adding the City as an additional insured.
+S830 | RFP-056 p. 37 line 16 | Such notices shall be sent via email to purchasingquotes@springfieldmo.gov, faxed to 417-864-1927, or mailed to:
+S831 | RFP-056 p. 37 line 18 | City of Springfield - 218 E. Central, Springfield, MO 65802
+S832 | RFP-056 p. 37 line 19 | As of January 1, 2022, the minimum coverage for the insurance referred to herein shall be as set out below:
+S833 | RFP-056 p. 37 line 20 | A. Workers' Compensation: Statutory coverage per RSMo 287.010 et seq
+S834 | RFP-056 p. 37 line 21 | Employer's Liability: $1,000,000.00
+S835 | RFP-056 p. 37 line 22 | B. Commercial General Liability Insurance, including coverage for Contractual Liability and Independent Contractors Liability.
+S836 | RFP-056 p. 37 line 22 | Such coverage shall apply to bodily injury and property damage on an “Occurrence Form Basis” with limits of at least Three Million and no/100 Dollars ($3,000,000.00) for all claims arising out of a single accident or occurrence.
+S837 | RFP-056 p. 37 line 24 | Contractor agrees that the proceeds of such insurance policy shall first be used to pay any award, damages, costs, and/or attorney fees incurred by or assessed against City, its employees, officers and agents, before payment of any award, damages, costs or attorneys’ fees of Service Provider, its employees, officers or agents.
+S838 | RFP-056 p. 37 line 27 | Service Provider agrees to cause its insurer to name City as an additional insured on such insurance policy, including the City as an additional insured for coverage under its products-completed operations hazard, and said policy shall be primary and noncontributory.
+S839 | RFP-056 p. 37 line 30 | C. Automobile Liability Insurance: Covering Bodily Injury and Property Damage for owned, non-owned and hired vehicles with limits of Three Million and no/100 Dollars ($3,000,000.00) for all claims arising out of a single accident or occurrence.
+S840 | RFP-056 p. 37 line 31 | Contractor agrees to cause its insurer to name City as an additional insured on such insurance policy.
+S841 | RFP-056 p. 37 line 33 | D. Errors and Omissions Insurance: The Contractor shall maintain a professional liability insurance policy in the amount of $1,000,000.00 and its terms shall be subject to the approval of the City.
+S842 | RFP-056 p. 37 line 34 | This policy shall remain in full force and effect for a period of one year after completion and acceptance by the City of the project.
+S843 | RFP-056 p. 37 line 35 | If insurance is written on a claims-made basis, vendor must maintain continuous coverage with retro-active date prior to the effective date of the contract.
+S844 | RFP-056 p. 37 line 37 | E. Subcontracts: In case any or all of this work is sublet, the Contractor shall require the subcontractor to procure and maintain all insurance required by the City of Springfield as listed above.
+S845 | RFP-056 p. 37 line 38 | Contractor shall require any and all subcontractors with whom it enters into a contract to perform work on this project to protect the City through insurance against applicable hazards or risks, upon request of the City, provide evidence of such insurance.
+S846 | RFP-056 p. 37 line 41 | F. Notice: The Contractor shall furnish to the City prior to beginning the work, satisfactory proof of carriage of all the insurance required by this contract, with the provision that policies shall not be canceled, modified or non-renewed without thirty (30) days written notice to the City of Springfield.
+S847 | RFP-056 p. 37 line 43 | The thirty (30) day cancellation notice is required to be identified on the submitted Certificate of Insurance (COI).
+S848 | RFP-056 p. 38 line 2 | PART V
+S849 | RFP-056 p. 38 line 3 | STANDARD TERMS AND CONDITIONS
+S850 | RFP-056 p. 38 line 4 | A. Services.
+S851 | RFP-056 p. 38 line 4 | The City agrees to engage the services of the Service Provider, and the Service Provider agrees to perform the services hereinafter set forth in accordance with the standard of care, skill and expertise ordinarily used by other members of Service Provider’s profession in performing similar services.
+S852 | RFP-056 p. 38 line 6 | No services shall be provided by Service Provider until this Contract has been fully executed.
+S853 | RFP-056 p. 38 line 8 | B. Addition to Services.
+S854 | RFP-056 p. 38 line 8 | The City may add to the Service Provider services or delete therefrom activities of a similar nature provided that the total cost of such work does not exceed the total cost allowance as specified in the final contract document.
+S855 | RFP-056 p. 38 line 9 | The Service Provider shall undertake such changed activities only upon the direction of the City.
+S856 | RFP-056 p. 38 line 10 | All such directives and changes shall be in written form and prepared and approved by the City and shall be accepted and countersigned by the Service Provider.
+S857 | RFP-056 p. 38 line 12 | C. Exchange of Data.
+S858 | RFP-056 p. 38 line 12 | All information, data, and reports in the City’s possession and necessary for the carrying out of the services related to this Contract, shall be furnished to the Service Provider without charge, and the parties shall reasonably cooperate in connection with this Contract.
+S859 | RFP-056 p. 38 line 15 | D. Personnel.
+S860 | RFP-056 p. 38 line 15 | The Service Provider represents that Service Provider will secure at Service Provider's own expense; all personnel required to perform the services called for under this Contract by Service Provider.
+S861 | RFP-056 p. 38 line 16 | Such personnel shall not be employees of or have any contractual relationship with the City except as employees or independent contractors of the Service Provider.
+S862 | RFP-056 p. 38 line 17 | All of the services required hereunder will be performed by the Service Provider or under Service Provider's direct supervision and all personnel engaged in the services shall be fully qualified and shall be authorized under state and local law to perform such services.
+S863 | RFP-056 p. 38 line 20 | None of the work or services covered by this Contract shall be subcontracted without the written approval of the City.
+S864 | RFP-056 p. 38 line 21 | E. Conditioned upon acceptable performance.
+S865 | RFP-056 p. 38 line 21 | Provided Service Provider performs the services in the manner set forth in paragraph A hereof, the City agrees to pay the Service Provider in accordance with the terms set forth in this Contract, which shall constitute complete compensation for all services to be rendered under this Contract; provided, that where payments are to be made periodically to Service Provider for services rendered under this Contract, the City expressly reserves the right to disapprove in whole or in part a request for payment where the services rendered during the period for which payment is claimed are not performed in a timely or satisfactory manner in accordance with the schedule and description of services set forth in this contract.
+S866 | RFP-056 p. 38 line 27 | F. Termination of Contract:
+S867 | RFP-056 p. 38 line 28 | 1. Termination for breach.
+S868 | RFP-056 p. 38 line 28 | Failure of the Service Provider to fulfill Service Provider's obligations under this Contract in a timely and satisfactory manner in accordance with the schedule and description of services set forth in the Contract Parts shall constitute a breach of the Contract, and the City shall thereupon have the right to immediately terminate the Contract.
+S869 | RFP-056 p. 38 line 30 | The City shall give written notice of termination to the Service Provider by one of four different means: Facsimile Transmission ("FAX") if Service Provider has a FAX number; U.S. Postal Service Mail; or by hand delivering a copy of the same to the Service Provider; or by electronic mail to the address identified on contract document; or may give notice by any combination of the above methods.
+S870 | RFP-056 p. 38 line 34 | The date of termination shall be the date upon which notice of termination is hand delivered to Service Provider or given by FAX or electronic mail, or the third day following mailing of the notice of termination, whichever first occurs.
+S871 | RFP-056 p. 38 line 36 | In the event of termination for breach, all finished or unfinished documents, data, studies, surveys, drawings, maps, models, photographs, and reports or other materials prepared by the Service Provider related to this Contract shall at the option of the City become its property, and the Service Provider shall be entitled to receive just and equitable compensation for any satisfactory work completed on such documents and other materials; provided, that the Service Provider shall not be relieved of liability to the City for any damages sustained by the City by virtue of any such breach of the Contract by the Service Provider.
+S872 | RFP-056 p. 38 line 42 | 1a. Attorney Fees: In the event of any litigation arising from breach of this Contract, the City shall be entitled to recover from the Service Provider all reasonable costs incurred for such litigation, including staff time, court costs, attorney fees, and all other related expenses incurred in such litigation.
+S873 | RFP-056 p. 38 line 45 | 2. Termination for Convenience.
+S874 | RFP-056 p. 38 line 45 | The City shall have the right at any time upon 15 days’ written notice to Service Provider to terminate and cancel this Contract, without cause, for the convenience of the City, and Service Provider shall immediately stop work upon issuance of such notice.
+S875 | RFP-056 p. 38 line 47 | In such event City shall not be liable to Service Provider except for payment for actual work performed prior to such notice in an amount proportionate to the completed contract price and for the actual costs of preparations made by Service Provider for the performance of the cancelled portions of the Contract, including a reasonable allowance of profit applicable to the actual work performed and such preparations.
+S876 | RFP-056 p. 39 line 4 | Anticipatory profits and consequential damages shall not be recoverable by Service Provider.
+S877 | RFP-056 p. 39 line 6 | G. Confidentiality of Documents.
+S878 | RFP-056 p. 39 line 6 | Any reports, data, design or similar information given to or prepared or assembled by the Service Provider under this Contract which the City requests to be kept as confidential shall not be made available to any individual or organization by the Service Provider without prior written approval of the City.
+S879 | RFP-056 p. 39 line 9 | H. Discrimination.
+S880 | RFP-056 p. 39 line 9 | The Contractor agrees in the performance of this Contract not to discriminate on the ground or because of race, creed, color, national origin or ancestry, sex, religion, handicap, age, status as a protected veteran or status as a qualified individual with a disability, or political opinion or affiliation, against any employee of Contractor or applicant for employment and shall include a similar provision in all subcontracts let or awarded hereunder.
+S881 | RFP-056 p. 39 line 12 | The parties hereby incorporate the requirements of 41 C.F.R. §§ 60-1.4(a)(7), 29 C.F.R. Part 471, Appendix A to Subpart A, 41 C.F.R. § 60-300.5(a) and 41 C.F.R. § 60-741.5(a), if applicable.
+S882 | RFP-056 p. 39 line 14 | 1. This contractor and any authorized subcontractor shall abide by the requirements of 41 C.F.R. § 60-300.5(a).
+S883 | RFP-056 p. 39 line 14 | This regulation prohibits discrimination against qualified protected veterans and requires affirmative action by covered prime contractors and subcontractors to employ and advance in employment qualified protected veterans.
+S884 | RFP-056 p. 39 line 17 | 2. This contractor and any authorized subcontractor shall abide by the requirements of 41 C.F.R. § 60-741.5(a).
+S885 | RFP-056 p. 39 line 17 | This regulation prohibits discrimination against qualified individuals on the basis of disability and requires affirmative action by covered prime contractors and subcontractors to employ and advance in employment qualified individuals with disabilities.
+S886 | RFP-056 p. 39 line 20 | I. Occupational License: The Service Provider shall obtain and maintain an occupational license with the City of Springfield, Missouri, if required by City Code as well as any required state or federal license.
+S887 | RFP-056 p. 39 line 21 | The cost for this occupational license shall be borne by the Service Provider.
+S888 | RFP-056 p. 39 line 22 | No contract will be executed by the City until this occupational license has been obtained.
+S889 | RFP-056 p. 39 line 23 | J. Nonresident/Foreign Service Providers.
+S890 | RFP-056 p. 39 line 23 | The Service Provider shall procure and maintain during the life of this Contract:
+S891 | RFP-056 p. 39 line 24 | 1. If the Service Provider is a foreign corporation, a certificate of authority to transact business in the State of Missouri from the Secretary of State, unless exempt pursuant to the provisions of Section 351.572 RSMo.; and
+S892 | RFP-056 p. 39 line 26 | 2. A certificate from the Missouri Director of Revenue evidencing compliance with the transient employer financial assurance law, unless exempt pursuant to the provisions of Section 285.230 RSMo.
+S893 | RFP-056 p. 39 line 28 | K. General Independent Service Provider Clause.
+S894 | RFP-056 p. 39 line 28 | This Contract does not create an employee/employer relationship between the parties.
+S895 | RFP-056 p. 39 line 29 | It is the parties' intention that the Service Provider will be an independent contractor and not the City's employee for all purposes, including, but not limited to: the application of the Fair Labor Standards Act minimum wage and overtime payments, Federal Insurance Contribution Act, the Social Security Act, the Federal Unemployment Tax Act, the provisions of the Internal Revenue Code, Missouri revenue and taxation laws, Missouri workers' compensation and unemployment insurance laws.
+S896 | RFP-056 p. 39 line 32 | The Service Provider will retain sole and absolute discretion in the judgment of the manner and means of carrying out the Service Provider's activities and responsibilities hereunder.
+S897 | RFP-056 p. 39 line 34 | The Service Provider agrees that it is a separate and independent enterprise from the City, that it has a full opportunity to find other work, that it has made its own investment in its business, and that it will utilize a high level of skill necessary to perform the services.
+S898 | RFP-056 p. 39 line 36 | This Contract shall not be construed as creating any joint employment relationship between the Service Provider and the City, and the City will not be liable for any obligation incurred by the Service Provider, including but not limited to unpaid minimum wages and/or overtime premiums.
+S899 | RFP-056 p. 39 line 39 | L. City Benefits.
+S900 | RFP-056 p. 39 line 39 | The Service Provider shall not be entitled to any of the benefits established for the employees of the City nor be covered by the Workers’ Compensation Program of the City.
+S901 | RFP-056 p. 39 line 41 | M. Notices.
+S902 | RFP-056 p. 39 line 41 | All notices required or permitted hereinunder and required to be in writing may be given by FAX, electronic mail (if to Service Provider), or by first class mail addressed to City or Service Provider at the addresses identified on the contract document.
+S903 | RFP-056 p. 39 line 43 | The date of delivery of any notice provided by mail shall be the date falling on the third day after the day of its mailing.
+S904 | RFP-056 p. 39 line 43 | The date of delivery of notice by FAX transmission or electronic mail (if to Service Provider) shall be deemed to be the date transmission occurs, except where the transmission is not completed by 5:00 p.m. on a regular business day at the location of the receiving party, in which case the date of delivery shall be deemed to fall on the next regular business day for the receiving party.
+S905 | RFP-056 p. 40 line 4 | N. Jurisdiction.
+S906 | RFP-056 p. 40 line 4 | This Contract and every question arising hereunder shall be construed or determined according to the laws of the State of Missouri.
+S907 | RFP-056 p. 40 line 5 | Should any part of this Contract be litigated, venue shall be proper only in the Circuit Court of Greene County, Missouri.
+S908 | RFP-056 p. 40 line 7 | O. Delivery: Time is of the essence of this project.
+S909 | RFP-056 p. 40 line 7 | If completion times are not met at the time agreed upon, the City reserves the right to cancel or to purchase elsewhere and hold Service Provider liable for any re-procurement costs.
+S910 | RFP-056 p. 40 line 9 | P. Invoices: An invoice shall be submitted and shall show the purchase order number or contract number and contain full descriptive information of items or services furnished.
+S911 | RFP-056 p. 40 line 10 | All invoices must be received within one year of completion of project or receipt of goods by the City or any possible payment is forfeited.
+S912 | RFP-056 p. 40 line 12 | Q. Bankruptcy or Insolvency: In the event of any proceedings by or against either party, voluntary or involuntary, in bankruptcy or insolvency, or for the appointment of a receiver or trustee or an assignee for the benefit of creditors, of the property of Service Provider, or in the event of breach of any of the terms hereof including the warranties of the Service Provider, City may cancel this contract or affirm the contract and hold Service Provider responsible in damages.
+S913 | RFP-056 p. 40 line 16 | R. Compliance with Applicable Laws: The Service Provider warrants it has complied with all applicable laws, rules and ordinances of the United States, or any state, municipality or any other governmental authority or agency in the provision of service covered by this contract, including but not limited to all provisions of the Fair Labor Standard Act of 1938, as amended.
+S914 | RFP-056 p. 40 line 18 | All applicable laws and Springfield City Code and Purchasing Manual will apply to any resulting contract, contract, or purchase order.
+S915 | RFP-056 p. 40 line 19 | Any involvement with the City Procurement shall be in accordance with the Procurement Regulations, Policies and Purchasing Manual.
+S916 | RFP-056 p. 40 line 21 | Service Provider agrees to comply with all applicable federal, state and local laws and rules and regulations applicable to the provision of services and products hereunder.
+S917 | RFP-056 p. 40 line 22 | Service Provider affirmatively states that payment of all local, state, and federal taxes and assessments issued to Service Provider has been made in full.
+S918 | RFP-056 p. 40 line 24 | S. Interpretation of Contract and Assignments: The contract shall be construed according to the laws of the State of Missouri.
+S919 | RFP-056 p. 40 line 24 | The contract, or any rights, obligations or duties hereunder may not be assigned by Service Provider without City's written consent or any attempted assignment without such consent shall be void.
+S920 | RFP-056 p. 40 line 27 | T. Provisions by Law Deemed Inserted: Each and every provision of the law and clauses required by law to be inserted in this contract will be deemed to be inserted herein and will read and enforced as though it were included herein, and if through mistake, or otherwise any such provision is not inserted, then upon the application of either party the contract will be physically amended to make such insertion or correction.
+S921 | RFP-056 p. 40 line 31 | U. Assignment: The Service Provider shall not assign any interest in this contract and shall not transfer any interest in the same whether by assignment or novation), without prior written consent of the City thereto.
+S922 | RFP-056 p. 40 line 32 | Provided, however, that claims for money due or to become due to the Service Provider from the City under this contract may be assigned to a bank, trust company, or other financial institution without such approval.
+S923 | RFP-056 p. 40 line 34 | Notice of such assignment or transfer shall be furnished in writing promptly to the City.
+S924 | RFP-056 p. 40 line 35 | Any such assignment is expressly subject to all rights and remedies of the City under this contract, including the right to change or delete activities from the contract or to terminate the same as provided herein, and no such assignment shall require the City to give any notice to any such assignee of any actions which the City may take under this contract, though City will attempt to so notify any such assignee.
+S925 | RFP-056 p. 40 line 39 | V. Proprietary Information: In accordance with the Missouri Sunshine Law, and except as may be provided by other applicable state and federal law, all Service Providers should be aware that Requests for Proposals and the responses thereto become open public records once a contract is negotiated or all proposals are rejected.
+S926 | RFP-056 p. 40 line 41 | However, Service Providers are requested to identify specifically any information contained in their Proposals which they consider confidential and/or proprietary and which they believe to be exempt from disclosure, citing specifically the applicable exempting law.
+S927 | RFP-056 p. 40 line 43 | Failure of Service Provider to cite specifically to the applicable law exempting disclosure under the Sunshine Law may result in disclosure of such information.
+S928 | RFP-056 p. 40 line 45 | Service Provider should identify any information as confidential and/or proprietary by stamping each page with such information “Confidential” and/or “Proprietary.”
+S929 | RFP-056 p. 40 line 46 | This requirement also applies to the electronic copy that is to be submitted.
+S930 | RFP-056 p. 41 line 3 | All Proposals received from Service Providers in response to this Request for Proposal will become the property of the City of Springfield and will not be returned to the Service Providers.
+S931 | RFP-056 p. 41 line 4 | In the event of contract award, all documentation produced as part of the contract will become the exclusive property of the City.
+S932 | RFP-056 p. 41 line 6 (columns 1–1 of 3) | W. Indemnity and Hold Harmless:
+S933 | RFP-056 p. 41 line 7 (columns 2–2 of 3) | a. In no event shall the City be liable to the Contractor for special, indirect, or consequential damages, except those caused by the City’s gross negligence or willful or wanton misconduct arising out of or in any way connected with a breach of this Contract.
+S934 | RFP-056 p. 41 line 7 (columns 2–2 of 3) | The maximum liability of the City shall be limited to the amount of money to be paid or received by the City under this Contract. b.
+S935 | RFP-056 p. 41 line 7 (columns 2–2 of 3) | The Contractor shall defend, indemnify and save harmless the City, its elected or appointed officials, agents and employees from and against any and all liability, suits, damages, costs (including attorney fees), losses, outlays and expenses from claims in any manner caused by, or allegedly caused by, or arising out of, or connected with, this Contract, or the work or any subcontract thereunder (the Contractor hereby assuming full responsibility for relations with subcontractors), including, but not limited to, claims for personal injuries, death, property damage, or for damages from the award of this Contract to Contractor. c.
+S936 | RFP-056 p. 41 line 7 (columns 2–2 of 3) | The Contractor shall indemnify and hold the City harmless from all wages or overtime compensation due any employees in rendering services pursuant to this agreement or any subcontract, including payment of reasonable attorneys’ fees and costs in the defense of any claim made under the Fair Labor Standards Act, the Missouri Prevailing Wage Law or any other federal or state law. d.
+S937 | RFP-056 p. 41 line 7 (columns 2–2 of 3) | The indemnification obligations of Contractor hereunder shall not be limited by any limitations as to the amount or type of damages, compensation or benefits payable by or for the Contractor, under any federal or state law, to any person asserting the claim against City, its elected or appointed officials, agents and employees, for which indemnification is sought. e.
+S938 | RFP-056 p. 41 line 7 (columns 2–2 of 3) | The indemnification obligations herein shall not negate, abridge or reduce in any way any additional indemnification rights of the City, its elected or appointed officials, agents and employees, which are otherwise available under statute, or in law or equity. f.
+S939 | RFP-056 p. 41 line 7 (columns 2–2 of 3) | Contractor affirms that it has had the opportunity to recover the costs of the liability insurance required in this agreement in its Contract price.
+S940 | RFP-056 p. 41 line 7 (columns 2–2 of 3) | Contractor’s obligation under this agreement to defend, indemnify and hold harmless any person from that person’s own negligence or wrongdoing is limited to the coverage and limits of the applicable insurance. g.
+S941 | RFP-056 p. 41 line 7 (columns 2–2 of 3) | The Contractor shall indemnify and hold the City harmless for any penalties, fines, fees or costs, including costs of defense, which are charged or assessed by any Federal, state or local agency including, but not limited to, Environmental Protection Agency or Department of Natural Resources.
+S942 | RFP-056 p. 41 line 8 (columns 1–1 of 3) | X. Sub-Contracts:
+S943 | RFP-056 p. 41 line 9 (columns 2–2 of 3) | a. The Contractor shall not execute an agreement with any sub-contractor to perform any work until the City has provided written consent of the use of such sub-contractor. b.
+S944 | RFP-056 p. 41 line 9 (columns 2–2 of 3) | The Contractor shall be fully responsible to the City for the acts and omissions of any sub-contractors, and of persons either directly or indirectly employed by them, as Contractor is for the acts and omissions of persons directly employed by them. c.
+S945 | RFP-056 p. 41 line 9 (columns 2–2 of 3) | The Contractor shall cause appropriate provisions to be inserted in all sub-contracts relative to the work to require compliance by each sub-contractor with the provisions of the Contract. d.
+S946 | RFP-056 p. 41 line 9 (columns 2–2 of 3) | Nothing contained in the Conditions shall create any contractual relationship between any sub-contractor and the City.

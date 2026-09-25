@@ -1,5 +1,12 @@
 PASS: every packet statement appears verbatim, in order, in the original.
-ANCHORS: all 941 page anchors match where their text starts.
+ANCHORS: all 946 page anchors match where their text starts.
+NOT TEXT: content in images cannot be copied or verified; check these pages by eye:
+  - p. 1: 1 small image(s) (often checkbox marks or symbols): whether a box is checked is not in the packet
+  - p. 17: 4 large image(s) (figure, map, logo or scan): any text inside is not in the packet
+  - p. 17: 43 small image(s) (often checkbox marks or symbols): whether a box is checked is not in the packet
+  - p. 18: 2 large image(s) (figure, map, logo or scan): any text inside is not in the packet
+  - p. 18: 1 small image(s) (often checkbox marks or symbols): whether a box is checked is not in the packet
+  - p. 20: 1 small image(s) (often checkbox marks or symbols): whether a box is checked is not in the packet
 SET ASIDE: page headers/footers repeated on most pages, kept once at first appearance:
   - RFP ##-#   (40 repeats)
   - Page # of #   (40 repeats)

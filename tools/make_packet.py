@@ -41,10 +41,11 @@ LIST_MARKER = re.compile(r"^\(?[0-9A-Za-z]{1,4}[.)]$")
 LIST_START = re.compile(
     r"^(?:\(?\d{1,3}(?:\.\d{1,3})+\.?|\(?\d{1,3}[.)]|\(?[A-Za-z][.)]|\(?[ivxlcIVXLC]{1,5}[.)])\s"
 )
-BULLET_START = re.compile(r"^(?:[•▪◦●■\-\*–]|o)\s")
+BULLET_START = re.compile(r"^(?:[•▪◦●■\-\*–]|o|<U\+F0B7>)\s")
 PAGE_LABEL = re.compile(r"^page\s+\d+(\s+of\s+\d+)?$", re.IGNORECASE)
 BOUNDARY = re.compile(r"(?<=[.!?])[\"”’)]?\s+(?=[A-Z0-9\"“(])")
 TERMINAL = (".", "!", "?", ":", ";")
+NOTE = "\u2063"      # brackets a table row's column note inside a raw line (invisible separator)
 BACKTRACK = 2000     # verify: minimum look-back (grows to about 1.5 pages for PDFs)
 CELL_GAP = 40        # verify: maximum whitespace between cells of one table row
 
@@ -68,19 +69,63 @@ def pdf_page_lines(page) -> list[str]:
     for table in tables:
         for index, row in enumerate(table.extract()):
             cells = [re.sub(r"\s+", " ", cell or "").strip() for cell in row]
-            while cells and not cells[-1]:
-                cells.pop()
-            while cells and not cells[0]:
-                cells.pop(0)
-            if cells:
-                top = table.rows[index].bbox[1] if index < len(table.rows) else table.bbox[1]
-                items.append((top + 0.01, "\t".join(cells)))
+            filled = [position for position, cell in enumerate(cells) if cell]
+            if not filled:
+                continue
+            first, last = filled[0], filled[-1]
+            text = "\t".join(cells[first:last + 1])
+            if first > 0 or last < len(cells) - 1:
+                # Blank (often merged) cells at the edges: record which columns the text fills,
+                # so "Building Supervisor | 1 | 2:30pm" is not read as starting in column 1.
+                text = f"{NOTE}columns {first + 1}–{last + 1} of {len(cells)}{NOTE}{text}"
+            top = table.rows[index].bbox[1] if index < len(table.rows) else table.bbox[1]
+            items.append((top + 0.01, text))
     items.sort(key=lambda item: item[0])
     return [text for _, text in items]
 
 
+def split_note(text: str) -> tuple[str | None, str]:
+    """Separate a table row's column note (added by pdf_page_lines) from its text."""
+    if text.startswith(NOTE):
+        note, _, rest = text[len(NOTE):].partition(NOTE)
+        return note, rest
+    return None, text
+
+
+def pdf_non_text(path: Path) -> list[str]:
+    """Pages whose content includes images, which text extraction cannot copy."""
+    import pdfplumber
+    report = []
+    with pdfplumber.open(path) as pdf:
+        for number, page in enumerate(pdf.pages, 1):
+            images = page.images
+            area = page.width * page.height
+            large = [image for image in images if image["width"] * image["height"] > 0.05 * area]
+            small = len(images) - len(large)
+            if not page.chars:
+                report.append(f"p. {number}: no extractable text at all (scanned or image-only page?)")
+            elif large:
+                report.append(f"p. {number}: {len(large)} large image(s) (figure, map, logo or scan): "
+                              "any text inside is not in the packet")
+            if small:
+                report.append(f"p. {number}: {small} small image(s) (often checkbox marks or symbols): "
+                              "whether a box is checked is not in the packet")
+    return report
+
+
+def show_symbols(text: str) -> str:
+    """Write private-use characters (symbol-font glyphs such as a Wingdings check mark, U+F0FC)
+    as <U+XXXX>. They print as nothing or a box, so readers and models otherwise drop them;
+    the code keeps them visible and copyable without guessing what they depict."""
+    return re.sub("[\ue000-\uf8ff]", lambda match: f"<U+{ord(match.group(0)):04X}>", text)
+
+
 def read_raw(path: Path) -> list[tuple[int | None, int, str]]:
-    """Return (page, line, text) for every raw line."""
+    """Return (page, line, text) for every raw line, symbol-font characters written as <U+XXXX>."""
+    return [(page, number, show_symbols(text)) for page, number, text in read_raw_text(path)]
+
+
+def read_raw_text(path: Path) -> list[tuple[int | None, int, str]]:
     if path.suffix.lower() == ".pdf":
         try:
             import pdfplumber
@@ -170,12 +215,13 @@ def blocks(lines, keep_furniture: bool):
     widths = sorted(len(text.strip()) for _, _, text in lines if text.strip())
     full = widths[int(len(widths) * 0.9)] * 0.7 if widths else 0
     result, last_width = [], 0
-    for page, number, text, is_furniture in kept:
+    for page, number, raw_text, is_furniture in kept:
+        note, text = split_note(raw_text)
         stripped = re.sub(r"\s+", " ", text).strip() if "\t" not in text else text.strip()
         if not stripped:
             continue
-        where = location(page, number)
-        if is_furniture:
+        where = location(page, number) + (f" ({note})" if note else "")
+        if is_furniture or note:
             result.append([stripped, [(0, where)], True])
             last_width = 0
             continue
@@ -225,6 +271,13 @@ def build(raw: Path, prefix: str, keep_furniture: bool) -> str:
     for text, count in dropped.items():
         print(f"collapsed {count} repeat(s) of page header/footer: {text}", file=sys.stderr)
     print(f"{len(statements)} statements", file=sys.stderr)
+    symbols = [text for _, text in statements if re.search(r"<U\+[0-9A-F]{4}>", text)]
+    if symbols:
+        print(f"{len(symbols)} statement(s) contain symbol-font characters written as <U+XXXX> "
+              "(often check marks or boxes); copy them exactly", file=sys.stderr)
+    if raw.suffix.lower() == ".pdf":
+        for line in pdf_non_text(raw):
+            print(f"not copied: {line}", file=sys.stderr)
     return "".join(f"S{index:03d} | {prefix} {where} | {text}\n"
                    for index, (where, text) in enumerate(statements, 1))
 
@@ -244,6 +297,7 @@ def verify(raw: Path, packet: Path, keep_furniture: bool) -> int:
         found = Counter(re.sub(r"\d+", "#", line.split(" | ", 2)[-1].strip()).lower() for line in packet_lines)
         keep_furniture = any(found[pattern] > 1 for pattern in patterns)
     kept, dropped = set_aside_repeats(raw_lines, keep_furniture)
+    kept = [(page, number, split_note(text)[1], flag) for page, number, text, flag in kept]
     source = normalise("\n".join(text for _, _, text, _ in kept))
     covered = bytearray(len(source))
     pages = len({page for page, _, _, _ in kept if page is not None})
@@ -278,31 +332,47 @@ def verify(raw: Path, packet: Path, keep_furniture: bool) -> int:
             problems.append(f"line {number}: not in `S001 | anchor | text` form")
             continue
         source_id, anchor, text = parts
-        cells = [normalise(cell) for cell in text.split(" | ")]
+        # Cells are separated by "|"; blank cells may be written "| |", so split on any pipe.
+        cells = [normalise(show_symbols(cell)) for cell in re.split(r"\s*\|\s*", text)]
+        cells = [cell for cell in cells if cell] or [""]
         first = nearest(cells[0], max(0, cursor - window))
         if first < 0:
             where = "exists only elsewhere in the document (wrong position)" if cells[0] in source \
                 else "not found in the original"
             problems.append(f"{source_id}: {where}: {cells[0][:150]}")
             continue
-        spans, end, ok = [(first, first + len(cells[0]))], first + len(cells[0]), True
-        for cell in cells[1:]:
-            if not cell:
-                continue
-            position = source.find(cell, end)
-            if position < 0 or source[end:position].strip() or position - end > CELL_GAP:
-                problems.append(f"{source_id}: table cell not next to the previous cell in the original: {cell[:100]}")
-                ok = False
+
+        def row_at(start: int):
+            """Spans of every cell if the row's cells sit together from start, else None."""
+            spans, end = [(start, start + len(cells[0]))], start + len(cells[0])
+            for cell in cells[1:]:
+                if not cell:
+                    continue
+                position = source.find(cell, end)
+                if position < 0 or source[end:position].strip() or position - end > CELL_GAP:
+                    return None
+                spans.append((position, position + len(cell)))
+                end = position + len(cell)
+            return spans
+
+        spans, candidate, tries = row_at(first), first, 0
+        while spans is None and tries < 500:
+            candidate = source.find(cells[0], candidate + 1)
+            if candidate < 0:
                 break
-            spans.append((position, position + len(cell)))
-            end = position + len(cell)
+            spans, tries = row_at(candidate), tries + 1
+        ok = spans is not None
+        if ok:
+            end = spans[-1][1]
+        else:
+            problems.append(f"{source_id}: table cells not found side by side in the original: {text[:100]}")
         if ok:
             for a, b in spans:
                 covered[a:b] = b"\x01" * (b - a)
             cursor = end
             cited_page = re.search(r"(?<!p)\bp\. (\d+)\b", anchor)
             if cited_page and page_starts:
-                page_checks.append((source_id, int(cited_page.group(1)), page_at(first)))
+                page_checks.append((source_id, int(cited_page.group(1)), page_at(spans[0][0])))
     uncovered, piece = Counter(), []
     for index, character in enumerate(source + " "):
         if index < len(source) and not covered[index]:
@@ -332,6 +402,12 @@ def verify(raw: Path, packet: Path, keep_furniture: bool) -> int:
                 print(f"  - {source_id}: anchor says p. {cited}, text starts on p. {actual + offset}")
         else:
             print(f"ANCHORS: all {len(page_checks)} page anchors match where their text starts.")
+    if raw.suffix.lower() == ".pdf":
+        non_text = pdf_non_text(raw)
+        if non_text:
+            print("NOT TEXT: content in images cannot be copied or verified; check these pages by eye:")
+            for line in non_text:
+                print(f"  - {line}")
     if dropped:
         print("SET ASIDE: page headers/footers repeated on most pages, kept once at first appearance:")
         for text, count in dropped.items():

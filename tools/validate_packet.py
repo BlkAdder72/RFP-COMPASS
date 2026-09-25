@@ -64,7 +64,7 @@ def difference(expected: str, actual: str) -> str:
     index = next((i for i, (a, b) in enumerate(zip(expected, actual)) if a != b), min(len(expected), len(actual)))
     def show(text: str) -> str:
         piece = text[max(0, index - 20):index + 20]
-        return "".join(f"<U+{ord(c):04X}>" if unicodedata.category(c) in ("Zs", "Cf") and c != " " else c for c in piece)
+        return "".join(f"<U+{ord(c):04X}>" if unicodedata.category(c) in ("Zs", "Cf", "Co") and c != " " else c for c in piece)
     return f"at character {index + 1}: packet …{show(expected)}… card …{show(actual)}…"
 
 

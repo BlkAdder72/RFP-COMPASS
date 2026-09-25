@@ -1,0 +1,4 @@
+1142 statements
+9 statement(s) contain symbol-font characters written as <U+XXXX> (often check marks or boxes); copy them exactly
+not copied: p. 42: 9 small image(s) (often checkbox marks or symbols): whether a box is checked is not in the packet
+not copied: p. 63: 1 large image(s) (figure, map, logo or scan): any text inside is not in the packet

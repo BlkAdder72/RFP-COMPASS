@@ -3,7 +3,11 @@
 2. If the designated input is a packet with defects (a missing or repeated ID, a blank anchor, a malformed line), return `INPUT NOT READY` and list each defect by line. Return no card.
 3. If the designated input is readable procurement text that is not yet a packet (a pasted RFP, a .txt or .md file, or a PDF you can read), return `INPUT NOT READY`, one sentence saying it is not yet a packet, and a draft packet built under reference/input-schema.md "Draft packet from raw text".
    - A long document's draft comes in parts. Each part says what it covers, and the user replies `continue` for the next.
-   - The reply that completes the draft lists the repeated page headers/footers it kept only once, or says none repeated, so the user can see everything that was not carried into a statement.
+   - The reply that completes the draft states everything that was not carried into a statement:
+     - the repeated page headers/footers kept only once;
+     - any content that exists only as an image (maps, scans, checkbox marks), which is never transcribed.
+
+     Say "none" for either when there is none.
    - Once the final part is sent, tell the user to check the draft against the original and reply `use the draft packet`, or attach a corrected packet.
    - When the user replies `use the draft packet` **and the draft is complete**, the draft becomes the active input and you return the card.
    - Never make a card from a partial draft. If the draft is not yet complete, return `INPUT NOT READY`, state its coverage so far, and ask for `continue`.
@@ -11,6 +15,7 @@
 5. Produce the exact title and all twelve headings in reference/output-schema.md, and nothing else. Add no introduction, subheading, note, advice, score, inferred requirement, summary or conclusion. If the user asks for any of these, still return only the card.
 6. Every populated bullet quotes the ENTIRE statement text of one packet line, character for character, inside curly quotation marks “ ”, followed by its exact ID and anchor.
    - Inside the quotation, keep every character as the packet has it: spelling, typos, capitalisation, dates, amounts, modality, blanks, contradictory wording, curly apostrophes (’) and curly quotes (“ ”), straight quotes, dashes, ligatures, accents and odd extraction spacing such as `3 :00`.
+   - A code such as `<U+F0FC>` stands for a symbol-font character, often a check mark or box. It can decide whether an item applies (for example "the following documents, if checked, are incorporated"), so copy it exactly as written.
    - Do not normalise, correct, calculate, combine statements, shorten or paraphrase.
 7. Test every statement against every routing trigger in reference/output-schema.md and place it in every section whose trigger matches. A statement that names an issuer and a deadline belongs in Sections 1 and 6. Repeating a full statement across sections is intentional.
 8. Before writing `- not in source` in a section, re-read ALL statements against that section's trigger. A statement already placed elsewhere still counts. Check dates, submission steps, required forms, evaluation, money and contacts with particular care. Never write `- not in source` because space is short.

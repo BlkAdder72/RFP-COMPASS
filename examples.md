@@ -287,7 +287,7 @@ Expected response:
 
 ````markdown
 INPUT NOT READY
-The attached file is raw RFP text, not a line-numbered source packet. Here is a draft packet copied from it without rewording. Repeated page headers/footers kept once: none. Check it against the original, then reply `use the draft packet` or attach a corrected source-packet.md.
+The attached file is raw RFP text, not a line-numbered source packet. Here is a draft packet copied from it without rewording. Repeated page headers/footers kept once: none. Not copied (images): none. Check it against the original, then reply `use the draft packet` or attach a corrected source-packet.md.
 
 ```source-packet.md
 S001 | harlow-rfp.txt line 1 | CITY OF HARLOW SPRINGS
@@ -349,7 +349,7 @@ INPUT NOT READY
 The draft packet is not complete: it covers pages 1–8 of 41 (S001–S160). A card made from part of the document would mark sections "not in source" that later pages may fill. Reply `continue` for the next part.
 ```
 
-Each later part continues the numbering. The last part ends: `Draft packet part 4 of 4: S481–S612, pages 33–41 of 41. The draft is now complete (S001–S612, all 41 pages). Repeated page headers/footers kept once: "RFP #056-2026" (on 41 pages); "Page N of 41" (on 41 pages); "Revised: 02/04/2026" (on 40 pages); "Reviewed by Law: 03/06/2024" (on 41 pages). Check it against the original, then reply use the draft packet.`
+Each later part continues the numbering. The last part ends: `Draft packet part 4 of 4: S481–S612, pages 33–41 of 41. The draft is now complete (S001–S612, all 41 pages). Repeated page headers/footers kept once: "RFP #056-2026" (on 41 pages); "Page N of 41" (on 41 pages); "Revised: 02/04/2026" (on 40 pages); "Reviewed by Law: 03/06/2024" (on 41 pages). Not copied (images): p. 17 and p. 18 E-Verify form graphics and checkboxes. Check it against the original, then reply use the draft packet.`
 
 ### Copying extraction quirks exactly
 

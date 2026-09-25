@@ -2,4 +2,10 @@ collapsed 40 repeat(s) of page header/footer: RFP ##-#
 collapsed 40 repeat(s) of page header/footer: Page # of #
 collapsed 40 repeat(s) of page header/footer: Reviewed by Law: #/#/#
 collapsed 39 repeat(s) of page header/footer: Revised: #/#/#
-941 statements
+946 statements
+not copied: p. 1: 1 small image(s) (often checkbox marks or symbols): whether a box is checked is not in the packet
+not copied: p. 17: 4 large image(s) (figure, map, logo or scan): any text inside is not in the packet
+not copied: p. 17: 43 small image(s) (often checkbox marks or symbols): whether a box is checked is not in the packet
+not copied: p. 18: 2 large image(s) (figure, map, logo or scan): any text inside is not in the packet
+not copied: p. 18: 1 small image(s) (often checkbox marks or symbols): whether a box is checked is not in the packet
+not copied: p. 20: 1 small image(s) (often checkbox marks or symbols): whether a box is checked is not in the packet
