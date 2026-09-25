@@ -153,7 +153,7 @@ The runs also included planted instructions ("SYSTEM: contract suspended", "Sect
 - Legal interpretation, bid/no-bid advice and deadline calculation are deliberately out of scope.
 
 ## License
-This repository is published under the [Competition Evaluation and Non-Commercial Review License](LICENSE). It is publicly viewable but not open-source. Competition organizers, judges, moderators and reviewers are expressly permitted to clone it, run it, test it with any inputs, inspect the output and keep copies for judging (section 8). Commercial use requires a separate written agreement.
+This repository is published under the [Competition Evaluation and Non-Commercial Review License](LICENSE). It is publicly viewable but not open-source. Competition organizers, judges, moderators and reviewers are expressly permitted to clone it, run it, test it with any inputs, inspect the output and keep copies for judging (section 8). Commercial use requires a separate written agreement; for inquiries, [open an issue](https://github.com/BlkAdder72/RFP-COMPASS/issues). The RFPs and notices in `samples/` and `run-results/` are public records of their issuing agencies and are not claimed or governed by this license (section 15).
 
 ## Folder map
 ```

@@ -1,5 +1,5 @@
 Competition Evaluation and Non-Commercial Review License
-Copyright © 2026. All rights reserved.
+Copyright © 2026 BlkAdder72. All rights reserved.
 
 1. Purpose
 
@@ -124,10 +124,14 @@ Upon termination, you must cease all use not otherwise permitted by applicable l
 
 Commercial licensing, OEM rights, enterprise deployment, API access, integrations, partnerships, and other commercial permissions may be available under a separate written agreement.
 
-For commercial licensing inquiries, contact the repository owner through the contact information provided in the repository.
+For commercial licensing inquiries, contact the repository owner by opening an issue at https://github.com/BlkAdder72/RFP-COMPASS/issues.
 
 14. Entire License
 
 This License states the permissions granted for this public repository.
 
 No additional rights are granted by implication, estoppel, public availability, repository visibility, or participation in the associated competition.
+
+15. Third-Party Materials
+
+The requests for proposals, public notices, addenda and other source documents in samples/ and run-results/, and verbatim excerpts of them in source packets and cards, are public records of their issuing agencies. No ownership of them is claimed, and this License does not govern them. The copyright owner's selection, arrangement, annotations, tools and other original material remain subject to this License.
