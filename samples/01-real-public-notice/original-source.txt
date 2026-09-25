@@ -1,0 +1,49 @@
+Track & Systems Construction Contract RFP
+The California High-Speed Rail Authority (Authority) has released a Request for Proposals (RFP) to procure a Track & Systems Construction Contract (TSCC).
+The purpose of this procurement is to select a contractor to provide construction work for track and overhead contact system (OCS) on the 119-mile First Construction Section of the California High-Speed Rail System, and design and construction for high-speed rail systems, including traction power, train control, and communication systems. The TSCC Contractor will also be responsible for construction of track and OCS as well as design and construction of the high-speed rail systems for the Merced Extension and Bakersfield Extension.
+The complete scope of work is provided in the RFP and draft agreement. The not-to-exceed dollar value for this contract is $3.5 billion.
+The work will be delivered using a hybrid delivery model as outlined in the table below. This delivery method will incorporate managing cost and schedule, partnering, collaboration, in-depth communication, motivation for innovation, and progressive project development of construction packages. The Track & Systems Construction Contractor will work collaboratively with the Authority and the Track/OCS Design Services consultant, stakeholders, and other Interfacing Contractors to deliver the work. A draft table describing the delivery model for this contract is included below. This draft delivery model table is subject to change.
+The Notice of Proposed Award for the TSCC RFP is available to download here: Notice of Proposed Award
+PDF Document
+10
+25
+50
+100
+entries per page
+Search:
+Initial Design
+Detail Design
+Construction
+Integration
+Material Supply
+Track	Authority	Authority	TSCC	TSCC	Authority*
+OCS	Authority	Authority	TSCC	TSCC	Authority*
+Traction Power	Authority	TSCC	TSCC	TSCC	TSCC
+System (Signaling & Train Control)	Authority	TSCC	TSCC	TSCC	TSCC
+System Communication (fiber, radio systems, CCTV)	Authority	TSCC	TSCC	TSCC	TSCC
+Power Generation	Authority	Authority	Authority	Authority	Authority
+Rolling Stock	Authority	Authority	Authority	Authority	Authority
+Showing 1 to 7 of 7 entries
+‹1›
+*Material: Rail, Ballast, Ties, OCS Poles, OCS Components (including contact wire), Fiber Optic Cable ONLY.
+Anticipated Schedule
+Advertisement of RFP: November 26, 2025
+Pre-bid Conference and Small Business Workshop: December 19, 2025, in Sacramento
+Registration List
+PDF Document
+Proposals Due: April 9, 2026
+The RFP is available to download from the California State Contracts Register (CSCR)
+External Link
+. Updates, including responses to written questions and any RFP addenda, will be provided on the CSCR.
+Procurement Approach
+The one-step TSCC Procurement will require each interested proposing team to submit a Notice of Intent to Propose as a precondition to participation in procurement One-on-One Meetings with the Authority.  The RFP will require teams to identify the following:
+lead designer(s) for each systems element, including traction power, train control, and communications systems;
+lead integrator;
+lead contractor(s) for:
+the track and OCS construction work; and
+systems construction elements, including traction power, train control, and communications systems; and systems elements of the construction work; and
+lead firm(s) responsible for integration testing and commissioning.
+The RFP will not require the identification of equipment manufacturer of traction power, train control, communication systems and OEMs/vendors at this time.  The TSCC will provide a mechanism whereby the TSCC will undertake the solicitation of these OEMs/vendors post-award, in collaboration with the Authority, on an open book basis, following further advancement of the associated design work by the TSCC.  The RFP is anticipated to require detailed pricing for track and OCS of the construction work.
+Visit the Authority’s Small Business Program webpage for information including a program overview, certifications we recognize, how to get certified, access to our vendor registry, and more.
+To avoid organizational conflicts of interest, prime firm(s) awarded the TSCC cannot also be awarded contracts that cause conflict. If you have questions about potential organizational conflicts of interest, please review the Authority’s Organizational Conflict of Interest Policy at the following link and submit queries and/or a request for an Organizational Conflict of Interest determination to the Authority’s Chief Counsel at legal@hsr.ca.gov, expressly referencing the TSCC RFP.
+Questions regarding this procurement should be submitted to Emily Morrison at TSCC@hsr.ca.gov or (916) 324-1541.

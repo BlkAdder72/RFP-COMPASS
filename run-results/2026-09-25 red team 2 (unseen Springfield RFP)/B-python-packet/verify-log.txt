@@ -1,0 +1,7 @@
+PASS: every packet statement appears verbatim, in order, in the original.
+SET ASIDE: page headers/footers repeated on most pages, kept once at first appearance:
+  - RFP ##-#   (40 repeats)
+  - Page # of #   (40 repeats)
+  - Reviewed by Law: #/#/#   (40 repeats)
+  - Revised: #/#/#   (39 repeats)
+COVERAGE: all original text is carried into the packet.
