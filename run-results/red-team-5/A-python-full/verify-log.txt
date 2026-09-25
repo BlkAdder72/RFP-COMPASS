@@ -1,0 +1,7 @@
+PASS: every packet statement appears verbatim, in order, in the original.
+ANCHORS: all 866 page anchors match where their text starts.
+NOT TEXT: content in images cannot be copied or verified; check these pages by eye:
+  - p. 1: 1 large image(s) (figure, map, logo or scan): any text inside is not in the packet
+SET ASIDE: page headers/footers repeated on most pages, kept once at first appearance:
+  - #   (38 repeats)
+COVERAGE: all original text is carried into the packet.

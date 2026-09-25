@@ -5,9 +5,10 @@
    - A long document's draft comes in parts. Each part says what it covers, and the user replies `continue` for the next.
    - The reply that completes the draft states everything that was not carried into a statement:
      - the repeated page headers/footers kept only once;
-     - any content that exists only as an image (maps, scans, checkbox marks), which is never transcribed.
+     - any content that exists only as an image (maps, logos, checkbox marks), which is never transcribed;
+     - any scanned pages that were transcribed. Every statement from them is anchored `(transcribed from image)` and must be checked against the page.
 
-     Say "none" for either when there is none.
+     Say "none" for each when there is none.
    - Once the final part is sent, tell the user to check the draft against the original and reply `use the draft packet`, or attach a corrected packet.
    - When the user replies `use the draft packet` **and the draft is complete**, the draft becomes the active input and you return the card.
    - Never make a card from a partial draft. If the draft is not yet complete, return `INPUT NOT READY`, state its coverage so far, and ask for `continue`.

@@ -111,6 +111,12 @@ def validate(source: Path, outputs: list[Path]) -> tuple[list[str], list[str]]:
         order.append(source_id)
     if order != [f"S{i:03d}" for i in range(1, len(order) + 1)]:
         errors.append(f"{source}: source IDs must be sequential from S001")
+    markup = [source_id for source_id, (_, body) in statements.items()
+              if "<!--" in body or re.search("</?[A-Za-z][^>]*>|[\u202a-\u202e\u2066-\u2069]", body)]
+    if markup:
+        notes.append(f"{source}: {', '.join(markup[:8])} contain HTML tags, comments or text-direction "
+                     "controls. A rendered Markdown view may hide or rearrange them, so read the raw card "
+                     "file to see those quotes in full")
 
     lines, part_errors = join_parts(outputs)
     errors += part_errors
@@ -162,7 +168,7 @@ def validate(source: Path, outputs: list[Path]) -> tuple[list[str], list[str]]:
                 errors.append(f"{output}: {heading}: anchor for {source_id} does not match the packet")
             elif quote != statements[source_id][1]:
                 expected = statements[source_id][1]
-                if visible(quote) == visible(expected):
+                if visible(quote).rstrip() == visible(expected).rstrip():
                     invisible.add(source_id)
                 elif len(quote) < len(expected) and quote in expected:
                     errors.append(f"{output}: {heading}: quotation is only part of {source_id}; "

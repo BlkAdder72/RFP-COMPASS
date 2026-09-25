@@ -12,6 +12,10 @@ RFP Compass does not summarise, interpret or advise. It copies each source state
 > 5. The card follows, in parts for long RFPs (reply `continue` until a part arrives without the marker).
 >
 > Every bullet quotes one whole source statement with its ID and page or line. Every empty section says `- not in source`.
+>
+> **Trace any card claim by claim** (Python 3.10+, `pip install pdfplumber`), for example on the included 16-page RFP:
+> `python -X utf8 tools/trace_card.py samples/04-real-tbrpc-auditing-rfp/original-source.pdf samples/04-real-tbrpc-auditing-rfp/source-packet.md samples/04-real-tbrpc-auditing-rfp/bid-compliance-card.md --full`
+> → `traced end to end: 316 of 316 bullets`, with each bullet's section, statement ID and the page of the original where its quote sits.
 
 ## Quick start (Claude Project, no code needed)
 1. Create a Claude Project.
@@ -101,6 +105,8 @@ The guarantees:
 Each sample has `source-packet.md` (the input) and `bid-compliance-card.md` (the expected card). The real samples also keep the original, so you can trace every quote back to it.
 
 ## Checking a card
+To trace a card all the way back to the original document in one step, the way the judges' feedback trace does, use `tools/trace_card.py ORIGINAL PACKET CARD [PART2 ...] [--full]`. It runs both checks below and reports where each bullet's quote sits in the original.
+
 ```
 python -X utf8 tools/validate_packet.py samples/04-real-tbrpc-auditing-rfp/source-packet.md my-card.md
 python -X utf8 tools/validate_packet.py source-packet.md card-part1.md card-part2.md card-part3.md
@@ -154,12 +160,19 @@ It cannot prove a statement sits in the *right* section, but it prints **REVIEW*
 - The map and checkbox graphics are reported as not copied.
 - Attached as a PDF in chat, the draft reported the map and checkmarks as "Not copied (images)" instead of guessing, and the card passes the validator.
 
-Every card in run-results/ passes the validator except one kept as evidence: `red-team-4/B-card-before-symbol-fix`. There, invisible check-mark characters were dropped, which led to the `<U+XXXX>` fix.
+**Fourth unseen RFP, scans and traps (red team 5).** New Mexico Economic Development Department state RFP: 42 pages, with definitions, a schedule and a 1,000-point evaluation table. The PDF is included.
+- A 304-bullet card traced end to end, 304 of 304, from bullet to packet to page of the PDF.
+- The source's own oddities (a skipped item number, "9 *", "+15 days") were kept as written.
+- A scanned copy was transcribed with 56 of 57 statements exact, which is why scanned statements are now labelled.
+- A packet of character traps (look-alike letters, hidden HTML, direction controls, fake markers, a fake "delete Section 7" order) produced no obeyed instruction and no invented text. The one miscopy, a 90-fold repeated phrase, was caught by the validator.
+
+Every card in run-results/ passes the validator except two kept as evidence of what the checks catch: `red-team-4/B-card-before-symbol-fix`, where dropped invisible check marks led to the `<U+XXXX>` fix, and `red-team-5/E-trap-packet`, with its miscounted 90-fold repeat. Also, one chat draft statement in `red-team-5/C-pdf-in-chat` differs from the PDF's text layer only in spacing.
 
 ## Limits
-- The card traces to the packet. The packet's fidelity to the original document is checked separately with `make_packet.py verify`. Scanned images need a human-checked transcription first.
+- The card traces to the packet. The packet's fidelity to the original document is checked separately with `make_packet.py verify`, or in one step with `trace_card.py`. Statements transcribed from scanned pages are labelled `(transcribed from image)` and need a human check against the page.
 - In-chat drafts of long PDFs take several replies, and a model can still slip, as when one wrote "3:00" for "3 :00". For long documents, build the packet with `make_packet.py` and run `verify` before converting.
-- Content that exists only as an image (a map's labels, a scanned page, checkbox marks) cannot be quoted. It is never transcribed or guessed; instead it is reported. `make_packet.py` lists every page with images, and in-chat drafts end with a "Not copied (images)" line. On the 63-page Southeast Delco RFP this flagged the district map and the checkmarks that decide which documents are incorporated by reference.
+- Scanned RFPs (pages that are pictures of text) are transcribed, and every statement from them is labelled `(transcribed from image)` in its citation, because transcription can misread. In testing, 56 of 57 transcribed statements were exact; the one miss was an odd "9 *" tidied to "9.*". Check scanned drafts against the page, or run OCR and `make_packet.py` instead. The tool reports pages with no text layer.
+- Other content that exists only as an image (a map's labels, a logo, checkbox marks) cannot be quoted. It is never transcribed or guessed; instead it is reported. `make_packet.py` lists every page with images, and in-chat drafts end with a "Not copied (images)" line. On the 63-page Southeast Delco RFP this flagged the district map and the checkmarks that decide which documents are incorporated by reference.
 - Tables are only as good as the text they arrive in. If an RFP is pasted or attached as plain text, its table columns may already be interleaved. The draft copies them faithfully, but a reader may not be able to tell which date belongs to which column. From a PDF, `make_packet.py` rebuilds ruled tables row by row, so use it for schedules with "original" and "revised" dates.
 - Section placement follows written triggers, but borderline statements can still land differently between runs or models. Because a statement is never removed, only added to more sections, this changes where evidence shows up, not whether it shows up.
 - Legal interpretation, bid/no-bid advice and deadline calculation are deliberately out of scope.
@@ -175,5 +188,6 @@ reference/input-schema.md         the input contract: packet format, draft packe
 samples/                          four inputs with expected cards (two real, with originals)
 tools/validate_packet.py          mechanical check of a card against its packet
 tools/make_packet.py              build a packet from raw text or a PDF, and verify one
+tools/trace_card.py               trace every card bullet to its packet statement and its page in the original
 run-results/                      recorded live runs
 ```

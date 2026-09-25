@@ -288,7 +288,7 @@ def normalise(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def verify(raw: Path, packet: Path, keep_furniture: bool) -> int:
+def verify(raw: Path, packet: Path, keep_furniture: bool, locations: dict | None = None) -> int:
     raw_lines = read_raw(raw)
     packet_lines = packet.read_text(encoding="utf-8-sig").splitlines()
     if not keep_furniture:
@@ -300,6 +300,7 @@ def verify(raw: Path, packet: Path, keep_furniture: bool) -> int:
     kept = [(page, number, split_note(text)[1], flag) for page, number, text, flag in kept]
     source = normalise("\n".join(text for _, _, text, _ in kept))
     covered = bytearray(len(source))
+    squeezed = re.sub(r"\s", "", source)
     pages = len({page for page, _, _, _ in kept if page is not None})
     window = max(BACKTRACK, int(1.5 * len(source) / pages)) if pages else BACKTRACK
     cursor, problems, page_checks = 0, [], []
@@ -337,8 +338,13 @@ def verify(raw: Path, packet: Path, keep_furniture: bool) -> int:
         cells = [cell for cell in cells if cell] or [""]
         first = nearest(cells[0], max(0, cursor - window))
         if first < 0:
-            where = "exists only elsewhere in the document (wrong position)" if cells[0] in source \
-                else "not found in the original"
+            if cells[0] in source:
+                where = "exists only elsewhere in the document (wrong position)"
+            elif re.sub(r"\s", "", cells[0]) in squeezed:
+                where = ("differs from the original only in spacing (as in '3 :00' vs '3:00'; "
+                         "check the page and copy its spacing exactly)")
+            else:
+                where = "not found in the original"
             problems.append(f"{source_id}: {where}: {cells[0][:150]}")
             continue
 
@@ -355,6 +361,20 @@ def verify(raw: Path, packet: Path, keep_furniture: bool) -> int:
                 end = position + len(cell)
             return spans
 
+        # Prefer an unclaimed match on the page the anchor names (a heading can also appear in
+        # the table of contents, or earlier pages may be missing from a partial packet).
+        cited = re.search(r"(?<!p)\bp\. (\d+)\b", anchor)
+        bounds = dict(page_starts)
+        if cited and int(cited.group(1)) in bounds:
+            page = int(cited.group(1))
+            page_end = min([start for number, start in page_starts if number > page] or [len(source)])
+            position = source.find(cells[0], bounds[page])
+            while 0 <= position < page_end:
+                if not covered[position] and row_at(position):
+                    first = position
+                    break
+                position = source.find(cells[0], position + 1)
+
         spans, candidate, tries = row_at(first), first, 0
         while spans is None and tries < 500:
             candidate = source.find(cells[0], candidate + 1)
@@ -370,6 +390,8 @@ def verify(raw: Path, packet: Path, keep_furniture: bool) -> int:
             for a, b in spans:
                 covered[a:b] = b"\x01" * (b - a)
             cursor = end
+            if locations is not None:
+                locations[source_id] = page_at(spans[0][0]) if page_starts else None
             cited_page = re.search(r"(?<!p)\bp\. (\d+)\b", anchor)
             if cited_page and page_starts:
                 page_checks.append((source_id, int(cited_page.group(1)), page_at(spans[0][0])))

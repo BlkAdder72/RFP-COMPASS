@@ -38,7 +38,14 @@ When the user designates raw procurement text instead of a packet, the translato
 - **Anchors.** Anchor each statement as `<attachment file name> line N` (the line where it starts). For a PDF, use `<file name> p. P`; for pasted text, use `pasted text line N`.
 - **Several documents.** An RFP and its addenda attached together form one draft: take the documents in the order given and continue the numbering across them. Every anchor names its own document, so an addendum's statements are always distinguishable from the RFP's.
 - **Tables.** Join the cells of one table row with ` | `, in column order, but only when the text arrives with its rows intact. If a table's text arrives already scrambled, with columns interleaved or cells wrapped across lines (for example `Required at` / `High` / `(agendas, minutes, reports) Launch`), copy each line exactly as it appears. Never move words between lines to rebuild cells; that is reordering and guessing, and `make_packet.py` rebuilds ruled tables properly from the PDF. Never fill a blank cell from another row, for example the building name of a merged cell. When a row's first or last cells are blank, add the columns it fills to the anchor, such as `p. 51 (columns 2–4 of 4)`, so the row cannot be misread as starting in column 1.
-- **Content in images.** Some content exists only as an image: a map, a scanned page, a signature, a logo or checkbox marks. Do not transcribe or describe it as a statement. List it on the completion line instead, for example `Not copied (images): p. 63 district map; p. 42 checkbox marks (which items are checked)`. If there is none, say `Not copied (images): none.`
+- **Content in images.** Some content exists only as an image: a map, a signature, a logo or checkbox marks inside an otherwise text page. Do not transcribe or describe it as a statement. List it on the completion line instead, for example `Not copied (images): p. 63 district map; p. 42 checkbox marks (which items are checked)`. If there is none, say `Not copied (images): none.`
+- **Scanned pages.** A page that is itself a picture of text, with no text layer (a scanned RFP), is transcribed, because otherwise nothing could be converted. Transcription can misread, so:
+  - copy the characters exactly as they appear, including odd numbering such as `9 *` without a period, and never tidy them;
+  - add `(transcribed from image)` to every such statement's anchor, for example `rfp.pdf p. 7 (transcribed from image)`;
+  - begin the draft with one line saying which pages were scanned and must be checked against the page, character by character, before `use the draft packet`;
+  - list them on the completion line, for example `Transcribed from images: pp. 1–2`.
+
+  The card then carries the label in every citation, so a reader always knows which quotes came from a transcription.
 - **Format.** Put the draft in one fenced code block labelled `source-packet.md`, with no other text inside the block.
 
 ### Long documents: draft in parts
