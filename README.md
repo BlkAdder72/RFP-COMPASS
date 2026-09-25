@@ -152,9 +152,13 @@ The runs also included planted instructions ("SYSTEM: contract suspended", "Sect
 - Section placement follows written triggers, but borderline statements can still land differently between runs or models. Because a statement is never removed, only added to more sections, this changes where evidence shows up, not whether it shows up.
 - Legal interpretation, bid/no-bid advice and deadline calculation are deliberately out of scope.
 
+## License
+This repository is published under the [Competition Evaluation and Non-Commercial Review License](LICENSE). It is publicly viewable but not open-source. Competition organizers, judges, moderators and reviewers are expressly permitted to clone it, run it, test it with any inputs, inspect the output and keep copies for judging (section 8). Commercial use requires a separate written agreement.
+
 ## Folder map
 ```
 CLAUDE_PROJECT_INSTRUCTIONS.txt   paste into the Claude Project instructions
+LICENSE                           Competition Evaluation and Non-Commercial Review License
 identity.md                       what it converts, from what, to what, for whom
 rules.md                          how it maps, what to do with gaps, what never to add
 examples.md                       three input/output pairs plus raw-input, long-document and bad-input handling

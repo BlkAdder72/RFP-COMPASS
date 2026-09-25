@@ -1,0 +1,133 @@
+Competition Evaluation and Non-Commercial Review License
+Copyright © 2026. All rights reserved.
+
+1. Purpose
+
+This repository and its contents are made publicly available solely for:
+
+  - competition submission and judging;
+  - technical evaluation;
+  - demonstration;
+  - academic or professional review;
+  - non-commercial testing of the software and methodology.
+
+The source is publicly viewable, but it is not open-source software and is not licensed under an OSI-approved open-source license.
+
+2. Limited Permission
+
+Subject to the terms of this License, you may:
+
+  1. view and inspect the repository and its contents;
+  2. clone or download the repository for evaluation or testing;
+  3. run the software for non-commercial evaluation;
+  4. modify a local copy solely for testing, research, or evaluation;
+  5. reproduce limited portions as reasonably necessary to discuss, review, or evaluate the repository, provided attribution is maintained.
+
+These permissions are non-exclusive, non-transferable, revocable, and limited to non-commercial evaluation and review.
+
+3. No Commercial License
+
+Except under a separate written agreement with the copyright owner, you may not use this repository or any substantial portion of it for:
+
+  - commercial deployment;
+  - paid products or services;
+  - software-as-a-service offerings;
+  - internal production use by a commercial enterprise;
+  - OEM or embedded use;
+  - API or backend services offered to third parties;
+  - resale or sublicensing;
+  - commercial consulting deliverables;
+  - incorporation into a commercial legal-technology product;
+  - development of a substantially similar commercial service using copied protected materials from this repository.
+
+Commercial rights are expressly reserved.
+
+4. No Redistribution or Relicensing
+
+You may not, without prior written permission:
+
+  - redistribute the repository as your own product;
+  - publish a modified version as a competing distribution;
+  - sublicense the repository;
+  - remove or alter copyright, attribution, or license notices;
+  - relicense any portion of the repository under another software license.
+
+Public links to the original repository are permitted.
+
+5. Derivative Works
+
+You may create modifications solely for permitted non-commercial evaluation or testing.
+
+No license is granted to distribute, commercialize, sell, sublicense, or deploy derivative works based substantially on protected code, documentation, examples, diagrams, or other copyrighted expression from this repository.
+
+Nothing in this section restricts independently developed systems that do not copy protected expression and are otherwise permitted by applicable law.
+
+6. Reserved Intellectual Property Rights
+
+All rights not expressly granted under this License are reserved.
+
+This License does not grant any rights under:
+
+  - patents;
+  - patent applications;
+  - trademarks;
+  - service marks;
+  - trade secrets;
+  - confidential know-how;
+  - proprietary datasets;
+  - separately licensed commercial software or services.
+
+The availability of this repository should not be interpreted as a waiver, dedication, or abandonment of any such rights.
+
+7. Patent Rights
+
+No express or implied patent license is granted by this License.
+
+Use of this repository does not grant permission to practice any invention that may be covered by an issued patent or pending patent application owned or controlled by the copyright owner.
+
+8. Competition and Evaluation Use
+
+Competition organizers, judges, moderators, and reviewers are expressly permitted to:
+
+  - clone the repository;
+  - execute the software;
+  - test the repository using provided or independently selected inputs;
+  - inspect the output;
+  - evaluate compliance with competition criteria;
+  - retain reasonable copies as necessary for judging, moderation, archival, or feedback purposes.
+
+This permission does not extend to unrelated commercial exploitation.
+
+9. Attribution
+
+Any permitted public discussion, review, or demonstration of this repository should identify the repository and original copyright owner.
+
+Attribution does not create broader licensing rights.
+
+10. No Warranty
+
+THE REPOSITORY AND ALL ASSOCIATED MATERIALS ARE PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, NON-INFRINGEMENT, OR ERROR-FREE OPERATION.
+
+THE SOFTWARE IS A DEVELOPMENT AND EVALUATION TOOL AND SHOULD NOT BE RELIED UPON AS A SUBSTITUTE FOR PROFESSIONAL LEGAL, TECHNICAL, OR OTHER REVIEW.
+
+11. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT OWNER SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR OTHER DAMAGES ARISING FROM OR RELATING TO USE OF THE REPOSITORY.
+
+12. Termination
+
+Any permission granted under this License terminates automatically upon violation of its terms.
+
+Upon termination, you must cease all use not otherwise permitted by applicable law and discontinue distribution of any unauthorized copies.
+
+13. Commercial Licensing
+
+Commercial licensing, OEM rights, enterprise deployment, API access, integrations, partnerships, and other commercial permissions may be available under a separate written agreement.
+
+For commercial licensing inquiries, contact the repository owner through the contact information provided in the repository.
+
+14. Entire License
+
+This License states the permissions granted for this public repository.
+
+No additional rights are granted by implication, estoppel, public availability, repository visibility, or participation in the associated competition.
