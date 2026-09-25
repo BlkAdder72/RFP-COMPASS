@@ -143,6 +143,7 @@
 - “The Council considers the contract award to the responsible Auditing Firm with the highest total points.” [source: source-packet.md:S124; TBRPC Auditing RFP p. 11 §9 Review and Notification Process]
 - “The Council reserves the right to segment proposals or accept portions of proposals as is in the best interest of the program and the Council.” [source: source-packet.md:S125; TBRPC Auditing RFP p. 11 §9 Review and Notification Process]
 - “Final price negotiation will result from the selection of all or part of the most successful proposal.” [source: source-packet.md:S126; TBRPC Auditing RFP p. 11 §9 Review and Notification Process]
+- “III. TBRPC’s Right to Modify RFP. The TBRPC reserves the right at its sole discretion to modify this RFP (including but not limited to the selection criteria) should the TBRPC deem that it is in its best interests to do so.” [source: source-packet.md:S139; TBRPC Auditing RFP p. 12 §10.III]
 - “VIII. Standard Service Provider Agreement and Requirements. Consultants acknowledge that placement on the list of qualified on-call consultants does not commit the TBRPC to award a contract.” [source: source-packet.md:S146; TBRPC Auditing RFP p. 13 §10.VIII]
 - “For any project, the TBRPC reserves the right to award a contract to consultants (1) that are on the list of qualified on-call consultants; (2) that have an existing contract with the TBRPC, or (3) that are selected through a separate competitive process.” [source: source-packet.md:S147; TBRPC Auditing RFP p. 13 §10.VIII]
 ## 8. Commercial, performance, and post-award terms stated
@@ -275,6 +276,7 @@
 - “Major Program Fee (cost per) | _________” [source: source-packet.md:S213; TBRPC Auditing RFP p. 16 Attachment B FY28 block row 2]
 - “Note: Quote should include all out-of-pocket expenses and copies of prior year working papers.” [source: source-packet.md:S214; TBRPC Auditing RFP p. 16 Attachment B note]
 ## 10. Definitions, authority, and administrative terms
+- “FROM: Maria Robles, Manager of Administration/Public Information, TBRPC” [source: source-packet.md:S001; TBRPC Auditing RFP p. 1 memo header]
 - “For questions and clarifications, please contact Maria Robles, Manager of Administration in writing via email maria@tbrpc.org.” [source: source-packet.md:S006; TBRPC Auditing RFP p. 1 Contact]
 - “All responses to questions and clarifications will be posted publicly on www.tbrpc.org/rfp in accordance with the RFP Timeline provided.” [source: source-packet.md:S007; TBRPC Auditing RFP p. 1 Contact]
 - “The requirements of the State of Florida and the rules and regulations of the Auditor General;” [source: source-packet.md:S028; TBRPC Auditing RFP p. 4 §3 auditing standards bullet]
@@ -289,6 +291,7 @@
 - “All questions will be answered and posted on TBRPC’s website as an addendum to this RFP on Wednesday, July 8, 2026.” [source: source-packet.md:S092; TBRPC Auditing RFP p. 9 §6.I Questions]
 - “II. Exceptions. Any proprietary information revealed in the submission should be clearly identified as such.” [source: source-packet.md:S093; TBRPC Auditing RFP p. 9 §6.II]
 - “Exceptions made do not oblige TBRPC to change the specifications.” [source: source-packet.md:S095; TBRPC Auditing RFP p. 9 §6.II.a]
+- “b. Consultants shall submit one electronic (.PDF) file or file share link of the information in Section 5 above to Maria Robles, Manager of Administration in writing via email maria@tbrpc.org by Friday, July 17, 2026, by 5:00 PM.” [source: source-packet.md:S098; TBRPC Auditing RFP p. 9 §6.III.b]
 - “Placement on the short-list is not a guarantee of work and does not constitute a commitment by TBRPC to enter into a contract with the consultant.” [source: source-packet.md:S109; TBRPC Auditing RFP p. 10 §7 Selection Process]
 - “To ensure consistent responses and provide correct information to all interested parties, questions regarding this Request for Proposals should be directed to Maria Robles, Manager of Administration at maria@tbrpc.org no later than Friday, July 3, 2026 @ 5:00 p.m.” [source: source-packet.md:S118; TBRPC Auditing RFP p. 11 RFP Questions and Response]
 - “The Council will post the responses to the RFP questions to the Council website tbrpc.org/rfp no later than Wednesday July 8, 2026.” [source: source-packet.md:S119; TBRPC Auditing RFP p. 11 RFP Questions and Response]
@@ -314,6 +317,7 @@
 - “X. Liability for Submittal Errors. Consultants are liable for all errors and omissions contained in their submittals.” [source: source-packet.md:S151; TBRPC Auditing RFP p. 13 §10.X]
 ## 11. Addenda, conflicts, and open items
 - “Each year's contract price is to be determined at the award of the proposal.” [source: source-packet.md:S024; TBRPC Auditing RFP p. 3 §2 Introduction]
+- “a. Rates for Additional Professional Services. If it should become necessary for TBRPC to request the auditor to render any additional services to either supplement the services requested in this RFP or to perform additional work as a result of the specific recommendations included in any report issued on this engagement, then such additional work shall be performed only if set forth in an addendum to the contract between TBRPC and the firm.” [source: source-packet.md:S087; TBRPC Auditing RFP p. 8 §5.V.a]
 - “All questions will be answered and posted on TBRPC’s website as an addendum to this RFP on Wednesday, July 8, 2026.” [source: source-packet.md:S092; TBRPC Auditing RFP p. 9 §6.I Questions]
 - “Addendum Posted | Wednesday, July 8, 2026” [source: source-packet.md:S113; TBRPC Auditing RFP p. 10 §8 RFP Timeline table row 3]
 - “I. Terms of Agreement. It is expected that the contract shall be a three-year fixed-price contract.” [source: source-packet.md:S133; TBRPC Auditing RFP p. 12 §10.I]

@@ -7,7 +7,8 @@ verify: python -X utf8 tools/make_packet.py verify ORIGINAL source-packet.md [--
 build copies text; it never rewords, corrects or reorders it.
   - Lines the source wrapped mid-sentence (including across page breaks) are rejoined.
   - Each block is split into sentences, never inside abbreviations such as p.m., U.S. or No.
-  - Tab-separated table cells become " | ".
+  - Tab-separated table cells become " | ". In a PDF, each row of a ruled table becomes one
+    statement with its cells in column order, instead of text with the columns interleaved.
   - Page headers and footers repeated on at least half the pages of a PDF (running titles,
     "Page 3 of 41", revision stamps) are kept once, at their first appearance, and the
     dropped repeats are reported. --keep-furniture keeps every repeat.
@@ -19,8 +20,9 @@ verify walks the packet in order and checks that:
     whitespace and line-break-hyphen differences (a statement whose text exists only
     somewhere else in the document fails);
   - the cells of a table row sit next to each other in the original.
-It then lists the original text that no statement covers, grouped, so a reviewer can
-confirm each omission was intended.
+It then checks every "p. N" anchor against the page where the statement's text starts
+(allowing a consistent offset, such as printed page numbers), and lists the original text
+that no statement covers, grouped, so a reviewer can confirm each omission was intended.
 
 ORIGINAL may be .txt/.md, or .pdf when pdfplumber is installed.
 """
@@ -47,6 +49,36 @@ BACKTRACK = 2000     # verify: minimum look-back (grows to about 1.5 pages for P
 CELL_GAP = 40        # verify: maximum whitespace between cells of one table row
 
 
+def pdf_page_lines(page) -> list[str]:
+    """A PDF page's lines in reading order, with each ruled-table row as one tab-separated line.
+
+    Plain text extraction interleaves table columns ("Vendor Selection June 19, 2026 July 10, 2026"
+    spread over wrapped lines), which breaks the link between a row label and its dates.
+    Rows found by pdfplumber's table finder keep their cells together instead.
+    """
+    tables = page.find_tables()
+    boxes = [table.bbox for table in tables]
+    items = []
+    for line in page.extract_text_lines():
+        middle = (line["top"] + line["bottom"]) / 2
+        inside = any(top <= middle <= bottom and line["x0"] < right and line["x1"] > left
+                     for left, top, right, bottom in boxes)
+        if not inside:
+            items.append((line["top"], line["text"]))
+    for table in tables:
+        for index, row in enumerate(table.extract()):
+            cells = [re.sub(r"\s+", " ", cell or "").strip() for cell in row]
+            while cells and not cells[-1]:
+                cells.pop()
+            while cells and not cells[0]:
+                cells.pop(0)
+            if cells:
+                top = table.rows[index].bbox[1] if index < len(table.rows) else table.bbox[1]
+                items.append((top + 0.01, "\t".join(cells)))
+    items.sort(key=lambda item: item[0])
+    return [text for _, text in items]
+
+
 def read_raw(path: Path) -> list[tuple[int | None, int, str]]:
     """Return (page, line, text) for every raw line."""
     if path.suffix.lower() == ".pdf":
@@ -57,7 +89,7 @@ def read_raw(path: Path) -> list[tuple[int | None, int, str]]:
         lines = []
         with pdfplumber.open(path) as pdf:
             for page_number, page in enumerate(pdf.pages, 1):
-                for line_number, line in enumerate((page.extract_text() or "").splitlines(), 1):
+                for line_number, line in enumerate(pdf_page_lines(page), 1):
                     lines.append((page_number, line_number, line))
         return lines
     try:
@@ -127,32 +159,40 @@ def set_aside_repeats(lines, keep_furniture: bool):
     return kept, dropped
 
 
-def blocks(lines, keep_furniture: bool) -> tuple[list[tuple[str, str]], Counter]:
-    """Join wrapped lines into blocks of continuous text; return blocks and dropped repeats."""
+def blocks(lines, keep_furniture: bool):
+    """Join wrapped lines into blocks of continuous text.
+
+    Returns (blocks, dropped repeats). Each block is (text, marks): marks lists
+    (offset in text, location) for every raw line joined into it, so each sentence
+    split from the block can be anchored where it actually starts.
+    """
     kept, dropped = set_aside_repeats(lines, keep_furniture)
     widths = sorted(len(text.strip()) for _, _, text in lines if text.strip())
     full = widths[int(len(widths) * 0.9)] * 0.7 if widths else 0
     result, last_width = [], 0
     for page, number, text, is_furniture in kept:
-        stripped = text.strip()
+        stripped = re.sub(r"\s+", " ", text).strip() if "\t" not in text else text.strip()
         if not stripped:
             continue
+        where = location(page, number)
         if is_furniture:
-            result.append([location(page, number), stripped, True])
+            result.append([stripped, [(0, where)], True])
             last_width = 0
             continue
-        if result and not result[-1][2] and "\t" not in text and "\t" not in result[-1][1]:
-            previous = result[-1][1]
+        if result and not result[-1][2] and "\t" not in text and "\t" not in result[-1][0]:
+            previous = result[-1][0]
             unfinished = not ends_sentence(previous) or previous.endswith("-")
             continues = stripped[:1].islower() or last_width >= full or previous.endswith("-") \
                 or ABBREVIATION.search(previous.rstrip())
             if unfinished and continues and not starts_new_block(stripped):
-                result[-1][1] = previous + ("" if previous.endswith("-") and stripped[:1].islower() else " ") + stripped
+                joiner = "" if previous.endswith("-") and stripped[:1].islower() else " "
+                result[-1][1].append((len(previous) + len(joiner), where))
+                result[-1][0] = previous + joiner + stripped
                 last_width = len(stripped)
                 continue
-        result.append([location(page, number), text if "\t" in text else stripped, False])
+        result.append([stripped, [(0, where)], False])
         last_width = len(stripped)
-    return [(where, text) for where, text, _ in result], dropped
+    return [(text, marks) for text, marks, _ in result], dropped
 
 
 def split_sentences(text: str) -> list[str]:
@@ -172,11 +212,15 @@ def split_sentences(text: str) -> list[str]:
 def build(raw: Path, prefix: str, keep_furniture: bool) -> str:
     joined, dropped = blocks(read_raw(raw), keep_furniture)
     statements = []
-    for where, text in joined:
+    for text, marks in joined:
         if "\t" in text:
-            statements.append((where, " | ".join(cell.strip() for cell in text.split("\t"))))
+            statements.append((marks[0][1], " | ".join(cell.strip() for cell in text.split("\t"))))
             continue
-        for sentence in split_sentences(re.sub(r"\s+", " ", text).strip()):
+        pointer = 0
+        for sentence in split_sentences(text):
+            start = text.find(sentence, pointer)
+            pointer = start + len(sentence)
+            where = [where for offset, where in marks if offset <= start][-1]
             statements.append((where, sentence))
     for text, count in dropped.items():
         print(f"collapsed {count} repeat(s) of page header/footer: {text}", file=sys.stderr)
@@ -186,7 +230,7 @@ def build(raw: Path, prefix: str, keep_furniture: bool) -> str:
 
 
 def normalise(text: str) -> str:
-    text = text.replace(" ", " ").replace("​", "").replace("﻿", "")
+    text = text.replace("\u00a0", " ").replace("\u200b", "").replace("\ufeff", "")
     text = re.sub(r"(\w)-\s+(\w)", r"\1-\2", text)
     return re.sub(r"\s+", " ", text).strip()
 
@@ -204,7 +248,20 @@ def verify(raw: Path, packet: Path, keep_furniture: bool) -> int:
     covered = bytearray(len(source))
     pages = len({page for page, _, _, _ in kept if page is not None})
     window = max(BACKTRACK, int(1.5 * len(source) / pages)) if pages else BACKTRACK
-    cursor, problems = 0, []
+    cursor, problems, page_checks = 0, [], []
+    # Where each page starts in the normalised source, to check "p. N" anchors.
+    page_starts, before = [], []
+    for page, _, text, _ in kept:
+        if page is not None and (not page_starts or page_starts[-1][0] != page):
+            page_starts.append((page, len(normalise("\n".join(before))) + (1 if before else 0)))
+        before.append(text)
+
+    def page_at(position: int) -> int | None:
+        found = None
+        for page, start in page_starts:
+            if start <= position + 1:
+                found = page
+        return found
 
     def nearest(cell: str, start: int) -> int:
         """First copy of cell at or after start that no earlier statement has claimed."""
@@ -220,7 +277,7 @@ def verify(raw: Path, packet: Path, keep_furniture: bool) -> int:
         if len(parts) != 3:
             problems.append(f"line {number}: not in `S001 | anchor | text` form")
             continue
-        source_id, _, text = parts
+        source_id, anchor, text = parts
         cells = [normalise(cell) for cell in text.split(" | ")]
         first = nearest(cells[0], max(0, cursor - window))
         if first < 0:
@@ -243,6 +300,9 @@ def verify(raw: Path, packet: Path, keep_furniture: bool) -> int:
             for a, b in spans:
                 covered[a:b] = b"\x01" * (b - a)
             cursor = end
+            cited_page = re.search(r"(?<!p)\bp\. (\d+)\b", anchor)
+            if cited_page and page_starts:
+                page_checks.append((source_id, int(cited_page.group(1)), page_at(first)))
     uncovered, piece = Counter(), []
     for index, character in enumerate(source + " "):
         if index < len(source) and not covered[index]:
@@ -258,6 +318,20 @@ def verify(raw: Path, packet: Path, keep_furniture: bool) -> int:
             print(f"  {problem}")
     else:
         print("PASS: every packet statement appears verbatim, in order, in the original.")
+    if page_checks:
+        # Anchors may use printed page numbers that differ from the file's by a fixed amount.
+        offset = Counter(cited - actual for _, cited, actual in page_checks if actual).most_common(1)[0][0]
+        wrong = [(source_id, cited, actual) for source_id, cited, actual in page_checks
+                 if actual and cited - actual != offset]
+        if offset:
+            print(f"NOTE: page anchors are consistently {offset:+d} from the file's page numbers "
+                  "(for example printed page numbers); checked on that basis.")
+        if wrong:
+            print("REVIEW: page anchors that do not match where the text starts:")
+            for source_id, cited, actual in wrong[:20]:
+                print(f"  - {source_id}: anchor says p. {cited}, text starts on p. {actual + offset}")
+        else:
+            print(f"ANCHORS: all {len(page_checks)} page anchors match where their text starts.")
     if dropped:
         print("SET ASIDE: page headers/footers repeated on most pages, kept once at first appearance:")
         for text, count in dropped.items():

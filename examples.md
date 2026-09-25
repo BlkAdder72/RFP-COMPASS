@@ -143,6 +143,7 @@ S042 | TSCC-WEB questions ¶ | Questions regarding this procurement should be su
 ## 11. Addenda, conflicts, and open items
 - “A draft table describing the delivery model for this contract is included below.” [source: source-packet.md:S010; TSCC-WEB delivery model ¶]
 - “This draft delivery model table is subject to change.” [source: source-packet.md:S011; TSCC-WEB delivery model ¶]
+- “Updates, including responses to written questions and any RFP addenda, will be provided on the CSCR.” [source: source-packet.md:S027; TSCC-WEB Anticipated Schedule CSCR paragraph]
 - “The RFP is anticipated to require detailed pricing for track and OCS of the construction work.” [source: source-packet.md:S038; TSCC-WEB Procurement Approach ¶2]
 
 ## 12. Unmapped source evidence

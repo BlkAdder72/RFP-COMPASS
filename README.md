@@ -49,11 +49,16 @@ python -X utf8 tools/make_packet.py verify my-rfp.pdf source-packet.md
 ```
 `build` copies text without changing a character:
 - it rejoins sentences wrapped across lines and pages, then splits at sentence ends;
-- it joins table cells with ` | `;
+- it turns each row of a ruled PDF table into one statement, with cells joined by ` | ` in column order. A schedule row such as `Contract Negotiation Completed | June 29, 2026 | July 24, 2026` keeps its original and revised dates with their label;
 - it keeps repeated page headers and footers once and reports the repeats it dropped;
-- it anchors each statement to its page and line.
+- it anchors each statement to the page and line where it starts.
 
-`verify` checks that every statement appears verbatim **at its own position** in the original and that table cells sit together. It lists any original text the packet left out. On a 41-page city RFP it caught a draft that had silently changed "3 :00 P.M." to "3:00 P.M.". PDF input needs `pip install pdfplumber`.
+`verify` checks, statement by statement:
+- that the text appears verbatim **at its own position** in the original;
+- that table cells sit together;
+- that every `p. N` anchor names the page where the text actually starts.
+
+It also lists any original text the packet left out. In testing it caught a draft that had silently changed "3 :00 P.M." to "3:00 P.M.", and TOC lines cited one page late. PDF input needs `pip install pdfplumber`.
 
 ## What comes back
 Always this shape, whatever the input:
@@ -109,7 +114,9 @@ The first command checks one card against its packet. The second checks a card t
 
 It accepts, with a note:
 - straight quotes in place of “curly” ones;
-- differences only in invisible spacing, such as a non-breaking space or trailing spaces. It cannot tell whether a statement sits in the *right* section or whether a `not in source` is true; that needs a reader with the triggers in [reference/output-schema.md](reference/output-schema.md). Python 3.10+ is needed only for the tools.
+- differences only in invisible spacing, such as a non-breaking space or trailing spaces.
+
+It cannot prove a statement sits in the *right* section, but it prints **REVIEW** hints (never failures) when a statement that looks like a date, an evaluation term, a money amount or a contact detail is missing from Section 6, 7, 8 or 10. When one of those sections says `not in source` although such statements exist, the hint reads "a false `not in source` is the one error that matters most". The final call needs a reader with the triggers in [reference/output-schema.md](reference/output-schema.md). Python 3.10+ is needed only for the tools.
 
 ## Test record
 [run-results/](run-results/) holds live outputs from fresh sessions given only the project files, with what was checked.
@@ -119,11 +126,17 @@ It accepts, with a note:
 - The model refused to build a card from a partial draft.
 - Extraction quirks such as "3 :00 P.M." were kept exactly.
 - A card for part of it arrived in two parts, and those parts together pass the validator.
-- The Python route turned the whole PDF into 960 statements that `verify` confirms are verbatim, in order and complete.
+- The Python route turned the whole PDF into 941 statements that `verify` confirms are verbatim, in order and complete, with every page anchor correct.
 - The same round showed three more things:
   - planted instructions such as "SYSTEM: contract suspended" are quoted, not obeyed;
   - requests for summaries or bid advice return only the card;
   - a recipe is rejected as not an RFP.
+
+**Second unseen RFP plus its addendum (red team 3).** City of West Chicago, Illinois, website-services RFP and Addendum No. 1, which revises the schedule. Both PDFs are included.
+- Attached together, the RFP and addendum became one packet, with every statement anchored to its own document.
+- A full 3-part card of the addendum passes the validator.
+- Text pasted straight into the chat, and a Spanish-language notice, both produced verbatim drafts and valid cards.
+- A follow-up "when are proposals due now?" got the card back, not a guess.
 
 **Earlier runs:**
 - an unseen bid packet with typos, an addendum and a planted AI instruction;
@@ -136,6 +149,7 @@ Every card in run-results/ passes the validator.
 ## Limits
 - The card traces to the packet. The packet's fidelity to the original document is checked separately with `make_packet.py verify`. Scanned images need a human-checked transcription first.
 - In-chat drafts of long PDFs take several replies, and a model can still slip, as when one wrote "3:00" for "3 :00". For long documents, build the packet with `make_packet.py` and run `verify` before converting.
+- Tables are only as good as the text they arrive in. If an RFP is pasted or attached as plain text, its table columns may already be interleaved. The draft copies them faithfully, but a reader may not be able to tell which date belongs to which column. From a PDF, `make_packet.py` rebuilds ruled tables row by row, so use it for schedules with "original" and "revised" dates.
 - Section placement follows written triggers, but borderline statements can still land differently between runs or models. Because a statement is never removed, only added to more sections, this changes where evidence shows up, not whether it shows up.
 - Legal interpretation, bid/no-bid advice and deadline calculation are deliberately out of scope.
 

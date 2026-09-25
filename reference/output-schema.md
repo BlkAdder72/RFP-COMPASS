@@ -59,7 +59,8 @@ Test every statement against every trigger below. Put it in **every** section wh
     - states an issuer right, reservation or administrative practice;
     - names a contact or question channel, or says where answers or updates are posted.
 11. **Addenda, conflicts, and open items.** The statement:
-    - comes from, or is, an addendum or amendment, or governs how addenda or amendments are issued or read;
+    - is substantive content of an addendum or amendment: it changes, extends, supersedes, corrects or clarifies a term, or answers a vendor question. Headings, page labels and other non-substantive lines of an addendum follow the other triggers (usually Section 12);
+    - governs how addenda or amendments are issued, posted, acknowledged or read (for example "Respondents must acknowledge Addendum 1", "Updates … and any RFP addenda will be provided on the CSCR");
     - changes, extends, supersedes or corrects another term;
     - is expressly draft, tentative, "subject to change" or "to be determined";
     - names a conflict or discrepancy itself.

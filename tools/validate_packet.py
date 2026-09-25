@@ -6,8 +6,11 @@ anywhere in the card (no prose, subheadings or notes); every bullet quotes one E
 statement verbatim with its exact ID and anchor; IDs ascending and unrepeated within each
 section; every source statement cited at least once.
 
-It does not judge whether a statement was placed in the right section, or whether a
-`- not in source` marker is true. Those need a human reader.
+It cannot prove that a statement is in the right section or that a `- not in source`
+marker is true. As a hint for the human reader it prints REVIEW notes (never failures) when
+a statement that looks like a date, an evaluation term, a money amount or a contact
+detail is missing from Section 6, 7, 8 or 10, or when one of those sections says `- not in source` although such
+statements exist.
 
 A long card may arrive in several replies. Pass the parts in order: every part except the
 last must end with the continuation marker line, and the last must not. Parts pasted
@@ -37,8 +40,18 @@ MISSING = "- not in source"
 CONTINUED = "<!-- RFP COMPASS: continued in next reply -->"
 SOURCE = re.compile(r"^(S\d+) \| ([^|]+?) \| (\S.*)$")
 BULLET = re.compile(r"^- (“|\")(.+)(”|\") \[source: source-packet\.md:(S\d+); (.+)\]$")
-INVISIBLE = {" ": " ", " ": " ", " ": " ", "​": "", "‌": "", "‍": "",
-             "⁠": "", "﻿": "", "­": ""}
+# Review hints (never failures): wording that usually means a statement belongs in a section.
+MONTHS = r"(January|February|March|April|May|June|July|August|September|October|November|December)"
+LIKELY = {
+    6: re.compile(MONTHS + r"\s+\d{1,2}\b|\b\d{1,2}/\d{1,2}/\d{2,4}\b|\b\d{1,2}\s?:\s?\d{2}\s*(a\.?m\.?|p\.?m\.?)(\W|$)",
+                  re.IGNORECASE),
+    7: re.compile(r"\b(evaluat\w*|scor(e|ed|es|ing)|criteria|weighted)\b|\b\d+\s*points?\b", re.IGNORECASE),
+    8: re.compile(r"\$\s?\d"),
+    10: re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+|\(\d{3}\)\s?\d{3}-\d{4}|\b\d{3}-\d{3}-\d{4}\b"),
+}
+LIKELY_NAMES = {6: "dates or times", 7: "evaluation terms", 8: "money amounts", 10: "contact details"}
+INVISIBLE = {"\u00a0": " ", "\u202f": " ", "\u2007": " ", "\u200b": "", "\u200c": "", "\u200d": "",
+             "\u2060": "", "\ufeff": "", "\u00ad": ""}
 
 
 def visible(text: str) -> str:
@@ -118,7 +131,7 @@ def validate(source: Path, outputs: list[Path]) -> tuple[list[str], list[str]]:
     if stray:
         errors.append(f"{output}: text between the title and section 1 is not allowed: {stray[0]}")
 
-    cited, straight, invisible = set(), 0, set()
+    cited, straight, invisible, placed = set(), 0, set(), {}
     for index, heading in enumerate(HEADINGS):
         start = lines.index(heading) + 1
         end = lines.index(HEADINGS[index + 1]) if index + 1 < len(HEADINGS) else len(lines)
@@ -161,6 +174,18 @@ def validate(source: Path, outputs: list[Path]) -> tuple[list[str], list[str]]:
             errors.append(f"{output}: {heading}: a source ID appears twice")
         if ids != sorted(ids, key=lambda value: int(value[1:])):
             errors.append(f"{output}: {heading}: bullets are not in source-ID order")
+        placed[index + 1] = set(ids)
+
+    for number, pattern in LIKELY.items():
+        matching = [source_id for source_id, (_, body) in statements.items() if pattern.search(body)]
+        unplaced = [source_id for source_id in matching if source_id not in placed.get(number, set())]
+        if matching and not placed.get(number):
+            notes.append(f"REVIEW {output}: Section {number} says `not in source`, but {', '.join(matching[:8])} "
+                         f"look like {LIKELY_NAMES[number]}. Check the section trigger; a false `not in source` is the "
+                         "one error that matters most")
+        elif unplaced:
+            notes.append(f"REVIEW {output}: {', '.join(unplaced[:8])} look like {LIKELY_NAMES[number]} "
+                         f"but are not in Section {number}; confirm that is intended")
 
     uncited = sorted(set(statements) - cited, key=lambda value: int(value[1:]))
     if uncited:

@@ -1,4 +1,5 @@
 PASS: every packet statement appears verbatim, in order, in the original.
+ANCHORS: all 941 page anchors match where their text starts.
 SET ASIDE: page headers/footers repeated on most pages, kept once at first appearance:
   - RFP ##-#   (40 repeats)
   - Page # of #   (40 repeats)

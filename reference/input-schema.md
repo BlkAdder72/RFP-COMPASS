@@ -33,6 +33,7 @@ When the user designates raw procurement text instead of a packet, the translato
   Never correct, normalise, reword, reorder or merge distant text.
 - **Page furniture.** A header or footer that repeats on most pages (running title, "Page N of M", revision stamp) is included at its first appearance only. Nothing else is skipped. The reply that completes the draft (the only reply, for a short document) says so on one line outside the code block, listing each repeated line and roughly how often it repeats. For example: `Repeated page headers/footers kept once: "RFP #056-2026" (on 41 pages); "Page N of 41" (on 41 pages).` If none repeat, say `Repeated page headers/footers kept once: none.`
 - **Anchors.** Anchor each statement as `<attachment file name> line N` (the line where it starts). For a PDF, use `<file name> p. P`; for pasted text, use `pasted text line N`.
+- **Several documents.** An RFP and its addenda attached together form one draft: take the documents in the order given and continue the numbering across them. Every anchor names its own document, so an addendum's statements are always distinguishable from the RFP's.
 - **Tables.** Join the cells of one table row with ` | `.
 - **Format.** Put the draft in one fenced code block labelled `source-packet.md`, with no other text inside the block.
 
