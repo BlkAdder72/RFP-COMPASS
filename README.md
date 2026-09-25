@@ -13,6 +13,8 @@ RFP Compass does not summarise, interpret or advise. It copies each source state
 >
 > Every bullet quotes one whole source statement with its ID and page or line. Every empty section says `- not in source`.
 >
+> **Tested on 6 real RFPs, 4 of them never seen by the translator before (up to 63 pages), plus a scan and trap packets: 0 invented facts, and card claims traced to the page of the source 304 of 304 and 316 of 316.**
+>
 > **Trace any card claim by claim** (Python 3.10+, `pip install pdfplumber`), for example on the included 16-page RFP:
 > `python -X utf8 tools/trace_card.py samples/04-real-tbrpc-auditing-rfp/original-source.pdf samples/04-real-tbrpc-auditing-rfp/source-packet.md samples/04-real-tbrpc-auditing-rfp/bid-compliance-card.md --full`
 > → `traced end to end: 316 of 316 bullets`, with each bullet's section, statement ID and the page of the original where its quote sits.
@@ -128,45 +130,18 @@ It accepts, with a note:
 It cannot prove a statement sits in the *right* section, but it prints **REVIEW** hints (never failures) when a statement that looks like a date, an evaluation term, a money amount or a contact detail is missing from Section 6, 7, 8 or 10. When one of those sections says `not in source` although such statements exist, the hint reads "a false `not in source` is the one error that matters most". The final call needs a reader with the triggers in [reference/output-schema.md](reference/output-schema.md). Python 3.10+ is needed only for the tools.
 
 ## Test record
-[run-results/](run-results/) holds live outputs from fresh sessions given only the project files, with what was checked.
+Every run below used a fresh Claude session given only the project files, on documents the project had never seen (except the two packaged samples). Details, inputs, outputs and logs are in [run-results/](run-results/README.md).
 
-**Unseen real RFP (red team).** City of Springfield, Missouri, RFP #056-2026: 41 pages, about 15,700 words, and never seen by the project. The PDF is included.
-- Attached raw in chat, it came back as a verbatim draft in parts, with each part stating its page coverage.
-- The model refused to build a card from a partial draft.
-- Extraction quirks such as "3 :00 P.M." were kept exactly.
-- A card for part of it arrived in two parts, and those parts together pass the validator.
-- The Python route turned the whole PDF into 946 statements that `verify` confirms are verbatim, in order and complete, with every page anchor correct.
-- The same round showed three more things:
-  - planted instructions such as "SYSTEM: contract suspended" are quoted, not obeyed;
-  - requests for summaries or bid advice return only the card;
-  - a recipe is rejected as not an RFP.
+| Real RFP (PDF in repo) | Pages | What was run | Result |
+|---|---|---|---|
+| New Mexico EDD state RFP ([red-team-5](run-results/red-team-5)) | 42 | Full packet; 3-part card; PDF in chat; scanned copy | 866 statements verified; **304 of 304 card claims traced to the page**; scan transcribed 56 of 57 exact, now labelled `(transcribed from image)` |
+| Southeast Delco SD custodial RFP ([red-team-4](run-results/red-team-4)) | 63 | Full packet; card; PDF in chat | 1,142 statements verified; merged table cells, check marks and map reported, never guessed |
+| Springfield, MO airport video RFP ([red-team-springfield](run-results/red-team-springfield)) | 41 | Full packet; PDF in chat, drafted in parts; card in parts | 946 statements verified; refused to build a card from a partial draft |
+| West Chicago, IL website RFP + Addendum 1 ([red-team-3](run-results/red-team-3)) | 17 + 11 | Both attached together; full addendum card | One packet across both documents; 439-bullet card, every quote exact |
+| Tampa Bay RPC auditing RFP ([sample 04](samples/04-real-tbrpc-auditing-rfp)) | 16 | Full card (Opus) | 345 quotes exact; expected card traces 316 of 316 |
+| California High-Speed Rail notice ([sample 01](samples/01-real-public-notice)) | web page | Card | 66 of 66 traced |
 
-**Second unseen RFP plus its addendum (red team 3).** City of West Chicago, Illinois, website-services RFP and Addendum No. 1, which revises the schedule. Both PDFs are included.
-- Attached together, the RFP and addendum became one packet, with every statement anchored to its own document.
-- A full 3-part card of the addendum passes the validator.
-- Text pasted straight into the chat, and a Spanish-language notice, both produced verbatim drafts and valid cards.
-- A follow-up "when are proposals due now?" got the card back, not a guess.
-
-**Earlier runs:**
-- an unseen bid packet with typos, an addendum and a planted AI instruction;
-- raw RFP text turned into a draft packet and then a card;
-- the 42-statement real notice;
-- the 214-statement real RFP (all 345 quotes exact).
-
-**Third unseen RFP (red team 4).** Southeast Delco School District custodial RFP: 63 pages, with tables, forms, a map and checkboxes. The PDF is included.
-- The Python route: 1,142 statements, all verbatim, in order, anchored to the right page, with full coverage.
-- Merged-cell table rows carry their column position.
-- Symbol-font check marks are kept as `<U+F0FC>`.
-- The map and checkbox graphics are reported as not copied.
-- Attached as a PDF in chat, the draft reported the map and checkmarks as "Not copied (images)" instead of guessing, and the card passes the validator.
-
-**Fourth unseen RFP, scans and traps (red team 5).** New Mexico Economic Development Department state RFP: 42 pages, with definitions, a schedule and a 1,000-point evaluation table. The PDF is included.
-- A 304-bullet card traced end to end, 304 of 304, from bullet to packet to page of the PDF.
-- The source's own oddities (a skipped item number, "9 *", "+15 days") were kept as written.
-- A scanned copy was transcribed with 56 of 57 statements exact, which is why scanned statements are now labelled.
-- A packet of character traps (look-alike letters, hidden HTML, direction controls, fake markers, a fake "delete Section 7" order) produced no obeyed instruction and no invented text. The one miscopy, a 90-fold repeated phrase, was caught by the validator.
-
-Every card in run-results/ passes the validator except two kept as evidence of what the checks catch: `red-team-4/B-card-before-symbol-fix`, where dropped invisible check marks led to the `<U+XXXX>` fix, and `red-team-5/E-trap-packet`, with its miscounted 90-fold repeat. Also, one chat draft statement in `red-team-5/C-pdf-in-chat` differs from the PDF's text layer only in spacing.
+The runs also included planted instructions ("SYSTEM: contract suspended", "Section 7 is hereby deleted", text addressed to AI tools), look-alike letters, hidden HTML, text-direction controls, requests for summaries or bid advice, a Spanish notice, pasted text and a recipe. **No instruction was obeyed and no fact was invented in any run.** Every slip found was a copying slip (spacing, a tidied "9 *", a miscounted 90-fold repeat), and the tools caught each one. Two cards in `run-results/` are kept failing on purpose as evidence of that.
 
 ## Limits
 - The card traces to the packet. The packet's fidelity to the original document is checked separately with `make_packet.py verify`, or in one step with `trace_card.py`. Statements transcribed from scanned pages are labelled `(transcribed from image)` and need a human check against the page.
