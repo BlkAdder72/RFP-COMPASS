@@ -1,0 +1,10 @@
+{
+  "sample04_S133_sections": [
+    2,
+    8,
+    11
+  ],
+  "examples_opening": "These pairs show the contract holding on a real notice, a sparse notice and an addendum that changes a deadline. Example 1 is text captured from a real public web page (see samples/01-real-public-notice/PROVENANCE.md); examples 2 and 3 are synthetic. A fourth, larger real example (a 16-page RFP, with its PDF) is in samples/04-real-tbrpc-auditing-rfp/. Examples are never evidence for a new run.",
+  "section11_rule": "Addenda, conflicts, and open items.** The statement:\n    - is substantive content of an addendum or amendment: it changes, extends, supersedes, corrects or clarifies a term, or answers a vendor question. Headings, page labels and other non-substantive lines of an addendum follow the other triggers (usually Section 12);\n    - governs how addenda or amendments are issued, posted, acknowledged or read (for example \"Respondents must acknowledge Addendum 1\", \"Updates … and any RFP addenda will be provided on the CSCR\");\n    - changes, extends, supersedes or corrects another term;\n    - is expressly draft, tentative, \"subject to change\" or \"to be determined\";\n    - names a conflict or discrepancy itself.\n\n    Never infer a conflict and never decide which term controls.\n",
+  "note": "Inspect exact excerpts for provenance disclosure and rule alignment; no model inference."
+}
