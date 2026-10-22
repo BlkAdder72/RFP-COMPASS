@@ -1,0 +1,28 @@
+{
+  "label": "personal-looking-real-deadline",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-looking-real-deadline\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-looking-real-deadline\\card.md"
+  ],
+  "source": "revision/default-tests-v2/inputs/personal-looking-real-deadline/source-packet.md",
+  "card": "revision/default-tests-v2/inputs/personal-looking-real-deadline/card.md",
+  "source_sha256": "05972cb01911fbf4796d74853cee992a9319d1bfc22df5797d802357d04b5cd8",
+  "card_sha256": "499f000c79de4f4f60bb21803aca2176d2f18afd7791917e578865fcbf8d2fc2",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 6,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

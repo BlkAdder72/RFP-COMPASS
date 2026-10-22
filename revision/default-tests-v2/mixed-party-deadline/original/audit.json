@@ -1,0 +1,28 @@
+{
+  "label": "mixed-party-deadline",
+  "arm": "original",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mixed-party-deadline\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mixed-party-deadline\\card.md"
+  ],
+  "source": "revision/default-tests-v2/inputs/mixed-party-deadline/source-packet.md",
+  "card": "revision/default-tests-v2/inputs/mixed-party-deadline/card.md",
+  "source_sha256": "e68c2df039a39b71e368703526d1943f78b4993d5624988d011910fdf846191e",
+  "card_sha256": "d5795aa3d05eecfe6e78ac850695d9220cd3c3f2516acca7dd3c23c451179745",
+  "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+  "section": 6,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

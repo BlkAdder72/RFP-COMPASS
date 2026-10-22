@@ -1,0 +1,28 @@
+{
+  "label": "family-birthday",
+  "arm": "original",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\family-birthday\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\family-birthday\\card.md"
+  ],
+  "source": "revision/default-tests/inputs/family-birthday/source-packet.md",
+  "card": "revision/default-tests/inputs/family-birthday/card.md",
+  "source_sha256": "909bec32a8ac28bb28f696801d39b9dc2906808f76b748d1c9c3a369522e3047",
+  "card_sha256": "5518e2e21c20b6c26fbe934733d82baa39aa324b95dc06493d648f8f1588196e",
+  "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+  "section": 6,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

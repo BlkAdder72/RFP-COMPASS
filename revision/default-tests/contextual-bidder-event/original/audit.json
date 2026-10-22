@@ -1,0 +1,28 @@
+{
+  "label": "contextual-bidder-event",
+  "arm": "original",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\contextual-bidder-event\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\contextual-bidder-event\\card.md"
+  ],
+  "source": "revision/default-tests/inputs/contextual-bidder-event/source-packet.md",
+  "card": "revision/default-tests/inputs/contextual-bidder-event/card.md",
+  "source_sha256": "05cc2618773e92cfc18df2de1b9d3827208acd417dd9e50df0b874b07e54fb66",
+  "card_sha256": "56d3dcb38cbf0b04a832ad5048fba8ea517deec567180622e3b27f0ded82cd6d",
+  "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+  "section": 6,
+  "sid": "S002",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

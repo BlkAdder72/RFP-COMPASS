@@ -1,0 +1,28 @@
+{
+  "label": "anniversary",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\anniversary\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\anniversary\\card.md"
+  ],
+  "source": "revision/default-tests/inputs/anniversary/source-packet.md",
+  "card": "revision/default-tests/inputs/anniversary/card.md",
+  "source_sha256": "75a32cbb7764d4826379f3bbd986970363f3485269729f58d84d083930c9fdf2",
+  "card_sha256": "7bf0e3d48e32a9955dd0b6d3707d6d943814c03ca6a299ced7afb5f788453155",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 6,
+  "sid": "S001",
+  "expect_warning": false,
+  "observed_warning": false,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

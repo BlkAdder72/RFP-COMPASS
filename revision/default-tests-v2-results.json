@@ -1,0 +1,1438 @@
+{
+  "count": 51,
+  "passed": 51,
+  "cases": [
+    {
+      "label": "personal-potluck-new-date",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-potluck-new-date\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-potluck-new-date\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/personal-potluck-new-date/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/personal-potluck-new-date/card.md",
+      "source_sha256": "c4bb7580aa071c0882404d91f24ca0cdf8fc379bf500b7004ce911e2b77344a7",
+      "card_sha256": "90609e25a1706ed32b8b251e49b423aa5f24cf01e409cab93d78c387dda4fe47",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "personal-potluck-new-date",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-potluck-new-date\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-potluck-new-date\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/personal-potluck-new-date/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/personal-potluck-new-date/card.md",
+      "source_sha256": "c4bb7580aa071c0882404d91f24ca0cdf8fc379bf500b7004ce911e2b77344a7",
+      "card_sha256": "90609e25a1706ed32b8b251e49b423aa5f24cf01e409cab93d78c387dda4fe47",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": false,
+      "observed_warning": false,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "neutral-dentist",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\neutral-dentist\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\neutral-dentist\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/neutral-dentist/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/neutral-dentist/card.md",
+      "source_sha256": "268621e727a8f271cea836721ed92d2ad08978a5b01c20baef4f1c5bd927a190",
+      "card_sha256": "e9b2d76d98f421c0f73d2de58529dc37056b5ffa7cb524ac0d16cb0f5434c03a",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "neutral-dentist",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\neutral-dentist\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\neutral-dentist\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/neutral-dentist/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/neutral-dentist/card.md",
+      "source_sha256": "268621e727a8f271cea836721ed92d2ad08978a5b01c20baef4f1c5bd927a190",
+      "card_sha256": "e9b2d76d98f421c0f73d2de58529dc37056b5ffa7cb524ac0d16cb0f5434c03a",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": false,
+      "observed_warning": false,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "family-birthday",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\family-birthday\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\family-birthday\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/family-birthday/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/family-birthday/card.md",
+      "source_sha256": "909bec32a8ac28bb28f696801d39b9dc2906808f76b748d1c9c3a369522e3047",
+      "card_sha256": "5518e2e21c20b6c26fbe934733d82baa39aa324b95dc06493d648f8f1588196e",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "family-birthday",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\family-birthday\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\family-birthday\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/family-birthday/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/family-birthday/card.md",
+      "source_sha256": "909bec32a8ac28bb28f696801d39b9dc2906808f76b748d1c9c3a369522e3047",
+      "card_sha256": "5518e2e21c20b6c26fbe934733d82baa39aa324b95dc06493d648f8f1588196e",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": false,
+      "observed_warning": false,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "anniversary",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\anniversary\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\anniversary\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/anniversary/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/anniversary/card.md",
+      "source_sha256": "75a32cbb7764d4826379f3bbd986970363f3485269729f58d84d083930c9fdf2",
+      "card_sha256": "7bf0e3d48e32a9955dd0b6d3707d6d943814c03ca6a299ced7afb5f788453155",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "anniversary",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\anniversary\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\anniversary\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/anniversary/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/anniversary/card.md",
+      "source_sha256": "75a32cbb7764d4826379f3bbd986970363f3485269729f58d84d083930c9fdf2",
+      "card_sha256": "7bf0e3d48e32a9955dd0b6d3707d6d943814c03ca6a299ced7afb5f788453155",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": false,
+      "observed_warning": false,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "family-recital",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\family-recital\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\family-recital\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/family-recital/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/family-recital/card.md",
+      "source_sha256": "ddcb10a04f038cca9fd8b1385e597c97967f4f82b2f0aff752d615bbd6daf956",
+      "card_sha256": "fe489b35e6cf4102279acd95ba391e2c9eae36e4942891c25d7232edafd9deab",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "family-recital",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\family-recital\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\family-recital\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/family-recital/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/family-recital/card.md",
+      "source_sha256": "ddcb10a04f038cca9fd8b1385e597c97967f4f82b2f0aff752d615bbd6daf956",
+      "card_sha256": "fe489b35e6cf4102279acd95ba391e2c9eae36e4942891c25d7232edafd9deab",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": false,
+      "observed_warning": false,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "family-money",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\family-money\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\family-money\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/family-money/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/family-money/card.md",
+      "source_sha256": "db07632de57c784e882ce7ad80071a385c99bb89bcfd1b70765021c622730b62",
+      "card_sha256": "d6b2dfb1516ca806482501c594f2dfe21c25951775161c738cb72fc9af5bde96",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 8,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "family-money",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\family-money\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\family-money\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/family-money/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/family-money/card.md",
+      "source_sha256": "db07632de57c784e882ce7ad80071a385c99bb89bcfd1b70765021c622730b62",
+      "card_sha256": "d6b2dfb1516ca806482501c594f2dfe21c25951775161c738cb72fc9af5bde96",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 8,
+      "sid": "S001",
+      "expect_warning": false,
+      "observed_warning": false,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "personal-contact",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-contact\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-contact\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/personal-contact/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/personal-contact/card.md",
+      "source_sha256": "019aec3c2d07610f4e37a3ee1d231265d1ac0b71427f8160000eab24f790387c",
+      "card_sha256": "150fefe19d75ab7473f2bd2c02425a2aec4ad3ddb9e28bf66268d36d9583880f",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 10,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "personal-contact",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-contact\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-contact\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/personal-contact/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/personal-contact/card.md",
+      "source_sha256": "019aec3c2d07610f4e37a3ee1d231265d1ac0b71427f8160000eab24f790387c",
+      "card_sha256": "150fefe19d75ab7473f2bd2c02425a2aec4ad3ddb9e28bf66268d36d9583880f",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 10,
+      "sid": "S001",
+      "expect_warning": false,
+      "observed_warning": false,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "unknown-meeting",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\unknown-meeting\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\unknown-meeting\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/unknown-meeting/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/unknown-meeting/card.md",
+      "source_sha256": "9bb9e15edd5883df18b589c6b549cebc40feeee52855b4617f1f6a4e6cf69b14",
+      "card_sha256": "090acb6a96f4cfbbc8d4a6d824efdb301471266afb5571ed3b4497f53acbf22e",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "unknown-meeting",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\unknown-meeting\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\unknown-meeting\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/unknown-meeting/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/unknown-meeting/card.md",
+      "source_sha256": "9bb9e15edd5883df18b589c6b549cebc40feeee52855b4617f1f6a4e6cf69b14",
+      "card_sha256": "090acb6a96f4cfbbc8d4a6d824efdb301471266afb5571ed3b4497f53acbf22e",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "indirect-real-deadline",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\indirect-real-deadline\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\indirect-real-deadline\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/indirect-real-deadline/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/indirect-real-deadline/card.md",
+      "source_sha256": "d704fcbeb2f28181a774349afa29dba5a0f36a155ea5d833de1970f18869daf4",
+      "card_sha256": "fb54438508895cc77f27a6f026707d7f7e70ee9ce6a8f911bb73e71550c32924",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "indirect-real-deadline",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\indirect-real-deadline\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\indirect-real-deadline\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/indirect-real-deadline/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/indirect-real-deadline/card.md",
+      "source_sha256": "d704fcbeb2f28181a774349afa29dba5a0f36a155ea5d833de1970f18869daf4",
+      "card_sha256": "fb54438508895cc77f27a6f026707d7f7e70ee9ce6a8f911bb73e71550c32924",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "applications-close",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\applications-close\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\applications-close\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/applications-close/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/applications-close/card.md",
+      "source_sha256": "5377258f44ddf86bdabdc264189e7401b4ee7c56557ebf2f432dfa180a35a6d2",
+      "card_sha256": "9f8bab642a27c77a470c12e51699e298f5b76dd6de40493acc82c60606104908",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "applications-close",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\applications-close\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\applications-close\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/applications-close/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/applications-close/card.md",
+      "source_sha256": "5377258f44ddf86bdabdc264189e7401b4ee7c56557ebf2f432dfa180a35a6d2",
+      "card_sha256": "9f8bab642a27c77a470c12e51699e298f5b76dd6de40493acc82c60606104908",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "personal-looking-real-deadline",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-looking-real-deadline\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-looking-real-deadline\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/personal-looking-real-deadline/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/personal-looking-real-deadline/card.md",
+      "source_sha256": "05972cb01911fbf4796d74853cee992a9319d1bfc22df5797d802357d04b5cd8",
+      "card_sha256": "499f000c79de4f4f60bb21803aca2176d2f18afd7791917e578865fcbf8d2fc2",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "personal-looking-real-deadline",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-looking-real-deadline\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-looking-real-deadline\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/personal-looking-real-deadline/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/personal-looking-real-deadline/card.md",
+      "source_sha256": "05972cb01911fbf4796d74853cee992a9319d1bfc22df5797d802357d04b5cd8",
+      "card_sha256": "499f000c79de4f4f60bb21803aca2176d2f18afd7791917e578865fcbf8d2fc2",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "mixed-party-deadline",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mixed-party-deadline\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mixed-party-deadline\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/mixed-party-deadline/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/mixed-party-deadline/card.md",
+      "source_sha256": "e68c2df039a39b71e368703526d1943f78b4993d5624988d011910fdf846191e",
+      "card_sha256": "d5795aa3d05eecfe6e78ac850695d9220cd3c3f2516acca7dd3c23c451179745",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "mixed-party-deadline",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mixed-party-deadline\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mixed-party-deadline\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/mixed-party-deadline/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/mixed-party-deadline/card.md",
+      "source_sha256": "e68c2df039a39b71e368703526d1943f78b4993d5624988d011910fdf846191e",
+      "card_sha256": "d5795aa3d05eecfe6e78ac850695d9220cd3c3f2516acca7dd3c23c451179745",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "mandatory-potluck",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mandatory-potluck\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mandatory-potluck\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/mandatory-potluck/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/mandatory-potluck/card.md",
+      "source_sha256": "75bdc1246f0a9c386b66b1b5beaa8417a9518c80d7068995e6854db8e49e4fbc",
+      "card_sha256": "402c7344d54ce97260bea6db5466aeaa5b85a77144d9123d8bfbbacb4dbce6a7",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "mandatory-potluck",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mandatory-potluck\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mandatory-potluck\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/mandatory-potluck/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/mandatory-potluck/card.md",
+      "source_sha256": "75bdc1246f0a9c386b66b1b5beaa8417a9518c80d7068995e6854db8e49e4fbc",
+      "card_sha256": "402c7344d54ce97260bea6db5466aeaa5b85a77144d9123d8bfbbacb4dbce6a7",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "required-personal-activity",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\required-personal-activity\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\required-personal-activity\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/required-personal-activity/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/required-personal-activity/card.md",
+      "source_sha256": "353e84551d744da16a8f2ff45fb55e41e128122a152a7bd4b12e3fcb98aaaabd",
+      "card_sha256": "ea574e23ad93fa3991775a3d4e05c224cd7f6b02e564ea8c4fb6d1e1329ac215",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "required-personal-activity",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\required-personal-activity\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\required-personal-activity\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/required-personal-activity/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/required-personal-activity/card.md",
+      "source_sha256": "353e84551d744da16a8f2ff45fb55e41e128122a152a7bd4b12e3fcb98aaaabd",
+      "card_sha256": "ea574e23ad93fa3991775a3d4e05c224cd7f6b02e564ea8c4fb6d1e1329ac215",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "contextual-bidder-event",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\contextual-bidder-event\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\contextual-bidder-event\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/contextual-bidder-event/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/contextual-bidder-event/card.md",
+      "source_sha256": "05cc2618773e92cfc18df2de1b9d3827208acd417dd9e50df0b874b07e54fb66",
+      "card_sha256": "56d3dcb38cbf0b04a832ad5048fba8ea517deec567180622e3b27f0ded82cd6d",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S002",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "contextual-bidder-event",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\contextual-bidder-event\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\contextual-bidder-event\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/contextual-bidder-event/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/contextual-bidder-event/card.md",
+      "source_sha256": "05cc2618773e92cfc18df2de1b9d3827208acd417dd9e50df0b874b07e54fb66",
+      "card_sha256": "56d3dcb38cbf0b04a832ad5048fba8ea517deec567180622e3b27f0ded82cd6d",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S002",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "generic-lunch-money",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\generic-lunch-money\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\generic-lunch-money\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/generic-lunch-money/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/generic-lunch-money/card.md",
+      "source_sha256": "a170d45350a110605266053a19c22cd901e84b20c4ac47d92c8ef4cc6139b164",
+      "card_sha256": "2a32e5820baf69f2bef7f3b0591c7b8c1b6a47c7107770704604dc53d9e4da63",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 8,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "generic-lunch-money",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\generic-lunch-money\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\generic-lunch-money\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/generic-lunch-money/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/generic-lunch-money/card.md",
+      "source_sha256": "a170d45350a110605266053a19c22cd901e84b20c4ac47d92c8ef4cc6139b164",
+      "card_sha256": "2a32e5820baf69f2bef7f3b0591c7b8c1b6a47c7107770704604dc53d9e4da63",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 8,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "genuine-fee",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\genuine-fee\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\genuine-fee\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/genuine-fee/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/genuine-fee/card.md",
+      "source_sha256": "128a4ad0c52183a29bc4ba6bc171c45182b6dbfcc67c36984e580b2e422d9665",
+      "card_sha256": "9f7c660311e4318f3012e4e0cca481811b70363b00f9ced00cbbe00a6652dd80",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 8,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "genuine-fee",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\genuine-fee\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\genuine-fee\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/genuine-fee/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/genuine-fee/card.md",
+      "source_sha256": "128a4ad0c52183a29bc4ba6bc171c45182b6dbfcc67c36984e580b2e422d9665",
+      "card_sha256": "9f7c660311e4318f3012e4e0cca481811b70363b00f9ced00cbbe00a6652dd80",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 8,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "genuine-contact",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\genuine-contact\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\genuine-contact\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/genuine-contact/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/genuine-contact/card.md",
+      "source_sha256": "8232b847c1cb55cccd1e2328bd4d0eb38d15fa76f50c5aa891f0623972119e0c",
+      "card_sha256": "405204e11de1e52a91b7c31a3c062c1999d87ee12dc0ff8797fcaf2de9a6e57e",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 10,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "genuine-contact",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\genuine-contact\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\genuine-contact\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/genuine-contact/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/genuine-contact/card.md",
+      "source_sha256": "8232b847c1cb55cccd1e2328bd4d0eb38d15fa76f50c5aa891f0623972119e0c",
+      "card_sha256": "405204e11de1e52a91b7c31a3c062c1999d87ee12dc0ff8797fcaf2de9a6e57e",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 10,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "mixed-contact",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mixed-contact\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mixed-contact\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/mixed-contact/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/mixed-contact/card.md",
+      "source_sha256": "f2e5904c4717bdcdfaff49c80aa0b15b3db868c358ed16899e74b4cb72d82bb1",
+      "card_sha256": "6890ca155a4851216ab303b56918f74691abd0cfe050ba9ab214d78bd5be967b",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 10,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "mixed-contact",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mixed-contact\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mixed-contact\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/mixed-contact/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/mixed-contact/card.md",
+      "source_sha256": "f2e5904c4717bdcdfaff49c80aa0b15b3db868c358ed16899e74b4cb72d82bb1",
+      "card_sha256": "6890ca155a4851216ab303b56918f74691abd0cfe050ba9ab214d78bd5be967b",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 10,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "public-procurement-social-event",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\public-procurement-social-event\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\public-procurement-social-event\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/public-procurement-social-event/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/public-procurement-social-event/card.md",
+      "source_sha256": "d7bc27d2f86e0afed9b2c89a7a29d531661c288ce16f136ff5c66fc07d060f4c",
+      "card_sha256": "924cec7816bcd26922f380d10e569b25aa1b43d9571ea2ccc8520538c04c4fcb",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "public-procurement-social-event",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\public-procurement-social-event\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\public-procurement-social-event\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/public-procurement-social-event/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/public-procurement-social-event/card.md",
+      "source_sha256": "d7bc27d2f86e0afed9b2c89a7a29d531661c288ce16f136ff5c66fc07d060f4c",
+      "card_sha256": "924cec7816bcd26922f380d10e569b25aa1b43d9571ea2ccc8520538c04c4fcb",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "Q8-contained",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md"
+      ],
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S004",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "Q8-real-deadline",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md"
+      ],
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/missed-deadline.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "662970a863f380f40ef7c46c5a0905f4bd61de6d62ad7f3d3357bb9da17b90ba",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S002",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "N1-misleading-anchor",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\fixtures\\K-unrelated-label.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N1-mislabeled-real-deadline\\evaluator-card.md"
+      ],
+      "source": "supplemental/fixtures/K-unrelated-label.md",
+      "card": "supplemental/tool-original/N1-mislabeled-real-deadline/evaluator-card.md",
+      "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+      "card_sha256": "436d9e41f3834349bf0c6e522a27c7e565c550a6e0b7745806791f83521f3263",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S002",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "N2-neutral-personal",
+      "arm": "original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\fixtures\\F-neutral-personal.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N2-neutral-personal\\evaluator-card.md"
+      ],
+      "source": "supplemental/fixtures/F-neutral-personal.md",
+      "card": "supplemental/tool-original/N2-neutral-personal/evaluator-card.md",
+      "source_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+      "card_sha256": "2ca84b5c39b9131a854666df79fdbbe52b4d30a02f24772d4fdf906b1f123d02",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "section": 6,
+      "sid": "S002",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "Q8-contained",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md"
+      ],
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S004",
+      "expect_warning": false,
+      "observed_warning": false,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "Q8-real-deadline",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md"
+      ],
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/missed-deadline.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "662970a863f380f40ef7c46c5a0905f4bd61de6d62ad7f3d3357bb9da17b90ba",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S002",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "N1-misleading-anchor",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\fixtures\\K-unrelated-label.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N1-mislabeled-real-deadline\\evaluator-card.md"
+      ],
+      "source": "supplemental/fixtures/K-unrelated-label.md",
+      "card": "supplemental/tool-original/N1-mislabeled-real-deadline/evaluator-card.md",
+      "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+      "card_sha256": "436d9e41f3834349bf0c6e522a27c7e565c550a6e0b7745806791f83521f3263",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S002",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "N2-neutral-personal",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\fixtures\\F-neutral-personal.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N2-neutral-personal\\evaluator-card.md"
+      ],
+      "source": "supplemental/fixtures/F-neutral-personal.md",
+      "card": "supplemental/tool-original/N2-neutral-personal/evaluator-card.md",
+      "source_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+      "card_sha256": "2ca84b5c39b9131a854666df79fdbbe52b4d30a02f24772d4fdf906b1f123d02",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S002",
+      "expect_warning": false,
+      "observed_warning": false,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true
+      },
+      "passed": true
+    },
+    {
+      "label": "operational-duplicate",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\operational-duplicate\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\operational-duplicate\\card.md"
+      ],
+      "source": "revision/default-tests-v2/inputs/operational-duplicate/source-packet.md",
+      "card": "revision/default-tests-v2/inputs/operational-duplicate/card.md",
+      "source_sha256": "f4f06cb40881a0de172fda8ffd0a259771d7f78bb35afdcdbf825f1af02b093f",
+      "card_sha256": "72cb57260cfdb0a23f43837df7845ec6583485abe9d7dc5d7eb33194ea04a7b8",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 8,
+      "sid": "S001",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "validity": true,
+        "hint": true,
+        "filter_presence": true
+      },
+      "passed": true
+    },
+    {
+      "label": "changed-quote",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\changed-quote.md"
+      ],
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "revision/default-tests-v2/inputs/changed-quote.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "5b73a42ab9d0e10ff74bd3f0a41d838100e33eaabbd26601bfd938f1767b0ca2",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S004",
+      "expect_warning": true,
+      "observed_warning": true,
+      "expect_valid": false,
+      "exit_code": 1,
+      "checks": {
+        "validity": true,
+        "hint": true,
+        "filter_presence": true
+      },
+      "passed": true
+    },
+    {
+      "label": "missing-heading",
+      "arm": "rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\missing-heading.md"
+      ],
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "revision/default-tests-v2/inputs/missing-heading.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8940276bb7ca3356a4d9b81ae989fcd056d2d851f875ba8b7f59e4b57a46305e",
+      "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+      "section": 6,
+      "sid": "S004",
+      "expect_warning": false,
+      "observed_warning": false,
+      "expect_valid": false,
+      "exit_code": 1,
+      "checks": {
+        "validity": true,
+        "hint": true,
+        "filter_presence": true
+      },
+      "passed": true
+    }
+  ],
+  "review_records_supplied": false
+}

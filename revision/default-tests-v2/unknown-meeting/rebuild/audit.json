@@ -1,0 +1,28 @@
+{
+  "label": "unknown-meeting",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\unknown-meeting\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\unknown-meeting\\card.md"
+  ],
+  "source": "revision/default-tests-v2/inputs/unknown-meeting/source-packet.md",
+  "card": "revision/default-tests-v2/inputs/unknown-meeting/card.md",
+  "source_sha256": "9bb9e15edd5883df18b589c6b549cebc40feeee52855b4617f1f6a4e6cf69b14",
+  "card_sha256": "090acb6a96f4cfbbc8d4a6d824efdb301471266afb5571ed3b4497f53acbf22e",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 6,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

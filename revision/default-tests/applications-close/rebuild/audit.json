@@ -1,0 +1,28 @@
+{
+  "label": "applications-close",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\applications-close\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\applications-close\\card.md"
+  ],
+  "source": "revision/default-tests/inputs/applications-close/source-packet.md",
+  "card": "revision/default-tests/inputs/applications-close/card.md",
+  "source_sha256": "5377258f44ddf86bdabdc264189e7401b4ee7c56557ebf2f432dfa180a35a6d2",
+  "card_sha256": "9f8bab642a27c77a470c12e51699e298f5b76dd6de40493acc82c60606104908",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 6,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

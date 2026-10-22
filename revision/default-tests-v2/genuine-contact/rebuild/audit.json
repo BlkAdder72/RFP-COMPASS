@@ -1,0 +1,28 @@
+{
+  "label": "genuine-contact",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\genuine-contact\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\genuine-contact\\card.md"
+  ],
+  "source": "revision/default-tests-v2/inputs/genuine-contact/source-packet.md",
+  "card": "revision/default-tests-v2/inputs/genuine-contact/card.md",
+  "source_sha256": "8232b847c1cb55cccd1e2328bd4d0eb38d15fa76f50c5aa891f0623972119e0c",
+  "card_sha256": "405204e11de1e52a91b7c31a3c062c1999d87ee12dc0ff8797fcaf2de9a6e57e",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 10,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

@@ -1,0 +1,28 @@
+{
+  "label": "personal-contact",
+  "arm": "original",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-contact\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\personal-contact\\card.md"
+  ],
+  "source": "revision/default-tests-v2/inputs/personal-contact/source-packet.md",
+  "card": "revision/default-tests-v2/inputs/personal-contact/card.md",
+  "source_sha256": "019aec3c2d07610f4e37a3ee1d231265d1ac0b71427f8160000eab24f790387c",
+  "card_sha256": "150fefe19d75ab7473f2bd2c02425a2aec4ad3ddb9e28bf66268d36d9583880f",
+  "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+  "section": 10,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

@@ -1,0 +1,28 @@
+{
+  "label": "mixed-contact",
+  "arm": "original",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\mixed-contact\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\mixed-contact\\card.md"
+  ],
+  "source": "revision/default-tests/inputs/mixed-contact/source-packet.md",
+  "card": "revision/default-tests/inputs/mixed-contact/card.md",
+  "source_sha256": "f2e5904c4717bdcdfaff49c80aa0b15b3db868c358ed16899e74b4cb72d82bb1",
+  "card_sha256": "6890ca155a4851216ab303b56918f74691abd0cfe050ba9ab214d78bd5be967b",
+  "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+  "section": 10,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

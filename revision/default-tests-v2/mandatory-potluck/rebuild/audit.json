@@ -1,0 +1,28 @@
+{
+  "label": "mandatory-potluck",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mandatory-potluck\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\mandatory-potluck\\card.md"
+  ],
+  "source": "revision/default-tests-v2/inputs/mandatory-potluck/source-packet.md",
+  "card": "revision/default-tests-v2/inputs/mandatory-potluck/card.md",
+  "source_sha256": "75bdc1246f0a9c386b66b1b5beaa8417a9518c80d7068995e6854db8e49e4fbc",
+  "card_sha256": "402c7344d54ce97260bea6db5466aeaa5b85a77144d9123d8bfbbacb4dbce6a7",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 6,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

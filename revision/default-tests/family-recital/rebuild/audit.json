@@ -1,0 +1,28 @@
+{
+  "label": "family-recital",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\family-recital\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\family-recital\\card.md"
+  ],
+  "source": "revision/default-tests/inputs/family-recital/source-packet.md",
+  "card": "revision/default-tests/inputs/family-recital/card.md",
+  "source_sha256": "ddcb10a04f038cca9fd8b1385e597c97967f4f82b2f0aff752d615bbd6daf956",
+  "card_sha256": "fe489b35e6cf4102279acd95ba391e2c9eae36e4942891c25d7232edafd9deab",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 6,
+  "sid": "S001",
+  "expect_warning": false,
+  "observed_warning": false,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

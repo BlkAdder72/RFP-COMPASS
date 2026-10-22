@@ -1,0 +1,28 @@
+{
+  "label": "Q8-contained",
+  "arm": "original",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md"
+  ],
+  "source": "fixtures/A-stapled-thread.md",
+  "card": "run-original/Q8-validator/contained.md",
+  "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+  "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+  "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+  "section": 6,
+  "sid": "S004",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

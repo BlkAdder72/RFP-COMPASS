@@ -1,0 +1,28 @@
+{
+  "label": "genuine-fee",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\genuine-fee\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\genuine-fee\\card.md"
+  ],
+  "source": "revision/default-tests-v2/inputs/genuine-fee/source-packet.md",
+  "card": "revision/default-tests-v2/inputs/genuine-fee/card.md",
+  "source_sha256": "128a4ad0c52183a29bc4ba6bc171c45182b6dbfcc67c36984e580b2e422d9665",
+  "card_sha256": "9f7c660311e4318f3012e4e0cca481811b70363b00f9ced00cbbe00a6652dd80",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 8,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

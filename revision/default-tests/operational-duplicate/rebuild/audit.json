@@ -1,0 +1,29 @@
+{
+  "label": "operational-duplicate",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\operational-duplicate\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\operational-duplicate\\card.md"
+  ],
+  "source": "revision/default-tests/inputs/operational-duplicate/source-packet.md",
+  "card": "revision/default-tests/inputs/operational-duplicate/card.md",
+  "source_sha256": "f4f06cb40881a0de172fda8ffd0a259771d7f78bb35afdcdbf825f1af02b093f",
+  "card_sha256": "72cb57260cfdb0a23f43837df7845ec6583485abe9d7dc5d7eb33194ea04a7b8",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 8,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true,
+    "filter_presence": true
+  },
+  "passed": true
+}

@@ -53,6 +53,36 @@ LIKELY = {
     10: re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+|\(\d{3}\)\s?\d{3}-\d{4}|\b\d{3}-\d{3}-\d{4}\b"),
 }
 LIKELY_NAMES = {6: "dates or times", 7: "evaluation terms", 8: "money amounts", 10: "contact details"}
+# Body-supported, conservative personal evidence. Never classify from a filename,
+# source ID, date, or the card's own placement alone. Explicit requirements win.
+PROCUREMENT_CUE = re.compile(
+    r"\b(responses?|applicants?|applications?|proposals?|bidders?|respondents?|solicitations?|rfp|ifb|rfq|bids?|contracts?|"
+    r"procurement|addend(?:um|a)|tenders?|vendors?|submissions?|submit|submitted|required|requires|mandatory|shall|must|"
+    r"deadlines?|due|closing|closes?|eligibility|registration|awards?|fees?|pricing)\b", re.IGNORECASE)
+PERSONAL_OWNER = re.compile(r"\b(my|our|your|his|her|their)\b", re.IGNORECASE)
+PERSONAL_ACTIVITY = re.compile(
+    r"\b(potluck|birthday|dentist|wedding\s+anniversary|family\s+(picnic|party|reunion|dinner)|"
+    r"(piano|school|dance)\s+recital)\b", re.IGNORECASE)
+EVENT_HEADER = re.compile(r"\b(events?|meetings?|conferences?|attendance|activities|schedule)\b", re.IGNORECASE)
+
+
+def personal_hint_exclusions(statements, placed):
+    """Bounded personal-calendar filter, with a veto for requirement-bearing text.
+
+    This is not a complete semantic classifier. Unknown meetings and mixed
+    requirements keep their hints. Anchors can scope a protective event header,
+    but their wording never grants exclusion.
+    """
+    result = set()
+    protected_anchors = set()
+    for sid, (anchor, body) in statements.items():
+        if body.rstrip().endswith(":") and PROCUREMENT_CUE.search(body) and EVENT_HEADER.search(body):
+            protected_anchors.add(anchor)
+        personal = PERSONAL_OWNER.search(body) and PERSONAL_ACTIVITY.search(body)
+        only12 = sid in placed.get(12, set()) and not any(sid in placed.get(s, set()) for s in range(1, 12))
+        if personal and only12 and not PROCUREMENT_CUE.search(body) and anchor not in protected_anchors:
+            result.add(sid)
+    return result
 INVISIBLE = {"\u00a0": " ", "\u202f": " ", "\u2007": " ", "\u200b": "", "\u200c": "", "\u200d": "",
              "\u2060": "", "\ufeff": "", "\u00ad": ""}
 
@@ -232,9 +262,12 @@ def validate(source: Path, outputs: list[Path], review_path: Path | None = None)
         notes.append(f"APPLIED EXCLUSIONS {review_path}: {', '.join(sorted(approved))}; explicit review decisions, not automatic relevance proof")
     elif errors:
         approved = set()
+    personal = personal_hint_exclusions(statements, placed) if not errors else set()
+    if personal:
+        notes.append(f"PERSONAL HINT FILTER: {', '.join(sorted(personal))}; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof")
     for number, pattern in LIKELY.items():
         matching = [source_id for source_id, (_, body) in statements.items()
-                    if pattern.search(body) and source_id not in approved]
+                    if pattern.search(body) and source_id not in approved and source_id not in personal]
         unplaced = [source_id for source_id in matching if source_id not in placed.get(number, set())]
         if matching and not placed.get(number):
             notes.append(f"REVIEW {output}: Section {number} says `not in source`, but {', '.join(matching[:8])} "

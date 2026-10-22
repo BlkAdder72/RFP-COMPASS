@@ -1,0 +1,28 @@
+{
+  "label": "N1-misleading-anchor",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\fixtures\\K-unrelated-label.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N1-mislabeled-real-deadline\\evaluator-card.md"
+  ],
+  "source": "supplemental/fixtures/K-unrelated-label.md",
+  "card": "supplemental/tool-original/N1-mislabeled-real-deadline/evaluator-card.md",
+  "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+  "card_sha256": "436d9e41f3834349bf0c6e522a27c7e565c550a6e0b7745806791f83521f3263",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 6,
+  "sid": "S002",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

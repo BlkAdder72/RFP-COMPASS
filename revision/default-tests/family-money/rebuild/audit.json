@@ -1,0 +1,28 @@
+{
+  "label": "family-money",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\family-money\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\family-money\\card.md"
+  ],
+  "source": "revision/default-tests/inputs/family-money/source-packet.md",
+  "card": "revision/default-tests/inputs/family-money/card.md",
+  "source_sha256": "db07632de57c784e882ce7ad80071a385c99bb89bcfd1b70765021c622730b62",
+  "card_sha256": "d6b2dfb1516ca806482501c594f2dfe21c25951775161c738cb72fc9af5bde96",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 8,
+  "sid": "S001",
+  "expect_warning": false,
+  "observed_warning": false,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

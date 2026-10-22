@@ -1,0 +1,28 @@
+{
+  "label": "generic-lunch-money",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\generic-lunch-money\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\generic-lunch-money\\card.md"
+  ],
+  "source": "revision/default-tests-v2/inputs/generic-lunch-money/source-packet.md",
+  "card": "revision/default-tests-v2/inputs/generic-lunch-money/card.md",
+  "source_sha256": "a170d45350a110605266053a19c22cd901e84b20c4ac47d92c8ef4cc6139b164",
+  "card_sha256": "2a32e5820baf69f2bef7f3b0591c7b8c1b6a47c7107770704604dc53d9e4da63",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 8,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

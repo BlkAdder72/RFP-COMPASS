@@ -1,0 +1,28 @@
+{
+  "label": "indirect-real-deadline",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\indirect-real-deadline\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\indirect-real-deadline\\card.md"
+  ],
+  "source": "revision/default-tests/inputs/indirect-real-deadline/source-packet.md",
+  "card": "revision/default-tests/inputs/indirect-real-deadline/card.md",
+  "source_sha256": "d704fcbeb2f28181a774349afa29dba5a0f36a155ea5d833de1970f18869daf4",
+  "card_sha256": "fb54438508895cc77f27a6f026707d7f7e70ee9ce6a8f911bb73e71550c32924",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 6,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

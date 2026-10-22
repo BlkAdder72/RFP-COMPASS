@@ -1,0 +1,29 @@
+{
+  "label": "changed-quote",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\changed-quote.md"
+  ],
+  "source": "fixtures/A-stapled-thread.md",
+  "card": "revision/default-tests/inputs/changed-quote.md",
+  "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+  "card_sha256": "5b73a42ab9d0e10ff74bd3f0a41d838100e33eaabbd26601bfd938f1767b0ca2",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 6,
+  "sid": "S004",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": false,
+  "exit_code": 1,
+  "checks": {
+    "validity": true,
+    "hint": true,
+    "filter_presence": true
+  },
+  "passed": true
+}

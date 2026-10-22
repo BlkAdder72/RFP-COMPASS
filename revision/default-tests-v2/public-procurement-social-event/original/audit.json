@@ -1,0 +1,28 @@
+{
+  "label": "public-procurement-social-event",
+  "arm": "original",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\public-procurement-social-event\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests-v2\\inputs\\public-procurement-social-event\\card.md"
+  ],
+  "source": "revision/default-tests-v2/inputs/public-procurement-social-event/source-packet.md",
+  "card": "revision/default-tests-v2/inputs/public-procurement-social-event/card.md",
+  "source_sha256": "d7bc27d2f86e0afed9b2c89a7a29d531661c288ce16f136ff5c66fc07d060f4c",
+  "card_sha256": "924cec7816bcd26922f380d10e569b25aa1b43d9571ea2ccc8520538c04c4fcb",
+  "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+  "section": 6,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

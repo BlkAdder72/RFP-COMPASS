@@ -1,0 +1,28 @@
+{
+  "label": "personal-potluck-new-date",
+  "arm": "original",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\personal-potluck-new-date\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\personal-potluck-new-date\\card.md"
+  ],
+  "source": "revision/default-tests/inputs/personal-potluck-new-date/source-packet.md",
+  "card": "revision/default-tests/inputs/personal-potluck-new-date/card.md",
+  "source_sha256": "c4bb7580aa071c0882404d91f24ca0cdf8fc379bf500b7004ce911e2b77344a7",
+  "card_sha256": "90609e25a1706ed32b8b251e49b423aa5f24cf01e409cab93d78c387dda4fe47",
+  "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+  "section": 6,
+  "sid": "S001",
+  "expect_warning": true,
+  "observed_warning": true,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}

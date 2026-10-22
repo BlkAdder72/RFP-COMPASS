@@ -1,0 +1,28 @@
+{
+  "label": "neutral-dentist",
+  "arm": "rebuild",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\neutral-dentist\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\revision\\default-tests\\inputs\\neutral-dentist\\card.md"
+  ],
+  "source": "revision/default-tests/inputs/neutral-dentist/source-packet.md",
+  "card": "revision/default-tests/inputs/neutral-dentist/card.md",
+  "source_sha256": "268621e727a8f271cea836721ed92d2ad08978a5b01c20baef4f1c5bd927a190",
+  "card_sha256": "e9b2d76d98f421c0f73d2de58529dc37056b5ffa7cb524ac0d16cb0f5434c03a",
+  "validator_sha256": "0985a0fbff3c236caec8860a6304bb5ec9649360d84ae4845f06e7a05cfd1c06",
+  "section": 6,
+  "sid": "S001",
+  "expect_warning": false,
+  "observed_warning": false,
+  "expect_valid": true,
+  "exit_code": 0,
+  "checks": {
+    "validity": true,
+    "hint": true
+  },
+  "passed": true
+}
