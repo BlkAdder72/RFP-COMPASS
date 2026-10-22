@@ -1,0 +1,39 @@
+{
+  "commit": "1d42007ca8f59797abc5ac4cc4c5f63c741452a6",
+  "checks": [
+    {
+      "case": "offline-audit",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "tools/verify_submission.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "case": "original-preflight",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "tools/run_arm.py",
+        "original",
+        "--output-dir",
+        ".run-work/audit-original",
+        "--preflight-only"
+      ],
+      "exit_code": 0
+    },
+    {
+      "case": "rebuild-preflight",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "tools/run_arm.py",
+        "rebuild",
+        "--output-dir",
+        ".run-work/audit-rebuild",
+        "--preflight-only"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "preflight_writes": false,
+  "model_calls": 0
+}

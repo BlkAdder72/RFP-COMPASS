@@ -1,0 +1,1 @@
+PREFLIGHT PASS: executable/flags, knowledge, fixtures, and new output path. No model call or writes. Authentication/model access will be tested by the first real trial.

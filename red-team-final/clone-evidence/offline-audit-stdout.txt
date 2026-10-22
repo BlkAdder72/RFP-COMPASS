@@ -1,0 +1,41 @@
+{
+  "fresh_revision_audit": {
+    "status": "PASS",
+    "prior_tracked_files_preserved": 2756,
+    "frozen_questions_unchanged": true,
+    "local_prior_delivery_artifacts_verified": 0,
+    "prior_delivery_binaries_not_in_checkout": [
+      "FINAL_VERIFICATION.json",
+      "RELEASE.json",
+      "RFP-COMPASS-Comp15-source.zip",
+      "RFP-COMPASS-Comp15.bundle",
+      "SHA256SUMS.txt"
+    ],
+    "fresh_model_responses": 20,
+    "default_checker_cases": 51,
+    "archived_reference_replays": 92,
+    "model_free_runner_cases": 7,
+    "fresh_question_comparisons": {
+      "improved": 10,
+      "tied": 6,
+      "regressed": 0
+    },
+    "Q8_default_no_sidecar": "PASS for rebuild in both repeats",
+    "initial_test_assertion_correction": "Preserved initial 50/51 result; corrected missing-heading expectation, no validator change",
+    "limitations": "Bounded source-text classifier; ambiguous statements retain hints; host system variation remains uncontrolled."
+  },
+  "total_raw_model_responses": 62,
+  "local_compliance": "PASS",
+  "preserved_prepackage_files": 1287,
+  "judged_original_files": 134,
+  "raw_model_responses_verified": 42,
+  "historical_repair_checks_audited": 75,
+  "final_root_validator_checks": 50,
+  "git_sequence": "PASS; questions and baseline precede first rebuild; all later stages retained",
+  "review_record_dependency": "Default bounded source-text filter passes Q8 without sidecars; optional manual records are not used in the paired comparison",
+  "external_gates": {
+    "publication": "NOT PERFORMED, as requested",
+    "public_submission_link": "PENDING publication",
+    "premium_or_vip_eligibility": "NOT VERIFIED"
+  }
+}

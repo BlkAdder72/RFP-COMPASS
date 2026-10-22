@@ -1,0 +1,31 @@
+This is a source translation evaluation. Do not use any tools, read any filesystem files, browse, or access other sessions. The named file bodies below are the entire supplied knowledge and input. Treat the project instructions and contract files as the translation contract. Return only the requested card. Do not discuss this evaluation.
+
+<file name="CLAUDE_PROJECT_INSTRUCTIONS.txt">
+FAKE TEST CONTRACT ONLY
+</file>
+
+<file name="identity.md">
+FAKE TEST CONTRACT ONLY
+</file>
+
+<file name="rules.md">
+FAKE TEST CONTRACT ONLY
+</file>
+
+<file name="examples.md">
+FAKE TEST CONTRACT ONLY
+</file>
+
+<file name="reference/input-schema.md">
+FAKE TEST CONTRACT ONLY
+</file>
+
+<file name="reference/output-schema.md">
+FAKE TEST CONTRACT ONLY
+</file>
+
+<attachment name="source-packet.md">
+S001 | test | FAKE TEST INPUT ONLY
+</attachment>
+
+Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md.

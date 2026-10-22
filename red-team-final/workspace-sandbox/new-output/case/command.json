@@ -1,0 +1,17 @@
+[
+  "fake executable path with spaces",
+  "exec",
+  "--ignore-user-config",
+  "--ephemeral",
+  "--skip-git-repo-check",
+  "--sandbox",
+  "read-only",
+  "-C",
+  "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-final\\workspace-sandbox\\.run-work\\rfp-eval-97xi5rzt",
+  "-m",
+  "gpt-6-astra",
+  "-c",
+  "model_reasoning_effort=\"medium\"",
+  "--json",
+  "-"
+]
