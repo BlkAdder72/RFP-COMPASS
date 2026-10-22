@@ -19,7 +19,9 @@ These eight questions derive from the two fixes and tier-improvement request in 
 
 Model trials run in order Q1/Q2 (one card from A), Q3 (B), Q4 (C), Q5 (D), Q6 (E). Q7 and Q8 are file/tool inspections, not simulated model conversations. Report all eight questions individually.
 
-Each card trial uses a fresh session. Supply only that arm's CLAUDE_PROJECT_INSTRUCTIONS.txt, identity.md, rules.md, examples.md, reference/input-schema.md and reference/output-schema.md, plus the one fixture. Exclude feedback, expected answers, sample cards, old runs, tools, and the opposite arm. Preserve examples.md because it is shipped knowledge in the original. Disable browsing and tools for translation.
+Each card trial uses a fresh session. Supply only that arm's CLAUDE_PROJECT_INSTRUCTIONS.txt, identity.md, rules.md, examples.md, reference/input-schema.md and reference/output-schema.md, plus the one fixture. Exclude feedback, expected answers, sample cards, old runs, tools, and the opposite arm. Preserve examples.md because it is shipped knowledge in the original. Prohibit browsing and tools for translation and audit raw events for tool use; a tool-using run is invalid, retained, and investigated rather than counted.
+
+Pre-run harness choice: automated OpenAI Codex CLI, model `gpt-6-astra`, medium reasoning, fresh ephemeral sessions, user config ignored. Named file bodies are supplied inline through UTF-8 stdin rather than native Claude attachments. The exact wrapper and command are preserved per trial. Host instructions and tool availability are a disclosed limitation; both arms use the same harness. A connectivity-only READY smoke test preceded these runs and contained no fixtures. There is no claim to reproduce the judges' model environment.
 
 Use this exact user prompt each time, with the fixture supplied as an attachment named source-packet.md:
 
