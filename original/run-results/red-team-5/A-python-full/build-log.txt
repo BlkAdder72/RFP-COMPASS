@@ -1,0 +1,3 @@
+collapsed 38 repeat(s) of page header/footer: #
+866 statements
+not copied: p. 1: 1 large image(s) (figure, map, logo or scan): any text inside is not in the packet
