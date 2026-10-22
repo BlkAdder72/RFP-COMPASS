@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "packet_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+  "reviewer": "Codex evaluation adjudication; not owner or independent human approval",
+  "decisions": [
+    {
+      "source_id": "S002",
+      "statement_sha256": "47e47af66c0dab49fcb443e26aa91c7016711b78092b90bca2861ff00b44ff04",
+      "reason": "Synthetic personal content adjudicated against frozen repair protocol; preserve only in Section 12."
+    },
+    {
+      "source_id": "S003",
+      "statement_sha256": "dc94f89c5533ce5a90e5366aaa123ce5bbb6ed39202d096d893e152892d55225",
+      "reason": "Synthetic personal content adjudicated against frozen repair protocol; preserve only in Section 12."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "label": "replay-stress-rebuild-K-unrelated-label-1",
+  "version": "repaired",
+  "source": "supplemental/fixtures/K-unrelated-label.md",
+  "card": "supplemental/run-rebuild/K-unrelated-label/repeat-1/bid-compliance-card.md",
+  "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+  "card_sha256": "5161fd1da4d7079638d4d73db182a66f364881f54186ed4ac95127792bb4fca3",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

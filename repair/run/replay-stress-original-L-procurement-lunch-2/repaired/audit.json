@@ -1,0 +1,16 @@
+{
+  "label": "replay-stress-original-L-procurement-lunch-2",
+  "version": "repaired",
+  "source": "supplemental/fixtures/L-procurement-lunch.md",
+  "card": "supplemental/run-original/L-procurement-lunch/repeat-2/bid-compliance-card.md",
+  "source_sha256": "5860356bf0bcde4d17eace13e23365b3e8d14f6faeade38f7fb58361507b4d44",
+  "card_sha256": "1926536ed7b5066a2f816f92de3126f063417b9f3e7fbbdf7f571f4a88cb652b",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

@@ -1,0 +1,16 @@
+{
+  "label": "sample-01-real-public-notice",
+  "version": "repaired",
+  "source": "repair/candidate/samples/01-real-public-notice/source-packet.md",
+  "card": "repair/candidate/samples/01-real-public-notice/bid-compliance-card.md",
+  "source_sha256": "0a4a7b1667052d667bb51e29752d1414143963860b92048b05fe5e6b8fa9f0ed",
+  "card_sha256": "1cfb62762fdae8122388ed909f57c0df50f9611a12bafa44a9e27c6f20ecedd9",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

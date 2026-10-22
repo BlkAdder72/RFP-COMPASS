@@ -1,0 +1,16 @@
+{
+  "label": "replay-first-rebuild-E-contract-expectation",
+  "version": "repaired",
+  "source": "fixtures/E-contract-expectation.md",
+  "card": "run-rebuild/E-contract-expectation/bid-compliance-card.md",
+  "source_sha256": "3a4dab36755f799a73ebacec0a8930f76405cfec07131d72c3abf4bf9d60ffae",
+  "card_sha256": "fdad18364a332ed695193ea9f8e7a48637a6c6a393849a13e2eb76f9178a1f1c",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

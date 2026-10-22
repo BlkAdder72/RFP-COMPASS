@@ -1,0 +1,20 @@
+{
+  "label": "A-contained-reviewed",
+  "version": "repaired",
+  "source": "fixtures/A-stapled-thread.md",
+  "card": "run-original/Q8-validator/contained.md",
+  "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+  "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": "repair/review-records/personal-A.json",
+  "expectation": {
+    "hints": {
+      "S004": false
+    },
+    "applied": true
+  },
+  "review_sha256": "6376f83928375ab89a01e59f50691e0fcb4c36bcff091947c73150412e6ab14a",
+  "passed": true
+}

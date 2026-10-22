@@ -1,0 +1,18 @@
+{
+  "label": "operational-exclusion",
+  "version": "repaired",
+  "source": "fixtures/A-stapled-thread.md",
+  "card": "run-original/A-stapled-thread/bid-compliance-card.md",
+  "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+  "card_sha256": "9e869fc83ffd3378db11fb91b08b3e2c3f1769a97f55b964c8d293ec1a56c825",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 1,
+  "section6_hints": [],
+  "review": "repair/review-records/personal-A.json",
+  "expectation": {
+    "valid": false,
+    "applied": false
+  },
+  "review_sha256": "6376f83928375ab89a01e59f50691e0fcb4c36bcff091947c73150412e6ab14a",
+  "passed": true
+}

@@ -1,0 +1,18 @@
+{
+  "label": "replay-stress-rebuild-H-mixed-thread-1",
+  "version": "repaired",
+  "source": "supplemental/fixtures/H-mixed-thread.md",
+  "card": "supplemental/run-rebuild/H-mixed-thread/repeat-1/bid-compliance-card.md",
+  "source_sha256": "5b8174c45459c94bdd4f5601876e914d98e3748cdb8ffc117a9cfd598433e320",
+  "card_sha256": "34d5189c12c106af51802b6575dedb35179cef69c707ca25f505d778a8e5cc74",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [
+    "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\run-rebuild\\H-mixed-thread\\repeat-1\\bid-compliance-card.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+  ],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

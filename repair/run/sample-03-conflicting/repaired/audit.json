@@ -1,0 +1,16 @@
+{
+  "label": "sample-03-conflicting",
+  "version": "repaired",
+  "source": "repair/candidate/samples/03-conflicting/source-packet.md",
+  "card": "repair/candidate/samples/03-conflicting/bid-compliance-card.md",
+  "source_sha256": "32fcfe7616679dbc2903f2a6d246bd28c7d59613c4e2f84d7066175bf736d1df",
+  "card_sha256": "bd4bb289a12a6fd6c63e33981ddb0aca12c1791c82d3f8f0a356f077c3c0193f",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}
