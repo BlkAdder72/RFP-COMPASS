@@ -1,6 +1,8 @@
 # RFP Compass — The Rebuild
 
-**Latest review: [supplemental stress tests](supplemental/results.md) found a validator-warning regression.** The first-pass report below remains preserved. The supplemental model comparison produced six improved pairs and ten ties, but the package should not be published as regression-free. See the report for the defect and mixed-statement limits.
+**Latest: [validator repair report](repair/report.md), with 75 recorded checks satisfied.** The repaired candidate is in [repair/candidate/](repair/candidate/README.md). It restores the missed-deadline warning and supports explicitly selected, packet-bound review records for personal-material exclusions. Default checks remain conservative; review records add an operator step. The root rebuild/ remains the historical tested version, including its documented defect, so this working repository is not yet a final publication layout.
+
+The [supplemental stress-test report](supplemental/results.md) and first-pass evidence below remain unchanged. Their historical findings have not been rewritten. Do not publish a claim of automatic noise suppression or universal mixed-statement isolation.
 
 **A stapled personal email became an RFP deadline. This rebuild keeps it as evidence without promoting it into a requirement.**
 
