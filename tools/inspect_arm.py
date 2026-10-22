@@ -1,6 +1,7 @@
 """Mechanical tool checks and provenance observations; never a model translator."""
 from pathlib import Path
 import subprocess, sys, json, re, importlib.util
+sys.dont_write_bytecode = True
 ROOT=Path(__file__).resolve().parents[1]
 arm=sys.argv[1]; assert arm in ('original','rebuild')
 out=ROOT/('run-'+arm); out.mkdir(exist_ok=True)
