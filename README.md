@@ -1,5 +1,7 @@
 # RFP Compass — The Rebuild
 
+**Latest review: [supplemental stress tests](supplemental/results.md) found a validator-warning regression.** The first-pass report below remains preserved. The supplemental model comparison produced six improved pairs and ten ties, but the package should not be published as regression-free. See the report for the defect and mixed-statement limits.
+
 **A stapled personal email became an RFP deadline. This rebuild keeps it as evidence without promoting it into a requirement.**
 
 Competition #15 local review draft. First-pass results: **five improved questions, three ties, no observed regression on the scored checks.** Read [feedback.md](feedback.md), [questions.md](questions.md), then [results.md](results.md).
