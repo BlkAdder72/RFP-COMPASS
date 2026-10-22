@@ -1,0 +1,18 @@
+{
+  "provider": "OpenAI via authenticated Codex CLI",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "started_utc": "2026-10-22T20:49:43.484786+00:00",
+  "delivery": "UTF-8 stdin; named file bodies delimited in request, not native attachments",
+  "sessions": "fresh ephemeral session per fixture; user config ignored",
+  "tools": "CLI tools may be offered by host; wrapper prohibits tool use; events must be audited",
+  "limitations": "Codex host instructions remain; this is not a Claude Project reproduction. One run per fixture; no best-of selection.",
+  "knowledge_sha256": {
+    "CLAUDE_PROJECT_INSTRUCTIONS.txt": "bea22f533c0274c18dc3977592a008d9ee41b116d3e671d5b4b52363f3ead593",
+    "identity.md": "653916c5840428f7cb2e78072ac9544267af6063103aa07600c67745c8dd289d",
+    "rules.md": "74bd4a16b3530e263edfa0e7aebd9028c952ac2e679ad9e778bc27e2aabb7600",
+    "examples.md": "07a3883ffe4b2d3a1cdcdecabefb7135a8395689e0db5a02fc524e35636fca44",
+    "reference/input-schema.md": "01dc6060a8f872ffb080ce15650ae9b2a9c13ee4e2662ec99e8469369c0fd235",
+    "reference/output-schema.md": "821be6e7cfe3d287dd60d738fa2c9191d50b425a2d37b76bb577b726dff24c78"
+  }
+}

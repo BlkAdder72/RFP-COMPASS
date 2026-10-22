@@ -1,0 +1,54 @@
+{
+  "original-contained-default": {
+    "exit_code": 0,
+    "section6_hints": [
+      "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+    ],
+    "frozen_check_pass": false
+  },
+  "original-missed-deadline-default": {
+    "exit_code": 0,
+    "section6_hints": [
+      "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002, S004 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+    ],
+    "frozen_check_pass": true
+  },
+  "rebuild-contained-default": {
+    "exit_code": 0,
+    "section6_hints": [
+      "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+    ],
+    "frozen_check_pass": false
+  },
+  "rebuild-missed-deadline-default": {
+    "exit_code": 0,
+    "section6_hints": [
+      "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002, S004 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+    ],
+    "frozen_check_pass": true
+  },
+  "rebuild-contained-with-additional-review": {
+    "exit_code": 0,
+    "section6_hints": []
+  },
+  "rebuild-missed-deadline-with-additional-review": {
+    "exit_code": 0,
+    "section6_hints": [
+      "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+    ]
+  },
+  "runner-refusal": {
+    "exit_code": 1,
+    "model_called": false,
+    "environment_changed": true,
+    "before_sha256": "9fcf35fc197b5e14dccfbd08a0454658394442d2bf575dd216ba4c43cfdfda91",
+    "after_sha256": "4854d179d34adcf983ae67109ce9310b4f9db32440ba62938e37cff5394df005"
+  },
+  "preservation": {
+    "tracked_files_unchanged": 2713,
+    "delivery_sha256": {
+      "RFP-COMPASS-Comp15.bundle": "a0280a2c40b031797d316447e5f1164fa85de38b22747867480aba809cfcdb5e",
+      "RFP-COMPASS-Comp15-source.zip": "3e72bb39199ad8796ea5f7cad3fcde946b56143a4715f05b0cdf8f57ef1fc9a2"
+    }
+  }
+}
