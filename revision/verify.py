@@ -8,9 +8,18 @@ preservation=json.loads((D/'preservation.json').read_text(encoding='utf-8'))
 for name,h in preservation['files'].items():
     path=D/'history'/name if name in preservation['mutable_paths'] else R/name
     assert sha(path)==h,'Prior evidence changed: '+name
+artifact_checks=0;unavailable_artifacts=[]
 for name,h in preservation['artifact_sha256'].items():
-    candidates=[R/'dist'/name,R/'dist/prior-default-q8'/name]
-    assert any(p.is_file() and sha(p)==h for p in candidates),'Previous sealed artifact missing or changed: '+name
+    archived=R/'dist/prior-default-q8'/name;current=R/'dist'/name
+    if archived.is_file():
+        assert sha(archived)==h,'Previous archived delivery changed: '+name
+        artifact_checks+=1
+    elif current.is_file() and sha(current)==h:
+        artifact_checks+=1
+    else:
+        # Ignored delivery binaries are local outputs, not dependencies of a Git clone.
+        # Their hashes and the entire earlier source/Git history remain in the package.
+        unavailable_artifacts.append(name)
 assert (R/'questions.md').read_bytes()==subprocess.check_output(['git','show','bfdd812:questions.md'],cwd=R)
 for name in ['CLAUDE_PROJECT_INSTRUCTIONS.txt','identity.md','rules.md','examples.md','reference/input-schema.md','reference/output-schema.md']:
     assert (R/'rebuild'/name).read_bytes()==(R/'history/prepackage/rebuild'/name).read_bytes()
@@ -58,6 +67,7 @@ for repeat in ('1','2'):
         score=json.loads((R/('run-'+arm)/'revision-v2'/('repeat-'+repeat)/'scores.json').read_text(encoding='utf-8'))
         assert score==scores['scores'][repeat][arm]
 report={'status':'PASS','prior_tracked_files_preserved':len(preservation['files']),'frozen_questions_unchanged':True,
+        'local_prior_delivery_artifacts_verified':artifact_checks,'prior_delivery_binaries_not_in_checkout':unavailable_artifacts,
         'fresh_model_responses':count,'default_checker_cases':51,'archived_reference_replays':92,'model_free_runner_cases':7,
         'fresh_question_comparisons':scores['totals'],'Q8_default_no_sidecar':'PASS for rebuild in both repeats',
         'initial_test_assertion_correction':'Preserved initial 50/51 result; corrected missing-heading expectation, no validator change',

@@ -2,6 +2,8 @@
   "status": "PASS",
   "prior_tracked_files_preserved": 2756,
   "frozen_questions_unchanged": true,
+  "local_prior_delivery_artifacts_verified": 5,
+  "prior_delivery_binaries_not_in_checkout": [],
   "fresh_model_responses": 20,
   "default_checker_cases": 51,
   "archived_reference_replays": 92,
