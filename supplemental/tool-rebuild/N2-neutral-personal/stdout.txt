@@ -1,0 +1,2 @@
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\supplemental\tool-rebuild\N2-neutral-personal\evaluator-card.md: S002 look like dates or times but are not in Section 6; confirm that is intended
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.

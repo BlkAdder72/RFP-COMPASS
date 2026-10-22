@@ -1,0 +1,32 @@
+{
+  "original": {
+    "N1-mislabeled-real-deadline": {
+      "verdict": "pass",
+      "validator_exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N1-mislabeled-real-deadline\\evaluator-card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+      ]
+    },
+    "N2-neutral-personal": {
+      "verdict": "fail",
+      "validator_exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N2-neutral-personal\\evaluator-card.md: S002 look like dates or times but are not in Section 6; confirm that is intended"
+      ]
+    }
+  },
+  "rebuild": {
+    "N1-mislabeled-real-deadline": {
+      "verdict": "fail",
+      "validator_exit_code": 0,
+      "section6_hints": []
+    },
+    "N2-neutral-personal": {
+      "verdict": "fail",
+      "validator_exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-rebuild\\N2-neutral-personal\\evaluator-card.md: S002 look like dates or times but are not in Section 6; confirm that is intended"
+      ]
+    }
+  }
+}

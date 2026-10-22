@@ -1,0 +1,23 @@
+{
+  "verdict": "pass",
+  "checks": {
+    "structure_exact_quotes_coverage": true,
+    "uncertain_meeting_retained": true,
+    "required_form_retained": true
+  },
+  "diagnostics": {
+    "placement": {
+      "S001": [
+        1,
+        2
+      ],
+      "S003": [
+        4,
+        5
+      ],
+      "S002": [
+        6
+      ]
+    }
+  }
+}
