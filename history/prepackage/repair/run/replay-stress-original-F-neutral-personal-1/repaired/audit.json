@@ -1,0 +1,16 @@
+{
+  "label": "replay-stress-original-F-neutral-personal-1",
+  "version": "repaired",
+  "source": "supplemental/fixtures/F-neutral-personal.md",
+  "card": "supplemental/run-original/F-neutral-personal/repeat-1/bid-compliance-card.md",
+  "source_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+  "card_sha256": "07443cbc8902b10e56d9b2f91b2268073145eb43734dc66d6388fe67a242cf3a",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

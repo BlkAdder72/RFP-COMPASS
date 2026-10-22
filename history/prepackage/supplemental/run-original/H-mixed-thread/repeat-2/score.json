@@ -1,0 +1,35 @@
+{
+  "verdict": "partial",
+  "checks": {
+    "structure_exact_quotes_coverage": true,
+    "real_deadline": true,
+    "required_form": true,
+    "recital_only12": false,
+    "picnic_only12": false
+  },
+  "diagnostics": {
+    "placement": {
+      "S001": [
+        1,
+        2
+      ],
+      "S002": [
+        1,
+        6
+      ],
+      "S003": [
+        1,
+        4,
+        5,
+        8
+      ],
+      "S004": [
+        6
+      ],
+      "S005": [
+        6,
+        8
+      ]
+    }
+  }
+}

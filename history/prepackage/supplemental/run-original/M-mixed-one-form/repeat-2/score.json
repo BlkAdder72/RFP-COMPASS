@@ -1,0 +1,24 @@
+{
+  "verdict": "pass",
+  "checks": {
+    "structure_exact_quotes_coverage": true,
+    "mixed_required_form_retained": true
+  },
+  "diagnostics": {
+    "placement": {
+      "S001": [
+        1,
+        2
+      ],
+      "S002": [
+        1,
+        4,
+        5,
+        6,
+        8
+      ]
+    },
+    "inseparable_personal_text_in_operational_sections": true,
+    "contract_tension": "Whole-statement preservation prevents isolating the personal clause while retaining the genuine requirement."
+  }
+}

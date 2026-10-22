@@ -1,0 +1,7 @@
+FAIL: packet text not found verbatim at its position in the original
+  S026: not found in the original: 9.* Oral Presentation(s)
+ANCHORS: all 56 page anchors match where their text starts.
+REVIEW: original text not carried into any statement (confirm each omission is intended):
+  - # * Oral Presentation(s) Finalist Offerors
+  - /#/#
+  - #   (x2)

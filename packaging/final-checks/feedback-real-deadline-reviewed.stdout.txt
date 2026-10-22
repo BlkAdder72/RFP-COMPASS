@@ -1,0 +1,3 @@
+NOTE: APPLIED EXCLUSIONS repair\review-records\personal-A.json: S004, S005, S006, S007; explicit review decisions, not automatic relevance proof
+NOTE: REVIEW run-original\Q8-validator\missed-deadline.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.

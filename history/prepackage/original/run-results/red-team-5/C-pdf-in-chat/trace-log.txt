@@ -1,0 +1,194 @@
+CLAIMS: 170 bullets in the card
+  card -> packet:   PASS
+  packet -> original: FAIL
+  traced end to end: 167 of 170 bullets
+
+Section | Statement | Anchor | Where the quote sits in the original
+  §1 | S001 | nm-edd-excerpt.pdf p. 1 | found in original on p. 1
+  §1 | S002 | nm-edd-excerpt.pdf p. 1 | found in original on p. 1
+  §1 | S003 | nm-edd-excerpt.pdf p. 1 | found in original on p. 1
+  §1 | S004 | nm-edd-excerpt.pdf p. 1 | found in original on p. 1
+  §1 | S044 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §1 | S092 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §2 | S003 | nm-edd-excerpt.pdf p. 1 | found in original on p. 1
+  §4 | S007 | nm-edd-excerpt.pdf p. 1 | found in original on p. 1
+  §4 | S028 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §4 | S030 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §4 | S031 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §4 | S034 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §4 | S035 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §4 | S046 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §4 | S049 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §4 | S050 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §4 | S052 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §4 | S053 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §4 | S054 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §4 | S058 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §4 | S059 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §4 | S093 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §4 | S099 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §4 | S105 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §4 | S106 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §5 | S017 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §5 | S047 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §5 | S090 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §5 | S091 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §6 | S005 | nm-edd-excerpt.pdf p. 1 | found in original on p. 1
+  §6 | S006 | nm-edd-excerpt.pdf p. 1 | found in original on p. 1
+  §6 | S027 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §6 | S028 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §6 | S029 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §6 | S030 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §6 | S031 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §6 | S032 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §6 | S033 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §6 | S034 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §6 | S035 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §6 | S036 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §6 | S037 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §6 | S038 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §6 | S040 | nm-edd-excerpt.pdf p. 3 | NOT TRACED (see packet check)
+  §6 | S047 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §6 | S052 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §7 | S060 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S061 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S062 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S063 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S064 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S065 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S066 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S067 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S068 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S069 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S070 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S071 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S072 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S073 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S074 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S075 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S076 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S079 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S080 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S081 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S082 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S084 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S085 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S086 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S087 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S088 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §7 | S091 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §8 | S036 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §8 | S037 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §8 | S072 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §8 | S107 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §8 | S110 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S018 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §9 | S026 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §9 | S027 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §9 | S028 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §9 | S029 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §9 | S030 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §9 | S031 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §9 | S032 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §9 | S033 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §9 | S034 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §9 | S035 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §9 | S036 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §9 | S037 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §9 | S038 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §9 | S039 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §9 | S040 | nm-edd-excerpt.pdf p. 3 | NOT TRACED (see packet check)
+  §9 | S060 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S061 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S062 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S063 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S064 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S065 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S066 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S067 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S068 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S069 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S070 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S071 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S072 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S073 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S074 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S075 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S076 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §9 | S089 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S090 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S093 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S094 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S095 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S096 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S097 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S098 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S099 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S100 | nm-edd-excerpt.pdf p. 5 (columns 2–4 of 4) | found in original on p. 5
+  §9 | S101 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S102 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S103 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S104 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S105 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S106 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S107 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S108 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S109 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S110 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §9 | S111 | nm-edd-excerpt.pdf p. 5 | found in original on p. 5
+  §10 | S008 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S009 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S010 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S011 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S012 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S013 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S014 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S015 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S016 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S018 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S019 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S020 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S021 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S025 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §10 | S038 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §10 | S046 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §10 | S048 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §10 | S050 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §10 | S053 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §10 | S056 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §10 | S086 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §10 | S087 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §11 | S040 | nm-edd-excerpt.pdf p. 3 | NOT TRACED (see packet check)
+  §11 | S048 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §11 | S050 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §12 | S022 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §12 | S023 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §12 | S024 | nm-edd-excerpt.pdf p. 2 | found in original on p. 2
+  §12 | S041 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §12 | S042 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §12 | S043 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §12 | S045 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §12 | S051 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §12 | S055 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §12 | S057 | nm-edd-excerpt.pdf p. 3 | found in original on p. 3
+  §12 | S077 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §12 | S078 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+  §12 | S083 | nm-edd-excerpt.pdf p. 4 | found in original on p. 4
+NOTE: run-results\red-team-5\C-pdf-in-chat\source-packet.md: S060 ends with spaces; they are ignored when comparing quotations
+NOTE: run-results\red-team-5\C-pdf-in-chat\source-packet.md: S063 ends with spaces; they are ignored when comparing quotations
+NOTE: run-results\red-team-5\C-pdf-in-chat\source-packet.md: S068 ends with spaces; they are ignored when comparing quotations
+NOTE: run-results\red-team-5\C-pdf-in-chat\source-packet.md: S094 ends with spaces; they are ignored when comparing quotations
+NOTE: run-results\red-team-5\C-pdf-in-chat\source-packet.md: S095 ends with spaces; they are ignored when comparing quotations
+NOTE: run-results\red-team-5\C-pdf-in-chat\source-packet.md: S096 ends with spaces; they are ignored when comparing quotations
+NOTE: run-results\red-team-5\C-pdf-in-chat\source-packet.md: S097 ends with spaces; they are ignored when comparing quotations
+NOTE: run-results\red-team-5\C-pdf-in-chat\source-packet.md: S098 ends with spaces; they are ignored when comparing quotations
+NOTE: run-results\red-team-5\C-pdf-in-chat\source-packet.md: S101 ends with spaces; they are ignored when comparing quotations
+NOTE: run-results\red-team-5\C-pdf-in-chat\source-packet.md: S102 ends with spaces; they are ignored when comparing quotations
+NOTE: run-results\red-team-5\C-pdf-in-chat\source-packet.md: S103 ends with spaces; they are ignored when comparing quotations
+NOTE: run-results\red-team-5\C-pdf-in-chat\source-packet.md: S104 ends with spaces; they are ignored when comparing quotations
+NOTE: REVIEW run-results\red-team-5\C-pdf-in-chat\reply2.md (+1 part(s)): S019, S032, S033, S077 look like evaluation terms but are not in Section 7; confirm that is intended
+NOTE: run-results\red-team-5\C-pdf-in-chat\reply2.md (+1 part(s)): invisible spacing characters (such as a non-breaking space) differ from the packet in S060, S063, S068, S094, S095, S096, S097, S098, S101, S102, S103, S104; the visible text matches
+PACKET: FAIL: packet text not found verbatim at its position in the original
+PACKET: S040: differs from the original only in spacing (as in '3 :00' vs '3:00'; check the page and copy its spacing exactly): *Dates indicated in Events 7 through 13 are estimates only, and may be subject to change without necessitating an amendment to the RFP.
+PACKET: NOT TEXT: content in images cannot be copied or verified; check these pages by eye:
+PACKET: REVIEW: original text not carried into any statement (confirm each omission is intended):

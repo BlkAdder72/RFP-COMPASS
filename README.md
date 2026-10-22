@@ -1,8 +1,8 @@
 # RFP Compass — The Rebuild
 
-**Latest: [validator repair report](repair/report.md), with 75 recorded checks satisfied.** The repaired candidate is in [repair/candidate/](repair/candidate/README.md). It restores the missed-deadline warning and supports explicitly selected, packet-bound review records for personal-material exclusions. Default checks remain conservative; review records add an operator step. The root rebuild/ remains the historical tested version, including its documented defect, so this working repository is not yet a final publication layout.
+**Unpublished competition package: root rebuild/ is the repaired version.** Start with [results.md](results.md) and [the final compliance record](packaging/final-compliance.json). The judged original, verbatim feedback, precommitted questions and both raw run arms are at the root as required. [SUBMISSION_COMMENT.md](SUBMISSION_COMMENT.md) is a draft only.
 
-The [supplemental stress-test report](supplemental/results.md) and first-pass evidence below remain unchanged. Their historical findings have not been rewritten. Do not publish a claim of automatic noise suppression or universal mixed-statement isolation.
+All 1,287 prepackaging tracked files are preserved byte for byte in [history/prepackage/](history/prepackage/README.md), and all Git commits remain. That snapshot contains the historical rebuild and all earlier reports/verifiers in their original context. The [supplemental report](supplemental/results.md) and [repair report](repair/report.md) remain historical, unchanged records; their statements about the root layout describe their stage, before this packaging step. Do not claim automatic noise suppression or universal mixed-statement isolation.
 
 **A stapled personal email became an RFP deadline. This rebuild keeps it as evidence without promoting it into a requirement.**
 
@@ -24,9 +24,9 @@ Python 3.10+, no third-party dependencies for this comparison:
 python tools/verify_submission.py
 ```
 
-This verifies 134 preserved original files and the feedback hash, exact fixture delivery, contract hashes, raw-response extraction and absence of observed tool calls, then regenerates both score files. Semantic placement is scored separately from structural validation.
+This checks the required layout, the 134 original files against the judged Git objects, verbatim feedback, pre-rebuild Git sequence, all 42 raw model responses, 75 historical repair expectations and preservation of prior evidence. It executes the final root validator on 42 archived cards, four reference cards and four critical repair cases; it does not regenerate historical scores. The portable package verifier replaces the old entry point, which remains preserved in history/prepackage/tools/verify_submission.py. Historical verifiers assume their stage's old paths; use the final verifier after packaging.
 
-The model runner requires an authenticated Codex CLI with access to the recorded model; its executable path is specific to this Windows machine. Adapt and record that path for other systems. To rerun, use a separate checkout and archive the existing run directory first: tools/run_arm.py refuses to overwrite trials. Rerun both arms under the same environment. Do not supply questions or expected answers to the model.
+New model runs require an authenticated Codex CLI with access to the recorded model; runner executable paths are specific to the original Windows machine. Rerun both arms in a separate checkout and preserve the existing run directories; never overwrite trials or supply expected answers to the model. The final validator's selected review records add an operator-adjudication step; see [rebuild/REVIEWED_EXCLUSIONS.md](rebuild/REVIEWED_EXCLUSIONS.md).
 
 ## Git sequence
 

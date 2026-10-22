@@ -1,0 +1,22 @@
+{
+  "verdict": "partial",
+  "checks": {
+    "structure_exact_quotes_coverage": true,
+    "real_deadline": true,
+    "appointment_only12": false,
+    "family_event_only12": false
+  },
+  "diagnostics": {
+    "placement": {
+      "S001": [
+        6
+      ],
+      "S002": [
+        6
+      ],
+      "S003": [
+        6
+      ]
+    }
+  }
+}

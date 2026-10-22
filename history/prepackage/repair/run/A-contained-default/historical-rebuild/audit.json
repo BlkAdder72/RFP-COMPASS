@@ -1,0 +1,18 @@
+{
+  "label": "A-contained-default",
+  "version": "historical-rebuild",
+  "source": "fixtures/A-stapled-thread.md",
+  "card": "run-original/Q8-validator/contained.md",
+  "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+  "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+  "validator_sha256": "5dc24439b1040f4750c4786330a0f81808886fe5421496172399343908c33e15",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "hints": {
+      "S004": false
+    }
+  },
+  "passed": true
+}

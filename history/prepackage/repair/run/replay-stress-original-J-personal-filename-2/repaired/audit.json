@@ -1,0 +1,16 @@
+{
+  "label": "replay-stress-original-J-personal-filename-2",
+  "version": "repaired",
+  "source": "supplemental/fixtures/J-personal-filename.md",
+  "card": "supplemental/run-original/J-personal-filename/repeat-2/bid-compliance-card.md",
+  "source_sha256": "fb8fdf40ad69c7aad6dd1db18eafb9e08f716b5ae3d25d71c259e22e3f960c6f",
+  "card_sha256": "37a211ccd4f3ba007b75361b74cf1b918dcef6bd88d30de2484afb824e3173d9",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

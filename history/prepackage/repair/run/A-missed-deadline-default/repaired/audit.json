@@ -1,0 +1,20 @@
+{
+  "label": "A-missed-deadline-default",
+  "version": "repaired",
+  "source": "fixtures/A-stapled-thread.md",
+  "card": "run-original/Q8-validator/missed-deadline.md",
+  "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+  "card_sha256": "662970a863f380f40ef7c46c5a0905f4bd61de6d62ad7f3d3357bb9da17b90ba",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [
+    "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002, S004 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+  ],
+  "review": null,
+  "expectation": {
+    "hints": {
+      "S002": true
+    }
+  },
+  "passed": true
+}

@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-22T20:22:17.322904+00:00",
+  "arm": "original",
+  "repeat": 1,
+  "fixture": "I-mixed-one-deadline.md",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "knowledge_sha256": {
+    "CLAUDE_PROJECT_INSTRUCTIONS.txt": "2934fd66787b35b12f3b9c5283560ce1ee5d866b9ef781ec3fc427db75ae09a6",
+    "identity.md": "653916c5840428f7cb2e78072ac9544267af6063103aa07600c67745c8dd289d",
+    "rules.md": "ef244920a5584c739c532b4b1a9726013d0ce505180520f9a06730c68d7f2e35",
+    "examples.md": "a2d303babc738abda9f8716f70e6bad65047fb42254022f624ad5a019ef177cf",
+    "reference/input-schema.md": "01dc6060a8f872ffb080ce15650ae9b2a9c13ee4e2662ec99e8469369c0fd235",
+    "reference/output-schema.md": "e026cc5f52f910217d9e8668396585fecacc08fb73674596d65059c0c20ddd38"
+  },
+  "fixture_sha256": "1a81ae595e416311ae86e364657d3d406e96be9ade3a4d39e28b50f4f9abe7e9",
+  "delivery": "inline named UTF-8 files",
+  "tools": "host available; prohibited by wrapper; audit required"
+}

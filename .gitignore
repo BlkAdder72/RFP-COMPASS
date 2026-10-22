@@ -2,3 +2,4 @@
 judged-source.zip
 __pycache__/
 .run-work/
+dist/

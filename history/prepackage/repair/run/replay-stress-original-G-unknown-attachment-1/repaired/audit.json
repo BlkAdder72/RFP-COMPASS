@@ -1,0 +1,16 @@
+{
+  "label": "replay-stress-original-G-unknown-attachment-1",
+  "version": "repaired",
+  "source": "supplemental/fixtures/G-unknown-attachment.md",
+  "card": "supplemental/run-original/G-unknown-attachment/repeat-1/bid-compliance-card.md",
+  "source_sha256": "33888be7f7d70ea520fb90a6e4415e5c54d7eb5b183f3f410d26cdd8aed789ac",
+  "card_sha256": "67e256b846b15e5e69ee7037c54b07236724c55bae6f8a1134681a477aa73824",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

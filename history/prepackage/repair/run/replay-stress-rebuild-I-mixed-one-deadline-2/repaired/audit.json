@@ -1,0 +1,16 @@
+{
+  "label": "replay-stress-rebuild-I-mixed-one-deadline-2",
+  "version": "repaired",
+  "source": "supplemental/fixtures/I-mixed-one-deadline.md",
+  "card": "supplemental/run-rebuild/I-mixed-one-deadline/repeat-2/bid-compliance-card.md",
+  "source_sha256": "1a81ae595e416311ae86e364657d3d406e96be9ade3a4d39e28b50f4f9abe7e9",
+  "card_sha256": "539d010a6f1b9a0953ba50b386e4085694dea341579165bf3ea805ba3f8294d3",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

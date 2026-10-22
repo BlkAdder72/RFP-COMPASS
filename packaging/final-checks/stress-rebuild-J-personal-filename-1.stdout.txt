@@ -1,0 +1,2 @@
+NOTE: REVIEW supplemental\run-rebuild\J-personal-filename\repeat-1\bid-compliance-card.md: S003 look like dates or times but are not in Section 6; confirm that is intended
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.

@@ -1,4 +1,36 @@
-# Results — feedback first, evidence next
+# Competition #15 — final comparison
+
+Unpublished packaged version, October 22, 2026. **The final root rebuild includes the tested validator repair.** All previous reports, code and outputs are preserved in history/prepackage/ and Git; the original judged entry is unchanged and is also pinned by tag judged-original-comp13 at `92847d2a17250fa18914d932826db63d99dcb75c`.
+
+## Feedback closure in the final package
+
+| Feedback obligation | Final implementation and evidence | What remains limited |
+|---|---|---|
+| Fix 1: set non-source material aside and drop misleading Section 6 hints | Statement-level routing puts clear personal material only in Section 12. Five first-pass sessions per arm and eight supplemental cases with two repeats per arm are retained. The repaired validator restores the missed-real-deadline warning and suppresses false personal hints with explicitly selected, packet-bound review decisions. See packaging/final-checks/feedback-contained-reviewed.stdout.txt and feedback-real-deadline-reviewed.stdout.txt. | Suppression requires operator adjudication. Without a selected record, conservative personal-date warnings remain. Records do not authenticate the reviewer or prove a correct semantic decision. |
+| Fix 2: settle S133 and identify the script-built sample | Explicit contractual-expectation trigger and examples.md disclosure of script/hand routing. The sample placement agrees with the rule. The six final model knowledge files are byte-identical to the already-tested rebuild. | The exact S133 sentence was model-tested in a small packet; no new full 214-statement model run is claimed. |
+| Tier improvement: demonstrate containment of a stapled thread | Original and rebuilt A/B cards, full exact requests and raw events are in both root run arms. Byte-identical rebuild A/B/C trials and input packets are also shipped in rebuild/run-results/rebuild-noisy-input/. Supplemental F/H/J improved in both repeats, including neutral anchors and mixed threads with separate statements. | Fixtures are synthetic reconstructions, not the unavailable judges' noisy packet or a blind inbox corpus. |
+
+The first-pass comparison recorded five improved questions and three ties. The supplemental model comparison recorded six improved pairs and ten ties; those are 16 pairs across eight designed cases, not independent estimates of reliability. No frozen model-placement subcheck regressed, but the supplemental validator test did: filename-based suppression hid a real warning. That finding remains visible and its code/output remain preserved.
+
+The final validator removes that suppression and satisfies all 75 recorded repair expectations, including intentional invalid-record rejections and replay of the 42 model cards plus four reference cards. The final package rechecks the root validator separately. These tool checks are not new model runs. The original first-pass 8/8 verdict must not be transferred to the final default workflow without qualification: final false-hint suppression is conditional on selected review decisions, not automatic.
+
+## Ties, regression, tradeoffs and unchanged scope
+
+Real requirements, official clarification emails, the planted instruction boundary, exact quotations and coverage already worked in relevant original tests and are ties. Indivisible mixed statements remain a shared limit: quoting the whole genuine requirement necessarily retains a personal clause in operational sections. No clause-level rewrite or source deletion was introduced.
+
+The validator regression and its repair are documented in supplemental/results.md and repair/report.md. The tested repair rejects stale/invalid review records and explicit procurement exclusions, but adds operator work. Its conservative wording guard is incomplete and can reject genuinely personal work references. A mistaken valid review decision for a requirement without guarded words could still hide a hint. No claim of universal classification, authenticated authority or legal correctness is made.
+
+The twelve headings, exact-quotation contract, source coverage, no-advice scope, conflict preservation, PDF tools and historical sample cards remain. Host instructions were not captured or held byte-identical; the explicit prompts, fixtures, model/settings and supplied knowledge were controlled. Codex gpt-6-astra/medium is not a Claude Project replication. Token costs and routing variation are disclosed in the stage reports; no speed, cost, statistical-confidence or full-PDF revalidation claim is made.
+
+## Evidence sequence and verification
+
+Questions/fixtures were committed before the original runs and before any rebuild existed. Original raw runs were committed before the rebuild; rebuilt runs preceded results; supplemental and repair protocols preceded their respective executions. The final packaging retains this history and the judged repository's actual commit/ancestry. Run `python tools/verify_submission.py` for the portable offline audit; see packaging/final-compliance.json for the current local results and pending external gates. The prior reports and raw logs are evidence, not rewritten scores.
+
+Nothing has been published. Public URL/submission and Premium/VIP eligibility remain external gates. The review records shipped for tests are evaluator-authored synthetic adjudications, not owner approval.
+
+## Historical first-pass report
+
+The text below records the first-pass stage only. The exact prepackaging version is also preserved at history/prepackage/results.md. Later findings and the final workflow above govern interpretation.
 
 Local review draft, October 22, 2026. No external submission has been made.
 

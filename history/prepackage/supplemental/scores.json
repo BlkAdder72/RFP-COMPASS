@@ -1,0 +1,962 @@
+{
+  "model_trials": {
+    "original": {
+      "F": {
+        "1": {
+          "verdict": "partial",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "real_deadline": true,
+            "appointment_only12": false,
+            "family_event_only12": false
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                6
+              ],
+              "S002": [
+                6
+              ],
+              "S003": [
+                6
+              ]
+            }
+          }
+        },
+        "2": {
+          "verdict": "partial",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "real_deadline": true,
+            "appointment_only12": false,
+            "family_event_only12": false
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                6
+              ],
+              "S002": [
+                6
+              ],
+              "S003": [
+                6
+              ]
+            }
+          }
+        }
+      },
+      "G": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "uncertain_meeting_retained": true,
+            "required_form_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S003": [
+                4,
+                5,
+                6
+              ],
+              "S002": [
+                6
+              ]
+            }
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "uncertain_meeting_retained": true,
+            "required_form_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S003": [
+                4,
+                5
+              ],
+              "S002": [
+                6
+              ]
+            }
+          }
+        }
+      },
+      "H": {
+        "1": {
+          "verdict": "partial",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "real_deadline": true,
+            "required_form": true,
+            "recital_only12": false,
+            "picnic_only12": false
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6
+              ],
+              "S003": [
+                1,
+                4,
+                5,
+                8
+              ],
+              "S004": [
+                6
+              ],
+              "S005": [
+                6,
+                8
+              ]
+            }
+          }
+        },
+        "2": {
+          "verdict": "partial",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "real_deadline": true,
+            "required_form": true,
+            "recital_only12": false,
+            "picnic_only12": false
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6
+              ],
+              "S003": [
+                1,
+                4,
+                5,
+                8
+              ],
+              "S004": [
+                6
+              ],
+              "S005": [
+                6,
+                8
+              ]
+            }
+          }
+        }
+      },
+      "I": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "mixed_real_deadline_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6
+              ]
+            },
+            "inseparable_personal_text_in_operational_sections": true,
+            "contract_tension": "Whole-statement preservation prevents isolating the personal clause while retaining the genuine requirement."
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "mixed_real_deadline_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6
+              ]
+            },
+            "inseparable_personal_text_in_operational_sections": true,
+            "contract_tension": "Whole-statement preservation prevents isolating the personal clause while retaining the genuine requirement."
+          }
+        }
+      },
+      "J": {
+        "1": {
+          "verdict": "partial",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "clarification_deadline": true,
+            "personal_event_only12": false
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6,
+                11
+              ],
+              "S003": [
+                6
+              ]
+            }
+          }
+        },
+        "2": {
+          "verdict": "partial",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "clarification_deadline": true,
+            "personal_event_only12": false
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6,
+                11
+              ],
+              "S003": [
+                6
+              ]
+            }
+          }
+        }
+      },
+      "K": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "real_deadline_despite_label": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6
+              ]
+            }
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "real_deadline_despite_label": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6
+              ]
+            }
+          }
+        }
+      },
+      "L": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "procurement_visit_retained": true,
+            "attendance_form_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                4,
+                6
+              ],
+              "S003": [
+                4,
+                5,
+                6
+              ]
+            }
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "procurement_visit_retained": true,
+            "attendance_form_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                4,
+                6
+              ],
+              "S003": [
+                4,
+                5,
+                6
+              ]
+            }
+          }
+        }
+      },
+      "M": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "mixed_required_form_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                4,
+                5,
+                6,
+                8
+              ]
+            },
+            "inseparable_personal_text_in_operational_sections": true,
+            "contract_tension": "Whole-statement preservation prevents isolating the personal clause while retaining the genuine requirement."
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "mixed_required_form_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                4,
+                5,
+                6,
+                8
+              ]
+            },
+            "inseparable_personal_text_in_operational_sections": true,
+            "contract_tension": "Whole-statement preservation prevents isolating the personal clause while retaining the genuine requirement."
+          }
+        }
+      }
+    },
+    "rebuild": {
+      "F": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "real_deadline": true,
+            "appointment_only12": true,
+            "family_event_only12": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                6
+              ],
+              "S002": [
+                12
+              ],
+              "S003": [
+                12
+              ]
+            }
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "real_deadline": true,
+            "appointment_only12": true,
+            "family_event_only12": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                6
+              ],
+              "S002": [
+                12
+              ],
+              "S003": [
+                12
+              ]
+            }
+          }
+        }
+      },
+      "G": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "uncertain_meeting_retained": true,
+            "required_form_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S003": [
+                4,
+                5
+              ],
+              "S002": [
+                6
+              ]
+            }
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "uncertain_meeting_retained": true,
+            "required_form_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S003": [
+                4,
+                5
+              ],
+              "S002": [
+                6
+              ]
+            }
+          }
+        }
+      },
+      "H": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "real_deadline": true,
+            "required_form": true,
+            "recital_only12": true,
+            "picnic_only12": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6
+              ],
+              "S003": [
+                1,
+                4,
+                5,
+                8
+              ],
+              "S004": [
+                12
+              ],
+              "S005": [
+                12
+              ]
+            }
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "real_deadline": true,
+            "required_form": true,
+            "recital_only12": true,
+            "picnic_only12": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6
+              ],
+              "S003": [
+                1,
+                4,
+                5,
+                8
+              ],
+              "S004": [
+                12
+              ],
+              "S005": [
+                12
+              ]
+            }
+          }
+        }
+      },
+      "I": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "mixed_real_deadline_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6
+              ]
+            },
+            "inseparable_personal_text_in_operational_sections": true,
+            "contract_tension": "Whole-statement preservation prevents isolating the personal clause while retaining the genuine requirement."
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "mixed_real_deadline_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6
+              ]
+            },
+            "inseparable_personal_text_in_operational_sections": true,
+            "contract_tension": "Whole-statement preservation prevents isolating the personal clause while retaining the genuine requirement."
+          }
+        }
+      },
+      "J": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "clarification_deadline": true,
+            "personal_event_only12": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6,
+                11
+              ],
+              "S003": [
+                12
+              ]
+            }
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "clarification_deadline": true,
+            "personal_event_only12": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6,
+                11
+              ],
+              "S003": [
+                12
+              ]
+            }
+          }
+        }
+      },
+      "K": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "real_deadline_despite_label": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6
+              ]
+            }
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "real_deadline_despite_label": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                6
+              ]
+            }
+          }
+        }
+      },
+      "L": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "procurement_visit_retained": true,
+            "attendance_form_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                4,
+                6
+              ],
+              "S003": [
+                4,
+                5,
+                6
+              ]
+            }
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "procurement_visit_retained": true,
+            "attendance_form_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                4,
+                6
+              ],
+              "S003": [
+                4,
+                5,
+                6
+              ]
+            }
+          }
+        }
+      },
+      "M": {
+        "1": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "mixed_required_form_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                4,
+                5,
+                6,
+                8
+              ]
+            },
+            "inseparable_personal_text_in_operational_sections": true,
+            "contract_tension": "Whole-statement preservation prevents isolating the personal clause while retaining the genuine requirement."
+          }
+        },
+        "2": {
+          "verdict": "pass",
+          "checks": {
+            "structure_exact_quotes_coverage": true,
+            "mixed_required_form_retained": true
+          },
+          "diagnostics": {
+            "placement": {
+              "S001": [
+                1,
+                2
+              ],
+              "S002": [
+                1,
+                4,
+                5,
+                6,
+                8
+              ]
+            },
+            "inseparable_personal_text_in_operational_sections": true,
+            "contract_tension": "Whole-statement preservation prevents isolating the personal clause while retaining the genuine requirement."
+          }
+        }
+      }
+    }
+  },
+  "paired_comparisons": {
+    "F": {
+      "1": {
+        "original": "partial",
+        "rebuild": "pass",
+        "comparison": "improved",
+        "improved_checks": [
+          "appointment_only12",
+          "family_event_only12"
+        ],
+        "regressed_checks": []
+      },
+      "2": {
+        "original": "partial",
+        "rebuild": "pass",
+        "comparison": "improved",
+        "improved_checks": [
+          "appointment_only12",
+          "family_event_only12"
+        ],
+        "regressed_checks": []
+      }
+    },
+    "G": {
+      "1": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "improved_checks": [],
+        "regressed_checks": []
+      },
+      "2": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "improved_checks": [],
+        "regressed_checks": []
+      }
+    },
+    "H": {
+      "1": {
+        "original": "partial",
+        "rebuild": "pass",
+        "comparison": "improved",
+        "improved_checks": [
+          "recital_only12",
+          "picnic_only12"
+        ],
+        "regressed_checks": []
+      },
+      "2": {
+        "original": "partial",
+        "rebuild": "pass",
+        "comparison": "improved",
+        "improved_checks": [
+          "recital_only12",
+          "picnic_only12"
+        ],
+        "regressed_checks": []
+      }
+    },
+    "I": {
+      "1": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "improved_checks": [],
+        "regressed_checks": []
+      },
+      "2": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "improved_checks": [],
+        "regressed_checks": []
+      }
+    },
+    "J": {
+      "1": {
+        "original": "partial",
+        "rebuild": "pass",
+        "comparison": "improved",
+        "improved_checks": [
+          "personal_event_only12"
+        ],
+        "regressed_checks": []
+      },
+      "2": {
+        "original": "partial",
+        "rebuild": "pass",
+        "comparison": "improved",
+        "improved_checks": [
+          "personal_event_only12"
+        ],
+        "regressed_checks": []
+      }
+    },
+    "K": {
+      "1": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "improved_checks": [],
+        "regressed_checks": []
+      },
+      "2": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "improved_checks": [],
+        "regressed_checks": []
+      }
+    },
+    "L": {
+      "1": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "improved_checks": [],
+        "regressed_checks": []
+      },
+      "2": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "improved_checks": [],
+        "regressed_checks": []
+      }
+    },
+    "M": {
+      "1": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "improved_checks": [],
+        "regressed_checks": []
+      },
+      "2": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "improved_checks": [],
+        "regressed_checks": []
+      }
+    }
+  },
+  "paired_totals": {
+    "improved": 6,
+    "tied": 10,
+    "regressed": 0
+  }
+}

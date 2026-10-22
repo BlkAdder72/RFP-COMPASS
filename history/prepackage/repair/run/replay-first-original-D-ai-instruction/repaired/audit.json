@@ -1,0 +1,16 @@
+{
+  "label": "replay-first-original-D-ai-instruction",
+  "version": "repaired",
+  "source": "fixtures/D-ai-instruction.md",
+  "card": "run-original/D-ai-instruction/bid-compliance-card.md",
+  "source_sha256": "dae3c6f26930395a4e439793e0d127c2b108f5a9fdf17af0fcebfc615dea21d3",
+  "card_sha256": "45270e96aab0b8d74f2492d5b9fae124a7e9dbdad4ccaebcc6ca590e83c1db24",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

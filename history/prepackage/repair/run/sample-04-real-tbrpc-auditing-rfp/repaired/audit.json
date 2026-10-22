@@ -1,0 +1,16 @@
+{
+  "label": "sample-04-real-tbrpc-auditing-rfp",
+  "version": "repaired",
+  "source": "repair/candidate/samples/04-real-tbrpc-auditing-rfp/source-packet.md",
+  "card": "repair/candidate/samples/04-real-tbrpc-auditing-rfp/bid-compliance-card.md",
+  "source_sha256": "1595892b6ebd7f5e49b50075e9febe768e7de3d7951062cdf8edfdf0c5573805",
+  "card_sha256": "71151e9683cd492011f6d6d5ce8ae4dffedb9ade9d19793ed2fa7ae9509fad60",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

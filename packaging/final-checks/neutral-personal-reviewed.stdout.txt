@@ -1,0 +1,2 @@
+NOTE: APPLIED EXCLUSIONS repair\review-records\personal-F.json: S002, S003; explicit review decisions, not automatic relevance proof
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.

@@ -1,0 +1,10 @@
+{
+  "sample04_S133_sections": [
+    2,
+    8,
+    11
+  ],
+  "examples_opening": "**Sample 04 provenance:** The committed card in `samples/04-real-tbrpc-auditing-rfp/` is script-built by `prep/build_card.py` using a hand routing list. It is a reference fixture, not an unedited model run. The raw Opus run is separately preserved in `run-results/live-runs/04-tbrpc/`. S133 appears in Section 11 under the explicit contractual-expectation trigger in `reference/output-schema.md`.",
+  "section11_rule": "Addenda, conflicts, and open items.** The statement:\n    - is substantive content of an addendum or amendment: it changes, extends, supersedes, corrects or clarifies a term, or answers a vendor question. Headings, page labels and other non-substantive lines of an addendum follow the other triggers (usually Section 12);\n    - governs how addenda or amendments are issued, posted, acknowledged or read (for example \"Respondents must acknowledge Addendum 1\", \"Updates … and any RFP addenda will be provided on the CSCR\");\n    - changes, extends, supersedes or corrects another term;\n    - is expressly draft, tentative, \"subject to change\" or \"to be determined\";\n    - expressly describes a contractual term as expected or anticipated (for example an expected contract duration or pricing structure). The word \"expected\" alone is insufficient: an unrelated personal expectation stays subject to the Section 12-only exception;\n    - names a conflict or discrepancy itself.\n\n    Never infer a conflict and never decide which term controls.\n",
+  "note": "Inspect exact excerpts for provenance disclosure and rule alignment; no model inference."
+}

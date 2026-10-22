@@ -1,0 +1,19 @@
+{
+  "verdict": "pass",
+  "checks": {
+    "structure_exact_quotes_coverage": true,
+    "real_deadline_despite_label": true
+  },
+  "diagnostics": {
+    "placement": {
+      "S001": [
+        1,
+        2
+      ],
+      "S002": [
+        1,
+        6
+      ]
+    }
+  }
+}

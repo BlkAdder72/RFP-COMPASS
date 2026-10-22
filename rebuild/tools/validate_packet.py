@@ -23,6 +23,9 @@ from pathlib import Path
 import re
 import sys
 import unicodedata
+import argparse
+import hashlib
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
 SAMPLES = ("01-real-public-notice", "02-sparse", "03-conflicting", "04-real-tbrpc-auditing-rfp")
@@ -91,7 +94,48 @@ def join_parts(outputs: list[Path]) -> tuple[list[str], list[str]]:
     return lines, errors
 
 
-def validate(source: Path, outputs: list[Path]) -> tuple[list[str], list[str]]:
+def reviewed_exclusions(source, statements, placed, review_path):
+    """Validate an explicitly selected external adjudication; never trust anchors."""
+    if review_path is None:
+        return set(), []
+    def unique_object(pairs):
+        result = {}
+        for key, value in pairs:
+            if key in result:
+                raise ValueError(f"duplicate JSON key {key}")
+            result[key] = value
+        return result
+    def require(condition, message):
+        if not condition:
+            raise ValueError(message)
+    try:
+        review = json.loads(Path(review_path).read_text(encoding="utf-8-sig"), object_pairs_hook=unique_object)
+        require(isinstance(review, dict), "review must be an object")
+        require(set(review) == {"schema_version", "packet_sha256", "reviewer", "decisions"}, "unexpected review fields")
+        require(type(review["schema_version"]) is int and review["schema_version"] == 1, "unsupported schema version")
+        require(review["packet_sha256"] == hashlib.sha256(source.read_bytes()).hexdigest(), "packet SHA-256 mismatch")
+        require(isinstance(review["reviewer"], str) and review["reviewer"].strip(), "reviewer must be named")
+        require(isinstance(review["decisions"], list), "decisions must be a list")
+        approved = set()
+        procurement = re.compile(r"\b(proposals?|bidders?|respondents?|solicitations?|rfp|ifb|rfq|bids?|contracts?|procurement|addend(?:um|a)|tenders?)\b|\bpricing\s+sheet\b", re.IGNORECASE)
+        for decision in review["decisions"]:
+            require(isinstance(decision, dict) and set(decision) == {"source_id", "statement_sha256", "reason"}, "unexpected decision fields")
+            sid = decision["source_id"]
+            require(isinstance(sid, str) and sid in statements, "unknown source ID")
+            require(sid not in approved, f"duplicate decision ID {sid}")
+            require(isinstance(decision["reason"], str) and decision["reason"].strip(), f"{sid}: reason required")
+            body = statements[sid][1]
+            require(decision["statement_sha256"] == hashlib.sha256(body.encode("utf-8")).hexdigest(), f"{sid}: statement SHA-256 mismatch")
+            require(not procurement.search(body), f"{sid}: procurement wording cannot be excluded by this conservative review mechanism")
+            require(sid in placed.get(12, set()) and not any(sid in placed.get(section, set()) for section in range(1, 12)),
+                    f"{sid}: selected exclusion must appear only in Section 12")
+            approved.add(sid)
+        return approved, []
+    except (OSError, ValueError, TypeError, KeyError) as error:
+        return set(), [f"{review_path}: invalid reviewed exclusions: {error}; no exclusions applied"]
+
+
+def validate(source: Path, outputs: list[Path], review_path: Path | None = None) -> tuple[list[str], list[str]]:
     errors, notes = [], []
     output = outputs[0] if len(outputs) == 1 else Path(f"{outputs[0]} (+{len(outputs) - 1} part(s))")
     statements, order = {}, []
@@ -182,19 +226,15 @@ def validate(source: Path, outputs: list[Path]) -> tuple[list[str], list[str]]:
             errors.append(f"{output}: {heading}: bullets are not in source-ID order")
         placed[index + 1] = set(ids)
 
+    approved, review_errors = reviewed_exclusions(source, statements, placed, review_path)
+    errors += review_errors
+    if approved and not errors:
+        notes.append(f"APPLIED EXCLUSIONS {review_path}: {', '.join(sorted(approved))}; explicit review decisions, not automatic relevance proof")
+    elif errors:
+        approved = set()
     for number, pattern in LIKELY.items():
-        # Suppress hints only for explicitly identified unrelated material that
-        # the card has actually contained in Section 12. Never infer irrelevance
-        # just from a date or the word email; official clarifications stay eligible.
-        # This is a conservative hint filter, not proof of semantic classification.
-        def contained_unrelated(source_id, anchor):
-            explicitly_unrelated = re.search(r"\bunrelated\b", anchor, re.IGNORECASE)
-            only_section12 = source_id in placed.get(12, set()) and not any(
-                source_id in placed.get(section, set()) for section in range(1, 12))
-            return explicitly_unrelated and only_section12
-
-        matching = [source_id for source_id, (anchor, body) in statements.items()
-                    if pattern.search(body) and not contained_unrelated(source_id, anchor)]
+        matching = [source_id for source_id, (_, body) in statements.items()
+                    if pattern.search(body) and source_id not in approved]
         unplaced = [source_id for source_id in matching if source_id not in placed.get(number, set())]
         if matching and not placed.get(number):
             notes.append(f"REVIEW {output}: Section {number} says `not in source`, but {', '.join(matching[:8])} "
@@ -216,20 +256,23 @@ def validate(source: Path, outputs: list[Path]) -> tuple[list[str], list[str]]:
 
 
 def main() -> int:
-    if len(sys.argv) >= 3:
-        pairs = ((Path(sys.argv[1]), [Path(part) for part in sys.argv[2:]]),)
-    elif len(sys.argv) == 1:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("paths", nargs="*", type=Path, help="source packet followed by card parts")
+    parser.add_argument("--reviewed-exclusions", type=Path, help="explicit operator-selected review record; never inferred from source labels")
+    args = parser.parse_args()
+    if len(args.paths) >= 2:
+        pairs = ((args.paths[0], args.paths[1:]),)
+    elif not args.paths and args.reviewed_exclusions is None:
         pairs = tuple((source, [card]) for source, card in PAIRS)
     else:
-        print("Usage: validate_packet.py [SOURCE_PACKET CARD_PART_1 [CARD_PART_2 ...]]", file=sys.stderr)
-        return 2
+        parser.error("provide source packet and card parts; review records cannot be applied to the default sample sweep")
     errors, notes = [], []
     for source, outputs in pairs:
         missing = [path for path in [source, *outputs] if not path.is_file()]
         if missing:
             errors.append(f"missing file: {missing[0]}")
             continue
-        pair_errors, pair_notes = validate(source, outputs)
+        pair_errors, pair_notes = validate(source, outputs, args.reviewed_exclusions)
         errors += pair_errors
         notes += pair_notes
     for note in notes:

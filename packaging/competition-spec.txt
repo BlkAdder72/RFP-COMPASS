@@ -1,0 +1,77 @@
+🏆 WEEKLY COMP #15: THE REBUILD 🏆
+🎁 $1,000 IN PLATFORM CREDITS🎁
+One winner takes it.
+📋 THE CHALLENGE
+Pick your weakest entry from any past comp. Read the feedback file we sent you. Rebuild it. Then prove the rebuild is better.
+Every entrant since the Cartographer has a file that says what worked, two fixes, and the one thing that would have moved them up. Most of those files have been read once. This week you act on one.
+This week's deliverable is the original pinned, the feedback file, the rebuild, and a control showing old against new.
+🎯 PICK YOUR ENTRY
+Any comp you entered. Cartographer, Auditor, Translator, Control, or anything earlier if you still have the repo. Pick the one where the feedback file stung the most. That is the one with the most room.
+If you have never entered, you can still play. Pick any public repo from a past comp whose author has posted that it is open for rebuilds, and treat the public results post as your feedback file. Credit them in the README.
+A few sparks:
+- Your Cartographer map, rebuilt so the territory ships pinned in the repo
+- Your Auditor, rebuilt so every finding resolves to a provision a mod can open
+- Your Translator, rebuilt so the shape holds on the input that broke it
+- Your Control, rebuilt around the question the folder lost on
+- Any entry whose README a stranger could not walk
+The pattern is the same every time. The feedback named a gap. You close it and show the closure.
+🔥 THE ANGLE THIS WEEK
+Last comp was The Control. You ran the same questions with and without a folder and committed both. The Rebuild runs the same test on two versions of the same folder.
+Original on one arm. Rebuild on the other. Same questions, same order. The questions come from the feedback file, so the test is aimed at the exact thing you were told to fix.
+In the Cartographer round, Adam put his README in front of an outsider, watched her fail for twenty minutes, cut it from 904 words to 471, and kept the old version in the repo so you could see the change. That is a rebuild with the receipt attached. This week everyone ships one.
+Three things separate a real rebuild from a second draft:
+1. The original stays. Pinned at its judged commit, in the repo, untouched. If a mod cannot diff old against new, there is no rebuild to score.
+2. The questions come from the feedback. Take the two fixes and the one thing that would have moved you up. Turn each into a question with a checkable answer. Commit questions.md before you change a line.
+3. You report what did not improve. A rebuild that is better at everything is a rebuild nobody tested. Where did the new version tie. Where did it get worse. What did you leave alone on purpose and why.
+The rebuild's quality is not the score. The gap closed against the feedback is. 💪
+🚫 THE ONE WAY TO LOSE THIS
+Last cycle we named the failure and nobody made it. Here is this cycle's:
+A rebuild that does not answer the feedback file has failed.
+We are going to read your feedback file first, then your rebuild. If the two fixes and the one thing that would have moved you up are not visibly addressed, with a question in questions.md aimed at each, the entry is out. Polishing what already worked is not the assignment. Fixing what we told you was broken is.
+🗂️ THE METHODOLOGY
+If this is your first comp, welcome. Here is what you need to know:
+This week (and every week) you are learning interpretable context methodology. Folders as architecture. Each file does one job well.
+Your repo has four parts at the root:
+- 📁 original/: your judged entry, pinned at the commit we scored, read only
+- 📄 feedback.md: the file we sent you, verbatim, or the public results post if you are rebuilding someone else's
+- 📁 rebuild/: the new version, with the usual five files inside: identity, rules, examples, reference/, README
+- 📊 results.md: what changed, question by question, including what tied or got worse, and what you chose not to touch
+Plus the control:
+- 📝 questions.md: five to ten questions derived from feedback.md, with expected answers, committed before rebuild/ exists
+- 🧪 run-original/: raw transcript of the questions against original/, exact prompts included
+- 🧪 run-rebuild/: raw transcript of the same questions against rebuild/, same order
+Write the questions. Commit. Run them against the original. Commit. Rebuild. Run them again. Commit. Write results. That is the whole method.
+💼 WHY THIS LANDS ON YOUR RESUME
+Every hiring manager wants to know one thing about how you take feedback. Did you act on it, and can you show the before and after.
+Most people answer with a story. You will answer with a repo. Original pinned, the review that named the gap, the fix, and the test that proves the gap closed. That is a case study in one link. 🚀
+Win or lose, you walk out with the one artifact most portfolios skip: proof that you improve.
+📐 THE BAR
+A mod reads your feedback file, then your questions.md, and sees one question per fix. They run both arms and the rebuild wins on those questions. Then they read results.md and it admits where it did not.
+If the original is not pinned, it is a second draft.
+If the questions do not trace to the feedback, it is a polish pass.
+If results.md only has wins, it is a pitch.
+None of those are the assignment.
+🆕 NEW TO THIS? START HERE.
+You do not need a past entry. You need a public repo someone has opened for rebuilds and its results post.
+Read what the judges said about it. Write three questions aimed at those lines. Run them against the repo as is. Save that. Fix the three things. Run again. Save that. Write down what changed. Credit the original author in your README.
+That is a complete entry, and the original author gets a free second review out of it.
+📝 HOW TO SUBMIT
+Drop a public GitHub repo link in the comments. Plus 2-3 sentences on which entry you rebuilt and the one line from your feedback file that drove the rebuild.
+Past entrants: if you are open to someone else rebuilding your repo, reply to this post with the link and say so. One line is enough.
+⚖️ JUDGING
+Jake & Matt scored against a full rubric. Same method as the last four cycles: we clone every repo, pin it to the last commit before the deadline, and try to break it.
+✅ Is the original pinned and untouched, and does feedback.md match what we sent?
+✅ Does every fix in the feedback have a question aimed at it, committed before the rebuild?
+✅ Does the rebuild win on those questions when we re-run both arms?
+✅ Does results.md report ties and regressions, not just wins?
+🎟️ WHO CAN ENTER
+Premium and VIP members only. No exceptions.
+🆓 Free members watching this thinking "I could win that"? You are probably right. $1,000 in platform credits is on the line. Upgrade to Premium and you are in the running.
+📅 DATES
+⏰ Submit by: Wednesday, October 28th, 11:59 PM EST
+🎉 Winner announced: Saturday, October 31st
+Every entrant gets a feedback file, not just the winner.
+One last thing.
+We have sent well over a hundred feedback files since the Cartographer. Each one names two fixes and one thing that would have moved you up. This is the comp where those files stop being a grade and start being a spec.
+Read yours. Then prove you read it.
+LFG 🚀

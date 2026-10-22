@@ -1,0 +1,2 @@
+NOTE: APPLIED EXCLUSIONS C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\repair\review-records\personal-F.json: S002, S003; explicit review decisions, not automatic relevance proof
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.

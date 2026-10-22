@@ -1,0 +1,16 @@
+{
+  "label": "replay-stress-original-M-mixed-one-form-1",
+  "version": "repaired",
+  "source": "supplemental/fixtures/M-mixed-one-form.md",
+  "card": "supplemental/run-original/M-mixed-one-form/repeat-1/bid-compliance-card.md",
+  "source_sha256": "7d78bae2a26ef0aa75a45b3b3b1cecfad33100e8cf9a511f391a94a0f4e32c72",
+  "card_sha256": "2e241e14e39c4c523aa33a0d3716c06fec415ebb24f2a83eb7dc5bf21fa94fb1",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

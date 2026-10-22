@@ -2,9 +2,9 @@
 
 ## Competition 15 rebuild
 
-This version addresses the original judges' feedback: clearly unrelated personal material stays quoted only in Section 12; explicit contractual expectations have a Section 11 trigger; and examples.md discloses the script-built sample 04 provenance. The original judged folder and comparative raw runs live one directory above this folder. See `../questions.md` for the fixed evaluation and `../results.md` for the eventual outcomes.
+This is the packaged repaired rebuild. Its six model knowledge files match the tested historical rebuild byte for byte. The judged original and comparative runs are one level above this folder. See `../questions.md` for the frozen evaluation, `../results.md` for the final comparison and `../repair/report.md` for the repair evidence. Historical code and reports are preserved in `../history/prepackage/` and Git.
 
-The validator suppresses review hints only when a source anchor explicitly says `unrelated` and that statement appears solely in Section 12. This conservative filter does not classify arbitrary attachments or authenticate emails. Unmarked unrelated text may still generate a hint requiring human review. Routing still depends on model judgment; ambiguous authority remains unresolved.
+The validator no longer suppresses hints based on filenames or source anchors. Default checks remain conservative. To avoid false hints on adjudicated personal material, explicitly select a packet-bound review record with `--reviewed-exclusions`. Invalid or stale records fail validation; explicit procurement wording cannot be excluded through this mechanism. See [the review-record instructions](REVIEWED_EXCLUSIONS.md). This adds an operator review step and does not authenticate the reviewer or prove semantic correctness. Routing still depends on model judgment; ambiguous authority remains unresolved.
 
 Historical test claims below concern the pre-rebuild entry. They are preserved as historical evidence, not new validation of this version. See `run-results/rebuild-noisy-input/` for the new comparison record.
 

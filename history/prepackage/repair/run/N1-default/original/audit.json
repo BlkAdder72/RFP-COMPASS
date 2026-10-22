@@ -1,0 +1,20 @@
+{
+  "label": "N1-default",
+  "version": "original",
+  "source": "supplemental/fixtures/K-unrelated-label.md",
+  "card": "supplemental/tool-original/N1-mislabeled-real-deadline/evaluator-card.md",
+  "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+  "card_sha256": "436d9e41f3834349bf0c6e522a27c7e565c550a6e0b7745806791f83521f3263",
+  "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+  "exit_code": 0,
+  "section6_hints": [
+    "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N1-mislabeled-real-deadline\\evaluator-card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+  ],
+  "review": null,
+  "expectation": {
+    "hints": {
+      "S002": true
+    }
+  },
+  "passed": true
+}

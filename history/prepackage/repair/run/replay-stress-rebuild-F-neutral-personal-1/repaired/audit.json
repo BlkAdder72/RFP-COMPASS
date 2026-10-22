@@ -1,0 +1,18 @@
+{
+  "label": "replay-stress-rebuild-F-neutral-personal-1",
+  "version": "repaired",
+  "source": "supplemental/fixtures/F-neutral-personal.md",
+  "card": "supplemental/run-rebuild/F-neutral-personal/repeat-1/bid-compliance-card.md",
+  "source_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+  "card_sha256": "f9e6de73719444ba1bbde9d4d87e9ae3c5036b11855be8a4b6335a51dfec2206",
+  "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+  "exit_code": 0,
+  "section6_hints": [
+    "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\run-rebuild\\F-neutral-personal\\repeat-1\\bid-compliance-card.md: S002 look like dates or times but are not in Section 6; confirm that is intended"
+  ],
+  "review": null,
+  "expectation": {
+    "valid": true
+  },
+  "passed": true
+}

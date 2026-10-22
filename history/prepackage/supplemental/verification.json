@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "protected_first_pass_files": 387,
+  "model_responses_verified": 32,
+  "frozen_protocol_commit": "b1f808c",
+  "observed_item_types": [
+    "agent_message"
+  ],
+  "token_totals": {
+    "original": {
+      "input_tokens": 438944,
+      "output_tokens": 7517
+    },
+    "rebuild": {
+      "input_tokens": 449316,
+      "output_tokens": 7403
+    }
+  },
+  "note": "Explicit requests and knowledge verified; host system context was not captured."
+}

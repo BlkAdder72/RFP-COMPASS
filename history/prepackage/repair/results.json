@@ -1,0 +1,1374 @@
+{
+  "checks_passed": 75,
+  "knowledge_unchanged": true,
+  "protected_files_verified": 752,
+  "cases": [
+    {
+      "label": "N1-default",
+      "version": "original",
+      "source": "supplemental/fixtures/K-unrelated-label.md",
+      "card": "supplemental/tool-original/N1-mislabeled-real-deadline/evaluator-card.md",
+      "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+      "card_sha256": "436d9e41f3834349bf0c6e522a27c7e565c550a6e0b7745806791f83521f3263",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N1-mislabeled-real-deadline\\evaluator-card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+      ],
+      "review": null,
+      "expectation": {
+        "hints": {
+          "S002": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "A-contained-default",
+      "version": "original",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "hints": {
+          "S004": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "A-missed-deadline-default",
+      "version": "original",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/missed-deadline.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "662970a863f380f40ef7c46c5a0905f4bd61de6d62ad7f3d3357bb9da17b90ba",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002, S004 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+      ],
+      "review": null,
+      "expectation": {
+        "hints": {
+          "S002": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "N2-default",
+      "version": "original",
+      "source": "supplemental/fixtures/F-neutral-personal.md",
+      "card": "supplemental/tool-original/N2-neutral-personal/evaluator-card.md",
+      "source_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+      "card_sha256": "2ca84b5c39b9131a854666df79fdbbe52b4d30a02f24772d4fdf906b1f123d02",
+      "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N2-neutral-personal\\evaluator-card.md: S002 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "hints": {
+          "S002": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "N1-default",
+      "version": "historical-rebuild",
+      "source": "supplemental/fixtures/K-unrelated-label.md",
+      "card": "supplemental/tool-original/N1-mislabeled-real-deadline/evaluator-card.md",
+      "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+      "card_sha256": "436d9e41f3834349bf0c6e522a27c7e565c550a6e0b7745806791f83521f3263",
+      "validator_sha256": "5dc24439b1040f4750c4786330a0f81808886fe5421496172399343908c33e15",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "hints": {
+          "S002": false
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "A-contained-default",
+      "version": "historical-rebuild",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "5dc24439b1040f4750c4786330a0f81808886fe5421496172399343908c33e15",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "hints": {
+          "S004": false
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "A-missed-deadline-default",
+      "version": "historical-rebuild",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/missed-deadline.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "662970a863f380f40ef7c46c5a0905f4bd61de6d62ad7f3d3357bb9da17b90ba",
+      "validator_sha256": "5dc24439b1040f4750c4786330a0f81808886fe5421496172399343908c33e15",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+      ],
+      "review": null,
+      "expectation": {
+        "hints": {
+          "S002": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "N2-default",
+      "version": "historical-rebuild",
+      "source": "supplemental/fixtures/F-neutral-personal.md",
+      "card": "supplemental/tool-original/N2-neutral-personal/evaluator-card.md",
+      "source_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+      "card_sha256": "2ca84b5c39b9131a854666df79fdbbe52b4d30a02f24772d4fdf906b1f123d02",
+      "validator_sha256": "5dc24439b1040f4750c4786330a0f81808886fe5421496172399343908c33e15",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N2-neutral-personal\\evaluator-card.md: S002 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "hints": {
+          "S002": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "N1-default",
+      "version": "repaired",
+      "source": "supplemental/fixtures/K-unrelated-label.md",
+      "card": "supplemental/tool-original/N1-mislabeled-real-deadline/evaluator-card.md",
+      "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+      "card_sha256": "436d9e41f3834349bf0c6e522a27c7e565c550a6e0b7745806791f83521f3263",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N1-mislabeled-real-deadline\\evaluator-card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+      ],
+      "review": null,
+      "expectation": {
+        "hints": {
+          "S002": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "A-contained-default",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "hints": {
+          "S004": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "A-missed-deadline-default",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/missed-deadline.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "662970a863f380f40ef7c46c5a0905f4bd61de6d62ad7f3d3357bb9da17b90ba",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002, S004 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+      ],
+      "review": null,
+      "expectation": {
+        "hints": {
+          "S002": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "N2-default",
+      "version": "repaired",
+      "source": "supplemental/fixtures/F-neutral-personal.md",
+      "card": "supplemental/tool-original/N2-neutral-personal/evaluator-card.md",
+      "source_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+      "card_sha256": "2ca84b5c39b9131a854666df79fdbbe52b4d30a02f24772d4fdf906b1f123d02",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N2-neutral-personal\\evaluator-card.md: S002 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "hints": {
+          "S002": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "A-contained-reviewed",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": "repair/review-records/personal-A.json",
+      "expectation": {
+        "hints": {
+          "S004": false
+        },
+        "applied": true
+      },
+      "review_sha256": "6376f83928375ab89a01e59f50691e0fcb4c36bcff091947c73150412e6ab14a",
+      "passed": true
+    },
+    {
+      "label": "A-missed-deadline-reviewed",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/missed-deadline.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "662970a863f380f40ef7c46c5a0905f4bd61de6d62ad7f3d3357bb9da17b90ba",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+      ],
+      "review": "repair/review-records/personal-A.json",
+      "expectation": {
+        "hints": {
+          "S002": true,
+          "S004": false
+        },
+        "applied": true
+      },
+      "review_sha256": "6376f83928375ab89a01e59f50691e0fcb4c36bcff091947c73150412e6ab14a",
+      "passed": true
+    },
+    {
+      "label": "N2-reviewed",
+      "version": "repaired",
+      "source": "supplemental/fixtures/F-neutral-personal.md",
+      "card": "supplemental/tool-original/N2-neutral-personal/evaluator-card.md",
+      "source_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+      "card_sha256": "2ca84b5c39b9131a854666df79fdbbe52b4d30a02f24772d4fdf906b1f123d02",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": "repair/review-records/personal-F.json",
+      "expectation": {
+        "hints": {
+          "S002": false
+        },
+        "applied": true
+      },
+      "review_sha256": "c619223a2dbd6906cb51b7c300093041c244f9104277faa9b09ebc9abd2113a7",
+      "passed": true
+    },
+    {
+      "label": "N1-empty-review",
+      "version": "repaired",
+      "source": "supplemental/fixtures/K-unrelated-label.md",
+      "card": "supplemental/tool-original/N1-mislabeled-real-deadline/evaluator-card.md",
+      "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+      "card_sha256": "436d9e41f3834349bf0c6e522a27c7e565c550a6e0b7745806791f83521f3263",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N1-mislabeled-real-deadline\\evaluator-card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+      ],
+      "review": "repair/review-records/empty-K.json",
+      "expectation": {
+        "hints": {
+          "S002": true
+        },
+        "applied": false
+      },
+      "review_sha256": "518f1bcda613861ef65f262b212e8dda367af025fe70fc85afa61fcb926d2bc0",
+      "passed": true
+    },
+    {
+      "label": "stale-packet",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": "repair/review-records/stale-packet.json",
+      "expectation": {
+        "valid": false,
+        "hints": {
+          "S004": true
+        },
+        "applied": false
+      },
+      "review_sha256": "249a54d27ea08790fa797588deae232408e13388f93f5ab5106c1a181e0ed3cc",
+      "passed": true
+    },
+    {
+      "label": "wrong-statement",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": "repair/review-records/wrong-statement.json",
+      "expectation": {
+        "valid": false,
+        "hints": {
+          "S004": true
+        },
+        "applied": false
+      },
+      "review_sha256": "feb7f9a01c932faa6cd1358a41f2c495f470e8e691d23304ce8e626d370c50ba",
+      "passed": true
+    },
+    {
+      "label": "unknown-id",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": "repair/review-records/unknown-id.json",
+      "expectation": {
+        "valid": false,
+        "hints": {
+          "S004": true
+        },
+        "applied": false
+      },
+      "review_sha256": "b18e3021ce644b602b34a39212be8c8e251da407fcd1abd3fd20a72cec7c2be4",
+      "passed": true
+    },
+    {
+      "label": "duplicate-id",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": "repair/review-records/duplicate-id.json",
+      "expectation": {
+        "valid": false,
+        "hints": {
+          "S004": true
+        },
+        "applied": false
+      },
+      "review_sha256": "eda5e0c60b26a48182fb5ddf8caa231b6520db55d351c54bd384520cc40a0dc7",
+      "passed": true
+    },
+    {
+      "label": "blank-reviewer",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": "repair/review-records/blank-reviewer.json",
+      "expectation": {
+        "valid": false,
+        "hints": {
+          "S004": true
+        },
+        "applied": false
+      },
+      "review_sha256": "65c1589944be0cdda318c669fc8aab03bf3902e000c31d06d4545cb5a1ce1d8e",
+      "passed": true
+    },
+    {
+      "label": "blank-reason",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": "repair/review-records/blank-reason.json",
+      "expectation": {
+        "valid": false,
+        "hints": {
+          "S004": true
+        },
+        "applied": false
+      },
+      "review_sha256": "ec4802a3c77a2c471dae4112cebb9e36c926a7d1c3341b0f1f96c3dd49cd2fb9",
+      "passed": true
+    },
+    {
+      "label": "unsupported-schema",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": "repair/review-records/unsupported-schema.json",
+      "expectation": {
+        "valid": false,
+        "hints": {
+          "S004": true
+        },
+        "applied": false
+      },
+      "review_sha256": "9210343fcf710d4b1174c596244a87a2bf888bbb5aaa726d437121399c25f153",
+      "passed": true
+    },
+    {
+      "label": "unknown-field",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": "repair/review-records/unknown-field.json",
+      "expectation": {
+        "valid": false,
+        "hints": {
+          "S004": true
+        },
+        "applied": false
+      },
+      "review_sha256": "8102bdc3433849863658a9086e52cee72c93de4137a675dd34a049337ae9844b",
+      "passed": true
+    },
+    {
+      "label": "malformed-json",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": "repair/review-records/malformed-json.json",
+      "expectation": {
+        "valid": false,
+        "hints": {
+          "S004": true
+        },
+        "applied": false
+      },
+      "review_sha256": "021fb596db81e6d02bf3d2586ee3981fe519f275c0ac9ca76bbcf2ebb4097d96",
+      "passed": true
+    },
+    {
+      "label": "duplicate-json-key",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/Q8-validator/contained.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "8c01ca388494b33be7747700dda5e55332e1d5c80272d1904b1f4dfa13cac463",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": "repair/review-records/duplicate-json-key.json",
+      "expectation": {
+        "valid": false,
+        "hints": {
+          "S004": true
+        },
+        "applied": false
+      },
+      "review_sha256": "dfd205aeecbcf824d6da92dcf6cfd8102bc604002f14aa2356923cbfcaae789b",
+      "passed": true
+    },
+    {
+      "label": "operational-exclusion",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/A-stapled-thread/bid-compliance-card.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "9e869fc83ffd3378db11fb91b08b3e2c3f1769a97f55b964c8d293ec1a56c825",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [],
+      "review": "repair/review-records/personal-A.json",
+      "expectation": {
+        "valid": false,
+        "applied": false
+      },
+      "review_sha256": "6376f83928375ab89a01e59f50691e0fcb4c36bcff091947c73150412e6ab14a",
+      "passed": true
+    },
+    {
+      "label": "procurement-exclusion",
+      "version": "repaired",
+      "source": "supplemental/fixtures/K-unrelated-label.md",
+      "card": "supplemental/tool-original/N1-mislabeled-real-deadline/evaluator-card.md",
+      "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+      "card_sha256": "436d9e41f3834349bf0c6e522a27c7e565c550a6e0b7745806791f83521f3263",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\tool-original\\N1-mislabeled-real-deadline\\evaluator-card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+      ],
+      "review": "repair/review-records/invalid-procurement-K.json",
+      "expectation": {
+        "valid": false,
+        "hints": {
+          "S002": true
+        },
+        "applied": false
+      },
+      "review_sha256": "d6376fb1db472ed0a62829184d6b41ee11a3218141f3321c21b07236f14e3ec6",
+      "passed": true
+    },
+    {
+      "label": "mixed-exclusion",
+      "version": "repaired",
+      "source": "supplemental/fixtures/I-mixed-one-deadline.md",
+      "card": "repair/run/mixed-quarantined-card.md",
+      "source_sha256": "1a81ae595e416311ae86e364657d3d406e96be9ade3a4d39e28b50f4f9abe7e9",
+      "card_sha256": "1dbb8f727d648cf9e16c185c91f27ce50739c21582c7346d4a35fed86e5ee041",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 1,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\repair\\run\\mixed-quarantined-card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+      ],
+      "review": "repair/review-records/invalid-mixed-I.json",
+      "expectation": {
+        "valid": false,
+        "hints": {
+          "S002": true
+        },
+        "applied": false
+      },
+      "review_sha256": "47527ef43bc458246f60111df53b71f38db994b5683532c4b975428ed74bdcf8",
+      "passed": true
+    },
+    {
+      "label": "replay-first-original-A-stapled-thread",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-original/A-stapled-thread/bid-compliance-card.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "9e869fc83ffd3378db11fb91b08b3e2c3f1769a97f55b964c8d293ec1a56c825",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-first-original-B-personal-note",
+      "version": "repaired",
+      "source": "fixtures/B-personal-note.md",
+      "card": "run-original/B-personal-note/bid-compliance-card.md",
+      "source_sha256": "8f9eea159395293aa85be724ed990e6cd80a373c39e7d1e6171a2a3bdd776567",
+      "card_sha256": "df101a5b08cf63cb35809047ce79913bca316119842e1d6309c038e6dfebf4b5",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-first-original-C-official-email",
+      "version": "repaired",
+      "source": "fixtures/C-official-email.md",
+      "card": "run-original/C-official-email/bid-compliance-card.md",
+      "source_sha256": "57b1f1ebbe4ad2c59d7128c54d4fdb34da4b95fd7cc9a447cb9219ef70405a02",
+      "card_sha256": "1e8e4e1101d0eb464a2d449b56b9baf6b5ccdcac4a74b29b3f70bbf7bde8fc72",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-first-original-D-ai-instruction",
+      "version": "repaired",
+      "source": "fixtures/D-ai-instruction.md",
+      "card": "run-original/D-ai-instruction/bid-compliance-card.md",
+      "source_sha256": "dae3c6f26930395a4e439793e0d127c2b108f5a9fdf17af0fcebfc615dea21d3",
+      "card_sha256": "45270e96aab0b8d74f2492d5b9fae124a7e9dbdad4ccaebcc6ca590e83c1db24",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-first-original-E-contract-expectation",
+      "version": "repaired",
+      "source": "fixtures/E-contract-expectation.md",
+      "card": "run-original/E-contract-expectation/bid-compliance-card.md",
+      "source_sha256": "3a4dab36755f799a73ebacec0a8930f76405cfec07131d72c3abf4bf9d60ffae",
+      "card_sha256": "13cd0da72d50de6d1b7a6ebd54a361da7b1185319a2b231fc1579463c7919279",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-F-neutral-personal-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/F-neutral-personal.md",
+      "card": "supplemental/run-original/F-neutral-personal/repeat-1/bid-compliance-card.md",
+      "source_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+      "card_sha256": "07443cbc8902b10e56d9b2f91b2268073145eb43734dc66d6388fe67a242cf3a",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-F-neutral-personal-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/F-neutral-personal.md",
+      "card": "supplemental/run-original/F-neutral-personal/repeat-2/bid-compliance-card.md",
+      "source_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+      "card_sha256": "07443cbc8902b10e56d9b2f91b2268073145eb43734dc66d6388fe67a242cf3a",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-G-unknown-attachment-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/G-unknown-attachment.md",
+      "card": "supplemental/run-original/G-unknown-attachment/repeat-1/bid-compliance-card.md",
+      "source_sha256": "33888be7f7d70ea520fb90a6e4415e5c54d7eb5b183f3f410d26cdd8aed789ac",
+      "card_sha256": "67e256b846b15e5e69ee7037c54b07236724c55bae6f8a1134681a477aa73824",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-G-unknown-attachment-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/G-unknown-attachment.md",
+      "card": "supplemental/run-original/G-unknown-attachment/repeat-2/bid-compliance-card.md",
+      "source_sha256": "33888be7f7d70ea520fb90a6e4415e5c54d7eb5b183f3f410d26cdd8aed789ac",
+      "card_sha256": "94aa24cab3d2985d32ceb6974c1c59c0403a96cccef7b810b4227ca6b34cae64",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-H-mixed-thread-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/H-mixed-thread.md",
+      "card": "supplemental/run-original/H-mixed-thread/repeat-1/bid-compliance-card.md",
+      "source_sha256": "5b8174c45459c94bdd4f5601876e914d98e3748cdb8ffc117a9cfd598433e320",
+      "card_sha256": "4f0c6dc58e1214b6bbb5a7f0fe27de4e304c54922c29825dd2035102a380e486",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-H-mixed-thread-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/H-mixed-thread.md",
+      "card": "supplemental/run-original/H-mixed-thread/repeat-2/bid-compliance-card.md",
+      "source_sha256": "5b8174c45459c94bdd4f5601876e914d98e3748cdb8ffc117a9cfd598433e320",
+      "card_sha256": "4f0c6dc58e1214b6bbb5a7f0fe27de4e304c54922c29825dd2035102a380e486",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-I-mixed-one-deadline-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/I-mixed-one-deadline.md",
+      "card": "supplemental/run-original/I-mixed-one-deadline/repeat-1/bid-compliance-card.md",
+      "source_sha256": "1a81ae595e416311ae86e364657d3d406e96be9ade3a4d39e28b50f4f9abe7e9",
+      "card_sha256": "539d010a6f1b9a0953ba50b386e4085694dea341579165bf3ea805ba3f8294d3",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-I-mixed-one-deadline-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/I-mixed-one-deadline.md",
+      "card": "supplemental/run-original/I-mixed-one-deadline/repeat-2/bid-compliance-card.md",
+      "source_sha256": "1a81ae595e416311ae86e364657d3d406e96be9ade3a4d39e28b50f4f9abe7e9",
+      "card_sha256": "539d010a6f1b9a0953ba50b386e4085694dea341579165bf3ea805ba3f8294d3",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-J-personal-filename-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/J-personal-filename.md",
+      "card": "supplemental/run-original/J-personal-filename/repeat-1/bid-compliance-card.md",
+      "source_sha256": "fb8fdf40ad69c7aad6dd1db18eafb9e08f716b5ae3d25d71c259e22e3f960c6f",
+      "card_sha256": "37a211ccd4f3ba007b75361b74cf1b918dcef6bd88d30de2484afb824e3173d9",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-J-personal-filename-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/J-personal-filename.md",
+      "card": "supplemental/run-original/J-personal-filename/repeat-2/bid-compliance-card.md",
+      "source_sha256": "fb8fdf40ad69c7aad6dd1db18eafb9e08f716b5ae3d25d71c259e22e3f960c6f",
+      "card_sha256": "37a211ccd4f3ba007b75361b74cf1b918dcef6bd88d30de2484afb824e3173d9",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-K-unrelated-label-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/K-unrelated-label.md",
+      "card": "supplemental/run-original/K-unrelated-label/repeat-1/bid-compliance-card.md",
+      "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+      "card_sha256": "5161fd1da4d7079638d4d73db182a66f364881f54186ed4ac95127792bb4fca3",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-K-unrelated-label-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/K-unrelated-label.md",
+      "card": "supplemental/run-original/K-unrelated-label/repeat-2/bid-compliance-card.md",
+      "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+      "card_sha256": "5161fd1da4d7079638d4d73db182a66f364881f54186ed4ac95127792bb4fca3",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-L-procurement-lunch-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/L-procurement-lunch.md",
+      "card": "supplemental/run-original/L-procurement-lunch/repeat-1/bid-compliance-card.md",
+      "source_sha256": "5860356bf0bcde4d17eace13e23365b3e8d14f6faeade38f7fb58361507b4d44",
+      "card_sha256": "1926536ed7b5066a2f816f92de3126f063417b9f3e7fbbdf7f571f4a88cb652b",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-L-procurement-lunch-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/L-procurement-lunch.md",
+      "card": "supplemental/run-original/L-procurement-lunch/repeat-2/bid-compliance-card.md",
+      "source_sha256": "5860356bf0bcde4d17eace13e23365b3e8d14f6faeade38f7fb58361507b4d44",
+      "card_sha256": "1926536ed7b5066a2f816f92de3126f063417b9f3e7fbbdf7f571f4a88cb652b",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-M-mixed-one-form-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/M-mixed-one-form.md",
+      "card": "supplemental/run-original/M-mixed-one-form/repeat-1/bid-compliance-card.md",
+      "source_sha256": "7d78bae2a26ef0aa75a45b3b3b1cecfad33100e8cf9a511f391a94a0f4e32c72",
+      "card_sha256": "2e241e14e39c4c523aa33a0d3716c06fec415ebb24f2a83eb7dc5bf21fa94fb1",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-original-M-mixed-one-form-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/M-mixed-one-form.md",
+      "card": "supplemental/run-original/M-mixed-one-form/repeat-2/bid-compliance-card.md",
+      "source_sha256": "7d78bae2a26ef0aa75a45b3b3b1cecfad33100e8cf9a511f391a94a0f4e32c72",
+      "card_sha256": "2e241e14e39c4c523aa33a0d3716c06fec415ebb24f2a83eb7dc5bf21fa94fb1",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-first-rebuild-A-stapled-thread",
+      "version": "repaired",
+      "source": "fixtures/A-stapled-thread.md",
+      "card": "run-rebuild/A-stapled-thread/bid-compliance-card.md",
+      "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+      "card_sha256": "86acb83221a6b60e519137d79e99fc756fc7ca1b01743e34711a210ce0166d50",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\A-stapled-thread\\bid-compliance-card.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-first-rebuild-B-personal-note",
+      "version": "repaired",
+      "source": "fixtures/B-personal-note.md",
+      "card": "run-rebuild/B-personal-note/bid-compliance-card.md",
+      "source_sha256": "8f9eea159395293aa85be724ed990e6cd80a373c39e7d1e6171a2a3bdd776567",
+      "card_sha256": "ef42dd9320bdb0580639313ad3a40047951804bafdb2c70be3c3e75460248a30",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\B-personal-note\\bid-compliance-card.md: S003 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-first-rebuild-C-official-email",
+      "version": "repaired",
+      "source": "fixtures/C-official-email.md",
+      "card": "run-rebuild/C-official-email/bid-compliance-card.md",
+      "source_sha256": "57b1f1ebbe4ad2c59d7128c54d4fdb34da4b95fd7cc9a447cb9219ef70405a02",
+      "card_sha256": "1e8e4e1101d0eb464a2d449b56b9baf6b5ccdcac4a74b29b3f70bbf7bde8fc72",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-first-rebuild-D-ai-instruction",
+      "version": "repaired",
+      "source": "fixtures/D-ai-instruction.md",
+      "card": "run-rebuild/D-ai-instruction/bid-compliance-card.md",
+      "source_sha256": "dae3c6f26930395a4e439793e0d127c2b108f5a9fdf17af0fcebfc615dea21d3",
+      "card_sha256": "45270e96aab0b8d74f2492d5b9fae124a7e9dbdad4ccaebcc6ca590e83c1db24",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-first-rebuild-E-contract-expectation",
+      "version": "repaired",
+      "source": "fixtures/E-contract-expectation.md",
+      "card": "run-rebuild/E-contract-expectation/bid-compliance-card.md",
+      "source_sha256": "3a4dab36755f799a73ebacec0a8930f76405cfec07131d72c3abf4bf9d60ffae",
+      "card_sha256": "fdad18364a332ed695193ea9f8e7a48637a6c6a393849a13e2eb76f9178a1f1c",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-F-neutral-personal-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/F-neutral-personal.md",
+      "card": "supplemental/run-rebuild/F-neutral-personal/repeat-1/bid-compliance-card.md",
+      "source_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+      "card_sha256": "f9e6de73719444ba1bbde9d4d87e9ae3c5036b11855be8a4b6335a51dfec2206",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\run-rebuild\\F-neutral-personal\\repeat-1\\bid-compliance-card.md: S002 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-F-neutral-personal-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/F-neutral-personal.md",
+      "card": "supplemental/run-rebuild/F-neutral-personal/repeat-2/bid-compliance-card.md",
+      "source_sha256": "5a0a6d1590e9811478de051aadcbd227c4fc6cf3b09e4539632f866aff5052cb",
+      "card_sha256": "f9e6de73719444ba1bbde9d4d87e9ae3c5036b11855be8a4b6335a51dfec2206",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\run-rebuild\\F-neutral-personal\\repeat-2\\bid-compliance-card.md: S002 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-G-unknown-attachment-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/G-unknown-attachment.md",
+      "card": "supplemental/run-rebuild/G-unknown-attachment/repeat-1/bid-compliance-card.md",
+      "source_sha256": "33888be7f7d70ea520fb90a6e4415e5c54d7eb5b183f3f410d26cdd8aed789ac",
+      "card_sha256": "94aa24cab3d2985d32ceb6974c1c59c0403a96cccef7b810b4227ca6b34cae64",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-G-unknown-attachment-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/G-unknown-attachment.md",
+      "card": "supplemental/run-rebuild/G-unknown-attachment/repeat-2/bid-compliance-card.md",
+      "source_sha256": "33888be7f7d70ea520fb90a6e4415e5c54d7eb5b183f3f410d26cdd8aed789ac",
+      "card_sha256": "94aa24cab3d2985d32ceb6974c1c59c0403a96cccef7b810b4227ca6b34cae64",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-H-mixed-thread-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/H-mixed-thread.md",
+      "card": "supplemental/run-rebuild/H-mixed-thread/repeat-1/bid-compliance-card.md",
+      "source_sha256": "5b8174c45459c94bdd4f5601876e914d98e3748cdb8ffc117a9cfd598433e320",
+      "card_sha256": "34d5189c12c106af51802b6575dedb35179cef69c707ca25f505d778a8e5cc74",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\run-rebuild\\H-mixed-thread\\repeat-1\\bid-compliance-card.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-H-mixed-thread-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/H-mixed-thread.md",
+      "card": "supplemental/run-rebuild/H-mixed-thread/repeat-2/bid-compliance-card.md",
+      "source_sha256": "5b8174c45459c94bdd4f5601876e914d98e3748cdb8ffc117a9cfd598433e320",
+      "card_sha256": "34d5189c12c106af51802b6575dedb35179cef69c707ca25f505d778a8e5cc74",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\run-rebuild\\H-mixed-thread\\repeat-2\\bid-compliance-card.md: S004 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-I-mixed-one-deadline-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/I-mixed-one-deadline.md",
+      "card": "supplemental/run-rebuild/I-mixed-one-deadline/repeat-1/bid-compliance-card.md",
+      "source_sha256": "1a81ae595e416311ae86e364657d3d406e96be9ade3a4d39e28b50f4f9abe7e9",
+      "card_sha256": "539d010a6f1b9a0953ba50b386e4085694dea341579165bf3ea805ba3f8294d3",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-I-mixed-one-deadline-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/I-mixed-one-deadline.md",
+      "card": "supplemental/run-rebuild/I-mixed-one-deadline/repeat-2/bid-compliance-card.md",
+      "source_sha256": "1a81ae595e416311ae86e364657d3d406e96be9ade3a4d39e28b50f4f9abe7e9",
+      "card_sha256": "539d010a6f1b9a0953ba50b386e4085694dea341579165bf3ea805ba3f8294d3",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-J-personal-filename-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/J-personal-filename.md",
+      "card": "supplemental/run-rebuild/J-personal-filename/repeat-1/bid-compliance-card.md",
+      "source_sha256": "fb8fdf40ad69c7aad6dd1db18eafb9e08f716b5ae3d25d71c259e22e3f960c6f",
+      "card_sha256": "85ef5d9c1ff8f76004c4307cde7cabbbbf908a1638e70cb37daafaf740c3a64c",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\run-rebuild\\J-personal-filename\\repeat-1\\bid-compliance-card.md: S003 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-J-personal-filename-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/J-personal-filename.md",
+      "card": "supplemental/run-rebuild/J-personal-filename/repeat-2/bid-compliance-card.md",
+      "source_sha256": "fb8fdf40ad69c7aad6dd1db18eafb9e08f716b5ae3d25d71c259e22e3f960c6f",
+      "card_sha256": "85ef5d9c1ff8f76004c4307cde7cabbbbf908a1638e70cb37daafaf740c3a64c",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\supplemental\\run-rebuild\\J-personal-filename\\repeat-2\\bid-compliance-card.md: S003 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-K-unrelated-label-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/K-unrelated-label.md",
+      "card": "supplemental/run-rebuild/K-unrelated-label/repeat-1/bid-compliance-card.md",
+      "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+      "card_sha256": "5161fd1da4d7079638d4d73db182a66f364881f54186ed4ac95127792bb4fca3",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-K-unrelated-label-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/K-unrelated-label.md",
+      "card": "supplemental/run-rebuild/K-unrelated-label/repeat-2/bid-compliance-card.md",
+      "source_sha256": "f885e3f21ba6f67c7d1fa1446493ddea27240c41f00917d671aba3d1f3b3b22d",
+      "card_sha256": "5161fd1da4d7079638d4d73db182a66f364881f54186ed4ac95127792bb4fca3",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-L-procurement-lunch-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/L-procurement-lunch.md",
+      "card": "supplemental/run-rebuild/L-procurement-lunch/repeat-1/bid-compliance-card.md",
+      "source_sha256": "5860356bf0bcde4d17eace13e23365b3e8d14f6faeade38f7fb58361507b4d44",
+      "card_sha256": "1926536ed7b5066a2f816f92de3126f063417b9f3e7fbbdf7f571f4a88cb652b",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-L-procurement-lunch-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/L-procurement-lunch.md",
+      "card": "supplemental/run-rebuild/L-procurement-lunch/repeat-2/bid-compliance-card.md",
+      "source_sha256": "5860356bf0bcde4d17eace13e23365b3e8d14f6faeade38f7fb58361507b4d44",
+      "card_sha256": "1926536ed7b5066a2f816f92de3126f063417b9f3e7fbbdf7f571f4a88cb652b",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-M-mixed-one-form-1",
+      "version": "repaired",
+      "source": "supplemental/fixtures/M-mixed-one-form.md",
+      "card": "supplemental/run-rebuild/M-mixed-one-form/repeat-1/bid-compliance-card.md",
+      "source_sha256": "7d78bae2a26ef0aa75a45b3b3b1cecfad33100e8cf9a511f391a94a0f4e32c72",
+      "card_sha256": "2e241e14e39c4c523aa33a0d3716c06fec415ebb24f2a83eb7dc5bf21fa94fb1",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "replay-stress-rebuild-M-mixed-one-form-2",
+      "version": "repaired",
+      "source": "supplemental/fixtures/M-mixed-one-form.md",
+      "card": "supplemental/run-rebuild/M-mixed-one-form/repeat-2/bid-compliance-card.md",
+      "source_sha256": "7d78bae2a26ef0aa75a45b3b3b1cecfad33100e8cf9a511f391a94a0f4e32c72",
+      "card_sha256": "2e241e14e39c4c523aa33a0d3716c06fec415ebb24f2a83eb7dc5bf21fa94fb1",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "sample-01-real-public-notice",
+      "version": "repaired",
+      "source": "repair/candidate/samples/01-real-public-notice/source-packet.md",
+      "card": "repair/candidate/samples/01-real-public-notice/bid-compliance-card.md",
+      "source_sha256": "0a4a7b1667052d667bb51e29752d1414143963860b92048b05fe5e6b8fa9f0ed",
+      "card_sha256": "1cfb62762fdae8122388ed909f57c0df50f9611a12bafa44a9e27c6f20ecedd9",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "sample-02-sparse",
+      "version": "repaired",
+      "source": "repair/candidate/samples/02-sparse/source-packet.md",
+      "card": "repair/candidate/samples/02-sparse/bid-compliance-card.md",
+      "source_sha256": "5005424d93e6da32209669231637867992dfa82aadfe58bb06ef99bdbac76281",
+      "card_sha256": "324a99a7f9926a115fc113a21986d13973f5807f65398b21257679ed875af101",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "sample-03-conflicting",
+      "version": "repaired",
+      "source": "repair/candidate/samples/03-conflicting/source-packet.md",
+      "card": "repair/candidate/samples/03-conflicting/bid-compliance-card.md",
+      "source_sha256": "32fcfe7616679dbc2903f2a6d246bd28c7d59613c4e2f84d7066175bf736d1df",
+      "card_sha256": "bd4bb289a12a6fd6c63e33981ddb0aca12c1791c82d3f8f0a356f077c3c0193f",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    },
+    {
+      "label": "sample-04-real-tbrpc-auditing-rfp",
+      "version": "repaired",
+      "source": "repair/candidate/samples/04-real-tbrpc-auditing-rfp/source-packet.md",
+      "card": "repair/candidate/samples/04-real-tbrpc-auditing-rfp/bid-compliance-card.md",
+      "source_sha256": "1595892b6ebd7f5e49b50075e9febe768e7de3d7951062cdf8edfdf0c5573805",
+      "card_sha256": "71151e9683cd492011f6d6d5ce8ae4dffedb9ade9d19793ed2fa7ae9509fad60",
+      "validator_sha256": "c1e430169ffb11de8f333a14d221f524d0d5d2591d3b0f5935940ed74b7eae17",
+      "exit_code": 0,
+      "section6_hints": [],
+      "review": null,
+      "expectation": {
+        "valid": true
+      },
+      "passed": true
+    }
+  ]
+}
