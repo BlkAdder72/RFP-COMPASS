@@ -39,6 +39,10 @@ for arm in ('original','rebuild'):
             sid='S004' if kind=='contained' else 'S002'
             assert any('REVIEW' in l and 'Section 6' in l and sid in l for l in stdout.splitlines())==expected
 assert count==20
+assert (R/'tools/run_arm.py').read_bytes()==(D/'runner_source.py').read_bytes()
+initial=json.loads((D/'default-results.json').read_text(encoding='utf-8'))
+assert initial['count']==51 and initial['passed']==50
+assert [c['label']+'/'+c['arm'] for c in initial['cases'] if not c['passed']]==['missing-heading/rebuild']
 default=json.loads((D/'default-tests-v2-results.json').read_text(encoding='utf-8'));assert default['count']==default['passed']==51
 for case in default['cases']:
     assert sha(R/case['source'])==case['source_sha256'] and sha(R/case['card'])==case['card_sha256']

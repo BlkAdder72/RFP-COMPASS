@@ -1,30 +1,28 @@
-# Final local competition compliance check
+# Final local competition compliance — default-Q8 revision
 
-October 22, 2026. Unpublished package. **Local layout, preservation, sequence and recorded-evidence checks passed.** This is not a prediction of the judges' rerun results.
+October 22, 2026. Unpublished. Local checks pass for the revised workflow; this does not predict the judges' broader rerun results.
 
-| Requirement | Result | Evidence |
-|---|---|---|
-| Root original/, feedback.md, rebuild/, results.md | PASS | Required root paths present; repaired validator promoted into rebuild/. |
-| Original pinned and untouched | PASS | All 134 files match the actual judged Git tree at 92847d2a17250fa18914d932826db63d99dcb75c; local tag judged-original-comp13 preserves that commit and ancestry. |
-| Feedback verbatim | PASS | SHA-256 equals the original supplied feedback file's recorded hash. |
-| Five to ten precommitted feedback-derived questions | PASS | Eight questions; both fixes and tier request are mapped in results.md. Questions and harness were committed before the first rebuild. |
-| Original run committed before rebuild | PASS | 045e74e precedes c97a79c; the preceding commits contain no rebuild tree. Git ancestry verified. |
-| Identical model questions/input order and raw evidence | PASS for supplied harness | Both arms preserve exact prompts, knowledge hashes and raw events. Five first-pass sessions per arm; eight supplemental fixtures, two repeats per arm. Final six knowledge files match the tested rebuild. Host-system variation remains disclosed. |
-| Noisy thread test shipped under run-results | PASS | Rebuild A/B/C raw trial copies and source packets are included under rebuild/run-results/rebuild-noisy-input/ and match root run-rebuild bytes. |
-| Ties, regressions and deliberate nonchanges reported | PASS | Root results synthesizes all stages, retains the validator regression and conditional repair, and discloses the indivisible mixed-statement limit. |
-| Validator repair evidence | PASS | 75 recorded repair expectations audited; final root checker reruns 42 archived cards, four reference cards and four critical cases (50 checks). Explicit review records remain necessary for suppression. |
-| All previous evidence and Git history retained | PASS | 1,287 prior tracked files retained in history/prepackage/ with hashes; stage reports/raw evidence unchanged; local stage history and judged-source ancestry retained. |
-| Public repo URL and submission comment | NOT PUBLISHED, as instructed | SUBMISSION_COMMENT.md is a three-sentence draft with a URL placeholder. No push, post or external submission was performed. |
-| Premium/VIP eligibility | NOT VERIFIED | Owner/account confirmation is still needed before entry. |
+| Requirement / red-team finding | Current result |
+|---|---|
+| Root original, feedback, rebuild, questions, results and both raw arms | Present; latest fair runs nested in both arms under revision-v2/. |
+| Original pinned and untouched | All 134 files match actual judged Git objects at 92847d2a17250fa18914d932826db63d99dcb75c; tag and ancestry retained. |
+| Feedback and frozen questions | Byte-identical; eight questions committed before first rebuild. |
+| Sequence and fair fresh rerun | Original baseline committed before the default-validator change; two repeats, same model/settings/prompts/inputs, second-repeat arm order reversed. Twenty raw model responses plus Q7/Q8 inspections retained. |
+| Q8 default workflow | Rebuild passes both components in both repeats, with no selected review records. Original remains partial in both. |
+| Final Q1–Q8 scorecard | Five questions improve per repeat; three tie; no regressed scored subcheck. Ten improved paired comparisons, six ties. |
+| Runner refuses before mutation | Seven model-free tests passed, including existing-destination and repeat refusal. Metadata/files are created exclusively in new destinations. |
+| Runner portability/workspace | Executable discovery or --codex; read-only preflight; auto-created unique working directory; no personal versioned path in supported runner. Model access/authentication still required. |
+| Default checker boundaries | Corrected 51/51 suite passes. Source-text personal cue plus placement guard; requirement/context veto. Ambiguity keeps hints. |
+| Prior corpus compatibility | Both validators structurally replayed 42 prior model cards and four samples: 92/92. |
+| Original failures/ties preserved | All 2,756 pre-revision tracked files preserved in place or byte-identical revision/history/ copies; earlier 1,287-file snapshot, all stage reports, old scores and raw logs retained. |
+| Test assertion correction | Initial 50/51 result retained; one missing-heading expectation corrected separately, without validator/frozen-question changes. |
+| Publication and public URL | NOT PERFORMED, as instructed. Submission comment remains a draft. |
+| Premium/VIP membership | NOT VERIFIED; external gate before entry. |
 
-Run `python tools/verify_submission.py` from a checkout with Git history and Python 3.10+. No third-party Python packages are needed for this audit. It writes current checks only under packaging/ and never regenerates historical scores. The detailed machine-readable record is final-compliance.json; final root-validator stdout/stderr is under final-checks/.
+Run `python tools/verify_submission.py` from a full-history checkout with Python 3.10+. No third-party Python packages are needed. It audits 62 actual model responses (42 historical plus 20 fresh), historical and current checker evidence, and preservation; it writes current audit output only under the new final-checks-v2/ and revision audit paths. It never rewrites earlier scores. Historical verifiers remain evidence of their own stages.
 
-Historical verifiers were written for earlier root paths and some contain the original machine's absolute execution paths. They are preserved as evidence. The final verifier resolves those stages through history/prepackage/ and is the supported packaged entry point. Fresh model execution still needs an authenticated model runner; no new model rerun is required for this offline evidence audit.
+The bound is explicit: English personal-activity heuristics are not universal semantic proof, generic lunch-money hints can remain, mixed indivisible statements stay whole, source authority is not authenticated, host-system messages are not byte-controlled, and synthetic repetitions are not a statistical or blind-corpus reliability estimate. Optional review records are outside the paired default workflow.
 
-## Local delivery files
+Delivery is a source ZIP plus a complete-history Git bundle and SHA-256 checksums. The ZIP lacks .git; use the bundle for the supported history audit. Prior sealed files are retained under dist/prior-default-q8/. Fresh-clone and exact-byte checks are required before the replacement artifacts are delivered. The root -text checkout policy preserves evidence bytes across platforms. No push, hosting change or submission is performed by packaging.
 
-The source ZIP is a convenience copy of the committed tree; it does not carry .git. The companion Git bundle preserves all local refs, competition-stage commits and the judged-source tag. For a full-history copy, use `git clone RFP-COMPASS-Comp15.bundle RFP-COMPASS-Comp15` and run the verifier there. SHA256SUMS.txt accompanies the local artifacts. No hosting or public repository destination has been selected or changed.
-
-The deadline is quoted by the supplied brief as Wednesday, October 28th, 11:59 PM EST. No timezone reinterpretation or independently verified eligibility claim is made here. The original brief is preserved in competition-spec.txt.
-
-The initial local bundle passed object/archive checks but its first Windows clone failed the historical-byte audit because the machine's checkout policy converted line endings. The final package adds an explicit root -text policy; inherited original directories retain their LF-specific policy. The first local artifacts are retained as superseded, and a replacement bundle must pass a fresh-clone audit before delivery. No historical evidence bytes or scores were changed to fix this packaging issue.
+The supplied brief's deadline reads Wednesday, October 28th, 11:59 PM EST; no timezone reinterpretation or eligibility confirmation is claimed. The original brief remains competition-spec.txt.

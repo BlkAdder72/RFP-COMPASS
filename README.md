@@ -1,8 +1,8 @@
 # RFP Compass — The Rebuild
 
-**Unpublished competition package: root rebuild/ is the repaired version.** Start with [results.md](results.md) and [the final compliance record](packaging/final-compliance.json). The judged original, verbatim feedback, precommitted questions and both raw run arms are at the root as required. [SUBMISSION_COMMENT.md](SUBMISSION_COMMENT.md) is a draft only.
+**Unpublished revised package: default Q8 and both runner defects are fixed.** Start with [results.md](results.md), [the resolution report](revision/report.md) and [the final compliance record](packaging/final-compliance.json). The fresh paired comparison used twenty model sessions plus file/tool checks; the rebuild passed Q1–Q8 in both repeats, and Q8 used no review record. The original, feedback, frozen questions and both raw run arms remain at the required root paths. [SUBMISSION_COMMENT.md](SUBMISSION_COMMENT.md) is a draft only.
 
-All 1,287 prepackaging tracked files are preserved byte for byte in [history/prepackage/](history/prepackage/README.md), and all Git commits remain. That snapshot contains the historical rebuild and all earlier reports/verifiers in their original context. The [supplemental report](supplemental/results.md) and [repair report](repair/report.md) remain historical, unchanged records; their statements about the root layout describe their stage, before this packaging step. Do not claim automatic noise suppression or universal mixed-statement isolation.
+All 1,287 prepackaging files remain in [history/prepackage/](history/prepackage/README.md). The new preservation manifest covers all 2,756 pre-revision tracked files; changed entry points/reports were copied to revision/history/ before editing. Earlier stage and red-team reports remain unchanged historical records. Default hint filtering is now bounded and source-text based; do not claim universal noise classification or mixed-statement isolation.
 
 **A stapled personal email became an RFP deadline. This rebuild keeps it as evidence without promoting it into a requirement.**
 
@@ -24,9 +24,18 @@ Python 3.10+, no third-party dependencies for this comparison:
 python tools/verify_submission.py
 ```
 
-This checks the required layout, the 134 original files against the judged Git objects, verbatim feedback, pre-rebuild Git sequence, all 42 raw model responses, 75 historical repair expectations and preservation of prior evidence. It executes the final root validator on 42 archived cards, four reference cards and four critical repair cases; it does not regenerate historical scores. The portable package verifier replaces the old entry point, which remains preserved in history/prepackage/tools/verify_submission.py. Historical verifiers assume their stage's old paths; use the final verifier after packaging.
+This checks the layout, 134 original files against judged Git objects, feedback, Git sequence, 42 historical plus 20 fresh model responses, 75 historical repair expectations and prior evidence. It audits the new default-Q8 comparison, 51 corrected checker cases, 92 structural replays and seven model-free runner tests. It never regenerates historical scores. Current root-validator logs are under packaging/final-checks-v2/; older final-checks/ remains unchanged. Historical verifiers assume their stage's old paths; use this supported entry point.
 
-New model runs require an authenticated Codex CLI with access to the recorded model; runner executable paths are specific to the original Windows machine. Rerun both arms in a separate checkout and preserve the existing run directories; never overwrite trials or supply expected answers to the model. The final validator's selected review records add an operator-adjudication step; see [rebuild/REVIEWED_EXCLUSIONS.md](rebuild/REVIEWED_EXCLUSIONS.md).
+New runs require an authenticated Codex CLI with access to gpt-6-astra. The runner discovers codex on PATH; use --codex for an explicit executable path. It creates its working directory and refuses existing output destinations before writes. Use new labels below, and never supply expected answers or feedback to translation sessions.
+
+```text
+python tools/run_arm.py original --output-dir experiments/new-label/original --preflight-only
+python tools/run_arm.py rebuild --output-dir experiments/new-label/rebuild --preflight-only
+python tools/run_arm.py original --output-dir experiments/new-label/original
+python tools/run_arm.py rebuild --output-dir experiments/new-label/rebuild
+```
+
+Preflight checks flags/local inputs, not account access; an actual access failure is retained in the new experiment directory. Latest runs are under run-original/revision-v2/ and run-rebuild/revision-v2/. Q8 passes with ordinary commands, without additional review input. [Review records](rebuild/REVIEWED_EXCLUSIONS.md) remain optional, outside the default comparison.
 
 ## Git sequence
 

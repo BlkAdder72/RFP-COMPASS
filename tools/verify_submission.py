@@ -10,12 +10,14 @@ for name,h in manifest['files'].items():assert sha(H/name)==h,'Historical snapsh
 mutable={'README.md','results.md','tools/verify_submission.py','.gitignore'}
 for name,h in manifest['files'].items():
     if name not in mutable and not name.startswith('rebuild/'):
-        assert sha(R/name)==h,'Prior evidence changed: '+name
+        path=R/'revision/history'/name if name in json.loads((R/'revision/preservation.json').read_text(encoding='utf-8'))['mutable_paths'] else R/name
+        assert sha(path)==h,'Prior evidence changed: '+name
 required=['original','feedback.md','rebuild','results.md','questions.md','run-original','run-rebuild']
 assert all((R/name).exists() for name in required)
 knowledge=['CLAUDE_PROJECT_INSTRUCTIONS.txt','identity.md','rules.md','examples.md','reference/input-schema.md','reference/output-schema.md']
 assert all((R/'rebuild'/name).read_bytes()==(H/'rebuild'/name).read_bytes() for name in knowledge)
-assert (R/'rebuild/tools/validate_packet.py').read_bytes()==(H/'repair/candidate/tools/validate_packet.py').read_bytes()
+current_cases=json.loads((R/'revision/default-tests-v2-results.json').read_text(encoding='utf-8'))['cases']
+assert sha(R/'rebuild/tools/validate_packet.py')==next(c['validator_sha256'] for c in current_cases if c['arm']=='rebuild')
 for name in ['identity.md','rules.md','examples.md','reference','README.md']:assert (R/'rebuild'/name).exists()
 judged='92847d2a17250fa18914d932826db63d99dcb75c'
 assert git('rev-parse','judged-original-comp13').decode().strip()==judged
@@ -76,7 +78,7 @@ for case in repair['cases']:
     for sid,want in case['expectation'].get('hints',{}).items():assert any(sid in l for l in hints)==want
     if 'applied' in case['expectation']:assert ('APPLIED EXCLUSIONS' in text)==case['expectation']['applied']
 # Execute final root validator on archived cards and critical repair cases.
-checks=[];logs=P/'final-checks';logs.mkdir(exist_ok=True)
+checks=[];logs=P/'final-checks-v2';logs.mkdir(exist_ok=True)
 def run(label,source,card,warnings=None,review=None):
     args=[sys.executable,'-X','utf8','rebuild/tools/validate_packet.py',str(source.relative_to(R)),str(card.relative_to(R))]
     if review:args+=['--reviewed-exclusions',str(review.relative_to(R))]
@@ -98,17 +100,20 @@ for arm in ('original','rebuild'):
 for sample in sorted((R/'rebuild/samples').iterdir()):run('sample-'+sample.name,sample/'source-packet.md',sample/'bid-compliance-card.md')
 A=R/'fixtures/A-stapled-thread.md';F=R/'supplemental/fixtures/F-neutral-personal.md';K=R/'supplemental/fixtures/K-unrelated-label.md'
 run('N1-regression',K,R/'supplemental/tool-original/N1-mislabeled-real-deadline/evaluator-card.md',{'S002':True})
-run('feedback-contained-reviewed',A,R/'run-original/Q8-validator/contained.md',{'S004':False},R/'repair/review-records/personal-A.json')
-run('feedback-real-deadline-reviewed',A,R/'run-original/Q8-validator/missed-deadline.md',{'S002':True,'S004':False},R/'repair/review-records/personal-A.json')
-run('neutral-personal-reviewed',F,R/'supplemental/tool-original/N2-neutral-personal/evaluator-card.md',{'S002':False},R/'repair/review-records/personal-F.json')
+run('feedback-contained-default',A,R/'run-original/Q8-validator/contained.md',{'S004':False})
+run('feedback-real-deadline-default',A,R/'run-original/Q8-validator/missed-deadline.md',{'S002':True,'S004':False})
+run('neutral-personal-default',F,R/'supplemental/tool-original/N2-neutral-personal/evaluator-card.md',{'S002':False})
 for fixture in sorted((R/'fixtures').glob('[ABC]-*.md')):
     copied=R/'rebuild/run-results/rebuild-noisy-input'/fixture.stem
     for item in (R/'run-rebuild'/fixture.stem).iterdir():assert (copied/item.name).read_bytes()==item.read_bytes()
     assert (copied/'source-packet.md').read_bytes()==fixture.read_bytes()
-result={'local_compliance':'PASS','preserved_prepackage_files':len(manifest['files']),'judged_original_files':len(entries),
+revision_audit=subprocess.run([sys.executable,str(R/'revision/verify.py')],cwd=R,capture_output=True,text=True)
+assert revision_audit.returncode==0,revision_audit.stdout+revision_audit.stderr
+fresh=json.loads((R/'revision/verification.json').read_text(encoding='utf-8'))
+result={'fresh_revision_audit':fresh,'total_raw_model_responses':count+fresh['fresh_model_responses'],'local_compliance':'PASS','preserved_prepackage_files':len(manifest['files']),'judged_original_files':len(entries),
         'raw_model_responses_verified':count,'historical_repair_checks_audited':75,'final_root_validator_checks':len(checks),
         'git_sequence':'PASS; questions and baseline precede first rebuild; all later stages retained',
-        'review_record_dependency':'Explicit adjudication required to suppress personal hints; no claim of automatic classification',
+        'review_record_dependency':'Default bounded source-text filter passes Q8 without sidecars; optional manual records are not used in the paired comparison',
         'external_gates':{'publication':'NOT PERFORMED, as requested','public_submission_link':'PENDING publication','premium_or_vip_eligibility':'NOT VERIFIED'},'checks':checks}
 (P/'final-compliance.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
 print(json.dumps({k:v for k,v in result.items() if k!='checks'},indent=2))

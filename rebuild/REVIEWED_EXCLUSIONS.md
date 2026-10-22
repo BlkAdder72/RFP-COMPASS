@@ -1,6 +1,6 @@
-# Explicit review of excluded personal evidence
+# Optional review of excluded personal evidence
 
-Default validation never trusts a filename, source anchor or Section 12 placement to silence a topic hint. This restores warnings for misplaced real deadlines. It also means unreviewed personal dates can still produce conservative REVIEW hints.
+Default validation does not require a review record for the frozen Q8 test. A bounded predicate identifies affirmative personal-activity language in source text, requires Section 12-only placement, and vetoes filtering for explicit procurement/requirement language or a protective event header. Filename words or card placement alone never establish exclusion. Unknown or ambiguous content can still produce conservative REVIEW hints. The following optional workflow is separate from the paired default comparison.
 
 For material already adjudicated as unrelated personal content, the operator can explicitly select an external review record:
 

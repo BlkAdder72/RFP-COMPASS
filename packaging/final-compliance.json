@@ -1,4 +1,22 @@
 {
+  "fresh_revision_audit": {
+    "status": "PASS",
+    "prior_tracked_files_preserved": 2756,
+    "frozen_questions_unchanged": true,
+    "fresh_model_responses": 20,
+    "default_checker_cases": 51,
+    "archived_reference_replays": 92,
+    "model_free_runner_cases": 7,
+    "fresh_question_comparisons": {
+      "improved": 10,
+      "tied": 6,
+      "regressed": 0
+    },
+    "Q8_default_no_sidecar": "PASS for rebuild in both repeats",
+    "initial_test_assertion_correction": "Preserved initial 50/51 result; corrected missing-heading expectation, no validator change",
+    "limitations": "Bounded source-text classifier; ambiguous statements retain hints; host system variation remains uncontrolled."
+  },
+  "total_raw_model_responses": 62,
   "local_compliance": "PASS",
   "preserved_prepackage_files": 1287,
   "judged_original_files": 134,
@@ -6,7 +24,7 @@
   "historical_repair_checks_audited": 75,
   "final_root_validator_checks": 50,
   "git_sequence": "PASS; questions and baseline precede first rebuild; all later stages retained",
-  "review_record_dependency": "Explicit adjudication required to suppress personal hints; no claim of automatic classification",
+  "review_record_dependency": "Default bounded source-text filter passes Q8 without sidecars; optional manual records are not used in the paired comparison",
   "external_gates": {
     "publication": "NOT PERFORMED, as requested",
     "public_submission_link": "PENDING publication",
@@ -580,15 +598,13 @@
       }
     },
     {
-      "label": "feedback-contained-reviewed",
+      "label": "feedback-contained-default",
       "arguments": [
         "-X",
         "utf8",
         "rebuild/tools/validate_packet.py",
         "fixtures\\A-stapled-thread.md",
-        "run-original\\Q8-validator\\contained.md",
-        "--reviewed-exclusions",
-        "repair\\review-records\\personal-A.json"
+        "run-original\\Q8-validator\\contained.md"
       ],
       "exit_code": 0,
       "warning_expectations": {
@@ -596,15 +612,13 @@
       }
     },
     {
-      "label": "feedback-real-deadline-reviewed",
+      "label": "feedback-real-deadline-default",
       "arguments": [
         "-X",
         "utf8",
         "rebuild/tools/validate_packet.py",
         "fixtures\\A-stapled-thread.md",
-        "run-original\\Q8-validator\\missed-deadline.md",
-        "--reviewed-exclusions",
-        "repair\\review-records\\personal-A.json"
+        "run-original\\Q8-validator\\missed-deadline.md"
       ],
       "exit_code": 0,
       "warning_expectations": {
@@ -613,15 +627,13 @@
       }
     },
     {
-      "label": "neutral-personal-reviewed",
+      "label": "neutral-personal-default",
       "arguments": [
         "-X",
         "utf8",
         "rebuild/tools/validate_packet.py",
         "supplemental\\fixtures\\F-neutral-personal.md",
-        "supplemental\\tool-original\\N2-neutral-personal\\evaluator-card.md",
-        "--reviewed-exclusions",
-        "repair\\review-records\\personal-F.json"
+        "supplemental\\tool-original\\N2-neutral-personal\\evaluator-card.md"
       ],
       "exit_code": 0,
       "warning_expectations": {

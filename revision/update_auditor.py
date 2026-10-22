@@ -10,5 +10,6 @@ text=text.replace("run('feedback-real-deadline-reviewed',A,R/'run-original/Q8-va
 text=text.replace("run('neutral-personal-reviewed',F,R/'supplemental/tool-original/N2-neutral-personal/evaluator-card.md',{'S002':False},R/'repair/review-records/personal-F.json')", "run('neutral-personal-default',F,R/'supplemental/tool-original/N2-neutral-personal/evaluator-card.md',{'S002':False})")
 text=text.replace("result={'local_compliance'", "revision_audit=subprocess.run([sys.executable,str(R/'revision/verify.py')],cwd=R,capture_output=True,text=True)\nassert revision_audit.returncode==0,revision_audit.stdout+revision_audit.stderr\nfresh=json.loads((R/'revision/verification.json').read_text(encoding='utf-8'))\nresult={'fresh_revision_audit':fresh,'total_raw_model_responses':count+fresh['fresh_model_responses'],'local_compliance'")
 text=text.replace("'Explicit adjudication required to suppress personal hints; no claim of automatic classification'", "'Default bounded source-text filter passes Q8 without sidecars; optional manual records are not used in the paired comparison'")
-for path in (R/'tools/verify_submission.py',R/'packaging/final_compliance.py'):path.write_text(text,encoding='utf-8')
+for path in (R/'tools/verify_submission.py',R/'packaging/final_compliance.py'):
+    with path.open('w',encoding='utf-8',newline='\n') as stream:stream.write(text)
 print('Promoted v2 offline auditor; historical auditor snapshots retained.')
