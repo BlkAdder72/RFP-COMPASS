@@ -1,0 +1,40 @@
+{
+  "tests": [
+    {
+      "case": "existing-output",
+      "result": "Refusing existing output directory without changing it: C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\.run-work\\runner-test-ctkq60m2\\existing",
+      "unchanged": true
+    },
+    {
+      "case": "missing-executable",
+      "result": "Codex not found on PATH; use --codex; no output created",
+      "unchanged": true
+    },
+    {
+      "case": "malformed-fixture",
+      "result": "Invalid fixture C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\.run-work\\runner-test-ctkq60m2\\fixtures\\A.md:1; no output created",
+      "unchanged": true
+    },
+    {
+      "case": "unsupported-flags",
+      "result": "Unsupported CLI/version; no output created",
+      "unchanged": true
+    },
+    {
+      "case": "preflight-only-with-space-path",
+      "unchanged": true
+    },
+    {
+      "case": "auto-workspace-and-exclusive-metadata",
+      "passed": true,
+      "model_called": false
+    },
+    {
+      "case": "repeat-refusal",
+      "result": "Refusing existing output directory without changing it: C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\.run-work\\runner-test-ctkq60m2\\fake-run",
+      "unchanged": true
+    }
+  ],
+  "count": 7,
+  "real_model_calls": 0
+}
