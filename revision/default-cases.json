@@ -1,0 +1,22 @@
+[
+ {"name":"personal-potluck-new-date","body":"Our holiday potluck is January 12, 2027, at 1:30 PM.","exclude":true},
+ {"name":"neutral-dentist","body":"My dentist appointment is February 4, 2027, at 9:00 AM.","exclude":true},
+ {"name":"family-birthday","body":"Our family birthday party is March 3, 2027, at 6:00 PM.","exclude":true},
+ {"name":"anniversary","body":"My wedding anniversary dinner is April 6, 2027, at 7:00 PM.","exclude":true},
+ {"name":"family-recital","body":"My son's piano recital is May 8, 2027, at 5:00 PM.","exclude":true},
+ {"name":"family-money","body":"Please bring $30 for our family picnic.","exclude":true,"section":8},
+ {"name":"personal-contact","body":"Call personal@example.invalid about my birthday party.","exclude":true,"section":10},
+ {"name":"unknown-meeting","body":"The meeting is June 9, 2027, at 2:00 PM.","exclude":false},
+ {"name":"indirect-real-deadline","body":"Responses are due July 1, 2027, at 3:00 PM.","exclude":false},
+ {"name":"applications-close","body":"Applications close August 2, 2027, at 4:00 PM.","exclude":false},
+ {"name":"personal-looking-real-deadline","body":"The proposal deadline is September 3, 2027, at 4:00 PM.","exclude":false,"anchor":"unrelated personal-party.txt"},
+ {"name":"mixed-party-deadline","body":"My birthday party is October 4, 2027, at 7:00 PM; responses are due at 3:00 PM.","exclude":false},
+ {"name":"mandatory-potluck","body":"Our holiday potluck is mandatory for bidders on November 5, 2027, at 12:00 PM.","exclude":false},
+ {"name":"required-personal-activity","body":"Our family picnic is required on December 6, 2027, at 12:00 PM.","exclude":false},
+ {"name":"contextual-bidder-event","body":"Our holiday potluck is January 7, 2028, at 1:00 PM.","exclude":false,"header":"Mandatory bidder events:"},
+ {"name":"generic-lunch-money","body":"Please bring $30 for lunch.","exclude":false,"section":8},
+ {"name":"genuine-fee","body":"The application fee is $30.","exclude":false,"section":8},
+ {"name":"genuine-contact","body":"Questions may be sent to procurement@example.invalid.","exclude":false,"section":10},
+ {"name":"mixed-contact","body":"Send responses to procurement@example.invalid after my birthday party.","exclude":false,"section":10},
+ {"name":"public-procurement-social-event","body":"All bidders may attend our birthday networking reception on February 8, 2028, at 2:00 PM.","exclude":false}
+]
