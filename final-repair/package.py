@@ -5,6 +5,8 @@ R=Path(__file__).resolve().parents[1];D=R/'dist/final-repair';assert not D.exist
 assert not subprocess.check_output(['git','status','--porcelain'],cwd=R).strip(),'Commit all source/evidence before sealing'
 assert json.loads((R/'final-repair/attempt-2/full-length-results.json').read_text())['rebuild']['passed']
 assert not json.loads((R/'final-repair/control-results.json').read_text())['rebuild_failures']
+assert all(v['passed'] for v in json.loads((R/'final-repair/attempt-2/new-results.json').read_text())['rebuild'].values())
+assert all(v['verdict']=='pass' for v in json.loads((R/'final-repair/attempt-2/scores-final.json').read_text())['scores']['1']['rebuild'].values())
 D.mkdir()
 commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=R).decode().strip();records=[]
 def run(label,cmd,cwd):

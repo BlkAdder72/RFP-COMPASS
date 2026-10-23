@@ -1,0 +1,71 @@
+{
+  "preserved_S100_failure_still_rejected": true,
+  "status": "PASS: evidence integrity; consult performance separately",
+  "preserved_tracked_files": 8742,
+  "frozen_questions_unchanged": true,
+  "prior_local_artifacts_verified": [
+    "FINAL_VERIFICATION.json",
+    "RELEASE.json",
+    "RFP-COMPASS-Comp15-source.zip",
+    "RFP-COMPASS-Comp15.bundle",
+    "SHA256SUMS.txt"
+  ],
+  "prior_local_artifacts_absent_in_source_clone": [],
+  "fresh_raw_model_turns": 47,
+  "core_comparisons": {
+    "improved": 5,
+    "tied": 3,
+    "regressed": 0
+  },
+  "full_performance": {
+    "original": {
+      "exact_shape_quotes_coverage": false,
+      "exact_statement_text": true,
+      "exact_anchors": false,
+      "all_221_ids": true,
+      "noise_only12": false,
+      "genuine_routing": false,
+      "no_personal_review_hints": true,
+      "max150_bullets_per_reply": true,
+      "complete": true
+    },
+    "rebuild": {
+      "exact_shape_quotes_coverage": true,
+      "exact_statement_text": true,
+      "exact_anchors": true,
+      "all_221_ids": true,
+      "noise_only12": true,
+      "genuine_routing": true,
+      "no_personal_review_hints": true,
+      "max150_bullets_per_reply": true,
+      "complete": true
+    }
+  },
+  "new_performance": {
+    "original": {
+      "U-unseen-citations": false,
+      "V-required-response-info": false,
+      "W-personal-graduation": false
+    },
+    "rebuild": {
+      "U-unseen-citations": true,
+      "V-required-response-info": true,
+      "W-personal-graduation": true
+    }
+  },
+  "control_cases": 137,
+  "rebuild_control_failures": [],
+  "full_validation": {
+    "original": {
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\final-repair-v2-full\\part-1\\bid-compliance-card.md (+2 part(s)): ## 6. Dates and events stated: anchor for S100 does not match the packet\n",
+      "stderr": ""
+    },
+    "rebuild": {
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    }
+  },
+  "published": false
+}

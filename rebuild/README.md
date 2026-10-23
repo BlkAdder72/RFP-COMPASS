@@ -1,3 +1,11 @@
+# Current final-repair status
+
+See root `results.md` and `final-repair/REPORT.md` for current results. The latest paired full-length run preserves all citations and includes required response information S076 in Sections 4 and 5. Strict validation now rejects altered invisible characters and straight delimiters. Every previous failed run remains unchanged.
+
+The current raw full-length rebuilt run is copied byte-for-byte to `run-results/final-repair-v2-full/`. The operating guide below is retained from the preceding stage; statements about earlier runs or unchanged validators describe that historical stage, not this stricter validator.
+
+---
+
 # RFP Compass
 
 ## Current Competition #15 rebuild

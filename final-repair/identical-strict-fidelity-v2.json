@@ -1,0 +1,146 @@
+[
+  {
+    "arm": "original",
+    "kind": "core",
+    "fixture": "A-stapled-thread.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "original",
+    "kind": "core",
+    "fixture": "B-personal-note.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "original",
+    "kind": "core",
+    "fixture": "C-official-email.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "original",
+    "kind": "core",
+    "fixture": "D-ai-instruction.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "original",
+    "kind": "core",
+    "fixture": "E-contract-expectation.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "original",
+    "kind": "new",
+    "fixture": "U-unseen-citations.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "original",
+    "kind": "new",
+    "fixture": "V-required-response-info.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "original",
+    "kind": "new",
+    "fixture": "W-personal-graduation.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "rebuild",
+    "kind": "core",
+    "fixture": "A-stapled-thread.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "rebuild",
+    "kind": "core",
+    "fixture": "B-personal-note.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\final-repair-v2-core\\B-personal-note\\bid-compliance-card.md: S003 look like dates or times but are not in Section 6; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\final-repair-v2-core\\B-personal-note\\bid-compliance-card.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "rebuild",
+    "kind": "core",
+    "fixture": "C-official-email.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "rebuild",
+    "kind": "core",
+    "fixture": "D-ai-instruction.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "rebuild",
+    "kind": "core",
+    "fixture": "E-contract-expectation.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "rebuild",
+    "kind": "new",
+    "fixture": "U-unseen-citations.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "NOTE: PERSONAL HINT FILTER: S010; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "rebuild",
+    "kind": "new",
+    "fixture": "V-required-response-info.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  {
+    "arm": "rebuild",
+    "kind": "new",
+    "fixture": "W-personal-graduation.md",
+    "same_strict_validator": true,
+    "exit_code": 0,
+    "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  }
+]

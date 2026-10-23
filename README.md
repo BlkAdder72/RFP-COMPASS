@@ -1,11 +1,25 @@
-# RFP-COMPASS — Competition #15 candidate
+# RFP-COMPASS — Competition 15: The Rebuild
 
-Not published. The fresh rebuilt full-length card passes every frozen check, including exact S072 citations in Sections 4 and 5. The earlier failed card remains unchanged and still fails validation.
+Local candidate; not published. Start with [feedback.md](feedback.md), [questions.md](questions.md), then [results.md](results.md).
 
-Start with [current results](results.md), [frozen questions](questions.md), [verbatim feedback](feedback.md) and [citation repair evidence](citation-repair/REPORT.md). Previous reports and all failed raw trials remain under `citation-repair/history/`, `hardening/`, `revision/`, `repair/` and `supplemental/`.
+The Comp #13 Translator entry is preserved at judged commit `92847d2a17250fa18914d932826db63d99dcb75c` (tag `judged-original-comp13`) and byte-identical under `original/`. Source: https://github.com/BlkAdder72/RFP-COMPASS. Its Git history and every rebuild stage remain in this repository.
 
-The judged original is pinned at `92847d2a17250fa18914d932826db63d99dcb75c` with tag `judged-original-comp13`, from [RFP-COMPASS](https://github.com/BlkAdder72/RFP-COMPASS). Its 134 files remain unchanged under `original/`. The usable project is `rebuild/`. The portable audit verifies the original Git tree, feedback, frozen questions, original-before-rebuild sequence, old and new raw sessions and the unchanged validators.
+The feedback asked for unrelated personal material only in Section 12 without false Section 6 warnings; explicit contractual-expectation routing; honest script-built-example provenance; and a noisy-input run in `run-results/`. Frozen Q1–Q8 trace those requests and precede the first rebuild in Git.
 
-Run `python -X utf8 tools/verify_submission.py` for the offline audit (Git history required; ignored delivery binaries optional). For a fresh full-length comparison run `python hardening/run_full.py original --output-dir NEW_ORIGINAL_DIRECTORY`, then rebuild with a different new directory. For A–E use `python tools/run_arm.py original --output-dir NEW_CORE_DIRECTORY` and the corresponding rebuilt invocation. Existing destinations refuse before writes; `--preflight-only` calls no model; `--codex` supports an executable override. See `citation-repair/protocol.md` for comparison rules and limits.
+Current repair: required response information is checked for Section 5, graduation notes no longer create the known false warning, and quotation validation is strictly character-exact. Read the actual outcomes and limits in [results.md](results.md).
 
-The source ZIP contains current files; the Git bundle contains the complete preserved history and judged-original tag. Premium/VIP eligibility and the public submission link remain pending. A passing fresh trial is not a universal model reliability claim.
+| Material | Location |
+|---|---|
+| Judged original and verbatim feedback | `original/`, `feedback.md` |
+| Frozen questions/expected answers | `questions.md` |
+| Candidate knowledge, tools and operating guide | `rebuild/` |
+| New exact prompts and unedited replies | `run-original/final-repair-v2-*`, `run-rebuild/final-repair-v2-*` |
+| Current protocol, scores, controls, preservation and report | `final-repair/` |
+| Previous red-team findings, including S076 regression | `red-team-citations/REPORT.md` |
+| Previous citation failures and repairs | `citation-repair/`, `hardening/`, earlier `run-ARM/` folders |
+| Earlier complete audit trail | `revision/`, `repair/`, `supplemental/`, `history/`, `packaging/` |
+| Updated local ZIP and complete-history bundle | `dist/final-repair/` (local delivery; not source-tracked) |
+
+Offline audit from a Git clone: `python -B -X utf8 tools/verify_submission.py`. It runs historical assertions in a disposable clone of their sealed commit, then checks current repair evidence. It calls no model. Fresh controlled runs: `tools/run_arm.py` for core/new sources and `hardening/run_full.py` for the full fixture; always choose new output directories. Authentication/model access is required for real reruns. The stored trials prohibit tools and record any violations.
+
+`SUBMISSION_COMMENT.md` remains a draft. Eligibility is unverified; public link and comment are pending. Do not publish without authorization.

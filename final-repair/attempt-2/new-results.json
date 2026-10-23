@@ -1,0 +1,203 @@
+{
+  "original": {
+    "U-unseen-citations": {
+      "checks": {
+        "strict_copy": true,
+        "mechanical_validation": true,
+        "S001_required": true,
+        "S002_required": true,
+        "S003_required": true,
+        "S004_required": true,
+        "S005_required": true,
+        "S006_required": true,
+        "S007_required": true,
+        "S008_required": true,
+        "S009_required": true,
+        "S010_exclusive": false
+      },
+      "passed": false,
+      "positions": {
+        "S001": [
+          4,
+          5,
+          9
+        ],
+        "S002": [
+          4,
+          5,
+          9
+        ],
+        "S003": [
+          4,
+          5
+        ],
+        "S004": [
+          4,
+          5
+        ],
+        "S005": [
+          4,
+          5
+        ],
+        "S006": [
+          4,
+          5
+        ],
+        "S007": [
+          4,
+          5
+        ],
+        "S008": [
+          4,
+          5
+        ],
+        "S009": [
+          6
+        ],
+        "S010": [
+          6,
+          8
+        ]
+      },
+      "copy_mismatches": []
+    },
+    "V-required-response-info": {
+      "checks": {
+        "strict_copy": true,
+        "mechanical_validation": true,
+        "S002_required": false,
+        "S003_required": true
+      },
+      "passed": false,
+      "positions": {
+        "S001": [
+          4
+        ],
+        "S002": [
+          4
+        ],
+        "S003": [
+          4,
+          5
+        ]
+      },
+      "copy_mismatches": []
+    },
+    "W-personal-graduation": {
+      "checks": {
+        "strict_copy": true,
+        "mechanical_validation": true,
+        "S001_exclusive": false,
+        "no_false_date_warning": true
+      },
+      "passed": false,
+      "positions": {
+        "S001": [
+          6
+        ]
+      },
+      "copy_mismatches": []
+    }
+  },
+  "rebuild": {
+    "U-unseen-citations": {
+      "checks": {
+        "strict_copy": true,
+        "mechanical_validation": true,
+        "S001_required": true,
+        "S002_required": true,
+        "S003_required": true,
+        "S004_required": true,
+        "S005_required": true,
+        "S006_required": true,
+        "S007_required": true,
+        "S008_required": true,
+        "S009_required": true,
+        "S010_exclusive": true
+      },
+      "passed": true,
+      "positions": {
+        "S001": [
+          4,
+          5,
+          9
+        ],
+        "S002": [
+          4,
+          5,
+          9
+        ],
+        "S003": [
+          4,
+          5
+        ],
+        "S004": [
+          4,
+          5
+        ],
+        "S005": [
+          4,
+          5
+        ],
+        "S006": [
+          4,
+          5
+        ],
+        "S007": [
+          4,
+          5
+        ],
+        "S008": [
+          4,
+          5
+        ],
+        "S009": [
+          6,
+          11
+        ],
+        "S010": [
+          12
+        ]
+      },
+      "copy_mismatches": []
+    },
+    "V-required-response-info": {
+      "checks": {
+        "strict_copy": true,
+        "mechanical_validation": true,
+        "S002_required": true,
+        "S003_required": true
+      },
+      "passed": true,
+      "positions": {
+        "S002": [
+          4,
+          5
+        ],
+        "S003": [
+          4,
+          5
+        ],
+        "S001": [
+          12
+        ]
+      },
+      "copy_mismatches": []
+    },
+    "W-personal-graduation": {
+      "checks": {
+        "strict_copy": true,
+        "mechanical_validation": true,
+        "S001_exclusive": true,
+        "no_false_date_warning": true
+      },
+      "passed": true,
+      "positions": {
+        "S001": [
+          12
+        ]
+      },
+      "copy_mismatches": []
+    }
+  }
+}

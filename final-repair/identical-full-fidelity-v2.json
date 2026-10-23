@@ -1,0 +1,39 @@
+[
+  {
+    "arm": "original",
+    "same_strict_validator": true,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\hardening\\fixtures\\Z-full-length-noisy.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\final-repair-v2-full\\part-1\\bid-compliance-card.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\final-repair-v2-full\\part-2\\bid-compliance-card.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\final-repair-v2-full\\part-3\\bid-compliance-card.md"
+    ],
+    "exit_code": 1,
+    "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\final-repair-v2-full\\part-1\\bid-compliance-card.md (+2 part(s)): ## 6. Dates and events stated: anchor for S100 does not match the packet\n",
+    "stderr": ""
+  },
+  {
+    "arm": "rebuild",
+    "same_strict_validator": true,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\hardening\\fixtures\\Z-full-length-noisy.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\final-repair-v2-full\\part-1\\bid-compliance-card.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\final-repair-v2-full\\part-2\\bid-compliance-card.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\final-repair-v2-full\\part-3\\bid-compliance-card.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\final-repair-v2-full\\part-4\\bid-compliance-card.md"
+    ],
+    "exit_code": 0,
+    "stdout": "NOTE: PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  }
+]

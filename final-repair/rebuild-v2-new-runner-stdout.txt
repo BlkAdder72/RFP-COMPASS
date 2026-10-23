@@ -1,0 +1,6 @@
+RUN rebuild U-unseen-citations
+SAVED
+RUN rebuild V-required-response-info
+SAVED
+RUN rebuild W-personal-graduation
+SAVED

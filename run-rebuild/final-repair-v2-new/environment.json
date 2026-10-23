@@ -1,0 +1,24 @@
+{
+  "provider": "OpenAI via authenticated Codex CLI",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "started_utc": "2026-10-23T17:59:24.918890+00:00",
+  "cli_version": "codex-cli 0.163.0-alpha.10.2",
+  "delivery": "UTF-8 stdin with inline named files",
+  "sessions": "fresh ephemeral session per fixture; user config ignored",
+  "tools": "host tools may exist; prohibited by wrapper; audit required",
+  "limitations": "Host system messages are not held byte-identical; one response per trial, no best-of selection",
+  "knowledge_sha256": {
+    "CLAUDE_PROJECT_INSTRUCTIONS.txt": "73380f682df245560d855763f00456a49a52bad3533cb9020288fbe4eee9275b",
+    "identity.md": "653916c5840428f7cb2e78072ac9544267af6063103aa07600c67745c8dd289d",
+    "rules.md": "9b9fffdcaccd4891472fb895e0d89f08f62b32c84a60eefa1178b299c33804ca",
+    "examples.md": "4e0aa63cbf79451a339e105aed89ad66fca25898b700bb0e97fd397710038020",
+    "reference/input-schema.md": "01dc6060a8f872ffb080ce15650ae9b2a9c13ee4e2662ec99e8469369c0fd235",
+    "reference/output-schema.md": "8f6fa75cabcc0369b310133c410312d5ea7f96a2712b05f0396b2a70f7cc6572"
+  },
+  "fixture_order": [
+    "U-unseen-citations.md",
+    "V-required-response-info.md",
+    "W-personal-graduation.md"
+  ]
+}

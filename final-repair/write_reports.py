@@ -31,7 +31,9 @@ The prospective protocol and expected matrices were committed before trials. The
 
 The initial final-repair candidate passed Q1–Q8, all three new cases, the S076 placement check and personal containment, but changed one S100 Section 6 anchor from its own single-page citation to the next statement’s page range. The unchanged strict validator rejected it. Original copied all anchors exactly. This was a real copying regression; it is not counted as a pass or replaced by the later run.
 
-Exact first-attempt knowledge, scores, scorers and hashes remain in `final-repair/attempt-1/` and `attempt-1-knowledge/`; all raw runs remain at `run-ARM/final-repair-*`. Before the second knowledge change, a new protocol was frozen and a new original baseline was committed. The second version adds a general p.-versus-pp. safeguard and four-row synthetic near-collision example; it adds no S100 or actual RFP answer. Both arms then rerun all cases and the full input in the same order. The validator and expectations are unchanged between attempts.
+Exact first-attempt knowledge, scores, scorers and hashes remain in `final-repair/attempt-1/` and `final-repair/attempt-1-knowledge/`; all raw runs remain at `run-ARM/final-repair-*`. Before the second knowledge change, a new protocol was frozen and a new original baseline was committed. The second version adds a general p.-versus-pp. safeguard and four-row synthetic near-collision example; it adds no S100 or actual RFP answer. Both arms then rerun all cases and the full input in the same order. The validator and expectations are unchanged between attempts.
+
+The first attempt also placed V's bare response-content heading in Sections 4 and 5. That extra placement was outside the frozen matrix and remains disclosed as an unscored semantic risk. The latest positions appear below; their change is an observation, not a prospectively scored heading repair.
 
 ## Frozen questions
 
@@ -64,6 +66,8 @@ Original S076 placements: {full['original']['positions'].get('S076')}; rebuild: 
 The prior S076 regression is still visible in the unchanged `red-team-citations/semantic-review.json` and previous raw full-length cards. The new success does not rewrite that failure. The original's varying results across attempts remain evidence of run variability, rather than something to discard.
 
 {copy_comparison} S076's actual placements are shown above; improvement, tie or failure follows those observations, not the previous version's result. A separate identical strict-fidelity gate passes all 16 core/new cards across both arms (`identical-strict-fidelity-v2.json`), so original is not receiving a scoring advantage from its more permissive native quotation validator.
+
+The same strict validator also evaluates both arms' actual full-length reply parts in `identical-full-fidelity-v2.json`; an original failure remains a failure. The six follow-up controls accept the exact extended example, reject a swapped page range, and continue rejecting the preserved S100 failure in both versions. Validator code is byte-identical across the two final-repair attempts.
 
 ## Validation and regression controls
 
