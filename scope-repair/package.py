@@ -3,7 +3,7 @@ from pathlib import Path
 import hashlib,json,subprocess,sys,zipfile
 R=Path(__file__).resolve().parents[1];D=R/'dist/scope-release';assert not D.exists()
 assert not subprocess.check_output(['git','status','--porcelain'],cwd=R).strip(),'Commit all source/evidence before sealing'
-assert all(x['passed'] for x in json.loads((R/'scope-repair/control-results-final.json').read_text()) if x['arm']=='rebuild')
+assert all(x['passed'] for x in json.loads((R/'scope-repair/control-results-release.json').read_text()) if x['arm']=='rebuild')
 assert json.loads((R/'scope-repair/verification.json').read_text())['status']=='PASS'
 D.mkdir()
 commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=R).decode().strip();records=[]

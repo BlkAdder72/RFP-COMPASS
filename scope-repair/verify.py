@@ -31,6 +31,7 @@ for record in baseline_tree.split(b'\0'):
 assert subprocess.check_output(['git','show',chronology['safety_addendum_commit']+':scope-repair/control-definitions-final.json'],cwd=R)==(D/'control-definitions-final.json').read_bytes()
 assert subprocess.check_output(['git','show',chronology['complete_original_baseline_commit']+':scope-repair/submission-plan.json'],cwd=R)==(D/'submission-plan.json').read_bytes()
 assert not any(c<32 and c not in (9,10,13) for c in (R/'rebuild/tools/validate_packet.py').read_bytes())
+assert subprocess.check_output(['git','show',chronology['heading_addendum_commit']+':scope-repair/control-definitions-release.json'],cwd=R)==(D/'control-definitions-release.json').read_bytes()
 turns=0
 for arm in ['original','rebuild']:
  for kind,folder in [('core',R/'fixtures'),('new',D/'fixtures'),('full',R/'hardening/fixtures')]:
@@ -59,13 +60,13 @@ assert len(plan['sentences'])==3
 comment=(R/'SUBMISSION_COMMENT.md').read_text(encoding='utf-8').split('\n\n',1)[1].strip()
 assert comment==' '.join(plan['sentences'])
 assert len(__import__('re').findall(r'[.!?](?:[”\"])?(?=\s|$)',comment))==3
-controls=json.loads((D/'control-results-final.json').read_text());assert all(x['passed'] for x in controls if x['arm']=='rebuild')
-definitions=json.loads((D/'control-definitions-final.json').read_text(encoding='utf-8'))
+controls=json.loads((D/'control-results-release.json').read_text());assert all(x['passed'] for x in controls if x['arm']=='rebuild')
+definitions=json.loads((D/'control-definitions-release.json').read_text(encoding='utf-8'))
 for c in definitions:
- f=D/'controls-final'/c['name'];assert (f/'source-packet.md').read_text(encoding='utf-8')==c['source'] and (f/'card.md').read_text(encoding='utf-8')==c['card']
+ f=D/'controls-release'/c['name'];assert (f/'source-packet.md').read_text(encoding='utf-8')==c['source'] and (f/'card.md').read_text(encoding='utf-8')==c['card']
  for arm in ['original','rebuild']:
   result=subprocess.run([sys.executable,'-B','-X','utf8',str(R/arm/'tools/validate_packet.py'),str(f/'source-packet.md'),str(f/'card.md')],capture_output=True,text=True,encoding='utf-8')
   warning=any('REVIEW' in line and 'Section 6' in line and c['sid'] in line for line in result.stdout.splitlines())
   recorded=next(x for x in controls if x['arm']==arm and x['case']==c['name']);assert recorded['valid']==(result.returncode==0) and recorded['warning']==warning
-replays=json.loads((D/'historical-control-replays-final.json').read_text());assert all(x['passed'] for x in replays if x['arm']=='rebuild')
+replays=json.loads((D/'historical-control-replays-release.json').read_text());assert all(x['passed'] for x in replays if x['arm']=='rebuild')
 print(json.dumps({'status':'PASS','preserved_prior_files':len(m['tracked']),'local_prior_artifacts_verified':len(artifacts),'raw_turns_verified':turns,'frozen_questions':'unchanged','strict_validation_implementation':'unchanged','six_model_knowledge_files_each_arm':'unchanged','published':False},indent=2))

@@ -77,7 +77,7 @@ PERSONAL_ACTIVITY = re.compile(
     r"(physical\s+therapy|physiotherapy|doctor|medical)\s+appointment)\b", re.IGNORECASE)
 EVENT_HEADER = re.compile(r"\b(events?|meetings?|conferences?|attendance|activities|schedules?|calendars?|appointments?|meals?|lunch|dinner|visits?)\b", re.IGNORECASE)
 CLINICAL_CUE = re.compile(r"\b(patients?|clinical|beneficiaries|services?|providers?|healthcare)\b", re.IGNORECASE)
-PERSONAL_HEADER = re.compile(r"\s*(personal|private|family)\s+(calendar|correspondence|notes|schedule|email|thread)\s*[:.—-]?\s*", re.IGNORECASE)
+PERSONAL_HEADER = re.compile(r"\s*(personal|private|family)\s+(calendar|correspondence|notes|schedule|email|thread|events|activities)\s*[:.—-]?\s*", re.IGNORECASE)
 PERSONAL_CONTRIBUTION = re.compile(r"\b(?:please\s+)?bring\s+\$\s*\d+(?:\.\d+)?\s+for\s+(?:lunch|dinner)\b", re.IGNORECASE)
 
 

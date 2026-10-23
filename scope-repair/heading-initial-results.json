@@ -1,0 +1,38 @@
+[
+  {
+    "case": "explicit-family-event-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "explicit-family-event-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "clinical-private-event-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "clinical-private-event-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  }
+]
