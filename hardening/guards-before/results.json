@@ -1,0 +1,98 @@
+[
+  {
+    "label": "required-charges",
+    "arm": "original",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "label": "required-charges",
+    "arm": "rebuild",
+    "expected": true,
+    "observed": false,
+    "passed": false,
+    "validator_sha256": "ab7f0b1883da74efbba4e0e60573a3c792fde77a101f09d4ebfa3e198d6b5a08"
+  },
+  {
+    "label": "mandatory-meals",
+    "arm": "original",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "label": "mandatory-meals",
+    "arm": "rebuild",
+    "expected": true,
+    "observed": false,
+    "passed": false,
+    "validator_sha256": "ab7f0b1883da74efbba4e0e60573a3c792fde77a101f09d4ebfa3e198d6b5a08"
+  },
+  {
+    "label": "uppercase-meal",
+    "arm": "original",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "label": "uppercase-meal",
+    "arm": "rebuild",
+    "expected": true,
+    "observed": false,
+    "passed": false,
+    "validator_sha256": "ab7f0b1883da74efbba4e0e60573a3c792fde77a101f09d4ebfa3e198d6b5a08"
+  },
+  {
+    "label": "requirements",
+    "arm": "original",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "label": "requirements",
+    "arm": "rebuild",
+    "expected": true,
+    "observed": false,
+    "passed": false,
+    "validator_sha256": "ab7f0b1883da74efbba4e0e60573a3c792fde77a101f09d4ebfa3e198d6b5a08"
+  },
+  {
+    "label": "clinical-header",
+    "arm": "original",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "label": "clinical-header",
+    "arm": "rebuild",
+    "expected": true,
+    "observed": false,
+    "passed": false,
+    "validator_sha256": "ab7f0b1883da74efbba4e0e60573a3c792fde77a101f09d4ebfa3e198d6b5a08"
+  },
+  {
+    "label": "private-reset",
+    "arm": "original",
+    "expected": false,
+    "observed": true,
+    "passed": false,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "label": "private-reset",
+    "arm": "rebuild",
+    "expected": false,
+    "observed": false,
+    "passed": true,
+    "validator_sha256": "ab7f0b1883da74efbba4e0e60573a3c792fde77a101f09d4ebfa3e198d6b5a08"
+  }
+]
