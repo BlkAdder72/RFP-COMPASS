@@ -1,0 +1,9 @@
+[
+  "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "-B",
+  "-X",
+  "utf8",
+  "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+  "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\citation-repair\\validation-controls\\source-packet.md",
+  "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\citation-repair\\validation-controls\\missing-coverage.md"
+]

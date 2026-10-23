@@ -1,0 +1,6 @@
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\run-rebuild\hardening-full\part-1\bid-compliance-card.md (+3 part(s)): S216, S217, S218, S219, S221 look like dates or times but are not in Section 6; confirm that is intended
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\run-rebuild\hardening-full\part-1\bid-compliance-card.md (+3 part(s)): S219 look like money amounts but are not in Section 8; confirm that is intended
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\run-rebuild\hardening-full\part-1\bid-compliance-card.md (+3 part(s)): S220 look like contact details but are not in Section 10; confirm that is intended
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\run-rebuild\hardening-full\part-1\bid-compliance-card.md (+3 part(s)): ## 4. Application stages and submission mechanics stated: anchor for S072 does not match the packet
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\run-rebuild\hardening-full\part-1\bid-compliance-card.md (+3 part(s)): ## 5. Mandatory attachments and forms stated: anchor for S072 does not match the packet
