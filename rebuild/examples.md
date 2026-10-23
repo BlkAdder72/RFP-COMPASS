@@ -4,6 +4,49 @@
 
 These pairs show the contract holding on a real notice, a sparse notice and an addendum that changes a deadline. Example 1 is text captured from a real public web page (see samples/01-real-public-notice/PROVENANCE.md); examples 2 and 3 are synthetic. A fourth, larger real example (a 16-page RFP, with its PDF) is in samples/04-real-tbrpc-auditing-rfp/. Examples are never evidence for a new run.
 
+## Exact anchors with similar source rows
+
+This is a synthetic contract example, not a recorded model run. Two identical statement texts have different anchors. Bind each complete anchor to its own ID; do not choose a cleaner section citation by matching the statement text. In particular, `bullet` below is literal anchor data. Omitting it from the S002 citations would fail validation even though every word of the quotation remained exact. These example statements are never evidence for a new input.
+
+### Input (source-packet.md)
+
+```text
+S001 | Harbor notice p. 2 §3 | Applicants must include a signed disclosure form.
+S002 | Harbor notice p. 2 §3 bullet | Applicants must include a signed disclosure form.
+```
+
+### Output (bid-compliance-card.md)
+
+```markdown
+# RFP COMPASS — BID COMPLIANCE CARD
+## 1. Opportunity identity
+- not in source
+## 2. Scope, term, and program context stated
+- not in source
+## 3. Eligibility and qualifications stated
+- not in source
+## 4. Application stages and submission mechanics stated
+- “Applicants must include a signed disclosure form.” [source: source-packet.md:S001; Harbor notice p. 2 §3]
+- “Applicants must include a signed disclosure form.” [source: source-packet.md:S002; Harbor notice p. 2 §3 bullet]
+## 5. Mandatory attachments and forms stated
+- “Applicants must include a signed disclosure form.” [source: source-packet.md:S001; Harbor notice p. 2 §3]
+- “Applicants must include a signed disclosure form.” [source: source-packet.md:S002; Harbor notice p. 2 §3 bullet]
+## 6. Dates and events stated
+- not in source
+## 7. Evaluation stated
+- not in source
+## 8. Commercial, performance, and post-award terms stated
+- not in source
+## 9. Tables, schedules, and templates
+- not in source
+## 10. Definitions, authority, and administrative terms
+- not in source
+## 11. Addenda, conflicts, and open items
+- not in source
+## 12. Unmapped source evidence
+- not in source
+```
+
 ## 01-real-public-notice
 
 A real procurement web page: title, scope, a responsibility table, schedule, procurement approach and contacts. Statements appear in every section whose trigger matches, the table rows appear in Section 9 and Section 2, and a bare link label falls to Section 12.
