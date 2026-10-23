@@ -1,0 +1,70 @@
+{
+  "U-unseen-citations": {
+    "required": {
+      "S001": [
+        4,
+        5
+      ],
+      "S002": [
+        4,
+        5
+      ],
+      "S003": [
+        4,
+        5
+      ],
+      "S004": [
+        4,
+        5
+      ],
+      "S005": [
+        4,
+        5
+      ],
+      "S006": [
+        4,
+        5
+      ],
+      "S007": [
+        4,
+        5
+      ],
+      "S008": [
+        4,
+        5
+      ],
+      "S009": [
+        6
+      ]
+    },
+    "exclusive": {
+      "S010": [
+        12
+      ]
+    },
+    "source_sha256": "5427d207b9d16574059c0acfe1d2214307768e6790be82c2216f6b36498bd460"
+  },
+  "V-required-response-info": {
+    "required": {
+      "S002": [
+        4,
+        5
+      ],
+      "S003": [
+        4,
+        5
+      ]
+    },
+    "exclusive": {},
+    "source_sha256": "971a03bbbd467552dff955050f2188693ec582f9477b99a02daed612003f3822"
+  },
+  "W-personal-graduation": {
+    "required": {},
+    "exclusive": {
+      "S001": [
+        12
+      ]
+    },
+    "source_sha256": "8de3cb86594db1091b309ab916507e3527d2c4a6f635039c408ed04eac3543e4"
+  }
+}
