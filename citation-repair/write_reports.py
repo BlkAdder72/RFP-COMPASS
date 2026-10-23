@@ -1,6 +1,6 @@
 from pathlib import Path
 import json,shutil
-R=Path(__file__).resolve().parents[1];D=R/'citation-repair';dest=R/'rebuild/run-results/citation-repair-full'
+R=Path(__file__).resolve().parents[1];D=R/'citation-repair';dest=R/'rebuild/run-results/citation-repair-v2-full'
 if dest.exists():raise SystemExit('Refusing existing packaged trial before writes')
 core=json.loads((D/'scores-final.json').read_text(encoding='utf-8'));full=json.loads((D/'full-length-results.json').read_text(encoding='utf-8'));r=full['rebuild']
 headline=('The fresh rebuilt full-length card passes every frozen check, including exact S072 citations in Sections 4 and 5. The earlier failed card remains unchanged and still fails validation.' if r['passed'] else 'The fresh rebuilt full-length card still has failed checks. The repair is not a clean full-length pass; every failure is reported below and retained.')
@@ -12,15 +12,21 @@ Publication remains paused. **'''+headline+'''**
 
 The previous full-length rebuild dropped `bullet` from S072's anchor in Sections 4 and 5: it emitted `TBRPC Auditing RFP p. 7 §5.II.b` instead of the packet's `TBRPC Auditing RFP p. 7 §5.II.b bullet`. All statement text was exact, but these were genuine citation failures. The old raw card, both failed validations, first-pass reports, audit corrections and earlier package remain preserved.
 
-Three general model-knowledge files changed: `rebuild/CLAUDE_PROJECT_INSTRUCTIONS.txt`, `rebuild/rules.md` and `rebuild/reference/output-schema.md`. They now treat the entire source-ID/anchor pair as opaque data, retain every anchor qualifier, construct a complete bullet from its own packet row, reuse it unchanged across sections, and compare the complete citation on every continuation. No S072-specific answer, fixture ID or shortened-anchor exception was added to these instructions.
+Four general model-knowledge files changed: `rebuild/CLAUDE_PROJECT_INSTRUCTIONS.txt`, `rebuild/rules.md`, `rebuild/reference/output-schema.md` and `rebuild/examples.md`. They treat the entire source-ID/anchor pair as opaque data, retain every anchor qualifier, construct a complete bullet from its own packet row, reuse it unchanged across sections, and compare the complete citation on every continuation. A synthetic worked example shows identical disclosure-form statements with distinct anchors, one ending in the literal word `bullet`; both anchors remain exact when the statements repeat. No S072-specific answer, TBRPC citation or shortened-anchor exception was added to model knowledge. The example was chosen after inspecting this error class, so this is a targeted known-input repair, not a holdout test.
 
-**Both validators are byte-identical to the preceding sealed package.** No normalization, automatic citation repair, changed comparison rule, hidden postprocessing or relaxed acceptance is used. The model-free controls accept exact cards and reject shortened, swapped, punctuation/Unicode/case/spacing-altered anchors, changed quotes, missing coverage and the old S072 failure: 22/22 paired checks pass. This demonstrates that invalid output remains invalid; those controls are not model trials.
+**Both validators are byte-identical to the preceding sealed package.** No normalization, automatic citation repair, changed comparison rule, hidden postprocessing or relaxed acceptance is used. The model-free controls accept exact cards and reject shortened, swapped, punctuation/Unicode/case/spacing-altered anchors, changed quotes, missing coverage and the old S072 failure: 22/22 paired checks pass. The new worked example also passes both validators, and shortening its anchor fails both (4/4 checks). These are acceptance/rejection checks, not model trials.
+
+## First repair attempt — failed and retained
+
+The initial general opaque-anchor instruction change alone did **not** fix the issue. In its fresh full-length pair, original and rebuild each shortened S072's anchor twice and both failed exact validation. The rebuild still contained all seven personal statements only in Section 12; the original leaked six. Its fresh core comparison was five improvements and three ties, but that does not turn its full-length failure into a pass. Raw files remain at `run-ARM/citation-repair-core/` and `run-ARM/citation-repair-full/`, exact knowledge at `citation-repair/attempt-1-knowledge/`, and scores/scorers/hashes at `citation-repair/attempt-1/`.
+
+After preserving and committing that failed pair, `attempt-2-protocol.md` preregistered the worked-example repair and a new pair in entirely new directories. The second original core baseline was committed before editing the example, and the second repair was committed before rebuilt calls. This report presents the latest pair below and keeps the failed first attempt in view; it is not first-try success or selection among unchanged retries.
 
 ## Prospective method and preservation
 
 `citation-repair/protocol.md`, the preservation manifest and the unchanged 221-statement input were committed before new trials and before the instruction change. All 8,000 pre-stage tracked files are accounted for, with changed files copied under `citation-repair/history/`. All six previous knowledge files for both arms are frozen there so historical requests remain reproducible. The judged original and root `questions.md` are unchanged; the original core baseline was committed before repairing instructions, and repaired instructions were committed before rebuilt model calls.
 
-The full fixture is the same 214-statement real TBRPC packet plus the same seven synthetic personal-calendar statements. No source wording, anchor, order or noise changed. The noise is not part of the original PDF. Expected routing adds an explicit prospective S072 check in Sections 4 and 5; root frozen questions are unchanged.
+The full fixture is the same 214-statement real TBRPC packet plus the same seven synthetic personal-calendar statements in both attempts. No source wording, anchor, order or noise changed. The noise is not part of the original PDF. Expected routing adds an explicit prospective S072 check in Sections 4 and 5; root frozen questions are unchanged. Editing examples.md in the second repair is separately recorded in `additional-mutable-paths.json`; its original bytes were already frozen before any trial, and the first preservation manifest was not altered.
 
 Fresh original and rebuild sessions use gpt-6-astra/medium and the existing unchanged request/continuation runners. Both get the same wrapper and full input, with their own six instruction files. `continue` is sent exactly in the returned session; all commands, requests, raw events, stderr, exit codes, parts and combined unedited cards are retained. No tools, retries, corrected cards, expected answers in model context or best-of selection. Independent core/full sessions may overlap; no latency comparison is made.
 
@@ -46,15 +52,15 @@ S072's successful placement alone is not sufficient: exact anchors and quotes ar
 - This is one fresh paired run on a known full-length input after inspecting a failure. It supports an observed repair, not a general copying guarantee or statistical superiority. Earlier failed trials continue to count as failures. No fresh Claude acceptance or latency/cost advantage is claimed.
 - A model can still make a different copying error on another run. The exact validator remains the acceptance gate; a raw FAIL must not be submitted as a validated card. The general instruction repair is not a deterministic renderer.
 - Section routing remains a semantic task. The bounded personal-hint filter can retain warnings under uncertain context; mixed relevant/personal clauses remain indivisible under whole-statement quoting rules.
-- Identity, examples, input schema, packet/PDF builder, trace tool, validator, section-routing triggers and all prior repair evidence were retained. This stage addresses copying reliability rather than claiming a new PDF conversion improvement.
+- Identity, input schema, packet/PDF builder, trace tool, validator, section-routing triggers, all previous examples and all prior repair evidence were retained. A new synthetic example was added without changing the old examples or their provenance disclosures. This stage addresses copying reliability rather than claiming a new PDF conversion improvement.
 - Premium/VIP eligibility remains unverified. The public submission URL and comment remain pending explicit publication authorization. The brief's deadline remains October 28, 11:59 PM EST as written.
 
 ## Evidence map
 
-- `run-original/citation-repair-core/`, `run-rebuild/citation-repair-core/`: fresh exact A–E prompts, model responses, validation and Q8 commands/output.
-- `run-original/citation-repair-full/`, `run-rebuild/citation-repair-full/`: new full-length session evidence, every continuation and unedited model part.
+- `run-original/citation-repair-v2-core/`, `run-rebuild/citation-repair-v2-core/`: latest fresh exact A–E prompts, model responses, validation and Q8 commands/output.
+- `run-original/citation-repair-v2-full/`, `run-rebuild/citation-repair-v2-full/`: latest full-length session evidence, every continuation and unedited model part.
 - `citation-repair/full-length-results.json`, `scores-final.json`, `validation-results.json`: complete results including failures, not just the summary above.
-- `rebuild/run-results/citation-repair-full/`: byte-for-byte copy of the fresh rebuild full-length evidence in the required project layout.
+- `rebuild/run-results/citation-repair-v2-full/`: byte-for-byte copy of the latest rebuild full-length evidence in the required project layout.
 - `run-rebuild/hardening-full/`, `rebuild/run-results/full-length-noisy/`, `hardening/full-first-pass/`: previous S072 failure and false-warning interaction, unchanged.
 - `citation-repair/history/`: previous editable documents, knowledge and audit code; `citation-repair/preservation.json` accounts for the preceding 8,000 tracked files and delivery hashes.
 - `tools/verify_submission.py`: portable offline audit, including both historical knowledge and the new trials. New validation logs use `packaging/final-checks-v6/`.
@@ -93,8 +99,8 @@ project='> Current Competition #15 evidence: `../citation-repair/REPORT.md`. '+h
 I rebuilt my Comp #13 Translator entry, RFP-COMPASS: [PUBLIC_REPOSITORY_URL]. The feedback line that drove it was: “A noisy-input test in `run-results/` showing a stapled thread held in Section 12 only.” The repo preserves the judged original and raw comparisons, including a failed full-length citation-copying run and the repair's fresh paired rerun, with ties, regressions and remaining limits disclosed.
 ''',encoding='utf-8')
 dest.mkdir();(dest/'.gitattributes').write_text('* -text\n',encoding='utf-8')
-for p in (R/'run-rebuild/citation-repair-full').rglob('*'):
- target=dest/p.relative_to(R/'run-rebuild/citation-repair-full')
+for p in (R/'run-rebuild/citation-repair-v2-full').rglob('*'):
+ target=dest/p.relative_to(R/'run-rebuild/citation-repair-v2-full')
  if p.is_dir():target.mkdir()
  else:shutil.copyfile(p,target)
 shutil.copyfile(D/'fixtures/Z-full-length-noisy.md',dest/'source-packet.md');shutil.copyfile(D/'calendar.txt',dest/'calendar.txt')

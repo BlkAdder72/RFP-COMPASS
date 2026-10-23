@@ -1,0 +1,26 @@
+[
+  {
+    "arm": "original",
+    "kind": "exact",
+    "passed": true,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "arm": "original",
+    "kind": "shortened",
+    "passed": true,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "arm": "rebuild",
+    "kind": "exact",
+    "passed": true,
+    "validator_sha256": "3bffb27a182fcd90abca7a9d20f1cd3e4121da540e0efc9fbde1576f0c94d2e9"
+  },
+  {
+    "arm": "rebuild",
+    "kind": "shortened",
+    "passed": true,
+    "validator_sha256": "3bffb27a182fcd90abca7a9d20f1cd3e4121da540e0efc9fbde1576f0c94d2e9"
+  }
+]

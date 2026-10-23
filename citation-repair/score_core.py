@@ -12,7 +12,7 @@ summary={};comparisons={};totals={'improved':0,'tied':0,'regressed':0};rank={'fa
 for repeat in (1,):
     summary[str(repeat)]={}
     for arm in ('original','rebuild'):
-        base=R/('run-'+arm)/'citation-repair-core';cards={}
+        base=R/('run-'+arm)/'citation-repair-v2-core';cards={}
         for fixture in sorted((R/'fixtures').glob('*.md')):
             trial=base/fixture.stem;text=(trial/'bid-compliance-card.md').read_text(encoding='utf-8')
             result=subprocess.run([sys.executable,'-X','utf8',str(R/arm/'tools/validate_packet.py'),str(fixture),str(trial/'bid-compliance-card.md')],capture_output=True,text=True,encoding='utf-8')

@@ -5,7 +5,7 @@ expected=json.loads((D/'full-length-expectations.json').read_text(encoding='utf-
 final='--final' in sys.argv
 arms=[a for a in sys.argv[1:] if a!='--final'] or ['original','rebuild']
 for arm in arms:
- base=R/('run-'+arm)/'citation-repair-full';parts=sorted(base.glob('part-*/bid-compliance-card.md'),key=lambda p:int(p.parent.name.split('-')[1]));card=base/'bid-compliance-card.md'
+ base=R/('run-'+arm)/'citation-repair-v2-full';parts=sorted(base.glob('part-*/bid-compliance-card.md'),key=lambda p:int(p.parent.name.split('-')[1]));card=base/'bid-compliance-card.md'
  if not card.exists():
   results[arm]={'complete':False,'parts_retained':len(parts),'passed':False};continue
  cmd=[sys.executable,'-X','utf8',str(R/arm/'tools/validate_packet.py'),str(source),*[str(p) for p in parts]]
