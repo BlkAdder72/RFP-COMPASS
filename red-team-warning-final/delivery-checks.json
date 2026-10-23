@@ -1,0 +1,29 @@
+[
+  {
+    "label": "bundle-verify",
+    "command": [
+      "git",
+      "bundle",
+      "verify",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release-verified\\RFP-COMPASS-Comp15.bundle"
+    ],
+    "exit_code": 0,
+    "stdout": "The bundle contains these 5 refs:\n1d8a46cd4dbe07e77ba89f5b00607ff2bd266261 refs/codex/turn-diffs/captures/1792785759923/71f8355a-cf69-4edd-b45d-f59037a3714d/base\n4f55b3f75be8619943068f10aaf899f4fe008231 refs/codex/turn-diffs/checkpoints/6153f9bd4c217502ac723a831fa3d486/b4979decb7c5086bdbc95665bb0fa217/1792705050396/7faa0481-255a-4fc0-9871-5c65084afc11\n09684fc7129b8ff4bcbefe4b749f644f8f23f50e refs/heads/master\n92847d2a17250fa18914d932826db63d99dcb75c refs/tags/judged-original-comp13\n09684fc7129b8ff4bcbefe4b749f644f8f23f50e HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+    "stderr": "C:/Users/mmazu/OneDrive/Documents/ChatGPT/Competition 15/dist/warning-release-verified/RFP-COMPASS-Comp15.bundle is okay\n"
+  },
+  {
+    "label": "fresh-clone",
+    "command": [
+      "git",
+      "-c",
+      "core.longpaths=true",
+      "clone",
+      "--quiet",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release-verified\\RFP-COMPASS-Comp15.bundle",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\red-team-warning-final-clone"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

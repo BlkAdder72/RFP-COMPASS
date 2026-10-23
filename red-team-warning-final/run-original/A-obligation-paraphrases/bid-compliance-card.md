@@ -1,0 +1,53 @@
+# RFP COMPASS — BID COMPLIANCE CARD
+
+## 1. Opportunity identity
+
+- not in source
+
+## 2. Scope, term, and program context stated
+
+- not in source
+
+## 3. Eligibility and qualifications stated
+
+- not in source
+
+## 4. Application stages and submission mechanics stated
+
+- “All companies are to attend the following events:” [source: source-packet.md:S001; Official participation p. 1]
+- “Our farewell dinner is January 6, 2027 at 7 PM; offers are to reach the office by January 7, 2027 at 2 PM.” [source: source-packet.md:S003; Official receipt instructions]
+- “Attendance at the following activities is a condition of entry:” [source: source-packet.md:S004; Official participation p. 3]
+
+## 5. Mandatory attachments and forms stated
+
+- not in source
+
+## 6. Dates and events stated
+
+- “Our farewell dinner is January 5, 2027 at 7 PM.” [source: source-packet.md:S002; Official participation p. 2]
+- “Our farewell dinner is January 6, 2027 at 7 PM; offers are to reach the office by January 7, 2027 at 2 PM.” [source: source-packet.md:S003; Official receipt instructions]
+- “Our baby shower is January 8, 2027 at 3 PM.” [source: source-packet.md:S005; Official participation p. 4]
+
+## 7. Evaluation stated
+
+- not in source
+
+## 8. Commercial, performance, and post-award terms stated
+
+- not in source
+
+## 9. Tables, schedules, and templates
+
+- not in source
+
+## 10. Definitions, authority, and administrative terms
+
+- not in source
+
+## 11. Addenda, conflicts, and open items
+
+- not in source
+
+## 12. Unmapped source evidence
+
+- not in source
