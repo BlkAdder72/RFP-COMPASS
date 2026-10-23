@@ -1,0 +1,8 @@
+RUN rebuild A-obligation-paraphrases
+SAVED
+RUN rebuild B-private-obligations-and-milestones
+SAVED
+RUN rebuild C-opaque-citation-variants
+SAVED
+RUN rebuild D-scope-boundaries
+SAVED
