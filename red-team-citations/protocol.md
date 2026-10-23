@@ -1,0 +1,7 @@
+# Frozen adversarial review protocol
+Target: 157d8fe22339ce5385b8291728c48f7141840206. Review only; no candidate changes or publication.
+Preserve every existing tracked byte and sealed artifact. New evidence belongs here or new ignored clone paths.
+Freeze this protocol, source and expectations before model calls. The fixture is synthetic and previously unused by the candidate; it is not an independent real RFP or a statistical holdout. It uses unseen near-collision anchors, Unicode normalization distinctions, embedded brackets and layout qualifiers. Eight identical mandatory statements require sections 4 and 5; a real deadline requires 6; explicitly unrelated family correspondence requires only 12.
+Run original then rebuild once each with unchanged tools/run_arm.py, same fixture, wrapper, model and settings. Retain every raw event, request, stderr and failure. No retry or repair. Expectations are never supplied to either model. Score exact anchors, statements, coverage, routing and default validator separately.
+Independently mutate valid cards: anchor changes must fail; invisible quotation changes, quote delimiters, and reply budget are tested against the written contract. These are evaluator-built controls, never model output. Audit semantic placement separately from mechanical fidelity.
+Run the portable offline repository audit from a fresh clone of the sealed bundle. Record unresolved eligibility, deadline, public-link and testing limitations. Preserve new negative findings rather than updating the candidate or selecting a better response.

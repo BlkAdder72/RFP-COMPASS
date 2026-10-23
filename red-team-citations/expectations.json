@@ -1,0 +1,60 @@
+{
+  "source_sha256": "5427d207b9d16574059c0acfe1d2214307768e6790be82c2216f6b36498bd460",
+  "routing": {
+    "S001": [
+      4,
+      5
+    ],
+    "S002": [
+      4,
+      5
+    ],
+    "S003": [
+      4,
+      5
+    ],
+    "S004": [
+      4,
+      5
+    ],
+    "S005": [
+      4,
+      5
+    ],
+    "S006": [
+      4,
+      5
+    ],
+    "S007": [
+      4,
+      5
+    ],
+    "S008": [
+      4,
+      5
+    ],
+    "S009": [
+      6
+    ],
+    "S010": [
+      12
+    ]
+  },
+  "exclusive": {
+    "S010": [
+      12
+    ]
+  },
+  "anchors": {
+    "S001": "Municipal notice pp. 2–3 §IV(b)(ii), table 2 row 04 column C",
+    "S002": "Municipal notice p. 2 §IV(b)(ii), table 2 row 04 column C; continued",
+    "S003": "Annexe café p. 12 ¶3(a) [left column]",
+    "S004": "Annexe café p. 12 ¶3(a) [right column]",
+    "S005": "Appendix Ω p. 007 §5.II.b bullet •",
+    "S006": "Appendix Ω p. 007 §5.II.b bullet ‣",
+    "S007": "scan p. 4 / printed p. iii — footnote †",
+    "S008": "scan p. 4 / printed p. iii — footnote ‡",
+    "S009": "Procurement clarification email, reply 2 > attachment A",
+    "S010": "Stapled family correspondence, unrelated to procurement"
+  }
+}
