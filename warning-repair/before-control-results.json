@@ -1,0 +1,488 @@
+[
+  {
+    "case": "baptism",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "baptism",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "baby-shower",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "baby-shower",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "graduation-control",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "graduation-control",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "compulsory-have-to",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "compulsory-have-to",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "mandatory-must-control",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "mandatory-must-control",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "clinical-control",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "clinical-control",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "mixed-offer-deadline",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "mixed-offer-deadline",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "exact-unseen-anchors",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "exact-unseen-anchors",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "narrow-nbsp-normalized",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "narrow-nbsp-normalized",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "superscript-normalized",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "superscript-normalized",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "zero-padding-normalized",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "zero-padding-normalized",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "zero-width-deleted",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "zero-width-deleted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "literal-backticks-deleted",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "literal-backticks-deleted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "roman-lookalike-swapped",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "roman-lookalike-swapped",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "altered-zero-width-quotation",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "altered-zero-width-quotation",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "straight-delimiters",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "straight-delimiters",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "has-to-context",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "has-to-context",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "need-to-context",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "need-to-context",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "obliged-context",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "obliged-context",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "offer-without-have-to",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "offer-without-have-to",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "clinical-baptism",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "clinical-baptism",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "mandatory-shower",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "mandatory-shower",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "ambiguous-meeting",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "ambiguous-meeting",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "explicit-reset",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "explicit-reset",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "unknown-no-reset",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "unknown-no-reset",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "private-baptism",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "private-baptism",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "private-shower",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "private-shower",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  }
+]
