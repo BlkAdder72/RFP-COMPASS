@@ -1,0 +1,54 @@
+# RFP COMPASS — BID COMPLIANCE CARD
+
+## 1. Opportunity identity
+
+- not in source
+
+## 2. Scope, term, and program context stated
+
+- not in source
+
+## 3. Eligibility and qualifications stated
+
+- not in source
+
+## 4. Application stages and submission mechanics stated
+
+- not in source
+
+## 5. Mandatory attachments and forms stated
+
+- not in source
+
+## 6. Dates and events stated
+
+- “I have to attend my daughter’s birthday dinner on January 9, 2027 at 7 PM.” [source: source-packet.md:S002; Unrelated private correspondence]
+- “My graduation ceremony is January 10, 2027 at 2 PM.” [source: source-packet.md:S003; Unrelated private correspondence]
+- “My child’s christening ceremony is January 11, 2027 at 11 AM.” [source: source-packet.md:S004; Unrelated private correspondence]
+- “My bridal shower is January 12, 2027 at 3 PM.” [source: source-packet.md:S005; Unrelated private correspondence]
+- “I do not have to attend our family dinner on January 13, 2027 at 7 PM.” [source: source-packet.md:S006; Unrelated private correspondence]
+- “Proposals must arrive by January 14, 2027 at 2 PM.” [source: source-packet.md:S007; Official response instructions]
+
+## 7. Evaluation stated
+
+- not in source
+
+## 8. Commercial, performance, and post-award terms stated
+
+- not in source
+
+## 9. Tables, schedules, and templates
+
+- not in source
+
+## 10. Definitions, authority, and administrative terms
+
+- not in source
+
+## 11. Addenda, conflicts, and open items
+
+- not in source
+
+## 12. Unmapped source evidence
+
+- “Private correspondence:” [source: source-packet.md:S001; Unrelated private correspondence]
