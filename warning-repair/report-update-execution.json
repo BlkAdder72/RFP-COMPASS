@@ -1,0 +1,8 @@
+{
+  "command": [
+    "warning-repair/report.py"
+  ],
+  "exit_code": 0,
+  "stdout": "Reports and navigation updated from measured results.\n",
+  "stderr": ""
+}

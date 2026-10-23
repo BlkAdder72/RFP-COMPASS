@@ -1,0 +1,368 @@
+{
+  "original": {
+    "W-warning-obligations": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S004_required": true,
+        "S005_required": true,
+        "S004_forbidden_clear": true,
+        "S005_forbidden_clear": true,
+        "S001_exclusive": false,
+        "S002_exclusive": false
+      },
+      "semantic_pass": false,
+      "positions": {
+        "S003": [
+          4
+        ],
+        "S005": [
+          4,
+          6
+        ],
+        "S001": [
+          6
+        ],
+        "S002": [
+          6
+        ],
+        "S004": [
+          6
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": false
+    },
+    "X-citation-microvariants": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S001_required": true,
+        "S002_required": true,
+        "S003_required": true,
+        "S004_required": true,
+        "S005_required": true,
+        "S006_required": true,
+        "S007_required": true,
+        "S008_required": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S001": [
+          4,
+          5
+        ],
+        "S002": [
+          4,
+          5
+        ],
+        "S003": [
+          4,
+          5
+        ],
+        "S004": [
+          4,
+          5
+        ],
+        "S005": [
+          4,
+          5
+        ],
+        "S006": [
+          4,
+          5
+        ],
+        "S007": [
+          4,
+          5
+        ],
+        "S008": [
+          4,
+          5
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    },
+    "Y-routing-boundaries": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S001_required": true,
+        "S002_required": true,
+        "S003_required": true,
+        "S004_required": true,
+        "S005_required": true,
+        "S007_required": false,
+        "S008_required": false,
+        "S009_required": true,
+        "S001_forbidden_clear": true,
+        "S004_forbidden_clear": true,
+        "S005_forbidden_clear": true,
+        "S006_forbidden_clear": true
+      },
+      "semantic_pass": false,
+      "positions": {
+        "S004": [
+          2,
+          8
+        ],
+        "S007": [
+          2,
+          8
+        ],
+        "S001": [
+          3
+        ],
+        "S002": [
+          4,
+          5
+        ],
+        "S003": [
+          4,
+          5
+        ],
+        "S006": [
+          4
+        ],
+        "S008": [
+          4,
+          8
+        ],
+        "S009": [
+          6,
+          11
+        ],
+        "S005": [
+          8
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": false
+    },
+    "Z-personal-and-mandatory-events": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S005_required": true,
+        "S005_forbidden_clear": true,
+        "S001_exclusive": false,
+        "S002_exclusive": false,
+        "S003_exclusive": false
+      },
+      "semantic_pass": false,
+      "positions": {
+        "S004": [
+          4
+        ],
+        "S001": [
+          6
+        ],
+        "S002": [
+          6
+        ],
+        "S003": [
+          6
+        ],
+        "S005": [
+          6
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": false
+    }
+  },
+  "rebuild": {
+    "W-warning-obligations": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S004_required": true,
+        "S005_required": true,
+        "S004_forbidden_clear": true,
+        "S005_forbidden_clear": true,
+        "S001_exclusive": true,
+        "S002_exclusive": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S003": [
+          4
+        ],
+        "S004": [
+          4,
+          6
+        ],
+        "S005": [
+          4,
+          6
+        ],
+        "S001": [
+          12
+        ],
+        "S002": [
+          12
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    },
+    "X-citation-microvariants": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S001_required": true,
+        "S002_required": true,
+        "S003_required": true,
+        "S004_required": true,
+        "S005_required": true,
+        "S006_required": true,
+        "S007_required": true,
+        "S008_required": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S001": [
+          4,
+          5
+        ],
+        "S002": [
+          4,
+          5
+        ],
+        "S003": [
+          4,
+          5
+        ],
+        "S004": [
+          4,
+          5
+        ],
+        "S005": [
+          4,
+          5
+        ],
+        "S006": [
+          4,
+          5
+        ],
+        "S007": [
+          4,
+          5
+        ],
+        "S008": [
+          4,
+          5
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    },
+    "Y-routing-boundaries": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S001_required": true,
+        "S002_required": true,
+        "S003_required": true,
+        "S004_required": true,
+        "S005_required": true,
+        "S007_required": true,
+        "S008_required": true,
+        "S009_required": true,
+        "S001_forbidden_clear": true,
+        "S004_forbidden_clear": true,
+        "S005_forbidden_clear": true,
+        "S006_forbidden_clear": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S004": [
+          2,
+          8
+        ],
+        "S007": [
+          2,
+          8,
+          11
+        ],
+        "S001": [
+          3
+        ],
+        "S002": [
+          4,
+          5
+        ],
+        "S003": [
+          4,
+          5
+        ],
+        "S006": [
+          4
+        ],
+        "S008": [
+          4,
+          5,
+          8
+        ],
+        "S009": [
+          6,
+          11
+        ],
+        "S005": [
+          8
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    },
+    "Z-personal-and-mandatory-events": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S005_required": true,
+        "S005_forbidden_clear": true,
+        "S001_exclusive": true,
+        "S002_exclusive": true,
+        "S003_exclusive": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S004": [
+          4
+        ],
+        "S005": [
+          4,
+          6
+        ],
+        "S001": [
+          12
+        ],
+        "S002": [
+          12
+        ],
+        "S003": [
+          12
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    }
+  }
+}

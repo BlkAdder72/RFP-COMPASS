@@ -13,8 +13,21 @@ for n,h in m['artifacts'].items():
 a=(D/'before/rebuild/tools/validate_packet.py').read_bytes();b=(R/'rebuild/tools/validate_packet.py').read_bytes();assert a[a.index(b'def difference('):]==b[b.index(b'def difference('):]
 spec=importlib.util.spec_from_file_location('core',R/'tools/run_arm.py');core=importlib.util.module_from_spec(spec);spec.loader.exec_module(core)
 chronology=json.loads((D/'chronology.json').read_text())
-for commit in [chronology['frozen_inputs_commit'],chronology['pre_fix_failures_commit'],chronology['complete_original_baseline_commit']]:assert subprocess.run(['git','merge-base','--is-ancestor',commit,'HEAD'],cwd=R).returncode==0
+for commit in [chronology['frozen_inputs_commit'],chronology['pre_fix_failures_commit'],chronology['complete_original_baseline_commit'],chronology['warning_candidate_commit']]:assert subprocess.run(['git','merge-base','--is-ancestor',commit,'HEAD'],cwd=R).returncode==0
 assert subprocess.check_output(['git','show',chronology['complete_original_baseline_commit']+':rebuild/tools/validate_packet.py'],cwd=R)==(D/'before/rebuild/tools/validate_packet.py').read_bytes()
+assert subprocess.check_output(['git','show',chronology['warning_candidate_commit']+':rebuild/tools/validate_packet.py'],cwd=R)==(R/'rebuild/tools/validate_packet.py').read_bytes()
+frozen_tree=subprocess.check_output(['git','ls-tree','-r','-z',chronology['frozen_inputs_commit']],cwd=R)
+for record in frozen_tree.split(b'\0'):
+ if not record:continue
+ metadata,name=record.split(b'\t',1);n=name.decode()
+ if n.startswith('warning-repair/fixtures/') or n in ['warning-repair/expectations.json','warning-repair/full-expectations.json','warning-repair/control-definitions.json','warning-repair/PROTOCOL.md']:
+  data=(R/n).read_bytes();assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()==metadata.decode().split()[2],n
+baseline_tree=subprocess.check_output(['git','ls-tree','-r','-z',chronology['complete_original_baseline_commit']],cwd=R)
+for record in baseline_tree.split(b'\0'):
+ if not record:continue
+ metadata,name=record.split(b'\t',1);n=name.decode()
+ if n.startswith('run-original/warning-repair-'):
+  data=(R/n).read_bytes();assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()==metadata.decode().split()[2],n
 turns=0
 for arm in ['original','rebuild']:
  for kind,folder in [('core',R/'fixtures'),('new',D/'fixtures'),('full',R/'hardening/fixtures')]:
@@ -36,6 +49,7 @@ for arm in ['original','rebuild']:
     assert all(t==session for t in threads)
     if i:assert session in cmd
    turns+=1
+  if kind=='full':assert env['fixture_sha256']==sha(R/'hardening/fixtures/Z-full-length-noisy.md')
   if kind=='full':assert (base/'bid-compliance-card.md').read_text(encoding='utf-8')=='\n'.join((p/'bid-compliance-card.md').read_text(encoding='utf-8') for p in parts)
 controls=json.loads((D/'control-results.json').read_text());assert all(x['passed'] for x in controls if x['arm']=='rebuild')
 definitions=json.loads((D/'control-definitions.json').read_text(encoding='utf-8'))

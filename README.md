@@ -6,19 +6,20 @@ The Comp #13 Translator entry is preserved at judged commit `92847d2a17250fa1891
 
 The feedback asked for unrelated personal material only in Section 12 without false Section 6 warnings; explicit contractual-expectation routing; honest script-built-example provenance; and a noisy-input run in `run-results/`. Frozen Q1–Q8 trace those requests and precede the first rebuild in Git.
 
-Current repair: required response information is checked for Section 5, graduation notes no longer create the known false warning, and quotation validation is strictly character-exact. Read the actual outcomes and limits in [results.md](results.md).
+Current repair: obligation wording and mixed offer deadlines retain warning protection, while known private baptism/baby-shower dates no longer create false warnings. Strict quotation/citation validation is unchanged. Read the actual outcomes and limits in [results.md](results.md).
 
 | Material | Location |
 |---|---|
 | Judged original and verbatim feedback | `original/`, `feedback.md` |
 | Frozen questions/expected answers | `questions.md` |
 | Candidate knowledge, tools and operating guide | `rebuild/` |
-| New exact prompts and unedited replies | `run-original/final-repair-v2-*`, `run-rebuild/final-repair-v2-*` |
-| Current protocol, scores, controls, preservation and report | `final-repair/` |
+| New exact prompts and unedited replies | `run-original/warning-repair-*`, `run-rebuild/warning-repair-*` |
+| Current protocol, scores, controls, preservation and report | `warning-repair/` |
+| Preserved warning-regression findings | `red-team-release/REPORT.md` |
 | Previous red-team findings, including S076 regression | `red-team-citations/REPORT.md` |
 | Previous citation failures and repairs | `citation-repair/`, `hardening/`, earlier `run-ARM/` folders |
 | Earlier complete audit trail | `revision/`, `repair/`, `supplemental/`, `history/`, `packaging/` |
-| Updated local ZIP and complete-history bundle | `dist/release/` (local delivery; not source-tracked) |
+| Updated local ZIP and complete-history bundle | `dist/warning-release/` (local delivery; not source-tracked) |
 
 Offline audit from a Git clone: `python -B -X utf8 tools/verify_submission.py`. It runs historical assertions in a disposable clone of their sealed commit, then checks current repair evidence. It calls no model. Fresh controlled runs: `tools/run_arm.py` for core/new sources and `hardening/run_full.py` for the full fixture; always choose new output directories. Authentication/model access is required for real reruns. The stored trials prohibit tools and record any violations.
 

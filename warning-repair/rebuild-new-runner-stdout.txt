@@ -1,0 +1,8 @@
+RUN rebuild W-warning-obligations
+SAVED
+RUN rebuild X-citation-microvariants
+SAVED
+RUN rebuild Y-routing-boundaries
+SAVED
+RUN rebuild Z-personal-and-mandatory-events
+SAVED

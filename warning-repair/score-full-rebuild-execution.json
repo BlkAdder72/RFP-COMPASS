@@ -1,0 +1,9 @@
+{
+  "command": [
+    "warning-repair/score_full.py",
+    "rebuild"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"rebuild\": {\n    \"checks\": {\n      \"exact_shape_quotes_coverage\": true,\n      \"exact_statement_text\": true,\n      \"exact_anchors\": true,\n      \"all_221_ids\": true,\n      \"noise_only12\": true,\n      \"genuine_routing\": true,\n      \"forbidden_routing_clear\": true,\n      \"no_personal_review_hints\": true,\n      \"max150_bullets_per_reply\": true,\n      \"complete\": true\n    },\n    \"passed\": true,\n    \"quote_mismatches\": [],\n    \"anchor_mismatches\": [],\n    \"noise_only12\": {\n      \"S215\": true,\n      \"S216\": true,\n      \"S217\": true,\n      \"S218\": true,\n      \"S219\": true,\n      \"S220\": true,\n      \"S221\": true\n    },\n    \"genuine_routing\": {\n      \"S089\": true,\n      \"S103\": true,\n      \"S114\": true,\n      \"S133\": true,\n      \"S209\": true,\n      \"S072\": true,\n      \"S076\": true,\n      \"S046\": true,\n      \"S047\": true,\n      \"S048\": true,\n      \"S065\": true,\n      \"S066\": true,\n      \"S075\": true,\n      \"S077\": true,\n      \"S079\": true,\n      \"S080\": true,\n      \"S081\": true,\n      \"S083\": true,\n      \"S148\": true,\n      \"S150\": true,\n      \"S152\": true\n    },\n    \"personal_review_hints\": [],\n    \"parts\": 4,\n    \"bullets_per_part\": [\n      113,\n      86,\n      141,\n      73\n    ],\n    \"cited_distinct_ids\": 221,\n    \"forbidden_checks\": {\n      \"S081\": true,\n      \"S152\": true\n    }\n  }\n}\n",
+  "stderr": ""
+}

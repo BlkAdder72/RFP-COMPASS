@@ -1,3 +1,9 @@
+# Latest warning repair
+
+See `../warning-repair/REPORT.md` and `../results.md` for measured outcomes and limits. New exact noisy-input evidence: `run-results/warning-repair-full/`. Default warning logic repaired; strict validation unchanged. Unpublished.
+
+## Preserved previous operating guide and status
+
 # Current final-repair status
 
 See root `results.md` and `final-repair/REPORT.md` for current results. The latest paired full-length run preserves all citations and includes required response information S076 in Sections 4 and 5. Strict validation now rejects altered invisible characters and straight delimiters. Every previous failed run remains unchanged.

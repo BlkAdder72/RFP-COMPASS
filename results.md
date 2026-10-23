@@ -1,28 +1,22 @@
-# Final repair and paired evaluation — 2026-10-23
+# Warning repair — paired results, 2026-10-23
 
-Publication: **NOT PERFORMED**. This candidate closes all three reviewed findings on their frozen cases. The new rebuilt full-length run passes every prospective check, including S076 in Sections 4 and 5 and character-exact citations throughout. This is observed test closure, not a claim of universal semantic or copying correctness.
+Targeted warning controls closed; fresh selected model checks pass.
 
-## What changed and why
+Local candidate; unpublished. This stage repairs the two warning regressions and the baptism/baby-shower false warnings identified in `red-team-release/REPORT.md`. Earlier failed evidence, including the S072/S100 citation failures and unsafe suppression witnesses, remains unchanged.
 
-1. Required response information is explicitly a Section 5 item even without a named form or report. The rules require a section-by-section scan of every ID, retain enclosing required-submittal context, and prohibit dropping an item merely because it already appears in Section 4. The distinction from suggestions and post-award deliverables remains. No S076 identifier, TBRPC answer or source-specific routing matrix was added to model knowledge for this repair.
-2. The bounded personal-activity filter now recognizes graduation celebrations, parties and ceremonies with a personal owner. It still requires exact trusted text and Section 12-only placement, and retains procurement, clinical and cross-anchor required-event vetoes. Labels alone do not authorize suppression. Unknown celebrations retain their warning.
-3. The rebuilt validator rejects straight quotation delimiters and every altered quotation character, including invisible characters and Unicode normalization changes. Source trailing spaces are preserved in comparison. The old visible-text fallback and tolerant-success notes are removed. Exact anchor checks, coverage, ordering, continuation and shape checks remain. Original is untouched. This is stricter validation, not an exception to make new model outputs pass.
+## Change and validation boundary
 
-## Preservation and sequence
+Only the validator warning filter changed. Obligation phrases (`have/has/had to`, `need/needs to`, `are/is/be obliged/obligated to`) protect genuine requirement context across source anchors. Offer-delivery phrases veto personal suppression within mixed statements. Clearly personal baptism and baby-shower bodies can be excluded from hints when trusted and present only in Section 12. Clinical text, explicit procurement cues, unknown meetings and unresolved required context retain warnings; an explicit personal body heading can reset context. No filename-based classification or blanket warning deletion was introduced.
 
-`final-repair/preservation.json` binds all pre-stage tracked files and previous delivery hashes. Mutable files were copied byte-for-byte to `final-repair/history/` before edits; all six baseline knowledge files were separately frozen. Frozen root questions remain byte-identical to their pre-rebuild commit. All previous failures, raw transcripts, red-team findings, scores and Git history remain unchanged. The original was run first on A–E, then U/V/W, then the full 221-statement input; its raw baseline was committed before candidate edits. Rebuild used the same inputs and order after its candidate commit.
+The implementation from `def difference` onward is byte-identical to the reviewed validator: exact quotations including invisible characters, exact complete anchors, trusted per-ID exclusions, heading/order/coverage/continuation checks and rejection behavior remain intact. A warning is a review aid, not proof of semantic correctness. The six model knowledge files in each arm are unchanged from the previous reviewed candidate. New model differences therefore reflect fresh-run variability, not a new routing-prompt repair.
 
-The prospective protocol and expected matrices were committed before trials. The initial asynchronous baseline-commit wait correction is disclosed in `final-repair/AUDIT_NOTES.md`; it involved no model retry or output replacement. Runners, model (gpt-6-astra), medium reasoning, wrappers, no-tool rule and continuation policy are unchanged. No retries, best-of selection or output corrections were used. Knowledge differs only by the intended repair. Q7/Q8 remain deterministic file/default-tool checks, with no sidecar required. All requests, raw model events, stderr and continuation prompts are under `run-ARM/final-repair-v2-{core,new,full}/`.
+## Frozen questions and sequence
 
-## First attempt: failed and preserved
+`questions.md` is byte-identical to commit bfdd812. Inputs, expected routing, warning controls and protocol were committed before the original baseline. The original ran A–E, W/X/Y/Z and the unchanged full RFP first, and its complete baseline was committed before applying the candidate filter. Rebuild then used the same sources/order, unchanged runners, gpt-6-astra medium, fresh sessions and exact recorded continuations. No tools, retries, best-of selection, output corrections or evaluator answers were supplied. Exact requests, events, commands, hashes and card equality are audited. Host system instructions are not controlled.
 
-The initial final-repair candidate passed Q1–Q8, all three new cases, the S076 placement check and personal containment, but changed one S100 Section 6 anchor from its own single-page citation to the next statement’s page range. The unchanged strict validator rejected it. Original copied all anchors exactly. This was a real copying regression; it is not counted as a pass or replaced by the later run.
+W is a new synthetic combination; X/Y/Z repeat the prior red-team sources. These are disclosed regression tests, not unseen real-world validation or fresh Claude acceptance. The full source is the same 214 real TBRPC statements plus seven synthetic personal statements. Its expanded selected semantic matrix was frozen before this pair; it does not grade every possible semantic placement.
 
-Exact first-attempt knowledge, scores, scorers and hashes remain in `final-repair/attempt-1/` and `final-repair/attempt-1-knowledge/`; all raw runs remain at `run-ARM/final-repair-*`. Before the second knowledge change, a new protocol was frozen and a new original baseline was committed. The second version adds a general p.-versus-pp. safeguard and four-row synthetic near-collision example; it adds no S100 or actual RFP answer. Both arms then rerun all cases and the full input in the same order. The validator and expectations are unchanged between attempts.
-
-The first attempt also placed V's bare response-content heading in Sections 4 and 5. That extra placement was outside the frozen matrix and remains disclosed as an unscored semantic risk. The latest positions appear below; their change is an observation, not a prospectively scored heading repair.
-
-## Frozen questions
+## Q1–Q8
 
 | Question | Original | Rebuild | Comparison |
 |---|---|---|---|
@@ -35,23 +29,38 @@ The first attempt also placed V's bare response-content heading in Sections 4 an
 | Q7 | fail | pass | improved |
 | Q8 | partial | pass | improved |
 
-Totals: {"improved": 5, "tied": 3, "regressed": 0}. Regressed core subchecks: {}. These totals apply only to frozen Q1–Q8, not every possible routing assignment.
+Question totals: {'improved': 5, 'tied': 3, 'regressed': 0}. Default Q8 uses no reviewed-exclusion sidecar. Full individual subchecks: `warning-repair/scores-final.json`. Common strict core results: `warning-repair/core-common-strict.json`.
 
-## New known regression cases
+## Warning and strict-validation controls
 
-| Fixture | Original passes all checks | Rebuild passes all checks |
+| Arm/state | Expectations met | Failures |
 |---|---|---|
-| U-unseen-citations | False | True |
-| V-required-response-info | False | True |
-| W-personal-graduation | False | True |
+| Previous rebuild (saved pre-fix) | 18/27 | baptism, baby-shower, compulsory-have-to, mixed-offer-deadline, has-to-context, need-to-context, explicit-reset, private-baptism, private-shower |
+| Original | 19/27 | baptism, baby-shower, graduation-control, altered-zero-width-quotation, straight-delimiters, explicit-reset, private-baptism, private-shower |
+| Repaired rebuild | 27/27 | None |
 
-U retains the previously unseen anchor forms unchanged; it is now a known regression fixture. V tests mandatory response information without a named attachment. W tests the known graduation false-warning case. Exact quotations/anchors, required routing and personal-only placement are scored separately. See `final-repair/attempt-2/new-results.json`; no new independent holdout claim is made.
+Both unsafe suppression cases now retain the Section 6 warning on the deliberately misrouted, structurally valid evaluator cards. Correct private baptism and baby-shower cards no longer generate the false warning. Additional has-to/need-to/obliged, mixed-offer, clinical, mandatory, unknown-meeting and explicit/unknown-context-transition controls are retained. Exact new anchors remain accepted; altered citations and quotation text remain rejected. Original’s known permissive quotation behavior is disclosed rather than scored as fidelity success.
 
-The matrix for V adjudicates the substantive response items, not its bare heading. Rebuild places `Required response contents:` in [12], versus original [4]. Heading placement remains an unscored semantic risk; the fixture-level pass does not certify every extra placement. A missing W warning alone is not personal containment: its actual positions are rebuild [12] versus original [6]. The independent correct-card control is the evidence that the graduation false warning itself is repaired.
+Historical replay executions: 143; repaired rebuild failures: 0. The same historical REVIEW lines and valid/invalid outcomes are required; old result files were not regenerated. The first replay-wrapper attempt incorrectly assumed every old control stored its card in the same folder; its missing-input failures are preserved under historical-control-replays. The corrected v2 replay follows each original recorded command, including multipart cards. This was a harness-path failure, not a validator regression.
 
-## Full-length noisy RFP
+## Fresh short model cases
 
-The source remains the same 214 real TBRPC statements plus seven explicitly synthetic personal-calendar statements. No source word, anchor or order was changed. The prospective matrix keeps all previous selected checks and adds S076 in Sections 4 and 5. Every quote and anchor is compared independently, not only S072/S076.
+| Case | Original strict / semantic / no false personal hints | Rebuild strict / semantic / no false personal hints |
+|---|---|---|
+| W-warning-obligations | Pass / Fail / Pass | Pass / Pass / Pass |
+| X-citation-microvariants | Pass / Pass / Pass | Pass / Pass / Pass |
+| Y-routing-boundaries | Pass / Fail / Pass | Pass / Pass / Pass |
+| Z-personal-and-mandatory-events | Pass / Fail / Pass | Pass / Pass / Pass |
+
+A no-false-hints pass on an original card that misroutes private dates into Section 6 is not successful containment: the separate exclusive-placement checks still fail. Correct-card evaluator controls expose its false-warning behavior.
+
+original W-warning-obligations: failed semantic checks ['S001_exclusive', 'S002_exclusive']; citation mismatches []; personal hint lines [].
+
+original Y-routing-boundaries: failed semantic checks ['S007_required', 'S008_required']; citation mismatches []; personal hint lines [].
+
+original Z-personal-and-mandatory-events: failed semantic checks ['S001_exclusive', 'S002_exclusive', 'S003_exclusive']; citation mismatches []; personal hint lines [].
+
+## Fresh full-length RFP
 
 | Check | Original | Rebuild |
 |---|---|---|
@@ -61,38 +70,21 @@ The source remains the same 214 real TBRPC statements plus seven explicitly synt
 | all_221_ids | True | True |
 | noise_only12 | False | True |
 | genuine_routing | False | True |
+| forbidden_routing_clear | True | True |
 | no_personal_review_hints | True | True |
 | max150_bullets_per_reply | True | True |
 | complete | True | True |
 
-Original S076 placements: [4, 5]; rebuild: [4, 5]. Original bullets per reply: [126, 127, 139]; rebuild: [113, 88, 142, 74]. Copy mismatches: original 1 anchors/0 quotations, rebuild 0 anchors/0 quotations. All other selected placements and every negative result remain in `final-repair/attempt-2/full-length-results.json`.
+original: 4 replies, quoted bullets per reply [95, 117, 92, 146], 221 distinct IDs. Overall pass: False. Quote mismatches: []. Anchor mismatches: [{'sid': 'S072', 'section': 4, 'actual': 'TBRPC Auditing RFP p. 7 §5.II.b', 'expected': 'TBRPC Auditing RFP p. 7 §5.II.b bullet'}, {'sid': 'S072', 'section': 5, 'actual': 'TBRPC Auditing RFP p. 7 §5.II.b', 'expected': 'TBRPC Auditing RFP p. 7 §5.II.b bullet'}]. Failed routing: ['S066', 'S083', 'S148']. Failed forbidden checks: []. Personal hint lines: [].
 
-The prior S076 regression is still visible in the unchanged `red-team-citations/semantic-review.json` and previous raw full-length cards. The new success does not rewrite that failure. The original's varying results across attempts remain evidence of run variability, rather than something to discard.
+rebuild: 4 replies, quoted bullets per reply [113, 86, 141, 73], 221 distinct IDs. Overall pass: True. Quote mismatches: []. Anchor mismatches: []. Failed routing: []. Failed forbidden checks: []. Personal hint lines: [].
 
-Exact citation copying differs in this pair; the recorded mismatches above remain failures. A single pair does not establish a copying advantage. S076's actual placements are shown above; improvement, tie or failure follows those observations, not the previous version's result. A separate identical strict-fidelity gate passes all 16 core/new cards across both arms (`identical-strict-fidelity-v2.json`), so original is not receiving a scoring advantage from its more permissive native quotation validator.
+Full required Section 5 checks include S072 and S076; the source-bound expanded matrix distinguishes eligibility, required response information, optional material and post-award terms. All occurrences, not only selected IDs, are checked for exact quotation and complete anchor. Both arms face the same rebuilt strict structural gate. Actual reply boundaries are separately checked against the 150-bullet budget. Raw full rebuilt replies are copied byte-for-byte under `rebuild/run-results/warning-repair-full/` with local binary Git attributes.
 
-The same strict validator also evaluates both arms' actual full-length reply parts in `identical-full-fidelity-v2.json`; an original failure remains a failure. The six follow-up controls accept the exact extended example, reject a swapped page range, and continue rejecting the preserved S100 failure in both versions. Validator code is byte-identical across the two final-repair attempts.
+## Preservation, remaining risk and delivery
 
-## Validation and regression controls
+Integrity audit: 10568 prior tracked files preserved (changed candidate/report paths have exact before snapshots). Original, verbatim feedback, frozen questions, all failed trials and previous review evidence are unchanged. All 20 existing local sealed artifact files retain their hashes. The complete Git history remains; no amend, reset, force push or history rewrite was used.
 
-137 evaluator-built validator checks spanning both arms were executed, with zero rebuilt expectation failures. They include exact Unicode acceptance, altered invisible/NBSP/normalization/trailing-space rejection, straight-delimiter rejection, anchor corruption, missing coverage, the preserved S072 failure, graduation false-warning closure, mixed real requirements, clinical scope, unknown events and cross-anchor context. Original contract gaps are recorded explicitly in `control-results.json`, not scored away.
+This closes the specified warning failures on the frozen controls; it does not establish a general personal-content classifier. New activity wording can still produce conservative false warnings; unfamiliar obligation wording can still escape a finite heuristic. The validator does not prove semantic routing, issuer authority, packet-to-PDF fidelity or authenticity. Context stays protected until an explicit private heading, which favors missed-risk detection and may over-warn on poorly separated attachments. Strict validation detects copying failures but cannot guarantee the model will not make them. One trial per source/arm is a receipt, not a reliability estimate. Original Claude Sonnet/Opus conditions are not reproduced. Eligibility remains unverified.
 
-Historical/reference replay: 92/92 cards pass current structural validation under their recorded validator arms. Any rejected historical card remains unchanged; its raw stdout, stderr, hashes and exit code are retained in `final-repair/historical-replays/`. Controls are evaluator-built, not model responses.
-
-Historical audits run against the sealed historical commit in a disposable local clone, preserving their original assertions. The current audit independently checks preservation, exact new prompts and knowledge hashes, unedited raw responses, no tools, same-session continuations, and the new strict validator. No historical test expectation is weakened to accommodate this repair.
-
-## Deliberately unchanged and remaining limits
-
-- The judged original, frozen eight questions, raw failed outputs, source packet, prior routing scores, model/provider and evaluation runners remain unchanged. Identity and input schema were not altered. The second attempt extends the general synthetic anchor example with single-page/page-range near-collisions; that example was chosen after inspecting the new failure.
-- The full-input semantic matrix is still selected coverage, not a complete expert adjudication of all 221 statements in every section. Mechanical PASS cannot prove section placement. Unknown personal activities may retain conservative warnings.
-- This repair had two versioned attempts. The first failed full-length citation validation; the second has one fresh pair per fixture and one fresh full-length pair after that failure. There is no statistical or universal copying guarantee, independent holdout claim, fresh Claude/Sonnet/Opus acceptance or cost/latency advantage claim.
-- Reply-budget compliance is checked by the full-run scorer; a combined card does not preserve all reply boundaries for the standalone validator. No blanket claim that the validator enforces every output-contract rule is made.
-- Premium/VIP eligibility is unverified. Public URL and submission comment remain unposted. The competition deadline remains Wednesday October 28, 11:59 PM EST as written.
-
-## Local delivery
-
-The updated source archive and complete-history Git bundle are sealed under `dist/release/`, with SHA256SUMS, release commit and fresh-clone verification alongside them. Earlier delivery files remain untouched. The source ZIP excludes `.git` as usual; use the bundle for the complete sequence/history. The report and new evidence are included in the new release. No publication is authorized or performed.
-
-The first delivery attempt passed source/archive bytes, pristine clone bytes and preflights, but its offline audit could not create a historical scratch clone in the sandbox system temp directory. That failed delivery and raw error are preserved under `dist/final-repair/` and `final-repair/delivery-attempt-1/`. The audit now uses a verified workspace scratch path; no test assertion or model result changed. Current delivery is `dist/release/`.
-
-The second delivery attempt passed archive, clone-byte and preflight checks but exposed Windows path-length limits inside the nested historical clone. It is preserved at dist/final-repair-verified and final-repair/delivery-attempt-2. The historical Python entrypoint now uses an extended absolute Windows filename; Git long-path mode remains enabled. Scratch clones are kept under the verified ignored workspace path, so failed evidence is not removed by cleanup. No assertion, validator, model knowledge or model result changed.
+Local package target: `dist/warning-release/`, including source ZIP, complete-history Git bundle, SHA256SUMS, RELEASE and fresh-clone FINAL_VERIFICATION. Packaging checks integrity/compliance separately from the measured performance above; a package audit pass does not erase a model failure. Older `dist/release/` and failed delivery attempts remain intact. `SUBMISSION_COMMENT.md` is still a draft; no public link, push or comment has been published.

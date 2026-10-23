@@ -3,5 +3,6 @@
   "pre_fix_failures_commit": "0cdea7c",
   "complete_original_baseline_commit": "737e9ceb26a2b3d64ce3e5642f161d83aa4724b8",
   "model_knowledge_changed": false,
-  "publication_authorized": false
+  "publication_authorized": false,
+  "warning_candidate_commit": "d9ac018cda5c1d8ef043c96fdafd0039a2646ca1"
 }
