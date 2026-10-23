@@ -1,0 +1,87 @@
+{
+  "method": "Retrospective source review, not a new model trial or holdout. Selected after reading source; no old scores rewritten.",
+  "source_sha256": "01526c6dccc0d05144b47d3ee1468c77f8d692d160418e187144cd1ab797a6bc",
+  "required": {
+    "S046": [
+      3
+    ],
+    "S047": [
+      3,
+      4,
+      5,
+      10
+    ],
+    "S048": [
+      3,
+      10
+    ],
+    "S065": [
+      4,
+      5
+    ],
+    "S066": [
+      4,
+      5
+    ],
+    "S075": [
+      4,
+      5
+    ],
+    "S076": [
+      4,
+      5
+    ],
+    "S077": [
+      4,
+      5
+    ],
+    "S079": [
+      4,
+      5,
+      10
+    ],
+    "S080": [
+      4,
+      5,
+      10
+    ],
+    "S081": [
+      8
+    ],
+    "S083": [
+      4,
+      5,
+      8
+    ],
+    "S089": [
+      4,
+      5
+    ],
+    "S133": [
+      2,
+      8,
+      11
+    ],
+    "S148": [
+      8,
+      11
+    ],
+    "S150": [
+      8
+    ],
+    "S152": [
+      8
+    ]
+  },
+  "forbidden": {
+    "S081": [
+      3,
+      5
+    ],
+    "S152": [
+      3,
+      5
+    ]
+  },
+  "rationale": "Qualification requirements vs instructions to disclose information; compulsory response contents vs optional material and post-award deliverables. New rule explicitly includes mandatory response information without a named attachment."
+}
