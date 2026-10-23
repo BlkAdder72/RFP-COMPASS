@@ -22,7 +22,7 @@ Each populated bullet has this exact format:
 
 - The quotation marks are the curly pair “ (U+201C) and ” (U+201D). Straight quotes inside the source text stay exactly as they are.
 - The quotation is the whole statement text after the second ` | ` separator in the packet, character for character. Never a part of it and never two statements joined.
-- The anchor is copied exactly from the packet line.
+- The COMPLETE anchor is opaque data copied from that same ID's packet line, between its first two ` | ` separators. All words and layout qualifiers are part of it. Do not abbreviate, normalize, infer a cleaner citation, or substitute a neighboring statement's similar anchor. Each ID's entire bullet and citation must remain identical wherever it is repeated, including across replies.
 - Within a section, bullets are in ascending source-ID order and no ID appears twice.
 
 The fixed headings, quotation delimiters, citation syntax, the `not in source` marker and the continuation marker below are contract structure, not facts from the source.
