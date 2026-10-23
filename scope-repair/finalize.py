@@ -13,6 +13,7 @@ for arm in ['original','rebuild']:full.update(json.loads((D/('full-length-result
 source=R/'run-rebuild/scope-repair-full';target=R/'rebuild/run-results/scope-repair-full';shutil.copytree(source,target);(target/'.gitattributes').write_text('* -text\n',encoding='utf-8')
 for p in source.rglob('*'):
  if p.is_file():assert p.read_bytes()==(target/p.relative_to(source)).read_bytes()
+run('release-full-validation',['scope-repair/release_full_validation.py'])
 verification=json.loads(run('current-verification',['scope-repair/verify.py']));(D/'verification.json').open('x').write(json.dumps(verification,indent=2))
 run('report-update',['scope-repair/report.py'])
 print(json.dumps({'full_rebuild_passed':full['rebuild']['passed'],'integrity':verification},indent=2))

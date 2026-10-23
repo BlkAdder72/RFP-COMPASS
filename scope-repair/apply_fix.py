@@ -13,6 +13,7 @@ s=s.replace('OFFER_DELIVERY_CUE = re.compile(r"\\b(?:deliver|send|lodge|provide|
 s=s.replace('baptism(?:\\s+ceremony)?|baby\\s+shower|','(?:baptism|christening)(?:\\s+ceremony)?|(?:baby|bridal)\\s+shower|')
 start=s.index('        procurement = PROCUREMENT_CUE.search(body)');end=s.index('        only12 =',start)
 s=s[:start]+(D/'warning-body.txt').read_text(encoding='utf-8')+s[end:]
+s=s.replace('(calendar|correspondence|notes|schedule|email|thread)','(calendar|correspondence|notes|schedule|email|thread|events|activities)')
 assert s!=p.read_text(encoding='utf-8');p.write_text(s,encoding='utf-8',newline='\n')
 plan=json.loads((D/'submission-plan.json').read_text(encoding='utf-8'));(R/'SUBMISSION_COMMENT.md').write_text('DRAFT — do not post; replace the public URL only after publication is authorized.\n\n'+' '.join(plan['sentences'])+'\n',encoding='utf-8',newline='\n')
 print('Warning scope and three-sentence draft repaired; strict validator unchanged.')

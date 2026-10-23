@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "preserved_prior_files": 12957,
+  "local_prior_artifacts_verified": 30,
+  "raw_turns_verified": 26,
+  "frozen_questions": "unchanged",
+  "strict_validation_implementation": "unchanged",
+  "six_model_knowledge_files_each_arm": "unchanged",
+  "published": false
+}

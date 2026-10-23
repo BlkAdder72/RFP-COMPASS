@@ -1,5 +1,11 @@
 # Latest warning repair
 
+See `../scope-repair/REPORT.md` and `../results.md` for measured outcomes and limits. New exact noisy-input evidence: `run-results/scope-repair-full/`. Default warning logic repaired; strict validation unchanged. Unpublished.
+
+## Preserved previous operating guide and status
+
+# Latest warning repair
+
 See `../warning-repair/REPORT.md` and `../results.md` for measured outcomes and limits. New exact noisy-input evidence: `run-results/warning-repair-full/`. Default warning logic repaired; strict validation unchanged. Unpublished.
 
 ## Preserved previous operating guide and status

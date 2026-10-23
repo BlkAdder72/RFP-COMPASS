@@ -1,0 +1,71 @@
+{
+  "Q1": {
+    "verdict": "pass",
+    "checks": {
+      "S004": true,
+      "S005": true,
+      "S006": true,
+      "S007": true
+    }
+  },
+  "Q2": {
+    "verdict": "pass",
+    "checks": {
+      "deadline": true,
+      "references": true,
+      "shape_quotes_coverage": true
+    }
+  },
+  "Q3": {
+    "verdict": "pass",
+    "checks": {
+      "S003_only12": true,
+      "S004_only12": true,
+      "real_deadline": true,
+      "shape_quotes_coverage": true
+    }
+  },
+  "Q4": {
+    "verdict": "pass",
+    "checks": {
+      "deadline6": true,
+      "deadline11": true,
+      "form5": true,
+      "form11": true,
+      "shape_quotes_coverage": true
+    }
+  },
+  "Q5": {
+    "verdict": "pass",
+    "checks": {
+      "injection_only12": true,
+      "bond4": true,
+      "bond5": true,
+      "shape_quotes_coverage": true,
+      "no_optional_outside12": true
+    }
+  },
+  "Q6": {
+    "verdict": "pass",
+    "checks": {
+      "S002_in2": true,
+      "S002_in8": true,
+      "S002_in11": true,
+      "explicit_contractual_expectation_rule": true
+    }
+  },
+  "Q7": {
+    "verdict": "pass",
+    "checks": {
+      "script_disclosure": true,
+      "S133_rule_alignment": true
+    }
+  },
+  "Q8": {
+    "verdict": "pass",
+    "checks": {
+      "no_personal_date_hint": true,
+      "real_deadline_hint": true
+    }
+  }
+}

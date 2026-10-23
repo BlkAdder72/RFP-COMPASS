@@ -60,6 +60,14 @@ assert len(plan['sentences'])==3
 comment=(R/'SUBMISSION_COMMENT.md').read_text(encoding='utf-8').split('\n\n',1)[1].strip()
 assert comment==' '.join(plan['sentences'])
 assert len(__import__('re').findall(r'[.!?](?:[”\"])?(?=\s|$)',comment))==3
+for check in json.loads((D/'release-full-validation.json').read_text()):
+ tool=R/('rebuild' if check['gate']=='common-strict' else check['arm'])/'tools/validate_packet.py'
+ assert check['validator_sha256']==sha(tool)
+same=json.loads((D/'same-card-warning-replay.json').read_text())
+assert same['before']['source_sha256']==same['after']['source_sha256']==sha(R/'red-team-warning-final/fixtures/B-private-obligations-and-milestones.md')
+assert same['before']['card_sha256']==same['after']['card_sha256']==sha(R/'red-team-warning-final/run-rebuild/B-private-obligations-and-milestones/bid-compliance-card.md')
+assert same['after']['validator_sha256']==sha(R/'rebuild/tools/validate_packet.py')
+assert 'REVIEW' not in same['after']['stdout'] and 'S002, S003, S004, S005, S006' in same['before']['stdout']
 controls=json.loads((D/'control-results-release.json').read_text());assert all(x['passed'] for x in controls if x['arm']=='rebuild')
 definitions=json.loads((D/'control-definitions-release.json').read_text(encoding='utf-8'))
 for c in definitions:

@@ -3,5 +3,6 @@
   "complete_original_baseline_commit": "19e1cbbb68cdc72651099a76d8f651a520ca3eaf",
   "safety_addendum_commit": "b7d09319b4e0704f0dcb9aa81ab6f04cef8f31e5",
   "heading_addendum_commit": "c7737cb135192c64bcb0bc8ae4e82c6710eeaad9",
-  "model_input_candidate_commit": "fe0271cb265f4b181660d5d0b14d4958dfc5221b"
+  "model_input_candidate_commit": "fe0271cb265f4b181660d5d0b14d4958dfc5221b",
+  "scope_candidate_commit": "b1b3d92f11a24d5966a01619f9b1b8bd7a575fd0"
 }

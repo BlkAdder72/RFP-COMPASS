@@ -1,0 +1,36 @@
+{
+  "before": {
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\scope-repair\\before\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-warning-final\\fixtures\\B-private-obligations-and-milestones.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-warning-final\\run-rebuild\\B-private-obligations-and-milestones\\bid-compliance-card.md"
+    ],
+    "exit_code": 0,
+    "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-warning-final\\run-rebuild\\B-private-obligations-and-milestones\\bid-compliance-card.md: S002, S003, S004, S005, S006 look like dates or times but are not in Section 6; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": "",
+    "validator_sha256": "3878699c42932b47783e1d6cacde57c149bceb173402b070c536d317991145dc",
+    "source_sha256": "45d9d52b7fde6556c9f21ed319e91877afb82bafb61fa320aae712369c0ef8e9",
+    "card_sha256": "850bece378552cc175fde6340c2d7edfb23b6a39032fa5c4339b5ccb9b711b1b"
+  },
+  "after": {
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-warning-final\\fixtures\\B-private-obligations-and-milestones.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-warning-final\\run-rebuild\\B-private-obligations-and-milestones\\bid-compliance-card.md"
+    ],
+    "exit_code": 0,
+    "stdout": "NOTE: PERSONAL HINT FILTER: S002, S003, S004, S005, S006; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": "",
+    "validator_sha256": "5bcbce50b8f152bcb7eb3b74e00d3b0baa7eec44c178ae2bd927f7e03171b01c",
+    "source_sha256": "45d9d52b7fde6556c9f21ed319e91877afb82bafb61fa320aae712369c0ef8e9",
+    "card_sha256": "850bece378552cc175fde6340c2d7edfb23b6a39032fa5c4339b5ccb9b711b1b"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "command": [
+    "scope-repair/release_full_validation.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{'original-native': 0, 'original-common-strict': 0, 'rebuild-native': 0, 'rebuild-common-strict': 0}\n",
+  "stderr": ""
+}

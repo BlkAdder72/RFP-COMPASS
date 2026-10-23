@@ -1,0 +1,8 @@
+{
+  "command": [
+    "scope-repair/verify.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"preserved_prior_files\": 12957,\n  \"local_prior_artifacts_verified\": 30,\n  \"raw_turns_verified\": 26,\n  \"frozen_questions\": \"unchanged\",\n  \"strict_validation_implementation\": \"unchanged\",\n  \"six_model_knowledge_files_each_arm\": \"unchanged\",\n  \"published\": false\n}\n",
+  "stderr": ""
+}
