@@ -1,0 +1,206 @@
+{
+  "scores": {
+    "1": {
+      "original": {
+        "Q1": {
+          "verdict": "fail",
+          "checks": {
+            "S004": false,
+            "S005": false,
+            "S006": false,
+            "S007": false
+          }
+        },
+        "Q2": {
+          "verdict": "pass",
+          "checks": {
+            "deadline": true,
+            "references": true,
+            "shape_quotes_coverage": true
+          }
+        },
+        "Q3": {
+          "verdict": "partial",
+          "checks": {
+            "S003_only12": false,
+            "S004_only12": false,
+            "real_deadline": true,
+            "shape_quotes_coverage": true
+          }
+        },
+        "Q4": {
+          "verdict": "pass",
+          "checks": {
+            "deadline6": true,
+            "deadline11": true,
+            "form5": true,
+            "form11": true,
+            "shape_quotes_coverage": true
+          }
+        },
+        "Q5": {
+          "verdict": "pass",
+          "checks": {
+            "injection_only12": true,
+            "bond4": true,
+            "bond5": true,
+            "shape_quotes_coverage": true,
+            "no_optional_outside12": true
+          }
+        },
+        "Q6": {
+          "verdict": "partial",
+          "checks": {
+            "S002_in2": true,
+            "S002_in8": true,
+            "S002_in11": false,
+            "explicit_contractual_expectation_rule": false
+          }
+        },
+        "Q7": {
+          "verdict": "fail",
+          "checks": {
+            "script_disclosure": false,
+            "S133_rule_alignment": false
+          }
+        },
+        "Q8": {
+          "verdict": "partial",
+          "checks": {
+            "no_personal_date_hint": false,
+            "real_deadline_hint": true
+          }
+        }
+      },
+      "rebuild": {
+        "Q1": {
+          "verdict": "pass",
+          "checks": {
+            "S004": true,
+            "S005": true,
+            "S006": true,
+            "S007": true
+          }
+        },
+        "Q2": {
+          "verdict": "pass",
+          "checks": {
+            "deadline": true,
+            "references": true,
+            "shape_quotes_coverage": true
+          }
+        },
+        "Q3": {
+          "verdict": "pass",
+          "checks": {
+            "S003_only12": true,
+            "S004_only12": true,
+            "real_deadline": true,
+            "shape_quotes_coverage": true
+          }
+        },
+        "Q4": {
+          "verdict": "pass",
+          "checks": {
+            "deadline6": true,
+            "deadline11": true,
+            "form5": true,
+            "form11": true,
+            "shape_quotes_coverage": true
+          }
+        },
+        "Q5": {
+          "verdict": "pass",
+          "checks": {
+            "injection_only12": true,
+            "bond4": true,
+            "bond5": true,
+            "shape_quotes_coverage": true,
+            "no_optional_outside12": true
+          }
+        },
+        "Q6": {
+          "verdict": "pass",
+          "checks": {
+            "S002_in2": true,
+            "S002_in8": true,
+            "S002_in11": true,
+            "explicit_contractual_expectation_rule": true
+          }
+        },
+        "Q7": {
+          "verdict": "pass",
+          "checks": {
+            "script_disclosure": true,
+            "S133_rule_alignment": true
+          }
+        },
+        "Q8": {
+          "verdict": "pass",
+          "checks": {
+            "no_personal_date_hint": true,
+            "real_deadline_hint": true
+          }
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "1": {
+      "Q1": {
+        "original": "fail",
+        "rebuild": "pass",
+        "comparison": "improved",
+        "regressed_subchecks": []
+      },
+      "Q2": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "regressed_subchecks": []
+      },
+      "Q3": {
+        "original": "partial",
+        "rebuild": "pass",
+        "comparison": "improved",
+        "regressed_subchecks": []
+      },
+      "Q4": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "regressed_subchecks": []
+      },
+      "Q5": {
+        "original": "pass",
+        "rebuild": "pass",
+        "comparison": "tied",
+        "regressed_subchecks": []
+      },
+      "Q6": {
+        "original": "partial",
+        "rebuild": "pass",
+        "comparison": "improved",
+        "regressed_subchecks": []
+      },
+      "Q7": {
+        "original": "fail",
+        "rebuild": "pass",
+        "comparison": "improved",
+        "regressed_subchecks": []
+      },
+      "Q8": {
+        "original": "partial",
+        "rebuild": "pass",
+        "comparison": "improved",
+        "regressed_subchecks": []
+      }
+    }
+  },
+  "totals": {
+    "improved": 5,
+    "tied": 3,
+    "regressed": 0
+  },
+  "sidecars_in_Q8": false
+}

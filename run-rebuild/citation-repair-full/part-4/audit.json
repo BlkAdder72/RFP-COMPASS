@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "session_id": "01a16996-a8b9-7620-9451-206abba4f089",
+  "returned_sessions": [
+    "01a16996-a8b9-7620-9451-206abba4f089"
+  ],
+  "messages": 1,
+  "tools": [],
+  "turn_completed": true
+}

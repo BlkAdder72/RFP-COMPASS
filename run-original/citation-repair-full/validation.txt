@@ -1,0 +1,3 @@
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\run-original\citation-repair-full\part-1\bid-compliance-card.md (+3 part(s)): ## 4. Application stages and submission mechanics stated: anchor for S072 does not match the packet
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\run-original\citation-repair-full\part-1\bid-compliance-card.md (+3 part(s)): ## 5. Mandatory attachments and forms stated: anchor for S072 does not match the packet

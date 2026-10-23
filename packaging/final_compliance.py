@@ -15,7 +15,7 @@ for name,h in manifest['files'].items():
 required=['original','feedback.md','rebuild','results.md','questions.md','run-original','run-rebuild']
 assert all((R/name).exists() for name in required)
 knowledge=['CLAUDE_PROJECT_INSTRUCTIONS.txt','identity.md','rules.md','examples.md','reference/input-schema.md','reference/output-schema.md']
-assert all((R/'rebuild'/name).read_bytes()==(H/'rebuild'/name).read_bytes() for name in knowledge)
+assert all((R/'citation-repair/history/rebuild'/name).read_bytes()==(H/'rebuild'/name).read_bytes() for name in knowledge)
 current_cases=json.loads((R/'revision/default-tests-v2-results.json').read_text(encoding='utf-8'))['cases']
 assert sha(R/'hardening/history/rebuild/tools/validate_packet.py')==next(c['validator_sha256'] for c in current_cases if c['arm']=='rebuild')
 for name in ['identity.md','rules.md','examples.md','reference','README.md']:assert (R/'rebuild'/name).exists()
@@ -78,7 +78,7 @@ for case in repair['cases']:
     for sid,want in case['expectation'].get('hints',{}).items():assert any(sid in l for l in hints)==want
     if 'applied' in case['expectation']:assert ('APPLIED EXCLUSIONS' in text)==case['expectation']['applied']
 # Execute final root validator on archived cards and critical repair cases.
-checks=[];logs=P/'final-checks-v5';logs.mkdir(exist_ok=True)
+checks=[];logs=P/'final-checks-v6';logs.mkdir(exist_ok=True)
 def run(label,source,card,warnings=None,review=None):
     args=[sys.executable,'-X','utf8','rebuild/tools/validate_packet.py',str(source.relative_to(R)),str(card.relative_to(R))]
     if review:args+=['--reviewed-exclusions',str(review.relative_to(R))]
@@ -120,5 +120,10 @@ assert hardening_audit.returncode==0,hardening_audit.stdout+hardening_audit.stde
 result['hardening']=json.loads((R/'hardening/verification.json').read_text(encoding='utf-8'))
 result['candidate_performance']='MIXED: frozen questions improve; full-length personal containment improves but two raw S072 anchor errors remain and correctly fail validation'
 result['total_raw_model_responses']+=result['hardening']['fresh_model_turns']
+citation_audit=subprocess.run([sys.executable,str(R/'citation-repair/verify.py')],cwd=R,capture_output=True,text=True,encoding='utf-8')
+assert citation_audit.returncode==0,citation_audit.stdout+citation_audit.stderr
+result['citation_repair']=json.loads((R/'citation-repair/verification.json').read_text(encoding='utf-8'))
+result['total_raw_model_responses']+=result['citation_repair']['fresh_model_turns']
+result['candidate_performance']=result['citation_repair']['performance_summary']
 (P/'final-compliance.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
 print(json.dumps({k:v for k,v in result.items() if k!='checks'},indent=2))

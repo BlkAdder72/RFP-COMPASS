@@ -3,10 +3,11 @@ from pathlib import Path
 import hashlib,json,sys,subprocess,importlib.util
 sys.dont_write_bytecode=True
 R=Path(__file__).resolve().parents[1];D=R/'revision'
+K=R/'citation-repair/history'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 preservation=json.loads((D/'preservation.json').read_text(encoding='utf-8'))
 for name,h in preservation['files'].items():
-    path=D/'history'/name if name in preservation['mutable_paths'] else R/name
+    path=D/'history'/name if name in preservation['mutable_paths'] else (K/name if (K/name).is_file() else R/name)
     assert sha(path)==h,'Prior evidence changed: '+name
 artifact_checks=0;unavailable_artifacts=[]
 for name,h in preservation['artifact_sha256'].items():
@@ -22,7 +23,7 @@ for name,h in preservation['artifact_sha256'].items():
         unavailable_artifacts.append(name)
 assert (R/'questions.md').read_bytes()==subprocess.check_output(['git','show','bfdd812:questions.md'],cwd=R)
 for name in ['CLAUDE_PROJECT_INSTRUCTIONS.txt','identity.md','rules.md','examples.md','reference/input-schema.md','reference/output-schema.md']:
-    assert (R/'rebuild'/name).read_bytes()==(R/'history/prepackage/rebuild'/name).read_bytes()
+    assert (K/'rebuild'/name).read_bytes()==(R/'history/prepackage/rebuild'/name).read_bytes()
 spec=importlib.util.spec_from_file_location('runner',R/'tools/run_arm.py');runner=importlib.util.module_from_spec(spec);spec.loader.exec_module(runner)
 count=0
 for arm in ('original','rebuild'):
@@ -30,9 +31,9 @@ for arm in ('original','rebuild'):
         base=R/('run-'+arm)/'revision-v2'/('repeat-'+str(repeat));env=json.loads((base/'environment.json').read_text(encoding='utf-8'))
         assert env['model']=='gpt-6-astra' and env['reasoning_effort']=='medium'
         assert env['fixture_order']==[p.name for p in sorted((R/'fixtures').glob('*.md'))]
-        for name,h in env['knowledge_sha256'].items():assert sha(R/arm/name)==h
+        for name,h in env['knowledge_sha256'].items():assert sha(K/arm/name)==h
         for fixture in sorted((R/'fixtures').glob('*.md')):
-            trial=base/fixture.stem;assert (trial/'request.txt').read_text(encoding='utf-8')==runner.request(R,arm,fixture)
+            trial=base/fixture.stem;assert (trial/'request.txt').read_text(encoding='utf-8')==runner.request(K,arm,fixture)
             command=json.loads((trial/'command.json').read_text(encoding='utf-8'));assert command[command.index('-m')+1]=='gpt-6-astra'
             assert command[command.index('-c')+1]=='model_reasoning_effort="medium"'
             events=[json.loads(l) for l in (trial/'events.jsonl').read_text(encoding='utf-8').splitlines()]

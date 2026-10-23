@@ -3,10 +3,11 @@ from pathlib import Path
 import hashlib,importlib.util,json,subprocess,sys
 sys.dont_write_bytecode=True
 R=Path(__file__).resolve().parents[1];D=R/'hardening'
+K=R/'citation-repair/history'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 manifest=json.loads((D/'preservation.json').read_text(encoding='utf-8'))
 for n,h in manifest['files'].items():
- p=D/'history'/n if n in manifest['mutable_paths'] else R/n
+ p=D/'history'/n if n in manifest['mutable_paths'] else (K/n if (K/n).is_file() else R/n)
  assert sha(p)==h,'Prior evidence changed: '+n
 artifact_count=0;absent_artifacts=[]
 for n,h in manifest['artifacts'].items():
@@ -39,18 +40,18 @@ def audit(part,expected):
 for arm in ('original','rebuild'):
  base=R/('run-'+arm)/'hardening';env=json.loads((base/'environment.json').read_text(encoding='utf-8'))
  assert env['fixture_order']==[p.name for p in sorted((R/'fixtures').glob('*.md'))]
- for n,h in env['knowledge_sha256'].items():assert sha(R/arm/n)==h
- for fixture in sorted((R/'fixtures').glob('*.md')):audit(base/fixture.stem,runner.request(R,arm,fixture))
+ for n,h in env['knowledge_sha256'].items():assert sha(K/arm/n)==h
+ for fixture in sorted((R/'fixtures').glob('*.md')):audit(base/fixture.stem,runner.request(K,arm,fixture))
  for kind,sid,want in [('contained','S004',arm=='original'),('missed-deadline','S002',True)]:
   box=base/'Q8-final';cmd=json.loads((box/(kind+'-command.json')).read_text(encoding='utf-8'));assert '--reviewed-exclusions' not in cmd
   stdout=(box/(kind+'-stdout.txt')).read_text(encoding='utf-8')
   assert any('REVIEW' in l and 'Section 6' in l and sid in l for l in stdout.splitlines())==want
  full=R/('run-'+arm)/'hardening-full';env=json.loads((full/'environment.json').read_text(encoding='utf-8'))
  assert env['fixture_sha256']==sha(D/'fixtures/Z-full-length-noisy.md')
- for n,h in env['knowledge_sha256'].items():assert sha(R/arm/n)==h
+ for n,h in env['knowledge_sha256'].items():assert sha(K/arm/n)==h
  session=None;messages=[]
  for i,part in enumerate(sorted(full.glob('part-*'),key=lambda p:int(p.name.split('-')[1])),1):
-  events,msg=audit(part,runner.request(R,arm,D/'fixtures/Z-full-length-noisy.md') if i==1 else 'continue');messages.append(msg)
+  events,msg=audit(part,runner.request(K,arm,D/'fixtures/Z-full-length-noisy.md') if i==1 else 'continue');messages.append(msg)
   ids=[e['thread_id'] for e in events if e.get('type')=='thread.started']
   assert len(ids)==1
   if i==1:session=ids[0]
