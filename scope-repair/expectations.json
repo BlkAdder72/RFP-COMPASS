@@ -1,0 +1,113 @@
+{
+  "A-obligation-paraphrases": {
+    "source_sha256": "43bcaa21e66d47a3344820133a27b9b13bf7fa5e9e25f511ec8fe1ee8f96aaae",
+    "required": {
+      "S002": [
+        6
+      ],
+      "S003": [
+        4,
+        6
+      ],
+      "S005": [
+        6
+      ]
+    },
+    "forbidden": {
+      "S002": [
+        12
+      ],
+      "S003": [
+        12
+      ],
+      "S005": [
+        12
+      ]
+    },
+    "exclusive": {}
+  },
+  "B-private-obligations-and-milestones": {
+    "source_sha256": "45d9d52b7fde6556c9f21ed319e91877afb82bafb61fa320aae712369c0ef8e9",
+    "required": {
+      "S007": [
+        6
+      ]
+    },
+    "forbidden": {},
+    "exclusive": {
+      "S001": [
+        12
+      ],
+      "S002": [
+        12
+      ],
+      "S003": [
+        12
+      ],
+      "S004": [
+        12
+      ],
+      "S005": [
+        12
+      ],
+      "S006": [
+        12
+      ]
+    }
+  },
+  "C-opaque-citation-variants": {
+    "source_sha256": "dfe9e09af2ca323323e701d6cab15c1ae0d923ba25e2c3116f7deea31dc7f4bb",
+    "required": {
+      "S001": [
+        4,
+        5
+      ],
+      "S002": [
+        4,
+        5
+      ],
+      "S003": [
+        4,
+        5
+      ],
+      "S004": [
+        4,
+        5
+      ],
+      "S005": [
+        4,
+        5
+      ],
+      "S006": [
+        4,
+        5
+      ]
+    },
+    "forbidden": {},
+    "exclusive": {}
+  },
+  "D-scope-boundaries": {
+    "source_sha256": "7a4d0321f054b8bf41147578f31ca0204efdf55c76637c921eab10abda06cdb7",
+    "required": {
+      "S005": [
+        6
+      ]
+    },
+    "forbidden": {
+      "S005": [
+        12
+      ]
+    },
+    "exclusive": {
+      "S001": [
+        12
+      ],
+      "S002": [
+        12
+      ],
+      "S003": [
+        12
+      ]
+    }
+  }
+}
