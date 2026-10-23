@@ -55,7 +55,7 @@ assert [c['label']+'/'+c['arm'] for c in initial['cases'] if not c['passed']]==[
 default=json.loads((D/'default-tests-v2-results.json').read_text(encoding='utf-8'));assert default['count']==default['passed']==51
 for case in default['cases']:
     assert sha(R/case['source'])==case['source_sha256'] and sha(R/case['card'])==case['card_sha256']
-    assert sha(R/case['arm']/'tools/validate_packet.py')==case['validator_sha256']
+    assert sha((R/'hardening/history/rebuild/tools/validate_packet.py') if case['arm']=='rebuild' else R/'original/tools/validate_packet.py')==case['validator_sha256']
     folder=D/'default-tests-v2'/case['label']/case['arm'];stdout=(folder/'stdout.txt').read_text(encoding='utf-8')
     observed=any('REVIEW' in l and f"Section {case['section']}" in l and case['sid'] in l for l in stdout.splitlines())
     assert observed==case['expect_warning'] and (int((folder/'exit-code.txt').read_text(encoding='utf-8'))==0)==case['expect_valid']

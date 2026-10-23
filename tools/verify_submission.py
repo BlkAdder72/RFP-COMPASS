@@ -17,7 +17,7 @@ assert all((R/name).exists() for name in required)
 knowledge=['CLAUDE_PROJECT_INSTRUCTIONS.txt','identity.md','rules.md','examples.md','reference/input-schema.md','reference/output-schema.md']
 assert all((R/'rebuild'/name).read_bytes()==(H/'rebuild'/name).read_bytes() for name in knowledge)
 current_cases=json.loads((R/'revision/default-tests-v2-results.json').read_text(encoding='utf-8'))['cases']
-assert sha(R/'rebuild/tools/validate_packet.py')==next(c['validator_sha256'] for c in current_cases if c['arm']=='rebuild')
+assert sha(R/'hardening/history/rebuild/tools/validate_packet.py')==next(c['validator_sha256'] for c in current_cases if c['arm']=='rebuild')
 for name in ['identity.md','rules.md','examples.md','reference','README.md']:assert (R/'rebuild'/name).exists()
 judged='92847d2a17250fa18914d932826db63d99dcb75c'
 assert git('rev-parse','judged-original-comp13').decode().strip()==judged
@@ -78,7 +78,7 @@ for case in repair['cases']:
     for sid,want in case['expectation'].get('hints',{}).items():assert any(sid in l for l in hints)==want
     if 'applied' in case['expectation']:assert ('APPLIED EXCLUSIONS' in text)==case['expectation']['applied']
 # Execute final root validator on archived cards and critical repair cases.
-checks=[];logs=P/'final-checks-v2';logs.mkdir(exist_ok=True)
+checks=[];logs=P/'final-checks-v3';logs.mkdir(exist_ok=True)
 def run(label,source,card,warnings=None,review=None):
     args=[sys.executable,'-X','utf8','rebuild/tools/validate_packet.py',str(source.relative_to(R)),str(card.relative_to(R))]
     if review:args+=['--reviewed-exclusions',str(review.relative_to(R))]
@@ -115,5 +115,9 @@ result={'fresh_revision_audit':fresh,'total_raw_model_responses':count+fresh['fr
         'git_sequence':'PASS; questions and baseline precede first rebuild; all later stages retained',
         'review_record_dependency':'Default bounded source-text filter passes Q8 without sidecars; optional manual records are not used in the paired comparison',
         'external_gates':{'publication':'NOT PERFORMED, as requested','public_submission_link':'PENDING publication','premium_or_vip_eligibility':'NOT VERIFIED'},'checks':checks}
+hardening_audit=subprocess.run([sys.executable,str(R/'hardening/verify.py')],cwd=R,capture_output=True,text=True,encoding='utf-8')
+assert hardening_audit.returncode==0,hardening_audit.stdout+hardening_audit.stderr
+result['hardening']=json.loads((R/'hardening/verification.json').read_text(encoding='utf-8'))
+result['total_raw_model_responses']+=result['hardening']['fresh_model_turns']
 (P/'final-compliance.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
 print(json.dumps({k:v for k,v in result.items() if k!='checks'},indent=2))
