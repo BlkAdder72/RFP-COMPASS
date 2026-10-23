@@ -1,6 +1,7 @@
 """Full-length paired harness with genuine, recorded session continuations."""
 from pathlib import Path
 import argparse,datetime,hashlib,importlib.util,json,shutil,subprocess,sys,tempfile
+sys.dont_write_bytecode=True
 R=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('core',R/'tools/run_arm.py');core=importlib.util.module_from_spec(spec);spec.loader.exec_module(core)
 p=argparse.ArgumentParser();p.add_argument('arm',choices=['original','rebuild']);p.add_argument('--preflight-only',action='store_true');p.add_argument('--output-dir',type=Path,help='entirely new destination; existing evidence is never reused');p.add_argument('--codex',help='explicit executable override; otherwise PATH');a=p.parse_args()
