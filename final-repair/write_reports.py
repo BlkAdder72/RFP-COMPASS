@@ -139,4 +139,5 @@ I rebuilt my Comp #13 Translator entry, RFP-COMPASS: [PUBLIC_REPOSITORY_URL]. Th
 ''',encoding='utf-8',newline='\n')
 dest=R/'rebuild/run-results/final-repair-v2-full';assert not dest.exists();shutil.copytree(R/'run-rebuild/final-repair-v2-full',dest);shutil.copyfile(R/'hardening/fixtures/Z-full-length-noisy.md',dest/'source-packet.md')
 (dest/'README.md').write_text('Unedited rebuilt final-repair full-length trial, copied byte-for-byte from run-rebuild/final-repair-v2-full. Source has 214 real statements plus seven synthetic personal-calendar statements. This is one targeted paired observation, not an independent holdout or universal guarantee. See final-repair/REPORT.md at repository root.\n',encoding='utf-8')
+(dest/'.gitattributes').write_text('* -text\n',encoding='utf-8',newline='\n')
 print('Current reports, navigation and byte-identical packaged trial updated')
