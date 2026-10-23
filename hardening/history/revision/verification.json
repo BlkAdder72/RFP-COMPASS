@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "prior_tracked_files_preserved": 2756,
+  "frozen_questions_unchanged": true,
+  "local_prior_delivery_artifacts_verified": 5,
+  "prior_delivery_binaries_not_in_checkout": [],
+  "fresh_model_responses": 20,
+  "default_checker_cases": 51,
+  "archived_reference_replays": 92,
+  "model_free_runner_cases": 7,
+  "fresh_question_comparisons": {
+    "improved": 10,
+    "tied": 6,
+    "regressed": 0
+  },
+  "Q8_default_no_sidecar": "PASS for rebuild in both repeats",
+  "initial_test_assertion_correction": "Preserved initial 50/51 result; corrected missing-heading expectation, no validator change",
+  "limitations": "Bounded source-text classifier; ambiguous statements retain hints; host system variation remains uncontrolled."
+}

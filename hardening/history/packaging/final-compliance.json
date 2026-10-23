@@ -1,0 +1,646 @@
+{
+  "fresh_revision_audit": {
+    "status": "PASS",
+    "prior_tracked_files_preserved": 2756,
+    "frozen_questions_unchanged": true,
+    "local_prior_delivery_artifacts_verified": 5,
+    "prior_delivery_binaries_not_in_checkout": [],
+    "fresh_model_responses": 20,
+    "default_checker_cases": 51,
+    "archived_reference_replays": 92,
+    "model_free_runner_cases": 7,
+    "fresh_question_comparisons": {
+      "improved": 10,
+      "tied": 6,
+      "regressed": 0
+    },
+    "Q8_default_no_sidecar": "PASS for rebuild in both repeats",
+    "initial_test_assertion_correction": "Preserved initial 50/51 result; corrected missing-heading expectation, no validator change",
+    "limitations": "Bounded source-text classifier; ambiguous statements retain hints; host system variation remains uncontrolled."
+  },
+  "total_raw_model_responses": 62,
+  "local_compliance": "PASS",
+  "preserved_prepackage_files": 1287,
+  "judged_original_files": 134,
+  "raw_model_responses_verified": 42,
+  "historical_repair_checks_audited": 75,
+  "final_root_validator_checks": 50,
+  "git_sequence": "PASS; questions and baseline precede first rebuild; all later stages retained",
+  "review_record_dependency": "Default bounded source-text filter passes Q8 without sidecars; optional manual records are not used in the paired comparison",
+  "external_gates": {
+    "publication": "NOT PERFORMED, as requested",
+    "public_submission_link": "PENDING publication",
+    "premium_or_vip_eligibility": "NOT VERIFIED"
+  },
+  "checks": [
+    {
+      "label": "first-original-A-stapled-thread",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "fixtures\\A-stapled-thread.md",
+        "run-original\\A-stapled-thread\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "first-original-B-personal-note",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "fixtures\\B-personal-note.md",
+        "run-original\\B-personal-note\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "first-original-C-official-email",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "fixtures\\C-official-email.md",
+        "run-original\\C-official-email\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "first-original-D-ai-instruction",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "fixtures\\D-ai-instruction.md",
+        "run-original\\D-ai-instruction\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "first-original-E-contract-expectation",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "fixtures\\E-contract-expectation.md",
+        "run-original\\E-contract-expectation\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-F-neutral-personal-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\F-neutral-personal.md",
+        "supplemental\\run-original\\F-neutral-personal\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-F-neutral-personal-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\F-neutral-personal.md",
+        "supplemental\\run-original\\F-neutral-personal\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-G-unknown-attachment-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\G-unknown-attachment.md",
+        "supplemental\\run-original\\G-unknown-attachment\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-G-unknown-attachment-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\G-unknown-attachment.md",
+        "supplemental\\run-original\\G-unknown-attachment\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-H-mixed-thread-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\H-mixed-thread.md",
+        "supplemental\\run-original\\H-mixed-thread\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-H-mixed-thread-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\H-mixed-thread.md",
+        "supplemental\\run-original\\H-mixed-thread\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-I-mixed-one-deadline-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\I-mixed-one-deadline.md",
+        "supplemental\\run-original\\I-mixed-one-deadline\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-I-mixed-one-deadline-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\I-mixed-one-deadline.md",
+        "supplemental\\run-original\\I-mixed-one-deadline\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-J-personal-filename-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\J-personal-filename.md",
+        "supplemental\\run-original\\J-personal-filename\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-J-personal-filename-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\J-personal-filename.md",
+        "supplemental\\run-original\\J-personal-filename\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-K-unrelated-label-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\K-unrelated-label.md",
+        "supplemental\\run-original\\K-unrelated-label\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-K-unrelated-label-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\K-unrelated-label.md",
+        "supplemental\\run-original\\K-unrelated-label\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-L-procurement-lunch-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\L-procurement-lunch.md",
+        "supplemental\\run-original\\L-procurement-lunch\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-L-procurement-lunch-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\L-procurement-lunch.md",
+        "supplemental\\run-original\\L-procurement-lunch\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-M-mixed-one-form-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\M-mixed-one-form.md",
+        "supplemental\\run-original\\M-mixed-one-form\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-original-M-mixed-one-form-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\M-mixed-one-form.md",
+        "supplemental\\run-original\\M-mixed-one-form\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "first-rebuild-A-stapled-thread",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "fixtures\\A-stapled-thread.md",
+        "run-rebuild\\A-stapled-thread\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "first-rebuild-B-personal-note",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "fixtures\\B-personal-note.md",
+        "run-rebuild\\B-personal-note\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "first-rebuild-C-official-email",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "fixtures\\C-official-email.md",
+        "run-rebuild\\C-official-email\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "first-rebuild-D-ai-instruction",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "fixtures\\D-ai-instruction.md",
+        "run-rebuild\\D-ai-instruction\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "first-rebuild-E-contract-expectation",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "fixtures\\E-contract-expectation.md",
+        "run-rebuild\\E-contract-expectation\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-F-neutral-personal-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\F-neutral-personal.md",
+        "supplemental\\run-rebuild\\F-neutral-personal\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-F-neutral-personal-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\F-neutral-personal.md",
+        "supplemental\\run-rebuild\\F-neutral-personal\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-G-unknown-attachment-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\G-unknown-attachment.md",
+        "supplemental\\run-rebuild\\G-unknown-attachment\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-G-unknown-attachment-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\G-unknown-attachment.md",
+        "supplemental\\run-rebuild\\G-unknown-attachment\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-H-mixed-thread-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\H-mixed-thread.md",
+        "supplemental\\run-rebuild\\H-mixed-thread\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-H-mixed-thread-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\H-mixed-thread.md",
+        "supplemental\\run-rebuild\\H-mixed-thread\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-I-mixed-one-deadline-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\I-mixed-one-deadline.md",
+        "supplemental\\run-rebuild\\I-mixed-one-deadline\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-I-mixed-one-deadline-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\I-mixed-one-deadline.md",
+        "supplemental\\run-rebuild\\I-mixed-one-deadline\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-J-personal-filename-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\J-personal-filename.md",
+        "supplemental\\run-rebuild\\J-personal-filename\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-J-personal-filename-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\J-personal-filename.md",
+        "supplemental\\run-rebuild\\J-personal-filename\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-K-unrelated-label-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\K-unrelated-label.md",
+        "supplemental\\run-rebuild\\K-unrelated-label\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-K-unrelated-label-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\K-unrelated-label.md",
+        "supplemental\\run-rebuild\\K-unrelated-label\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-L-procurement-lunch-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\L-procurement-lunch.md",
+        "supplemental\\run-rebuild\\L-procurement-lunch\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-L-procurement-lunch-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\L-procurement-lunch.md",
+        "supplemental\\run-rebuild\\L-procurement-lunch\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-M-mixed-one-form-1",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\M-mixed-one-form.md",
+        "supplemental\\run-rebuild\\M-mixed-one-form\\repeat-1\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "stress-rebuild-M-mixed-one-form-2",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\M-mixed-one-form.md",
+        "supplemental\\run-rebuild\\M-mixed-one-form\\repeat-2\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "sample-01-real-public-notice",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "rebuild\\samples\\01-real-public-notice\\source-packet.md",
+        "rebuild\\samples\\01-real-public-notice\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "sample-02-sparse",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "rebuild\\samples\\02-sparse\\source-packet.md",
+        "rebuild\\samples\\02-sparse\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "sample-03-conflicting",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "rebuild\\samples\\03-conflicting\\source-packet.md",
+        "rebuild\\samples\\03-conflicting\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "sample-04-real-tbrpc-auditing-rfp",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "rebuild\\samples\\04-real-tbrpc-auditing-rfp\\source-packet.md",
+        "rebuild\\samples\\04-real-tbrpc-auditing-rfp\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {}
+    },
+    {
+      "label": "N1-regression",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\K-unrelated-label.md",
+        "supplemental\\tool-original\\N1-mislabeled-real-deadline\\evaluator-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {
+        "S002": true
+      }
+    },
+    {
+      "label": "feedback-contained-default",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "fixtures\\A-stapled-thread.md",
+        "run-original\\Q8-validator\\contained.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {
+        "S004": false
+      }
+    },
+    {
+      "label": "feedback-real-deadline-default",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "fixtures\\A-stapled-thread.md",
+        "run-original\\Q8-validator\\missed-deadline.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {
+        "S002": true,
+        "S004": false
+      }
+    },
+    {
+      "label": "neutral-personal-default",
+      "arguments": [
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py",
+        "supplemental\\fixtures\\F-neutral-personal.md",
+        "supplemental\\tool-original\\N2-neutral-personal\\evaluator-card.md"
+      ],
+      "exit_code": 0,
+      "warning_expectations": {
+        "S002": false
+      }
+    }
+  ]
+}
