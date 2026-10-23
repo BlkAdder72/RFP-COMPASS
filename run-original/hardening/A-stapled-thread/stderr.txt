@@ -1,0 +1,4 @@
+2026-10-23T15:36:59.158568Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-10-23T15:37:32.468926Z  WARN codex_mcp::rmcp_client: MCP server startup failed server_name="codex_apps" error=timed out awaiting tools/list after 30s
+2026-10-23T15:37:33.522564Z  WARN codex_mcp::rmcp_client: failed to initialize MCP client during shutdown: MCP startup failed: timed out awaiting tools/list after 30s
+2026-10-23T15:37:33.522758Z  WARN codex_mcp::rmcp_client: Apps MCP startup reconnect failed; continuing with cached tools error=MCP startup cancelled retry_after_ms=1000
