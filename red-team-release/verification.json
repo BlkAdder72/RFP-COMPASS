@@ -1,0 +1,62 @@
+{
+  "evidence_integrity": "PASS",
+  "sealed_target": "06fcebace08c19410b63f1cd8c2523f66822d18b",
+  "preserved_tracked_files": 10335,
+  "preserved_sealed_files": 20,
+  "frozen_questions_unchanged": true,
+  "new_raw_model_replies": 6,
+  "all_new_model_copies_exact": true,
+  "new_warning_regressions": [
+    "compulsory-have-to",
+    "mixed-offer-deadline"
+  ],
+  "remaining_rebuilt_failures": [
+    {
+      "case": "baptism",
+      "arm": "rebuild",
+      "expected_valid": true,
+      "exit_code": 0,
+      "expected_date_warning": false,
+      "observed_date_warning": true,
+      "passed": false
+    },
+    {
+      "case": "baby-shower",
+      "arm": "rebuild",
+      "expected_valid": true,
+      "exit_code": 0,
+      "expected_date_warning": false,
+      "observed_date_warning": true,
+      "passed": false
+    },
+    {
+      "case": "compulsory-have-to",
+      "arm": "rebuild",
+      "expected_valid": true,
+      "exit_code": 0,
+      "expected_date_warning": true,
+      "observed_date_warning": false,
+      "passed": false
+    },
+    {
+      "case": "mixed-offer-deadline",
+      "arm": "rebuild",
+      "expected_valid": true,
+      "exit_code": 0,
+      "expected_date_warning": true,
+      "observed_date_warning": false,
+      "passed": false
+    }
+  ],
+  "retrospective_full_rebuild_missing_required": {},
+  "new_semantic_full_regressions": {},
+  "delivery_compliance": {
+    "passed": true,
+    "sealed_target": "06fcebace08c19410b63f1cd8c2523f66822d18b",
+    "archive_files_checked": 10335,
+    "real_model_calls": 0,
+    "published": false
+  },
+  "candidate_edited": false,
+  "published": false
+}

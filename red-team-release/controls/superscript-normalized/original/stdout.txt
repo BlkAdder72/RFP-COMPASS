@@ -1,0 +1,2 @@
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\red-team-release\controls\superscript-normalized\card.md: ## 12. Unmapped source evidence: anchor for S005 does not match the packet

@@ -1,0 +1,1 @@
+PASS: sealed archive/bundle bytes, pristine clone, runner preflights and offline compliance
