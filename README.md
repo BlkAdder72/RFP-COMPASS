@@ -18,7 +18,7 @@ Current repair: required response information is checked for Section 5, graduati
 | Previous red-team findings, including S076 regression | `red-team-citations/REPORT.md` |
 | Previous citation failures and repairs | `citation-repair/`, `hardening/`, earlier `run-ARM/` folders |
 | Earlier complete audit trail | `revision/`, `repair/`, `supplemental/`, `history/`, `packaging/` |
-| Updated local ZIP and complete-history bundle | `dist/final-repair-verified/` (local delivery; not source-tracked) |
+| Updated local ZIP and complete-history bundle | `dist/release/` (local delivery; not source-tracked) |
 
 Offline audit from a Git clone: `python -B -X utf8 tools/verify_submission.py`. It runs historical assertions in a disposable clone of their sealed commit, then checks current repair evidence. It calls no model. Fresh controlled runs: `tools/run_arm.py` for core/new sources and `hardening/run_full.py` for the full fixture; always choose new output directories. Authentication/model access is required for real reruns. The stored trials prohibit tools and record any violations.
 
