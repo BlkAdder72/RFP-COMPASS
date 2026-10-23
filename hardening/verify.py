@@ -49,7 +49,7 @@ for arm in ('original','rebuild'):
    assert messages[-2].rstrip().endswith('<!-- RFP COMPASS: continued in next reply -->')
  assert (full/'bid-compliance-card.md').read_text(encoding='utf-8')=='\n'.join(messages)
 checks={}
-for stage,code in [('before',D/'history/rebuild/tools/validate_packet.py'),('after',D/'candidates/initial.py'),('after-v2',R/'rebuild/tools/validate_packet.py')]:
+for stage,code in [('before',D/'history/rebuild/tools/validate_packet.py'),('after',D/'candidates/initial.py'),('after-v2',D/'candidates/second.py'),('after-v3',R/'rebuild/tools/validate_packet.py')]:
  data=json.loads((D/stage/'results.json').read_text(encoding='utf-8'));assert data['count']==52
  for c in data['cases']:
   assert c['validator_sha256']==sha(code if c['arm']=='rebuild' else R/'original/tools/validate_packet.py')
@@ -58,18 +58,23 @@ for stage,code in [('before',D/'history/rebuild/tools/validate_packet.py'),('aft
   assert observed==c['warning']
  checks[stage]=data['passed']
 assert checks['after-v2']['rebuild']==26 and checks['after']['rebuild']==25
-prior=json.loads((D/'prior-controls.json').read_text(encoding='utf-8'));assert prior['count']==prior['passed']==51
-replays=json.loads((D/'replay-results.json').read_text(encoding='utf-8'));assert replays['count']==replays['passed']==92
+guards={}
+for stage,code in [('guards-before',D/'candidates/second.py'),('guards-after',R/'rebuild/tools/validate_packet.py')]:
+ data=json.loads((D/stage/'results.json').read_text(encoding='utf-8'));guards[stage]={a:sum(c['passed'] for c in data if c['arm']==a) for a in ('original','rebuild')}
+ for c in data:assert c['validator_sha256']==sha(code if c['arm']=='rebuild' else R/'original/tools/validate_packet.py')
+assert guards['guards-before']['rebuild']==1 and guards['guards-after']['rebuild']==6
+prior=json.loads((D/'final-prior-controls.json').read_text(encoding='utf-8'));assert prior['count']==prior['passed']==51
+replays=json.loads((D/'final-replay-results.json').read_text(encoding='utf-8'));assert replays['count']==replays['passed']==92
 base=(R/'original/samples/04-real-tbrpc-auditing-rfp/source-packet.md').read_bytes();fixture=(D/'fixtures/Z-full-length-noisy.md').read_bytes();assert fixture.startswith(base)
 rows=fixture.decode('utf-8').splitlines();assert sum(l.startswith('S') for l in rows)==221
 noise=[l.split(' | ',2)[2] for l in rows if l.startswith(tuple(f'S{i}' for i in range(215,222)))]
 assert '\n'.join(noise)+'\n'==(D/'calendar.txt').read_text(encoding='utf-8')
-scores=json.loads((D/'scores.json').read_text(encoding='utf-8'));assert scores['totals']=={'improved':5,'tied':3,'regressed':0}
+scores=json.loads((D/'scores-final.json').read_text(encoding='utf-8'));assert scores['totals']=={'improved':5,'tied':3,'regressed':0}
 full=json.loads((D/'full-length-results.json').read_text(encoding='utf-8'))
 assert full['rebuild']['checks']['exact_shape_quotes_coverage'] and full['rebuild']['checks']['noise_only12']
 copies=R/'rebuild/run-results/full-length-noisy'
 for p in (R/'run-rebuild/hardening-full').rglob('*'):
  if p.is_file():assert p.read_bytes()==(copies/p.relative_to(R/'run-rebuild/hardening-full')).read_bytes()
 assert (copies/'source-packet.md').read_bytes()==fixture and (copies/'calendar.txt').read_bytes()==(D/'calendar.txt').read_bytes()
-report={'status':'PASS','prior_tracked_files_preserved':len(manifest['files']),'local_prior_artifacts_verified':artifact_count,'optional_prior_artifacts_absent':absent_artifacts,'questions_unchanged':True,'fresh_core_sessions':10,'fresh_full_sessions':2,'fresh_model_turns':turns,'deterministic_controls':checks,'prior_controls':51,'archived_card_replays':92,'core_question_comparisons':scores['totals'],'full_length_checks':{a:r['checks'] for a,r in full.items()},'publication':'NOT PERFORMED','limits':'Bounded English hint classifier; synthetic known fixtures; one fresh pair per fixture; no statistical or fresh Claude claim.'}
+report={'status':'PASS','prior_tracked_files_preserved':len(manifest['files']),'local_prior_artifacts_verified':artifact_count,'optional_prior_artifacts_absent':absent_artifacts,'questions_unchanged':True,'fresh_core_sessions':10,'fresh_full_sessions':2,'fresh_model_turns':turns,'deterministic_controls':checks,'broader_header_guards':guards,'prior_controls':51,'archived_card_replays':92,'core_question_comparisons':scores['totals'],'full_length_checks':{a:r['checks'] for a,r in full.items()},'publication':'NOT PERFORMED','limits':'Bounded English hint classifier; synthetic known fixtures; one fresh pair per fixture; no statistical or fresh Claude claim.'}
 (D/'verification.json').write_text(json.dumps(report,indent=2),encoding='utf-8');print(json.dumps(report,indent=2))

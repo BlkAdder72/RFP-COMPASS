@@ -1,0 +1,2 @@
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\after-v3\unrecognized-transition\rebuild\evaluator-card.md: Section 6 says `not in source`, but S003 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.

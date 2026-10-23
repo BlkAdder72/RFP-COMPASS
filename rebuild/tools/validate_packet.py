@@ -57,14 +57,14 @@ LIKELY_NAMES = {6: "dates or times", 7: "evaluation terms", 8: "money amounts", 
 # source ID, date, or the card's own placement alone. Explicit requirements win.
 PROCUREMENT_CUE = re.compile(
     r"\b(responses?|applicants?|applications?|proposals?|bidders?|respondents?|solicitations?|rfp|ifb|rfq|bids?|contracts?|"
-    r"procurement|addend(?:um|a)|tenders?|vendors?|submissions?|submit|submitted|required|requires|mandatory|shall|must|"
+    r"procurement|addend(?:um|a)|tenders?|vendors?|submissions?|submit|submitted|required|requires|requirements?|mandatory|shall|must|"
     r"deadlines?|due|closing|closes?|eligibility|registration|awards?|fees?|pricing)\b", re.IGNORECASE)
 PERSONAL_OWNER = re.compile(r"\b(my|our|your|his|her|their)\b", re.IGNORECASE)
 PERSONAL_ACTIVITY = re.compile(
     r"\b(potluck|birthday|dentist|wedding\s+anniversary|family\s+(picnic|party|reunion|dinner)|"
     r"(piano|school|dance)\s+recital|(retirement|farewell)\s+(lunch|dinner|party)|"
     r"(physical\s+therapy|physiotherapy|doctor|medical)\s+appointment)\b", re.IGNORECASE)
-EVENT_HEADER = re.compile(r"\b(events?|meetings?|conferences?|attendance|activities|schedules?|calendars?)\b", re.IGNORECASE)
+EVENT_HEADER = re.compile(r"\b(events?|meetings?|conferences?|attendance|activities|schedules?|calendars?|appointments?|meals?|lunch|dinner|visits?)\b", re.IGNORECASE)
 CLINICAL_CUE = re.compile(r"\b(patients?|clinical|beneficiaries|services?|providers?|healthcare)\b", re.IGNORECASE)
 PERSONAL_HEADER = re.compile(r"\s*(personal|private|family)\s+(calendar|correspondence|notes|schedule|email|thread)\s*[:.—-]?\s*", re.IGNORECASE)
 PERSONAL_CONTRIBUTION = re.compile(r"\b(?:please\s+)?bring\s+\$\s*\d+(?:\.\d+)?\s+for\s+(?:lunch|dinner)\b", re.IGNORECASE)
@@ -83,7 +83,8 @@ def personal_hint_exclusions(statements, placed):
     for sid, (anchor, body) in statements.items():
         procurement = PROCUREMENT_CUE.search(body)
         clinical = CLINICAL_CUE.search(body)
-        if procurement and EVENT_HEADER.search(body):
+        requirement_heading = body.rstrip().endswith(":") or (len(body) <= 120 and body.isupper())
+        if (procurement or clinical) and (EVENT_HEADER.search(body) or requirement_heading):
             protected = True
         elif PERSONAL_HEADER.fullmatch(body) and not procurement and not clinical:
             protected = False

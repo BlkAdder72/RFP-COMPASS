@@ -78,7 +78,7 @@ for case in repair['cases']:
     for sid,want in case['expectation'].get('hints',{}).items():assert any(sid in l for l in hints)==want
     if 'applied' in case['expectation']:assert ('APPLIED EXCLUSIONS' in text)==case['expectation']['applied']
 # Execute final root validator on archived cards and critical repair cases.
-checks=[];logs=P/'final-checks-v3';logs.mkdir(exist_ok=True)
+checks=[];logs=P/'final-checks-v4';logs.mkdir(exist_ok=True)
 def run(label,source,card,warnings=None,review=None):
     args=[sys.executable,'-X','utf8','rebuild/tools/validate_packet.py',str(source.relative_to(R)),str(card.relative_to(R))]
     if review:args+=['--reviewed-exclusions',str(review.relative_to(R))]

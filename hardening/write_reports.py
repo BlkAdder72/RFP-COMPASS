@@ -2,7 +2,7 @@ from pathlib import Path
 import json,shutil
 R=Path(__file__).resolve().parents[1];D=R/'hardening'
 if (R/'rebuild/run-results/full-length-noisy').exists():raise SystemExit('Refusing existing packaged full-length evidence before any writes')
-full=json.loads((D/'full-length-results.json').read_text(encoding='utf-8'));scores=json.loads((D/'scores.json').read_text(encoding='utf-8'))
+full=json.loads((D/'full-length-results.json').read_text(encoding='utf-8'));scores=json.loads((D/'scores-final.json').read_text(encoding='utf-8'))
 rows=[]
 for q,c in scores['comparisons']['1'].items():rows.append(f"| {q} | {c['original']} | {c['rebuild']} | {c['comparison']} |")
 fullrows=[]
@@ -26,7 +26,9 @@ Five improved question results, three ties, no scored regressions in this fresh 
 
 The 26 new evaluator-card controls compare identical source/card inputs under both validators. Before repair: original 18/26, prior rebuild 14/26. First repair: rebuild 25/26, with a missed `Mandatory bidder personal calendar:` heading. That failed run and its exact candidate code remain under `hardening/after/` and `hardening/candidates/initial.py`. Final repair: rebuild 26/26; original remains 18/26. The observed eight improvements over original have no final control regressions. The cross-anchor failures remain preserved in `red-team-final/` and `hardening/before/`; they were checker failures on evaluator-built cards, not invented model misroutes.
 
-All 51 prior default/structural/duplicate controls meet current declared expectations; all 92 archived-card/reference structural replays pass. One prior expectation deliberately changes: “Please bring $30 for lunch” contained only in Section 12 now clears its money hint. Its old warning expectation remains untouched in the revision evidence. Genuine fees, contacts, mixed requirements and operational duplicates retain warnings. A plain “our lunch,” an unknown meeting, and an uncertain transition remain conservative warnings.
+Six additional adversarial probes were then frozen and run. The intermediate repair passed only 1/6: required-charge, meal, requirements and clinical headings could still lose their warnings. These five regressions are preserved under `hardening/guards-before/` with the exact candidate in `candidates/second.py`. The final repair protects explicit requirement headings and clinical appointment context as well as event headers: 6/6 additional probes and all 26 earlier controls pass (32/32 total), versus original 23/32, with no final control regressions. This additional checker-only repair occurred during the full-length model trial; the model knowledge and prompts remained unchanged. Raw model responses were not rerun or selected in response to these tool checks.
+
+All 51 prior default/structural/duplicate controls meet current declared expectations under the final checker; all 92 archived-card/reference structural replays pass. One prior expectation deliberately changes: “Please bring $30 for lunch” contained only in Section 12 now clears its money hint. Its old warning expectation remains untouched in the revision evidence. Genuine fees, contacts, mixed requirements and operational duplicates retain warnings. A plain “our lunch,” an unknown meeting, and an uncertain transition remain conservative warnings. Intermediate and final replays occupy separate directories; Q8-final and validation-final logs preserve the earlier Q8-default and validation logs.
 
 ## Full-length noisy RFP
 
@@ -78,7 +80,7 @@ compliance='''# Current local competition compliance
 
 Publication: NOT PERFORMED. Required layout, judged original, verbatim feedback, frozen eight questions, original-before-rebuild chronology and all evidence are retained. Current candidate adds source-order scope protection and bounded personal-calendar hint fixes. See `hardening/REPORT.md` for fresh comparison results, full-length checks, failed first repair control and residual risks. `tools/verify_submission.py` audits old stages against their preserved code, then current evidence; no old run is silently regenerated. Current validator replay logs use `packaging/final-checks-v3/`.
 
-The prior package and all prior tracked bytes are accounted for by `hardening/preservation.json`. Prior local delivery files are retained under `dist/prior-scope-hardening/`. The new source ZIP and history bundle are sealed only after committing current evidence. Ignored local delivery binaries are not required in a Git clone.
+The prior package and all prior tracked bytes are accounted for by `hardening/preservation.json`. Current validator logs use `packaging/final-checks-v4/`; intermediate v3 logs remain preserved. Prior local delivery files are retained under `dist/prior-scope-hardening/`. The new source ZIP and history bundle are sealed only after committing current evidence. Ignored local delivery binaries are not required in a Git clone.
 
 Public repository link/comment and Premium/VIP eligibility remain pending. No publish action is authorized.
 '''

@@ -2,6 +2,7 @@
 from pathlib import Path
 import hashlib,json
 R=Path(__file__).resolve().parents[1];D=R/'hardening'
+if (D/'candidates').exists():raise SystemExit('Refusing existing candidate evidence before any writes')
 current=(R/'rebuild/tools/validate_packet.py').read_bytes();C=D/'candidates';C.mkdir(exist_ok=True)
 (C/'final.py').write_bytes(current)
 initial=current.replace(b'activities|schedules?|calendars?',b'activities|schedule')
