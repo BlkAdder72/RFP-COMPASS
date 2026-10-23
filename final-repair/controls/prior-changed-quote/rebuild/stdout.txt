@@ -1,0 +1,3 @@
+NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\revision\default-tests-v2\inputs\changed-quote.md: ## 6. Dates and events stated: quotation does not match S002 at character 29: packet …s are due November 20, 2026, at 3:00 PM.… card …s are due November 21, 2026, at 3:00 PM.…

@@ -1,0 +1,2 @@
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\final-repair\controls\missing-coverage\card.md: source statements never cited: S001

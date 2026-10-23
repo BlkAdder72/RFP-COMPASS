@@ -61,7 +61,7 @@ PROCUREMENT_CUE = re.compile(
     r"deadlines?|due|closing|closes?|eligibility|registration|awards?|fees?|pricing)\b", re.IGNORECASE)
 PERSONAL_OWNER = re.compile(r"\b(my|our|your|his|her|their)\b", re.IGNORECASE)
 PERSONAL_ACTIVITY = re.compile(
-    r"\b(potluck|birthday|dentist|wedding\s+anniversary|family\s+(picnic|party|reunion|dinner)|"
+    r"\b(potluck|birthday|dentist|graduation\s+(celebration|party|ceremony)|wedding\s+anniversary|family\s+(picnic|party|reunion|dinner)|"
     r"(piano|school|dance)\s+recital|(retirement|farewell)\s+(lunch|dinner|party)|"
     r"(physical\s+therapy|physiotherapy|doctor|medical)\s+appointment)\b", re.IGNORECASE)
 EVENT_HEADER = re.compile(r"\b(events?|meetings?|conferences?|attendance|activities|schedules?|calendars?|appointments?|meals?|lunch|dinner|visits?)\b", re.IGNORECASE)
@@ -93,15 +93,6 @@ def personal_hint_exclusions(statements, placed):
         if personal and only12 and not procurement and not clinical and not protected:
             result.add(sid)
     return result
-INVISIBLE = {"\u00a0": " ", "\u202f": " ", "\u2007": " ", "\u200b": "", "\u200c": "", "\u200d": "",
-             "\u2060": "", "\ufeff": "", "\u00ad": ""}
-
-
-def visible(text: str) -> str:
-    """Text with invisible spacing characters made ordinary, for comparison only."""
-    return "".join(INVISIBLE.get(character, character) for character in text)
-
-
 def difference(expected: str, actual: str) -> str:
     """Where two strings first differ, shown with a little context."""
     index = next((i for i, (a, b) in enumerate(zip(expected, actual)) if a != b), min(len(expected), len(actual)))
@@ -189,9 +180,7 @@ def validate(source: Path, outputs: list[Path], review_path: Path | None = None)
         source_id, anchor, body = match.groups()
         if source_id in statements:
             errors.append(f"{source}:{number}: duplicate source ID {source_id}")
-        if body != body.rstrip():
-            notes.append(f"{source}: {source_id} ends with spaces; they are ignored when comparing quotations")
-        statements[source_id] = (anchor, body.rstrip())
+        statements[source_id] = (anchor, body)
         order.append(source_id)
     if order != [f"S{i:03d}" for i in range(1, len(order) + 1)]:
         errors.append(f"{source}: source IDs must be sequential from S001")
@@ -221,7 +210,7 @@ def validate(source: Path, outputs: list[Path], review_path: Path | None = None)
     if stray:
         errors.append(f"{output}: text between the title and section 1 is not allowed: {stray[0]}")
 
-    cited, straight, invisible, placed = set(), 0, set(), {}
+    cited, placed = set(), {}
     # Trust personal placement per exact citation. An unrelated bad citation must
     # still fail the card, without turning valid personal rows into false hints.
     filter_shape_safe = not errors
@@ -249,7 +238,8 @@ def validate(source: Path, outputs: list[Path], review_path: Path | None = None)
             opening, quote, closing, source_id, cited_anchor = match.groups()
             citation_counts[source_id] = citation_counts.get(source_id, 0) + 1
             if (opening, closing) == ('"', '"'):
-                straight += 1
+                tainted.add(source_id)
+                errors.append(f"{output}: {heading}: straight quotation delimiters on {source_id}; curly delimiters required")
             elif (opening, closing) != ("“", "”"):
                 tainted.add(source_id)
                 errors.append(f"{output}: {heading}: mismatched quotation marks on {source_id}")
@@ -264,9 +254,7 @@ def validate(source: Path, outputs: list[Path], review_path: Path | None = None)
             elif quote != statements[source_id][1]:
                 tainted.add(source_id)
                 expected = statements[source_id][1]
-                if visible(quote).rstrip() == visible(expected).rstrip():
-                    invisible.add(source_id)
-                elif len(quote) < len(expected) and quote in expected:
+                if len(quote) < len(expected) and quote in expected:
                     errors.append(f"{output}: {heading}: quotation is only part of {source_id}; "
                                   "the entire statement is required")
                 else:
@@ -305,11 +293,6 @@ def validate(source: Path, outputs: list[Path], review_path: Path | None = None)
     uncited = sorted(set(statements) - cited, key=lambda value: int(value[1:]))
     if uncited:
         errors.append(f"{output}: source statements never cited: {', '.join(uncited)}")
-    if straight:
-        notes.append(f"{output}: {straight} bullet(s) use straight quotes; the contract form is “curly” quotes")
-    if invisible:
-        notes.append(f"{output}: invisible spacing characters (such as a non-breaking space) differ from the packet in "
-                     f"{', '.join(sorted(invisible, key=lambda value: int(value[1:])))}; the visible text matches")
     return errors, notes
 
 

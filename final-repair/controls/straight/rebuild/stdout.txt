@@ -1,0 +1,2 @@
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\final-repair\controls\straight\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S001; curly delimiters required
