@@ -10,7 +10,7 @@ artifacts=[]
 for n,h in m['artifacts'].items():
  if (R/n).exists():assert sha(R/n)==h;artifacts.append(n)
 # Strict structural implementation after the warning filter is byte-identical.
-a=(D/'before/rebuild/tools/validate_packet.py').read_text(encoding='utf-8');b=(R/'rebuild/tools/validate_packet.py').read_text(encoding='utf-8');assert a[a.index('def difference('):]==b[b.index('def difference('):]
+a=(D/'before/rebuild/tools/validate_packet.py').read_bytes();b=(R/'rebuild/tools/validate_packet.py').read_bytes();assert a[a.index(b'def difference('):]==b[b.index(b'def difference('):]
 spec=importlib.util.spec_from_file_location('core',R/'tools/run_arm.py');core=importlib.util.module_from_spec(spec);spec.loader.exec_module(core)
 turns=0
 for arm in ['original','rebuild']:
@@ -35,5 +35,12 @@ for arm in ['original','rebuild']:
    turns+=1
   if kind=='full':assert (base/'bid-compliance-card.md').read_text(encoding='utf-8')=='\n'.join((p/'bid-compliance-card.md').read_text(encoding='utf-8') for p in parts)
 controls=json.loads((D/'control-results.json').read_text());assert all(x['passed'] for x in controls if x['arm']=='rebuild')
+definitions=json.loads((D/'control-definitions.json').read_text(encoding='utf-8'))
+for c in definitions:
+ f=D/'controls'/c['name'];assert (f/'source-packet.md').read_text(encoding='utf-8')==c['source'] and (f/'card.md').read_text(encoding='utf-8')==c['card']
+ for arm in ['original','rebuild']:
+  result=subprocess.run([sys.executable,'-B','-X','utf8',str(R/arm/'tools/validate_packet.py'),str(f/'source-packet.md'),str(f/'card.md')],capture_output=True,text=True,encoding='utf-8')
+  warning=any('REVIEW' in line and 'Section 6' in line and c['sid'] in line for line in result.stdout.splitlines())
+  recorded=next(x for x in controls if x['arm']==arm and x['case']==c['name']);assert recorded['valid']==(result.returncode==0) and recorded['warning']==warning
 replays=json.loads((D/'historical-control-replays.json').read_text());assert all(x['passed'] for x in replays if x['arm']=='rebuild')
 print(json.dumps({'status':'PASS','preserved_prior_files':len(m['tracked']),'local_prior_artifacts_verified':len(artifacts),'raw_turns_verified':turns,'frozen_questions':'unchanged','strict_validation_implementation':'unchanged','six_model_knowledge_files_each_arm':'unchanged','published':False},indent=2))
