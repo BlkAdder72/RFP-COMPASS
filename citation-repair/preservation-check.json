@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "pre_stage_tracked_files_preserved": 8000,
+  "prior_delivery_files_preserved": 5,
+  "first_failed_attempt_snapshots": "PASS",
+  "both_validators_unchanged": true
+}

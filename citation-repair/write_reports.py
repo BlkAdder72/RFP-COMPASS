@@ -44,6 +44,8 @@ for arm,result in full.items():
  report+=f"\n{arm.capitalize()}: {result['parts']} replies; {result['bullets_per_part']} quoted bullets per reply; {result['cited_distinct_ids']} distinct IDs. S072 placements: {result['positions'].get('S072',[])}. Anchor mismatches: {len(result['anchor_mismatches'])}; quote mismatches: {len(result['quote_mismatches'])}; personal REVIEW lines: {len(result['personal_review_hints'])}.\n"
  for error in result['anchor_mismatches']:report+='\nAnchor failure: `'+json.dumps(error,ensure_ascii=False)+'`.\n'
  for error in result['quote_mismatches']:report+='\nQuote failure: `'+json.dumps(error,ensure_ascii=False)+'`.\n'
+if full['original']['checks']['exact_anchors'] and r['checks']['exact_anchors']:
+ report+='\nExact-anchor fidelity ties in the latest pair: both original and rebuild preserve every anchor. The original failed this check in the first new pair but passed in the second without any original changes, demonstrating run variability. A repaired rebuilt observation is not proof of a copying advantage over original or a universal copying guarantee.\n'
 report+='''
 S072's successful placement alone is not sufficient: exact anchors and quotes are checked on every citation in the full card. The independent validator consumes the actual reply parts in order. Personal containment is separately scored; zero REVIEW notes alone would not prove correct routing. Original and rebuilt outputs are accepted or rejected under their unchanged validators, never corrected to make the comparison pass.
 
@@ -92,7 +94,8 @@ Historical audits read their pre-repair model knowledge from `citation-repair/hi
 Public URL/comment and Premium/VIP eligibility remain pending. No publish action is authorized.
 '''
 (R/'packaging/COMPLIANCE.md').write_text(compliance,encoding='utf-8')
-project='> Current Competition #15 evidence: `../citation-repair/REPORT.md`. '+headline+' Exact-anchor validation is unchanged; all previous failed evidence remains preserved.\n\n'+(D/'history/rebuild/README.md').read_text(encoding='utf-8')
+legacy='**RFP Compass turns'+(D/'history/rebuild/README.md').read_text(encoding='utf-8').split('**RFP Compass turns',1)[1]
+project='# RFP Compass\n\n## Current Competition #15 rebuild\n\n'+headline+'\n\nSee `../citation-repair/REPORT.md` for both repair attempts, the fresh comparison and limits. Four model knowledge files changed to preserve complete anchors; both validators remain byte-identical to the preceding seal. Every old failed card is retained and still rejected. Current full-length raw evidence is in `run-results/citation-repair-v2-full/`. The earlier README, including its superseded failure status, is preserved at `../citation-repair/history/rebuild/README.md`.\n\nQ8 still passes with the ordinary default invocation and no review sidecar. Unknown context retains conservative hints; a structural pass does not prove section placement. The original packet/PDF tools and setup workflow remain available below.\n\n## Setup and tool guide\n\nThe guide below retains earlier operating instructions and historical model results. Its older Claude/sample claims are historical, not new acceptance of this repair. Use the current report above for present test results.\n\n'+legacy
 (R/'rebuild/README.md').write_bytes(project.encode('utf-8'))
 (R/'SUBMISSION_COMMENT.md').write_text('''DRAFT — do not post; replace the public URL only after publication is authorized.
 

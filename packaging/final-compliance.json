@@ -18,7 +18,7 @@
     "initial_test_assertion_correction": "Preserved initial 50/51 result; corrected missing-heading expectation, no validator change",
     "limitations": "Bounded source-text classifier; ambiguous statements retain hints; host system variation remains uncontrolled."
   },
-  "total_raw_model_responses": 80,
+  "total_raw_model_responses": 116,
   "local_compliance": "PASS",
   "preserved_prepackage_files": 1287,
   "judged_original_files": 134,
@@ -728,5 +728,68 @@
     "publication": "NOT PERFORMED",
     "limits": "Bounded English hint classifier; synthetic known fixtures; one fresh pair per fixture; no statistical or fresh Claude claim."
   },
-  "candidate_performance": "MIXED: frozen questions improve; full-length personal containment improves but two raw S072 anchor errors remain and correctly fail validation"
+  "candidate_performance": "Fresh rebuild full-length run passes every frozen check; S072 exact-anchor failure not reproduced; historical failures preserved",
+  "citation_repair": {
+    "status": "PASS: evidence integrity",
+    "prior_tracked_files_preserved": 8000,
+    "local_prior_artifacts_verified": 5,
+    "optional_prior_artifacts_absent": [],
+    "questions_unchanged": true,
+    "both_validators_byte_identical": true,
+    "changed_model_knowledge": [
+      "CLAUDE_PROJECT_INSTRUCTIONS.txt",
+      "rules.md",
+      "reference/output-schema.md",
+      "examples.md"
+    ],
+    "fresh_core_sessions_across_two_attempts": 20,
+    "fresh_full_sessions_across_two_attempts": 4,
+    "fresh_model_turns": 36,
+    "full_reply_counts": {
+      "attempt-1": {
+        "original": 4,
+        "rebuild": 4
+      },
+      "attempt-2": {
+        "original": 4,
+        "rebuild": 4
+      }
+    },
+    "first_repair_failed_and_preserved": true,
+    "exact_anchor_rejection_controls": 22,
+    "core_question_comparisons": {
+      "improved": 5,
+      "tied": 3,
+      "regressed": 0
+    },
+    "full_length_checks": {
+      "original": {
+        "exact_shape_quotes_coverage": true,
+        "exact_statement_text": true,
+        "exact_anchors": true,
+        "all_221_ids": true,
+        "noise_only12": false,
+        "genuine_routing": true,
+        "no_personal_review_hints": true,
+        "max150_bullets_per_reply": true,
+        "complete": true
+      },
+      "rebuild": {
+        "exact_shape_quotes_coverage": true,
+        "exact_statement_text": true,
+        "exact_anchors": true,
+        "all_221_ids": true,
+        "noise_only12": true,
+        "genuine_routing": true,
+        "no_personal_review_hints": true,
+        "max150_bullets_per_reply": true,
+        "complete": true
+      }
+    },
+    "S072_copying_fix_observed": true,
+    "S072_routes_to_4_and_5": true,
+    "performance_summary": "Fresh rebuild full-length run passes every frozen check; S072 exact-anchor failure not reproduced; historical failures preserved",
+    "publication": "NOT PERFORMED",
+    "limits": "Two versioned attempts; first failed and retained. One new pair on known input for final version; not a deterministic copying guarantee, no raw corrections or statistical claim."
+  }
 }

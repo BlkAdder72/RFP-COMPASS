@@ -21,6 +21,8 @@ for name in changed:
  assert (R/'rebuild'/name).read_bytes()!=(D/'history/rebuild'/name).read_bytes()
  assert 'S072' not in (R/'rebuild'/name).read_text(encoding='utf-8')
 for name in ['identity.md','reference/input-schema.md']:assert (R/'rebuild'/name).read_bytes()==(D/'history/rebuild'/name).read_bytes()
+examples=(R/'rebuild/examples.md').read_text(encoding='utf-8');before,after=examples.split('## Exact anchors with similar source rows',1)
+assert before+'## 01-real-public-notice'+after.split('## 01-real-public-notice',1)[1]==(D/'history/rebuild/examples.md').read_text(encoding='utf-8')
 spec=importlib.util.spec_from_file_location('runner',R/'tools/run_arm.py');runner=importlib.util.module_from_spec(spec);spec.loader.exec_module(runner)
 turns=0
 def audit(part,request):

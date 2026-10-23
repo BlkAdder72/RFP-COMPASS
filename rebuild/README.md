@@ -1,14 +1,16 @@
-> Competition #15 current verification: see `../hardening/REPORT.md`. The default validator protects context across changing anchors and clears hints only for trusted personal citations. The fresh full-length model card still FAILS two S072 anchors; that regression and all raw evidence are retained. Unknown context retains REVIEW hints; structural PASS never proves correct section routing.
-
 # RFP Compass
 
-## Competition 15 rebuild
+## Current Competition #15 rebuild
 
-This is the packaged repaired rebuild. Its six model knowledge files match the tested historical rebuild byte for byte. The judged original and comparative runs are one level above this folder. See `../questions.md` for the frozen evaluation, `../results.md` for the final comparison and `../repair/report.md` for the repair evidence. Historical code and reports are preserved in `../history/prepackage/` and Git.
+The fresh rebuilt full-length card passes every frozen check, including exact S072 citations in Sections 4 and 5. The earlier failed cards remain unchanged and still fail validation.
 
-The default validator now filters clear personal-activity hints using source text, Section 12-only placement and procurement/requirement/context vetoes. Filenames and placement alone cannot establish exclusion. Q8 passes with ordinary commands and no review record. Ambiguous text still gets conservative hints; this is a bounded heuristic, not a semantic or authority proof. [Review records](REVIEWED_EXCLUSIONS.md) remain optional for separately adjudicated material. See `../revision/report.md` for the fair fresh reruns, limitations and preservation of the earlier failed workflow.
+See `../citation-repair/REPORT.md` for both repair attempts, the fresh comparison and limits. Four model knowledge files changed to preserve complete anchors; both validators remain byte-identical to the preceding seal. Every old failed card is retained and still rejected. Current full-length raw evidence is in `run-results/citation-repair-v2-full/`. The earlier README, including its superseded failure status, is preserved at `../citation-repair/history/rebuild/README.md`.
 
-Historical test claims below concern the pre-rebuild entry. They are preserved as historical evidence, not new validation of this version. See `run-results/rebuild-noisy-input/` for the new comparison record.
+Q8 still passes with the ordinary default invocation and no review sidecar. Unknown context retains conservative hints; a structural pass does not prove section placement. The original packet/PDF tools and setup workflow remain available below.
+
+## Setup and tool guide
+
+The guide below retains earlier operating instructions and historical model results. Its older Claude/sample claims are historical, not new acceptance of this repair. Use the current report above for present test results.
 
 **RFP Compass turns a government RFP into a Bid Compliance Card: a checklist with the same 12 sections every time. Every line is copied word for word from the RFP and says exactly where it came from.**
 

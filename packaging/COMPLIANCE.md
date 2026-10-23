@@ -1,7 +1,9 @@
 # Current local competition compliance
 
-Publication: NOT PERFORMED. Evidence-integrity compliance passes separately from performance. **The full-length rebuild still fails two S072 anchor checks; it improves personal containment but is not an overall full-length win.** Required layout, judged original, verbatim feedback, frozen eight questions, original-before-rebuild chronology and all evidence are retained. See `hardening/REPORT.md` for the failed first pass and final checker results. `tools/verify_submission.py` audits old stages against preserved code, then current evidence. Current validator replay logs use `packaging/final-checks-v5/`.
+Publication: NOT PERFORMED. The fresh rebuilt full-length card passes every frozen check, including exact S072 citations in Sections 4 and 5. The earlier failed card remains unchanged and still fails validation.
 
-The prior package and all prior tracked bytes are accounted for by `hardening/preservation.json`. Current validator logs use `packaging/final-checks-v5/`; intermediate v3 and v4 logs remain preserved. Prior local delivery files are retained under `dist/prior-scope-hardening/`. The new source ZIP and history bundle are sealed only after committing current evidence. Ignored local delivery binaries are not required in a Git clone.
+The required layout, original Git pin, verbatim feedback, frozen eight questions and sequence remain verified. Both validators are byte-identical to the preceding seal and continue rejecting the previous shortened S072 anchors. Current performance is reported separately from evidence integrity in `citation-repair/REPORT.md` and `citation-repair/verification.json`.
 
-Public repository link/comment and Premium/VIP eligibility remain pending. No publish action is authorized.
+Historical audits read their pre-repair model knowledge from `citation-repair/history/`; their raw prompts and pass/fail outcomes are not replaced. Current validation logs use `packaging/final-checks-v6/`. All 8,000 pre-stage tracked files and five previous delivery files are retained; previous local deliveries are archived under `dist/prior-citation-repair/`.
+
+Public URL/comment and Premium/VIP eligibility remain pending. No publish action is authorized.

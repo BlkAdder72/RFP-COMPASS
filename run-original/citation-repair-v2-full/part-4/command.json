@@ -1,0 +1,19 @@
+[
+  "C:\\Users\\mmazu\\AppData\\Local\\OpenAI\\Codex\\bin\\896a0166b774037a\\codex.EXE",
+  "exec",
+  "--ignore-user-config",
+  "--sandbox",
+  "read-only",
+  "-C",
+  "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\.run-work\\rfp-full-7hb6aq82",
+  "resume",
+  "--ignore-user-config",
+  "--skip-git-repo-check",
+  "-m",
+  "gpt-6-astra",
+  "-c",
+  "model_reasoning_effort=\"medium\"",
+  "--json",
+  "01a1699f-ef3f-7fa3-a042-7ee8ceb7944e",
+  "-"
+]
