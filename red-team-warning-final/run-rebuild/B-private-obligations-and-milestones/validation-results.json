@@ -1,0 +1,30 @@
+{
+  "native": {
+    "exit_code": 0,
+    "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-warning-final\\run-rebuild\\B-private-obligations-and-milestones\\bid-compliance-card.md: S002, S003, S004, S005, S006 look like dates or times but are not in Section 6; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": "",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-warning-final\\fixtures\\B-private-obligations-and-milestones.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-warning-final\\run-rebuild\\B-private-obligations-and-milestones\\bid-compliance-card.md"
+    ]
+  },
+  "common-strict": {
+    "exit_code": 0,
+    "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-warning-final\\run-rebuild\\B-private-obligations-and-milestones\\bid-compliance-card.md: S002, S003, S004, S005, S006 look like dates or times but are not in Section 6; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": "",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-warning-final\\fixtures\\B-private-obligations-and-milestones.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-warning-final\\run-rebuild\\B-private-obligations-and-milestones\\bid-compliance-card.md"
+    ]
+  }
+}

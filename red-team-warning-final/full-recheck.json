@@ -1,0 +1,74 @@
+{
+  "method": "Read-only replay of existing full-length cards; no new full-length model calls or replacement scores",
+  "source_sha256": "01526c6dccc0d05144b47d3ee1468c77f8d692d160418e187144cd1ab797a6bc",
+  "arms": {
+    "original": {
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\hardening\\fixtures\\Z-full-length-noisy.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\warning-repair-full\\part-1\\bid-compliance-card.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\warning-repair-full\\part-2\\bid-compliance-card.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\warning-repair-full\\part-3\\bid-compliance-card.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\warning-repair-full\\part-4\\bid-compliance-card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\warning-repair-full\\part-1\\bid-compliance-card.md (+3 part(s)): ## 4. Application stages and submission mechanics stated: anchor for S072 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\warning-repair-full\\part-1\\bid-compliance-card.md (+3 part(s)): ## 5. Mandatory attachments and forms stated: anchor for S072 does not match the packet\n",
+      "stderr": "",
+      "card_sha256": "52e543606219cabb5790eb7f2df90522f7e6b811e245744939cdc1aec1e50722",
+      "missing_required": {
+        "S066": [
+          5
+        ],
+        "S083": [
+          5
+        ],
+        "S148": [
+          11
+        ]
+      },
+      "forbidden_found": {},
+      "noise_only12": {
+        "S215": true,
+        "S216": false,
+        "S217": false,
+        "S218": false,
+        "S219": false,
+        "S220": false,
+        "S221": false
+      }
+    },
+    "rebuild": {
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\hardening\\fixtures\\Z-full-length-noisy.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\warning-repair-full\\part-1\\bid-compliance-card.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\warning-repair-full\\part-2\\bid-compliance-card.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\warning-repair-full\\part-3\\bid-compliance-card.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\warning-repair-full\\part-4\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "card_sha256": "8ab1e59a9300784be19806b0bba7807231a95d6171621026a0c313c2570462bf",
+      "missing_required": {},
+      "forbidden_found": {},
+      "noise_only12": {
+        "S215": true,
+        "S216": true,
+        "S217": true,
+        "S218": true,
+        "S219": true,
+        "S220": true,
+        "S221": true
+      }
+    }
+  }
+}

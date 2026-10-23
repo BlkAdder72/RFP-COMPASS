@@ -1,0 +1,31 @@
+{
+  "integrity": "PASS",
+  "target": "09684fc7129b8ff4bcbefe4b749f644f8f23f50e",
+  "preserved_files": 12591,
+  "preserved_sealed_files": 30,
+  "new_model_replies": 6,
+  "new_model_citation_pass": true,
+  "warning_regressions_against": {
+    "original": [
+      "are-to",
+      "condition-of-entry",
+      "will-be-expected",
+      "mixed-offers-to-reach"
+    ],
+    "pre-warning-repair": [
+      "private-have-to",
+      "private-obligation-pollutes-context",
+      "private-negated-have-to"
+    ]
+  },
+  "candidate_edited": false,
+  "frozen_questions_unchanged": true,
+  "sealed_delivery": {
+    "passed": true,
+    "sealed_target": "09684fc7129b8ff4bcbefe4b749f644f8f23f50e",
+    "archive_files_checked": 12591,
+    "real_model_calls": 0,
+    "published": false
+  },
+  "published": false
+}
