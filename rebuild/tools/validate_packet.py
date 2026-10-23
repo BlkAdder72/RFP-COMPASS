@@ -62,25 +62,34 @@ PROCUREMENT_CUE = re.compile(
 PERSONAL_OWNER = re.compile(r"\b(my|our|your|his|her|their)\b", re.IGNORECASE)
 PERSONAL_ACTIVITY = re.compile(
     r"\b(potluck|birthday|dentist|wedding\s+anniversary|family\s+(picnic|party|reunion|dinner)|"
-    r"(piano|school|dance)\s+recital)\b", re.IGNORECASE)
-EVENT_HEADER = re.compile(r"\b(events?|meetings?|conferences?|attendance|activities|schedule)\b", re.IGNORECASE)
+    r"(piano|school|dance)\s+recital|(retirement|farewell)\s+(lunch|dinner|party)|"
+    r"(physical\s+therapy|physiotherapy|doctor|medical)\s+appointment)\b", re.IGNORECASE)
+EVENT_HEADER = re.compile(r"\b(events?|meetings?|conferences?|attendance|activities|schedules?|calendars?)\b", re.IGNORECASE)
+CLINICAL_CUE = re.compile(r"\b(patients?|clinical|beneficiaries|services?|providers?|healthcare)\b", re.IGNORECASE)
+PERSONAL_HEADER = re.compile(r"\s*(personal|private|family)\s+(calendar|correspondence|notes|schedule|email|thread)\s*[:.—-]?\s*", re.IGNORECASE)
+PERSONAL_CONTRIBUTION = re.compile(r"\b(?:please\s+)?bring\s+\$\s*\d+(?:\.\d+)?\s+for\s+(?:lunch|dinner)\b", re.IGNORECASE)
 
 
 def personal_hint_exclusions(statements, placed):
     """Bounded personal-calendar filter, with a veto for requirement-bearing text.
 
     This is not a complete semantic classifier. Unknown meetings and mixed
-    requirements keep their hints. Anchors can scope a protective event header,
-    but their wording never grants exclusion.
+    requirements keep their hints. Requirement context follows source order,
+    independent of line, paragraph, page or document anchors. Only an explicit
+    personal heading in the source body resets it; unknown transitions do not.
     """
     result = set()
-    protected_anchors = set()
+    protected = False
     for sid, (anchor, body) in statements.items():
-        if body.rstrip().endswith(":") and PROCUREMENT_CUE.search(body) and EVENT_HEADER.search(body):
-            protected_anchors.add(anchor)
-        personal = PERSONAL_OWNER.search(body) and PERSONAL_ACTIVITY.search(body)
+        procurement = PROCUREMENT_CUE.search(body)
+        clinical = CLINICAL_CUE.search(body)
+        if procurement and EVENT_HEADER.search(body):
+            protected = True
+        elif PERSONAL_HEADER.fullmatch(body) and not procurement and not clinical:
+            protected = False
+        personal = (PERSONAL_OWNER.search(body) and PERSONAL_ACTIVITY.search(body)) or PERSONAL_CONTRIBUTION.search(body)
         only12 = sid in placed.get(12, set()) and not any(sid in placed.get(s, set()) for s in range(1, 12))
-        if personal and only12 and not PROCUREMENT_CUE.search(body) and anchor not in protected_anchors:
+        if personal and only12 and not procurement and not clinical and not protected:
             result.add(sid)
     return result
 INVISIBLE = {"\u00a0": " ", "\u202f": " ", "\u2007": " ", "\u200b": "", "\u200c": "", "\u200d": "",
