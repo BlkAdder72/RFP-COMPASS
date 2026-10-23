@@ -1,0 +1,2 @@
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\scope-repair\controls\prior-zero-width-deleted\card.md: ## 12. Unmapped source evidence: anchor for S008 does not match the packet

@@ -1,0 +1,4 @@
+NOTE: PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\run-rebuild\hardening-full\part-1\bid-compliance-card.md (+3 part(s)): ## 4. Application stages and submission mechanics stated: anchor for S072 does not match the packet
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\run-rebuild\hardening-full\part-1\bid-compliance-card.md (+3 part(s)): ## 5. Mandatory attachments and forms stated: anchor for S072 does not match the packet

@@ -1,0 +1,466 @@
+[
+  {
+    "name": "prior-baptism",
+    "source": "S001 | Unrelated private family correspondence | My child’s baptism ceremony is December 3, 2026 at 11 AM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “My child’s baptism ceremony is December 3, 2026 at 11 AM.” [source: source-packet.md:S001; Unrelated private family correspondence]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-baby-shower",
+    "source": "S001 | Unrelated private family correspondence | My baby shower is December 4, 2026 at 3 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “My baby shower is December 4, 2026 at 3 PM.” [source: source-packet.md:S001; Unrelated private family correspondence]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-graduation-control",
+    "source": "S001 | Unrelated private family correspondence | My graduation ceremony is December 5, 2026 at 2 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “My graduation ceremony is December 5, 2026 at 2 PM.” [source: source-packet.md:S001; Unrelated private family correspondence]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-compulsory-have-to",
+    "source": "S001 | RFP participation p. 2 | All companies have to attend the following events:\nS002 | RFP participation p. 3 | Our farewell dinner is December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “All companies have to attend the following events:” [source: source-packet.md:S001; RFP participation p. 2]\n- “Our farewell dinner is December 6, 2026 at 7 PM.” [source: source-packet.md:S002; RFP participation p. 3]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "prior-mandatory-must-control",
+    "source": "S001 | RFP participation p. 2 | All companies must attend the following events:\nS002 | RFP participation p. 3 | Our farewell dinner is December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “All companies must attend the following events:” [source: source-packet.md:S001; RFP participation p. 2]\n- “Our farewell dinner is December 6, 2026 at 7 PM.” [source: source-packet.md:S002; RFP participation p. 3]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "prior-clinical-control",
+    "source": "S001 | RFP participation p. 2 | All patients have to attend the following events:\nS002 | RFP participation p. 3 | Our farewell dinner is December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “All patients have to attend the following events:” [source: source-packet.md:S001; RFP participation p. 2]\n- “Our farewell dinner is December 6, 2026 at 7 PM.” [source: source-packet.md:S002; RFP participation p. 3]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "prior-mixed-offer-deadline",
+    "source": "S001 | RFP participation instructions | Our farewell dinner is December 6, 2026 at 7 PM; companies have to deliver their offers by December 7, 2026 at 2 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Our farewell dinner is December 6, 2026 at 7 PM; companies have to deliver their offers by December 7, 2026 at 2 PM.” [source: source-packet.md:S001; RFP participation instructions]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-exact-unseen-anchors",
+    "source": "S001 | Supplement β p. xi §IV(1)(l) [note a] | Applicants must include a signed conflict disclosure.\nS002 | Supplement β p. xi §IV(1)(I) [note a] | Applicants must include a signed conflict disclosure.\nS003 | Annex C p. 03, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS004 | Annex C p. 3, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS005 | Schedule D p. 5 n. ¹ | Applicants must include a signed conflict disclosure.\nS006 | Schedule D p. 5 n. 1 | Applicants must include a signed conflict disclosure.\nS007 | Exhibit E p. 6 §2`(b)` [column [B]] | Applicants must include a signed conflict disclosure.\nS008 | Exhibit E p. 6 §2​(b) [column [B]] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Supplement β p. xi §IV(1)(l) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Supplement β p. xi §IV(1)(I) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annex C p. 03, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex C p. 3, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Schedule D p. 5 n. ¹]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Schedule D p. 5 n. 1]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S007; Exhibit E p. 6 §2`(b)` [column [B]]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S008; Exhibit E p. 6 §2​(b) [column [B]]]\n",
+    "valid": true,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-narrow-nbsp-normalized",
+    "source": "S001 | Supplement β p. xi §IV(1)(l) [note a] | Applicants must include a signed conflict disclosure.\nS002 | Supplement β p. xi §IV(1)(I) [note a] | Applicants must include a signed conflict disclosure.\nS003 | Annex C p. 03, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS004 | Annex C p. 3, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS005 | Schedule D p. 5 n. ¹ | Applicants must include a signed conflict disclosure.\nS006 | Schedule D p. 5 n. 1 | Applicants must include a signed conflict disclosure.\nS007 | Exhibit E p. 6 §2`(b)` [column [B]] | Applicants must include a signed conflict disclosure.\nS008 | Exhibit E p. 6 §2​(b) [column [B]] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Supplement β p. xi §IV(1)(l) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Supplement β p. xi §IV(1)(I) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annex C p. 03, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex C p. 3, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Schedule D p. 5 n. ¹]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Schedule D p. 5 n. 1]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S007; Exhibit E p. 6 §2`(b)` [column [B]]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S008; Exhibit E p. 6 §2​(b) [column [B]]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-superscript-normalized",
+    "source": "S001 | Supplement β p. xi §IV(1)(l) [note a] | Applicants must include a signed conflict disclosure.\nS002 | Supplement β p. xi §IV(1)(I) [note a] | Applicants must include a signed conflict disclosure.\nS003 | Annex C p. 03, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS004 | Annex C p. 3, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS005 | Schedule D p. 5 n. ¹ | Applicants must include a signed conflict disclosure.\nS006 | Schedule D p. 5 n. 1 | Applicants must include a signed conflict disclosure.\nS007 | Exhibit E p. 6 §2`(b)` [column [B]] | Applicants must include a signed conflict disclosure.\nS008 | Exhibit E p. 6 §2​(b) [column [B]] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Supplement β p. xi §IV(1)(l) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Supplement β p. xi §IV(1)(I) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annex C p. 03, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex C p. 3, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Schedule D p. 5 n. 1]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Schedule D p. 5 n. 1]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S007; Exhibit E p. 6 §2`(b)` [column [B]]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S008; Exhibit E p. 6 §2​(b) [column [B]]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-zero-padding-normalized",
+    "source": "S001 | Supplement β p. xi §IV(1)(l) [note a] | Applicants must include a signed conflict disclosure.\nS002 | Supplement β p. xi §IV(1)(I) [note a] | Applicants must include a signed conflict disclosure.\nS003 | Annex C p. 03, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS004 | Annex C p. 3, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS005 | Schedule D p. 5 n. ¹ | Applicants must include a signed conflict disclosure.\nS006 | Schedule D p. 5 n. 1 | Applicants must include a signed conflict disclosure.\nS007 | Exhibit E p. 6 §2`(b)` [column [B]] | Applicants must include a signed conflict disclosure.\nS008 | Exhibit E p. 6 §2​(b) [column [B]] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Supplement β p. xi §IV(1)(l) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Supplement β p. xi §IV(1)(I) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annex C p. 3, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex C p. 3, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Schedule D p. 5 n. ¹]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Schedule D p. 5 n. 1]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S007; Exhibit E p. 6 §2`(b)` [column [B]]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S008; Exhibit E p. 6 §2​(b) [column [B]]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-zero-width-deleted",
+    "source": "S001 | Supplement β p. xi §IV(1)(l) [note a] | Applicants must include a signed conflict disclosure.\nS002 | Supplement β p. xi §IV(1)(I) [note a] | Applicants must include a signed conflict disclosure.\nS003 | Annex C p. 03, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS004 | Annex C p. 3, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS005 | Schedule D p. 5 n. ¹ | Applicants must include a signed conflict disclosure.\nS006 | Schedule D p. 5 n. 1 | Applicants must include a signed conflict disclosure.\nS007 | Exhibit E p. 6 §2`(b)` [column [B]] | Applicants must include a signed conflict disclosure.\nS008 | Exhibit E p. 6 §2​(b) [column [B]] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Supplement β p. xi §IV(1)(l) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Supplement β p. xi §IV(1)(I) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annex C p. 03, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex C p. 3, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Schedule D p. 5 n. ¹]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Schedule D p. 5 n. 1]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S007; Exhibit E p. 6 §2`(b)` [column [B]]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S008; Exhibit E p. 6 §2(b) [column [B]]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-literal-backticks-deleted",
+    "source": "S001 | Supplement β p. xi §IV(1)(l) [note a] | Applicants must include a signed conflict disclosure.\nS002 | Supplement β p. xi §IV(1)(I) [note a] | Applicants must include a signed conflict disclosure.\nS003 | Annex C p. 03, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS004 | Annex C p. 3, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS005 | Schedule D p. 5 n. ¹ | Applicants must include a signed conflict disclosure.\nS006 | Schedule D p. 5 n. 1 | Applicants must include a signed conflict disclosure.\nS007 | Exhibit E p. 6 §2`(b)` [column [B]] | Applicants must include a signed conflict disclosure.\nS008 | Exhibit E p. 6 §2​(b) [column [B]] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Supplement β p. xi §IV(1)(l) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Supplement β p. xi §IV(1)(I) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annex C p. 03, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex C p. 3, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Schedule D p. 5 n. ¹]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Schedule D p. 5 n. 1]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S007; Exhibit E p. 6 §2(b) [column [B]]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S008; Exhibit E p. 6 §2​(b) [column [B]]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-roman-lookalike-swapped",
+    "source": "S001 | Supplement β p. xi §IV(1)(l) [note a] | Applicants must include a signed conflict disclosure.\nS002 | Supplement β p. xi §IV(1)(I) [note a] | Applicants must include a signed conflict disclosure.\nS003 | Annex C p. 03, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS004 | Annex C p. 3, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS005 | Schedule D p. 5 n. ¹ | Applicants must include a signed conflict disclosure.\nS006 | Schedule D p. 5 n. 1 | Applicants must include a signed conflict disclosure.\nS007 | Exhibit E p. 6 §2`(b)` [column [B]] | Applicants must include a signed conflict disclosure.\nS008 | Exhibit E p. 6 §2​(b) [column [B]] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Supplement β p. xi §IV(1)(I) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Supplement β p. xi §IV(1)(I) [note a]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annex C p. 03, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex C p. 3, item (i); line 007]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Schedule D p. 5 n. ¹]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Schedule D p. 5 n. 1]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S007; Exhibit E p. 6 §2`(b)` [column [B]]]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S008; Exhibit E p. 6 §2​(b) [column [B]]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-altered-zero-width-quotation",
+    "source": "S001 | Supplement β p. xi §IV(1)(l) [note a] | Applicants must include a signed conflict disclosure.\nS002 | Supplement β p. xi §IV(1)(I) [note a] | Applicants must include a signed conflict disclosure.\nS003 | Annex C p. 03, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS004 | Annex C p. 3, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS005 | Schedule D p. 5 n. ¹ | Applicants must include a signed conflict disclosure.\nS006 | Schedule D p. 5 n. 1 | Applicants must include a signed conflict disclosure.\nS007 | Exhibit E p. 6 §2`(b)` [column [B]] | Applicants must include a signed conflict disclosure.\nS008 | Exhibit E p. 6 §2​(b) [column [B]] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict​ disclosure.” [source: source-packet.md:S001; Supplement β p. xi §IV(1)(l) [note a]]\n- “Applicants must include a signed conflict​ disclosure.” [source: source-packet.md:S002; Supplement β p. xi §IV(1)(I) [note a]]\n- “Applicants must include a signed conflict​ disclosure.” [source: source-packet.md:S003; Annex C p. 03, item (i); line 007]\n- “Applicants must include a signed conflict​ disclosure.” [source: source-packet.md:S004; Annex C p. 3, item (i); line 007]\n- “Applicants must include a signed conflict​ disclosure.” [source: source-packet.md:S005; Schedule D p. 5 n. ¹]\n- “Applicants must include a signed conflict​ disclosure.” [source: source-packet.md:S006; Schedule D p. 5 n. 1]\n- “Applicants must include a signed conflict​ disclosure.” [source: source-packet.md:S007; Exhibit E p. 6 §2`(b)` [column [B]]]\n- “Applicants must include a signed conflict​ disclosure.” [source: source-packet.md:S008; Exhibit E p. 6 §2​(b) [column [B]]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-straight-delimiters",
+    "source": "S001 | Supplement β p. xi §IV(1)(l) [note a] | Applicants must include a signed conflict disclosure.\nS002 | Supplement β p. xi §IV(1)(I) [note a] | Applicants must include a signed conflict disclosure.\nS003 | Annex C p. 03, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS004 | Annex C p. 3, item (i); line 007 | Applicants must include a signed conflict disclosure.\nS005 | Schedule D p. 5 n. ¹ | Applicants must include a signed conflict disclosure.\nS006 | Schedule D p. 5 n. 1 | Applicants must include a signed conflict disclosure.\nS007 | Exhibit E p. 6 §2`(b)` [column [B]] | Applicants must include a signed conflict disclosure.\nS008 | Exhibit E p. 6 §2​(b) [column [B]] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- \"Applicants must include a signed conflict disclosure.\" [source: source-packet.md:S001; Supplement β p. xi §IV(1)(l) [note a]]\n- \"Applicants must include a signed conflict disclosure.\" [source: source-packet.md:S002; Supplement β p. xi §IV(1)(I) [note a]]\n- \"Applicants must include a signed conflict disclosure.\" [source: source-packet.md:S003; Annex C p. 03, item (i); line 007]\n- \"Applicants must include a signed conflict disclosure.\" [source: source-packet.md:S004; Annex C p. 3, item (i); line 007]\n- \"Applicants must include a signed conflict disclosure.\" [source: source-packet.md:S005; Schedule D p. 5 n. ¹]\n- \"Applicants must include a signed conflict disclosure.\" [source: source-packet.md:S006; Schedule D p. 5 n. 1]\n- \"Applicants must include a signed conflict disclosure.\" [source: source-packet.md:S007; Exhibit E p. 6 §2`(b)` [column [B]]]\n- \"Applicants must include a signed conflict disclosure.\" [source: source-packet.md:S008; Exhibit E p. 6 §2​(b) [column [B]]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-has-to-context",
+    "source": "S001 | Document p. 1 | Each company has to attend the following events:\nS002 | Document p. 2 | Our farewell dinner is December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Each company has to attend the following events:” [source: source-packet.md:S001; Document p. 1]\n- “Our farewell dinner is December 6, 2026 at 7 PM.” [source: source-packet.md:S002; Document p. 2]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "prior-need-to-context",
+    "source": "S001 | Document p. 1 | All companies need to attend the following events:\nS002 | Document p. 2 | Our farewell dinner is December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “All companies need to attend the following events:” [source: source-packet.md:S001; Document p. 1]\n- “Our farewell dinner is December 6, 2026 at 7 PM.” [source: source-packet.md:S002; Document p. 2]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "prior-obliged-context",
+    "source": "S001 | Document p. 1 | All firms are obliged to attend the following events:\nS002 | Document p. 2 | Our baby shower is December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “All firms are obliged to attend the following events:” [source: source-packet.md:S001; Document p. 1]\n- “Our baby shower is December 6, 2026 at 7 PM.” [source: source-packet.md:S002; Document p. 2]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "prior-offer-without-have-to",
+    "source": "S001 | Document p. 1 | Our baby shower is December 6, 2026 at 7 PM; deliver offers by December 7, 2026 at 2 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Our baby shower is December 6, 2026 at 7 PM; deliver offers by December 7, 2026 at 2 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-clinical-baptism",
+    "source": "S001 | Document p. 1 | Our patient baptism ceremony is December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Our patient baptism ceremony is December 6, 2026 at 7 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-mandatory-shower",
+    "source": "S001 | Document p. 1 | Our baby shower attendance is mandatory on December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Our baby shower attendance is mandatory on December 6, 2026 at 7 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-ambiguous-meeting",
+    "source": "S001 | Document p. 1 | Our meeting is December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Our meeting is December 6, 2026 at 7 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-explicit-reset",
+    "source": "S001 | Document p. 1 | Companies have to attend the following events:\nS002 | Document p. 2 | Private correspondence:\nS003 | Document p. 3 | My baby shower is December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Companies have to attend the following events:” [source: source-packet.md:S001; Document p. 1]\n- “Private correspondence:” [source: source-packet.md:S002; Document p. 2]\n- “My baby shower is December 6, 2026 at 7 PM.” [source: source-packet.md:S003; Document p. 3]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S003"
+  },
+  {
+    "name": "prior-unknown-no-reset",
+    "source": "S001 | Document p. 1 | Companies have to attend the following events:\nS002 | Document p. 2 | Unrelated note\nS003 | Document p. 3 | My baby shower is December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Companies have to attend the following events:” [source: source-packet.md:S001; Document p. 1]\n- “Unrelated note” [source: source-packet.md:S002; Document p. 2]\n- “My baby shower is December 6, 2026 at 7 PM.” [source: source-packet.md:S003; Document p. 3]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S003"
+  },
+  {
+    "name": "prior-private-baptism",
+    "source": "S001 | Document p. 1 | My daughter’s baptism is December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “My daughter’s baptism is December 6, 2026 at 7 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S001"
+  },
+  {
+    "name": "prior-private-shower",
+    "source": "S001 | Document p. 1 | Our baby shower is December 6, 2026 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Our baby shower is December 6, 2026 at 7 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S001"
+  },
+  {
+    "name": "red-are-to",
+    "source": "S001 | Document p. 1 | All companies are to attend the following events:\nS002 | Document p. 2 | Our farewell dinner is January 5, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “All companies are to attend the following events:” [source: source-packet.md:S001; Document p. 1]\n- “Our farewell dinner is January 5, 2027 at 7 PM.” [source: source-packet.md:S002; Document p. 2]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "red-condition-of-entry",
+    "source": "S001 | Document p. 1 | Attendance at the following activities is a condition of entry:\nS002 | Document p. 2 | Our farewell dinner is January 5, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Attendance at the following activities is a condition of entry:” [source: source-packet.md:S001; Document p. 1]\n- “Our farewell dinner is January 5, 2027 at 7 PM.” [source: source-packet.md:S002; Document p. 2]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "red-will-be-expected",
+    "source": "S001 | Document p. 1 | All companies will be expected to attend the following events:\nS002 | Document p. 2 | Our farewell dinner is January 5, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “All companies will be expected to attend the following events:” [source: source-packet.md:S001; Document p. 1]\n- “Our farewell dinner is January 5, 2027 at 7 PM.” [source: source-packet.md:S002; Document p. 2]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "red-known-have-to",
+    "source": "S001 | Document p. 1 | All companies have to attend the following events:\nS002 | Document p. 2 | Our farewell dinner is January 5, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “All companies have to attend the following events:” [source: source-packet.md:S001; Document p. 1]\n- “Our farewell dinner is January 5, 2027 at 7 PM.” [source: source-packet.md:S002; Document p. 2]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "red-mixed-offers-to-reach",
+    "source": "S001 | Document p. 1 | Our farewell dinner is January 6, 2027 at 7 PM; offers are to reach the office by January 7, 2027 at 2 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Our farewell dinner is January 6, 2027 at 7 PM; offers are to reach the office by January 7, 2027 at 2 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S001"
+  },
+  {
+    "name": "red-private-have-to",
+    "source": "S001 | Document p. 1 | I have to attend my daughter’s birthday dinner on January 9, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “I have to attend my daughter’s birthday dinner on January 9, 2027 at 7 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S001"
+  },
+  {
+    "name": "red-private-obligation-pollutes-context",
+    "source": "S001 | Document p. 1 | I have to attend my daughter’s birthday dinner on January 9, 2027 at 7 PM.\nS002 | Document p. 2 | My graduation ceremony is January 10, 2027 at 2 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “I have to attend my daughter’s birthday dinner on January 9, 2027 at 7 PM.” [source: source-packet.md:S001; Document p. 1]\n- “My graduation ceremony is January 10, 2027 at 2 PM.” [source: source-packet.md:S002; Document p. 2]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S002"
+  },
+  {
+    "name": "red-private-negated-have-to",
+    "source": "S001 | Document p. 1 | I do not have to attend our family dinner on January 13, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “I do not have to attend our family dinner on January 13, 2027 at 7 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S001"
+  },
+  {
+    "name": "red-christening",
+    "source": "S001 | Document p. 1 | My child’s christening ceremony is January 11, 2027 at 11 AM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “My child’s christening ceremony is January 11, 2027 at 11 AM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S001"
+  },
+  {
+    "name": "red-bridal-shower",
+    "source": "S001 | Document p. 1 | My bridal shower is January 12, 2027 at 3 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “My bridal shower is January 12, 2027 at 3 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S001"
+  },
+  {
+    "name": "red-known-baptism",
+    "source": "S001 | Document p. 1 | My child’s baptism ceremony is January 11, 2027 at 11 AM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “My child’s baptism ceremony is January 11, 2027 at 11 AM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S001"
+  },
+  {
+    "name": "red-clinical-guard",
+    "source": "S001 | Document p. 1 | Our patients are to attend the following events:\nS002 | Document p. 2 | Our farewell dinner is January 5, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Our patients are to attend the following events:” [source: source-packet.md:S001; Document p. 1]\n- “Our farewell dinner is January 5, 2027 at 7 PM.” [source: source-packet.md:S002; Document p. 2]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "red-private-reset-control",
+    "source": "S001 | Document p. 1 | Companies have to attend the following events:\nS002 | Document p. 2 | Private correspondence:\nS003 | Document p. 3 | My graduation ceremony is January 10, 2027 at 2 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Companies have to attend the following events:” [source: source-packet.md:S001; Document p. 1]\n- “Private correspondence:” [source: source-packet.md:S002; Document p. 2]\n- “My graduation ceremony is January 10, 2027 at 2 PM.” [source: source-packet.md:S003; Document p. 3]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S003"
+  },
+  {
+    "name": "red-exact-opaque-anchors",
+    "source": "S001 | Annex Ω p.⁠12 §IV(a) | Applicants must include a signed conflict disclosure.\nS002 | Annex Ω p.‎12 §IV(a) | Applicants must include a signed conflict disclosure.\nS003 | Annexé p. 12 §IV(a) | Applicants must include a signed conflict disclosure.\nS004 | Annex E p. 12 &amp; exhibit A | Applicants must include a signed conflict disclosure.\nS005 | Annex E p. 12 item non‑public | Applicants must include a signed conflict disclosure.\nS006 | Annex E p. 12 literal \\[B\\] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Annex Ω p.⁠12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Annex Ω p.‎12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annexé p. 12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex E p. 12 &amp; exhibit A]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Annex E p. 12 item non‑public]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Annex E p. 12 literal \\[B\\]]\n",
+    "valid": true,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "red-word-joiner-deleted",
+    "source": "S001 | Annex Ω p.⁠12 §IV(a) | Applicants must include a signed conflict disclosure.\nS002 | Annex Ω p.‎12 §IV(a) | Applicants must include a signed conflict disclosure.\nS003 | Annexé p. 12 §IV(a) | Applicants must include a signed conflict disclosure.\nS004 | Annex E p. 12 &amp; exhibit A | Applicants must include a signed conflict disclosure.\nS005 | Annex E p. 12 item non‑public | Applicants must include a signed conflict disclosure.\nS006 | Annex E p. 12 literal \\[B\\] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Annex Ω p.12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Annex Ω p.‎12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annexé p. 12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex E p. 12 &amp; exhibit A]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Annex E p. 12 item non‑public]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Annex E p. 12 literal \\[B\\]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "red-ltr-mark-deleted",
+    "source": "S001 | Annex Ω p.⁠12 §IV(a) | Applicants must include a signed conflict disclosure.\nS002 | Annex Ω p.‎12 §IV(a) | Applicants must include a signed conflict disclosure.\nS003 | Annexé p. 12 §IV(a) | Applicants must include a signed conflict disclosure.\nS004 | Annex E p. 12 &amp; exhibit A | Applicants must include a signed conflict disclosure.\nS005 | Annex E p. 12 item non‑public | Applicants must include a signed conflict disclosure.\nS006 | Annex E p. 12 literal \\[B\\] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Annex Ω p.⁠12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Annex Ω p.12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annexé p. 12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex E p. 12 &amp; exhibit A]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Annex E p. 12 item non‑public]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Annex E p. 12 literal \\[B\\]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "red-accent-composed",
+    "source": "S001 | Annex Ω p.⁠12 §IV(a) | Applicants must include a signed conflict disclosure.\nS002 | Annex Ω p.‎12 §IV(a) | Applicants must include a signed conflict disclosure.\nS003 | Annexé p. 12 §IV(a) | Applicants must include a signed conflict disclosure.\nS004 | Annex E p. 12 &amp; exhibit A | Applicants must include a signed conflict disclosure.\nS005 | Annex E p. 12 item non‑public | Applicants must include a signed conflict disclosure.\nS006 | Annex E p. 12 literal \\[B\\] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Annex Ω p.⁠12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Annex Ω p.‎12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annexé p. 12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex E p. 12 &amp; exhibit A]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Annex E p. 12 item non‑public]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Annex E p. 12 literal \\[B\\]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "red-entity-decoded",
+    "source": "S001 | Annex Ω p.⁠12 §IV(a) | Applicants must include a signed conflict disclosure.\nS002 | Annex Ω p.‎12 §IV(a) | Applicants must include a signed conflict disclosure.\nS003 | Annexé p. 12 §IV(a) | Applicants must include a signed conflict disclosure.\nS004 | Annex E p. 12 &amp; exhibit A | Applicants must include a signed conflict disclosure.\nS005 | Annex E p. 12 item non‑public | Applicants must include a signed conflict disclosure.\nS006 | Annex E p. 12 literal \\[B\\] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Annex Ω p.⁠12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Annex Ω p.‎12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annexé p. 12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex E p. 12 & exhibit A]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Annex E p. 12 item non‑public]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Annex E p. 12 literal \\[B\\]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "red-hyphen-normalized",
+    "source": "S001 | Annex Ω p.⁠12 §IV(a) | Applicants must include a signed conflict disclosure.\nS002 | Annex Ω p.‎12 §IV(a) | Applicants must include a signed conflict disclosure.\nS003 | Annexé p. 12 §IV(a) | Applicants must include a signed conflict disclosure.\nS004 | Annex E p. 12 &amp; exhibit A | Applicants must include a signed conflict disclosure.\nS005 | Annex E p. 12 item non‑public | Applicants must include a signed conflict disclosure.\nS006 | Annex E p. 12 literal \\[B\\] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Annex Ω p.⁠12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Annex Ω p.‎12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annexé p. 12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex E p. 12 &amp; exhibit A]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Annex E p. 12 item non-public]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Annex E p. 12 literal \\[B\\]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "red-backslashes-deleted",
+    "source": "S001 | Annex Ω p.⁠12 §IV(a) | Applicants must include a signed conflict disclosure.\nS002 | Annex Ω p.‎12 §IV(a) | Applicants must include a signed conflict disclosure.\nS003 | Annexé p. 12 §IV(a) | Applicants must include a signed conflict disclosure.\nS004 | Annex E p. 12 &amp; exhibit A | Applicants must include a signed conflict disclosure.\nS005 | Annex E p. 12 item non‑public | Applicants must include a signed conflict disclosure.\nS006 | Annex E p. 12 literal \\[B\\] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S001; Annex Ω p.⁠12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S002; Annex Ω p.‎12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S003; Annexé p. 12 §IV(a)]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S004; Annex E p. 12 &amp; exhibit A]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S005; Annex E p. 12 item non‑public]\n- “Applicants must include a signed conflict disclosure.” [source: source-packet.md:S006; Annex E p. 12 literal [B]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "red-quote-word-joiner-inserted",
+    "source": "S001 | Annex Ω p.⁠12 §IV(a) | Applicants must include a signed conflict disclosure.\nS002 | Annex Ω p.‎12 §IV(a) | Applicants must include a signed conflict disclosure.\nS003 | Annexé p. 12 §IV(a) | Applicants must include a signed conflict disclosure.\nS004 | Annex E p. 12 &amp; exhibit A | Applicants must include a signed conflict disclosure.\nS005 | Annex E p. 12 item non‑public | Applicants must include a signed conflict disclosure.\nS006 | Annex E p. 12 literal \\[B\\] | Applicants must include a signed conflict disclosure.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Applicants must include a signed⁠ conflict disclosure.” [source: source-packet.md:S001; Annex Ω p.⁠12 §IV(a)]\n- “Applicants must include a signed⁠ conflict disclosure.” [source: source-packet.md:S002; Annex Ω p.‎12 §IV(a)]\n- “Applicants must include a signed⁠ conflict disclosure.” [source: source-packet.md:S003; Annexé p. 12 §IV(a)]\n- “Applicants must include a signed⁠ conflict disclosure.” [source: source-packet.md:S004; Annex E p. 12 &amp; exhibit A]\n- “Applicants must include a signed⁠ conflict disclosure.” [source: source-packet.md:S005; Annex E p. 12 item non‑public]\n- “Applicants must include a signed⁠ conflict disclosure.” [source: source-packet.md:S006; Annex E p. 12 literal \\[B\\]]\n",
+    "valid": false,
+    "warning": null,
+    "sid": "S001"
+  },
+  {
+    "name": "unknown-event-heading",
+    "source": "S001 | Document p. 1 | Admission depends on attendance at these events:\nS002 | Document p. 2 | Our farewell dinner is February 4, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Admission depends on attendance at these events:” [source: source-packet.md:S001; Document p. 1]\n- “Our farewell dinner is February 4, 2027 at 7 PM.” [source: source-packet.md:S002; Document p. 2]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "private-need-to",
+    "source": "S001 | Document p. 1 | I need to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “I need to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S001"
+  },
+  {
+    "name": "private-need-to-next",
+    "source": "S001 | Document p. 1 | I need to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM.\nS002 | Document p. 2 | My graduation ceremony is February 2, 2027 at 2 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “I need to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM.” [source: source-packet.md:S001; Document p. 1]\n- “My graduation ceremony is February 2, 2027 at 2 PM.” [source: source-packet.md:S002; Document p. 2]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S002"
+  },
+  {
+    "name": "private-mixed-real",
+    "source": "S001 | Document p. 1 | I have to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM; offers are to reach the office by February 2, 2027 at 2 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “I have to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM; offers are to reach the office by February 2, 2027 at 2 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S001"
+  },
+  {
+    "name": "private-mixed-companies",
+    "source": "S001 | Document p. 1 | I have to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM; all companies are to attend our farewell dinner at 8 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “I have to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM; all companies are to attend our farewell dinner at 8 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S001"
+  },
+  {
+    "name": "clinical-self-obligation",
+    "source": "S001 | Document p. 1 | I have to attend my physical therapy appointment for patients on February 1, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “I have to attend my physical therapy appointment for patients on February 1, 2027 at 7 PM.” [source: source-packet.md:S001; Document p. 1]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S001"
+  },
+  {
+    "name": "required-context-self",
+    "source": "S001 | Document p. 1 | Mandatory bidder events:\nS002 | Document p. 2 | I have to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Mandatory bidder events:” [source: source-packet.md:S001; Document p. 1]\n- “I have to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM.” [source: source-packet.md:S002; Document p. 2]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S002"
+  },
+  {
+    "name": "explicit-reset-self",
+    "source": "S001 | Document p. 1 | Mandatory bidder events:\nS002 | Document p. 2 | Private correspondence:\nS003 | Document p. 3 | I have to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Mandatory bidder events:” [source: source-packet.md:S001; Document p. 1]\n- “Private correspondence:” [source: source-packet.md:S002; Document p. 2]\n- “I have to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM.” [source: source-packet.md:S003; Document p. 3]\n",
+    "valid": true,
+    "warning": false,
+    "sid": "S003"
+  },
+  {
+    "name": "mixed-and-deposit",
+    "source": "S001 | Participation instructions | I have to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM and remit the official participation deposit by February 2, 2027 at 2 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “I have to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM and remit the official participation deposit by February 2, 2027 at 2 PM.” [source: source-packet.md:S001; Participation instructions]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S001"
+  },
+  {
+    "name": "mixed-clause-deposit",
+    "source": "S001 | Participation instructions | I have to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM; remit the official participation deposit by February 2, 2027 at 2 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “I have to attend my daughter’s birthday dinner on February 1, 2027 at 7 PM; remit the official participation deposit by February 2, 2027 at 2 PM.” [source: source-packet.md:S001; Participation instructions]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S001"
+  }
+]
