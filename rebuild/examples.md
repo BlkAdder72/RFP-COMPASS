@@ -6,13 +6,15 @@ These pairs show the contract holding on a real notice, a sparse notice and an a
 
 ## Exact anchors with similar source rows
 
-This is a synthetic contract example, not a recorded model run. Two identical statement texts have different anchors. Bind each complete anchor to its own ID; do not choose a cleaner section citation by matching the statement text. In particular, `bullet` below is literal anchor data. Omitting it from the S002 citations would fail validation even though every word of the quotation remained exact. These example statements are never evidence for a new input.
+This is a synthetic contract example, not a recorded model run. Four identical statement texts have different anchors. Bind each complete anchor to its own ID; do not choose a cleaner section citation by matching the statement text. In particular, `bullet` below is literal anchor data. Omitting it from the S002 citations would fail validation even though every word of the quotation remained exact. Single-page and page-range anchors are likewise distinct even under a shared section heading; local paragraph context cannot broaden a statement’s citation. These example statements are never evidence for a new input.
 
 ### Input (source-packet.md)
 
 ```text
 S001 | Harbor notice p. 2 §3 | Applicants must include a signed disclosure form.
 S002 | Harbor notice p. 2 §3 bullet | Applicants must include a signed disclosure form.
+S003 | Harbor notice p. 4 §6 | Applicants must include a signed disclosure form.
+S004 | Harbor notice pp. 4–5 §6 | Applicants must include a signed disclosure form.
 ```
 
 ### Output (bid-compliance-card.md)
@@ -28,9 +30,13 @@ S002 | Harbor notice p. 2 §3 bullet | Applicants must include a signed disclosu
 ## 4. Application stages and submission mechanics stated
 - “Applicants must include a signed disclosure form.” [source: source-packet.md:S001; Harbor notice p. 2 §3]
 - “Applicants must include a signed disclosure form.” [source: source-packet.md:S002; Harbor notice p. 2 §3 bullet]
+- “Applicants must include a signed disclosure form.” [source: source-packet.md:S003; Harbor notice p. 4 §6]
+- “Applicants must include a signed disclosure form.” [source: source-packet.md:S004; Harbor notice pp. 4–5 §6]
 ## 5. Mandatory attachments and forms stated
 - “Applicants must include a signed disclosure form.” [source: source-packet.md:S001; Harbor notice p. 2 §3]
 - “Applicants must include a signed disclosure form.” [source: source-packet.md:S002; Harbor notice p. 2 §3 bullet]
+- “Applicants must include a signed disclosure form.” [source: source-packet.md:S003; Harbor notice p. 4 §6]
+- “Applicants must include a signed disclosure form.” [source: source-packet.md:S004; Harbor notice pp. 4–5 §6]
 ## 6. Dates and events stated
 - not in source
 ## 7. Evaluation stated

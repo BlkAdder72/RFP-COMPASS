@@ -1,0 +1,44 @@
+[
+  {
+    "arm": "original",
+    "label": "exact",
+    "expected_valid": true,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "arm": "original",
+    "label": "swapped-page-range",
+    "expected_valid": false,
+    "exit_code": 1,
+    "passed": true
+  },
+  {
+    "arm": "original",
+    "label": "preserved-S100-failure",
+    "expected_valid": false,
+    "exit_code": 1,
+    "passed": true
+  },
+  {
+    "arm": "rebuild",
+    "label": "exact",
+    "expected_valid": true,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "arm": "rebuild",
+    "label": "swapped-page-range",
+    "expected_valid": false,
+    "exit_code": 1,
+    "passed": true
+  },
+  {
+    "arm": "rebuild",
+    "label": "preserved-S100-failure",
+    "expected_valid": false,
+    "exit_code": 1,
+    "passed": true
+  }
+]
