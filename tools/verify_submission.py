@@ -9,10 +9,12 @@ def run(label,cmd,cwd):
  if r.returncode:print(json.dumps(records,indent=2));raise SystemExit(r.returncode)
 # Historical audits require their historical validator/knowledge. Execute them in a disposable
 # private clone, never by weakening their assertions or rewriting current evidence.
-with tempfile.TemporaryDirectory(prefix='rfp-history-audit-') as temp:
+work=(R/'.run-work').resolve();assert work.is_relative_to(R.resolve());work.mkdir(exist_ok=True)
+with tempfile.TemporaryDirectory(prefix='rfp-history-audit-',dir=work) as temp:
+ assert Path(temp).resolve().is_relative_to(work)
  C=Path(temp)/'sealed'
- run('clone-historical-tree',['git','clone','--quiet','--shared','--no-checkout',str(R),str(C)],R)
- run('checkout-sealed',['git','checkout','--quiet','--detach','157d8fe22339ce5385b8291728c48f7141840206'],C)
+ run('clone-historical-tree',['git','-c','core.longpaths=true','clone','--quiet','--shared','--no-checkout',str(R),str(C)],R)
+ run('checkout-sealed',['git','-c','core.longpaths=true','checkout','--quiet','--detach','157d8fe22339ce5385b8291728c48f7141840206'],C)
  run('historical-offline-audit',[sys.executable,'-B','-X','utf8','tools/verify_submission.py'],C)
 run('current-repair-audit',[sys.executable,'-B','-X','utf8','final-repair/verify.py'],R)
 print(json.dumps({'offline_audit':'PASS','real_model_calls':0,'published':False,'checks':records},indent=2))

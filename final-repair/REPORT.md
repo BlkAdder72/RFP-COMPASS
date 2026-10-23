@@ -91,4 +91,6 @@ Historical audits run against the sealed historical commit in a disposable local
 
 ## Local delivery
 
-The updated source archive and complete-history Git bundle are sealed under `dist/final-repair/`, with SHA256SUMS, release commit and fresh-clone verification alongside them. Earlier delivery files remain untouched. The source ZIP excludes `.git` as usual; use the bundle for the complete sequence/history. The report and new evidence are included in the new release. No publication is authorized or performed.
+The updated source archive and complete-history Git bundle are sealed under `dist/final-repair-verified/`, with SHA256SUMS, release commit and fresh-clone verification alongside them. Earlier delivery files remain untouched. The source ZIP excludes `.git` as usual; use the bundle for the complete sequence/history. The report and new evidence are included in the new release. No publication is authorized or performed.
+
+The first delivery attempt passed source/archive bytes, pristine clone bytes and preflights, but its offline audit could not create a historical scratch clone in the sandbox system temp directory. That failed delivery and raw error are preserved under `dist/final-repair/` and `final-repair/delivery-attempt-1/`. The audit now uses a verified workspace scratch path; no test assertion or model result changed. Current delivery is `dist/final-repair-verified/`.

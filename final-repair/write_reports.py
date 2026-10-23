@@ -87,7 +87,7 @@ Historical audits run against the sealed historical commit in a disposable local
 
 ## Local delivery
 
-The updated source archive and complete-history Git bundle are sealed under `dist/final-repair/`, with SHA256SUMS, release commit and fresh-clone verification alongside them. Earlier delivery files remain untouched. The source ZIP excludes `.git` as usual; use the bundle for the complete sequence/history. The report and new evidence are included in the new release. No publication is authorized or performed.
+The updated source archive and complete-history Git bundle are sealed under `dist/final-repair-verified/`, with SHA256SUMS, release commit and fresh-clone verification alongside them. Earlier delivery files remain untouched. The source ZIP excludes `.git` as usual; use the bundle for the complete sequence/history. The report and new evidence are included in the new release. No publication is authorized or performed.
 '''
 for p in [D/'REPORT.md',R/'results.md']:p.write_text(report,encoding='utf-8',newline='\n')
 (R/'README.md').write_text('''# RFP-COMPASS — Competition 15: The Rebuild
@@ -110,7 +110,7 @@ Current repair: required response information is checked for Section 5, graduati
 | Previous red-team findings, including S076 regression | `red-team-citations/REPORT.md` |
 | Previous citation failures and repairs | `citation-repair/`, `hardening/`, earlier `run-ARM/` folders |
 | Earlier complete audit trail | `revision/`, `repair/`, `supplemental/`, `history/`, `packaging/` |
-| Updated local ZIP and complete-history bundle | `dist/final-repair/` (local delivery; not source-tracked) |
+| Updated local ZIP and complete-history bundle | `dist/final-repair-verified/` (local delivery; not source-tracked) |
 
 Offline audit from a Git clone: `python -B -X utf8 tools/verify_submission.py`. It runs historical assertions in a disposable clone of their sealed commit, then checks current repair evidence. It calls no model. Fresh controlled runs: `tools/run_arm.py` for core/new sources and `hardening/run_full.py` for the full fixture; always choose new output directories. Authentication/model access is required for real reruns. The stored trials prohibit tools and record any violations.
 
@@ -129,7 +129,7 @@ The current raw full-length rebuilt run is copied byte-for-byte to `run-results/
 
 No publication performed. Current performance and limitations: `final-repair/REPORT.md` and root `results.md`. The new full-length pair checks S076 prospectively as well as every citation. Strict validation replaces the earlier visible-character tolerance; original remains untouched.
 
-Required root layout, original pin, verbatim feedback, frozen questions, original-before-rebuild sequence and all historical raw failures remain preserved. Historical audits execute against their sealed commit; current evidence is independently audited by `final-repair/verify.py`. The local updated release is `dist/final-repair/`; earlier delivery hashes remain unchanged.
+Required root layout, original pin, verbatim feedback, frozen questions, original-before-rebuild sequence and all historical raw failures remain preserved. Historical audits execute against their sealed commit; current evidence is independently audited by `final-repair/verify.py`. The local updated release is `dist/final-repair-verified/`; earlier delivery hashes remain unchanged.
 
 Premium/VIP eligibility remains unverified. Public URL/comment remain pending. Use the release's FINAL_VERIFICATION.json for actual delivery-check status, not this narrative alone.
 ''',encoding='utf-8',newline='\n')

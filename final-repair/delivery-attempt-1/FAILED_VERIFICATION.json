@@ -1,0 +1,159 @@
+[
+  {
+    "label": "bundle-create",
+    "command": [
+      "git",
+      "bundle",
+      "create",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\final-repair\\RFP-COMPASS-Comp15.bundle",
+      "--all"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "bundle-verify",
+    "command": [
+      "git",
+      "bundle",
+      "verify",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\final-repair\\RFP-COMPASS-Comp15.bundle"
+    ],
+    "exit_code": 0,
+    "stdout": "The bundle contains these 5 refs:\nc428c49a1aacb8b444e03bdd7dd98786cde1e14d refs/codex/turn-diffs/captures/1792776134225/28fb8806-b85a-4ad1-976a-3f2ec05c1bea/base\n4f55b3f75be8619943068f10aaf899f4fe008231 refs/codex/turn-diffs/checkpoints/6153f9bd4c217502ac723a831fa3d486/b4979decb7c5086bdbc95665bb0fa217/1792705050396/7faa0481-255a-4fc0-9871-5c65084afc11\n4222f352ebafe0e0c3466df92ff354d6d8af8c43 refs/heads/master\n92847d2a17250fa18914d932826db63d99dcb75c refs/tags/judged-original-comp13\n4222f352ebafe0e0c3466df92ff354d6d8af8c43 HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+    "stderr": "C:/Users/mmazu/OneDrive/Documents/ChatGPT/Competition 15/dist/final-repair/RFP-COMPASS-Comp15.bundle is okay\n"
+  },
+  {
+    "label": "archive-create",
+    "command": [
+      "git",
+      "archive",
+      "--format=zip",
+      "--prefix=RFP-COMPASS-Comp15/",
+      "--output=C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\final-repair\\RFP-COMPASS-Comp15-source.zip",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "fresh-clone",
+    "command": [
+      "git",
+      "clone",
+      "--quiet",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\final-repair\\RFP-COMPASS-Comp15.bundle",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\final-repair\\verification-clone"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "sealed-head",
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "stdout": "4222f352ebafe0e0c3466df92ff354d6d8af8c43\n",
+    "stderr": ""
+  },
+  {
+    "label": "pristine-clone-byte-check",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "packaging/verify_index.py"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: 10313 staged files match exact working bytes.\n",
+    "stderr": ""
+  },
+  {
+    "label": "preflight-core-original",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "tools/run_arm.py",
+      "original",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\final-repair\\verification-clone\\dist\\unused-core-original",
+      "--preflight-only"
+    ],
+    "exit_code": 0,
+    "stdout": "PREFLIGHT PASS: executable/flags, knowledge, fixtures, and new output path. No model call or writes. Authentication/model access will be tested by the first real trial.\n",
+    "stderr": ""
+  },
+  {
+    "label": "preflight-full-original",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "hardening/run_full.py",
+      "original",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\final-repair\\verification-clone\\dist\\unused-full-original",
+      "--preflight-only"
+    ],
+    "exit_code": 0,
+    "stdout": "PREFLIGHT PASS; no writes or model calls\n",
+    "stderr": "WARNING: failed to clean up stale arg0 temp dirs: Access is denied. (os error 5)\nWARNING: proceeding, even though we could not create PATH aliases: Access is denied. (os error 5) at path \"C:\\\\Users\\\\mmazu\\\\.codex\\\\tmp\\\\arg0-windows\\\\codex-arg0rChOjf\"\n"
+  },
+  {
+    "label": "preflight-core-rebuild",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "tools/run_arm.py",
+      "rebuild",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\final-repair\\verification-clone\\dist\\unused-core-rebuild",
+      "--preflight-only"
+    ],
+    "exit_code": 0,
+    "stdout": "PREFLIGHT PASS: executable/flags, knowledge, fixtures, and new output path. No model call or writes. Authentication/model access will be tested by the first real trial.\n",
+    "stderr": ""
+  },
+  {
+    "label": "preflight-full-rebuild",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "hardening/run_full.py",
+      "rebuild",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\final-repair\\verification-clone\\dist\\unused-full-rebuild",
+      "--preflight-only"
+    ],
+    "exit_code": 0,
+    "stdout": "PREFLIGHT PASS; no writes or model calls\n",
+    "stderr": "WARNING: failed to clean up stale arg0 temp dirs: Access is denied. (os error 5)\nWARNING: proceeding, even though we could not create PATH aliases: Access is denied. (os error 5) at path \"C:\\\\Users\\\\mmazu\\\\.codex\\\\tmp\\\\arg0-windows\\\\codex-arg0EUShIH\"\n"
+  },
+  {
+    "label": "portable-offline-audit",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "tools/verify_submission.py"
+    ],
+    "exit_code": 1,
+    "stdout": "[\n  {\n    \"label\": \"clone-historical-tree\",\n    \"exit_code\": 128,\n    \"stdout\": \"\",\n    \"stderr\": \"fatal: could not create work tree dir 'C:\\\\Users\\\\mmazu\\\\AppData\\\\Local\\\\Packages\\\\sandbox.{3020086f-4318-46ae-8090-1356b7132105}\\\\AC\\\\Temp\\\\rfp-history-audit-gpian2ve\\\\sealed': Permission denied\\n\"\n  }\n]\n",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\final-repair\\verification-clone\\tools\\verify_submission.py\", line 14, in <module>\n    run('clone-historical-tree',['git','clone','--quiet','--shared','--no-checkout',str(R),str(C)],R)\n  File \"C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\final-repair\\verification-clone\\tools\\verify_submission.py\", line 9, in run\n    if r.returncode:print(json.dumps(records,indent=2));raise SystemExit(r.returncode)\n                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nSystemExit: 128\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\shutil.py\", line 637, in _rmtree_unsafe\n    os.rmdir(path)\nPermissionError: [WinError 5] Access is denied: 'C:\\\\Users\\\\mmazu\\\\AppData\\\\Local\\\\Packages\\\\sandbox.{3020086f-4318-46ae-8090-1356b7132105}\\\\AC\\\\Temp\\\\rfp-history-audit-gpian2ve'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\final-repair\\verification-clone\\tools\\verify_submission.py\", line 12, in <module>\n    with tempfile.TemporaryDirectory(prefix='rfp-history-audit-') as temp:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\tempfile.py\", line 950, in __exit__\n    self.cleanup()\n  File \"C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\tempfile.py\", line 954, in cleanup\n    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)\n  File \"C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\tempfile.py\", line 934, in _rmtree\n    _shutil.rmtree(name, onexc=onexc)\n  File \"C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\shutil.py\", line 781, in rmtree\n    return _rmtree_unsafe(path, onexc)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\shutil.py\", line 639, in _rmtree_unsafe\n    onexc(os.rmdir, path, err)\n  File \"C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\tempfile.py\", line 906, in onexc\n    _resetperms(path)\n  File \"C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\tempfile.py\", line 286, in _resetperms\n    _dont_follow_symlinks(_os.chmod, path, 0o700)\n  File \"C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\tempfile.py\", line 277, in _dont_follow_symlinks\n    func(path, *args)\nPermissionError: [WinError 5] Access is denied: 'C:\\\\Users\\\\mmazu\\\\AppData\\\\Local\\\\Packages\\\\sandbox.{3020086f-4318-46ae-8090-1356b7132105}\\\\AC\\\\Temp\\\\rfp-history-audit-gpian2ve'\n"
+  }
+]
