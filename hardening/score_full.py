@@ -2,7 +2,8 @@ from pathlib import Path
 import json,re,subprocess,sys
 R=Path(__file__).resolve().parents[1];D=R/'hardening';source=D/'fixtures/Z-full-length-noisy.md'
 expected=json.loads((D/'full-length-expectations.json').read_text(encoding='utf-8'));results={}
-for arm in ('original','rebuild'):
+arms=sys.argv[1:] or ['original','rebuild']
+for arm in arms:
  base=R/('run-'+arm)/'hardening-full';parts=sorted(base.glob('part-*/bid-compliance-card.md'),key=lambda p:int(p.parent.name.split('-')[1]));card=base/'bid-compliance-card.md'
  if not card.exists():
   results[arm]={'complete':False,'parts_retained':len(parts),'passed':False};continue
@@ -19,5 +20,5 @@ for arm in ('original','rebuild'):
  budgets=[sum(l.startswith('- “') or l.startswith('- "') for l in p.read_text(encoding='utf-8').splitlines()) for p in parts]
  checks={'exact_shape_quotes_coverage':r.returncode==0,'all_221_ids':len(positions)==221,'noise_only12':all(noise.values()),'genuine_routing':all(routing.values()),'no_personal_review_hints':not false_hints,'max150_bullets_per_reply':all(n<=150 for n in budgets),'complete':not (base/'incomplete.txt').exists()}
  results[arm]={'checks':checks,'passed':all(checks.values()),'noise_only12':noise,'genuine_routing':routing,'personal_review_hints':false_hints,'parts':len(parts),'bullets_per_part':budgets,'cited_distinct_ids':len(positions),'positions':positions}
-(D/'full-length-results.json').write_text(json.dumps(results,indent=2),encoding='utf-8')
+(D/('full-length-results.json' if len(arms)==2 else 'full-length-results-'+arms[0]+'.json')).write_text(json.dumps(results,indent=2),encoding='utf-8')
 print(json.dumps({a:{k:v for k,v in c.items() if k!='positions'} for a,c in results.items()},indent=2))

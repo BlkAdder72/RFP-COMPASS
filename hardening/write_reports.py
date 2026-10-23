@@ -1,6 +1,7 @@
 from pathlib import Path
 import json,shutil
 R=Path(__file__).resolve().parents[1];D=R/'hardening'
+if (R/'rebuild/run-results/full-length-noisy').exists():raise SystemExit('Refusing existing packaged full-length evidence before any writes')
 full=json.loads((D/'full-length-results.json').read_text(encoding='utf-8'));scores=json.loads((D/'scores.json').read_text(encoding='utf-8'))
 rows=[]
 for q,c in scores['comparisons']['1'].items():rows.append(f"| {q} | {c['original']} | {c['rebuild']} | {c['comparison']} |")
@@ -38,6 +39,7 @@ Fresh persistent session per arm; original first, then rebuild. Same wrapper/mod
 '''+ '\n'.join(fullrows)+'\n\n'
 for arm in ('original','rebuild'):
  r=full[arm];report+=f"{arm.capitalize()}: {r['parts']} replies, {r['bullets_per_part']} quoted bullets per reply, {r['cited_distinct_ids']} distinct cited IDs. Personal REVIEW lines: {len(r['personal_review_hints'])}. Detailed routing and every failed check appear in `hardening/full-length-results.json`.\n\n"
+report+='A zero REVIEW count alone does not prove containment: the original can avoid a missing-section warning by putting the personal statement into that operational section. The separate noise-only-Section-12 check is the decisive routing check.\n\n'
 report+='''## What can still cost the win
 
 - This is a bounded English hint filter. It does not prove semantic routing. A requirement scope can conservatively extend farther than necessary; unrecognized personal activities or headings can still warn. A misleading explicit personal heading can also misrepresent source context. Contextual inference remains reviewable rather than certified.

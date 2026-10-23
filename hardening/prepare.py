@@ -2,6 +2,7 @@
 from pathlib import Path
 import hashlib,json,subprocess,shutil
 R=Path(__file__).resolve().parents[1];D=R/'hardening'
+if (D/'preservation.json').exists():raise SystemExit('Refusing existing preservation manifest before any writes')
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 names=subprocess.check_output(['git','ls-files','-z'],cwd=R).decode().split('\0');names=[n for n in names if n]
 mutable=['rebuild/tools/validate_packet.py','rebuild/README.md','README.md','results.md','packaging/COMPLIANCE.md','tools/verify_submission.py','packaging/final_compliance.py','packaging/final-compliance.json','revision/verify.py','revision/verification.json','SUBMISSION_COMMENT.md']
