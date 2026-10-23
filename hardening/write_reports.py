@@ -42,7 +42,11 @@ Fresh persistent session per arm; original first, then rebuild. Same wrapper/mod
 for arm in ('original','rebuild'):
  r=full[arm];report+=f"{arm.capitalize()}: {r['parts']} replies, {r['bullets_per_part']} quoted bullets per reply, {r['cited_distinct_ids']} distinct cited IDs. Personal REVIEW lines: {len(r['personal_review_hints'])}. Detailed routing and every failed check appear in `hardening/full-length-results.json`.\n\n"
 report+='A zero REVIEW count alone does not prove containment: the original can avoid a missing-section warning by putting the personal statement into that operational section. The separate noise-only-Section-12 check is the decisive routing check.\n\n'
-report+='''## What can still cost the win
+report+='''## Deliberately unchanged
+
+The six translation knowledge files remain byte-identical to the preceding repaired package. The PDF packet builder, trace tool, exact whole-statement quoting contract, twelve-section layout, source-coverage checks and injection resistance were retained. This stage changes the default warning fallback and adds evidence; it does not claim to improve the already-praised PDF conversion or silently rewrite the judged original.
+
+## What can still cost the win
 
 - This is a bounded English hint filter. It does not prove semantic routing. A requirement scope can conservatively extend farther than necessary; unrecognized personal activities or headings can still warn. A misleading explicit personal heading can also misrepresent source context. Contextual inference remains reviewable rather than certified.
 - Mixed relevant/personal content within one source statement is indivisible under exact-quote rules. Relevant placements can carry personal text in that whole quote; no claim that all mixed clauses disappear.
@@ -61,7 +65,7 @@ report+='''## What can still cost the win
 Original judged files, feedback, questions, all previous failures and Git history are retained. No push, public release, submission comment or external message has been sent.
 '''
 (D/'REPORT.md').write_text(report,encoding='utf-8')
-(R/'results.md').write_text(report+'\n\n---\n\n# Preserved preceding stage report\n\n'+(D/'history/results.md').read_text(encoding='utf-8'),encoding='utf-8')
+(R/'results.md').write_text(report+'\n[Preserved preceding stage report](hardening/history/results.md). All earlier reports remain in their stage directories and Git history.\n',encoding='utf-8')
 intro='''# RFP-COMPASS — Competition #15 rebuild
 
 Local candidate; not published. Start with [current results](results.md), [frozen questions](questions.md), and [final hardening evidence](hardening/REPORT.md). The judged original is unchanged under `original/`; verbatim feedback is `feedback.md`; the usable project is under `rebuild/`.
@@ -72,13 +76,13 @@ The final warning repair passes cross-anchor protection and the retained control
 
 ---
 
-## Previous package guide (historical)
+The [previous package guide](hardening/history/README.md) and [previous results](hardening/history/results.md) are preserved as historical evidence. Earlier `revision/`, `repair/`, `supplemental/` and red-team directories retain their original status and failures; use the current report above for release readiness.
 
 '''
-(R/'README.md').write_text(intro+(D/'history/README.md').read_text(encoding='utf-8'),encoding='utf-8')
+(R/'README.md').write_text(intro,encoding='utf-8')
 compliance='''# Current local competition compliance
 
-Publication: NOT PERFORMED. Required layout, judged original, verbatim feedback, frozen eight questions, original-before-rebuild chronology and all evidence are retained. Current candidate adds source-order scope protection and bounded personal-calendar hint fixes. See `hardening/REPORT.md` for fresh comparison results, full-length checks, failed first repair control and residual risks. `tools/verify_submission.py` audits old stages against their preserved code, then current evidence; no old run is silently regenerated. Current validator replay logs use `packaging/final-checks-v3/`.
+Publication: NOT PERFORMED. Required layout, judged original, verbatim feedback, frozen eight questions, original-before-rebuild chronology and all evidence are retained. Current candidate adds source-order scope protection and bounded personal-calendar hint fixes. See `hardening/REPORT.md` for fresh comparison results, full-length checks, failed repair controls and residual risks. `tools/verify_submission.py` audits old stages against their preserved code, then current evidence; no old run is silently regenerated. Current validator replay logs use `packaging/final-checks-v4/`.
 
 The prior package and all prior tracked bytes are accounted for by `hardening/preservation.json`. Current validator logs use `packaging/final-checks-v4/`; intermediate v3 logs remain preserved. Prior local delivery files are retained under `dist/prior-scope-hardening/`. The new source ZIP and history bundle are sealed only after committing current evidence. Ignored local delivery binaries are not required in a Git clone.
 
@@ -90,7 +94,7 @@ Public repository link/comment and Premium/VIP eligibility remain pending. No pu
 '''+(D/'history/rebuild/README.md').read_text(encoding='utf-8'),encoding='utf-8')
 (R/'SUBMISSION_COMMENT.md').write_text('''DRAFT — do not post; replace the placeholder only after publication is authorized.
 
-I rebuilt my Comp #13 Translator entry, RFP-COMPASS: [PUBLIC_REPOSITORY_URL]. The feedback drove clearer personal-thread containment, aligned contract-expectation routing, and default validator repairs, tested on the frozen questions and a complete 221-statement noisy RFP. The repo preserves the judged original, raw paired runs, discovered regressions and failed repair controls, with the fixes and remaining heuristic and mixed-statement limits disclosed.
+I rebuilt my Comp #13 Translator entry, RFP-COMPASS: [PUBLIC_REPOSITORY_URL]. The feedback line that drove it was: “A noisy-input test in `run-results/` showing a stapled thread held in Section 12 only.” The repo preserves the judged original, raw paired runs and a complete 221-statement noisy RFP test, including discovered regressions, failed repair controls, final fixes and the remaining heuristic and mixed-statement limits.
 ''',encoding='utf-8')
 dest=R/'rebuild/run-results/full-length-noisy';assert not dest.exists();dest.mkdir()
 (dest/'.gitattributes').write_text('* -text\n',encoding='utf-8')

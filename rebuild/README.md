@@ -1,3 +1,5 @@
+> Competition #15 current verification: see `../hardening/REPORT.md`. The default validator now protects requirement context across changing citation anchors and clears bounded personal-calendar false hints. Unknown context retains REVIEW hints; structural PASS never proves correct section routing. All historical runs and their limitations remain preserved.
+
 # RFP Compass
 
 ## Competition 15 rebuild

@@ -1,44 +1,74 @@
-# Competition #15 — revised default-workflow results
+# Final warning repair and full-length comparison — 2026-10-23
 
-Unpublished, October 22, 2026. The frozen questions, original entry and all prior evidence remain preserved. The final default workflow now closes Q8 without additional review input. The two runner defects are also repaired and tested.
+Publication remains paused. The cross-anchor warning regression is repaired: requirement context follows source order across lines, paragraphs, pages and documents. Unknown transitions stay protected; an explicit personal-calendar/correspondence heading can end the scope. Anchors never authorize exclusion. Requirements and clinical-service wording veto filtering. Retirement/farewell meals, private medical appointments and explicit meal contributions now clear their false hints when contained only in Section 12.
 
-## Same questions, fresh runs on both versions
+## Fresh frozen-question comparison
 
-Twenty fresh model sessions: five fixture conversions per version, repeated twice. Same prompts, files, order per arm, gpt-6-astra/medium settings and no-tools requirement. No retries or selected best outputs. Q7 is inspected; Q8 executes both default validators on identical frozen evaluator cards with no sidecar. The first original baseline preceded the validator change; the second repeat reversed arm order.
+Same A–E, same order, same six arm-specific files, same exact wrapper, gpt-6-astra/medium. One fresh session per fixture per arm: ten sessions, no retries or tools. Original baseline committed before the validator edit. The translation knowledge itself did not change in this stage. Q7 and Q8 are deterministic checks, not extra model conversations. Q8 uses the default invocation without a sidecar. No frozen questions or expected answers changed.
 
-| Frozen question | Original repeat 1 / 2 | Rebuild repeat 1 / 2 | Comparison |
+| Question | Original | Rebuild | Comparison |
 |---|---|---|---|
-| Q1 Stapled personal thread | Fail / fail | Pass / pass | Improved twice |
-| Q2 Preserve actual requirements | Pass / pass | Pass / pass | Two ties |
-| Q3 Different personal note | Partial / partial | Pass / pass | Improved twice |
-| Q4 Official clarification email | Pass / pass | Pass / pass | Two ties |
-| Q5 Planted instruction boundary | Pass / pass | Pass / pass | Two ties |
-| Q6 S133 explicit rule/placement | Partial / partial | Pass / pass | Improved twice |
-| Q7 Script-built sample provenance | Fail / fail | Pass / pass | Improved twice |
-| Q8 Default false-date/missed-deadline hints | Partial / partial | Pass / pass | Improved twice, no review records |
+| Q1 | fail | pass | improved |
+| Q2 | pass | pass | tied |
+| Q3 | partial | pass | improved |
+| Q4 | pass | pass | tied |
+| Q5 | pass | pass | tied |
+| Q6 | partial | pass | improved |
+| Q7 | fail | pass | improved |
+| Q8 | partial | pass | improved |
 
-Ten improved paired question comparisons and six ties; no regressed scored subcheck. These are not independent samples or a reliability estimate. A produces two question results; Q7/Q8 are file/tool evidence. See [detailed subchecks](revision/scores.json) and the fresh raw arms under [run-original/revision-v2/](run-original/revision-v2/) and [run-rebuild/revision-v2/](run-rebuild/revision-v2/).
+Five improved question results, three ties, no scored regressions in this fresh comparison. These are correlated, known fixtures; no statistical generalization or Claude acceptance claim.
 
-## Each feedback obligation
+## Warning regression and control evidence
 
-- **Fix 1:** the model routes clearly unrelated statements only to Section 12. The default checker now uses affirmative personal activity language in the source, plus Section 12-only placement, with procurement/requirement/context vetoes. Filename words and card placement alone cannot grant suppression. On unchanged Q8 inputs, personal S004 gets no Section 6 REVIEW while misplaced real S002 still does. Ordinary invocation; no operator decisions added to either arm.
-- **Fix 2:** S133 follows the narrow explicit contractual-expectation trigger; examples.md discloses sample 04's script and hand routing list. Its reference-card placement agrees with the rule.
-- **Tier request:** the stapled-thread before/after runs remain shipped. Fresh repeat evidence is in both root arms. Historical rebuilt A/B/C raw trials remain under rebuild/run-results/rebuild-noisy-input/; their six knowledge files match the final rebuild. Those copies are labeled historical, not new sessions.
+The 26 new evaluator-card controls compare identical source/card inputs under both validators. Before repair: original 18/26, prior rebuild 14/26. First repair: rebuild 25/26, with a missed `Mandatory bidder personal calendar:` heading. That failed run and its exact candidate code remain under `hardening/after/` and `hardening/candidates/initial.py`. Final repair: rebuild 26/26; original remains 18/26. The observed eight improvements over original have no final control regressions. The cross-anchor failures remain preserved in `red-team-final/` and `hardening/before/`; they were checker failures on evaluator-built cards, not invented model misroutes.
 
-## What tied, regressed, or remained unchanged
+Six additional adversarial probes were then frozen and run. The intermediate repair passed only 1/6: required-charge, meal, requirements and clinical headings could still lose their warnings. These five regressions are preserved under `hardening/guards-before/` with the exact candidate in `candidates/second.py`. The final repair protects explicit requirement headings and clinical appointment context as well as event headers: 6/6 additional probes and all 26 earlier controls pass (32/32 total), versus original 23/32, with no final control regressions. This additional checker-only repair occurred during the full-length model trial; the model knowledge and prompts remained unchanged. Raw model responses were not rerun or selected in response to these tool checks.
 
-Preserving real requirements, official clarifications and injection boundaries already worked in the original and tied. Prior stress testing found a validator regression and the first repair required extra review input; both findings and outputs remain visible in historical reports. The new default repair supersedes the assisted-only closure, rather than rewriting that result.
+All 51 prior default/structural/duplicate controls meet current declared expectations under the final checker; all 92 archived-card/reference structural replays pass. One prior expectation deliberately changes: “Please bring $30 for lunch” contained only in Section 12 now clears its money hint. Its old warning expectation remains untouched in the revision evidence. Genuine fees, contacts, mixed requirements and operational duplicates retain warnings. A plain “our lunch,” an unknown meeting, and an uncertain transition remain conservative warnings. Intermediate and final replays occupy separate directories; Q8-final and validation-final logs preserve the earlier Q8-default and validation logs.
 
-The filter is a bounded, primarily English heuristic. Ambiguous statements keep conservative hints; generic lunch money still triggers a Section 8 hint. Personal-looking content that implies a genuine requirement without detectable language/context can still be misclassified. Conversely, personal wording mentioning obligations may keep a false warning. No universal semantic classifier, authenticated authority check or legal-correctness claim is made.
+## Full-length noisy RFP
 
-Whole-statement quotation remains unchanged: a genuine requirement combined with a personal clause in one indivisible statement retains both operationally. The twelve headings, exact source quotation, full coverage, no-advice boundary, conflict preservation, PDF tools and historical sample cards remain. The six model knowledge files did not change during this revision. No new full-PDF corpus/model run is claimed.
+The fixture preserves every byte of the existing 214-statement TBRPC packet before appending seven synthetic calendar statements, for 221 statements. Original PDF and its historical trace evidence remain unchanged. The seven new statements trace to retained `hardening/calendar.txt`; they are not part of that PDF. This run tests a complete known RFP with synthetic noise, not a new real-world holdout or a new end-to-end PDF conversion.
 
-## Other checks and preservation
+Fresh persistent session per arm; original first, then rebuild. Same wrapper/model/settings; exact `continue` in the returned session ID whenever the model emits the required marker. Every request, raw event, stderr, command, model part and combined unedited card is retained. The final validator receives the actual parts in order. No transcript repairs, output compression, best-of selection or tool use.
 
-Seven model-free runner checks passed: refusal before mutation, exclusive destinations/metadata, portable executable selection and workspace creation. The corrected default checker suite passed 51/51; both validators structurally replayed 42 historical model cards and four samples (92 checks). Fake CLI outputs and evaluator cards are not model evidence. One initial adversarial assertion incorrectly required a date hint after missing headings caused early structural rejection; its 50/51 record is preserved, corrected criteria are documented, and no validator/frozen question changed to satisfy it.
+| Full-length check | Original | Rebuild |
+|---|---|---|
+| exact_shape_quotes_coverage | True | False |
+| all_221_ids | True | True |
+| noise_only12 | False | True |
+| genuine_routing | True | True |
+| no_personal_review_hints | True | False |
+| max150_bullets_per_reply | True | True |
+| complete | True | True |
 
-All 2,756 pre-revision tracked files are protected by the revision manifest. Modified current files were preserved in revision/history/; every other earlier file, raw score, question and report remains in place. Git history and judged-original-comp13 at 92847d2a17250fa18914d932826db63d99dcb75c remain. Prior sealed artifacts are retained separately when the replacement package is created.
+Original: 4 replies, [93, 109, 95, 148] quoted bullets per reply, 221 distinct cited IDs. Personal REVIEW lines: 0. Detailed routing and every failed check appear in `hardening/full-length-results.json`.
 
-Host system context is not held byte-identical, and the tests use disclosed synthetic inputs and Codex rather than Claude. Two repeats and 62 total recorded model responses (42 prior plus 20 fresh) do not establish statistical confidence, independent blind validation or cost/latency superiority.
+Rebuild: 4 replies, [96, 69, 130, 141] quoted bullets per reply, 221 distinct cited IDs. Personal REVIEW lines: 3. Detailed routing and every failed check appear in `hardening/full-length-results.json`.
 
-See [the resolution report](revision/report.md), [initial assertion correction](revision/TEST_CORRECTION.md), [red-team findings](red-team/REPORT.md), [supplemental results](supplemental/results.md), [earlier repair](repair/report.md) and [previous packaged results](revision/history/results.md). Run `python tools/verify_submission.py` for the current portable audit. Nothing has been published; public URL and Premium/VIP eligibility remain external gates.
+A zero REVIEW count alone does not prove containment: the original can avoid a missing-section warning by putting the personal statement into that operational section. The separate noise-only-Section-12 check is the decisive routing check.
+
+## Deliberately unchanged
+
+The six translation knowledge files remain byte-identical to the preceding repaired package. The PDF packet builder, trace tool, exact whole-statement quoting contract, twelve-section layout, source-coverage checks and injection resistance were retained. This stage changes the default warning fallback and adds evidence; it does not claim to improve the already-praised PDF conversion or silently rewrite the judged original.
+
+## What can still cost the win
+
+- This is a bounded English hint filter. It does not prove semantic routing. A requirement scope can conservatively extend farther than necessary; unrecognized personal activities or headings can still warn. A misleading explicit personal heading can also misrepresent source context. Contextual inference remains reviewable rather than certified.
+- Mixed relevant/personal content within one source statement is indivisible under exact-quote rules. Relevant placements can carry personal text in that whole quote; no claim that all mixed clauses disappear.
+- The complete RFP and deterministic cases are known, synthetic-noise tests. One new paired run does not establish broad reliability, statistical superiority, latency or cost advantage. Earlier Claude results are historical, not fresh acceptance of this repair.
+- Evidence is extensive. Start with this report and the portable verifier; older stages deliberately retain failures and superseded reports. Historical pass counts are not a claim the superseded candidate had no bugs.
+- Premium/VIP eligibility remains unverified. A public submission link and the platform comment are pending explicit publication authorization. The brief's deadline remains Wednesday October 28, 11:59 PM EST as written.
+
+## Evidence and provenance
+
+- `hardening/protocol.md`, `preservation.json`, frozen test definitions and full-length expectations precede the repair/trials in Git.
+- `run-original/hardening/`, `run-rebuild/hardening/`: fresh A–E exact requests and raw model evidence; default Q8 command/output evidence.
+- `run-original/hardening-full/`, `run-rebuild/hardening-full/`: complete session continuation evidence.
+- `hardening/before/`, `after/`, `after-v2/`, `prior-controls/`, `replays/`: model-free tool checks; never counted as model translations.
+- `hardening/verification.json`, `packaging/final-compliance.json`: offline preservation, raw-event, sequence and current validation audits.
+
+Original judged files, feedback, questions, all previous failures and Git history are retained. No push, public release, submission comment or external message has been sent.
+
+[Preserved preceding stage report](hardening/history/results.md). All earlier reports remain in their stage directories and Git history.

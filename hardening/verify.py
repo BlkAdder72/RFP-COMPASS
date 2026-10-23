@@ -10,11 +10,16 @@ for n,h in manifest['files'].items():
  assert sha(p)==h,'Prior evidence changed: '+n
 artifact_count=0;absent_artifacts=[]
 for n,h in manifest['artifacts'].items():
- candidates=[R/'dist/prior-scope-hardening'/n,R/'dist'/n]
- found=next((p for p in candidates if p.is_file() and sha(p)==h),None)
- if found:artifact_count+=1
+ archived=R/'dist/prior-scope-hardening'/n;current=R/'dist'/n
+ if archived.is_file():
+  assert sha(archived)==h,'Prior delivery changed: '+n
+  artifact_count+=1
+ elif current.is_file() and sha(current)==h:artifact_count+=1
  else:absent_artifacts.append(n)
 assert subprocess.check_output(['git','show','bfdd812:questions.md'],cwd=R)==(R/'questions.md').read_bytes()
+for name in ['hardening/check_cases.py','hardening/protocol.md','hardening/full-length-expectations.json','hardening/fixtures/Z-full-length-noisy.md','hardening/calendar.txt']:
+ assert subprocess.check_output(['git','show','531f3f5:'+name],cwd=R)==(R/name).read_bytes(),'Frozen challenge changed: '+name
+assert subprocess.check_output(['git','show','0686922:hardening/guard_probes.py'],cwd=R)==(D/'guard_probes.py').read_bytes()
 assert (R/'tools/run_arm.py').read_bytes()==(R/'revision/runner_source.py').read_bytes()
 assert (R/'rebuild/tools/validate_packet.py').read_bytes()==(D/'candidates/final.py').read_bytes()
 spec=importlib.util.spec_from_file_location('runner',R/'tools/run_arm.py');runner=importlib.util.module_from_spec(spec);spec.loader.exec_module(runner)
@@ -35,6 +40,10 @@ for arm in ('original','rebuild'):
  assert env['fixture_order']==[p.name for p in sorted((R/'fixtures').glob('*.md'))]
  for n,h in env['knowledge_sha256'].items():assert sha(R/arm/n)==h
  for fixture in sorted((R/'fixtures').glob('*.md')):audit(base/fixture.stem,runner.request(R,arm,fixture))
+ for kind,sid,want in [('contained','S004',arm=='original'),('missed-deadline','S002',True)]:
+  box=base/'Q8-final';cmd=json.loads((box/(kind+'-command.json')).read_text(encoding='utf-8'));assert '--reviewed-exclusions' not in cmd
+  stdout=(box/(kind+'-stdout.txt')).read_text(encoding='utf-8')
+  assert any('REVIEW' in l and 'Section 6' in l and sid in l for l in stdout.splitlines())==want
  full=R/('run-'+arm)/'hardening-full';env=json.loads((full/'environment.json').read_text(encoding='utf-8'))
  assert env['fixture_sha256']==sha(D/'fixtures/Z-full-length-noisy.md')
  for n,h in env['knowledge_sha256'].items():assert sha(R/arm/n)==h
