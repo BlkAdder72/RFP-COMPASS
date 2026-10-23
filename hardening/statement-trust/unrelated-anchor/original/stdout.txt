@@ -1,0 +1,4 @@
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\unrelated-anchor\card.md: S004 look like dates or times but are not in Section 6; confirm that is intended
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\unrelated-anchor\card.md: Section 8 says `not in source`, but S007 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\unrelated-anchor\card.md: ## 6. Dates and events stated: anchor for S002 does not match the packet

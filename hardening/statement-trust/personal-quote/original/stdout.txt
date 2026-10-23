@@ -1,0 +1,4 @@
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\personal-quote\card.md: S004 look like dates or times but are not in Section 6; confirm that is intended
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\personal-quote\card.md: Section 8 says `not in source`, but S007 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\personal-quote\card.md: ## 12. Unmapped source evidence: quotation does not match S004 at character 42: packet …s Friday, December 11, 2026, at 12:00 PM… card …s Friday, December 12, 2026, at 12:00 PM…

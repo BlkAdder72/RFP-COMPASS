@@ -1,0 +1,98 @@
+[
+  {
+    "label": "required-charges",
+    "arm": "original",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "label": "required-charges",
+    "arm": "rebuild",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "3bffb27a182fcd90abca7a9d20f1cd3e4121da540e0efc9fbde1576f0c94d2e9"
+  },
+  {
+    "label": "mandatory-meals",
+    "arm": "original",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "label": "mandatory-meals",
+    "arm": "rebuild",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "3bffb27a182fcd90abca7a9d20f1cd3e4121da540e0efc9fbde1576f0c94d2e9"
+  },
+  {
+    "label": "uppercase-meal",
+    "arm": "original",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "label": "uppercase-meal",
+    "arm": "rebuild",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "3bffb27a182fcd90abca7a9d20f1cd3e4121da540e0efc9fbde1576f0c94d2e9"
+  },
+  {
+    "label": "requirements",
+    "arm": "original",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "label": "requirements",
+    "arm": "rebuild",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "3bffb27a182fcd90abca7a9d20f1cd3e4121da540e0efc9fbde1576f0c94d2e9"
+  },
+  {
+    "label": "clinical-header",
+    "arm": "original",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "label": "clinical-header",
+    "arm": "rebuild",
+    "expected": true,
+    "observed": true,
+    "passed": true,
+    "validator_sha256": "3bffb27a182fcd90abca7a9d20f1cd3e4121da540e0efc9fbde1576f0c94d2e9"
+  },
+  {
+    "label": "private-reset",
+    "arm": "original",
+    "expected": false,
+    "observed": true,
+    "passed": false,
+    "validator_sha256": "8a5539c16a4770ab0acd8d65422b9749422464f3af8f0fbf8aab5830c567a654"
+  },
+  {
+    "label": "private-reset",
+    "arm": "rebuild",
+    "expected": false,
+    "observed": false,
+    "passed": true,
+    "validator_sha256": "3bffb27a182fcd90abca7a9d20f1cd3e4121da540e0efc9fbde1576f0c94d2e9"
+  }
+]

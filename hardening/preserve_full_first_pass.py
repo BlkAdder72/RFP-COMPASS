@@ -7,5 +7,5 @@ for arm in ('original','rebuild'):
 for n in names:
  p=O/n;p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(R/n,p)
 shutil.copyfile(R/'rebuild/tools/validate_packet.py',D/'candidates/third.py')
-(O/'README.md').write_text('First-pass complete paired full-length test: original exact structure PASS, six personal leaks; rebuild all personal only12 but S072 anchor wrong in two citations. Both FAIL cases and reports preserved before separating personal hint trust by statement. The earlier combined audit correctly refused its then-assumption that the full rebuilt card passed. No raw model response is repaired or retried.\n',encoding='utf-8')
+(O/'AUDIT-NOTE.md').write_text('First-pass complete paired full-length test: original exact structure PASS, six personal leaks; rebuild all personal only12 but S072 anchor wrong in two citations. Both FAIL cases and reports preserved before separating personal hint trust by statement. The earlier combined audit correctly refused its then-assumption that the full rebuilt card passed. No raw model response is repaired or retried.\n',encoding='utf-8')
 (O/'hashes.json').write_text(json.dumps({n:hashlib.sha256((R/n).read_bytes()).hexdigest() for n in names},indent=2),encoding='utf-8')

@@ -1,4 +1,4 @@
-> Competition #15 current verification: see `../hardening/REPORT.md`. The default validator now protects requirement context across changing citation anchors and clears bounded personal-calendar false hints. Unknown context retains REVIEW hints; structural PASS never proves correct section routing. All historical runs and their limitations remain preserved.
+> Competition #15 current verification: see `../hardening/REPORT.md`. The default validator protects context across changing anchors and clears hints only for trusted personal citations. The fresh full-length model card still FAILS two S072 anchors; that regression and all raw evidence are retained. Unknown context retains REVIEW hints; structural PASS never proves correct section routing.
 
 # RFP Compass
 

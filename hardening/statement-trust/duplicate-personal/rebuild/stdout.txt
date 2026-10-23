@@ -1,0 +1,4 @@
+NOTE: PERSONAL HINT FILTER: S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\duplicate-personal\card.md: S004 look like dates or times but are not in Section 6; confirm that is intended
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\duplicate-personal\card.md: ## 12. Unmapped source evidence: a source ID appears twice

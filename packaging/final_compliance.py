@@ -78,7 +78,7 @@ for case in repair['cases']:
     for sid,want in case['expectation'].get('hints',{}).items():assert any(sid in l for l in hints)==want
     if 'applied' in case['expectation']:assert ('APPLIED EXCLUSIONS' in text)==case['expectation']['applied']
 # Execute final root validator on archived cards and critical repair cases.
-checks=[];logs=P/'final-checks-v4';logs.mkdir(exist_ok=True)
+checks=[];logs=P/'final-checks-v5';logs.mkdir(exist_ok=True)
 def run(label,source,card,warnings=None,review=None):
     args=[sys.executable,'-X','utf8','rebuild/tools/validate_packet.py',str(source.relative_to(R)),str(card.relative_to(R))]
     if review:args+=['--reviewed-exclusions',str(review.relative_to(R))]
@@ -118,6 +118,7 @@ result={'fresh_revision_audit':fresh,'total_raw_model_responses':count+fresh['fr
 hardening_audit=subprocess.run([sys.executable,str(R/'hardening/verify.py')],cwd=R,capture_output=True,text=True,encoding='utf-8')
 assert hardening_audit.returncode==0,hardening_audit.stdout+hardening_audit.stderr
 result['hardening']=json.loads((R/'hardening/verification.json').read_text(encoding='utf-8'))
+result['candidate_performance']='MIXED: frozen questions improve; full-length personal containment improves but two raw S072 anchor errors remain and correctly fail validation'
 result['total_raw_model_responses']+=result['hardening']['fresh_model_turns']
 (P/'final-compliance.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
 print(json.dumps({k:v for k,v in result.items() if k!='checks'},indent=2))

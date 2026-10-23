@@ -222,14 +222,20 @@ def validate(source: Path, outputs: list[Path], review_path: Path | None = None)
         errors.append(f"{output}: text between the title and section 1 is not allowed: {stray[0]}")
 
     cited, straight, invisible, placed = set(), 0, set(), {}
+    # Trust personal placement per exact citation. An unrelated bad citation must
+    # still fail the card, without turning valid personal rows into false hints.
+    filter_shape_safe = not errors
+    trusted, tainted, citation_counts = set(), set(), {}
     for index, heading in enumerate(HEADINGS):
         start = lines.index(heading) + 1
         end = lines.index(HEADINGS[index + 1]) if index + 1 < len(HEADINGS) else len(lines)
         content = [line for line in lines[start:end] if line.strip()]
         if not content:
+            filter_shape_safe = False
             errors.append(f"{output}: {heading} is empty (needs bullets or `{MISSING}`)")
             continue
         if MISSING in content and len(content) != 1:
+            filter_shape_safe = False
             errors.append(f"{output}: {heading} mixes `{MISSING}` with other lines")
         ids = []
         for line in content:
@@ -237,20 +243,26 @@ def validate(source: Path, outputs: list[Path], review_path: Path | None = None)
                 continue
             match = BULLET.match(line)
             if not match:
+                filter_shape_safe = False
                 errors.append(f"{output}: {heading}: line is not a valid bullet: {line[:120]}")
                 continue
             opening, quote, closing, source_id, cited_anchor = match.groups()
+            citation_counts[source_id] = citation_counts.get(source_id, 0) + 1
             if (opening, closing) == ('"', '"'):
                 straight += 1
             elif (opening, closing) != ("“", "”"):
+                tainted.add(source_id)
                 errors.append(f"{output}: {heading}: mismatched quotation marks on {source_id}")
             ids.append(source_id)
             cited.add(source_id)
             if source_id not in statements:
+                tainted.add(source_id)
                 errors.append(f"{output}: {heading}: citation {source_id} does not exist in the packet")
             elif cited_anchor != statements[source_id][0]:
+                tainted.add(source_id)
                 errors.append(f"{output}: {heading}: anchor for {source_id} does not match the packet")
             elif quote != statements[source_id][1]:
+                tainted.add(source_id)
                 expected = statements[source_id][1]
                 if visible(quote).rstrip() == visible(expected).rstrip():
                     invisible.add(source_id)
@@ -260,6 +272,8 @@ def validate(source: Path, outputs: list[Path], review_path: Path | None = None)
                 else:
                     errors.append(f"{output}: {heading}: quotation does not match {source_id} "
                                   f"{difference(expected, quote)}")
+            else:
+                trusted.add(source_id)
         if len(set(ids)) != len(ids):
             errors.append(f"{output}: {heading}: a source ID appears twice")
         if ids != sorted(ids, key=lambda value: int(value[1:])):
@@ -272,7 +286,8 @@ def validate(source: Path, outputs: list[Path], review_path: Path | None = None)
         notes.append(f"APPLIED EXCLUSIONS {review_path}: {', '.join(sorted(approved))}; explicit review decisions, not automatic relevance proof")
     elif errors:
         approved = set()
-    personal = personal_hint_exclusions(statements, placed) if not errors else set()
+    personal = personal_hint_exclusions(statements, placed) if filter_shape_safe and not review_errors else set()
+    personal = {sid for sid in personal if sid in trusted and sid not in tainted and citation_counts.get(sid) == 1}
     if personal:
         notes.append(f"PERSONAL HINT FILTER: {', '.join(sorted(personal))}; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof")
     for number, pattern in LIKELY.items():

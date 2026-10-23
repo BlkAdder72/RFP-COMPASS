@@ -1,0 +1,5 @@
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\malformed-personal\card.md: S004 look like dates or times but are not in Section 6; confirm that is intended
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\malformed-personal\card.md: Section 8 says `not in source`, but S007 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\malformed-personal\card.md: ## 12. Unmapped source evidence: line is not a valid bullet: - “Our holiday potluck is Friday, December 11, 2026, at 12:00 PM.” [source: source-packet.md:S004; stapled personal emai
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\malformed-personal\card.md: source statements never cited: S004

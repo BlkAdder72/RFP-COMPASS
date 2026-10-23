@@ -3,15 +3,15 @@ from pathlib import Path
 import argparse,datetime,hashlib,importlib.util,json,shutil,subprocess,sys,tempfile
 R=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('core',R/'tools/run_arm.py');core=importlib.util.module_from_spec(spec);spec.loader.exec_module(core)
-p=argparse.ArgumentParser();p.add_argument('arm',choices=['original','rebuild']);p.add_argument('--preflight-only',action='store_true');a=p.parse_args()
-out=R/('run-'+a.arm)/'hardening-full'
+p=argparse.ArgumentParser();p.add_argument('arm',choices=['original','rebuild']);p.add_argument('--preflight-only',action='store_true');p.add_argument('--output-dir',type=Path,help='entirely new destination; existing evidence is never reused');p.add_argument('--codex',help='explicit executable override; otherwise PATH');a=p.parse_args()
+out=(a.output_dir or R/('run-'+a.arm)/'hardening-full').resolve()
 if out.exists():raise SystemExit('Refusing existing output directory without changing it: '+str(out))
-exe=shutil.which('codex')
+exe=a.codex or shutil.which('codex')
 if not exe:raise SystemExit('Codex missing; no writes')
 helptext=subprocess.check_output([exe,'exec','resume','--help'],text=True,encoding='utf-8')
 assert all(x in helptext for x in ['SESSION_ID','--ignore-user-config','--json','--model'])
 if a.preflight_only:print('PREFLIGHT PASS; no writes or model calls');raise SystemExit(0)
-out.mkdir();fixture=R/'hardening/fixtures/Z-full-length-noisy.md';body=core.request(R,a.arm,fixture)
+out.parent.mkdir(parents=True,exist_ok=True);out.mkdir();fixture=R/'hardening/fixtures/Z-full-length-noisy.md';body=core.request(R,a.arm,fixture)
 core.write_new(out/'environment.json',json.dumps({'model':'gpt-6-astra','reasoning_effort':'medium','arm':a.arm,'started_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'knowledge_sha256':{n:hashlib.sha256((R/a.arm/n).read_bytes()).hexdigest() for n in core.FILES},'fixture_sha256':hashlib.sha256(fixture.read_bytes()).hexdigest(),'sessions':'fresh persistent session; exact continue in same session, max eight parts; no retries','limitations':'host messages uncontrolled; same-session persistence differs from earlier ephemeral trials'},indent=2))
 parent=R/'.run-work';parent.mkdir(exist_ok=True);parts=[];session=None
 with tempfile.TemporaryDirectory(prefix='rfp-full-',dir=parent) as cwd:

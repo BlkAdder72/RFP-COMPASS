@@ -18,7 +18,7 @@
     "initial_test_assertion_correction": "Preserved initial 50/51 result; corrected missing-heading expectation, no validator change",
     "limitations": "Bounded source-text classifier; ambiguous statements retain hints; host system variation remains uncontrolled."
   },
-  "total_raw_model_responses": 62,
+  "total_raw_model_responses": 80,
   "local_compliance": "PASS",
   "preserved_prepackage_files": 1287,
   "judged_original_files": 134,
@@ -642,5 +642,91 @@
         "S002": false
       }
     }
-  ]
+  ],
+  "hardening": {
+    "status": "PASS: evidence integrity; performance regression explicitly recorded",
+    "prior_tracked_files_preserved": 4084,
+    "local_prior_artifacts_verified": 5,
+    "optional_prior_artifacts_absent": [],
+    "questions_unchanged": true,
+    "fresh_core_sessions": 10,
+    "fresh_full_sessions": 2,
+    "fresh_model_turns": 18,
+    "deterministic_controls": {
+      "before": {
+        "original": 18,
+        "rebuild": 14
+      },
+      "after": {
+        "original": 18,
+        "rebuild": 25
+      },
+      "after-v2": {
+        "original": 18,
+        "rebuild": 26
+      },
+      "after-v3": {
+        "original": 18,
+        "rebuild": 26
+      },
+      "after-v4": {
+        "original": 18,
+        "rebuild": 26
+      }
+    },
+    "broader_header_guards": {
+      "guards-before": {
+        "original": 5,
+        "rebuild": 1
+      },
+      "guards-after": {
+        "original": 5,
+        "rebuild": 6
+      },
+      "guards-final": {
+        "original": 5,
+        "rebuild": 6
+      }
+    },
+    "per_statement_trust_controls": {
+      "original": 5,
+      "rebuild": 8,
+      "cases_per_arm": 8
+    },
+    "prior_controls": 51,
+    "archived_card_replays": 92,
+    "core_question_comparisons": {
+      "improved": 5,
+      "tied": 3,
+      "regressed": 0
+    },
+    "full_length_checks": {
+      "original": {
+        "exact_shape_quotes_coverage": true,
+        "exact_statement_text": true,
+        "exact_anchors": true,
+        "all_221_ids": true,
+        "noise_only12": false,
+        "genuine_routing": true,
+        "no_personal_review_hints": true,
+        "max150_bullets_per_reply": true,
+        "complete": true
+      },
+      "rebuild": {
+        "exact_shape_quotes_coverage": false,
+        "exact_statement_text": true,
+        "exact_anchors": false,
+        "all_221_ids": true,
+        "noise_only12": true,
+        "genuine_routing": true,
+        "no_personal_review_hints": true,
+        "max150_bullets_per_reply": true,
+        "complete": true
+      }
+    },
+    "open_full_length_regression": "Rebuild S072 anchor omits bullet in Sections 4 and 5; raw output retained and correctly rejected. No clean full-length pass claimed.",
+    "publication": "NOT PERFORMED",
+    "limits": "Bounded English hint classifier; synthetic known fixtures; one fresh pair per fixture; no statistical or fresh Claude claim."
+  },
+  "candidate_performance": "MIXED: frozen questions improve; full-length personal containment improves but two raw S072 anchor errors remain and correctly fail validation"
 }

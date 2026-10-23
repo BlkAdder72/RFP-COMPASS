@@ -1,0 +1,3 @@
+NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\hardening\statement-trust\unrelated-anchor\card.md: ## 6. Dates and events stated: anchor for S002 does not match the packet

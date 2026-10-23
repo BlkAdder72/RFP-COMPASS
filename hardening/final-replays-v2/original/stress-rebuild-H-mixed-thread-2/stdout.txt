@@ -1,0 +1,3 @@
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\supplemental\run-rebuild\H-mixed-thread\repeat-2\bid-compliance-card.md: S004 look like dates or times but are not in Section 6; confirm that is intended
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\supplemental\run-rebuild\H-mixed-thread\repeat-2\bid-compliance-card.md: S005 look like money amounts but are not in Section 8; confirm that is intended
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.

@@ -1,0 +1,415 @@
+{
+  "count": 51,
+  "passed": 51,
+  "declared_change": "Please bring $30 for lunch: personal contribution only12; requirements and scope veto remain. Old expected warning preserved in revision/default-cases.json.",
+  "cases": [
+    {
+      "label": "personal-potluck-new-date",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "personal-potluck-new-date",
+      "arm": "rebuild",
+      "old_expectation": false,
+      "new_expectation": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "label": "neutral-dentist",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "neutral-dentist",
+      "arm": "rebuild",
+      "old_expectation": false,
+      "new_expectation": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "label": "family-birthday",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "family-birthday",
+      "arm": "rebuild",
+      "old_expectation": false,
+      "new_expectation": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "label": "anniversary",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "anniversary",
+      "arm": "rebuild",
+      "old_expectation": false,
+      "new_expectation": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "label": "family-recital",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "family-recital",
+      "arm": "rebuild",
+      "old_expectation": false,
+      "new_expectation": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "label": "family-money",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "family-money",
+      "arm": "rebuild",
+      "old_expectation": false,
+      "new_expectation": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "label": "personal-contact",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "personal-contact",
+      "arm": "rebuild",
+      "old_expectation": false,
+      "new_expectation": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "label": "unknown-meeting",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "unknown-meeting",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "indirect-real-deadline",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "indirect-real-deadline",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "applications-close",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "applications-close",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "personal-looking-real-deadline",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "personal-looking-real-deadline",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "mixed-party-deadline",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "mixed-party-deadline",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "mandatory-potluck",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "mandatory-potluck",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "required-personal-activity",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "required-personal-activity",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "contextual-bidder-event",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "contextual-bidder-event",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "generic-lunch-money",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "generic-lunch-money",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "label": "genuine-fee",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "genuine-fee",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "genuine-contact",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "genuine-contact",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "mixed-contact",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "mixed-contact",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "public-procurement-social-event",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "public-procurement-social-event",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "Q8-contained",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "Q8-real-deadline",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "N1-misleading-anchor",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "N2-neutral-personal",
+      "arm": "original",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "Q8-contained",
+      "arm": "rebuild",
+      "old_expectation": false,
+      "new_expectation": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "label": "Q8-real-deadline",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "N1-misleading-anchor",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "N2-neutral-personal",
+      "arm": "rebuild",
+      "old_expectation": false,
+      "new_expectation": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "label": "operational-duplicate",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": true,
+      "observed": true,
+      "passed": true
+    },
+    {
+      "label": "changed-quote",
+      "arm": "rebuild",
+      "old_expectation": true,
+      "new_expectation": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "label": "missing-heading",
+      "arm": "rebuild",
+      "old_expectation": false,
+      "new_expectation": false,
+      "observed": false,
+      "passed": true
+    }
+  ]
+}
