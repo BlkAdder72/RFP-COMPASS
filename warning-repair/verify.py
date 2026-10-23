@@ -9,6 +9,8 @@ assert (R/'questions.md').read_bytes()==subprocess.check_output(['git','show','b
 artifacts=[]
 for n,h in m['artifacts'].items():
  if (R/n).exists():assert sha(R/n)==h;artifacts.append(n)
+for n,h in json.loads((D/'additional-artifacts.json').read_text()).items():
+ if (R/n).exists():assert sha(R/n)==h
 # Strict structural implementation after the warning filter is byte-identical.
 a=(D/'before/rebuild/tools/validate_packet.py').read_bytes();b=(R/'rebuild/tools/validate_packet.py').read_bytes();assert a[a.index(b'def difference('):]==b[b.index(b'def difference('):]
 spec=importlib.util.spec_from_file_location('core',R/'tools/run_arm.py');core=importlib.util.module_from_spec(spec);spec.loader.exec_module(core)

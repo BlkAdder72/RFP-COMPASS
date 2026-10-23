@@ -1,0 +1,197 @@
+[
+  {
+    "label": "bundle-create",
+    "command": [
+      "git",
+      "bundle",
+      "create",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\RFP-COMPASS-Comp15.bundle",
+      "--all"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "bundle-verify",
+    "command": [
+      "git",
+      "bundle",
+      "verify",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\RFP-COMPASS-Comp15.bundle"
+    ],
+    "exit_code": 0,
+    "stdout": "The bundle contains these 5 refs:\n1d8a46cd4dbe07e77ba89f5b00607ff2bd266261 refs/codex/turn-diffs/captures/1792785759923/71f8355a-cf69-4edd-b45d-f59037a3714d/base\n4f55b3f75be8619943068f10aaf899f4fe008231 refs/codex/turn-diffs/checkpoints/6153f9bd4c217502ac723a831fa3d486/b4979decb7c5086bdbc95665bb0fa217/1792705050396/7faa0481-255a-4fc0-9871-5c65084afc11\n492ec199ec0c0ba02bedc66a7cc52da8e91cf10f refs/heads/master\n92847d2a17250fa18914d932826db63d99dcb75c refs/tags/judged-original-comp13\n492ec199ec0c0ba02bedc66a7cc52da8e91cf10f HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+    "stderr": "C:/Users/mmazu/OneDrive/Documents/ChatGPT/Competition 15/dist/warning-release/RFP-COMPASS-Comp15.bundle is okay\n"
+  },
+  {
+    "label": "archive-create",
+    "command": [
+      "git",
+      "archive",
+      "--format=zip",
+      "--prefix=RFP-COMPASS-Comp15/",
+      "--output=C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\RFP-COMPASS-Comp15-source.zip",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "fresh-clone",
+    "command": [
+      "git",
+      "clone",
+      "--quiet",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\RFP-COMPASS-Comp15.bundle",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\verification-clone"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "sealed-head",
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "stdout": "492ec199ec0c0ba02bedc66a7cc52da8e91cf10f\n",
+    "stderr": ""
+  },
+  {
+    "label": "pristine-clone-byte-check",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "packaging/verify_index.py"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: 12585 staged files match exact working bytes.\n",
+    "stderr": ""
+  },
+  {
+    "label": "preflight-core-original",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "tools/run_arm.py",
+      "original",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\verification-clone\\dist\\unused-core-original",
+      "--preflight-only"
+    ],
+    "exit_code": 0,
+    "stdout": "PREFLIGHT PASS: executable/flags, knowledge, fixtures, and new output path. No model call or writes. Authentication/model access will be tested by the first real trial.\n",
+    "stderr": ""
+  },
+  {
+    "label": "preflight-full-original",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "hardening/run_full.py",
+      "original",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\verification-clone\\dist\\unused-full-original",
+      "--preflight-only"
+    ],
+    "exit_code": 0,
+    "stdout": "PREFLIGHT PASS; no writes or model calls\n",
+    "stderr": ""
+  },
+  {
+    "label": "preflight-core-rebuild",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "tools/run_arm.py",
+      "rebuild",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\verification-clone\\dist\\unused-core-rebuild",
+      "--preflight-only"
+    ],
+    "exit_code": 0,
+    "stdout": "PREFLIGHT PASS: executable/flags, knowledge, fixtures, and new output path. No model call or writes. Authentication/model access will be tested by the first real trial.\n",
+    "stderr": ""
+  },
+  {
+    "label": "preflight-full-rebuild",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "hardening/run_full.py",
+      "rebuild",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\verification-clone\\dist\\unused-full-rebuild",
+      "--preflight-only"
+    ],
+    "exit_code": 0,
+    "stdout": "PREFLIGHT PASS; no writes or model calls\n",
+    "stderr": ""
+  },
+  {
+    "label": "preflight-new-original",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "tools/run_arm.py",
+      "original",
+      "--fixtures-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\verification-clone\\warning-repair\\fixtures",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\verification-clone\\dist\\unused-new-original",
+      "--preflight-only"
+    ],
+    "exit_code": 0,
+    "stdout": "PREFLIGHT PASS: executable/flags, knowledge, fixtures, and new output path. No model call or writes. Authentication/model access will be tested by the first real trial.\n",
+    "stderr": ""
+  },
+  {
+    "label": "preflight-new-rebuild",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "tools/run_arm.py",
+      "rebuild",
+      "--fixtures-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\verification-clone\\warning-repair\\fixtures",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\warning-release\\verification-clone\\dist\\unused-new-rebuild",
+      "--preflight-only"
+    ],
+    "exit_code": 0,
+    "stdout": "PREFLIGHT PASS: executable/flags, knowledge, fixtures, and new output path. No model call or writes. Authentication/model access will be tested by the first real trial.\n",
+    "stderr": ""
+  },
+  {
+    "label": "portable-offline-audit",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "tools/verify_submission.py"
+    ],
+    "exit_code": 128,
+    "stdout": "[\n  {\n    \"label\": \"clone-historical-tree\",\n    \"exit_code\": 0,\n    \"stdout\": \"\",\n    \"stderr\": \"\"\n  },\n  {\n    \"label\": \"checkout-sealed\",\n    \"exit_code\": 0,\n    \"stdout\": \"\",\n    \"stderr\": \"\"\n  },\n  {\n    \"label\": \"historical-offline-audit\",\n    \"exit_code\": 128,\n    \"stdout\": \"[\\n  {\\n    \\\"label\\\": \\\"clone-historical-tree\\\",\\n    \\\"exit_code\\\": 128,\\n    \\\"stdout\\\": \\\"\\\",\\n    \\\"stderr\\\": \\\"fatal: could not create work tree dir '\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\Users\\\\\\\\mmazu\\\\\\\\OneDrive\\\\\\\\Documents\\\\\\\\ChatGPT\\\\\\\\Competition 15\\\\\\\\dist\\\\\\\\warning-release\\\\\\\\verification-clone\\\\\\\\.run-work\\\\\\\\ha-qvokhhtu\\\\\\\\s\\\\\\\\.run-work\\\\\\\\ha-wzgbwaz_\\\\\\\\s': Invalid argument\\\\n\\\"\\n  }\\n]\\n\",\n    \"stderr\": \"\"\n  }\n]\n",
+    "stderr": ""
+  }
+]

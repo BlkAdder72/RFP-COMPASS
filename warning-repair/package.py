@@ -1,7 +1,7 @@
 """Seal committed candidate and complete history without replacing any prior delivery."""
 from pathlib import Path
 import hashlib,json,subprocess,sys,zipfile
-R=Path(__file__).resolve().parents[1];D=R/'dist/warning-release';assert not D.exists()
+R=Path(__file__).resolve().parents[1];D=R/'dist/warning-release-verified';assert not D.exists()
 assert not subprocess.check_output(['git','status','--porcelain'],cwd=R).strip(),'Commit all source/evidence before sealing'
 assert all(x['passed'] for x in json.loads((R/'warning-repair/control-results.json').read_text()) if x['arm']=='rebuild')
 assert json.loads((R/'warning-repair/verification.json').read_text())['status']=='PASS'

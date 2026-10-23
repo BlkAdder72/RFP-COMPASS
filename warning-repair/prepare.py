@@ -1,6 +1,7 @@
 from pathlib import Path
 import hashlib,json,subprocess,shutil
 R=Path.cwd();D=R/'warning-repair'
+assert not (D/'preservation.json').exists(), 'Refusing to overwrite a prepared experiment'
 def h(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 tracked=subprocess.check_output(['git','ls-files','-z']).decode().split('\0');tracked=[n for n in tracked if n]
 mutable=['rebuild/tools/validate_packet.py','tools/verify_submission.py','README.md','results.md','SUBMISSION_COMMENT.md','packaging/COMPLIANCE.md','rebuild/README.md']

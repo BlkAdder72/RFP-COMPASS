@@ -1,0 +1,10 @@
+{
+  "commit": "492ec199ec0c0ba02bedc66a7cc52da8e91cf10f",
+  "published": false,
+  "source_archive_files_verified": 12585,
+  "artifacts": [
+    "RFP-COMPASS-Comp15.bundle",
+    "RFP-COMPASS-Comp15-source.zip"
+  ],
+  "checksums": "SHA256SUMS.txt"
+}
