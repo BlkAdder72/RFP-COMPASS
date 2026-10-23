@@ -1,0 +1,38 @@
+[
+  {
+    "case": "mixed-and-deposit",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "mixed-and-deposit",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "mixed-clause-deposit",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "mixed-clause-deposit",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  }
+]
