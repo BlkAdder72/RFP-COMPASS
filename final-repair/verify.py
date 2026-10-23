@@ -39,6 +39,10 @@ for arm in ['original','rebuild']:
     if i:assert session in json.loads((part/'command.json').read_text())
    assert (base/'bid-compliance-card.md').read_text(encoding='utf-8')=='\n'.join((p/'bid-compliance-card.md').read_text(encoding='utf-8') for p in parts)
 controls=json.loads((D/'control-results.json').read_text());assert not controls['rebuild_failures']
+provenance=json.loads((D/'control-provenance.json').read_text())
+assert sha(R/'rebuild/tools/validate_packet.py')==provenance['validator_sha256']
+assert sha(D/'control-results.json')==provenance['result_file_sha256']
+assert all(c['exit_code']==0 for c in json.loads((D/'identical-strict-fidelity.json').read_text()))
 artifact_verified=[];artifact_absent=[]
 for name,h in m['artifacts'].items():
  path=R/'dist'/name
@@ -51,8 +55,25 @@ assert (copied/'source-packet.md').read_bytes()==(R/'hardening/fixtures/Z-full-l
 scores=json.loads((D/'scores-final.json').read_text());full=json.loads((D/'full-length-results.json').read_text());new=json.loads((D/'new-results.json').read_text())
 # Recheck the current validator on actual full reply parts without rewriting raw evidence.
 current={}
+def placements(text):
+ result={};section=0
+ for line in text.splitlines():
+  if match:=re.match(r'## (\d+)\.',line):section=int(match[1])
+  if match:=re.search(r'\[source: source-packet.md:(S\d+);',line):result.setdefault(match[1],[]).append(section)
+ return result
 for arm in ['original','rebuild']:
  parts=sorted((R/('run-'+arm)/'final-repair-full').glob('part-*/bid-compliance-card.md'),key=lambda p:int(p.parent.name.split('-')[1]))
  r=subprocess.run([sys.executable,'-B','-X','utf8',str(R/arm/'tools/validate_packet.py'),str(R/'hardening/fixtures/Z-full-length-noisy.md'),*[str(p) for p in parts]],capture_output=True,text=True,encoding='utf-8')
  assert (r.returncode==0)==full[arm]['checks']['exact_shape_quotes_coverage'];current[arm]={'exit_code':r.returncode,'stdout':r.stdout,'stderr':r.stderr}
+ text=(R/('run-'+arm)/'final-repair-full/bid-compliance-card.md').read_text(encoding='utf-8');pos=placements(text);assert pos==full[arm]['positions']
+ exp=json.loads((D/'full-expectations.json').read_text())
+ for sid,ns in exp['routing'].items():assert all(n in pos.get(sid,[]) for n in ns)==full[arm]['genuine_routing'][sid]
+ for sid in exp['noise_only12']:assert (pos.get(sid)==[12])==full[arm]['noise_only12'][sid]
+ assert full[arm]['passed']==all(full[arm]['checks'].values())
+ for name,expect in json.loads((D/'expectations.json').read_text()).items():
+  source=D/'fixtures'/(name+'.md');assert sha(source)==expect['source_sha256']
+  pos=placements((R/('run-'+arm)/'final-repair-new'/name/'bid-compliance-card.md').read_text(encoding='utf-8'));assert pos==new[arm][name]['positions']
+  for sid,ns in expect['required'].items():assert all(n in pos.get(sid,[]) for n in ns)==new[arm][name]['checks'][sid+'_required']
+  for sid,ns in expect['exclusive'].items():assert (pos.get(sid)==ns)==new[arm][name]['checks'][sid+'_exclusive']
+  assert new[arm][name]['passed']==all(new[arm][name]['checks'].values())
 print(json.dumps({'status':'PASS: evidence integrity; consult performance separately','preserved_tracked_files':len(m['files']),'frozen_questions_unchanged':True,'prior_local_artifacts_verified':artifact_verified,'prior_local_artifacts_absent_in_source_clone':artifact_absent,'fresh_raw_model_turns':turns,'core_comparisons':scores['totals'],'full_performance':{a:x['checks'] for a,x in full.items()},'new_performance':{a:{k:v['passed'] for k,v in x.items()} for a,x in new.items()},'control_cases':controls['count'],'rebuild_control_failures':controls['rebuild_failures'],'full_validation':current,'published':False},indent=2))

@@ -15,7 +15,7 @@ Publication: **NOT PERFORMED**. This candidate closes all three reviewed finding
 
 ## What changed and why
 
-1. Required response information is explicitly a Section 5 item even without a named form or report. The rules require a section-by-section scan of every ID, retain enclosing required-submittal context, and prohibit dropping an item merely because it already appears in Section 4. The distinction from suggestions and post-award deliverables remains. The model knowledge contains no S076 identifier, TBRPC answer or source-specific routing matrix.
+1. Required response information is explicitly a Section 5 item even without a named form or report. The rules require a section-by-section scan of every ID, retain enclosing required-submittal context, and prohibit dropping an item merely because it already appears in Section 4. The distinction from suggestions and post-award deliverables remains. No S076 identifier, TBRPC answer or source-specific routing matrix was added to model knowledge for this repair.
 2. The bounded personal-activity filter now recognizes graduation celebrations, parties and ceremonies with a personal owner. It still requires exact trusted text and Section 12-only placement, and retains procurement, clinical and cross-anchor required-event vetoes. Labels alone do not authorize suppression. Unknown celebrations retain their warning.
 3. The rebuilt validator rejects straight quotation delimiters and every altered quotation character, including invisible characters and Unicode normalization changes. Source trailing spaces are preserved in comparison. The old visible-text fallback and tolerant-success notes are removed. Exact anchor checks, coverage, ordering, continuation and shape checks remain. Original is untouched. This is stricter validation, not an exception to make new model outputs pass.
 
@@ -23,7 +23,7 @@ Publication: **NOT PERFORMED**. This candidate closes all three reviewed finding
 
 `final-repair/preservation.json` binds all pre-stage tracked files and previous delivery hashes. Mutable files were copied byte-for-byte to `final-repair/history/` before edits; all six baseline knowledge files were separately frozen. Frozen root questions remain byte-identical to their pre-rebuild commit. All previous failures, raw transcripts, red-team findings, scores and Git history remain unchanged. The original was run first on A–E, then U/V/W, then the full 221-statement input; its raw baseline was committed before candidate edits. Rebuild used the same inputs and order after its candidate commit.
 
-The prospective protocol and expected matrices were committed before trials. Runners, model (gpt-6-astra), medium reasoning, wrappers, no-tool rule and continuation policy are unchanged. No retries, best-of selection or output corrections were used. Knowledge differs only by the intended repair. Q7/Q8 remain deterministic file/default-tool checks, with no sidecar required. All requests, raw model events, stderr and continuation prompts are under `run-ARM/final-repair-{{core,new,full}}/`.
+The prospective protocol and expected matrices were committed before trials. The initial asynchronous baseline-commit wait correction is disclosed in `final-repair/AUDIT_NOTES.md`; it involved no model retry or output replacement. Runners, model (gpt-6-astra), medium reasoning, wrappers, no-tool rule and continuation policy are unchanged. No retries, best-of selection or output corrections were used. Knowledge differs only by the intended repair. Q7/Q8 remain deterministic file/default-tool checks, with no sidecar required. All requests, raw model events, stderr and continuation prompts are under `run-ARM/final-repair-{{core,new,full}}/`.
 
 ## Frozen questions
 
@@ -41,6 +41,8 @@ Totals: {json.dumps(core['totals'])}. Regressed core subchecks: {json.dumps(regr
 
 U retains the previously unseen anchor forms unchanged; it is now a known regression fixture. V tests mandatory response information without a named attachment. W tests the known graduation false-warning case. Exact quotations/anchors, required routing and personal-only placement are scored separately. See `final-repair/new-results.json`; no new independent holdout claim is made.
 
+The matrix for V adjudicates the substantive response items, not its bare heading. Rebuild places `Required response contents:` in Sections 4 and 5, whereas original puts that heading in Section 12. This additional heading placement remains an unscored semantic risk; the fixture-level pass does not certify every extra placement. Original's W output has no warning because it misroutes the personal statement into Section 6; that is not successful personal containment. The independent correct-card control is the evidence that the graduation false warning itself is repaired.
+
 ## Full-length noisy RFP
 
 The source remains the same 214 real TBRPC statements plus seven explicitly synthetic personal-calendar statements. No source word, anchor or order was changed. The prospective matrix keeps all previous selected checks and adds S076 in Sections 4 and 5. Every quote and anchor is compared independently, not only S072/S076.
@@ -53,9 +55,11 @@ Original S076 placements: {full['original']['positions'].get('S076')}; rebuild: 
 
 The prior S076 regression is still visible in the unchanged `red-team-citations/semantic-review.json` and previous raw full-length cards. The new success does not rewrite that failure. The original's varying results across attempts remain evidence of run variability, rather than something to discard.
 
+S076 routing and exact citation copying tie in this new full-length pair; the observed advantage is personal containment. A separate identical strict-fidelity gate passes all 16 core/new cards across both arms (`identical-strict-fidelity.json`), so original is not receiving a scoring advantage from its more permissive native quotation validator.
+
 ## Validation and regression controls
 
-{controls['count']} paired evaluator-built controls were executed, with zero rebuilt expectation failures. They include exact Unicode acceptance, altered invisible/NBSP/normalization/trailing-space rejection, straight-delimiter rejection, anchor corruption, missing coverage, the preserved S072 failure, graduation false-warning closure, mixed real requirements, clinical scope, unknown events and cross-anchor context. Original contract gaps are recorded explicitly in `control-results.json`, not scored away.
+{controls['count']} evaluator-built validator checks spanning both arms were executed, with zero rebuilt expectation failures. They include exact Unicode acceptance, altered invisible/NBSP/normalization/trailing-space rejection, straight-delimiter rejection, anchor corruption, missing coverage, the preserved S072 failure, graduation false-warning closure, mixed real requirements, clinical scope, unknown events and cross-anchor context. Original contract gaps are recorded explicitly in `control-results.json`, not scored away.
 
 Historical/reference replay: {replay['passed']}/{replay['count']} cards pass current structural validation under their recorded validator arms. Any rejected historical card remains unchanged; its raw stdout, stderr, hashes and exit code are retained in `final-repair/historical-replays/`. Controls are evaluator-built, not model responses.
 

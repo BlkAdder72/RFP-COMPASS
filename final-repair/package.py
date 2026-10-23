@@ -1,8 +1,11 @@
 """Seal committed candidate and complete history without replacing any prior delivery."""
 from pathlib import Path
 import hashlib,json,subprocess,sys,zipfile
-R=Path(__file__).resolve().parents[1];D=R/'dist/final-repair';assert not D.exists();D.mkdir()
+R=Path(__file__).resolve().parents[1];D=R/'dist/final-repair';assert not D.exists()
 assert not subprocess.check_output(['git','status','--porcelain'],cwd=R).strip(),'Commit all source/evidence before sealing'
+assert json.loads((R/'final-repair/full-length-results.json').read_text())['rebuild']['passed']
+assert not json.loads((R/'final-repair/control-results.json').read_text())['rebuild_failures']
+D.mkdir()
 commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=R).decode().strip();records=[]
 def run(label,cmd,cwd):
  r=subprocess.run(cmd,cwd=cwd,capture_output=True,text=True,encoding='utf-8');records.append({'label':label,'command':cmd,'exit_code':r.returncode,'stdout':r.stdout,'stderr':r.stderr})

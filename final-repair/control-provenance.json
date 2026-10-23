@@ -1,0 +1,7 @@
+{
+  "candidate_commit": "2dbbb7d",
+  "validator_sha256": "bc041ae454b13ef524f5d8418385fe5991ae4a19fc4f58f35d4a96dfc36c2eaa",
+  "reapplied_code_matches_committed_candidate": true,
+  "control_checks": 137,
+  "result_file_sha256": "6dfdd00de2bdc4b3e94ec46f8ec2d159a385b948869cca61c20e1d23e21b79f0"
+}
