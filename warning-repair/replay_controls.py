@@ -1,8 +1,10 @@
 from pathlib import Path
 import json,subprocess,sys
-R=Path(__file__).resolve().parents[1];D=R/'warning-repair';O=D/'historical-control-replays';O.mkdir(exist_ok=False);out=[]
+R=Path(__file__).resolve().parents[1];D=R/'warning-repair';O=D/'historical-control-replays-v2';O.mkdir(exist_ok=False);out=[]
 for c in json.loads((R/'final-repair/control-results.json').read_text())['cases']:
- arm=c['arm'];f=R/'final-repair/controls'/c['label'];cmd=[sys.executable,'-B','-X','utf8',str(R/arm/'tools/validate_packet.py'),str(f/'source-packet.md'),str(f/'card.md')]
+ arm=c['arm'];f=R/'final-repair/controls'/c['label'];oldcmd=json.loads((f/arm/'command.json').read_text());args=[]
+ for n in oldcmd[5:]:args.append(str(R/n.replace('\\','/').split('Competition 15/',1)[1]))
+ cmd=[sys.executable,'-B','-X','utf8',str(R/arm/'tools/validate_packet.py'),*args]
  r=subprocess.run(cmd,capture_output=True,text=True,encoding='utf-8');p=O/c['label']/arm;p.mkdir(parents=True)
  for n,t in [('command.json',json.dumps(cmd)),('stdout.txt',r.stdout),('stderr.txt',r.stderr),('exit-code.txt',str(r.returncode))]:(p/n).write_text(t,encoding='utf-8')
  # Keep exact historical warning predicate as recorded: compare warning-bearing lines, not counts.
@@ -16,4 +18,4 @@ for c in json.loads((R/'final-repair/followup-control-results.json').read_text()
  cmd=[sys.executable,'-B','-X','utf8',str(R/arm/'tools/validate_packet.py'),*args];r=subprocess.run(cmd,capture_output=True,text=True,encoding='utf-8');p=O/('followup-'+label)/arm;p.mkdir(parents=True)
  for n,t in [('command.json',json.dumps(cmd)),('stdout.txt',r.stdout),('stderr.txt',r.stderr),('exit-code.txt',str(r.returncode))]:(p/n).write_text(t,encoding='utf-8')
  out.append({'case':'followup-'+label,'arm':arm,'expected_valid':c['expected_valid'],'exit_code':r.returncode,'passed':(r.returncode==0)==c['expected_valid']})
-(D/'historical-control-replays.json').open('x').write(json.dumps(out,indent=2));print(json.dumps([x for x in out if not x['passed']],indent=2))
+(D/'historical-control-replays-v2.json').open('x').write(json.dumps(out,indent=2));print(json.dumps([x for x in out if not x['passed']],indent=2))

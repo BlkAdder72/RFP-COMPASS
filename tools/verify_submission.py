@@ -13,13 +13,13 @@ work=(R/'.run-work').resolve();assert work.is_relative_to(R.resolve());work.mkdi
 temp=Path(tempfile.mkdtemp(prefix='ha-',dir=work)).resolve();assert temp.is_relative_to(work)
 C=temp/'s'
 run('clone-historical-tree',['git','-c','core.longpaths=true','clone','--quiet','--shared','--no-checkout',str(R),str(C)],R)
-run('checkout-sealed',['git','-c','core.longpaths=true','checkout','--quiet','--detach','157d8fe22339ce5385b8291728c48f7141840206'],C)
+run('checkout-sealed',['git','-c','core.longpaths=true','checkout','--quiet','--detach','06fcebace08c19410b63f1cd8c2523f66822d18b'],C)
 script=str(C/'tools/verify_submission.py')
 if os.name=='nt' and not script.startswith('\\\\?\\'):script='\\\\?\\'+script
 # Launch by extended absolute filename so historical Path(__file__).resolve() keeps
 # Windows long-path support. Keep scratch clones as ignored audit evidence.
 run('historical-offline-audit',[sys.executable,'-B','-X','utf8',script],C)
-current=str(R/'final-repair/verify.py')
+current=str(R/'warning-repair/verify.py')
 if os.name=='nt' and not current.startswith('\\\\?\\'):current='\\\\?\\'+current
 run('current-repair-audit',[sys.executable,'-B','-X','utf8',current],R)
 print(json.dumps({'offline_audit':'PASS','real_model_calls':0,'published':False,'checks':records},indent=2))

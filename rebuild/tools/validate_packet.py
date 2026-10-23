@@ -59,9 +59,13 @@ PROCUREMENT_CUE = re.compile(
     r"\b(responses?|applicants?|applications?|proposals?|bidders?|respondents?|solicitations?|rfp|ifb|rfq|bids?|contracts?|"
     r"procurement|addend(?:um|a)|tenders?|vendors?|submissions?|submit|submitted|required|requires|requirements?|mandatory|shall|must|"
     r"deadlines?|due|closing|closes?|eligibility|registration|awards?|fees?|pricing)\b", re.IGNORECASE)
+# Obligation phrases protect warning context even without a procurement noun.
+# Delivery of offers is a response cue; "offer" alone is too broad.
+OBLIGATION_CUE = re.compile(r"\b(?:(?:have|has|had|need|needs)\s+to|(?:is|are|be)\s+(?:obliged|obligated)\s+to)\b", re.IGNORECASE)
+OFFER_DELIVERY_CUE = re.compile(r"\b(?:deliver|send|lodge|provide|return|present)\b[^.;!?]*\boffers?\b", re.IGNORECASE)
 PERSONAL_OWNER = re.compile(r"\b(my|our|your|his|her|their)\b", re.IGNORECASE)
 PERSONAL_ACTIVITY = re.compile(
-    r"\b(potluck|birthday|dentist|graduation\s+(celebration|party|ceremony)|wedding\s+anniversary|family\s+(picnic|party|reunion|dinner)|"
+    r"\b(potluck|birthday|dentist|baptism(?:\s+ceremony)?|baby\s+shower|graduation\s+(celebration|party|ceremony)|wedding\s+anniversary|family\s+(picnic|party|reunion|dinner)|"
     r"(piano|school|dance)\s+recital|(retirement|farewell)\s+(lunch|dinner|party)|"
     r"(physical\s+therapy|physiotherapy|doctor|medical)\s+appointment)\b", re.IGNORECASE)
 EVENT_HEADER = re.compile(r"\b(events?|meetings?|conferences?|attendance|activities|schedules?|calendars?|appointments?|meals?|lunch|dinner|visits?)\b", re.IGNORECASE)
@@ -81,7 +85,7 @@ def personal_hint_exclusions(statements, placed):
     result = set()
     protected = False
     for sid, (anchor, body) in statements.items():
-        procurement = PROCUREMENT_CUE.search(body)
+        procurement = PROCUREMENT_CUE.search(body) or OBLIGATION_CUE.search(body) or OFFER_DELIVERY_CUE.search(body)
         clinical = CLINICAL_CUE.search(body)
         requirement_heading = body.rstrip().endswith(":") or (len(body) <= 120 and body.isupper())
         if (procurement or clinical) and (EVENT_HEADER.search(body) or requirement_heading):

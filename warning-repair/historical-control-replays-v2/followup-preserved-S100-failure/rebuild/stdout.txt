@@ -1,0 +1,3 @@
+NOTE: PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\run-rebuild\final-repair-full\part-1\bid-compliance-card.md (+3 part(s)): ## 6. Dates and events stated: anchor for S100 does not match the packet

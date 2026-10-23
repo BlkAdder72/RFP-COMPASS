@@ -1,0 +1,2 @@
+NOTE: C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\warning-repair\controls\altered-zero-width-quotation\card.md: invisible spacing characters (such as a non-breaking space) differ from the packet in S001, S002, S003, S004, S005, S006, S007, S008; the visible text matches
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.

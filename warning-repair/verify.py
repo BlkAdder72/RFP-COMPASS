@@ -12,6 +12,9 @@ for n,h in m['artifacts'].items():
 # Strict structural implementation after the warning filter is byte-identical.
 a=(D/'before/rebuild/tools/validate_packet.py').read_bytes();b=(R/'rebuild/tools/validate_packet.py').read_bytes();assert a[a.index(b'def difference('):]==b[b.index(b'def difference('):]
 spec=importlib.util.spec_from_file_location('core',R/'tools/run_arm.py');core=importlib.util.module_from_spec(spec);spec.loader.exec_module(core)
+chronology=json.loads((D/'chronology.json').read_text())
+for commit in [chronology['frozen_inputs_commit'],chronology['pre_fix_failures_commit'],chronology['complete_original_baseline_commit']]:assert subprocess.run(['git','merge-base','--is-ancestor',commit,'HEAD'],cwd=R).returncode==0
+assert subprocess.check_output(['git','show',chronology['complete_original_baseline_commit']+':rebuild/tools/validate_packet.py'],cwd=R)==(D/'before/rebuild/tools/validate_packet.py').read_bytes()
 turns=0
 for arm in ['original','rebuild']:
  for kind,folder in [('core',R/'fixtures'),('new',D/'fixtures'),('full',R/'hardening/fixtures')]:
@@ -42,5 +45,5 @@ for c in definitions:
   result=subprocess.run([sys.executable,'-B','-X','utf8',str(R/arm/'tools/validate_packet.py'),str(f/'source-packet.md'),str(f/'card.md')],capture_output=True,text=True,encoding='utf-8')
   warning=any('REVIEW' in line and 'Section 6' in line and c['sid'] in line for line in result.stdout.splitlines())
   recorded=next(x for x in controls if x['arm']==arm and x['case']==c['name']);assert recorded['valid']==(result.returncode==0) and recorded['warning']==warning
-replays=json.loads((D/'historical-control-replays.json').read_text());assert all(x['passed'] for x in replays if x['arm']=='rebuild')
+replays=json.loads((D/'historical-control-replays-v2.json').read_text());assert all(x['passed'] for x in replays if x['arm']=='rebuild')
 print(json.dumps({'status':'PASS','preserved_prior_files':len(m['tracked']),'local_prior_artifacts_verified':len(artifacts),'raw_turns_verified':turns,'frozen_questions':'unchanged','strict_validation_implementation':'unchanged','six_model_knowledge_files_each_arm':'unchanged','published':False},indent=2))
