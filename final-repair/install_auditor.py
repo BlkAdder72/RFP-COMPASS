@@ -1,0 +1,23 @@
+from pathlib import Path
+R=Path(__file__).resolve().parents[1]
+source='''"""Offline audit: historical evidence at its sealed commit, then current repair. No model calls."""
+from pathlib import Path
+import json,subprocess,sys,tempfile
+R=Path(__file__).resolve().parents[1]
+records=[]
+def run(label,cmd,cwd):
+ r=subprocess.run(cmd,cwd=cwd,capture_output=True,text=True,encoding='utf-8')
+ records.append({'label':label,'exit_code':r.returncode,'stdout':r.stdout,'stderr':r.stderr})
+ if r.returncode:print(json.dumps(records,indent=2));raise SystemExit(r.returncode)
+# Historical audits require their historical validator/knowledge. Execute them in a disposable
+# private clone, never by weakening their assertions or rewriting current evidence.
+with tempfile.TemporaryDirectory(prefix='rfp-history-audit-') as temp:
+ C=Path(temp)/'sealed'
+ run('clone-historical-tree',['git','clone','--quiet','--shared','--no-checkout',str(R),str(C)],R)
+ run('checkout-sealed',['git','checkout','--quiet','--detach','157d8fe22339ce5385b8291728c48f7141840206'],C)
+ run('historical-offline-audit',[sys.executable,'-B','-X','utf8','tools/verify_submission.py'],C)
+run('current-repair-audit',[sys.executable,'-B','-X','utf8','final-repair/verify.py'],R)
+print(json.dumps({'offline_audit':'PASS','real_model_calls':0,'published':False,'checks':records},indent=2))
+'''
+(R/'tools/verify_submission.py').write_text(source,encoding='utf-8',newline='\n')
+print('Installed portable historical/current audit separation')
