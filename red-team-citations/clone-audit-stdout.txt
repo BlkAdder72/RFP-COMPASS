@@ -1,0 +1,202 @@
+{
+  "fresh_revision_audit": {
+    "status": "PASS",
+    "prior_tracked_files_preserved": 2756,
+    "frozen_questions_unchanged": true,
+    "local_prior_delivery_artifacts_verified": 0,
+    "prior_delivery_binaries_not_in_checkout": [
+      "FINAL_VERIFICATION.json",
+      "RELEASE.json",
+      "RFP-COMPASS-Comp15-source.zip",
+      "RFP-COMPASS-Comp15.bundle",
+      "SHA256SUMS.txt"
+    ],
+    "fresh_model_responses": 20,
+    "default_checker_cases": 51,
+    "archived_reference_replays": 92,
+    "model_free_runner_cases": 7,
+    "fresh_question_comparisons": {
+      "improved": 10,
+      "tied": 6,
+      "regressed": 0
+    },
+    "Q8_default_no_sidecar": "PASS for rebuild in both repeats",
+    "initial_test_assertion_correction": "Preserved initial 50/51 result; corrected missing-heading expectation, no validator change",
+    "limitations": "Bounded source-text classifier; ambiguous statements retain hints; host system variation remains uncontrolled."
+  },
+  "total_raw_model_responses": 116,
+  "local_compliance": "PASS",
+  "preserved_prepackage_files": 1287,
+  "judged_original_files": 134,
+  "raw_model_responses_verified": 42,
+  "historical_repair_checks_audited": 75,
+  "final_root_validator_checks": 50,
+  "git_sequence": "PASS; questions and baseline precede first rebuild; all later stages retained",
+  "review_record_dependency": "Default bounded source-text filter passes Q8 without sidecars; optional manual records are not used in the paired comparison",
+  "external_gates": {
+    "publication": "NOT PERFORMED, as requested",
+    "public_submission_link": "PENDING publication",
+    "premium_or_vip_eligibility": "NOT VERIFIED"
+  },
+  "hardening": {
+    "status": "PASS: evidence integrity; performance regression explicitly recorded",
+    "prior_tracked_files_preserved": 4084,
+    "local_prior_artifacts_verified": 0,
+    "optional_prior_artifacts_absent": [
+      "FINAL_VERIFICATION.json",
+      "RELEASE.json",
+      "RFP-COMPASS-Comp15-source.zip",
+      "RFP-COMPASS-Comp15.bundle",
+      "SHA256SUMS.txt"
+    ],
+    "questions_unchanged": true,
+    "fresh_core_sessions": 10,
+    "fresh_full_sessions": 2,
+    "fresh_model_turns": 18,
+    "deterministic_controls": {
+      "before": {
+        "original": 18,
+        "rebuild": 14
+      },
+      "after": {
+        "original": 18,
+        "rebuild": 25
+      },
+      "after-v2": {
+        "original": 18,
+        "rebuild": 26
+      },
+      "after-v3": {
+        "original": 18,
+        "rebuild": 26
+      },
+      "after-v4": {
+        "original": 18,
+        "rebuild": 26
+      }
+    },
+    "broader_header_guards": {
+      "guards-before": {
+        "original": 5,
+        "rebuild": 1
+      },
+      "guards-after": {
+        "original": 5,
+        "rebuild": 6
+      },
+      "guards-final": {
+        "original": 5,
+        "rebuild": 6
+      }
+    },
+    "per_statement_trust_controls": {
+      "original": 5,
+      "rebuild": 8,
+      "cases_per_arm": 8
+    },
+    "prior_controls": 51,
+    "archived_card_replays": 92,
+    "core_question_comparisons": {
+      "improved": 5,
+      "tied": 3,
+      "regressed": 0
+    },
+    "full_length_checks": {
+      "original": {
+        "exact_shape_quotes_coverage": true,
+        "exact_statement_text": true,
+        "exact_anchors": true,
+        "all_221_ids": true,
+        "noise_only12": false,
+        "genuine_routing": true,
+        "no_personal_review_hints": true,
+        "max150_bullets_per_reply": true,
+        "complete": true
+      },
+      "rebuild": {
+        "exact_shape_quotes_coverage": false,
+        "exact_statement_text": true,
+        "exact_anchors": false,
+        "all_221_ids": true,
+        "noise_only12": true,
+        "genuine_routing": true,
+        "no_personal_review_hints": true,
+        "max150_bullets_per_reply": true,
+        "complete": true
+      }
+    },
+    "open_full_length_regression": "Rebuild S072 anchor omits bullet in Sections 4 and 5; raw output retained and correctly rejected. No clean full-length pass claimed.",
+    "publication": "NOT PERFORMED",
+    "limits": "Bounded English hint classifier; synthetic known fixtures; one fresh pair per fixture; no statistical or fresh Claude claim."
+  },
+  "candidate_performance": "Fresh rebuild full-length run passes every frozen check; S072 exact-anchor failure not reproduced; historical failures preserved",
+  "citation_repair": {
+    "status": "PASS: evidence integrity",
+    "prior_tracked_files_preserved": 8000,
+    "local_prior_artifacts_verified": 0,
+    "optional_prior_artifacts_absent": [
+      "FINAL_VERIFICATION.json",
+      "RELEASE.json",
+      "RFP-COMPASS-Comp15-source.zip",
+      "RFP-COMPASS-Comp15.bundle",
+      "SHA256SUMS.txt"
+    ],
+    "questions_unchanged": true,
+    "both_validators_byte_identical": true,
+    "changed_model_knowledge": [
+      "CLAUDE_PROJECT_INSTRUCTIONS.txt",
+      "rules.md",
+      "reference/output-schema.md",
+      "examples.md"
+    ],
+    "fresh_core_sessions_across_two_attempts": 20,
+    "fresh_full_sessions_across_two_attempts": 4,
+    "fresh_model_turns": 36,
+    "full_reply_counts": {
+      "attempt-1": {
+        "original": 4,
+        "rebuild": 4
+      },
+      "attempt-2": {
+        "original": 4,
+        "rebuild": 4
+      }
+    },
+    "first_repair_failed_and_preserved": true,
+    "exact_anchor_rejection_controls": 22,
+    "core_question_comparisons": {
+      "improved": 5,
+      "tied": 3,
+      "regressed": 0
+    },
+    "full_length_checks": {
+      "original": {
+        "exact_shape_quotes_coverage": true,
+        "exact_statement_text": true,
+        "exact_anchors": true,
+        "all_221_ids": true,
+        "noise_only12": false,
+        "genuine_routing": true,
+        "no_personal_review_hints": true,
+        "max150_bullets_per_reply": true,
+        "complete": true
+      },
+      "rebuild": {
+        "exact_shape_quotes_coverage": true,
+        "exact_statement_text": true,
+        "exact_anchors": true,
+        "all_221_ids": true,
+        "noise_only12": true,
+        "genuine_routing": true,
+        "no_personal_review_hints": true,
+        "max150_bullets_per_reply": true,
+        "complete": true
+      }
+    },
+    "S072_copying_fix_observed": true,
+    "S072_routes_to_4_and_5": true,
+    "performance_summary": "Fresh rebuild full-length run passes every frozen check; S072 exact-anchor failure not reproduced; historical failures preserved",
+    "publication": "NOT PERFORMED",
+    "limits": "Two versioned attempts; first failed and retained. One new pair on known input for final version; not a deterministic copying guarantee, no raw corrections or statistical claim."
+  }
+}

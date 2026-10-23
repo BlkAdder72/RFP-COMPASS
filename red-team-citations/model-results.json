@@ -1,0 +1,130 @@
+{
+  "original": {
+    "exact_anchors_and_statements": true,
+    "mismatches": [],
+    "positions": {
+      "S001": [
+        4,
+        5,
+        9
+      ],
+      "S002": [
+        4,
+        5,
+        9
+      ],
+      "S003": [
+        4,
+        5
+      ],
+      "S004": [
+        4,
+        5
+      ],
+      "S005": [
+        4,
+        5
+      ],
+      "S006": [
+        4,
+        5
+      ],
+      "S007": [
+        4,
+        5
+      ],
+      "S008": [
+        4,
+        5
+      ],
+      "S009": [
+        6
+      ],
+      "S010": [
+        6,
+        8
+      ]
+    },
+    "required_routing": {
+      "S001": true,
+      "S002": true,
+      "S003": true,
+      "S004": true,
+      "S005": true,
+      "S006": true,
+      "S007": true,
+      "S008": true,
+      "S009": true,
+      "S010": false
+    },
+    "exclusive_routing": {
+      "S010": false
+    },
+    "mechanical_validator_pass": true,
+    "passed_all_frozen_checks": false
+  },
+  "rebuild": {
+    "exact_anchors_and_statements": true,
+    "mismatches": [],
+    "positions": {
+      "S001": [
+        4,
+        5,
+        9
+      ],
+      "S002": [
+        4,
+        5,
+        9
+      ],
+      "S003": [
+        4,
+        5
+      ],
+      "S004": [
+        4,
+        5
+      ],
+      "S005": [
+        4,
+        5
+      ],
+      "S006": [
+        4,
+        5
+      ],
+      "S007": [
+        4,
+        5
+      ],
+      "S008": [
+        4,
+        5
+      ],
+      "S009": [
+        6,
+        11
+      ],
+      "S010": [
+        12
+      ]
+    },
+    "required_routing": {
+      "S001": true,
+      "S002": true,
+      "S003": true,
+      "S004": true,
+      "S005": true,
+      "S006": true,
+      "S007": true,
+      "S008": true,
+      "S009": true,
+      "S010": true
+    },
+    "exclusive_routing": {
+      "S010": true
+    },
+    "mechanical_validator_pass": true,
+    "passed_all_frozen_checks": true
+  }
+}

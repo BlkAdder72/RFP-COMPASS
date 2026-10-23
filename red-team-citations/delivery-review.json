@@ -1,0 +1,86 @@
+{
+  "sealed_target": "157d8fe22339ce5385b8291728c48f7141840206",
+  "all_preexisting_files_unchanged": true,
+  "tracked_files_verified": 8658,
+  "sealed_files_verified": 5,
+  "checks": [
+    {
+      "label": "fresh-clone",
+      "command": [
+        "git",
+        "clone",
+        "--quiet",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\RFP-COMPASS-Comp15.bundle",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\redteam-unseen-pristine"
+      ],
+      "cwd": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "label": "sealed-head",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\redteam-unseen-pristine",
+      "exit_code": 0,
+      "stdout": "157d8fe22339ce5385b8291728c48f7141840206\n",
+      "stderr": ""
+    },
+    {
+      "label": "pristine-index-before-audit",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "packaging/verify_index.py"
+      ],
+      "cwd": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\redteam-unseen-pristine",
+      "exit_code": 0,
+      "stdout": "PASS: 8658 staged files match exact working bytes.\n",
+      "stderr": ""
+    },
+    {
+      "label": "preflight-original",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "tools/run_arm.py",
+        "original",
+        "--output-dir",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\redteam-unseen-pristine\\dist\\unused-original",
+        "--preflight-only"
+      ],
+      "cwd": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\redteam-unseen-pristine",
+      "exit_code": 0,
+      "stdout": "PREFLIGHT PASS: executable/flags, knowledge, fixtures, and new output path. No model call or writes. Authentication/model access will be tested by the first real trial.\n",
+      "stderr": ""
+    },
+    {
+      "label": "preflight-rebuild",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "tools/run_arm.py",
+        "rebuild",
+        "--output-dir",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\redteam-unseen-pristine\\dist\\unused-rebuild",
+        "--preflight-only"
+      ],
+      "cwd": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\redteam-unseen-pristine",
+      "exit_code": 0,
+      "stdout": "PREFLIGHT PASS: executable/flags, knowledge, fixtures, and new output path. No model call or writes. Authentication/model access will be tested by the first real trial.\n",
+      "stderr": ""
+    }
+  ],
+  "offline_audit_exit": 0,
+  "sequence_correction": "An index-byte check was initially run after the offline audit on the first clone. It failed on citation-repair/verification.json because the audit rewrites derived verification metadata. That sequencing failure is retained in post-audit-index-failure.txt. A second untouched clone passed the index-byte check before any audit."
+}

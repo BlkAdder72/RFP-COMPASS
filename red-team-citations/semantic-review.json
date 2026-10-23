@@ -1,0 +1,62 @@
+{
+  "method": "Retrospective semantic audit of unchanged latest full-length cards. Expectations selected after reading source and results, not a new holdout or part of the old frozen score.",
+  "source_sha256": "01526c6dccc0d05144b47d3ee1468c77f8d692d160418e187144cd1ab797a6bc",
+  "required_sections": {
+    "S076": [
+      4,
+      5
+    ]
+  },
+  "rationale": "S076 says the firm shall also provide information on federal/state desk or field reviews. In Section 5 Submittal Content, Format, and Instructions this is required response information, falling under the section-5 provide-with-response trigger as well as section 4.",
+  "source_rows": [
+    "S076 | TBRPC Auditing RFP p. 7 §5.II.c.ii | ii. The firm shall also provide information on the results of any federal or state desk reviews or field reviews of its audits during the past three (3) years."
+  ],
+  "arms": {
+    "original": {
+      "path": "run-original\\citation-repair-v2-full\\bid-compliance-card.md",
+      "sha256": "31efb5f2461bf7aefa97ab43f63e00aaf094a58903cc5e4dd95d57f26bc1c31e",
+      "positions": {
+        "S076": [
+          4,
+          5
+        ]
+      },
+      "missing_required": {
+        "S076": []
+      },
+      "witness": [
+        {
+          "line": 137,
+          "section": 4,
+          "text": "- “ii. The firm shall also provide information on the results of any federal or state desk reviews or field reviews of its audits during the past three (3) years.” [source: source-packet.md:S076; TBRPC Auditing RFP p. 7 §5.II.c.ii]"
+        },
+        {
+          "line": 173,
+          "section": 5,
+          "text": "- “ii. The firm shall also provide information on the results of any federal or state desk reviews or field reviews of its audits during the past three (3) years.” [source: source-packet.md:S076; TBRPC Auditing RFP p. 7 §5.II.c.ii]"
+        }
+      ]
+    },
+    "rebuild": {
+      "path": "run-rebuild\\citation-repair-v2-full\\bid-compliance-card.md",
+      "sha256": "219f46c9b6f81726dbb3c13f8af2f828bf26b1764f2adb052550acc4e9952125",
+      "positions": {
+        "S076": [
+          4
+        ]
+      },
+      "missing_required": {
+        "S076": [
+          5
+        ]
+      },
+      "witness": [
+        {
+          "line": 99,
+          "section": 4,
+          "text": "- “ii. The firm shall also provide information on the results of any federal or state desk reviews or field reviews of its audits during the past three (3) years.” [source: source-packet.md:S076; TBRPC Auditing RFP p. 7 §5.II.c.ii]"
+        }
+      ]
+    }
+  }
+}

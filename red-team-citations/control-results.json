@@ -1,0 +1,118 @@
+[
+  {
+    "case": "exact-bracket-anchor",
+    "arm": "original",
+    "written_contract_valid": true,
+    "exit_code": 0,
+    "acceptance_matches_contract": true,
+    "review_notes": []
+  },
+  {
+    "case": "exact-bracket-anchor",
+    "arm": "rebuild",
+    "written_contract_valid": true,
+    "exit_code": 0,
+    "acceptance_matches_contract": true,
+    "review_notes": []
+  },
+  {
+    "case": "changed-anchor",
+    "arm": "original",
+    "written_contract_valid": false,
+    "exit_code": 1,
+    "acceptance_matches_contract": true,
+    "review_notes": []
+  },
+  {
+    "case": "changed-anchor",
+    "arm": "rebuild",
+    "written_contract_valid": false,
+    "exit_code": 1,
+    "acceptance_matches_contract": true,
+    "review_notes": []
+  },
+  {
+    "case": "zero-width-inserted",
+    "arm": "original",
+    "written_contract_valid": false,
+    "exit_code": 0,
+    "acceptance_matches_contract": false,
+    "review_notes": []
+  },
+  {
+    "case": "zero-width-inserted",
+    "arm": "rebuild",
+    "written_contract_valid": false,
+    "exit_code": 0,
+    "acceptance_matches_contract": false,
+    "review_notes": []
+  },
+  {
+    "case": "straight-delimiters",
+    "arm": "original",
+    "written_contract_valid": false,
+    "exit_code": 0,
+    "acceptance_matches_contract": false,
+    "review_notes": []
+  },
+  {
+    "case": "straight-delimiters",
+    "arm": "rebuild",
+    "written_contract_valid": false,
+    "exit_code": 0,
+    "acceptance_matches_contract": false,
+    "review_notes": []
+  },
+  {
+    "case": "nbsp-normalized",
+    "arm": "original",
+    "written_contract_valid": false,
+    "exit_code": 0,
+    "acceptance_matches_contract": false,
+    "review_notes": []
+  },
+  {
+    "case": "nbsp-normalized",
+    "arm": "rebuild",
+    "written_contract_valid": false,
+    "exit_code": 0,
+    "acceptance_matches_contract": false,
+    "review_notes": []
+  },
+  {
+    "case": "151-bullets-single-reply",
+    "arm": "original",
+    "written_contract_valid": false,
+    "exit_code": 0,
+    "acceptance_matches_contract": false,
+    "review_notes": []
+  },
+  {
+    "case": "151-bullets-single-reply",
+    "arm": "rebuild",
+    "written_contract_valid": false,
+    "exit_code": 0,
+    "acceptance_matches_contract": false,
+    "review_notes": []
+  },
+  {
+    "case": "unrelated-graduation",
+    "arm": "original",
+    "written_contract_valid": true,
+    "exit_code": 0,
+    "acceptance_matches_contract": true,
+    "review_notes": [
+      "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-citations\\controls\\unrelated-graduation\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+    ]
+  },
+  {
+    "case": "unrelated-graduation",
+    "arm": "rebuild",
+    "written_contract_valid": true,
+    "exit_code": 0,
+    "acceptance_matches_contract": true,
+    "review_notes": [
+      "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-citations\\controls\\unrelated-graduation\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most"
+    ]
+  }
+]

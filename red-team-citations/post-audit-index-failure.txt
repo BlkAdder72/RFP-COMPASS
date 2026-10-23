@@ -1,0 +1,5 @@
+Command: python -B -X utf8 packaging/verify_index.py
+Working directory: dist/redteam-unseen-clone
+Exit: 1
+AssertionError: Staged bytes differ (possible line-ending conversion): citation-repair/verification.json
+This command was mistakenly run after tools/verify_submission.py, which regenerates derived audit metadata in its clone. It does not demonstrate a sealed-artifact byte mismatch. Preserve the clone and failure. Verify pristine bytes on a separate fresh clone before running any mutating audit.
