@@ -1,0 +1,1478 @@
+[
+  {
+    "case": "prior-prior-baptism",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-prior-baptism",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-baby-shower",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-prior-baby-shower",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-graduation-control",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-prior-graduation-control",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-compulsory-have-to",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-compulsory-have-to",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-mandatory-must-control",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-mandatory-must-control",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-clinical-control",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-clinical-control",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-mixed-offer-deadline",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-mixed-offer-deadline",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-exact-unseen-anchors",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-exact-unseen-anchors",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-narrow-nbsp-normalized",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-narrow-nbsp-normalized",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-superscript-normalized",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-superscript-normalized",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-zero-padding-normalized",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-zero-padding-normalized",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-zero-width-deleted",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-zero-width-deleted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-literal-backticks-deleted",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-literal-backticks-deleted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-roman-lookalike-swapped",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-roman-lookalike-swapped",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-altered-zero-width-quotation",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "prior-prior-altered-zero-width-quotation",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-straight-delimiters",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "prior-prior-straight-delimiters",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-has-to-context",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-has-to-context",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-need-to-context",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-need-to-context",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-obliged-context",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-obliged-context",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-offer-without-have-to",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-offer-without-have-to",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-clinical-baptism",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-clinical-baptism",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-mandatory-shower",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-mandatory-shower",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-ambiguous-meeting",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-ambiguous-meeting",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-explicit-reset",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-prior-explicit-reset",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-unknown-no-reset",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-unknown-no-reset",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-private-baptism",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-prior-private-baptism",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-prior-private-shower",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-prior-private-shower",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-are-to",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-red-are-to",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-red-condition-of-entry",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-red-condition-of-entry",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-red-will-be-expected",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-red-will-be-expected",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-red-known-have-to",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-red-known-have-to",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-red-mixed-offers-to-reach",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-red-mixed-offers-to-reach",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-red-private-have-to",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-red-private-have-to",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-private-obligation-pollutes-context",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-red-private-obligation-pollutes-context",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-private-negated-have-to",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-red-private-negated-have-to",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-christening",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-red-christening",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-bridal-shower",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-red-bridal-shower",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-known-baptism",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-red-known-baptism",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-clinical-guard",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-red-clinical-guard",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-red-private-reset-control",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-red-private-reset-control",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-exact-opaque-anchors",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-exact-opaque-anchors",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-word-joiner-deleted",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-word-joiner-deleted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-ltr-mark-deleted",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-ltr-mark-deleted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-accent-composed",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-accent-composed",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-entity-decoded",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-entity-decoded",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-hyphen-normalized",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-hyphen-normalized",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-backslashes-deleted",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-backslashes-deleted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-red-quote-word-joiner-inserted",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "prior-red-quote-word-joiner-inserted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-unknown-event-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-unknown-event-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-private-need-to",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-private-need-to",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-private-need-to-next",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-private-need-to-next",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-private-mixed-real",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-private-mixed-real",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-private-mixed-companies",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-private-mixed-companies",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-clinical-self-obligation",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-clinical-self-obligation",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-required-context-self",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-required-context-self",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-explicit-reset-self",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-explicit-reset-self",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-mixed-and-deposit",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-mixed-and-deposit",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-mixed-clause-deposit",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-mixed-clause-deposit",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-explicit-family-event-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "prior-explicit-family-event-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "prior-clinical-private-event-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "prior-clinical-private-event-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "red-private-subheading-under-explicit-official-scope",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "red-private-subheading-under-explicit-official-scope",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "red-mixed-imperative-deposit",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "red-mixed-imperative-deposit",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "red-unseen-participation-dependency",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "red-unseen-participation-dependency",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "red-possessive-private-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "red-possessive-private-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "red-compound-private-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "red-compound-private-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "red-genuine-private-reset",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "red-genuine-private-reset",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-mixed-private-duty-then-deposit",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "red-mixed-private-duty-then-deposit",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "red-exact-citation-variants",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-exact-citation-variants",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-thin-space-normalized",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-thin-space-normalized",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-invisible-separator-deleted",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-invisible-separator-deleted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-greek-zeta-latin",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-greek-zeta-latin",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-minus-hyphen",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-minus-hyphen",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-fullwidth-colon-ascii",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-fullwidth-colon-ascii",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-numeric-entity-decoded",
+    "arm": "original",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "red-numeric-entity-decoded",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "valid": false,
+    "expected_warning": null,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "conditional-admission",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "conditional-admission",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "possessive-compound-private",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "possessive-compound-private",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "two-personal-clauses",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "two-personal-clauses",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  },
+  {
+    "case": "unknown-second-clause",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "unknown-second-clause",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "alternate-explicit-nested-label",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "alternate-explicit-nested-label",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "unrelated-private-reset",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "unrelated-private-reset",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "clinical-private-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "clinical-private-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "private-year-comma",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": true,
+    "passed": false
+  },
+  {
+    "case": "private-year-comma",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": false,
+    "warning": false,
+    "passed": true
+  }
+]
