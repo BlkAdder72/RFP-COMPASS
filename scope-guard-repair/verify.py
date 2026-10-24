@@ -43,12 +43,15 @@ for arm in ['original','rebuild']:
     if i:assert session in cmd
    turns+=1
   if kind=='full':assert env['fixture_sha256']==sha(R/'hardening/fixtures/Z-full-length-noisy.md');assert (base/'bid-compliance-card.md').read_text(encoding='utf-8')=='\n'.join((p/'bid-compliance-card.md').read_text(encoding='utf-8') for p in ps)
-controls=json.loads((D/'control-results.json').read_text());defs=json.loads((D/'control-definitions.json').read_text(encoding='utf-8'))
-assert len(defs)==82 and all(c['passed'] for c in controls if c['arm']=='rebuild')
+controls=json.loads((D/'controls-release-results.json').read_text());defs=json.loads((D/'control-definitions-release.json').read_text(encoding='utf-8'))
+assert len(defs)==87 and all(c['passed'] for c in controls if c['arm']=='rebuild')
 for c in defs:
- f=D/'controls'/c['name'];assert (f/'source-packet.md').read_text(encoding='utf-8')==c['source'] and (f/'card.md').read_text(encoding='utf-8')==c['card']
+ f=D/'controls-release'/c['name'];assert (f/'source-packet.md').read_text(encoding='utf-8')==c['source'] and (f/'card.md').read_text(encoding='utf-8')==c['card']
  for arm in ['original','rebuild']:
   p=subprocess.run([sys.executable,'-B','-X','utf8',str(R/arm/'tools/validate_packet.py'),str(f/'source-packet.md'),str(f/'card.md')],capture_output=True,text=True,encoding='utf-8');w=any('REVIEW' in l and 'Section 6' in l and c['sid'] in l for l in p.stdout.splitlines());v=next(x for x in controls if x['case']==c['name'] and x['arm']==arm);assert v['valid']==(p.returncode==0) and v['warning']==w
+assert subprocess.check_output(['git','show',ch['addendum']+':scope-guard-repair/control-definitions-release.json'],cwd=R)==(D/'control-definitions-release.json').read_bytes()
+replays=json.loads((D/'historical-control-replays-release.json').read_text());assert all(c['passed'] for c in replays if c['arm']=='rebuild')
+same=json.loads((D/'same-card-warning-replay.json').read_text());assert 'S002, S004' in same['before']['stdout'] and 'REVIEW' not in same['after']['stdout'];assert same['before']['source_sha256']==same['after']['source_sha256']==sha(R/'red-team-scope/fixtures/B-personal-heading-variants.md');assert same['before']['card_sha256']==same['after']['card_sha256']==sha(R/'red-team-scope/run-rebuild/B-personal-heading-variants/bid-compliance-card.md');assert same['after']['validator_sha256']==sha(R/'rebuild/tools/validate_packet.py')
 plan=json.loads((D/'submission-plan.json').read_text(encoding='utf-8'));comment=(R/'SUBMISSION_COMMENT.md').read_text(encoding='utf-8').split('\n\n',1)[1].strip();assert comment==' '.join(plan['sentences']) and len(plan['sentences'])==3;assert len(re.findall(r'[.!?](?:[”\"])?(?=\s|$)',comment))==3
 assert (D/'REPORT.md').read_bytes()==(R/'results.md').read_bytes()
-print(json.dumps({'status':'PASS','prior_files_preserved':len(m['tracked']),'prior_sealed_artifacts_present_verified':len(artifacts),'raw_turns_verified':turns,'frozen_questions':'unchanged','strict_implementation':'unchanged','six_model_knowledge_files':'unchanged','warning_controls':82,'published':False},indent=2))
+print(json.dumps({'status':'PASS','prior_files_preserved':len(m['tracked']),'prior_sealed_artifacts_present_verified':len(artifacts),'raw_turns_verified':turns,'frozen_questions':'unchanged','strict_implementation':'unchanged','six_model_knowledge_files':'unchanged','warning_controls':87,'published':False},indent=2))

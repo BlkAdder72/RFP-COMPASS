@@ -88,6 +88,7 @@ PERSONAL_HEADER = re.compile(
     r"\s*(?:(?:my|our|your|his|her|their)\s+)?(?:(?:personal|private|family)\s+)+"
     r"(?:calendar|correspondence|notes|schedule|email|thread|events|activities)\s*[:.—-]?\s*", re.IGNORECASE)
 PERSONAL_CONTRIBUTION = re.compile(r"\b(?:please\s+)?bring\s+\$\s*\d+(?:\.\d+)?\s+for\s+(?:lunch|dinner)\b", re.IGNORECASE)
+PERSONAL_SHARE = re.compile(r"(?:my|our|your|his|her|their)\s+share\s+(?:is|was)\s+\$\s*\d+(?:\.\d{1,2})?", re.IGNORECASE)
 
 
 def personal_hint_exclusions(statements, placed):
@@ -112,7 +113,8 @@ def personal_hint_exclusions(statements, placed):
         # A conjunction after a comma starts another clause; a calendar-year
         # comma does not. Unknown extra clauses cannot borrow personal support.
         clauses = [c for c in re.split(r"[;.!?](?:\s+|$)|,\s*(?=(?:then|and|but|while|also|or)\b)", body, flags=re.IGNORECASE) if c.strip()]
-        private_statement = bool(clauses) and all(personal_support(c) for c in clauses)
+        private_statement = personal and bool(clauses) and all(
+            personal_support(c) or PERSONAL_SHARE.fullmatch(c.strip()) for c in clauses)
         duty_clauses = [c for c in clauses if OBLIGATION_CUE.search(c)]
         private_duty = bool(duty_clauses) and len(clauses) == len(duty_clauses) and all(
             PRIVATE_SELF_DUTY.search(c) and PERSONAL_OWNER.search(c) and PERSONAL_ACTIVITY.search(c)
