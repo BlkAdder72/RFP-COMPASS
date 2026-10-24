@@ -70,6 +70,13 @@ PRIVATE_SELF_DUTY = re.compile(r"^\s*I\s+(?:(?:do|did)\s+not\s+)?(?:have|had|nee
 OFFER_DELIVERY_CUE = re.compile(
     r"\b(?:deliver|send|lodge|provide|return|present)\b[^.;!?]*\boffers?\b|"
     r"\boffers?\b[^.;!?]*\b(?:reach|arrive|received|receipt)\b", re.IGNORECASE)
+# Dependency constructions can carry participation requirements without a colon.
+DEPENDENCY_CUE = re.compile(
+    r"\b(?:participation|admission|entry|eligibility)\b[^.;!?]*\b"
+    r"(?:depends?\s+on|contingent\s+on|conditional\s+on|conditioned\s+on|determined\s+by)\b", re.IGNORECASE)
+# Only a literal body-supported reference can keep a private-looking nested
+# heading inside the inherited requirement. Anchors and output placement do not.
+SCOPE_REFERENCE = re.compile(r"\b(?:including|subsections?|sections?|labelled|labeled|titled|headed)\b", re.IGNORECASE)
 PERSONAL_OWNER = re.compile(r"\b(my|our|your|his|her|their)\b", re.IGNORECASE)
 PERSONAL_ACTIVITY = re.compile(
     r"\b(potluck|birthday|dentist|(?:baptism|christening)(?:\s+ceremony)?|(?:baby|bridal)\s+shower|graduation\s+(celebration|party|ceremony)|wedding\s+anniversary|family\s+(picnic|party|reunion|dinner)|"
@@ -77,45 +84,61 @@ PERSONAL_ACTIVITY = re.compile(
     r"(physical\s+therapy|physiotherapy|doctor|medical)\s+appointment)\b", re.IGNORECASE)
 EVENT_HEADER = re.compile(r"\b(events?|meetings?|conferences?|attendance|activities|schedules?|calendars?|appointments?|meals?|lunch|dinner|visits?)\b", re.IGNORECASE)
 CLINICAL_CUE = re.compile(r"\b(patients?|clinical|beneficiaries|services?|providers?|healthcare)\b", re.IGNORECASE)
-PERSONAL_HEADER = re.compile(r"\s*(personal|private|family)\s+(calendar|correspondence|notes|schedule|email|thread|events|activities)\s*[:.—-]?\s*", re.IGNORECASE)
+PERSONAL_HEADER = re.compile(
+    r"\s*(?:(?:my|our|your|his|her|their)\s+)?(?:(?:personal|private|family)\s+)+"
+    r"(?:calendar|correspondence|notes|schedule|email|thread|events|activities)\s*[:.—-]?\s*", re.IGNORECASE)
 PERSONAL_CONTRIBUTION = re.compile(r"\b(?:please\s+)?bring\s+\$\s*\d+(?:\.\d+)?\s+for\s+(?:lunch|dinner)\b", re.IGNORECASE)
 
 
 def personal_hint_exclusions(statements, placed):
-    """Bounded personal-calendar filter, with a veto for requirement-bearing text.
+    """Bounded warning filter; exact quotation/citation checks are separate.
 
-    This is not a complete semantic classifier. Unknown meetings and mixed
-    requirements keep their hints. Requirement context follows source order,
-    independent of line, paragraph, page or document anchors. Only an explicit
-    personal heading in the source body resets it; unknown transitions do not.
+    Require affirmative personal support in every clause before exemption.
+    Explicitly referenced nested private headings inherit requirement scope;
+    unrelated private headings reset it. Unknown transitions keep review hints.
+    This finite heuristic is not a complete semantic classifier.
     """
+    def personal_support(text):
+        return bool((PERSONAL_OWNER.search(text) and PERSONAL_ACTIVITY.search(text))
+                    or PERSONAL_CONTRIBUTION.search(text))
+
     result = set()
     protected = False
+    scope_references = []
     for sid, (anchor, body) in statements.items():
-        personal = (PERSONAL_OWNER.search(body) and PERSONAL_ACTIVITY.search(body)) or PERSONAL_CONTRIBUTION.search(body)
-        hard_procurement = PROCUREMENT_CUE.search(body) or OFFER_DELIVERY_CUE.search(body)
+        personal = personal_support(body)
+        hard_procurement = PROCUREMENT_CUE.search(body) or OFFER_DELIVERY_CUE.search(body) or DEPENDENCY_CUE.search(body)
         clinical = CLINICAL_CUE.search(body)
-        clauses = [c for c in re.split(r"[;.!?](?:\s+|$)", body) if c.strip()]
+        # A conjunction after a comma starts another clause; a calendar-year
+        # comma does not. Unknown extra clauses cannot borrow personal support.
+        clauses = [c for c in re.split(r"[;.!?](?:\s+|$)|,\s*(?=(?:then|and|but|while|also|or)\b)", body, flags=re.IGNORECASE) if c.strip()]
+        private_statement = bool(clauses) and all(personal_support(c) for c in clauses)
         duty_clauses = [c for c in clauses if OBLIGATION_CUE.search(c)]
         private_duty = bool(duty_clauses) and len(clauses) == len(duty_clauses) and all(
             PRIVATE_SELF_DUTY.search(c) and PERSONAL_OWNER.search(c) and PERSONAL_ACTIVITY.search(c)
             and len(OBLIGATION_CUE.findall(c)) == 1
-            and not re.search(r"\b(and|but|while|also)\b", c, re.IGNORECASE)
+            and not re.search(r"\b(and|but|while|also|then|or)\b", c, re.IGNORECASE)
             for c in duty_clauses)
-        procurement = hard_procurement or (bool(duty_clauses) and not private_duty)
+        procurement = hard_procurement or (bool(duty_clauses) and not private_duty) or (personal and not private_statement)
         requirement_heading = body.rstrip().endswith(":") or (len(body) <= 120 and body.isupper())
         private_heading = PERSONAL_HEADER.fullmatch(body)
-        # Unknown event-list headings preserve scope without a fixed modality list.
-        # A private duty cannot create or clear genuine inherited requirements.
+        heading_key = body.strip().rstrip(":.—- ").casefold()
+        referenced_private = private_heading and any(
+            re.search(r"(?<!\w)" + re.escape(heading_key) + r"(?!\w)", text.casefold())
+            for text in scope_references)
         unknown_event_heading = requirement_heading and EVENT_HEADER.search(body) and not personal and not private_heading
         if ((procurement or clinical) and (EVENT_HEADER.search(body) or requirement_heading)) or unknown_event_heading:
             protected = True
-        elif private_heading and not procurement and not clinical:
+            if (procurement or clinical) and SCOPE_REFERENCE.search(body):
+                scope_references.append(body)
+        elif private_heading and not procurement and not clinical and not referenced_private:
             protected = False
+            scope_references.clear()
         only12 = sid in placed.get(12, set()) and not any(sid in placed.get(s, set()) for s in range(1, 12))
-        if personal and only12 and not procurement and not clinical and not protected:
+        if private_statement and only12 and not procurement and not clinical and not protected:
             result.add(sid)
     return result
+
 def difference(expected: str, actual: str) -> str:
     """Where two strings first differ, shown with a little context."""
     index = next((i for i, (a, b) in enumerate(zip(expected, actual)) if a != b), min(len(expected), len(actual)))
