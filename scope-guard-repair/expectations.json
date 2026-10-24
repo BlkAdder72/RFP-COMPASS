@@ -1,0 +1,115 @@
+{
+  "A-obligations-and-private-subheadings": {
+    "source_sha256": "6c8c9b90f9bc1ba039ac5b0a3b710f8f1ab4db9f3d24f7acebbec9c12de9b596",
+    "required": {
+      "S003": [
+        6
+      ],
+      "S004": [
+        6
+      ],
+      "S006": [
+        6
+      ]
+    },
+    "forbidden": {
+      "S003": [
+        12
+      ],
+      "S004": [
+        12
+      ],
+      "S006": [
+        12
+      ]
+    },
+    "exclusive": {}
+  },
+  "B-personal-heading-variants": {
+    "source_sha256": "744cde74c79c7f1f126f1e7248facdf89d941d03f20aa62606c35695fd9023aa",
+    "required": {
+      "S005": [
+        6
+      ]
+    },
+    "forbidden": {},
+    "exclusive": {
+      "S001": [
+        12
+      ],
+      "S002": [
+        12
+      ],
+      "S003": [
+        12
+      ],
+      "S004": [
+        12
+      ]
+    }
+  },
+  "C-citation-variants": {
+    "source_sha256": "21a1a327554b77647a3a02dbfbbf0bb25585ee2a0850c7ab453e4373da822a61",
+    "required": {
+      "S001": [
+        4,
+        5
+      ],
+      "S002": [
+        4,
+        5
+      ],
+      "S003": [
+        4,
+        5
+      ],
+      "S004": [
+        4,
+        5
+      ],
+      "S005": [
+        4,
+        5
+      ],
+      "S006": [
+        4,
+        5
+      ]
+    },
+    "forbidden": {},
+    "exclusive": {}
+  },
+  "D-additional-boundaries": {
+    "source_sha256": "9438200006a3f70ec9e00303ff56d20900667684967414204b5716cd1f20a92c",
+    "required": {
+      "S002": [
+        6
+      ],
+      "S005": [
+        6
+      ]
+    },
+    "forbidden": {
+      "S002": [
+        12
+      ],
+      "S005": [
+        12
+      ]
+    },
+    "exclusive": {
+      "S003": [
+        12
+      ],
+      "S004": [
+        12
+      ],
+      "S006": [
+        12
+      ],
+      "S007": [
+        12
+      ]
+    }
+  }
+}
