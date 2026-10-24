@@ -1,0 +1,2 @@
+NOTE: REVIEW C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\run-original\scope-guard-repair-full\part-1\bid-compliance-card.md (+3 part(s)): S139 look like evaluation terms but are not in Section 7; confirm that is intended
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.

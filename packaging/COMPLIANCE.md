@@ -1,7 +1,7 @@
 # Current local competition compliance
 
-No publication performed. Current measured results: `scope-repair/REPORT.md` and root `results.md`. Both arms reran frozen questions, new/regression cases and the unchanged 221-statement full RFP. Warning-only candidate changes retain strict validation.
+Unpublished. Current report: `scope-guard-repair/REPORT.md` and root `results.md`. Both arms use frozen Q1–Q8, the same new/regression cases and unchanged full RFP. All prior files and sealed deliveries are preserved; seven mutable root/candidate documents have exact before snapshots. Strict validation from def difference onward is byte-identical.
 
-Required root layout, judged original, verbatim feedback, frozen questions, original-before-candidate sequence and all raw failures remain preserved. Historical audits run at sealed historical commits; current evidence is independently checked by `scope-repair/verify.py`. Local delivery: `dist/scope-release/`; all prior deliveries remain unchanged.
+Required root layout, judged original, verbatim feedback, frozen questions and complete original-before-candidate sequence are retained. Historical audits run at sealed historical commits in sibling clones. Current evidence is checked by `scope-guard-repair/verify.py`; delivery is under `dist/scope-guard-release/`. Read FINAL_VERIFICATION.json for actual packaging status and results.md for performance, including ties and failures.
 
-Premium/VIP eligibility is unverified. Public URL/comment remain pending. Check the release FINAL_VERIFICATION.json for actual delivery status; audit success is separate from model performance.
+The submission body has three frozen sentences. Premium/VIP eligibility and a valid public repository URL remain unverified; no publication is authorized or performed.

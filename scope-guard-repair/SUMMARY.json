@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-24",
+  "warning_findings_closed_on_recorded_cases": 4,
+  "final_controls": {
+    "original": 58,
+    "rebuild": 87,
+    "total": 87
+  },
+  "rebuilt_historical_replays": {
+    "passed": 73,
+    "total": 73
+  },
+  "questions": {
+    "improved": 5,
+    "tied": 3,
+    "regressed": 0
+  },
+  "supplemental": {
+    "original": {
+      "pass": 2,
+      "total": 4
+    },
+    "rebuild": {
+      "pass": 4,
+      "total": 4
+    }
+  },
+  "full": {
+    "original": {
+      "passed": false,
+      "checks": {
+        "exact_shape_quotes_coverage": true,
+        "exact_statement_text": true,
+        "exact_anchors": true,
+        "all_221_ids": true,
+        "noise_only12": false,
+        "genuine_routing": false,
+        "forbidden_routing_clear": true,
+        "no_personal_review_hints": true,
+        "max150_bullets_per_reply": true,
+        "complete": true
+      }
+    },
+    "rebuild": {
+      "passed": true,
+      "checks": {
+        "exact_shape_quotes_coverage": true,
+        "exact_statement_text": true,
+        "exact_anchors": true,
+        "all_221_ids": true,
+        "noise_only12": true,
+        "genuine_routing": true,
+        "forbidden_routing_clear": true,
+        "no_personal_review_hints": true,
+        "max150_bullets_per_reply": true,
+        "complete": true
+      }
+    }
+  },
+  "failed_first_attempt_preserved": true,
+  "strict_implementation_unchanged": true,
+  "published": false
+}

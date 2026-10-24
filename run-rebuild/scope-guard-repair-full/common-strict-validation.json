@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "stdout": "NOTE: PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+  "stderr": ""
+}

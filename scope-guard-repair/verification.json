@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "prior_files_preserved": 17646,
+  "prior_sealed_artifacts_present_verified": 35,
+  "raw_turns_verified": 26,
+  "frozen_questions": "unchanged",
+  "strict_implementation": "unchanged",
+  "six_model_knowledge_files": "unchanged",
+  "warning_controls": 87,
+  "published": false
+}

@@ -1,3 +1,3 @@
-DRAFT — do not post; replace the public URL only after publication is authorized.
+# Submission comment — DRAFT, not posted
 
-I rebuilt my Comp #13 Translator entry, RFP-COMPASS: [PUBLIC_REPOSITORY_URL]. The feedback line that drove it was: “A noisy-input test in `run-results/` showing a stapled thread held in Section 12 only.” The repository preserves the judged original, frozen questions and raw paired full-RFP evidence, including ties, failed attempts and the limits of the repairs.
+I rebuilt my Comp #13 Translator entry, RFP-COMPASS: [PUBLIC_REPOSITORY_URL]. The feedback line that drove it was: “A noisy-input test in `run-results/` showing a stapled thread held in Section 12 only.” The repository preserves frozen questions, raw paired runs, failed attempts, ties and regressions, and the limits of the repair.

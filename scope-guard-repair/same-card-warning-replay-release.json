@@ -1,0 +1,36 @@
+{
+  "before": {
+    "source_sha256": "744cde74c79c7f1f126f1e7248facdf89d941d03f20aa62606c35695fd9023aa",
+    "card_sha256": "fceabfc9be06a203fb80e2ffddc6fa34f9816fbe7373907672d78af9df81e80e",
+    "validator_sha256": "5bcbce50b8f152bcb7eb3b74e00d3b0baa7eec44c178ae2bd927f7e03171b01c",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\scope-guard-repair\\before\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-scope\\fixtures\\B-personal-heading-variants.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-scope\\run-rebuild\\B-personal-heading-variants\\bid-compliance-card.md"
+    ],
+    "exit_code": 0,
+    "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-scope\\run-rebuild\\B-personal-heading-variants\\bid-compliance-card.md: S002, S004 look like dates or times but are not in Section 6; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  "after": {
+    "source_sha256": "744cde74c79c7f1f126f1e7248facdf89d941d03f20aa62606c35695fd9023aa",
+    "card_sha256": "fceabfc9be06a203fb80e2ffddc6fa34f9816fbe7373907672d78af9df81e80e",
+    "validator_sha256": "e3814e1b3a5d8e3c7091db6c1a6b61ec44930d3b92d9f56f389f31a4d5e15a3d",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-scope\\fixtures\\B-personal-heading-variants.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-scope\\run-rebuild\\B-personal-heading-variants\\bid-compliance-card.md"
+    ],
+    "exit_code": 0,
+    "stdout": "NOTE: PERSONAL HINT FILTER: S002, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  }
+}

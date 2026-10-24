@@ -14,10 +14,10 @@ def pythonpath(p):
 work=R/'.run-work';work.mkdir(exist_ok=True)
 # Do not invoke the older clone-launcher recursively: Git rejects its inherited
 # extended-path destination. Keep all historical assertion code unchanged instead.
-for name,commit,script in [('legacy','157d8fe22339ce5385b8291728c48f7141840206','tools/verify_submission.py'),('final-repair','06fcebace08c19410b63f1cd8c2523f66822d18b','final-repair/verify.py'),('warning-repair','09684fc7129b8ff4bcbefe4b749f644f8f23f50e','warning-repair/verify.py')]:
+for name,commit,script in [('legacy','157d8fe22339ce5385b8291728c48f7141840206','tools/verify_submission.py'),('final-repair','06fcebace08c19410b63f1cd8c2523f66822d18b','final-repair/verify.py'),('warning-repair','09684fc7129b8ff4bcbefe4b749f644f8f23f50e','warning-repair/verify.py'),('scope-repair','3159bc2a93e7de52580c5445c15e7ac24d31eddd','scope-repair/verify.py')]:
  temp=Path(tempfile.mkdtemp(prefix='ha-',dir=work));C=temp/'s'
  run(name+'-clone',['git','-c','core.longpaths=true','clone','--quiet','--shared','--no-checkout',gitpath(R),gitpath(C)],R)
  run(name+'-checkout',['git','-c','core.longpaths=true','checkout','--quiet','--detach',commit],C)
  run(name+'-unchanged-audit',[sys.executable,'-B','-X','utf8',pythonpath(C/script)],C)
-run('current-repair-audit',[sys.executable,'-B','-X','utf8',pythonpath(R/'scope-repair/verify.py')],R)
+run('current-repair-audit',[sys.executable,'-B','-X','utf8',pythonpath(R/'scope-guard-repair/verify.py')],R)
 print(json.dumps({'offline_audit':'PASS','real_model_calls':0,'published':False,'checks':records},indent=2))
