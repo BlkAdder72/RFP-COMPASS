@@ -1,0 +1,36 @@
+{
+  "before": {
+    "source_sha256": "55daa5196a65f4f0257a556cc538a444855c3bfb298572154d9c2eff95de6f63",
+    "card_sha256": "65316d62b0f5802d5dd0b22120b82a3fc1ebf20d9fe1131900a0d827ce2568c5",
+    "validator_sha256": "e3814e1b3a5d8e3c7091db6c1a6b61ec44930d3b92d9f56f389f31a4d5e15a3d",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\polarity-repair\\before\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-guard\\fixtures\\B-negated-scope-and-private-headings.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-guard\\run-rebuild\\B-negated-scope-and-private-headings\\bid-compliance-card.md"
+    ],
+    "exit_code": 0,
+    "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-guard\\run-rebuild\\B-negated-scope-and-private-headings\\bid-compliance-card.md: S003, S006, S008 look like dates or times but are not in Section 6; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  "after": {
+    "source_sha256": "55daa5196a65f4f0257a556cc538a444855c3bfb298572154d9c2eff95de6f63",
+    "card_sha256": "65316d62b0f5802d5dd0b22120b82a3fc1ebf20d9fe1131900a0d827ce2568c5",
+    "validator_sha256": "f783b2a8c6261c5a7a9d4cea728b14c4db904a713a62fe839714c56c1f815fba",
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-guard\\fixtures\\B-negated-scope-and-private-headings.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-guard\\run-rebuild\\B-negated-scope-and-private-headings\\bid-compliance-card.md"
+    ],
+    "exit_code": 0,
+    "stdout": "NOTE: PERSONAL HINT FILTER: S002, S003, S006, S008; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  }
+}

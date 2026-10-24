@@ -1,0 +1,74 @@
+[
+  {
+    "case": "outside-hours-is-not-exclusion",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "outside-hours-is-not-exclusion",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "unrelated-topic-is-not-exclusion",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "unrelated-topic-is-not-exclusion",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": false,
+    "passed": false
+  },
+  {
+    "case": "coordinate-other-exclusion",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "coordinate-other-exclusion",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "negated-exclusion-keeps-scope",
+    "arm": "original",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  },
+  {
+    "case": "negated-exclusion-keeps-scope",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "valid": true,
+    "expected_warning": true,
+    "warning": true,
+    "passed": true
+  }
+]

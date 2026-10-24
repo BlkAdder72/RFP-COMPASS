@@ -128,10 +128,23 @@ def personal_hint_exclusions(statements, placed):
         key = " ".join(label.split()).casefold()
         for reference in reversed(references):
             reference = " ".join(reference.split()).casefold()
-            if re.search(r"(?<!\w)" + re.escape(key) + r"(?!\w)", reference):
-                # A negated exclusion remains conservative rather than resetting.
-                reference = re.sub(r"\bnot\s+(?:excluded|unrelated|outside)\b", "included", reference)
-                return not EXCLUSION_CUE.search(reference)
+            reference = re.sub(r"\bnot\s+(?:excluded|unrelated|outside)\b", "included", reference)
+            match = re.search(r"(?<!\w)" + re.escape(key) + r"(?!\w)", reference)
+            if match:
+                prefix, suffix = reference[:match.start()], reference[match.end():]
+                scope_object = r"(?:(?:these|the|this|those|all|required|mandatory)\s+)*(?:events?|activities|requirements?|scope|attendance|participation|procurement|solicitation)\b"
+                # Link exclusion to this heading's predicate/object. Descriptive
+                # "outside office hours" or "unrelated research" is not scope.
+                excluded_before = re.search(
+                    r"\b(?:exclud(?:e|es|ed|ing)|not\s+includ(?:e|ing))\s+(?:(?:the|a|this)\s+)?(?:(?:subsection|section|block)\s+)?(?:(?:titled|labelled|labeled|headed)\s+)?[\"“‘']*\s*$", prefix)
+                if excluded_before and re.match(r"\s+from\b", suffix):
+                    excluded_before = re.match(r"\s+from\s+" + scope_object, suffix)
+                excluded_after = re.match(
+                    r"^[\s\"“”'‘’)]*(?:(?:is|are|was|were|remains?)\s+)?(?:"
+                    r"unrelated(?:[.:]?\s*$|\s+to\s+" + scope_object + r")|"
+                    r"excluded(?:[.:]?\s*$|\s+from\s+" + scope_object + r")|"
+                    r"not\s+(?:included|part\s+of)\b|outside\s+(?:the\s+)?(?:scope|requirements)\b)", suffix)
+                return not (excluded_before or excluded_after)
         return False
 
     result = set()

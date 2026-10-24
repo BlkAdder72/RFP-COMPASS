@@ -1,0 +1,7 @@
+# Repair attempts retained
+
+The first warning-only implementation passed all 116 initial controls and all 73 rebuilt historical replay cases. Source is preserved in attempt-1/validate_packet.py and at commit f017ceb; the initial construction helper apply_fix.py describes that first attempt, not the final release installer. Initial controls, historical-control-replays and same-card-warning-replay.json remain unchanged.
+
+Before any rebuilt model call, inspection identified a risk in treating any outside/unrelated token as a scope exclusion. Four new controls were frozen in f017ceb before execution. Two exposed unsafe warning suppression: mandatory private events described as outside office hours or discussing unrelated research. Their complete failures remain in relation-addendum-before and relation-addendum-before-results.json.
+
+The correction ties an exclusion to the named heading's actual predicate or grammatical exclusion object, with bounded scope objects. Descriptive time/topic modifiers retain warnings. Other-heading exclusions and negated exclusions retain their positive guards. Final controls-release contains all 120 cases; all rebuilt cases pass. Final historical-control-replays-release has all 73 rebuilt cases passing. The previous S072 anchor failure remains rejected, and strict implementation from def difference onward is unchanged. Final source is the pinned candidate version of rebuild/tools/validate_packet.py; no model prompt, frozen source, expected translation, raw response or question was changed and no model retry was performed.
