@@ -1,0 +1,1140 @@
+[
+  {
+    "case": "exact",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "zero-width",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": false
+  },
+  {
+    "case": "zero-width",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "straight",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": false
+  },
+  {
+    "case": "straight",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "changed-anchor",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "changed-anchor",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "shortened-anchor",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "shortened-anchor",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "changed-quote",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "changed-quote",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "missing-coverage",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "missing-coverage",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "zero-width-source-exact",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "zero-width-source-exact",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "internal-straight-quotes",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "internal-straight-quotes",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "nbsp-exact",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "nbsp-exact",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "nbsp-changed",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": false
+  },
+  {
+    "case": "nbsp-changed",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "decomposed-exact",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "decomposed-exact",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "decomposed-changed",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "decomposed-changed",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "trailing-space-exact",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "trailing-space-exact",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "trailing-space-changed",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": false
+  },
+  {
+    "case": "trailing-space-changed",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-same-anchor",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-same-anchor",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-different-lines",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-different-lines",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-different-paragraphs",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-different-paragraphs",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-different-pages",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-different-pages",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-different-documents",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-different-documents",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-no-colon",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-no-colon",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-schedule-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-schedule-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-intervening-text",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-intervening-text",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-unrecognized-transition",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-unrecognized-transition",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-personal-transition",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-personal-transition",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-spoofed-personal-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-spoofed-personal-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-clinical-scope",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-clinical-scope",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-retirement",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-retirement",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-therapy",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-therapy",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-farewell",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-farewell",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-doctor",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-doctor",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-family",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-family",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-unknown",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-unknown",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-mixed",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-mixed",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-clinical-body",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-clinical-body",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-medical-contract",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-medical-contract",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-ambiguous-team-meal",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-ambiguous-team-meal",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-graduation",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-graduation",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-graduation-procurement",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-graduation-procurement",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-graduation-mixed",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-graduation-mixed",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-graduation-clinical",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-graduation-clinical",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-graduation-unknown",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "guard-graduation-unknown",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-personal-potluck-new-date",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-personal-potluck-new-date",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-neutral-dentist",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-neutral-dentist",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-family-birthday",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-family-birthday",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-anniversary",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-anniversary",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-family-recital",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-family-recital",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-family-money",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-family-money",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-personal-contact",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-personal-contact",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-unknown-meeting",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-unknown-meeting",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-indirect-real-deadline",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-indirect-real-deadline",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-applications-close",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-applications-close",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-personal-looking-real-deadline",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-personal-looking-real-deadline",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-mixed-party-deadline",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-mixed-party-deadline",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-mandatory-potluck",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-mandatory-potluck",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-required-personal-activity",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-required-personal-activity",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-contextual-bidder-event",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-contextual-bidder-event",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-generic-lunch-money",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-generic-lunch-money",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-genuine-fee",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-genuine-fee",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-genuine-contact",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-genuine-contact",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-mixed-contact",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-mixed-contact",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-public-procurement-social-event",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-public-procurement-social-event",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-Q8-contained",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-Q8-real-deadline",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-N1-misleading-anchor",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-N2-neutral-personal",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-Q8-contained",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-Q8-real-deadline",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-N1-misleading-anchor",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-N2-neutral-personal",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-operational-duplicate",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-changed-quote",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "prior-missing-heading",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "preserved-S072-failure",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": true,
+    "passed": true
+  },
+  {
+    "case": "preserved-S072-failure",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "same_warning_lines": false,
+    "passed": false
+  },
+  {
+    "case": "followup-exact",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "case": "followup-swapped-page-range",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "passed": true
+  },
+  {
+    "case": "followup-preserved-S100-failure",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "passed": true
+  },
+  {
+    "case": "followup-exact",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "case": "followup-swapped-page-range",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "passed": true
+  },
+  {
+    "case": "followup-preserved-S100-failure",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "passed": true
+  }
+]
