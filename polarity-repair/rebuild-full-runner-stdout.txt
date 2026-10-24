@@ -1,0 +1,4 @@
+RUN rebuild full part 1
+RUN rebuild full part 2
+RUN rebuild full part 3
+SAVED 3 parts

@@ -1,0 +1,8 @@
+RUN rebuild A-unseen-obligations-and-mixed-conjunction
+SAVED
+RUN rebuild B-negated-scope-and-private-headings
+SAVED
+RUN rebuild C-new-citation-variants
+SAVED
+RUN rebuild D-polarity-and-coordination
+SAVED

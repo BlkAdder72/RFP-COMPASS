@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "stdout": "PASS (4 cards): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+  "stderr": ""
+}

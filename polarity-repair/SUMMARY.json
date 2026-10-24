@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-24",
+  "findings_closed_on_recorded_cases": 5,
+  "final_controls": {
+    "original": 80,
+    "rebuild": 120,
+    "total": 120
+  },
+  "rebuilt_historical_replays": {
+    "passed": 73,
+    "total": 73
+  },
+  "questions": {
+    "improved": 5,
+    "tied": 3,
+    "regressed": 0
+  },
+  "supplemental": {
+    "original": {
+      "passed": 2,
+      "total": 4
+    },
+    "rebuild": {
+      "passed": 4,
+      "total": 4
+    }
+  },
+  "full": {
+    "original": {
+      "passed": false,
+      "parts": 4,
+      "checks": {
+        "exact_shape_quotes_coverage": false,
+        "exact_statement_text": true,
+        "exact_anchors": false,
+        "all_221_ids": true,
+        "noise_only12": false,
+        "genuine_routing": false,
+        "forbidden_routing_clear": true,
+        "no_personal_review_hints": true,
+        "max150_bullets_per_reply": true,
+        "complete": true
+      },
+      "anchor_mismatches": [
+        {
+          "sid": "S072",
+          "section": 4,
+          "actual": "TBRPC Auditing RFP p. 7 \u00a75.II.b",
+          "expected": "TBRPC Auditing RFP p. 7 \u00a75.II.b bullet"
+        },
+        {
+          "sid": "S072",
+          "section": 5,
+          "actual": "TBRPC Auditing RFP p. 7 \u00a75.II.b",
+          "expected": "TBRPC Auditing RFP p. 7 \u00a75.II.b bullet"
+        },
+        {
+          "sid": "S092",
+          "section": 6,
+          "actual": "TBRPC Auditing RFP p. 9 \u00a76.II Questions",
+          "expected": "TBRPC Auditing RFP p. 9 \u00a76.I Questions"
+        }
+      ]
+    },
+    "rebuild": {
+      "passed": true,
+      "parts": 3,
+      "checks": {
+        "exact_shape_quotes_coverage": true,
+        "exact_statement_text": true,
+        "exact_anchors": true,
+        "all_221_ids": true,
+        "noise_only12": true,
+        "genuine_routing": true,
+        "forbidden_routing_clear": true,
+        "no_personal_review_hints": true,
+        "max150_bullets_per_reply": true,
+        "complete": true
+      },
+      "anchor_mismatches": []
+    }
+  },
+  "failed_initial_repair_preserved": true,
+  "strict_implementation_unchanged": true,
+  "raw_turns_verified": 25,
+  "published": false
+}
