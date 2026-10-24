@@ -1,0 +1,93 @@
+# Repaired-package red team — 2026-10-24
+
+**Verdict: hold publication. Five findings, six failing new warning controls, including two regressions introduced by the last repair.** Sealed target: `06e6a1384c94bd0c1298f0d50cfbe09ce3fc1bcf`. Review only: candidate, frozen questions, prior reports/evidence and sealed deliveries remain unchanged. This new review is outside the existing source ZIP.
+
+## Findings
+
+### F1 — High: reversed and implicit obligation wording loses warning scope
+
+`rebuild/tools/validate_packet.py:64–76,111,125–135`. `Attendance at these activities is a prerequisite for entry.` and `Only those who attend these events may take part.` are compulsory attendance conditions, but neither matches the obligation/dependency vocabulary. Neither has the punctuation/capitalization required by the fallback heading rule. The following personal-style official event date can be wrongly retained only in Section 12 without a missing-Section-6 warning. Original warns on both controls; preceding rebuild 3159bc2 and current rebuild suppress. Remaining regressions versus original, not introduced by the last repair. The actual A model replies correctly route the tested dates, so these witnesses establish a warning blind spot rather than an observed model omission in this pair.
+
+Acceptance: both wording directions retain operational-date hints across source records, with unrelated private and negated conditions still excluded. Do not treat a structurally valid all-12 card as semantically correct.
+
+### F2 — High: an unpunctuated conjunction hides a real deposit deadline
+
+`rebuild/tools/validate_packet.py:115–124,140`. `Our family reunion is August 2, 2027 at 7 PM and remit the official participation deposit by August 3, 2027 at 2 PM.` contains a genuine payment instruction beside a personal activity. The clause splitter handles semicolons/sentences and comma-plus-conjunction, but leaves this whole body as one clause. The personal cue then exempts the full statement; no remaining cue recognizes the imperative deposit instruction. Original warns; both preceding and current rebuild suppress. Remaining original-relative regression. Actual A model replies handled this whole statement correctly; the deliberately misrouted evaluator card exposes the missing safety hint.
+
+Acceptance: a personal conjunct cannot exempt an official deadline elsewhere in the same statement, regardless of comma presence. Retain wholly private combined-activity and contribution controls and every exact-copy check.
+
+### F3 — Medium: negated dependency creates spurious requirement scope
+
+`rebuild/tools/validate_packet.py:74–76,111,132`. Inside a private correspondence block, `Participation does not depend on attendance at our family reunion.` matches the new dependency cue despite its negation. This protects later private text and falsely warns on the birthday date. The correctly routed fresh rebuilt B reply reproduces it for S003. Original also warns; preceding rebuild suppresses. **New regression versus preceding rebuild, tied with original.**
+
+Acceptance: distinguish affirmative and negated dependency statements and prevent private nonrequirements from creating procurement scope. Positive dependency and genuine inherited mandatory-scope guards must still warn.
+
+### F4 — Medium: an explicitly excluded private subsection remains in official scope
+
+`rebuild/tools/validate_packet.py:79,128–136`. The source says `All companies must attend the following events; the subsection titled Private correspondence is unrelated and excluded from these activities.` The exact private heading appears in that sentence, so the lexical reference mechanism treats it as included and prevents its reset. A graduation date in the explicitly excluded private subsection gets a false Section-6 hint. Fresh rebuilt B reproduces this for S006. Original also warns; preceding rebuild correctly suppresses. **New regression versus preceding rebuild, tied with original.**
+
+Acceptance: a reference is not evidence of inclusion when its actual relation is exclusion. Preserve the positive nested-subsection guard and the genuine unrelated-private reset together. Do not simply remove inherited scope protection.
+
+### F5 — Medium: an annotated private heading still poisons warning context
+
+`rebuild/tools/validate_packet.py:87–89,126–132`. `Private calendar — unrelated personal correspondence:` clearly identifies unrelated private content, but fails the full-match private-heading pattern and enters the unknown-event-heading branch. The private christening date is then falsely protected. Fresh rebuilt B reproduces this for S008. Original, preceding rebuild and current rebuild all warn: an unresolved tie, not a newly introduced regression.
+
+Acceptance: body-supported private headings with explanatory annotations should not become requirement headings solely because they contain calendar/events vocabulary. Clinical or officially compulsory content must retain hints.
+
+## Frozen method
+
+The 17 controls, three fixtures, selected semantic expectations and source hashes were committed in `40dede9` before execution. Complete original model baseline committed in `ba50915` before rebuilt calls. Unchanged canonical tools/run_arm.py, gpt-6-astra medium, same A/B/C order, same six-file knowledge selection, fresh ephemeral sessions, no tools, retries, corrections or best-of selection. Expected answers were not supplied to models. Canonical prompts, command flags, metadata, tool-free events and exact raw-card equality are verified in model-audit.json and model-results.json. Host system messages are not held byte-identical.
+
+The middle comparator is the exact preserved 3159bc2 validator, used only for evaluator-card controls and same-card replay; there is no third model arm. Cases are targeted synthetic probes informed by the code and past findings, not independent real-world validation. Unknown source anchors are valid under the shipped source grammar. Candidate code and model knowledge were not changed.
+
+## New evaluator controls
+
+| Validator | Passed | Failed |
+|---|---:|---:|
+| original | 12/17 | 5 |
+| pre-guard | 10/17 | 7 |
+| rebuild | 11/17 | 6 |
+
+The six current failures are F1 two, and F2–F5 one each. Three unsafe-suppression controls regress relative to original. Two false-warning controls regress relative to the preceding rebuild. F5 fails all three versions. Aggregate counts are specific to this selected set and do not establish a population reliability estimate.
+
+The official all-12 cards intentionally omit operational dates; the personal all-12 cards are correct. These are evaluator-built controls, not model replies. Every warning control is structurally valid and exits 0, so exit status alone cannot grade relevance. Full per-case comparisons, commands, stdout, stderr and exit codes are preserved under controls/ and control-results.json.
+
+## Fresh model pair
+
+| Fixture | Original | Rebuild | Interpretation |
+|---|---|---|---|
+| A: reversed/implicit obligations and mixed conjunction | Targeted routing and fidelity PASS | Targeted routing and fidelity PASS | Tie; warning controls expose blind spots despite this pair’s correct routing |
+| B: negated dependency and private headings | Personal S002 leaks to 4/6; S003/S006/S008 leak to 6 | All seven selected private records only in 12; false warning IDs S003/S006/S008 | Routing improves; warning accuracy still fails |
+| C: six new opaque citation forms | Required 4/5 placement and exact copies PASS | Required 4/5 placement and exact copies PASS | Tie; no observed citation regression |
+
+All six replies pass the common strict fidelity/shape gate. Selected semantic checks pass original 2/3, rebuild 3/3; combined checks pass 2/3 in each arm because B fails for different reasons. This combined tie must not conceal the improved model routing or the rebuilt tool’s false warnings. Selected checks do not exhaustively grade every header or extra semantic placement.
+
+The exact same raw rebuilt B card was replayed under all three validators in same-card-warning-replay.json. Same source and card hashes, no output edits or model rerun: original hints S003/S006/S008; preceding hints only S008; current hints S003/S006/S008. That isolates the two newly introduced warning regressions from model variability.
+
+## Citation variants
+
+No new citation finding on these tests. Both model arms copy all six anchors exactly. All three validators accept the exact combined control and reject each of six mutations: variation-selector deletion, combining-grapheme-joiner deletion, narrow-NBSP replacement, quote-entity decoding, soft-hyphen deletion and fullwidth-Latin-letter normalization. The anchor with an embedded `[source: note]` fragment is preserved as a complete opaque anchor. These passes are ties, not improvements. They do not establish universal Unicode-copying reliability or erase older preserved citation failures.
+
+## Existing full RFP and competition specification
+
+Read-only replay of the latest scope-guard-repair full-RFP evidence preserves its result: rebuilt native validation passes, all selected required/forbidden routing checks pass, and S215–S221 remain only in Section 12. Original still leaks six personal records and misses S133 in 11, S066/S083 in 5 and S148 in 11. No new full-length model calls or replacement historical scores were made. See full-recheck.json. Frozen-question scores remain the prior five improvements/three ties; they were not freshly rerun in this review.
+
+The competition asks for visible closure of the actual feedback and honest reporting of ties/regressions. F3–F5 directly affect the personal-content/no-spurious-warning request. F1/F2 show that personal suppression can still hide real deadline hints. The sealed report already limits its claims to recorded controls and a finite heuristic: these new cases narrow confidence beyond that coverage rather than invalidating its earlier recorded passes. Reconcile the next submission report and package with these findings before publication.
+
+No new formal layout/sequence or submission-length defect is asserted. Original pin, feedback, pre-rebuild frozen questions, paired evidence and history are retained. Current draft is three sentences, within the supplied 2–3 sentence requirement. Premium/VIP eligibility and a valid public repository URL remain unverified. The supplied deadline is Wednesday October 28, 11:59 PM EST. No publication occurred.
+
+## What could still cost the win
+
+1. Warning polarity and scope remain brittle: merely mentioning a private heading can override an explicit exclusion, and a negated dependency can act like an obligation. Both are reproduced on one actual correct model card.
+2. Personal support is checked per syntactically parsed chunk, so common unpunctuated mixed wording can still evade the intended conservative boundary.
+3. The six model knowledge files are unchanged. Fresh-draw improvements do not demonstrate a new routing-prompt repair, and the automated OpenAI harness is not fresh Claude/judge acceptance.
+4. Passing historical controls and one full RFP cannot establish unseen-case reliability. The 21,696-file sealed source also imposes review burden; keep the evidence map and current verdict clear.
+5. Administrative submission conditions remain open. The current sealed ZIP does not include this new review; it should not be represented as incorporating these findings.
+
+## Evidence preservation and delivery
+
+preservation-verification.json confirms all 21,696 prior tracked files and 41 sealed files unchanged, frozen questions byte-identical to bfdd812, and the preceding validator snapshot exact. All fresh definitions, requests, raw events/cards, audits, control failures and comparisons are preserved in this new directory. Candidate, root reports and deliveries were not edited or replaced.
+
+delivery-summary.json records the new fresh-clone audit when complete; delivery-checks.json retains every command and any failure. Mechanical archive/history compliance is separate from the warning findings. No fixes or publication performed.
+
+Final delivery audit: PASS. All 21,696 sealed source files matched exact archive bytes; bundle verification, pristine clone/index bytes, both runner preflights and portable offline compliance passed. See delivery-summary.json and delivery-checks.json. The sealed candidate and release remain unchanged; these compliance passes do not resolve F1–F5.

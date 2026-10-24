@@ -1,0 +1,266 @@
+{
+  "original": {
+    "A-unseen-obligations-and-mixed-conjunction": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S002_required": true,
+        "S003_required": true,
+        "S005_required": true,
+        "S002_forbidden_clear": true,
+        "S003_forbidden_clear": true,
+        "S005_forbidden_clear": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S001": [
+          4
+        ],
+        "S003": [
+          4,
+          6,
+          8
+        ],
+        "S004": [
+          4
+        ],
+        "S002": [
+          6
+        ],
+        "S005": [
+          6
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    },
+    "B-negated-scope-and-private-headings": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S004_required": true,
+        "S009_required": true,
+        "S001_exclusive": true,
+        "S002_exclusive": false,
+        "S003_exclusive": false,
+        "S005_exclusive": true,
+        "S006_exclusive": false,
+        "S007_exclusive": true,
+        "S008_exclusive": false
+      },
+      "semantic_pass": false,
+      "positions": {
+        "S002": [
+          4,
+          6
+        ],
+        "S004": [
+          4
+        ],
+        "S003": [
+          6
+        ],
+        "S006": [
+          6
+        ],
+        "S008": [
+          6
+        ],
+        "S009": [
+          6
+        ],
+        "S001": [
+          12
+        ],
+        "S005": [
+          12
+        ],
+        "S007": [
+          12
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": false
+    },
+    "C-new-citation-variants": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S001_required": true,
+        "S002_required": true,
+        "S003_required": true,
+        "S004_required": true,
+        "S005_required": true,
+        "S006_required": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S001": [
+          4,
+          5
+        ],
+        "S002": [
+          4,
+          5
+        ],
+        "S003": [
+          4,
+          5
+        ],
+        "S004": [
+          4,
+          5
+        ],
+        "S005": [
+          4,
+          5
+        ],
+        "S006": [
+          4,
+          5
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    }
+  },
+  "rebuild": {
+    "A-unseen-obligations-and-mixed-conjunction": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S002_required": true,
+        "S003_required": true,
+        "S005_required": true,
+        "S002_forbidden_clear": true,
+        "S003_forbidden_clear": true,
+        "S005_forbidden_clear": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S001": [
+          4
+        ],
+        "S003": [
+          4,
+          6,
+          8
+        ],
+        "S004": [
+          4
+        ],
+        "S002": [
+          6
+        ],
+        "S005": [
+          6
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    },
+    "B-negated-scope-and-private-headings": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S004_required": true,
+        "S009_required": true,
+        "S001_exclusive": true,
+        "S002_exclusive": true,
+        "S003_exclusive": true,
+        "S005_exclusive": true,
+        "S006_exclusive": true,
+        "S007_exclusive": true,
+        "S008_exclusive": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S004": [
+          4,
+          6
+        ],
+        "S009": [
+          6
+        ],
+        "S001": [
+          12
+        ],
+        "S002": [
+          12
+        ],
+        "S003": [
+          12
+        ],
+        "S005": [
+          12
+        ],
+        "S006": [
+          12
+        ],
+        "S007": [
+          12
+        ],
+        "S008": [
+          12
+        ]
+      },
+      "personal_review_hints": [
+        "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-guard\\run-rebuild\\B-negated-scope-and-private-headings\\bid-compliance-card.md: S003, S006, S008 look like dates or times but are not in Section 6; confirm that is intended"
+      ],
+      "no_personal_false_hints": false,
+      "native_exit": 0,
+      "passed_all_checks": false
+    },
+    "C-new-citation-variants": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S001_required": true,
+        "S002_required": true,
+        "S003_required": true,
+        "S004_required": true,
+        "S005_required": true,
+        "S006_required": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S001": [
+          4,
+          5
+        ],
+        "S002": [
+          4,
+          5
+        ],
+        "S003": [
+          4,
+          5
+        ],
+        "S004": [
+          4,
+          5
+        ],
+        "S005": [
+          4,
+          5
+        ],
+        "S006": [
+          4,
+          5
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    }
+  }
+}

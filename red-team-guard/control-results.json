@@ -1,0 +1,461 @@
+[
+  {
+    "case": "reverse-prerequisite",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "reverse-prerequisite",
+    "arm": "pre-guard",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "reverse-prerequisite",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "only-attendees-may-participate",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "only-attendees-may-participate",
+    "arm": "pre-guard",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "only-attendees-may-participate",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "mixed-and-without-comma",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "mixed-and-without-comma",
+    "arm": "pre-guard",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "mixed-and-without-comma",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "negated-dependency-pollutes-private",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "negated-dependency-pollutes-private",
+    "arm": "pre-guard",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "negated-dependency-pollutes-private",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "explicitly-excluded-private-reference",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "explicitly-excluded-private-reference",
+    "arm": "pre-guard",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "explicitly-excluded-private-reference",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "annotated-private-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "annotated-private-heading",
+    "arm": "pre-guard",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "annotated-private-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "positive-dependency-guard",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "positive-dependency-guard",
+    "arm": "pre-guard",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "positive-dependency-guard",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "positive-nested-reference-guard",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "positive-nested-reference-guard",
+    "arm": "pre-guard",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "positive-nested-reference-guard",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "genuine-private-reset",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "genuine-private-reset",
+    "arm": "pre-guard",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "genuine-private-reset",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "private-share-control",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "private-share-control",
+    "arm": "pre-guard",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "private-share-control",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "exact-new-anchors",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "exact-new-anchors",
+    "arm": "pre-guard",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "exact-new-anchors",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "variation-selector-deleted",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "variation-selector-deleted",
+    "arm": "pre-guard",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "variation-selector-deleted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "grapheme-joiner-deleted",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "grapheme-joiner-deleted",
+    "arm": "pre-guard",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "grapheme-joiner-deleted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "narrow-space-normalized",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "narrow-space-normalized",
+    "arm": "pre-guard",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "narrow-space-normalized",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "quote-entity-decoded",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "quote-entity-decoded",
+    "arm": "pre-guard",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "quote-entity-decoded",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "soft-hyphen-deleted",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "soft-hyphen-deleted",
+    "arm": "pre-guard",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "soft-hyphen-deleted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "fullwidth-letter-normalized",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "fullwidth-letter-normalized",
+    "arm": "pre-guard",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "fullwidth-letter-normalized",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  }
+]
