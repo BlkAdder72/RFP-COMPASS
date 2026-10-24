@@ -1,0 +1,94 @@
+{
+  "A-unseen-obligations-and-mixed-conjunction": {
+    "source_sha256": "fafff91da34578d573da58f07d166e5254ef2ff10f12606c2c84c087c6555e0f",
+    "required": {
+      "S002": [
+        6
+      ],
+      "S003": [
+        6
+      ],
+      "S005": [
+        6
+      ]
+    },
+    "forbidden": {
+      "S002": [
+        12
+      ],
+      "S003": [
+        12
+      ],
+      "S005": [
+        12
+      ]
+    },
+    "exclusive": {}
+  },
+  "B-negated-scope-and-private-headings": {
+    "source_sha256": "55daa5196a65f4f0257a556cc538a444855c3bfb298572154d9c2eff95de6f63",
+    "required": {
+      "S004": [
+        4
+      ],
+      "S009": [
+        6
+      ]
+    },
+    "forbidden": {},
+    "exclusive": {
+      "S001": [
+        12
+      ],
+      "S002": [
+        12
+      ],
+      "S003": [
+        12
+      ],
+      "S005": [
+        12
+      ],
+      "S006": [
+        12
+      ],
+      "S007": [
+        12
+      ],
+      "S008": [
+        12
+      ]
+    }
+  },
+  "C-new-citation-variants": {
+    "source_sha256": "e03e8aba2a9afe0c7f03019da377df5b22b1b6a708fa15ca770c6e2231834b79",
+    "required": {
+      "S001": [
+        4,
+        5
+      ],
+      "S002": [
+        4,
+        5
+      ],
+      "S003": [
+        4,
+        5
+      ],
+      "S004": [
+        4,
+        5
+      ],
+      "S005": [
+        4,
+        5
+      ],
+      "S006": [
+        4,
+        5
+      ]
+    },
+    "forbidden": {},
+    "exclusive": {}
+  }
+}
