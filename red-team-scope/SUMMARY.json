@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-24",
+  "target": "3159bc2a93e7de52580c5445c15e7ac24d31eddd",
+  "verdict": "HOLD",
+  "findings": 4,
+  "current_failed_controls": [
+    "private-subheading-under-explicit-official-scope",
+    "mixed-imperative-deposit",
+    "unseen-participation-dependency",
+    "possessive-private-heading",
+    "compound-private-heading",
+    "mixed-private-duty-then-deposit"
+  ],
+  "controls": {
+    "original": {
+      "passed": 11,
+      "total": 14
+    },
+    "pre-scope": {
+      "passed": 12,
+      "total": 14
+    },
+    "rebuild": {
+      "passed": 8,
+      "total": 14
+    }
+  },
+  "models": {
+    "original": {
+      "selected_semantics_pass": 2,
+      "strict_fidelity_pass": 3,
+      "all_checks_pass": 2,
+      "total": 3
+    },
+    "rebuild": {
+      "selected_semantics_pass": 3,
+      "strict_fidelity_pass": 3,
+      "all_checks_pass": 2,
+      "total": 3
+    }
+  },
+  "freeze_commit": "2666b8c",
+  "original_baseline_commit": "ebc22cf",
+  "candidate_changed": false,
+  "published": false,
+  "sealed_delivery_replaced": false
+}

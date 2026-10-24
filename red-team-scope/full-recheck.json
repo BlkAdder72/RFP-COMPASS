@@ -1,0 +1,71 @@
+{
+  "method": "Read-only replay of existing full-length cards; no new full-length model calls or replacement scores",
+  "source_sha256": "01526c6dccc0d05144b47d3ee1468c77f8d692d160418e187144cd1ab797a6bc",
+  "arms": {
+    "original": {
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\hardening\\fixtures\\Z-full-length-noisy.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\scope-repair-full\\part-1\\bid-compliance-card.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\scope-repair-full\\part-2\\bid-compliance-card.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\scope-repair-full\\part-3\\bid-compliance-card.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\scope-repair-full\\part-4\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "card_sha256": "b303b649f43d79d888f0fbfc1aa01d08235d479deac26a3481019ca0cb0c507f",
+      "missing_required": {
+        "S066": [
+          5
+        ],
+        "S148": [
+          11
+        ]
+      },
+      "forbidden_found": {},
+      "noise_only12": {
+        "S215": true,
+        "S216": false,
+        "S217": false,
+        "S218": false,
+        "S219": false,
+        "S220": false,
+        "S221": false
+      }
+    },
+    "rebuild": {
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\hardening\\fixtures\\Z-full-length-noisy.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\scope-repair-full\\part-1\\bid-compliance-card.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\scope-repair-full\\part-2\\bid-compliance-card.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\scope-repair-full\\part-3\\bid-compliance-card.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\scope-repair-full\\part-4\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\scope-repair-full\\part-1\\bid-compliance-card.md (+3 part(s)): S139 look like evaluation terms but are not in Section 7; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "card_sha256": "3cd34b07c6fdfc70bcd017c40befa953d1cc368eec5c4bdc29ccada94691d02d",
+      "missing_required": {},
+      "forbidden_found": {},
+      "noise_only12": {
+        "S215": true,
+        "S216": true,
+        "S217": true,
+        "S218": true,
+        "S219": true,
+        "S220": true,
+        "S221": true
+      }
+    }
+  }
+}

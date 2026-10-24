@@ -1,0 +1,380 @@
+[
+  {
+    "case": "private-subheading-under-explicit-official-scope",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "private-subheading-under-explicit-official-scope",
+    "arm": "pre-scope",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "private-subheading-under-explicit-official-scope",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "mixed-imperative-deposit",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "mixed-imperative-deposit",
+    "arm": "pre-scope",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "mixed-imperative-deposit",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "unseen-participation-dependency",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "unseen-participation-dependency",
+    "arm": "pre-scope",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "unseen-participation-dependency",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "possessive-private-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "possessive-private-heading",
+    "arm": "pre-scope",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "possessive-private-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "compound-private-heading",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "compound-private-heading",
+    "arm": "pre-scope",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "compound-private-heading",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "genuine-private-reset",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": true,
+    "passed": false
+  },
+  {
+    "case": "genuine-private-reset",
+    "arm": "pre-scope",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "genuine-private-reset",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": false,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "mixed-private-duty-then-deposit",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "mixed-private-duty-then-deposit",
+    "arm": "pre-scope",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": true,
+    "passed": true
+  },
+  {
+    "case": "mixed-private-duty-then-deposit",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": true,
+    "observed_warning": false,
+    "passed": false
+  },
+  {
+    "case": "exact-citation-variants",
+    "arm": "original",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "exact-citation-variants",
+    "arm": "pre-scope",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "exact-citation-variants",
+    "arm": "rebuild",
+    "expected_valid": true,
+    "exit_code": 0,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "thin-space-normalized",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "thin-space-normalized",
+    "arm": "pre-scope",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "thin-space-normalized",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "invisible-separator-deleted",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "invisible-separator-deleted",
+    "arm": "pre-scope",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "invisible-separator-deleted",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "greek-zeta-latin",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "greek-zeta-latin",
+    "arm": "pre-scope",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "greek-zeta-latin",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "minus-hyphen",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "minus-hyphen",
+    "arm": "pre-scope",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "minus-hyphen",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "fullwidth-colon-ascii",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "fullwidth-colon-ascii",
+    "arm": "pre-scope",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "fullwidth-colon-ascii",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "numeric-entity-decoded",
+    "arm": "original",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "numeric-entity-decoded",
+    "arm": "pre-scope",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  },
+  {
+    "case": "numeric-entity-decoded",
+    "arm": "rebuild",
+    "expected_valid": false,
+    "exit_code": 1,
+    "expected_warning": null,
+    "observed_warning": false,
+    "passed": true
+  }
+]
