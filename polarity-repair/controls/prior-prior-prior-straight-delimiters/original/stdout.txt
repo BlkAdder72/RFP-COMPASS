@@ -1,0 +1,2 @@
+NOTE: C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\polarity-repair\controls\prior-prior-prior-straight-delimiters\card.md: 8 bullet(s) use straight quotes; the contract form is “curly” quotes
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.

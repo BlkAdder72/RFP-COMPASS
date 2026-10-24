@@ -1,0 +1,34 @@
+[
+  {
+    "name": "outside-hours-is-not-exclusion",
+    "source": "S001 | Document p. 1 | Companies must attend all events, including the subsection titled “Private events”, which takes place outside office hours.\nS002 | Document p. 2 | Private events:\nS003 | Document p. 3 | Our farewell dinner is December 2, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Companies must attend all events, including the subsection titled “Private events”, which takes place outside office hours.” [source: source-packet.md:S001; Document p. 1]\n- “Private events:” [source: source-packet.md:S002; Document p. 2]\n- “Our farewell dinner is December 2, 2027 at 7 PM.” [source: source-packet.md:S003; Document p. 3]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S003"
+  },
+  {
+    "name": "unrelated-topic-is-not-exclusion",
+    "source": "S001 | Document p. 1 | Companies must attend all events, including the subsection titled “Private events”, which discusses unrelated research.\nS002 | Document p. 2 | Private events:\nS003 | Document p. 3 | Our farewell dinner is December 2, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Companies must attend all events, including the subsection titled “Private events”, which discusses unrelated research.” [source: source-packet.md:S001; Document p. 1]\n- “Private events:” [source: source-packet.md:S002; Document p. 2]\n- “Our farewell dinner is December 2, 2027 at 7 PM.” [source: source-packet.md:S003; Document p. 3]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S003"
+  },
+  {
+    "name": "coordinate-other-exclusion",
+    "source": "S001 | Document p. 1 | Companies must attend all events, including the subsection titled Private events and excluding the subsection titled Private correspondence from these activities.\nS002 | Document p. 2 | Private events:\nS003 | Document p. 3 | Our farewell dinner is December 2, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Companies must attend all events, including the subsection titled Private events and excluding the subsection titled Private correspondence from these activities.” [source: source-packet.md:S001; Document p. 1]\n- “Private events:” [source: source-packet.md:S002; Document p. 2]\n- “Our farewell dinner is December 2, 2027 at 7 PM.” [source: source-packet.md:S003; Document p. 3]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S003"
+  },
+  {
+    "name": "negated-exclusion-keeps-scope",
+    "source": "S001 | Document p. 1 | Companies must attend all events; the subsection titled Private correspondence is not excluded from these activities.\nS002 | Document p. 2 | Private correspondence:\nS003 | Document p. 3 | Our farewell dinner is December 2, 2027 at 7 PM.\n",
+    "card": "# RFP COMPASS — BID COMPLIANCE CARD\n## 1. Opportunity identity\n- not in source\n## 2. Scope, term, and program context stated\n- not in source\n## 3. Eligibility and qualifications stated\n- not in source\n## 4. Application stages and submission mechanics stated\n- not in source\n## 5. Mandatory attachments and forms stated\n- not in source\n## 6. Dates and events stated\n- not in source\n## 7. Evaluation stated\n- not in source\n## 8. Commercial, performance, and post-award terms stated\n- not in source\n## 9. Tables, schedules, and templates\n- not in source\n## 10. Definitions, authority, and administrative terms\n- not in source\n## 11. Addenda, conflicts, and open items\n- not in source\n## 12. Unmapped source evidence\n- “Companies must attend all events; the subsection titled Private correspondence is not excluded from these activities.” [source: source-packet.md:S001; Document p. 1]\n- “Private correspondence:” [source: source-packet.md:S002; Document p. 2]\n- “Our farewell dinner is December 2, 2027 at 7 PM.” [source: source-packet.md:S003; Document p. 3]\n",
+    "valid": true,
+    "warning": true,
+    "sid": "S003"
+  }
+]
