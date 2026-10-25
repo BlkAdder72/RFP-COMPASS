@@ -1,0 +1,9 @@
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\submission-repair\controls\prior-prior-prior-prior-straight-delimiters\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S001; curly delimiters required
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\submission-repair\controls\prior-prior-prior-prior-straight-delimiters\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S002; curly delimiters required
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\submission-repair\controls\prior-prior-prior-prior-straight-delimiters\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S003; curly delimiters required
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\submission-repair\controls\prior-prior-prior-prior-straight-delimiters\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S004; curly delimiters required
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\submission-repair\controls\prior-prior-prior-prior-straight-delimiters\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S005; curly delimiters required
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\submission-repair\controls\prior-prior-prior-prior-straight-delimiters\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S006; curly delimiters required
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\submission-repair\controls\prior-prior-prior-prior-straight-delimiters\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S007; curly delimiters required
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\submission-repair\controls\prior-prior-prior-prior-straight-delimiters\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S008; curly delimiters required

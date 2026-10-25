@@ -60,7 +60,6 @@ for f in base.rglob('*'):
 assert (copy/'.gitattributes').read_text().strip()=='* -text'
 plan=read(D/'submission-plan.json');comment=(R/'SUBMISSION_COMMENT.md').read_text(encoding='utf-8').split('\n\n',1)[1].strip();assert comment==' '.join(plan['sentences']) and len(plan['sentences'])==3 and len(re.findall(r'[.!?](?:[”\"])?(?=\s|$)',comment))==3
 assert (D/'REPORT.md').read_bytes()==(R/'results.md').read_bytes()
-assert all(x['passed_all_checks'] for x in read(D/'model-results.json')['rebuild'].values())
-assert read(D/'full-length-results.json')['rebuild']['passed']
-assert all(x['verdict']=='pass' for x in read(D/'scores-final.json')['scores']['1']['rebuild'].values())
-print(json.dumps({'status':'PASS','prior_files_preserved':len(m['tracked']),'sealed_artifacts_in_original_workspace':len(m['artifacts']),'raw_turns_verified':turns,'frozen_questions':'unchanged','strict_implementation':'unchanged','model_knowledge':'rules and output schema changed; other four unchanged','warning_controls':162,'published':False},indent=2))
+assert not read(D/'model-results.json')['rebuild']['B-negation-and-private-content']['semantic_pass']
+assert read(D/'SUMMARY.json')['acceptance'].startswith('HOLD')
+print(json.dumps({'status':'PASS preserved-failure integrity','behavioral_acceptance':'HOLD — B semantic failure preserved','prior_files_preserved':len(m['tracked']),'sealed_artifacts_in_original_workspace':len(m['artifacts']),'raw_turns_verified':turns,'frozen_questions':'unchanged','strict_implementation':'unchanged','model_knowledge':'rules and output schema changed; other four unchanged','warning_controls':162,'published':False},indent=2))

@@ -6,17 +6,19 @@ The judged Comp #13 Translator original stays byte-for-byte under `original/`, p
 
 The feedback asked for personal material only in Section 12 without false date hints, explicit contractual-expectation handling, honest script-built example provenance and raw noisy-input evidence. Frozen Q1–Q8 precede the first rebuild. The latest repair addresses the seven finding families in `red-team-polarity/REPORT.md`; current measured outcomes, ties, failed attempts and limits are in results.md.
 
+The warning-only attempt passed its controls but failed a new model context case. That complete failed comparison remains in `boundary-repair/REPORT.md`; this candidate also repairs statement-level routing boundaries in rules and the output schema. Do not mistake the earlier structural PASS for semantic acceptance.
+
 | Material | Location |
 |---|---|
 | Judged original and verbatim feedback | `original/`, `feedback.md` |
 | Frozen questions | `questions.md` |
 | Candidate knowledge and strict validator | `rebuild/` |
-| Latest protocol, before snapshots, controls and report | `boundary-repair/` |
-| Fresh paired model runs | `run-original/boundary-repair-*`, `run-rebuild/boundary-repair-*` |
-| Packaged full-RFP raw result | `rebuild/run-results/boundary-repair-full/` |
+| Latest protocol, before snapshots, controls and report | `submission-repair/` |
+| Fresh paired model runs | `run-original/submission-repair-*`, `run-rebuild/submission-repair-*` |
+| Packaged full-RFP raw result | `rebuild/run-results/submission-repair-full/` |
 | Latest red-team findings, preserved | `red-team-polarity/REPORT.md` |
-| Earlier repair trail | `polarity-repair/`, `red-team-polarity/`, `scope-guard-repair/`, `scope-repair/`, `warning-repair/`, `final-repair/` and earlier folders |
-| Source ZIP and complete-history bundle | `dist/boundary-release/` (not sealed: semantic D failed) |
+| Earlier repair trail | `boundary-repair/`, `polarity-repair/`, `red-team-polarity/`, `scope-guard-repair/`, `scope-repair/`, `warning-repair/`, `final-repair/` and earlier folders |
+| Source ZIP and complete-history bundle | `dist/submission-release/` |
 | Three-sentence submission draft | `SUBMISSION_COMMENT.md` |
 
 Offline audit: `python -B -X utf8 tools/verify_submission.py`. Historical assertions run unchanged at their sealed commits in sibling clones, followed by current evidence checks; no model calls. In restricted Windows shells local Git execution may require permission. Fresh trials use unchanged tools/run_arm.py and hardening/run_full.py with entirely new output paths.

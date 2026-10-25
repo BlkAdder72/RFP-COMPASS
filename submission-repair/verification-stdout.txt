@@ -1,0 +1,12 @@
+{
+  "status": "PASS preserved-failure integrity",
+  "behavioral_acceptance": "HOLD \u2014 B semantic failure preserved",
+  "prior_files_preserved": 31996,
+  "sealed_artifacts_in_original_workspace": 47,
+  "raw_turns_verified": 29,
+  "frozen_questions": "unchanged",
+  "strict_implementation": "unchanged",
+  "model_knowledge": "rules and output schema changed; other four unchanged",
+  "warning_controls": 162,
+  "published": false
+}

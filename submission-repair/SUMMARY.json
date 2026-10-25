@@ -1,0 +1,24 @@
+{
+  "acceptance": "HOLD \u2014 B private leakage and rejected full-RFP S100 citation",
+  "core": {
+    "improved": 5,
+    "tied": 3,
+    "regressed": 0
+  },
+  "controls": {
+    "original": 104,
+    "rebuild": 162,
+    "total": 162
+  },
+  "rebuild_full_pass": false,
+  "rebuild_combined_supplemental": 4,
+  "supplemental_total": 5,
+  "published": false,
+  "release_created": false,
+  "citation_regression": {
+    "sid": "S100",
+    "section": 6,
+    "actual": "TBRPC Auditing RFP pp. 9-10 \u00a77 Selection Process",
+    "expected": "TBRPC Auditing RFP p. 9 \u00a77 Selection Process"
+  }
+}
