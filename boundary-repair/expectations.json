@@ -1,0 +1,139 @@
+{
+  "A-exclusions-and-mixed-deadlines": {
+    "source_sha256": "37af211fce48febdc9e9ad73f4b111b11a21595728965f7953740440f061e540",
+    "required": {
+      "S004": [
+        6
+      ],
+      "S009": [
+        6
+      ],
+      "S011": [
+        6
+      ]
+    },
+    "forbidden": {
+      "S004": [
+        12
+      ],
+      "S009": [
+        12
+      ],
+      "S011": [
+        12
+      ]
+    },
+    "exclusive": {}
+  },
+  "B-negation-and-private-content": {
+    "source_sha256": "239bb20ffcf2023ab3f9e9771bb66cba6416ae82bb73a1602c2f1501d92fc141",
+    "required": {
+      "S007": [
+        4
+      ]
+    },
+    "forbidden": {},
+    "exclusive": {
+      "S001": [
+        12
+      ],
+      "S002": [
+        12
+      ],
+      "S003": [
+        12
+      ],
+      "S004": [
+        12
+      ],
+      "S005": [
+        12
+      ],
+      "S006": [
+        12
+      ],
+      "S008": [
+        12
+      ],
+      "S009": [
+        12
+      ],
+      "S010": [
+        12
+      ],
+      "S011": [
+        12
+      ],
+      "S012": [
+        12
+      ],
+      "S013": [
+        12
+      ]
+    }
+  },
+  "C-opaque-citation-variants": {
+    "source_sha256": "70daf83c58f5e6163247a17663dabf2af251edcbe187e3ba3c92ddde2877897e",
+    "required": {
+      "S001": [
+        4,
+        5
+      ],
+      "S002": [
+        4,
+        5
+      ],
+      "S003": [
+        4,
+        5
+      ],
+      "S004": [
+        4,
+        5
+      ],
+      "S005": [
+        4,
+        5
+      ],
+      "S006": [
+        4,
+        5
+      ]
+    },
+    "forbidden": {},
+    "exclusive": {}
+  },
+  "D-boundary-guards": {
+    "source_sha256": "8d1e5181e456c85ac4319a8e2f1f34e24bcfac2524d918efae3d870df35039a8",
+    "required": {
+      "S008": [
+        6
+      ],
+      "S009": [
+        6
+      ]
+    },
+    "forbidden": {
+      "S008": [
+        12
+      ],
+      "S009": [
+        12
+      ]
+    },
+    "exclusive": {
+      "S001": [
+        12
+      ],
+      "S002": [
+        12
+      ],
+      "S003": [
+        12
+      ],
+      "S004": [
+        12
+      ]
+    }
+  }
+}
