@@ -57,7 +57,7 @@ LIKELY_NAMES = {6: "dates or times", 7: "evaluation terms", 8: "money amounts", 
 # source ID, date, or the card's own placement alone. Explicit requirements win.
 PROCUREMENT_CUE = re.compile(
     r"\b(responses?|applicants?|applications?|proposals?|bidders?|respondents?|solicitations?|rfp|ifb|rfq|bids?|contracts?|"
-    r"procurement|addend(?:um|a)|tenders?|vendors?|submissions?|submit|submitted|required|requires|requirements?|mandatory|shall|must|"
+    r"procurement|addend(?:um|a)|tenders?|vendors?|submissions?|submit|submitted|required|requires|requirements?|mandatory|compulsory|shall|must|"
     r"deadlines?|due|closing|closes?|eligibility|registration|awards?|fees?|pricing)\b", re.IGNORECASE)
 # Obligation phrases protect warning context even without a procurement noun.
 # Delivery of offers is a response cue; "offer" alone is too broad.
@@ -79,27 +79,37 @@ DEPENDENCY_CUE = re.compile(
 SCOPE_REFERENCE = re.compile(r"\b(?:including|subsections?|sections?|labelled|labeled|titled|headed)\b", re.IGNORECASE)
 PERSONAL_OWNER = re.compile(r"\b(my|our|your|his|her|their)\b", re.IGNORECASE)
 PERSONAL_ACTIVITY = re.compile(
-    r"\b(potluck|birthday|dentist|(?:baptism|christening)(?:\s+ceremony)?|(?:baby|bridal)\s+shower|graduation\s+(celebration|party|ceremony)|wedding\s+anniversary|family\s+(picnic|party|reunion|dinner)|"
+    r"\b(potluck|birthday(?:\s+(?:dinner|party|celebration))?|dentist|(?:baptism|christening)(?:\s+ceremony)?|(?:baby|bridal)\s+shower|graduation\s+(celebration|party|ceremony)|wedding\s+anniversary|family\s+(picnic|party|reunion|dinner)|"
     r"(piano|school|dance)\s+recital|(retirement|farewell)\s+(lunch|dinner|party)|"
     r"(physical\s+therapy|physiotherapy|doctor|medical)\s+appointment)\b", re.IGNORECASE)
 EVENT_HEADER = re.compile(r"\b(events?|meetings?|conferences?|attendance|activities|schedules?|calendars?|appointments?|meals?|lunch|dinner|visits?)\b", re.IGNORECASE)
 CLINICAL_CUE = re.compile(r"\b(patients?|clinical|beneficiaries|services?|providers?|healthcare)\b", re.IGNORECASE)
+# Parentheses are accepted only around an explicitly private annotation.
+PRIVATE_ANNOTATION = r"(?:unrelated\s+)?(?:personal|private|family)\s+(?:correspondence|notes|calendar|schedule|email|thread)"
 PERSONAL_HEADER = re.compile(
     r"\s*(?P<label>(?:(?:my|our|your|his|her|their)\s+)?(?:(?:personal|private|family)\s+)+"
     r"(?:calendar|correspondence|notes|schedule|email|thread|events|activities))"
-    r"(?:\s*(?:[—–-]|:)\s*(?:unrelated\s+)?(?:personal|private|family)\s+"
-    r"(?:correspondence|notes|calendar|schedule|email|thread))?\s*[:.—-]?\s*", re.IGNORECASE)
+    r"(?:\s*(?:[—–-]|:)\s*" + PRIVATE_ANNOTATION + r"|\s*\(\s*" + PRIVATE_ANNOTATION + r"\s*\))?\s*[:.—-]?\s*", re.IGNORECASE)
 # An official participation payment cannot borrow a personal activity cue.
 PAYMENT_CUE = re.compile(r"\b(?:official\s+(?:participation\s+|entry\s+)?|participation\s+|entry\s+)(?:deposits?|payments?|charges?|dues)\b", re.IGNORECASE)
 EXCLUSION_CUE = re.compile(r"\b(?:unrelated|exclud(?:ed|ing|es?)|outside|not\s+(?:included|part\s+of))\b", re.IGNORECASE)
 PERSONAL_CONTRIBUTION = re.compile(r"\b(?:please\s+)?bring\s+\$\s*\d+(?:\.\d+)?\s+for\s+(?:lunch|dinner)\b", re.IGNORECASE)
-PERSONAL_SHARE = re.compile(r"(?:my|our|your|his|her|their)\s+share\s+(?:is|was)\s+\$\s*\d+(?:\.\d{1,2})?", re.IGNORECASE)
+# A complete bounded private cost-share phrase, never an arbitrary action.
+SMALL_NUMBER = r"(?:one|two|three|four|five|six|seven|eight|nine)"
+WORD_NUMBER = r"(?:zero|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|" + SMALL_NUMBER + r"|(?:twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)(?:[ -]" + SMALL_NUMBER + r")?)"
+PERSONAL_SHARE = re.compile(r"(?:my|our|your|his|her|their)\s+share\s+(?:is|was)\s+(?:\$\s*\d+(?:\.\d{1,2})?|" + WORD_NUMBER + r"\s+dollars?)", re.IGNORECASE)
+# Explicit optionality prevents a new unknown-event scope. It never clears an
+# inherited duty, and independent procurement/clinical cues still take priority.
+OPTIONAL_EVENT = re.compile(
+    r"\b(?:attendance|events?|activities)\b[^.;!?]*\b(?:is|are)\s+optional\b|"
+    r"\bno\s+attendance\s+condition\b", re.IGNORECASE)
+
 
 
 def personal_hint_exclusions(statements, placed):
     """Finite warning filter, separate from unchanged exact-copy validation.
 
-    Unknown event statements keep scope without a modality/colon requirement.
+    Unknown event statements keep scope; explicit optionality cannot create it.
     Negated dependencies do not create or clear genuine inherited scope.
     The latest body-supported reference to a private heading controls its
     inclusion; exclusions are local to that heading, not global resets.
@@ -109,9 +119,15 @@ def personal_hint_exclusions(statements, placed):
                     or PERSONAL_CONTRIBUTION.search(text))
 
     def negative_dependency(text):
-        # "not only depends" is affirmative; "does not depend" is not.
+        # Analyze an expanded copy only; source and citation bytes never change.
+        text = re.sub(r"\b(\w+)n['’]t\b", r"\1 not", text, flags=re.IGNORECASE)
         text = re.sub(r"\bnot\s+only\b", "only", text, flags=re.IGNORECASE)
-        return bool(re.search(r"\b(?:not|never|no\s+longer)\b", text, re.IGNORECASE))
+        # Negation must modify the dependency predicate, not a subject qualifier
+        # such as "Participation, not payment, depends on ...".
+        return bool(re.search(
+            r"\b(?:not|never|no\s+longer)\s+(?:\w+\s+){0,2}"
+            r"(?:depends?|contingent|conditional|conditioned|determined)\s+(?:on|by)\s*$",
+            text, re.IGNORECASE))
 
     def private_activity_fragment(text):
         # Coordinated noun phrases may share ownership in this statement.
@@ -132,7 +148,7 @@ def personal_hint_exclusions(statements, placed):
             match = re.search(r"(?<!\w)" + re.escape(key) + r"(?!\w)", reference)
             if match:
                 prefix, suffix = reference[:match.start()], reference[match.end():]
-                scope_object = r"(?:(?:these|the|this|those|all|required|mandatory)\s+)*(?:events?|activities|requirements?|scope|attendance|participation|procurement|solicitation)\b"
+                scope_object = r"(?:(?:these|the|this|those|all|our|your|their|required|mandatory)\s+)*(?:events?|activities|requirements?|scope|attendance|participation|procurement|solicitation)\b"
                 # Link exclusion to this heading's predicate/object. Descriptive
                 # "outside office hours" or "unrelated research" is not scope.
                 excluded_before = re.search(
@@ -140,10 +156,10 @@ def personal_hint_exclusions(statements, placed):
                 if excluded_before and re.match(r"\s+from\b", suffix):
                     excluded_before = re.match(r"\s+from\s+" + scope_object, suffix)
                 excluded_after = re.match(
-                    r"^[\s\"“”'‘’)]*(?:(?:is|are|was|were|remains?)\s+)?(?:"
+                    r"^[\s\"“”'‘’)]*(?:,\s*(?:which|that)\s+)?(?:(?:is|are|was|were|remains?)\s+)?(?:"
                     r"unrelated(?:[.:]?\s*$|\s+to\s+" + scope_object + r")|"
                     r"excluded(?:[.:]?\s*$|\s+from\s+" + scope_object + r")|"
-                    r"not\s+(?:included|part\s+of)\b|outside\s+(?:the\s+)?(?:scope|requirements)\b)", suffix)
+                    r"not\s+(?:included\s+in|part\s+of)\s+" + scope_object + r"|outside\s+(?:the\s+)?(?:scope|requirements)\b)", suffix)
                 return not (excluded_before or excluded_after)
         return False
 
@@ -157,9 +173,12 @@ def personal_hint_exclusions(statements, placed):
         only_negative_dependency = bool(dependencies) and not positive_dependency
         hard_procurement = PROCUREMENT_CUE.search(body) or OFFER_DELIVERY_CUE.search(body) or PAYMENT_CUE.search(body) or positive_dependency
         clinical = CLINICAL_CUE.search(body)
-        # Coordinating conjunctions delimit clauses even without a comma.
+        # A "with ... to <action>" adjunct cannot borrow a preceding private
+        # activity. Pure private calendar adjuncts remain intact and are checked
+        # against the same independent procurement/clinical vetoes.
         clauses = [c.strip() for c in re.split(
-            r"[;.!?](?:\s+|$)|(?:,\s*)?\b(?:and|but|while|also|then|or)\b\s+",
+            r"[;.!?](?:\s+|$)|(?:,\s*)?\b(?:and|but|while|also|then|or)\b\s+|"
+            r"(?:,\s*)?\bwith\s+(?=[^.;!?]*\bto\s+\w+)",
             body, flags=re.IGNORECASE) if c.strip()]
         private_statement = personal and bool(clauses) and all(
             personal_support(c) or PERSONAL_SHARE.fullmatch(c) or private_activity_fragment(c)
@@ -173,7 +192,7 @@ def personal_hint_exclusions(statements, placed):
         private_heading = PERSONAL_HEADER.fullmatch(body)
         referenced_private = private_heading and referenced_heading(private_heading.group('label'), scope_references)
         # Unknown nonprivate events retain hints without guessing a modal verb.
-        unknown_event_scope = EVENT_HEADER.search(body) and not personal and not private_heading and not only_negative_dependency
+        unknown_event_scope = EVENT_HEADER.search(body) and not personal and not private_heading and not only_negative_dependency and not OPTIONAL_EVENT.search(body)
         if ((procurement or clinical) and (EVENT_HEADER.search(body) or requirement_heading)) or unknown_event_scope:
             protected = True
         elif private_heading and not procurement and not clinical and not referenced_private:
