@@ -1,0 +1,3 @@
+# Submission comment — DRAFT, not posted
+
+I rebuilt my Comp #13 Translator entry, RFP-COMPASS: [PUBLIC_REPOSITORY_URL]. The feedback line that drove it was: “A noisy-input test in `run-results/` showing a stapled thread held in Section 12 only.” The paired runs and frozen regression controls document what improved, what tied or regressed, and the remaining limits, with all failed evidence preserved.
