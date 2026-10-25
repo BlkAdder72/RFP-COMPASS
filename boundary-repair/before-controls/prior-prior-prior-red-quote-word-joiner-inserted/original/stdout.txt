@@ -1,0 +1,2 @@
+NOTE: C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\boundary-repair\before-controls\prior-prior-prior-red-quote-word-joiner-inserted\card.md: invisible spacing characters (such as a non-breaking space) differ from the packet in S001, S002, S003, S004, S005, S006; the visible text matches
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.
