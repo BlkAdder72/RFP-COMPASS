@@ -1,0 +1,49 @@
+{
+  "source_sha256": "239bb20ffcf2023ab3f9e9771bb66cba6416ae82bb73a1602c2f1501d92fc141",
+  "card_sha256": "b6faebdcac35139263ee946a9a6d25af9720d85ceb08fb0fc5cdcb2caae5258e",
+  "method": "Exact same raw rebuilt B card, different validators; no model rerun",
+  "arms": {
+    "original": {
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\fixtures\\B-negation-and-private-content.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\run-rebuild\\B-negation-and-private-content\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\run-rebuild\\B-negation-and-private-content\\bid-compliance-card.md: Section 6 says `not in source`, but S003, S006, S009, S010, S011, S013 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    },
+    "pre-polarity": {
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\reference\\pre-polarity-validator.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\fixtures\\B-negation-and-private-content.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\run-rebuild\\B-negation-and-private-content\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S006; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\run-rebuild\\B-negation-and-private-content\\bid-compliance-card.md: Section 6 says `not in source`, but S003, S009, S010, S011, S013 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    },
+    "rebuild": {
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\fixtures\\B-negation-and-private-content.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\run-rebuild\\B-negation-and-private-content\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\run-rebuild\\B-negation-and-private-content\\bid-compliance-card.md: Section 6 says `not in source`, but S003, S006, S009, S010, S011, S013 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    }
+  }
+}

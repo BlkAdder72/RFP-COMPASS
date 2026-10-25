@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "canonical_requests": 6,
+  "complete_tool_free_turns": 6,
+  "model": "gpt-6-astra",
+  "reasoning": "medium",
+  "retries": 0
+}

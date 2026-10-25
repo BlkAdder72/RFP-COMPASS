@@ -1,0 +1,19 @@
+{
+  "case": "prior-prior-red-quote-word-joiner-inserted",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md"
+  ],
+  "exit_code": 1,
+  "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md: ## 12. Unmapped source evidence: quotation does not match S001 at character 33: packet \u2026ust include a signed conflict disclosure\u2026 card \u2026ust include a signed<U+2060> conflict disclosur\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md: ## 12. Unmapped source evidence: quotation does not match S002 at character 33: packet \u2026ust include a signed conflict disclosure\u2026 card \u2026ust include a signed<U+2060> conflict disclosur\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md: ## 12. Unmapped source evidence: quotation does not match S003 at character 33: packet \u2026ust include a signed conflict disclosure\u2026 card \u2026ust include a signed<U+2060> conflict disclosur\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md: ## 12. Unmapped source evidence: quotation does not match S004 at character 33: packet \u2026ust include a signed conflict disclosure\u2026 card \u2026ust include a signed<U+2060> conflict disclosur\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md: ## 12. Unmapped source evidence: quotation does not match S005 at character 33: packet \u2026ust include a signed conflict disclosure\u2026 card \u2026ust include a signed<U+2060> conflict disclosur\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md: ## 12. Unmapped source evidence: quotation does not match S006 at character 33: packet \u2026ust include a signed conflict disclosure\u2026 card \u2026ust include a signed<U+2060> conflict disclosur\u2026\n",
+  "stderr": "",
+  "expected_valid": false,
+  "expected_warning": null,
+  "observed_warning": false,
+  "passed": true
+}

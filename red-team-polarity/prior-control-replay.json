@@ -1,0 +1,2287 @@
+{
+  "definitions_sha256": "daff9ba76b80f59bd83d7de8425f1669531b02581fd653b9ff59771f75813d79",
+  "passed": true,
+  "total": 120,
+  "results": [
+    {
+      "case": "prior-prior-prior-baptism",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-baptism\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-baptism\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-baby-shower",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-baby-shower\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-baby-shower\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-graduation-control",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-graduation-control\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-graduation-control\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-compulsory-have-to",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-compulsory-have-to\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-compulsory-have-to\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-compulsory-have-to\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-mandatory-must-control",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-mandatory-must-control\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-mandatory-must-control\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-mandatory-must-control\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-clinical-control",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-clinical-control\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-clinical-control\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-clinical-control\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-mixed-offer-deadline",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-mixed-offer-deadline\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-mixed-offer-deadline\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-mixed-offer-deadline\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-exact-unseen-anchors",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-exact-unseen-anchors\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-exact-unseen-anchors\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-narrow-nbsp-normalized",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-narrow-nbsp-normalized\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-narrow-nbsp-normalized\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-narrow-nbsp-normalized\\card.md: ## 12. Unmapped source evidence: anchor for S001 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-narrow-nbsp-normalized\\card.md: ## 12. Unmapped source evidence: anchor for S002 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-superscript-normalized",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-superscript-normalized\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-superscript-normalized\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-superscript-normalized\\card.md: ## 12. Unmapped source evidence: anchor for S005 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-zero-padding-normalized",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-zero-padding-normalized\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-zero-padding-normalized\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-zero-padding-normalized\\card.md: ## 12. Unmapped source evidence: anchor for S003 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-zero-width-deleted",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-zero-width-deleted\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-zero-width-deleted\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-zero-width-deleted\\card.md: ## 12. Unmapped source evidence: anchor for S008 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-literal-backticks-deleted",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-literal-backticks-deleted\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-literal-backticks-deleted\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-literal-backticks-deleted\\card.md: ## 12. Unmapped source evidence: anchor for S007 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-roman-lookalike-swapped",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-roman-lookalike-swapped\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-roman-lookalike-swapped\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-roman-lookalike-swapped\\card.md: ## 12. Unmapped source evidence: anchor for S001 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-altered-zero-width-quotation",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-altered-zero-width-quotation\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-altered-zero-width-quotation\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-altered-zero-width-quotation\\card.md: ## 12. Unmapped source evidence: quotation does not match S001 at character 42: packet \u2026de a signed conflict disclosure.\u2026 card \u2026de a signed conflict<U+200B> disclosure.\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-altered-zero-width-quotation\\card.md: ## 12. Unmapped source evidence: quotation does not match S002 at character 42: packet \u2026de a signed conflict disclosure.\u2026 card \u2026de a signed conflict<U+200B> disclosure.\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-altered-zero-width-quotation\\card.md: ## 12. Unmapped source evidence: quotation does not match S003 at character 42: packet \u2026de a signed conflict disclosure.\u2026 card \u2026de a signed conflict<U+200B> disclosure.\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-altered-zero-width-quotation\\card.md: ## 12. Unmapped source evidence: quotation does not match S004 at character 42: packet \u2026de a signed conflict disclosure.\u2026 card \u2026de a signed conflict<U+200B> disclosure.\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-altered-zero-width-quotation\\card.md: ## 12. Unmapped source evidence: quotation does not match S005 at character 42: packet \u2026de a signed conflict disclosure.\u2026 card \u2026de a signed conflict<U+200B> disclosure.\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-altered-zero-width-quotation\\card.md: ## 12. Unmapped source evidence: quotation does not match S006 at character 42: packet \u2026de a signed conflict disclosure.\u2026 card \u2026de a signed conflict<U+200B> disclosure.\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-altered-zero-width-quotation\\card.md: ## 12. Unmapped source evidence: quotation does not match S007 at character 42: packet \u2026de a signed conflict disclosure.\u2026 card \u2026de a signed conflict<U+200B> disclosure.\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-altered-zero-width-quotation\\card.md: ## 12. Unmapped source evidence: quotation does not match S008 at character 42: packet \u2026de a signed conflict disclosure.\u2026 card \u2026de a signed conflict<U+200B> disclosure.\u2026\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-straight-delimiters",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-straight-delimiters\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-straight-delimiters\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-straight-delimiters\\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S001; curly delimiters required\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-straight-delimiters\\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S002; curly delimiters required\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-straight-delimiters\\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S003; curly delimiters required\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-straight-delimiters\\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S004; curly delimiters required\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-straight-delimiters\\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S005; curly delimiters required\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-straight-delimiters\\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S006; curly delimiters required\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-straight-delimiters\\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S007; curly delimiters required\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-straight-delimiters\\card.md: ## 12. Unmapped source evidence: straight quotation delimiters on S008; curly delimiters required\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-has-to-context",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-has-to-context\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-has-to-context\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-has-to-context\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-need-to-context",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-need-to-context\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-need-to-context\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-need-to-context\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-obliged-context",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-obliged-context\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-obliged-context\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-obliged-context\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-offer-without-have-to",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-offer-without-have-to\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-offer-without-have-to\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-offer-without-have-to\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-clinical-baptism",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-clinical-baptism\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-clinical-baptism\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-clinical-baptism\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-mandatory-shower",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-mandatory-shower\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-mandatory-shower\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-mandatory-shower\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-ambiguous-meeting",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-ambiguous-meeting\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-ambiguous-meeting\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-ambiguous-meeting\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-explicit-reset",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-explicit-reset\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-explicit-reset\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S003; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-unknown-no-reset",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-unknown-no-reset\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-unknown-no-reset\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-unknown-no-reset\\card.md: Section 6 says `not in source`, but S003 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-private-baptism",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-private-baptism\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-private-baptism\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-private-shower",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-private-shower\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-private-shower\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-are-to",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-are-to\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-are-to\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-are-to\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-condition-of-entry",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-condition-of-entry\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-condition-of-entry\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-condition-of-entry\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-will-be-expected",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-will-be-expected\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-will-be-expected\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-will-be-expected\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-known-have-to",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-known-have-to\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-known-have-to\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-known-have-to\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-mixed-offers-to-reach",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-mixed-offers-to-reach\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-mixed-offers-to-reach\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-mixed-offers-to-reach\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-private-have-to",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-private-have-to\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-private-have-to\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-private-obligation-pollutes-context",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-private-obligation-pollutes-context\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-private-obligation-pollutes-context\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001, S002; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-private-negated-have-to",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-private-negated-have-to\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-private-negated-have-to\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-christening",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-christening\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-christening\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-bridal-shower",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-bridal-shower\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-bridal-shower\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-known-baptism",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-known-baptism\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-known-baptism\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-clinical-guard",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-clinical-guard\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-clinical-guard\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-clinical-guard\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-private-reset-control",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-private-reset-control\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-private-reset-control\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S003; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-exact-opaque-anchors",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-exact-opaque-anchors\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-exact-opaque-anchors\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-word-joiner-deleted",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-word-joiner-deleted\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-word-joiner-deleted\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-word-joiner-deleted\\card.md: ## 12. Unmapped source evidence: anchor for S001 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-ltr-mark-deleted",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-ltr-mark-deleted\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-ltr-mark-deleted\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-ltr-mark-deleted\\card.md: ## 12. Unmapped source evidence: anchor for S002 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-accent-composed",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-accent-composed\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-accent-composed\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-accent-composed\\card.md: ## 12. Unmapped source evidence: anchor for S003 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-entity-decoded",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-entity-decoded\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-entity-decoded\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-entity-decoded\\card.md: ## 12. Unmapped source evidence: anchor for S004 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-hyphen-normalized",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-hyphen-normalized\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-hyphen-normalized\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-hyphen-normalized\\card.md: ## 12. Unmapped source evidence: anchor for S005 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-backslashes-deleted",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-backslashes-deleted\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-backslashes-deleted\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-backslashes-deleted\\card.md: ## 12. Unmapped source evidence: anchor for S006 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-quote-word-joiner-inserted",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md: ## 12. Unmapped source evidence: quotation does not match S001 at character 33: packet \u2026ust include a signed conflict disclosure\u2026 card \u2026ust include a signed<U+2060> conflict disclosur\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md: ## 12. Unmapped source evidence: quotation does not match S002 at character 33: packet \u2026ust include a signed conflict disclosure\u2026 card \u2026ust include a signed<U+2060> conflict disclosur\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md: ## 12. Unmapped source evidence: quotation does not match S003 at character 33: packet \u2026ust include a signed conflict disclosure\u2026 card \u2026ust include a signed<U+2060> conflict disclosur\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md: ## 12. Unmapped source evidence: quotation does not match S004 at character 33: packet \u2026ust include a signed conflict disclosure\u2026 card \u2026ust include a signed<U+2060> conflict disclosur\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md: ## 12. Unmapped source evidence: quotation does not match S005 at character 33: packet \u2026ust include a signed conflict disclosure\u2026 card \u2026ust include a signed<U+2060> conflict disclosur\u2026\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-quote-word-joiner-inserted\\card.md: ## 12. Unmapped source evidence: quotation does not match S006 at character 33: packet \u2026ust include a signed conflict disclosure\u2026 card \u2026ust include a signed<U+2060> conflict disclosur\u2026\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-unknown-event-heading",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-unknown-event-heading\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-unknown-event-heading\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-unknown-event-heading\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-need-to",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-private-need-to\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-private-need-to\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-need-to-next",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-private-need-to-next\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-private-need-to-next\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001, S002; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-mixed-real",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-private-mixed-real\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-private-mixed-real\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-private-mixed-real\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-mixed-companies",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-private-mixed-companies\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-private-mixed-companies\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-private-mixed-companies\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-clinical-self-obligation",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-clinical-self-obligation\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-clinical-self-obligation\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-clinical-self-obligation\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-required-context-self",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-required-context-self\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-required-context-self\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-required-context-self\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-explicit-reset-self",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-explicit-reset-self\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-explicit-reset-self\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S003; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-mixed-and-deposit",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-mixed-and-deposit\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-mixed-and-deposit\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-mixed-and-deposit\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-mixed-clause-deposit",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-mixed-clause-deposit\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-mixed-clause-deposit\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-mixed-clause-deposit\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-explicit-family-event-heading",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-explicit-family-event-heading\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-explicit-family-event-heading\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S002; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-clinical-private-event-heading",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-clinical-private-event-heading\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-clinical-private-event-heading\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-clinical-private-event-heading\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-private-subheading-under-explicit-official-scope",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-private-subheading-under-explicit-official-scope\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-private-subheading-under-explicit-official-scope\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-private-subheading-under-explicit-official-scope\\card.md: Section 6 says `not in source`, but S003 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-mixed-imperative-deposit",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-mixed-imperative-deposit\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-mixed-imperative-deposit\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-mixed-imperative-deposit\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-unseen-participation-dependency",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-unseen-participation-dependency\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-unseen-participation-dependency\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-unseen-participation-dependency\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-possessive-private-heading",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-possessive-private-heading\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-possessive-private-heading\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S002; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-compound-private-heading",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-compound-private-heading\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-compound-private-heading\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S002; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-genuine-private-reset",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-genuine-private-reset\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-genuine-private-reset\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S003; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-mixed-private-duty-then-deposit",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-mixed-private-duty-then-deposit\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-mixed-private-duty-then-deposit\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-mixed-private-duty-then-deposit\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-exact-citation-variants",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-exact-citation-variants\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-exact-citation-variants\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-thin-space-normalized",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-thin-space-normalized\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-thin-space-normalized\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-thin-space-normalized\\card.md: ## 12. Unmapped source evidence: anchor for S001 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-invisible-separator-deleted",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-invisible-separator-deleted\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-invisible-separator-deleted\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-invisible-separator-deleted\\card.md: ## 12. Unmapped source evidence: anchor for S002 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-greek-zeta-latin",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-greek-zeta-latin\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-greek-zeta-latin\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-greek-zeta-latin\\card.md: ## 12. Unmapped source evidence: anchor for S003 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-minus-hyphen",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-minus-hyphen\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-minus-hyphen\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-minus-hyphen\\card.md: ## 12. Unmapped source evidence: anchor for S004 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-fullwidth-colon-ascii",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-fullwidth-colon-ascii\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-fullwidth-colon-ascii\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-fullwidth-colon-ascii\\card.md: ## 12. Unmapped source evidence: anchor for S005 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-numeric-entity-decoded",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-numeric-entity-decoded\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-numeric-entity-decoded\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-red-numeric-entity-decoded\\card.md: ## 12. Unmapped source evidence: anchor for S006 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-conditional-admission",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-conditional-admission\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-conditional-admission\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-conditional-admission\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-possessive-compound-private",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-possessive-compound-private\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-possessive-compound-private\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S002; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-two-personal-clauses",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-two-personal-clauses\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-two-personal-clauses\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-unknown-second-clause",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-unknown-second-clause\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-unknown-second-clause\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-unknown-second-clause\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-alternate-explicit-nested-label",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-alternate-explicit-nested-label\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-alternate-explicit-nested-label\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-alternate-explicit-nested-label\\card.md: Section 6 says `not in source`, but S003 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-unrelated-private-reset",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-unrelated-private-reset\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-unrelated-private-reset\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S003; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-clinical-private-heading",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-clinical-private-heading\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-clinical-private-heading\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-clinical-private-heading\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-private-year-comma",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-year-comma\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-year-comma\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-private-share",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-share\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-share\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-private-contact",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-contact\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-contact\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-private-share-pollution",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-share-pollution\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-share-pollution\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S002, S003, S004, S005, S006, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-private-share-plus-official-deposit",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-share-plus-official-deposit\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-share-plus-official-deposit\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-share-plus-official-deposit\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-share-plus-official-deposit\\card.md: Section 8 says `not in source`, but S001 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-private-share-not-standalone",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-share-not-standalone\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-share-not-standalone\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-share-not-standalone\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-private-share-not-standalone\\card.md: Section 8 says `not in source`, but S001 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-reverse-prerequisite",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-reverse-prerequisite\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-reverse-prerequisite\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-reverse-prerequisite\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-only-attendees-may-participate",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-only-attendees-may-participate\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-only-attendees-may-participate\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-only-attendees-may-participate\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-mixed-and-without-comma",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-mixed-and-without-comma\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-mixed-and-without-comma\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-mixed-and-without-comma\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-negated-dependency-pollutes-private",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-negated-dependency-pollutes-private\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-negated-dependency-pollutes-private\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S002, S003; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-explicitly-excluded-private-reference",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-explicitly-excluded-private-reference\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-explicitly-excluded-private-reference\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S003; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-annotated-private-heading",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-annotated-private-heading\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-annotated-private-heading\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S002; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-positive-dependency-guard",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-positive-dependency-guard\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-positive-dependency-guard\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-positive-dependency-guard\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-positive-nested-reference-guard",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-positive-nested-reference-guard\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-positive-nested-reference-guard\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-positive-nested-reference-guard\\card.md: Section 6 says `not in source`, but S003 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-genuine-private-reset",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-genuine-private-reset\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-genuine-private-reset\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S003; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-private-share-control",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-private-share-control\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-private-share-control\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-exact-new-anchors",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-exact-new-anchors\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-exact-new-anchors\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-variation-selector-deleted",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-variation-selector-deleted\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-variation-selector-deleted\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-variation-selector-deleted\\card.md: ## 12. Unmapped source evidence: anchor for S001 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-grapheme-joiner-deleted",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-grapheme-joiner-deleted\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-grapheme-joiner-deleted\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-grapheme-joiner-deleted\\card.md: ## 12. Unmapped source evidence: anchor for S002 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-narrow-space-normalized",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-narrow-space-normalized\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-narrow-space-normalized\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-narrow-space-normalized\\card.md: ## 12. Unmapped source evidence: anchor for S003 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-quote-entity-decoded",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-quote-entity-decoded\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-quote-entity-decoded\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-quote-entity-decoded\\card.md: ## 12. Unmapped source evidence: anchor for S004 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-soft-hyphen-deleted",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-soft-hyphen-deleted\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-soft-hyphen-deleted\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-soft-hyphen-deleted\\card.md: ## 12. Unmapped source evidence: anchor for S005 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-fullwidth-letter-normalized",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-fullwidth-letter-normalized\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-fullwidth-letter-normalized\\card.md"
+      ],
+      "exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-fullwidth-letter-normalized\\card.md: ## 12. Unmapped source evidence: anchor for S006 does not match the packet\n",
+      "stderr": "",
+      "expected_valid": false,
+      "expected_warning": null,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "not-only-positive",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\not-only-positive\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\not-only-positive\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\not-only-positive\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "negative-without-owner",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\negative-without-owner\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\negative-without-owner\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S003; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "private-duty-and-private-event",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\private-duty-and-private-event\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\private-duty-and-private-event\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "private-bare-coordinated-activities",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\private-bare-coordinated-activities\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\private-bare-coordinated-activities\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "private-event-and-contribution",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\private-event-and-contribution\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\private-event-and-contribution\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "unknown-action-after-and",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\unknown-action-after-and\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\unknown-action-after-and\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\unknown-action-after-and\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "private-cued-official-second-clause",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\private-cued-official-second-clause\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\private-cued-official-second-clause\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\private-cued-official-second-clause\\card.md: Section 6 says `not in source`, but S001 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "exclusion-of-other-heading",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\exclusion-of-other-heading\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\exclusion-of-other-heading\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\exclusion-of-other-heading\\card.md: Section 6 says `not in source`, but S003 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "latest-exclusion",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\latest-exclusion\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\latest-exclusion\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "latest-inclusion",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\latest-inclusion\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\latest-inclusion\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\latest-inclusion\\card.md: Section 6 says `not in source`, but S004 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "annotated-clinical",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\annotated-clinical\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\annotated-clinical\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\annotated-clinical\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "annotated-private-colon",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\annotated-private-colon\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\annotated-private-colon\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: PERSONAL HINT FILTER: S002; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": false,
+      "observed_warning": false,
+      "passed": true
+    },
+    {
+      "case": "outside-hours-is-not-exclusion",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\outside-hours-is-not-exclusion\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\outside-hours-is-not-exclusion\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\outside-hours-is-not-exclusion\\card.md: Section 6 says `not in source`, but S003 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "unrelated-topic-is-not-exclusion",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\unrelated-topic-is-not-exclusion\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\unrelated-topic-is-not-exclusion\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\unrelated-topic-is-not-exclusion\\card.md: Section 6 says `not in source`, but S003 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "coordinate-other-exclusion",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\coordinate-other-exclusion\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\coordinate-other-exclusion\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\coordinate-other-exclusion\\card.md: Section 6 says `not in source`, but S003 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    },
+    {
+      "case": "negated-exclusion-keeps-scope",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\negated-exclusion-keeps-scope\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\negated-exclusion-keeps-scope\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\negated-exclusion-keeps-scope\\card.md: Section 6 says `not in source`, but S003 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": "",
+      "expected_valid": true,
+      "expected_warning": true,
+      "observed_warning": true,
+      "passed": true
+    }
+  ]
+}

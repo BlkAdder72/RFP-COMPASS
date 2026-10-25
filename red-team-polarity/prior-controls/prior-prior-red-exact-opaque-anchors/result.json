@@ -1,0 +1,19 @@
+{
+  "case": "prior-prior-red-exact-opaque-anchors",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-exact-opaque-anchors\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-red-exact-opaque-anchors\\card.md"
+  ],
+  "exit_code": 0,
+  "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+  "stderr": "",
+  "expected_valid": true,
+  "expected_warning": null,
+  "observed_warning": false,
+  "passed": true
+}

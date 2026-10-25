@@ -1,0 +1,19 @@
+{
+  "case": "prior-prior-required-context-self",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-required-context-self\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-required-context-self\\card.md"
+  ],
+  "exit_code": 0,
+  "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-required-context-self\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+  "stderr": "",
+  "expected_valid": true,
+  "expected_warning": true,
+  "observed_warning": true,
+  "passed": true
+}

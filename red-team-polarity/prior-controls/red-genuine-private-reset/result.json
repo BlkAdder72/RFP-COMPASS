@@ -1,0 +1,19 @@
+{
+  "case": "red-genuine-private-reset",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-genuine-private-reset\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\red-genuine-private-reset\\card.md"
+  ],
+  "exit_code": 0,
+  "stdout": "NOTE: PERSONAL HINT FILTER: S003; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+  "stderr": "",
+  "expected_valid": true,
+  "expected_warning": false,
+  "observed_warning": false,
+  "passed": true
+}

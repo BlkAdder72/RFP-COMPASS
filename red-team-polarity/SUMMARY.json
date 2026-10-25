@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-25",
+  "recommendation": "HOLD — seven open finding families; no repair or publication in this review",
+  "sealed_target": "21dd85b40edf835870689c9f4a0b67ddc10de81a",
+  "freeze": "efb167b",
+  "original_baseline": "4569421",
+  "rebuild_raw": "ca72f84",
+  "new_controls": {
+    "original": {
+      "passed": 14,
+      "total": 24
+    },
+    "pre-polarity": {
+      "passed": 18,
+      "total": 24
+    },
+    "rebuild": {
+      "passed": 14,
+      "total": 24
+    }
+  },
+  "vs_preceding": {
+    "improved": [
+      "direct-exclusion-guard",
+      "explicit-negative-dependency-guard"
+    ],
+    "regressed": [
+      "explicit-optional-attendance",
+      "no-attendance-condition",
+      "exclusion-other-program",
+      "not-included-other-schedule",
+      "private-worded-share",
+      "joint-private-activities"
+    ],
+    "tied": [
+      "contracted-negation",
+      "relative-clause-exclusion",
+      "mixed-credential-deadline",
+      "parenthetical-private-heading",
+      "positive-dependency-guard",
+      "not-only-positive-guard",
+      "mixed-must-guard",
+      "clinical-guard",
+      "private-dollar-share-guard",
+      "exact-new-anchors",
+      "hair-space-normalized",
+      "arabic-mark-deleted",
+      "directional-isolates-deleted",
+      "numeric-entity-decoded",
+      "unicode-hyphen-normalized",
+      "fullwidth-semicolon-normalized"
+    ]
+  },
+  "vs_original": {
+    "improved": [
+      "direct-exclusion-guard",
+      "private-dollar-share-guard",
+      "explicit-negative-dependency-guard"
+    ],
+    "regressed": [
+      "exclusion-other-program",
+      "not-included-other-schedule",
+      "mixed-credential-deadline"
+    ],
+    "tied": [
+      "contracted-negation",
+      "explicit-optional-attendance",
+      "no-attendance-condition",
+      "relative-clause-exclusion",
+      "private-worded-share",
+      "joint-private-activities",
+      "parenthetical-private-heading",
+      "positive-dependency-guard",
+      "not-only-positive-guard",
+      "mixed-must-guard",
+      "clinical-guard",
+      "exact-new-anchors",
+      "hair-space-normalized",
+      "arabic-mark-deleted",
+      "directional-isolates-deleted",
+      "numeric-entity-decoded",
+      "unicode-hyphen-normalized",
+      "fullwidth-semicolon-normalized"
+    ]
+  },
+  "new_failed_controls": [
+    "contracted-negation",
+    "explicit-optional-attendance",
+    "no-attendance-condition",
+    "exclusion-other-program",
+    "not-included-other-schedule",
+    "relative-clause-exclusion",
+    "mixed-credential-deadline",
+    "private-worded-share",
+    "joint-private-activities",
+    "parenthetical-private-heading"
+  ],
+  "prior_controls": {
+    "passed": 120,
+    "total": 120
+  },
+  "current_combined_controls": {
+    "passed": 134,
+    "total": 144
+  },
+  "fresh_model_turns": 6,
+  "model_strict_copy_all_pass": true,
+  "model_selected_semantics": {
+    "original": {
+      "passed": 2,
+      "total": 3
+    },
+    "rebuild": {
+      "passed": 3,
+      "total": 3
+    }
+  },
+  "model_combined_checks": {
+    "original": {
+      "passed": 2,
+      "total": 3
+    },
+    "rebuild": {
+      "passed": 2,
+      "total": 3
+    }
+  },
+  "fresh_full_length_model_calls": 0,
+  "existing_rebuilt_full_read_only_replay_pass": true,
+  "prior_tracked_files_preserved": 27050,
+  "sealed_files_preserved": 47,
+  "new_review_in_old_zip": false,
+  "new_delivery_created": false,
+  "sealed_delivery_audit_pass": true,
+  "published": false
+}

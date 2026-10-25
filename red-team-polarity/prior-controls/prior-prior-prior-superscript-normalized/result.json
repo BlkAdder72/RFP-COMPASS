@@ -1,0 +1,19 @@
+{
+  "case": "prior-prior-prior-superscript-normalized",
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-superscript-normalized\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-superscript-normalized\\card.md"
+  ],
+  "exit_code": 1,
+  "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-polarity\\prior-controls\\prior-prior-prior-superscript-normalized\\card.md: ## 12. Unmapped source evidence: anchor for S005 does not match the packet\n",
+  "stderr": "",
+  "expected_valid": false,
+  "expected_warning": null,
+  "observed_warning": false,
+  "passed": true
+}
