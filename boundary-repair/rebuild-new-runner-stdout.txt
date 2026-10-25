@@ -1,0 +1,8 @@
+RUN rebuild A-exclusions-and-mixed-deadlines
+SAVED
+RUN rebuild B-negation-and-private-content
+SAVED
+RUN rebuild C-opaque-citation-variants
+SAVED
+RUN rebuild D-boundary-guards
+SAVED

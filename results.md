@@ -1,32 +1,18 @@
-# Polarity and mixed-clause repair — paired results, 2026-10-24
+# Boundary warning repair — first comparison retained, 2026-10-25
 
-Local candidate; unpublished. This stage addresses all five findings in red-team-guard/REPORT.md. Closure claims below apply to the recorded cases and guards, not every possible wording. All earlier evidence, failures and deliveries remain preserved.
+**Hold: a new semantic failure was found. This is not the final submission candidate.** All seven warning finding families in `red-team-polarity/REPORT.md` are repaired in the frozen evaluator cases, but raw model fixture D incorrectly quarantines later genuine requirements after an initial private heading. The warning validator detects S008/S009; structural validation still passes because it does not prove routing. This failed comparison is preserved and motivates a separately frozen context-boundary repair in `submission-repair/`.
 
-## Changes tied to the findings
+## What changed
 
-F1: unknown nonprivate event statements retain warning scope without a particular modal phrase, colon or all-capital heading. This covers the reverse-prerequisite and implicit attendance conditions without adding only those phrases to a vocabulary list. Explicit private headings and negated dependency statements are handled separately.
+The warning filter binds `not included in`/`not part of` to a requirement-scope object, recognizes relative exclusions, handles straight/curly contracted predicate negation without misreading `not payment`, avoids creating new event scope from explicit optionality/no-attendance conditions, supports complete worded private shares and coordinated birthday activities, recognizes bounded parenthetical private headings, and prevents a `with ... to <action>` adjunct borrowing personal evidence. Independent procurement/clinical duties still retain hints. Negative attendance cannot clear inherited duties. The exact-copy/structure implementation from `def difference` onward is byte-identical; all six model knowledge files are unchanged.
 
-F2: coordinating conjunctions delimit warning-analysis clauses with or without a comma. Each clause needs affirmative private support before the statement can be exempted. Narrow calendar/activity fragments can share ownership within the same statement, and a private cost-sharing clause remains bounded. Official participation-payment cues and unknown extra actions retain hints. A private self-duty is assessed per duty clause; an additional demonstrably private clause does not itself create procurement scope.
+## Sequence and comparison
 
-F3: dependency matches respect negation, while not-only constructions remain affirmative. Negated dependency language alone does not create or clear inherited requirement scope. Other procurement/clinical vetoes remain.
+Cases, 162 controls and selected source-hash-bound routing expectations were frozen in 51d7cd5. Complete original core/supplemental/full baseline: 7eefb2d. Warning candidate: 0f1c29e, before every rebuilt call. Root questions remain identical to bfdd812. Both arms used canonical runners, gpt-6-astra medium, same ordered sources and six-file selection, fresh sessions and exact full-RFP continues. No tools, retries, best-of selection, evaluator answers in prompts or corrected raw outputs. The cases are targeted synthetic probes; host messages remain uncontrolled and inline files are not native Claude attachments.
 
-F4: subsection references are evaluated locally by clause and heading, with the latest applicable relation controlling inclusion. An excluded or unrelated private subsection is not held inside a requirement merely because its name occurs there. Another subsection’s exclusion cannot cancel an included subsection. Positive inclusion and a negated exclusion remain conservative.
+## Recorded outcomes
 
-F5: narrowly supported private annotations following a dash or colon are recognized along with possessive/compound headings. Clinical or procurement wording retains its veto, and an explicitly included private-looking subsection retains inherited scope.
-
-The exact-copy/structural implementation from def difference onward is byte-identical to the preceding candidate: complete anchors, invisible characters, statement text, coverage, order, headings, continuations, trusted exclusion checks and rejection behavior are unchanged. Warning analysis never alters the source statement or output quotation. No source IDs or filenames are relevance rules. A validator PASS still does not prove semantic placement.
-
-## Frozen sequence and fair comparison
-
-Inputs, 116 controls, three prior red-team fixtures plus new D and source-bound expected checks were frozen in 3bbb5a7. Root questions.md remains byte-identical to bfdd812. The original ran frozen core A-E, supplemental A-D, and the unchanged 221-statement full RFP first; its complete baseline was committed in eb10487 before mutating the candidate. Candidate 3539ec4 preceded every rebuilt model call.
-
-Both arms used unchanged canonical runners and gpt-6-astra medium, the same ordered sources and six-file knowledge selection. Core/supplemental trials used fresh ephemeral sessions; the full run used a fresh persistent session and exact continue turns. No tools, retries, best-of selection, raw-output corrections or evaluator answers in model inputs. Host system instructions remain uncontrolled. The six knowledge files in each arm are unchanged, so fresh routing differences do not establish a new routing-prompt repair.
-
-These are targeted synthetic regression/safety cases informed by prior findings, not independent real-world validation or fresh Claude acceptance. The full source contains 214 real TBRPC statements plus seven synthetic personal records, with a selected semantic matrix. The first implementation passed 116 controls and the rebuilt historical replay, but inspection led to four further safety cases frozen in f017ceb before execution. Two exposed unsafe suppression when outside/unrelated described time or subject matter rather than exclusion from scope. Their failures and initial code remain preserved. The correction preceded all rebuilt model calls; the final 120 controls pass. See REPAIR_NOTES.md, attempt-1 and relation-addendum-before for the failed evidence.
-
-## Frozen questions
-
-| Question | Original | Rebuild | Comparison |
+| Frozen question | Original | Rebuild | Comparison |
 |---|---|---|---|
 | Q1 | fail | pass | improved |
 | Q2 | pass | pass | tied |
@@ -37,30 +23,30 @@ These are targeted synthetic regression/safety cases informed by prior findings,
 | Q7 | fail | pass | improved |
 | Q8 | partial | pass | improved |
 
-Totals: {'improved': 5, 'tied': 3, 'regressed': 0}. Q8 runs default warning handling without a reviewed-exclusion sidecar. All subchecks and regressed subchecks remain in polarity-repair/scores-final.json; core-common-strict.json applies the same strict gate to both arms.
+Q1–Q8: five improvements, three ties, zero regressions. Q8 uses default invocation without a sidecar. Ten core cards pass common strict validation.
 
-## Supplemental paired cases
-
-| Case | Original all checks | Rebuild all checks |
+| Supplemental fixture | Original combined checks | Rebuild combined checks |
 |---|---|---|
-| A-unseen-obligations-and-mixed-conjunction | PASS | PASS |
-| B-negated-scope-and-private-headings | FAIL | PASS |
-| C-new-citation-variants | PASS | PASS |
-| D-polarity-and-coordination | FAIL | PASS |
+| A-exclusions-and-mixed-deadlines | PASS | PASS |
+| B-negation-and-private-content | FAIL | PASS |
+| C-opaque-citation-variants | PASS | PASS |
+| D-boundary-guards | FAIL | FAIL |
 
-original B-negated-scope-and-private-headings: failed selected semantic checks ['S002_exclusive', 'S003_exclusive', 'S006_exclusive', 'S008_exclusive']; exact-copy mismatches []; personal false hints [].
+All eight supplemental cards preserve complete quotes and anchors. Original B leaks private content; rebuild B passes all selected placements and produces no false personal hints. C is an exact-citation pass/pass tie, not a new win.
 
-original D-polarity-and-coordination: failed selected semantic checks ['S002_exclusive', 'S003_exclusive', 'S007_exclusive']; exact-copy mismatches []; personal false hints [].
+**D must not be summarized only as FAIL/FAIL.** The original leaks private S002/S003/S004 operationally but retains genuine S008/S009 in Section 6. Rebuild D correctly contains those private statements, yet puts all nine IDs only in Section 12, losing genuine S008/S009 and violating their Section-12 exclusions. The four regressed subchecks are S008_required, S009_required, S008_forbidden_clear and S009_forbidden_clear. The repaired validator warns on both missed dates. The model knowledge was unchanged by the warning repair, so this fresh semantic difference is not evidence that warning-code changes caused routing behavior. Both the failure and the reason for a substantive knowledge correction remain visible.
 
-Citation C is scored as a tie whenever both arms pass. Full positions, mismatches and raw validation output: polarity-repair/model-results.json. All native and common strict results remain beside the raw cards. Selected checks are not exhaustive semantic grading.
+Warning controls: original 104/162, preceding candidate 146/162, repaired candidate 162/162. This is sixteen improvements and 146 ties against the preceding tool, with no control regressions. It includes all ten previously reported failed controls plus six additional failing variations. The older 120 cases still pass. Historical replay: all 73 rebuilt executions pass; original retains four known permissive-quotation failures among 70 executions. Neither original failures nor earlier failed repairs were erased.
+
+The exact prior rebuilt red-team B card was replayed unchanged: six false date IDs before, none after. Its source/card hashes are identical between runs. See same-card-warning-replay.json.
 
 ## Fresh full-length RFP
 
 | Check | Original | Rebuild |
 |---|---|---|
-| exact_shape_quotes_coverage | False | True |
+| exact_shape_quotes_coverage | True | True |
 | exact_statement_text | True | True |
-| exact_anchors | False | True |
+| exact_anchors | True | True |
 | all_221_ids | True | True |
 | noise_only12 | False | True |
 | genuine_routing | False | True |
@@ -69,37 +55,8 @@ Citation C is scored as a tie whenever both arms pass. Full positions, mismatche
 | max150_bullets_per_reply | True | True |
 | complete | True | True |
 
-**original: FAIL**, 4 parts, 221 distinct source IDs; per-reply bullets [90, 108, 99, 139].
-Quote mismatches: []; anchor mismatches: [{'sid': 'S072', 'section': 4, 'actual': 'TBRPC Auditing RFP p. 7 §5.II.b', 'expected': 'TBRPC Auditing RFP p. 7 §5.II.b bullet'}, {'sid': 'S072', 'section': 5, 'actual': 'TBRPC Auditing RFP p. 7 §5.II.b', 'expected': 'TBRPC Auditing RFP p. 7 §5.II.b bullet'}, {'sid': 'S092', 'section': 6, 'actual': 'TBRPC Auditing RFP p. 9 §6.II Questions', 'expected': 'TBRPC Auditing RFP p. 9 §6.I Questions'}].
-Missing selected placements: ['S133', 'S066', 'S083', 'S148']; personal containment failures: ['S216', 'S217', 'S218', 'S219', 'S220', 'S221']; false personal hints: [].
+Original bullets per reply: [74, 107, 92, 137]; rebuild: [114, 85, 139, 70]. Both have all 221 IDs and exact quotes/anchors. Original leaks six of seven synthetic private IDs and misses selected required placements for ['S076', 'S066', 'S083', 'S148']. Rebuild passes the selected matrix and contains all seven private IDs only in Section 12. The original's exact-copy improvement over a prior run is model variation, not a new original repair. Raw continuations and failures remain preserved.
 
-**rebuild: PASS**, 3 parts, 221 distinct source IDs; per-reply bullets [128, 123, 141].
-Quote mismatches: []; anchor mismatches: [].
-Missing selected placements: []; personal containment failures: []; false personal hints: [].
+## Preservation and release decision
 
-Raw full evidence is under run-original/polarity-repair-full and run-rebuild/polarity-repair-full. The new rebuilt full run is also copied byte-for-byte to rebuild/run-results/polarity-repair-full with binary attributes. Scores: polarity-repair/full-length-results.json. All older failed full runs, including S072/S100 anchor errors, remain unchanged. No failed output was corrected.
-
-## Warning and strict controls
-
-| Arm | Passed | Total |
-|---|---:|---:|
-| original | 80 | 120 |
-| rebuild | 120 | 120 |
-
-The 120 controls comprise the previous 87, all 17 latest red-team controls, 12 additional positive/negative scope, coordination, latest-reference and clinical guards, and four further scope-relation safety cases. Deliberately misrouted official cards test advisory warnings; correct all-12 personal cards test false warnings. They are evaluator cards, not model replies. Every changed-citation/quotation control retains its original exact rejection expectation. Original’s known permissive quotation tolerances count as failures rather than copying wins.
-
-Historical replay counts: {'original': {'pass': 66, 'total': 70}, 'rebuild': {'pass': 73, 'total': 73}}. Complete command/stdout/stderr/exit evidence is retained.
-
-The exact preserved red-team rebuilt B card is replayed without a model rerun in same-card-warning-replay-release.json. Before has false warning IDs S003/S006/S008; after is checked for zero REVIEW warnings, with identical source/card hashes and both structural exits preserved. This isolates warning-tool behavior from model variability.
-
-## Ties, regressions, untouched behavior and limits
-
-Question-by-question ties/regressions and full-RFP fidelity ties or failures are shown above. Model knowledge, frozen questions, source packets, original evidence, example provenance and strict validation were deliberately left unchanged. Fresh-model routing improvements are variable observations, not causal evidence of a new prompt repair. In this full-RFP draw the original has three anchor errors (S072 twice and S092), whereas the preceding original draw copied its anchors exactly; that deterioration is retained as evidence of variability. The warning-only change cannot cause better model copying. See REPAIR_NOTES.md for every intermediate failure and correction in this stage.
-
-The classifier remains a finite local warning heuristic, not a complete semantic parser. It can still misread novel negation, scope references, ambiguous ownership, mixed clauses or annotated headings. Unknown event text is treated conservatively, which can retain warnings where a human may conclude unrelatedness. Single paired runs and selected matrices do not establish reliability on every real-world attachment, Unicode form or judge environment. Human semantic review and fresh Claude acceptance remain open. No universal conservative-behavior claim is made.
-
-## Competition layout, history and delivery
-
-The judged original remains pinned at 92847d2a17250fa18914d932826db63d99dcb75c. Required root layout, verbatim feedback, frozen questions and historical original-before-rebuild sequence remain retained. The new report is also root results.md. All 22,013 prior tracked files and 41 sealed artifact files are preserved; seven mutable documents have exact before snapshots. Preservation and chronology records bind old evidence, frozen cases, baseline bytes, current candidate and raw model events.
-
-New local delivery: dist/polarity-release with source ZIP, complete-history bundle, SHA256SUMS and RELEASE.json. Its FINAL_VERIFICATION.json records actual fresh-clone compliance once built; prior deliveries remain intact. Packaging compliance is separate from model quality. The updated submission body is exactly the three frozen sentences in submission-plan.json and includes the verbatim motivating feedback line. Premium/VIP eligibility and a valid public repository URL remain unverified. Nothing has been published.
+All 27,828 prior tracked files and 47 sealed files are preserved; seven mutable files have exact before snapshots. The full rebuilt raw run is copied exactly under rebuild/run-results/boundary-repair-full/. Root results mirrors this report while this comparison is current. Integrity verification is distinct from behavioral acceptance. No release archive is created for this failed semantic candidate; final packaging waits for the separate context-boundary comparison. The unposted three-sentence draft, eligibility uncertainty, public-URL placeholder, finite-heuristic limits and lack of native-Claude acceptance remain explicit. Nothing is published.

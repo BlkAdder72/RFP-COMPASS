@@ -1,0 +1,23 @@
+{
+  "acceptance": "HOLD \u2014 semantic D fails; next frozen comparison required",
+  "core": {
+    "improved": 5,
+    "tied": 3,
+    "regressed": 0
+  },
+  "controls": {
+    "original": 104,
+    "rebuild": 162
+  },
+  "before_rebuild_controls": 146,
+  "total_controls": 162,
+  "rebuild_full_pass": true,
+  "D_regressed_subchecks": [
+    "S008_required",
+    "S009_required",
+    "S008_forbidden_clear",
+    "S009_forbidden_clear"
+  ],
+  "published": false,
+  "release_created": false
+}

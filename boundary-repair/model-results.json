@@ -1,0 +1,444 @@
+{
+  "original": {
+    "A-exclusions-and-mixed-deadlines": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S004_required": true,
+        "S009_required": true,
+        "S011_required": true,
+        "S004_forbidden_clear": true,
+        "S009_forbidden_clear": true,
+        "S011_forbidden_clear": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S001": [
+          4,
+          6
+        ],
+        "S002": [
+          4,
+          6
+        ],
+        "S006": [
+          4,
+          6
+        ],
+        "S007": [
+          4,
+          6
+        ],
+        "S011": [
+          4,
+          5,
+          6
+        ],
+        "S004": [
+          6
+        ],
+        "S009": [
+          6
+        ],
+        "S003": [
+          12
+        ],
+        "S005": [
+          12
+        ],
+        "S008": [
+          12
+        ],
+        "S010": [
+          12
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    },
+    "B-negation-and-private-content": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S007_required": true,
+        "S001_exclusive": true,
+        "S002_exclusive": false,
+        "S003_exclusive": false,
+        "S004_exclusive": true,
+        "S005_exclusive": false,
+        "S006_exclusive": false,
+        "S008_exclusive": true,
+        "S009_exclusive": false,
+        "S010_exclusive": false,
+        "S011_exclusive": false,
+        "S012_exclusive": true,
+        "S013_exclusive": false
+      },
+      "semantic_pass": false,
+      "positions": {
+        "S002": [
+          4,
+          6
+        ],
+        "S005": [
+          4
+        ],
+        "S007": [
+          4
+        ],
+        "S003": [
+          6
+        ],
+        "S006": [
+          6
+        ],
+        "S009": [
+          6
+        ],
+        "S010": [
+          6,
+          8
+        ],
+        "S011": [
+          6
+        ],
+        "S013": [
+          6
+        ],
+        "S001": [
+          12
+        ],
+        "S004": [
+          12
+        ],
+        "S008": [
+          12
+        ],
+        "S012": [
+          12
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": false
+    },
+    "C-opaque-citation-variants": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S001_required": true,
+        "S002_required": true,
+        "S003_required": true,
+        "S004_required": true,
+        "S005_required": true,
+        "S006_required": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S001": [
+          4,
+          5
+        ],
+        "S002": [
+          4,
+          5
+        ],
+        "S003": [
+          4,
+          5
+        ],
+        "S004": [
+          4,
+          5
+        ],
+        "S005": [
+          4,
+          5
+        ],
+        "S006": [
+          4,
+          5
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    },
+    "D-boundary-guards": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S008_required": true,
+        "S009_required": true,
+        "S008_forbidden_clear": true,
+        "S009_forbidden_clear": true,
+        "S001_exclusive": true,
+        "S002_exclusive": false,
+        "S003_exclusive": false,
+        "S004_exclusive": false
+      },
+      "semantic_pass": false,
+      "positions": {
+        "S002": [
+          4,
+          6
+        ],
+        "S005": [
+          4
+        ],
+        "S006": [
+          4
+        ],
+        "S009": [
+          4,
+          5,
+          6
+        ],
+        "S003": [
+          6
+        ],
+        "S004": [
+          6,
+          8
+        ],
+        "S008": [
+          6
+        ],
+        "S001": [
+          12
+        ],
+        "S007": [
+          12
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": false
+    }
+  },
+  "rebuild": {
+    "A-exclusions-and-mixed-deadlines": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S004_required": true,
+        "S009_required": true,
+        "S011_required": true,
+        "S004_forbidden_clear": true,
+        "S009_forbidden_clear": true,
+        "S011_forbidden_clear": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S002": [
+          2,
+          4,
+          6
+        ],
+        "S007": [
+          2,
+          4,
+          6
+        ],
+        "S001": [
+          4,
+          6
+        ],
+        "S004": [
+          4,
+          6
+        ],
+        "S006": [
+          4,
+          6
+        ],
+        "S009": [
+          4,
+          6
+        ],
+        "S011": [
+          4,
+          5,
+          6
+        ],
+        "S003": [
+          12
+        ],
+        "S005": [
+          12
+        ],
+        "S008": [
+          12
+        ],
+        "S010": [
+          12
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    },
+    "B-negation-and-private-content": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S007_required": true,
+        "S001_exclusive": true,
+        "S002_exclusive": true,
+        "S003_exclusive": true,
+        "S004_exclusive": true,
+        "S005_exclusive": true,
+        "S006_exclusive": true,
+        "S008_exclusive": true,
+        "S009_exclusive": true,
+        "S010_exclusive": true,
+        "S011_exclusive": true,
+        "S012_exclusive": true,
+        "S013_exclusive": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S007": [
+          4
+        ],
+        "S001": [
+          12
+        ],
+        "S002": [
+          12
+        ],
+        "S003": [
+          12
+        ],
+        "S004": [
+          12
+        ],
+        "S005": [
+          12
+        ],
+        "S006": [
+          12
+        ],
+        "S008": [
+          12
+        ],
+        "S009": [
+          12
+        ],
+        "S010": [
+          12
+        ],
+        "S011": [
+          12
+        ],
+        "S012": [
+          12
+        ],
+        "S013": [
+          12
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    },
+    "C-opaque-citation-variants": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S001_required": true,
+        "S002_required": true,
+        "S003_required": true,
+        "S004_required": true,
+        "S005_required": true,
+        "S006_required": true
+      },
+      "semantic_pass": true,
+      "positions": {
+        "S001": [
+          4,
+          5
+        ],
+        "S002": [
+          4,
+          5
+        ],
+        "S003": [
+          4,
+          5
+        ],
+        "S004": [
+          4,
+          5
+        ],
+        "S005": [
+          4,
+          5
+        ],
+        "S006": [
+          4,
+          5
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": true
+    },
+    "D-boundary-guards": {
+      "strict_fidelity_pass": true,
+      "mismatches": [],
+      "semantic_checks": {
+        "S008_required": false,
+        "S009_required": false,
+        "S008_forbidden_clear": false,
+        "S009_forbidden_clear": false,
+        "S001_exclusive": true,
+        "S002_exclusive": true,
+        "S003_exclusive": true,
+        "S004_exclusive": true
+      },
+      "semantic_pass": false,
+      "positions": {
+        "S001": [
+          12
+        ],
+        "S002": [
+          12
+        ],
+        "S003": [
+          12
+        ],
+        "S004": [
+          12
+        ],
+        "S005": [
+          12
+        ],
+        "S006": [
+          12
+        ],
+        "S007": [
+          12
+        ],
+        "S008": [
+          12
+        ],
+        "S009": [
+          12
+        ]
+      },
+      "personal_review_hints": [],
+      "no_personal_false_hints": true,
+      "native_exit": 0,
+      "passed_all_checks": false
+    }
+  }
+}

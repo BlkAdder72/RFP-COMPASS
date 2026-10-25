@@ -1,0 +1,2 @@
+NOTE: C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\final-repair\controls\trailing-space-changed\source-packet.md: S001 ends with spaces; they are ignored when comparing quotations
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.
