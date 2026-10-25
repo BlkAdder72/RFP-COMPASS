@@ -1,0 +1,27 @@
+{
+  "acceptance": "PASS all final recorded behavioral gates; unpublished",
+  "core": {
+    "improved": 5,
+    "tied": 3,
+    "regressed": 0
+  },
+  "controls": {
+    "original": 104,
+    "rebuild": 162
+  },
+  "total_controls": 162,
+  "model_combined": {
+    "original": 2,
+    "rebuild": 5
+  },
+  "model_cases": 5,
+  "rebuild_full_pass": true,
+  "prior_files_preserved": 34562,
+  "old_sealed_files_preserved": 47,
+  "failed_candidates_preserved": [
+    "boundary-repair",
+    "submission-repair"
+  ],
+  "strict_validator_unchanged": true,
+  "published": false
+}

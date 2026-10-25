@@ -8,17 +8,19 @@ The feedback asked for personal material only in Section 12 without false date h
 
 The warning-only attempt passed its controls but failed a new model context case. That complete failed comparison remains in `boundary-repair/REPORT.md`; this candidate also repairs statement-level routing boundaries in rules and the output schema. Do not mistake the earlier structural PASS for semantic acceptance.
 
+A second candidate retained genuine duties but leaked negative/optional personal records and failed an exact citation. Its complete failed comparison is in `submission-repair/REPORT.md`. The current candidate makes relevance decisions in source order and retrieves literal source-row fields for every emitted citation.
+
 | Material | Location |
 |---|---|
 | Judged original and verbatim feedback | `original/`, `feedback.md` |
 | Frozen questions | `questions.md` |
 | Candidate knowledge and strict validator | `rebuild/` |
-| Latest protocol, before snapshots, controls and report | `submission-repair/` |
-| Fresh paired model runs | `run-original/submission-repair-*`, `run-rebuild/submission-repair-*` |
-| Packaged full-RFP raw result | `rebuild/run-results/submission-repair-full/` |
+| Latest protocol, before snapshots, controls and report | `final-submission/` |
+| Fresh paired model runs | `run-original/final-submission-*`, `run-rebuild/final-submission-*` |
+| Packaged full-RFP raw result | `rebuild/run-results/final-submission-full/` |
 | Latest red-team findings, preserved | `red-team-polarity/REPORT.md` |
-| Earlier repair trail | `boundary-repair/`, `polarity-repair/`, `red-team-polarity/`, `scope-guard-repair/`, `scope-repair/`, `warning-repair/`, `final-repair/` and earlier folders |
-| Source ZIP and complete-history bundle | `dist/submission-release/` |
+| Earlier repair trail | `submission-repair/`, `boundary-repair/`, `polarity-repair/`, `red-team-polarity/`, `scope-guard-repair/`, `scope-repair/`, `warning-repair/`, `final-repair/` and earlier folders |
+| Source ZIP and complete-history bundle | `dist/final-submission-release/` |
 | Three-sentence submission draft | `SUBMISSION_COMMENT.md` |
 
 Offline audit: `python -B -X utf8 tools/verify_submission.py`. Historical assertions run unchanged at their sealed commits in sibling clones, followed by current evidence checks; no model calls. In restricted Windows shells local Git execution may require permission. Fresh trials use unchanged tools/run_arm.py and hardening/run_full.py with entirely new output paths.
