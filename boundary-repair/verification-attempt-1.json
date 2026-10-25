@@ -1,0 +1,7 @@
+{
+  "exit_code": 1,
+  "failed_assertion": "boundary-repair/REPORT.md bytes equal root results.md",
+  "cause": "Windows newline translation on the first report copy; textual contents identical",
+  "raw_model_evidence_changed": false,
+  "original_report_preserved": "REPORT-initial-crlf.md"
+}

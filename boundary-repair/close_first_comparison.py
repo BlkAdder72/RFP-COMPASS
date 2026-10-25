@@ -43,7 +43,7 @@ text+='''
 
 All 27,828 prior tracked files and 47 sealed files are preserved; seven mutable files have exact before snapshots. The full rebuilt raw run is copied exactly under rebuild/run-results/boundary-repair-full/. Root results mirrors this report while this comparison is current. Integrity verification is distinct from behavioral acceptance. No release archive is created for this failed semantic candidate; final packaging waits for the separate context-boundary comparison. The unposted three-sentence draft, eligibility uncertainty, public-URL placeholder, finite-heuristic limits and lack of native-Claude acceptance remain explicit. Nothing is published.
 '''
-(D/'REPORT.md').open('x',encoding='utf-8').write(text);(R/'results.md').write_text(text,encoding='utf-8',newline='\n')
+(D/'REPORT.md').open('x',encoding='utf-8',newline='\n').write(text);(R/'results.md').write_text(text,encoding='utf-8',newline='\n')
 src=R/'run-rebuild/boundary-repair-full';dst=R/'rebuild/run-results/boundary-repair-full';shutil.copytree(src,dst);(dst/'.gitattributes').write_text('* -text\n',encoding='utf-8')
 for n in ['README.md','packaging/COMPLIANCE.md']:
  p=R/n;t=p.read_text(encoding='utf-8').replace('`dist/boundary-release/`','`dist/boundary-release/` (not sealed: semantic D failed)');p.write_text(t,encoding='utf-8',newline='\n')
