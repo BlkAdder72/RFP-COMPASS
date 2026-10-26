@@ -86,6 +86,8 @@ EVENT_HEADER = re.compile(r"\b(events?|meetings?|conferences?|attendance|activit
 CLINICAL_CUE = re.compile(r"\b(patients?|clinical|beneficiaries|services?|providers?|healthcare)\b", re.IGNORECASE)
 # Parentheses are accepted only around an explicitly private annotation.
 PRIVATE_ANNOTATION = r"(?:unrelated\s+)?(?:personal|private|family)\s+(?:correspondence|notes|calendar|schedule|email|thread)"
+OUTSIDE_PRIVATE_ANNOTATION = r"(?:outside|unrelated\s+to|not\s+part\s+of)\s+(?:the\s+)?(?:procurement|solicitation)"
+PRIVATE_ANNOTATION = r"(?:" + PRIVATE_ANNOTATION + "|" + OUTSIDE_PRIVATE_ANNOTATION + ")"
 PERSONAL_HEADER = re.compile(
     r"\s*(?P<label>(?:(?:my|our|your|his|her|their)\s+)?(?:(?:personal|private|family)\s+)+"
     r"(?:calendar|correspondence|notes|schedule|email|thread|events|activities))"
@@ -183,7 +185,12 @@ def personal_hint_exclusions(statements, placed):
         dependencies = list(DEPENDENCY_CUE.finditer(body))
         positive_dependency = any(not negative_dependency(m.group()) for m in dependencies)
         only_negative_dependency = bool(dependencies) and not positive_dependency
-        hard_procurement = PROCUREMENT_CUE.search(body) or OFFER_DELIVERY_CUE.search(body) or PAYMENT_CUE.search(body) or positive_dependency
+        private_heading = PERSONAL_HEADER.fullmatch(body)
+        # Only a complete private heading can neutralize the procurement noun
+        # in its own negative annotation. Other cues and inherited scope stay.
+        outside_private_heading = bool(private_heading and re.search(OUTSIDE_PRIVATE_ANNOTATION, body, re.IGNORECASE))
+        hard_procurement = ((not outside_private_heading and PROCUREMENT_CUE.search(body))
+                            or OFFER_DELIVERY_CUE.search(body) or PAYMENT_CUE.search(body) or positive_dependency)
         clinical = CLINICAL_CUE.search(body)
         # A "with ... to <action>" adjunct cannot borrow a preceding private
         # activity. Pure private calendar adjuncts remain intact and are checked

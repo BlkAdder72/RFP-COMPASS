@@ -1,0 +1,15 @@
+{
+  "stage": "F4",
+  "validator_sha256": "78330ac950d0cc18cd79afe1f928be2eb401140efa8052150a8506b8b8845452",
+  "required_issues": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "guard",
+    "prior"
+  ],
+  "passed_required": true,
+  "failures_in_required_gate": [],
+  "all_remaining_failures": []
+}
