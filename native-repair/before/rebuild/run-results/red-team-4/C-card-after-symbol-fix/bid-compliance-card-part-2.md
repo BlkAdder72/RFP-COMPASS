@@ -1,0 +1,24 @@
+## 10. Definitions, authority, and administrative terms
+- “*Hourly Rate $ for Weekend Events as referenced on page H-6, #26 Additional Requirements, Section D. I acknowledge and agree that the School District may close or consolidate schools during the term of the Contract.” [source: source-packet.md:S014; SEDELCO p. 22 line 14]
+- “In the event of the closing/consolidation of one or more facilities, the School District may cancel services under the Contract for the particular facility(ies) which no longer require a custodian, may reallocate positions from one facility to another, may increase or decrease positions at a particular facility(ies), and/or may increase or decrease the number of hours applicable to a position(s).” [source: source-packet.md:S015; SEDELCO p. 22 line 17]
+- “The School District will provide the Contractor with thirty (30) days prior written notice of a complete school closure and cancellation of services for the facility to be closed, in which case Contractor’s annual fee for the closed facility will be ratably reduced based on the number of days left in the fiscal year for which Contractor is not required to provide services.” [source: source-packet.md:S016; SEDELCO p. 22 line 21]
+- “The School District will provide Contractor with written notice of the need for other changes (e.g. reallocation of positions, increase or decrease in position hours, etc.), which written notice will provide the Contractor with a reasonable period of time to implement the change, and Contractor agrees to implement the changes.” [source: source-packet.md:S017; SEDELCO p. 22 line 25]
+- “The Contractor’s annual fee for the particular facilities affected by the changes shall be adjusted (increased or decreased) by the School District, which adjustment shall be determined by the School District in its reasonable discretion taking into account the annual fee for the applicable facility, the number of hours of services required for the facility, and the hourly rates set forth below.” [source: source-packet.md:S018; SEDELCO p. 22 line 28]
+- “In the event that any one or more of the works, phrases, sentences, sections, or subsections are found to invalid or unenforceable, this Contract shall be read as is if such offending provisions had not been inserted, and is such invalidity shall be caused by the length of any period of time set forth in any part hereof, such period of time shall be considered to be reduced or increased, as necessary, to a period which would cure such invalidity.” [source: source-packet.md:S051; SEDELCO p. 42 line 3]
+- “14. Binding Effect: This Contract shall be binding upon and inure to the benefit of the parties hereto and their respective successors and permitted assigns.” [source: source-packet.md:S052; SEDELCO p. 42 line 8]
+- “15. Waiver: The waiver by a party of any term, covenant, obligation, or condition herein contained shall not be deemed to be a waiver of any subsequent breach of the same or waiver of any obligation or condition herein contained.” [source: source-packet.md:S053; SEDELCO p. 42 line 10]
+- “No covenant, term, obligation, or condition of this Contract shall be deemed to have been waived by the District, unless such waiver be in a written notice to Contractor executed by the District.” [source: source-packet.md:S054; SEDELCO p. 42 line 12]
+- “16. Construction: For purposes of this Contract, the neuter shall include the masculine and the feminine, the masculine shall include the feminine, the feminine shall include the masculine, the singular shall include the plural, and the plural shall include the singular, as the context may require.” [source: source-packet.md:S055; SEDELCO p. 42 line 15]
+- “17. Remedies: The rights and remedies of the District contained herein shall not be exclusive and are in addition to any rights and remedies provided under the law or in equity.” [source: source-packet.md:S056; SEDELCO p. 42 line 19]
+- “18. Incorporation by Reference: The terms and conditions of the following documents, if checked, are hereby incorporated herein by reference and made a part thereof:” [source: source-packet.md:S057; SEDELCO p. 42 line 21]
+- “(excluding any exceptions to the District’s RFP, unless the District has expressly acknowledged and incorporated such exceptions in Section 2 above.)” [source: source-packet.md:S067; SEDELCO p. 42 line 32]
+
+## 11. Addenda, conflicts, and open items
+- “e. Addenda <U+F0FC>” [source: source-packet.md:S062; SEDELCO p. 42 line 27]
+
+## 12. Unmapped source evidence
+- “C-2” [source: source-packet.md:S019; SEDELCO p. 22 line 33]
+- “C-3” [source: source-packet.md:S050; SEDELCO p. 23 line 38]
+- “G-11” [source: source-packet.md:S069; SEDELCO p. 42 line 35]
+- “APPENDIX “A” *” [source: source-packet.md:S070; SEDELCO p. 51 line 1]
+- “H-8” [source: source-packet.md:S089; SEDELCO p. 51 line 21]
