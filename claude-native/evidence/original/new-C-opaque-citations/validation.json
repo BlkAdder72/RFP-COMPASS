@@ -1,0 +1,30 @@
+{
+  "arm-validator": {
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\claude-native\\inputs\\new-C-opaque-citations\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\claude-native\\evidence\\original\\new-C-opaque-citations\\raw-response.md"
+    ],
+    "exit_code": 1,
+    "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\claude-native\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\claude-native\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet\n",
+    "stderr": ""
+  },
+  "common-strict": {
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\claude-native\\inputs\\new-C-opaque-citations\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\claude-native\\evidence\\original\\new-C-opaque-citations\\raw-response.md"
+    ],
+    "exit_code": 1,
+    "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\claude-native\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\claude-native\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet\n",
+    "stderr": ""
+  }
+}

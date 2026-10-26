@@ -1,5 +1,5 @@
 {
-  "status": "prepared; no model trial sent yet",
+  "status": "partial: original 9 of 9 raw; rebuild 2 raw plus core C rendered; desktop capture recovery failed",
   "platform": "native Claude Desktop on Windows via Computer Use",
   "visible_model": "Opus 5.5",
   "visible_reasoning": "Medium",
@@ -26,5 +26,12 @@
     }
   },
   "VIP_eligibility": "confirmed by user 2026-10-26",
-  "published": false
+  "published": false,
+  "memory_enabled_observed": true,
+  "permission_mode_observed": "Auto",
+  "original_baseline_commit": "9c194874",
+  "protocol_commit": "426ed43c",
+  "raw_capture": "Claude Copy to fresh plain-text Notepad tab; save observed literal editor text",
+  "blocker": "no screenshot targets found for Microsoft.WindowsNotepad_8wekyb3d8bbwe!App",
+  "comparison_complete": false
 }
