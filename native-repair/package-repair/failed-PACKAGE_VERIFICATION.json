@@ -1,0 +1,63 @@
+{
+  "status": "in progress",
+  "checks": [
+    {
+      "label": "bundle structure",
+      "command": [
+        "git",
+        "bundle",
+        "verify",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\native-repair-review\\RFP-COMPASS-Comp15.bundle"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "The bundle contains these 5 refs:\na74f7a83b714e847521d2b69265e1a6d8d5d466a refs/codex/turn-diffs/captures/1793037426863/244739ab-0a1d-4a01-bb87-7d4c60ae2847/base\na74f7a83b714e847521d2b69265e1a6d8d5d466a refs/codex/turn-diffs/checkpoints/6153f9bd4c217502ac723a831fa3d486/3339c51ebd51b7846f69105d7d8020dd/1793037170146/ac2d00fd-98dc-4688-beae-070a788f4d3a\ne5ede5e44a55f36818e94b603cee1ffda4d0810c refs/heads/master\n92847d2a17250fa18914d932826db63d99dcb75c refs/tags/judged-original-comp13\ne5ede5e44a55f36818e94b603cee1ffda4d0810c HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+      "stderr": "C:/Users/mmazu/OneDrive/Documents/ChatGPT/Competition 15/dist/native-repair-review/RFP-COMPASS-Comp15.bundle is okay\n"
+    },
+    {
+      "label": "fresh clone",
+      "command": [
+        "git",
+        "-c",
+        "core.longpaths=true",
+        "clone",
+        "--quiet",
+        "--no-checkout",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\dist\\native-repair-review\\RFP-COMPASS-Comp15.bundle",
+        "C:\\Users\\mmazu\\.codex\\visualizations\\2026\\10\\22\\01a16530-dd83-7660-a058-49083fe67e22\\native-review-verified"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "label": "long path configuration",
+      "command": [
+        "git",
+        "config",
+        "core.longpaths",
+        "true"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "label": "pinned checkout",
+      "command": [
+        "git",
+        "checkout",
+        "--quiet",
+        "--detach",
+        "e5ede5e44a55f36818e94b603cee1ffda4d0810c"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "published": false
+}

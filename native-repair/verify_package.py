@@ -1,7 +1,7 @@
 """Verify the review bundle in a fresh checkout and retain complete command results."""
 from pathlib import Path, PureWindowsPath
 import argparse,hashlib,json,subprocess,sys
-R=Path(__file__).resolve().parents[1]; D=R/'dist/native-repair-review'
+R=Path(__file__).resolve().parents[1]; D=R/'dist/native-repair-review-v2'
 meta=json.loads((D/'PACKAGE.json').read_text()); records=[]
 parser=argparse.ArgumentParser()
 parser.add_argument('--checkout-dir',type=Path,default=R/'.run-work/native-review-verified')
@@ -22,7 +22,7 @@ run('long path configuration',['git','config','core.longpaths','true'],C)
 run('pinned checkout',['git','checkout','--quiet','--detach',meta['commit']],C)
 assert subprocess.check_output(['git','rev-parse','HEAD'],cwd=C).decode().strip()==meta['commit']
 manifest=json.loads((C/'native-repair/EVIDENCE_SHA256.json').read_text())
-assert set(manifest)=={p.relative_to(C/'native-repair').as_posix() for p in (C/'native-repair').rglob('*') if p.is_file() and p.name!='EVIDENCE_SHA256.json'}
+assert set(manifest)=={p.relative_to(C/'native-repair').as_posix() for p in (C/'native-repair').rglob('*') if p.is_file() and p!=C/'native-repair/EVIDENCE_SHA256.json'}
 assert all(hashlib.sha256((C/'native-repair'/n).read_bytes()).hexdigest()==h for n,h in manifest.items())
 run('fresh evidence integrity',[sys.executable,'-u','-B','-X','utf8','native-repair/audit.py'],C)
 audit=json.loads((C/'native-repair/FINAL_CHECK.json').read_text())

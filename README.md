@@ -8,6 +8,6 @@ The judges asked for personal material only in section 12 without false date war
 
 Candidate: [rebuild/](rebuild/). Latest native evidence, frozen inputs and detailed stages: [native-repair/](native-repair/). [run-original/](run-original/) and [run-rebuild/](run-rebuild/) retain all comparisons and link to the native supplement. The older claude-native/ and warning-final/ reports describe their own versions; they are preserved evidence, not current acceptance.
 
-Offline integrity check: `python -B -X utf8 native-repair/audit.py`. Reproduce scores: `python -B -X utf8 native-repair/score.py --output-dir .run-work/new-score`. Full historical-plus-current audit: `python -B -X utf8 tools/verify_submission.py`. Integrity and behavioral acceptance are reported separately. Full source ZIP and recoverable Git history: dist/native-repair-review/, with checksums and package verification. Submission draft: [SUBMISSION_COMMENT.md](SUBMISSION_COMMENT.md), unposted.
+Offline integrity check: `python -B -X utf8 native-repair/audit.py`. Reproduce scores: `python -B -X utf8 native-repair/score.py --output-dir .run-work/new-score`. Full historical-plus-current audit: `python -B -X utf8 tools/verify_submission.py`. Integrity and behavioral acceptance are reported separately. Full source ZIP and recoverable Git history: dist/native-repair-review-v2/, with checksums and package verification. Submission draft: [SUBMISSION_COMMENT.md](SUBMISSION_COMMENT.md), unposted.
 
 Finite passes do not prove perfect semantic routing or original-PDF fidelity. Nothing is published.

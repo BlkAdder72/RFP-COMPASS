@@ -1,0 +1,14 @@
+{
+  "source_commit": "e5ede5e44a55f36818e94b603cee1ffda4d0810c",
+  "archive": "dist/native-repair-review",
+  "failure": "Fresh-clone manifest set mismatch",
+  "missing": [
+    "before/rebuild/tools/__pycache__/validate_packet.cpython-312.pyc"
+  ],
+  "extra": [],
+  "cause": "Manifest enumerated an ignored local bytecode cache that is not a tracked source or evidence file",
+  "source_zip_git_blob_comparison": "PASS: 42266 files",
+  "preserved_old_package": true,
+  "action": "Generate replacement manifest from tracked paths, retain cache locally, create a separate v2 archive, rerun fresh-clone verification",
+  "published": false
+}

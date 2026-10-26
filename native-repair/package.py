@@ -1,7 +1,7 @@
 """Seal an unpublished review archive; never treat integrity as behavioral acceptance."""
 from pathlib import Path
 import hashlib,json,subprocess,zipfile
-R=Path(__file__).resolve().parents[1];D=R/'dist/native-repair-review'
+R=Path(__file__).resolve().parents[1];D=R/'dist/native-repair-review-v2'
 assert not subprocess.check_output(['git','status','--porcelain'],cwd=R),'Commit all evidence before packaging'
 audit=json.loads((R/'native-repair/FINAL_CHECK.json').read_text())
 assert audit['integrity_pass'], 'Integrity failures block even a review archive'
