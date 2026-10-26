@@ -1,0 +1,2 @@
+FAIL
+C:\Users\mmazu\OneDrive\Documents\ChatGPT\Competition 15\red-team-oct26\controls\rtl-mark-deleted\card.md: ## 12. Unmapped source evidence: anchor for S002 does not match the packet

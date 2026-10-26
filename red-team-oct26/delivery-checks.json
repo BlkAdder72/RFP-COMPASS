@@ -1,0 +1,24 @@
+{
+  "target": "8e2afd4e9963cf29fbcf32a874fd196a03a78a02",
+  "all_prior_tracked_preserved": 37090,
+  "all_sealed_files_preserved": 53,
+  "questions_unchanged": true,
+  "sealed_zip_exact_source_files": 37090,
+  "sealed_zip_sha256": "5cdef065cef7e2239f18e86e0fb3f205efe50a39d504f8ef7662bf8792ccc07f",
+  "user_source_checks": {
+    "feedback": {
+      "external_available": true,
+      "exact_bytes": true,
+      "same_text_normalized_newlines": true,
+      "external_sha256": "3429ac177aeb4afb0e13a815f267477b28e441194324bb88d57ec8804c51c376"
+    },
+    "spec": {
+      "external_available": true,
+      "exact_bytes": true,
+      "same_text_normalized_newlines": true,
+      "external_sha256": "2749ae9ebceaf206a918047d6e6f2952d5c4a52a7aeb3ababe0cff4fc9c0ada3"
+    }
+  },
+  "method": "Read-only preservation and archive-byte check. Fresh-clone compliance from sealed FINAL_VERIFICATION.json is historical, not rerun here.",
+  "published": false
+}

@@ -1,0 +1,48 @@
+{
+  "source_sha256": "e32cb2db7080206e691c0f91dd23326afb85228fe3819ecf4b36032815d2b430",
+  "card_sha256": "d7758961ab15f92bceac0432e7339d8688cdfab0bee45f3adcd0c491215d1b96",
+  "arms": {
+    "original": {
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-oct26\\fixtures\\B-personal-boundaries.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-oct26\\run-rebuild\\B-personal-boundaries\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-oct26\\run-rebuild\\B-personal-boundaries\\bid-compliance-card.md: S002, S004 look like dates or times but are not in Section 6; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    },
+    "pre-repair": {
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-oct26\\reference\\pre-repair-validator.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-oct26\\fixtures\\B-personal-boundaries.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-oct26\\run-rebuild\\B-personal-boundaries\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-oct26\\run-rebuild\\B-personal-boundaries\\bid-compliance-card.md: S002, S004 look like dates or times but are not in Section 6; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    },
+    "rebuild": {
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-oct26\\fixtures\\B-personal-boundaries.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-oct26\\run-rebuild\\B-personal-boundaries\\bid-compliance-card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-oct26\\run-rebuild\\B-personal-boundaries\\bid-compliance-card.md: S002, S004 look like dates or times but are not in Section 6; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    }
+  }
+}
