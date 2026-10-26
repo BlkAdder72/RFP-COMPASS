@@ -153,8 +153,18 @@ def personal_hint_exclusions(statements, placed):
                 # "outside office hours" or "unrelated research" is not scope.
                 excluded_before = re.search(
                     r"\b(?:exclud(?:e|es|ed|ing)|not\s+includ(?:e|ing))\s+(?:(?:the|a|this)\s+)?(?:(?:subsection|section|block)\s+)?(?:(?:titled|labelled|labeled|headed)\s+)?[\"“‘']*\s*$", prefix)
-                if excluded_before and re.match(r"\s+from\b", suffix):
-                    excluded_before = re.match(r"\s+from\s+" + scope_object, suffix)
+                if excluded_before:
+                    if re.match(r"\s+from\b", suffix):
+                        excluded_before = re.match(r"\s+from\s+" + scope_object, suffix)
+                    else:
+                        # A program/schedule subject is not the requirement
+                        # scope. Bind the entire exclusion relation locally.
+                        subject = prefix[:excluded_before.start()].strip(" ,:")
+                        scoped_subject = re.fullmatch(
+                            scope_object + r"\s*(?:(?:do|does|did)\s*)?", subject)
+                        scoped_attendance = re.search(
+                            r"\b(?:attend|attending|attendance\s+at)\s+" + scope_object + r"\s*$", subject)
+                        excluded_before = scoped_subject or scoped_attendance
                 excluded_after = re.match(
                     r"^[\s\"“”'‘’)]*(?:,\s*(?:which|that)\s+)?(?:(?:is|are|was|were|remains?)\s+)?(?:"
                     r"unrelated(?:[.:]?\s*$|\s+to\s+" + scope_object + r")|"
