@@ -1,99 +1,79 @@
-# RFP Compass — sequential warning repairs, 2026-10-26
+# Native Claude repair comparison — completed, held for review
 
-**PASS all recorded gates; unpublished.** The four remaining finding families in red-team-oct26/REPORT.md were repaired separately, with each issue's tests and all previously solved boundaries passing before the next edit. The original questions, all earlier evidence and all old sealed packages remain preserved. This is finite measured acceptance, not a claim of perfect language understanding.
+Twenty first-pass native Claude App trials are preserved: ten original, ten repaired. The rebuild passes frozen Q1–Q8 and the full-length RFP's strict and selected semantic checks. Broader acceptance remains **FAIL**: the combined regression card omits one frozen required route, and raw Unicode citation copying still fails in both versions. Nothing is published. This report supersedes readiness claims in older reports without altering those reports or their evidence.
 
-## What changed and why
+## Repairs and sequential evidence
 
-1. **F1, dependency wording.** Attendance conditions expressed as “hinges on” or “is dependent on” now retain warning protection. Their corresponding negative/contraction forms are analyzed with negation tied to the dependency predicate. “Not payment” and “not only” are positive guards. This repairs missed date warnings without treating the word participation alone as an obligation.
-2. **F2, relation binding.** An exclusion before a private heading must bind to the requirement scope: an explicit `from` object or a supported scope subject. Being excluded from an office-hours program or daytime schedule cannot cancel a separate compulsory event requirement. Real exclusions and local subsection boundaries remain supported.
-3. **F3, worded shares.** A bounded compositional English amount grammar covers hundreds and thousands. Complete private-share phrases are treated as a single unit during clause analysis so the `and` inside an amount is not mistaken for an independent action. Only that matched phrase is replaced in an analysis copy; original quotations/citations are untouched. Genuine mixed return, payment and credential deadlines retain hints.
-4. **F4, annotated private headings.** Explicit outside-procurement annotations are recognized only within the complete private-heading grammar. Their own negative annotation no longer supplies an affirmative procurement cue. This cannot erase explicit inherited inclusion, clinical requirements or a later genuine duty.
+1. **Citation transport, C1.** Added `rebuild/tools/finalize_card.py` and made it the documented default export step. It restores only canonically equivalent Unicode anchors from the same source ID when the entire quotation is already exact. It never changes routes, IDs, body text, whitespace, entities or non-equivalent citations. It preserves raw files, records codepoint changes and hashes, and runs the unchanged strict checks before emitting a derived card. Rejections retain validation inputs and REJECTED.json. This is an explicit operator tool, not improved raw model copying. The identical external tool was applied to both arms.
 
-Only rebuild/tools/validate_packet.py changes product behavior. The entire implementation from `def difference` onward is byte-identical, including strict quotations, opaque anchors, IDs, coverage, headings, prose and continuation checks. All six model knowledge files are unchanged. Source data, frozen questions, source-hash-bound matrices and raw model outputs were not corrected or relaxed.
+   The first test attempt had eight infrastructure failures from denied temporary-directory access; all stdout/stderr and failed outputs remain in stages/C1-citation. Replacing temporary staging with a new retained validation-inputs directory produced 15/15 passing checks in C1-citation-retest. Final C4 testing passed 17/17, including both versions' retained/fresh Unicode failures. Controls reject changed bodies, wrong IDs, page ranges, removed invisible characters, changed tab/NBSP, entity decoding and compatibility-only Unicode substitutions. No validation tolerance was added.
 
-## Ordered tests before moving on
+2. **Semantic routing, C2.** Clarified that binding named government/professional standards also route to section 10, and expected signing/execution of a service agreement also routes to section 11. Added independent sweeps so sections 3/8 do not substitute for those routes. Coherence checks passed 5/5; these were instruction checks, not model acceptance. Sample 04 and its hand routing list were aligned for S047/S048, S148 and S139, with explicit provenance. The before card is retained and the script roundtrip plus four packaged sample checks passed.
 
-207 controls were frozen: the prior 162, all 18 October 26 review controls and 27 new safety controls. Each stage runs all 207 across original, before and current validators, preserving every stdout/stderr/command and the actual stage validator. Stage gates require the prior 162, common guards and every issue solved so far; later issue failures remain visible until their own repair. Baseline reproduces 18 failures. Stage results:
+3. **False evaluation warning, C3.** Restricted only the evaluation advisory for a reservation to modify an RFP where selection criteria are merely an incidental object. Actual evaluation, ranking, weights, scores and combined reservation-plus-scoring remain protected. All 216 warning/corruption controls passed (207 prior controls plus nine new guards). Strict validation code is unchanged apart from the call to the advisory predicate. Same-card replay on both the retained and fresh native full-RFP cards removes the false S139 warning while retaining a genuine S098 contact-route warning in the fresh card. Personal-content warning controls and the original Q8 defective-deadline guard still pass.
 
-| Stage | Required gate | Remaining failing controls across all 207 |
+Each repair was tested before moving to the next. Protocol freeze 473b87dd preceded the ten fresh original trials committed at d3318dff. Citation repair 3fe49304, routing clarification b7cff67d and advisory repair 745159d9 precede candidate freeze b8f37d6a. Repaired native evidence is committed at da25a37f. The frozen questions and all prior failed evidence remain unchanged.
+
+## Native method and limits
+
+Same ten-case order, identical source bytes and prompt, fresh ordinary chats outside projects, visible Opus 5.5 / Medium / Auto in both arms. Memory was observed enabled and left unchanged. Only the appropriate six-file translation-contract attachment and active source-packet attachment were supplied. Expected answers, scorer, tools, prior responses and opposite arm were excluded. File bundles preserve text but normalize file line endings; original-file and actual-bundle byte hashes are recorded separately. This approximates the folder contract in ordinary chats, not a configured Claude Project or independently verified server revision. No tools were requested or observed, but UI evidence cannot provide a machine tool-event audit or isolate account context and attachment parsing.
+
+No response regeneration, coaching, corrected answer or best-of selection. Full-RFP continuations were exactly `continue`, twice, after preserving each preceding part. Copy to fresh Notepad tabs preserved short raw Markdown; native UTF-8 Save As preserved all full-length parts because accessibility text caps at 20,000 characters. Rendered UI/text trees are supporting observations, not substitutes for complete raw files. Window capture/activation failures and one geometry mismatch were recovered by fresh window selection. When desktop recovery failed before the repaired arm, input stopped until the user restored it; no prompt or completed answer was retried.
+
+## Paired cases
+
+Columns show **raw strict / selected semantic / derived strict**. Derived strict checks shape, literal quotations, exact restored citations and coverage; it does not certify routing.
+
+| Case | Original | Rebuild |
 |---|---|---|
-| F1 | PASS | 12 |
-| F2 | PASS | 9 |
-| F3 | PASS | 4 |
-| F4 | PASS | 0 |
+| core-A-stapled-thread | Pass / Fail / Pass | Pass / Pass / Pass |
+| core-B-personal-note | Pass / Fail / Pass | Pass / Pass / Pass |
+| core-C-official-email | Pass / Pass / Pass | Pass / Pass / Pass |
+| core-D-ai-instruction | Pass / Pass / Pass | Pass / Pass / Pass |
+| core-E-contract-expectation | Pass / Pass / Pass | Pass / Pass / Pass |
+| new-A-obligation-and-retrospective-scope | Pass / Pass / Pass | Pass / Pass / Pass |
+| new-B-personal-boundaries | Pass / Fail / Pass | Pass / Pass / Pass |
+| new-C-opaque-citations | Fail / Pass / Pass | Fail / Pass / Pass |
+| new-D-native-regressions | Fail / Fail / Pass | Fail / Fail / Pass |
+| full-Z-full-length-noisy | Fail / Fail / Fail | Pass / Pass / Pass |
 
-Final controls: original 128/207; before 189/207; repaired 207/207. Against before: {'improved': 18, 'tied': 189, 'regressed': 0}. These controls include correct private cards, deliberately missed genuine dates and altered citations; all-12 deliberate omissions can pass structure while still requiring advisory hints. Structural PASS never proves semantic placement.
+Across all ten cases: original raw strict 7/10, selected semantic 5/10, derived strict 9/10; rebuilt raw strict 8/10, selected semantic 9/10, derived strict 10/10. Requiring both derived strict and selected semantics gives 5/10 versus 9/10. These are finite, feedback-derived checks, not blinded statistical estimates or proof of general superiority. The original full-RFP refusal remains counted as failure, never silently excluded.
 
-One patch-driver setup assertion stopped after the passing F1 commit, before any F2 product edit. Correcting the patch-string quoting resumed the sequence without repeating a model trial or replacing a validator result. DRIVER_FIRST_ATTEMPT.txt and DRIVER_NOTE.md retain that interruption.
+## Frozen feedback questions
 
-## Frozen questions and fresh fair model comparison
-
-Freeze 79257825; completed fresh original baseline d6833c94c89a0289172de299364d5bba1cc7a6d5; final validator candidate 225d921e91e1f476adf893429c98b1465624f116. Each fix is separately committed after passing its own gate. Q1–Q8 remain identical to bfdd812 and the initial competition chronology remains in Git history.
-
-Same canonical runners, gpt-6-astra medium, six unchanged knowledge files, same core/new/full order and source packets, fresh sessions, expected answers excluded, exact `continue` turns for full RFP. No agent retry, raw correction or best-of selection. Automatic client transport retries are separately retained in SUMMARY.json; a transport retry is not claimed as a pristine identical request environment. Because this repair changes only a validator, different generated cards are sampling variation rather than a demonstrated causal improvement in the translator. Before/after replay of the exact same card isolates the actual warning repair.
-
-| Question | Original | Rebuild | Comparison |
-|---|---|---|---|
-| Q1 | fail | pass | improved |
-| Q2 | pass | pass | tied |
-| Q3 | partial | pass | improved |
-| Q4 | pass | pass | tied |
-| Q5 | pass | pass | tied |
-| Q6 | partial | pass | improved |
-| Q7 | fail | pass | improved |
-| Q8 | partial | pass | improved |
-
-Totals: {'improved': 5, 'tied': 3, 'regressed': 0}. Q8 uses default handling without an exclusion sidecar. Regressed subchecks, if any, remain in scores-final.json.
-
-| Supplemental fixture | Original combined | Rebuild combined |
+| Question | Original | Rebuild |
 |---|---|---|
-| A-obligation-and-retrospective-scope | FAIL | PASS |
-| B-personal-boundaries | FAIL | PASS |
-| C-opaque-citations | PASS | PASS |
+| Q1 | fail | pass |
+| Q2 | pass | pass |
+| Q3 | partial | pass |
+| Q4 | pass | pass |
+| Q5 | pass | pass |
+| Q6 | partial | pass |
+| Q7 | fail | pass |
+| Q8 | partial | pass |
 
-original A-obligation-and-retrospective-scope: failed selected checks ['S006_required']; exact-copy mismatches []; private review hints [].
+Five question verdicts improve and three tie. Q6's model card alone ties; the original written trigger still lacks the explicit contractual-expectation rule. Q7 and Q8 are direct artifact/default-validator checks, not additional Claude conversations. The genuine missed-deadline REVIEW in Q8 is required to remain visible.
 
-original B-personal-boundaries: failed selected checks ['S002_exclusive', 'S003_exclusive', 'S004_exclusive']; exact-copy mismatches []; private review hints [].
+## Full-length result
 
-original C-opaque-citations: failed selected checks []; exact-copy mismatches []; private review hints [].
+The source has 221 statements, including seven calendar/noise statements. The repaired card has three parts of 137, 150 and 83 bullets; all IDs are covered, literal quotations and complete anchors pass strict comparison, and every frozen required/forbidden route passes. S047/S048 now include section 10 and S148 includes section 11. Personal S215–S221 remain exclusively in section 12, with no personal REVIEW hint. S081/S152 remain outside the forbidden mandatory-form routes. No Unicode restoration was needed for this full card. S098 is absent from section 10 even though it names the submission contact; the default validator correctly flags this genuine remaining route issue. Frozen full expectations do not require S098, so the selected semantic pass does not imply a complete route audit.
 
-rebuild A-obligation-and-retrospective-scope: failed selected checks []; exact-copy mismatches []; private review hints [].
+The original refuses the same valid packet, citing a blank separator and the calendar's unrelatedness. That refusal is retained without corrective follow-up. The older native full-card failures remain in claude-native/ and are separately identified from this fresh success.
 
-rebuild B-personal-boundaries: failed selected checks []; exact-copy mismatches []; private review hints [].
+## Ties, regressions and publication hold
 
-rebuild C-opaque-citations: failed selected checks []; exact-copy mismatches []; private review hints [].
+- Both arms still compose decomposed accents in new C (two anchors) and new D (four anchors). Raw strict validation rejects all six occurrences per arm. Derived exports restore them with unchanged routes and full audit trails. This is a shared raw-model failure; applying the export tool fairly benefits both arms.
+- New D improves the authority, expected-execution and personal-content checks, but loses S003's section-11 modification-reservation placement that the original retained. Original missing subchecks were S001 authority, S002 expectation and S008 privacy; repaired missing subcheck is S003 section 11. This is a real selected-check regression despite aggregate improvement. The source quote remains in sections 1/10, so coverage alone cannot detect it. Keep acceptance false.
+- Core C omits the pricing-sheet statement from section 8 in the rebuild while retaining frozen required sections 5/11. Original and the prior candidate included section 8. The source says the revised pricing sheet replaces an earlier one; under the broad money trigger this is a plausible additional commercial-route regression outside Q4's selected checks. It needs source-based review, not a claim of no regressions.
+- The fresh full card omits S098's contact route; the visible warning is genuine. Do not suppress it to make the report clean.
+- New A now ties: the fresh original meets its selected obligations/expectation checks, although an older original trial failed one. Keep both results; do not attribute sampling variation to the repair.
 
-## Fresh full-length noisy RFP
+The competition rewards the gap closed against feedback. All eight frozen feedback questions pass, but remaining routing variability and reliance on an explicit export tool could still cost the win. This is an unpublished **review package**, not release approval. Universal semantic routing and original-PDF fidelity remain outside a packet validator's guarantee. A fresh source-based route review and fair rerun would be required before claiming those remaining omissions resolved.
 
-214 real TBRPC statements plus seven synthetic personal records. Fresh original and rebuilt sessions, full raw continuations retained.
+## Preservation, reproducibility and deliberate nonchanges
 
-| Gate | Original | Rebuild |
-|---|---|---|
-| exact_shape_quotes_coverage | True | True |
-| exact_statement_text | True | True |
-| exact_anchors | True | True |
-| all_221_ids | True | True |
-| noise_only12 | False | True |
-| genuine_routing | False | True |
-| forbidden_routing_clear | True | True |
-| no_personal_review_hints | True | True |
-| max150_bullets_per_reply | True | True |
-| complete | True | True |
+The judged original stays pinned at 92847d2a17250fa18914d932826db63d99dcb75c, feedback remains verbatim, questions precede rebuild in Git, and VIP eligibility is user-confirmed. The 41,358-file prior inventory is checked in preservation-check.json: unedited prior evidence remains byte-identical; changed product/docs have matching before snapshots or historical Git blobs. The initial complete workspace hash check is retained; final verification checks every baseline Git blob against that inventory and uses Git to detect current index/worktree differences. Every changed prior file has its original snapshot or Git blob checked. Old sealed packages are untouched. Source packets, identity, examples and input schema were deliberately left unchanged; examples already discloses the script-built card. The old evidence is not regenerated.
 
-original: 5 parts, bullets [88, 67, 64, 141, 70]; quote mismatches []; anchor mismatches []; missing selected routes ['S133', 'S066', 'S083', 'S148']; private-only failures ['S216', 'S217', 'S218', 'S219', 'S220', 'S221'].
+A fresh score reproduction matched all twenty trial results and Q1–Q8 (22 checks), and an attempted reuse of its output directory was refused. Reproduction now requires a new output directory, preserving the recorded validation evidence.
 
-rebuild: 4 parts, bullets [109, 98, 141, 70]; quote mismatches []; anchor mismatches []; missing selected routes []; private-only failures [].
-
-## Preserved failures, unchanged strengths and limitations
-
-The exact failed October 26 B card formerly warned on private S002/S004; the repaired default validator now gives no REVIEW on that identical source/card. The full failed S100 citation from submission-repair is still rejected. Earlier failed boundary/submission comparisons and all later red-team reports remain untouched. Old seals remain byte-identical; a new release path is used. Original judged source remains untouched. Four packaged samples pass; historical controls pass rebuilt 73/73. Original historical failures are retained.
-
-No changes to translator rules, S133 handling, script-built provenance, sparse Section 12, prompt-injection behavior, input drafting or PDF trace behavior were necessary for these warning fixes. Those established strengths remain in the frozen core checks and historical audits. Validator source matching is not independent PDF-source authentication; PDF tracing remains a separate check and dependency.
-
-The warning filter is a bounded heuristic; selected semantic matrices are not exhaustive grading. These are targeted synthetic cases and one fresh sample per model case, not an independent population holdout or a reliability estimate. Native Claude/attachment acceptance and Premium/VIP eligibility remain unverified. The public submission URL remains a placeholder until an authorized publication step. Repeated language expansion cannot establish “perfect”; the defensible claim is closure of these measured findings without observed regression within the recorded gates.
-
-## Submission layout and delivery
-
-Read feedback.md → questions.md → results.md. Original, verbatim feedback, rebuild, frozen questions and both raw arms remain at the required root locations. Latest evidence is warning-final/ and run-original/warning-final-* / run-rebuild/warning-final-*. Exact latest rebuilt full-RFP raw copy is rebuild/run-results/warning-final-full/. Older files remain evidence, not the current readiness report. The three-sentence SUBMISSION_COMMENT.md is unposted.
-
-Offline audit: python -B -X utf8 tools/verify_submission.py. Nine historical assertions run unchanged at pinned commits before the current gate; no model calls. Source ZIP and full-history bundle use dist/warning-final-release/. Read its FINAL_VERIFICATION.json for actual fresh-clone compliance status; do not infer delivery completion from this report. No publication.
+Reproduce scores: `python -B -X utf8 native-repair/score.py --output-dir .run-work/new-score`. Check integrity separately from acceptance: `python -B -X utf8 native-repair/audit.py`. Reproduce the isolated advisory comparison: `python -B -X utf8 native-repair/replay_warnings.py`. Local evidence is in native-repair/stages/; raw native transcripts, exact common prompt, hashes and chat identities are in native-repair/evidence/, prompt.txt, final-inputs.json and trial-inventory.json. The competition run directories link to this supplement. Current source ZIP and full-history Git bundle are in dist/native-repair-review/ with checksums and package verification. The submission comment remains a three-sentence, unposted draft with a public-URL placeholder.

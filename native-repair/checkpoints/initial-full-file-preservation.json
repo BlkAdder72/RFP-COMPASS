@@ -1,0 +1,18 @@
+{
+  "prior_source": "5adeb3d796e01bbf951bd9226ee983f4970ddfa3",
+  "prior_tracked_files_checked": 41358,
+  "unchanged": 41350,
+  "changed_with_preserved_before_or_git": [
+    "rebuild/CLAUDE_PROJECT_INSTRUCTIONS.txt",
+    "rebuild/README.md",
+    "rebuild/reference/output-schema.md",
+    "rebuild/rules.md",
+    "rebuild/samples/04-real-tbrpc-auditing-rfp/PROVENANCE.md",
+    "rebuild/samples/04-real-tbrpc-auditing-rfp/bid-compliance-card.md",
+    "rebuild/samples/04-real-tbrpc-auditing-rfp/prep/build_card.py",
+    "rebuild/tools/validate_packet.py"
+  ],
+  "missing": [],
+  "unpreserved_changes": [],
+  "passed": true
+}

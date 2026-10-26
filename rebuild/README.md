@@ -2,7 +2,7 @@
 
 RFP Compass turns one source packet into a twelve-section Bid Compliance Card. Every bullet quotes a whole source statement with its exact ID and complete anchor. Non-source personal material stays only in Section 12; a mixed statement retains its genuine procurement requirements without editing its quotation.
 
-The native repair candidate adds an audited Unicode export stage, clarified authority/expected-action routes, and narrower evaluation advisories. Fresh paired native acceptance is pending in `../native-repair/`; do not treat earlier acceptance as approval of this candidate.
+The native repair candidate adds an audited Unicode export stage, clarified authority/expected-action routes, and narrower evaluation advisories. The completed twenty-trial native comparison is in `../native-repair/`: Q1–Q8 and the full-RFP selected checks pass, but broader routing acceptance remains failed. The combined regression case loses a section-11 reservation route; the fresh full card retains a genuine contact-route warning. Raw Unicode copying still fails in both arms. This candidate is held for review.
 
 Prior measured results, failed evidence, ties and limits: [results.md](../results.md) and [warning-final/REPORT.md](../warning-final/REPORT.md). The findings that drove this repair remain in [red-team-oct26/REPORT.md](../red-team-oct26/REPORT.md). The prior operating guide is preserved in `../warning-final/before/rebuild/README.md` and Git history. The failed warning-only model comparison remains in `../boundary-repair/REPORT.md`. This candidate is unpublished.
 
@@ -35,6 +35,6 @@ Validation rejects altered quotations or anchors, missing source IDs, wrong head
 
 ## Evidence and provenance
 
-`run-results/warning-final-full/` contains the exact latest full-RFP model evidence. `examples.md` identifies the script-built sample and its hand routing list; it is not a raw model transcript. All earlier runs, including failures, remain preserved. The parent repository contains the judged original, verbatim feedback, frozen questions, paired raw runs and offline compliance command. See the parent results for the actual acceptance state rather than treating any individual validator PASS as submission approval.
+`../native-repair/evidence/rebuild/full-Z-full-length-noisy/` contains the latest full-RFP native Claude evidence; `run-results/warning-final-full/` retains an earlier automated comparison. `examples.md` identifies the script-built sample and its hand routing list; it is not a raw model transcript. All earlier runs, including failures, remain preserved. The parent repository contains the judged original, verbatim feedback, frozen questions, paired raw runs and offline compliance command. See the parent results for the actual acceptance state rather than treating any individual validator PASS as submission approval.
 
 The second failed candidate, including private leakage and a rejected full-RFP anchor, remains in `../submission-repair/REPORT.md`. The current results report both failed attempts separately.

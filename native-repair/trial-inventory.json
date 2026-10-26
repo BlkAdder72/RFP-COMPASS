@@ -1,0 +1,278 @@
+{
+  "original": {
+    "core-A-stapled-thread": {
+      "chat_ids": [
+        "1dd26dde-e827-466b-9666-dbba220f5bef"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/core-A-stapled-thread/raw-response.md",
+          "sha256": "12ad8607f0321474bbe89e78228b42f3a2b72fdfc42d883bce8ce8c2f0eaf786",
+          "characters": 1701,
+          "bullets": 15
+        }
+      ]
+    },
+    "core-B-personal-note": {
+      "chat_ids": [
+        "5abaeb9d-6429-49e7-80c8-7421aa475fef"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/core-B-personal-note/raw-response.md",
+          "sha256": "a979356013d49173c1b4fe44fa3fe4fec4eef40838d111a776e1785750bc819e",
+          "characters": 1277,
+          "bullets": 13
+        }
+      ]
+    },
+    "core-C-official-email": {
+      "chat_ids": [
+        "852fb3d4-91ab-4ebd-8959-02ca5510c547"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/core-C-official-email/raw-response.md",
+          "sha256": "bbb45791bc3b42697c8bee1cc6f1f472531bb38f4ca8bf0092e90dcf6e041816",
+          "characters": 2002,
+          "bullets": 13
+        }
+      ]
+    },
+    "core-D-ai-instruction": {
+      "chat_ids": [
+        "76d94e29-7b7b-4d2a-9674-e8729f9ed0d7"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/core-D-ai-instruction/raw-response.md",
+          "sha256": "b093c97869b39937f49b8224415e3aa052637bc394416d5162470d9f42a54daa",
+          "characters": 1273,
+          "bullets": 12
+        }
+      ]
+    },
+    "core-E-contract-expectation": {
+      "chat_ids": [
+        "81230d4d-8632-4691-b9fa-3c6fb8d85bf4"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/core-E-contract-expectation/raw-response.md",
+          "sha256": "f4d4b6006461acd993f81e7f34f69ef0aa2ebc1cacdcec3f6688c1a8942fbe57",
+          "characters": 1212,
+          "bullets": 12
+        }
+      ]
+    },
+    "new-A-obligation-and-retrospective-scope": {
+      "chat_ids": [
+        "159b35eb-1cb2-480f-85ce-8fa1385fca05"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/new-A-obligation-and-retrospective-scope/raw-response.md",
+          "sha256": "c4c4fb4454fb659226f561209562dfbb759a6d356dde2672b8d1d5d23dda7d5e",
+          "characters": 2371,
+          "bullets": 17
+        }
+      ]
+    },
+    "new-B-personal-boundaries": {
+      "chat_ids": [
+        "e281ba1c-661c-4fe4-ac18-5740cc94ab8b"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/new-B-personal-boundaries/raw-response.md",
+          "sha256": "fba85e67c7f798346af56397eeb7abd448edd7dfa4e0cc4a08ad69e7338fdd1a",
+          "characters": 1878,
+          "bullets": 17
+        }
+      ]
+    },
+    "new-C-opaque-citations": {
+      "chat_ids": [
+        "a519aded-b4b1-41ce-bbad-5e1bed94dc8b"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/new-C-opaque-citations/raw-response.md",
+          "sha256": "0ccda385e2b82fabe0390180944fcfbc982d066dcbb9acd8d103e891b9b711cd",
+          "characters": 1726,
+          "bullets": 20
+        }
+      ]
+    },
+    "new-D-native-regressions": {
+      "chat_ids": [
+        "88afb5e8-831c-4f15-8adf-55da4b47498c"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/new-D-native-regressions/raw-response.md",
+          "sha256": "34c0a985612693e71a043b6a653051887781466b959cbba81ceefcb5c2141aad",
+          "characters": 2140,
+          "bullets": 15
+        }
+      ]
+    },
+    "full-Z-full-length-noisy": {
+      "chat_ids": [
+        "17e9bd4b-0424-4a38-b0be-ea941c002a7c"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/full-Z-full-length-noisy/raw-response.md",
+          "sha256": "c172257a9379b15a6171e2f6a1c645b925cfbb7beabb0a1ddb10ca086c914d25",
+          "characters": 543,
+          "bullets": 2
+        }
+      ]
+    }
+  },
+  "rebuild": {
+    "core-A-stapled-thread": {
+      "chat_ids": [
+        "8de4f201-2f97-4cfc-a02e-6e9d51c3272b"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/core-A-stapled-thread/raw-response.md",
+          "sha256": "21e9b8129af3a71d816efc2ca1b68dafbffbe57323fb2ece1e5904fe0cf4032c",
+          "characters": 1689,
+          "bullets": 15
+        }
+      ]
+    },
+    "core-B-personal-note": {
+      "chat_ids": [
+        "072deffd-214f-4245-a2cc-812e2356d2d3"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/core-B-personal-note/raw-response.md",
+          "sha256": "8fbaaf66490bdb1f246f11a3776f2026e739f6fd1015681c6d6478db38a03403",
+          "characters": 1265,
+          "bullets": 13
+        }
+      ]
+    },
+    "core-C-official-email": {
+      "chat_ids": [
+        "f4bc262f-edcd-4b8c-9ad9-4148dffa3853"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/core-C-official-email/raw-response.md",
+          "sha256": "83c23dfe068cb9ec6ea01000ace598756101a9c186a001303dcfa1f27a30a0ec",
+          "characters": 1811,
+          "bullets": 13
+        }
+      ]
+    },
+    "core-D-ai-instruction": {
+      "chat_ids": [
+        "23f95133-3a7a-4d24-80cd-a4531df3b3b8"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/core-D-ai-instruction/raw-response.md",
+          "sha256": "b093c97869b39937f49b8224415e3aa052637bc394416d5162470d9f42a54daa",
+          "characters": 1273,
+          "bullets": 12
+        }
+      ]
+    },
+    "core-E-contract-expectation": {
+      "chat_ids": [
+        "d2d4e59a-1ee0-4eaf-8e6d-aa7ceda41ae7"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/core-E-contract-expectation/raw-response.md",
+          "sha256": "a9698911e91ddb018db4957266527fb459cc19a0961393b7a64fdd86b8c654ff",
+          "characters": 1304,
+          "bullets": 13
+        }
+      ]
+    },
+    "new-A-obligation-and-retrospective-scope": {
+      "chat_ids": [
+        "a3420e82-5429-4fb3-aedb-6e31d39c9e09"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/new-A-obligation-and-retrospective-scope/raw-response.md",
+          "sha256": "a5ae7203a06e6841a5a1243844a2c231627c762221728cb9b3cfd2f5b73ac807",
+          "characters": 2359,
+          "bullets": 17
+        }
+      ]
+    },
+    "new-B-personal-boundaries": {
+      "chat_ids": [
+        "038375c9-36cb-482d-b6ef-364bdf4d4850"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/new-B-personal-boundaries/raw-response.md",
+          "sha256": "5b916c0a0964fe5d5c360328a140b29c2a404a3535075def4f9cce4a2c1b2f4b",
+          "characters": 1619,
+          "bullets": 16
+        }
+      ]
+    },
+    "new-C-opaque-citations": {
+      "chat_ids": [
+        "91db6a8a-384e-42e1-936c-c379da0ef32b"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/new-C-opaque-citations/raw-response.md",
+          "sha256": "0ccda385e2b82fabe0390180944fcfbc982d066dcbb9acd8d103e891b9b711cd",
+          "characters": 1726,
+          "bullets": 20
+        }
+      ]
+    },
+    "new-D-native-regressions": {
+      "chat_ids": [
+        "d7d147b8-7643-466b-ba67-fe61527ac9bc"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/new-D-native-regressions/raw-response.md",
+          "sha256": "86c69771c4ce10da81a5e562ac0427e59b62de238f0cd01666f1b3ebf2554ab9",
+          "characters": 2144,
+          "bullets": 16
+        }
+      ]
+    },
+    "full-Z-full-length-noisy": {
+      "chat_ids": [
+        "6222ae61-2262-4c9b-94a8-8802914e5ac5"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/full-Z-full-length-noisy/raw-response-part-01.md",
+          "sha256": "72240883f991b66da01ebbc6be4fe4211e30b3296b0228ce3df0b5be79e8a6d4",
+          "characters": 29145,
+          "bullets": 137
+        },
+        {
+          "file": "evidence/rebuild/full-Z-full-length-noisy/raw-response-part-02.md",
+          "sha256": "2f6c2d2ffbb1b8b3c4bbc37fe03caa08de88f5388e387289933fc373eab90a64",
+          "characters": 27146,
+          "bullets": 150
+        },
+        {
+          "file": "evidence/rebuild/full-Z-full-length-noisy/raw-response-part-03.md",
+          "sha256": "ac4afdd9ee281e474835e9dc650652fca359c01950b1552db16ff5e43f4784a5",
+          "characters": 17149,
+          "bullets": 83
+        }
+      ]
+    }
+  }
+}

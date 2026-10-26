@@ -1,15 +1,13 @@
 # RFP-COMPASS — Competition 15: The Rebuild
 
-Local candidate, unpublished. Start with [feedback.md](feedback.md), [questions.md](questions.md), then [results.md](results.md).
+Unpublished review candidate. Start with [feedback.md](feedback.md), [questions.md](questions.md), then [results.md](results.md). VIP eligibility is user-confirmed.
 
-The judged Comp #13 original is preserved byte-for-byte in original/, pinned at 92847d2a17250fa18914d932826db63d99dcb75c (tag judged-original-comp13). Source: https://github.com/BlkAdder72/RFP-COMPASS.
+The judged Comp #13 original remains untouched in original/, pinned at 92847d2a17250fa18914d932826db63d99dcb75c (tag judged-original-comp13). Source: https://github.com/BlkAdder72/RFP-COMPASS. Frozen Q1–Q8 were committed before the initial rebuild; every later repair and failed comparison remains in Git and on disk.
 
-The judges asked for unrelated personal material only in Section 12 without false date warnings, consistent S133 contractual-expectation handling, explicit script-built sample provenance and raw noisy-input evidence. Frozen Q1–Q8 address those requests and precede the first rebuild. Current results report wins, ties, failures and intentionally unchanged behavior.
+The judges asked for personal material only in section 12 without false date warnings, consistent contractual-expectation routing, visible script-built provenance, and noisy-input receipts. The latest twenty-trial native Claude comparison passes all eight feedback questions and the full-RFP selected checks. Broader acceptance remains failed: one combined-case route regresses, a contact-route omission remains, and both arms need the explicit audited export step for decomposed Unicode anchors. Read the report before treating a validator PASS as readiness.
 
-The October 26 review found four remaining warning issues. They were fixed and tested sequentially; all previous failed evidence is retained. Current report: results.md. Detailed stages and preservation: warning-final/. New paired raw runs: run-original/warning-final-* and run-rebuild/warning-final-*. Candidate folder: rebuild/. Exact packaged full-RFP raw evidence: rebuild/run-results/warning-final-full/.
+Candidate: [rebuild/](rebuild/). Latest native evidence, frozen inputs and detailed stages: [native-repair/](native-repair/). [run-original/](run-original/) and [run-rebuild/](run-rebuild/) retain all comparisons and link to the native supplement. The older claude-native/ and warning-final/ reports describe their own versions; they are preserved evidence, not current acceptance.
 
-Earlier acceptance reports describe their own recorded gates. red-team-oct26/REPORT.md and the failed boundary-repair/ and submission-repair/ comparisons remain preserved; they are not the current readiness status. Git history and before snapshots retain all earlier documents. Previously sealed packages remain unchanged.
+Offline integrity check: `python -B -X utf8 native-repair/audit.py`. Reproduce scores: `python -B -X utf8 native-repair/score.py --output-dir .run-work/new-score`. Full historical-plus-current audit: `python -B -X utf8 tools/verify_submission.py`. Integrity and behavioral acceptance are reported separately. Full source ZIP and recoverable Git history: dist/native-repair-review/, with checksums and package verification. Submission draft: [SUBMISSION_COMMENT.md](SUBMISSION_COMMENT.md), unposted.
 
-Offline verification: python -B -X utf8 tools/verify_submission.py. It executes historical assertions unchanged at pinned commits, then evaluates current acceptance without model calls. Fresh runs use tools/run_arm.py and hardening/run_full.py with new output paths. Delivery: dist/warning-final-release/; read FINAL_VERIFICATION.json for actual fresh-clone status. Submission draft: SUBMISSION_COMMENT.md, unposted.
-
-Finite test passes do not prove universal semantic routing or native-Claude acceptance. Premium/VIP eligibility and final public URL remain unverified. Nothing is published.
+Finite passes do not prove perfect semantic routing or original-PDF fidelity. Nothing is published.

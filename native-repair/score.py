@@ -1,9 +1,13 @@
 """Score preserved native exports only; never call a model or modify older evidence."""
 from pathlib import Path
-import hashlib, json, re, subprocess, sys
+import argparse, hashlib, json, re, subprocess, sys
 
 D=Path(__file__).resolve().parent
 R=D.parent
+parser=argparse.ArgumentParser(description='Re-score raw evidence into a NEW output directory; never overwrite retained results.')
+parser.add_argument('--output-dir',required=True,type=Path)
+OUTPUT=parser.parse_args().output_dir.resolve()
+OUTPUT.mkdir(parents=True,exist_ok=False)
 inputs=json.loads((D/'final-inputs.json').read_text())
 expected=json.loads((D/'expectations.json').read_text())
 out={}
@@ -19,6 +23,8 @@ for arm in ('original','rebuild'):
         source=D/'inputs'/key/'source-packet.md'
         assert hashlib.sha256(source.read_bytes()).hexdigest()==info['sha256']
         trial=D/'evidence'/arm/key
+        worktrial=OUTPUT/'evidence'/arm/key
+        worktrial.mkdir(parents=True,exist_ok=False)
         raw=trial/'raw-response.md'
         parts=sorted(trial.glob('raw-response-part-*.md')) or ([raw] if raw.exists() else [])
         if not parts:
@@ -30,7 +36,7 @@ for arm in ('original','rebuild'):
             cmd=[sys.executable,'-B','-X','utf8',str(R/validator/'tools/validate_packet.py'),str(source),*[str(part) for part in parts]]
             r=subprocess.run(cmd,capture_output=True,text=True,encoding='utf-8')
             validations[label]={'command':cmd,'exit_code':r.returncode,'stdout':r.stdout,'stderr':r.stderr}
-        (trial/'validation.json').write_text(json.dumps(validations,ensure_ascii=False,indent=2),encoding='utf-8')
+        (worktrial/'validation.json').write_text(json.dumps(validations,ensure_ascii=False,indent=2),encoding='utf-8')
         rows={s:(anchor,body) for s,anchor,body in (l.split(' | ',2) for l in source.read_text(encoding='utf-8').splitlines() if l)}
         mismatch=[]
         for line in text.splitlines():
@@ -54,9 +60,9 @@ for arm in ('original','rebuild'):
         else:
             exp=json.loads((D/'full-expectations.json').read_text())
             checks={**{s+'_required':all(n in p.get(s,[]) for n in ns) for s,ns in exp['routing'].items()},**{s+'_exclusive':p.get(s)==[12] for s in exp['noise_only12']},**{s+'_forbidden_clear':all(n not in p.get(s,[]) for n in ns) for s,ns in exp['forbidden'].items()},'all221':set(p)==set(rows),'reply_budget':all(sum(line.startswith('- ') for line in t.splitlines())<=150 for t in texts),'no_personal_review_hint':not any('REVIEW' in line and any(s in line for s in exp['noise_only12']) for line in validations['arm-validator']['stdout'].splitlines())}
-        derived=trial/'derived-export'
+        derived=worktrial/'derived-export'
         export_cmd=[sys.executable,'-B','-X','utf8',str(R/'rebuild/tools/finalize_card.py'),str(source),*[str(part) for part in parts],'--output-dir',str(derived)]
-        process_record=trial/'export-process.json'
+        process_record=worktrial/'export-process.json'
         if not process_record.exists():
             er=subprocess.run(export_cmd,capture_output=True,text=True,encoding='utf-8')
             process_record.write_text(json.dumps({'command':export_cmd,'exit_code':er.returncode,'stdout':er.stdout,'stderr':er.stderr},ensure_ascii=False,indent=2),encoding='utf-8')
@@ -102,5 +108,5 @@ for arm in out:
       'Q8':{k:v for k,v in lc.items() if k.startswith('Q8')},
     }
     frozen[arm]={q:{'verdict':'pass' if all(v.values()) else 'partial' if any(v.values()) else 'fail','checks':v} for q,v in checks.items()}
-(D/'scores.json').write_text(json.dumps({'model_trials':out,'local_file_checks':local,'frozen_questions':frozen,'comparison_complete':all(v['status'] in ('refusal','raw exported') for a in out.values() for v in a.values())},ensure_ascii=False,indent=2),encoding='utf-8')
+(OUTPUT/'scores.json').write_text(json.dumps({'model_trials':out,'local_file_checks':local,'frozen_questions':frozen,'comparison_complete':all(v['status'] in ('refusal','raw exported') for a in out.values() for v in a.values())},ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({a:{k:{n:v[n] for n in ('status','strict_pass','semantic_pass') if n in v} for k,v in d.items()} for a,d in out.items()},indent=2))

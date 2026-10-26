@@ -1,0 +1,24 @@
+{
+  "platform": "native Claude App, Windows, Computer Use",
+  "visible_model": "Opus 5.5",
+  "visible_reasoning": "Medium",
+  "permission_mode": "Auto",
+  "memory_enabled_observed": true,
+  "VIP_eligibility": "user confirmed",
+  "comparison_complete": true,
+  "trials_per_arm": 10,
+  "prompt": "prompt.txt",
+  "frozen_inputs": "final-inputs.json",
+  "protocol_commit": "473b87dd",
+  "original_evidence_commit": "d3318dff",
+  "candidate_commit": "b8f37d6a",
+  "repaired_evidence_commit": "da25a37f",
+  "continuations": [
+    "continue",
+    "continue"
+  ],
+  "behavioral_acceptance": false,
+  "raw_citation_perfection": false,
+  "published": false,
+  "limitation": "ordinary-chat attachment bundles; account context and attachment parsing uncontrolled; no machine tool-event audit"
+}

@@ -1,0 +1,23 @@
+{
+  "method": "initial complete workspace SHA256 audit retained; all baseline Git blobs SHA256-checked against inventory; final git diff of index and working tree against baseline; every changed prior file verified against preserved before snapshot or Git",
+  "prior_source": "5adeb3d796e01bbf951bd9226ee983f4970ddfa3",
+  "prior_tracked_files_checked": 41358,
+  "unchanged": 41346,
+  "changed_with_preserved_before_or_git": [
+    "README.md",
+    "SUBMISSION_COMMENT.md",
+    "rebuild/CLAUDE_PROJECT_INSTRUCTIONS.txt",
+    "rebuild/README.md",
+    "rebuild/reference/output-schema.md",
+    "rebuild/rules.md",
+    "rebuild/samples/04-real-tbrpc-auditing-rfp/PROVENANCE.md",
+    "rebuild/samples/04-real-tbrpc-auditing-rfp/bid-compliance-card.md",
+    "rebuild/samples/04-real-tbrpc-auditing-rfp/prep/build_card.py",
+    "rebuild/tools/validate_packet.py",
+    "results.md",
+    "tools/verify_submission.py"
+  ],
+  "missing": [],
+  "unpreserved_changes": [],
+  "passed": true
+}
