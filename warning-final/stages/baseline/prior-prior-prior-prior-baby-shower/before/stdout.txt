@@ -1,0 +1,2 @@
+NOTE: PERSONAL HINT FILTER: S001; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof
+PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.

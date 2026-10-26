@@ -1,0 +1,5126 @@
+{
+  "stage": "baseline",
+  "validator_sha256": "38c31b38f0ca52d00bbdd412bfe4a2368a53954506b4057a38d42b8bfcecc10e",
+  "required_issues": [
+    "guard",
+    "prior"
+  ],
+  "passed_required": true,
+  "failures_in_required_gate": [],
+  "all_remaining_failures": [
+    {
+      "case": "oct26-hundred-dollar-private-share",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-hundred-and-five-private-share",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-hinges-on-attendance",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "oct26-dependent-on-attendance",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "oct26-prefix-wrong-program-exclusion",
+      "issue": "F2",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "oct26-outside-procurement-private-heading",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "positive-dependency-184",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "positive-dependency-185",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "positive-dependency-186",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "private-positive-self-attendance",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "scope-subject-189",
+      "issue": "F2",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "scope-subject-190",
+      "issue": "F2",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "private-amount-193",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-194",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-195",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-annotation-201",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-annotation-202",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-annotation-203",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    }
+  ],
+  "results": [
+    {
+      "case": "prior-prior-prior-prior-baptism",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-prior-baptism",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-baptism",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-baby-shower",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-prior-baby-shower",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-baby-shower",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-graduation-control",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-prior-graduation-control",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-graduation-control",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-compulsory-have-to",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-compulsory-have-to",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-compulsory-have-to",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-mandatory-must-control",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-mandatory-must-control",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-mandatory-must-control",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-clinical-control",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-clinical-control",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-clinical-control",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-mixed-offer-deadline",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-mixed-offer-deadline",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-mixed-offer-deadline",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-exact-unseen-anchors",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-exact-unseen-anchors",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-exact-unseen-anchors",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-narrow-nbsp-normalized",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-narrow-nbsp-normalized",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-narrow-nbsp-normalized",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-superscript-normalized",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-superscript-normalized",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-superscript-normalized",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-zero-padding-normalized",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-zero-padding-normalized",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-zero-padding-normalized",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-zero-width-deleted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-zero-width-deleted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-zero-width-deleted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-literal-backticks-deleted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-literal-backticks-deleted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-literal-backticks-deleted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-roman-lookalike-swapped",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-roman-lookalike-swapped",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-roman-lookalike-swapped",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-altered-zero-width-quotation",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-prior-altered-zero-width-quotation",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-altered-zero-width-quotation",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-straight-delimiters",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-prior-straight-delimiters",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-straight-delimiters",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-has-to-context",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-has-to-context",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-has-to-context",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-need-to-context",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-need-to-context",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-need-to-context",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-obliged-context",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-obliged-context",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-obliged-context",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-offer-without-have-to",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-offer-without-have-to",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-offer-without-have-to",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-clinical-baptism",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-clinical-baptism",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-clinical-baptism",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-mandatory-shower",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-mandatory-shower",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-mandatory-shower",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-ambiguous-meeting",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-ambiguous-meeting",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-ambiguous-meeting",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-explicit-reset",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-prior-explicit-reset",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-explicit-reset",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-unknown-no-reset",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-unknown-no-reset",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-unknown-no-reset",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-private-baptism",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-prior-private-baptism",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-private-baptism",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-private-shower",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-prior-private-shower",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-prior-private-shower",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-are-to",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-are-to",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-are-to",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-condition-of-entry",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-condition-of-entry",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-condition-of-entry",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-will-be-expected",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-will-be-expected",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-will-be-expected",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-known-have-to",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-known-have-to",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-known-have-to",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-mixed-offers-to-reach",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-mixed-offers-to-reach",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-mixed-offers-to-reach",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-private-have-to",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-red-private-have-to",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-private-have-to",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-private-obligation-pollutes-context",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-red-private-obligation-pollutes-context",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-private-obligation-pollutes-context",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-private-negated-have-to",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-red-private-negated-have-to",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-private-negated-have-to",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-christening",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-red-christening",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-christening",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-bridal-shower",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-red-bridal-shower",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-bridal-shower",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-known-baptism",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-red-known-baptism",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-known-baptism",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-clinical-guard",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-clinical-guard",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-clinical-guard",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-private-reset-control",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-red-private-reset-control",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-private-reset-control",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-exact-opaque-anchors",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-exact-opaque-anchors",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-exact-opaque-anchors",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-word-joiner-deleted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-word-joiner-deleted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-word-joiner-deleted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-ltr-mark-deleted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-ltr-mark-deleted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-ltr-mark-deleted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-accent-composed",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-accent-composed",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-accent-composed",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-entity-decoded",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-entity-decoded",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-entity-decoded",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-hyphen-normalized",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-hyphen-normalized",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-hyphen-normalized",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-backslashes-deleted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-backslashes-deleted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-backslashes-deleted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-quote-word-joiner-inserted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-red-quote-word-joiner-inserted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-red-quote-word-joiner-inserted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-unknown-event-heading",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-unknown-event-heading",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-unknown-event-heading",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-private-need-to",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-private-need-to",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-private-need-to",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-private-need-to-next",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-private-need-to-next",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-private-need-to-next",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-private-mixed-real",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-private-mixed-real",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-private-mixed-real",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-private-mixed-companies",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-private-mixed-companies",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-private-mixed-companies",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-clinical-self-obligation",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-clinical-self-obligation",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-clinical-self-obligation",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-required-context-self",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-required-context-self",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-required-context-self",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-explicit-reset-self",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-explicit-reset-self",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-explicit-reset-self",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-mixed-and-deposit",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-mixed-and-deposit",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-mixed-and-deposit",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-mixed-clause-deposit",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-mixed-clause-deposit",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-mixed-clause-deposit",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-explicit-family-event-heading",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-prior-explicit-family-event-heading",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-explicit-family-event-heading",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-clinical-private-event-heading",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-clinical-private-event-heading",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-prior-clinical-private-event-heading",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-private-subheading-under-explicit-official-scope",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-private-subheading-under-explicit-official-scope",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-private-subheading-under-explicit-official-scope",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-mixed-imperative-deposit",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-mixed-imperative-deposit",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-mixed-imperative-deposit",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-unseen-participation-dependency",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-unseen-participation-dependency",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-unseen-participation-dependency",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-possessive-private-heading",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-red-possessive-private-heading",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-possessive-private-heading",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-compound-private-heading",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-red-compound-private-heading",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-compound-private-heading",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-genuine-private-reset",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-red-genuine-private-reset",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-genuine-private-reset",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-mixed-private-duty-then-deposit",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-mixed-private-duty-then-deposit",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-mixed-private-duty-then-deposit",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-exact-citation-variants",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-exact-citation-variants",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-exact-citation-variants",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-thin-space-normalized",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-thin-space-normalized",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-thin-space-normalized",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-invisible-separator-deleted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-invisible-separator-deleted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-invisible-separator-deleted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-greek-zeta-latin",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-greek-zeta-latin",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-greek-zeta-latin",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-minus-hyphen",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-minus-hyphen",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-minus-hyphen",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-fullwidth-colon-ascii",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-fullwidth-colon-ascii",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-fullwidth-colon-ascii",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-numeric-entity-decoded",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-numeric-entity-decoded",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-red-numeric-entity-decoded",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-conditional-admission",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-conditional-admission",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-conditional-admission",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-possessive-compound-private",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-possessive-compound-private",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-possessive-compound-private",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-two-personal-clauses",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-two-personal-clauses",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-two-personal-clauses",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-unknown-second-clause",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-unknown-second-clause",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-unknown-second-clause",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-alternate-explicit-nested-label",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-alternate-explicit-nested-label",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-alternate-explicit-nested-label",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-unrelated-private-reset",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-unrelated-private-reset",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-unrelated-private-reset",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-clinical-private-heading",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-clinical-private-heading",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-clinical-private-heading",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-year-comma",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-private-year-comma",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-year-comma",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-share",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-private-share",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-share",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-contact",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-contact",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-contact",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-share-pollution",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-prior-private-share-pollution",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-share-pollution",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-share-plus-official-deposit",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-share-plus-official-deposit",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-share-plus-official-deposit",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-share-not-standalone",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-share-not-standalone",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-prior-private-share-not-standalone",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-reverse-prerequisite",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-reverse-prerequisite",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-reverse-prerequisite",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-only-attendees-may-participate",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-only-attendees-may-participate",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-only-attendees-may-participate",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-mixed-and-without-comma",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-mixed-and-without-comma",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-mixed-and-without-comma",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-negated-dependency-pollutes-private",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-red-negated-dependency-pollutes-private",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-negated-dependency-pollutes-private",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-explicitly-excluded-private-reference",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-red-explicitly-excluded-private-reference",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-explicitly-excluded-private-reference",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-annotated-private-heading",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-red-annotated-private-heading",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-annotated-private-heading",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-positive-dependency-guard",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-positive-dependency-guard",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-positive-dependency-guard",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-positive-nested-reference-guard",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-positive-nested-reference-guard",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-positive-nested-reference-guard",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-red-genuine-private-reset",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-red-genuine-private-reset",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-genuine-private-reset",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-private-share-control",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-red-private-share-control",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-private-share-control",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-exact-new-anchors",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-exact-new-anchors",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-exact-new-anchors",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-variation-selector-deleted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-variation-selector-deleted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-variation-selector-deleted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-grapheme-joiner-deleted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-grapheme-joiner-deleted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-grapheme-joiner-deleted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-narrow-space-normalized",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-narrow-space-normalized",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-narrow-space-normalized",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-quote-entity-decoded",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-quote-entity-decoded",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-quote-entity-decoded",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-soft-hyphen-deleted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-soft-hyphen-deleted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-soft-hyphen-deleted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-fullwidth-letter-normalized",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-fullwidth-letter-normalized",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-red-fullwidth-letter-normalized",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-not-only-positive",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-not-only-positive",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-not-only-positive",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-negative-without-owner",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-negative-without-owner",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-negative-without-owner",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-private-duty-and-private-event",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-private-duty-and-private-event",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-private-duty-and-private-event",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-private-bare-coordinated-activities",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-private-bare-coordinated-activities",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-private-bare-coordinated-activities",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-private-event-and-contribution",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-private-event-and-contribution",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-private-event-and-contribution",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-unknown-action-after-and",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-unknown-action-after-and",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-unknown-action-after-and",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-private-cued-official-second-clause",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-private-cued-official-second-clause",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-private-cued-official-second-clause",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-exclusion-of-other-heading",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-exclusion-of-other-heading",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-exclusion-of-other-heading",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-latest-exclusion",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-latest-exclusion",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-latest-exclusion",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-latest-inclusion",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-latest-inclusion",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-latest-inclusion",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-annotated-clinical",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-annotated-clinical",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-annotated-clinical",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-annotated-private-colon",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "prior-annotated-private-colon",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-annotated-private-colon",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "prior-outside-hours-is-not-exclusion",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-outside-hours-is-not-exclusion",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-outside-hours-is-not-exclusion",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-unrelated-topic-is-not-exclusion",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-unrelated-topic-is-not-exclusion",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-unrelated-topic-is-not-exclusion",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-coordinate-other-exclusion",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-coordinate-other-exclusion",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-coordinate-other-exclusion",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-negated-exclusion-keeps-scope",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-negated-exclusion-keeps-scope",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "prior-negated-exclusion-keeps-scope",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-contracted-negation",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "red-contracted-negation",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-contracted-negation",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-explicit-optional-attendance",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "red-explicit-optional-attendance",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-explicit-optional-attendance",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-no-attendance-condition",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "red-no-attendance-condition",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-no-attendance-condition",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-exclusion-other-program",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-exclusion-other-program",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-exclusion-other-program",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-not-included-other-schedule",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-not-included-other-schedule",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-not-included-other-schedule",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-relative-clause-exclusion",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "red-relative-clause-exclusion",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-relative-clause-exclusion",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-mixed-credential-deadline",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-mixed-credential-deadline",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-mixed-credential-deadline",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-private-worded-share",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "red-private-worded-share",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-private-worded-share",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-joint-private-activities",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "red-joint-private-activities",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-joint-private-activities",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-parenthetical-private-heading",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "red-parenthetical-private-heading",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-parenthetical-private-heading",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-positive-dependency-guard",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-positive-dependency-guard",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-positive-dependency-guard",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-not-only-positive-guard",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-not-only-positive-guard",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-not-only-positive-guard",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-direct-exclusion-guard",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "red-direct-exclusion-guard",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-direct-exclusion-guard",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-mixed-must-guard",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-mixed-must-guard",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-mixed-must-guard",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-clinical-guard",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-clinical-guard",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-clinical-guard",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "red-private-dollar-share-guard",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "red-private-dollar-share-guard",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-private-dollar-share-guard",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-explicit-negative-dependency-guard",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "red-explicit-negative-dependency-guard",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-explicit-negative-dependency-guard",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-exact-new-anchors",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-exact-new-anchors",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-exact-new-anchors",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-hair-space-normalized",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-hair-space-normalized",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-hair-space-normalized",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-arabic-mark-deleted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-arabic-mark-deleted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-arabic-mark-deleted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-directional-isolates-deleted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-directional-isolates-deleted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-directional-isolates-deleted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-numeric-entity-decoded",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-numeric-entity-decoded",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-numeric-entity-decoded",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-unicode-hyphen-normalized",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-unicode-hyphen-normalized",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-unicode-hyphen-normalized",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-fullwidth-semicolon-normalized",
+      "issue": "prior",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-fullwidth-semicolon-normalized",
+      "issue": "prior",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "red-fullwidth-semicolon-normalized",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "straight-contraction",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "straight-contraction",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "straight-contraction",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "adverb-negation",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "adverb-negation",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "adverb-negation",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "not-subject-qualifier",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "not-subject-qualifier",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "not-subject-qualifier",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "optional-must-not-clear",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "optional-must-not-clear",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "optional-must-not-clear",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "negative-must-not-clear",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "negative-must-not-clear",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "negative-must-not-clear",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "optional-with-independent-duty",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "optional-with-independent-duty",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "optional-with-independent-duty",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "relative-positive",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "relative-positive",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "relative-positive",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "relative-exclusion-quoted",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "relative-exclusion-quoted",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "relative-exclusion-quoted",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "part-of-real-exclusion",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "part-of-real-exclusion",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "part-of-real-exclusion",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "included-real-exclusion",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "included-real-exclusion",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "included-real-exclusion",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "worded-share-hyphen",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "worded-share-hyphen",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "worded-share-hyphen",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "worded-share-unknown-action",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "worded-share-unknown-action",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "worded-share-unknown-action",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "coordinated-reversed",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "coordinated-reversed",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "coordinated-reversed",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "coordinated-unknown-action",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "coordinated-unknown-action",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "coordinated-unknown-action",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "parenthetical-clinical",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "parenthetical-clinical",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "parenthetical-clinical",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "parenthetical-included",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "parenthetical-included",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "parenthetical-included",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-with-entry-certificate",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-with-entry-certificate",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-with-entry-certificate",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-with-private-event",
+      "issue": "prior",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "mixed-with-private-event",
+      "issue": "prior",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "mixed-with-private-event",
+      "issue": "prior",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-hundred-dollar-private-share",
+      "issue": "F3",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-hundred-dollar-private-share",
+      "issue": "F3",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-hundred-dollar-private-share",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-hundred-and-five-private-share",
+      "issue": "F3",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-hundred-and-five-private-share",
+      "issue": "F3",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-hundred-and-five-private-share",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-numeric-private-share-guard",
+      "issue": "guard",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-numeric-private-share-guard",
+      "issue": "guard",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-numeric-private-share-guard",
+      "issue": "guard",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-hinges-on-attendance",
+      "issue": "F1",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "oct26-hinges-on-attendance",
+      "issue": "F1",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "oct26-hinges-on-attendance",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "oct26-dependent-on-attendance",
+      "issue": "F1",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "oct26-dependent-on-attendance",
+      "issue": "F1",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "oct26-dependent-on-attendance",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "oct26-depends-on-guard",
+      "issue": "guard",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "oct26-depends-on-guard",
+      "issue": "guard",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "oct26-depends-on-guard",
+      "issue": "guard",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "oct26-prefix-wrong-program-exclusion",
+      "issue": "F2",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "oct26-prefix-wrong-program-exclusion",
+      "issue": "F2",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "oct26-prefix-wrong-program-exclusion",
+      "issue": "F2",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "oct26-prefix-real-exclusion-guard",
+      "issue": "guard",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-prefix-real-exclusion-guard",
+      "issue": "guard",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-prefix-real-exclusion-guard",
+      "issue": "guard",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-outside-procurement-private-heading",
+      "issue": "F4",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-outside-procurement-private-heading",
+      "issue": "F4",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-outside-procurement-private-heading",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-supported-private-heading-guard",
+      "issue": "guard",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-supported-private-heading-guard",
+      "issue": "guard",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-supported-private-heading-guard",
+      "issue": "guard",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-negative-hinges-private",
+      "issue": "guard",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "oct26-negative-hinges-private",
+      "issue": "guard",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-negative-hinges-private",
+      "issue": "guard",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-mixed-return-deadline-guard",
+      "issue": "guard",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "oct26-mixed-return-deadline-guard",
+      "issue": "guard",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "oct26-mixed-return-deadline-guard",
+      "issue": "guard",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "oct26-exact-unseen-anchors",
+      "issue": "guard",
+      "arm": "original",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-exact-unseen-anchors",
+      "issue": "guard",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-exact-unseen-anchors",
+      "issue": "guard",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-bom-deleted",
+      "issue": "guard",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-bom-deleted",
+      "issue": "guard",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-bom-deleted",
+      "issue": "guard",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-rtl-mark-deleted",
+      "issue": "guard",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-rtl-mark-deleted",
+      "issue": "guard",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-rtl-mark-deleted",
+      "issue": "guard",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-combining-normalized",
+      "issue": "guard",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-combining-normalized",
+      "issue": "guard",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-combining-normalized",
+      "issue": "guard",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-apostrophe-entity-decoded",
+      "issue": "guard",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-apostrophe-entity-decoded",
+      "issue": "guard",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-apostrophe-entity-decoded",
+      "issue": "guard",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-tab-normalized",
+      "issue": "guard",
+      "arm": "original",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-tab-normalized",
+      "issue": "guard",
+      "arm": "before",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "oct26-tab-normalized",
+      "issue": "guard",
+      "arm": "rebuild",
+      "valid": false,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "negative-dependency-180",
+      "issue": "F1",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "negative-dependency-180",
+      "issue": "F1",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "negative-dependency-180",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "negative-dependency-181",
+      "issue": "F1",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "negative-dependency-181",
+      "issue": "F1",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "negative-dependency-181",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "negative-dependency-182",
+      "issue": "F1",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "negative-dependency-182",
+      "issue": "F1",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "negative-dependency-182",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "negative-dependency-183",
+      "issue": "F1",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "negative-dependency-183",
+      "issue": "F1",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "negative-dependency-183",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "positive-dependency-184",
+      "issue": "F1",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "positive-dependency-184",
+      "issue": "F1",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "positive-dependency-184",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "positive-dependency-185",
+      "issue": "F1",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "positive-dependency-185",
+      "issue": "F1",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "positive-dependency-185",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "positive-dependency-186",
+      "issue": "F1",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "positive-dependency-186",
+      "issue": "F1",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "positive-dependency-186",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "private-positive-self-attendance",
+      "issue": "F1",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "private-positive-self-attendance",
+      "issue": "F1",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "private-positive-self-attendance",
+      "issue": "F1",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "scope-subject-188",
+      "issue": "F2",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "scope-subject-188",
+      "issue": "F2",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "scope-subject-188",
+      "issue": "F2",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "scope-subject-189",
+      "issue": "F2",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "scope-subject-189",
+      "issue": "F2",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "scope-subject-189",
+      "issue": "F2",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "scope-subject-190",
+      "issue": "F2",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "scope-subject-190",
+      "issue": "F2",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "scope-subject-190",
+      "issue": "F2",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": false
+    },
+    {
+      "case": "exclude-heading-from-wrong-program",
+      "issue": "F2",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "exclude-heading-from-wrong-program",
+      "issue": "F2",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "exclude-heading-from-wrong-program",
+      "issue": "F2",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "exclude-heading-from-requirements",
+      "issue": "F2",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "exclude-heading-from-requirements",
+      "issue": "F2",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "exclude-heading-from-requirements",
+      "issue": "F2",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "private-amount-193",
+      "issue": "F3",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-193",
+      "issue": "F3",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-193",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-194",
+      "issue": "F3",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-194",
+      "issue": "F3",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-194",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-195",
+      "issue": "F3",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-195",
+      "issue": "F3",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-195",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-196",
+      "issue": "F3",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-196",
+      "issue": "F3",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "private-amount-196",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "private-amount-197",
+      "issue": "F3",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-amount-197",
+      "issue": "F3",
+      "arm": "before",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "private-amount-197",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": false,
+      "passed": true
+    },
+    {
+      "case": "mixed-amount-198",
+      "issue": "F3",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-amount-198",
+      "issue": "F3",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-amount-198",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-amount-199",
+      "issue": "F3",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-amount-199",
+      "issue": "F3",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-amount-199",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-amount-200",
+      "issue": "F3",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-amount-200",
+      "issue": "F3",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-amount-200",
+      "issue": "F3",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "private-annotation-201",
+      "issue": "F4",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-annotation-201",
+      "issue": "F4",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-annotation-201",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-annotation-202",
+      "issue": "F4",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-annotation-202",
+      "issue": "F4",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-annotation-202",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-annotation-203",
+      "issue": "F4",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-annotation-203",
+      "issue": "F4",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "private-annotation-203",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false
+    },
+    {
+      "case": "annotated-private-then-real-duty",
+      "issue": "F4",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "annotated-private-then-real-duty",
+      "issue": "F4",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "annotated-private-then-real-duty",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "annotated-private-explicit-inclusion",
+      "issue": "F4",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "annotated-private-explicit-inclusion",
+      "issue": "F4",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "annotated-private-explicit-inclusion",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "annotated-private-clinical",
+      "issue": "F4",
+      "arm": "original",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "annotated-private-clinical",
+      "issue": "F4",
+      "arm": "before",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    },
+    {
+      "case": "annotated-private-clinical",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": true
+    }
+  ]
+}

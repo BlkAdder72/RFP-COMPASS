@@ -10,6 +10,7 @@ for line in (D/'SHA256SUMS.txt').read_text().splitlines():
 run('bundle-verify',['git','bundle','verify',str(D/'RFP-COMPASS-Comp15.bundle')]);run('fresh-clone',['git','-c','core.longpaths=true','clone','--quiet',str(D/'RFP-COMPASS-Comp15.bundle'),str(C)])
 assert subprocess.check_output(['git','rev-parse','HEAD'],cwd=C).decode().strip()==release['commit']
 run('pristine-index-bytes',[sys.executable,'-B','-X','utf8','packaging/verify_index.py'])
+run('rebuild-packaged-samples',[sys.executable,'-B','-X','utf8','rebuild/tools/validate_packet.py'])
 for arm in ['original','rebuild']:
  for script,kind in [('tools/run_arm.py','core'),('hardening/run_full.py','full')]:run('preflight-'+arm+'-'+kind,[sys.executable,'-B','-X','utf8',script,arm,'--output-dir',str(C/'dist'/('unused-'+arm+'-'+kind)),'--preflight-only'])
 run('offline-compliance',[sys.executable,'-B','-X','utf8','tools/verify_submission.py'])

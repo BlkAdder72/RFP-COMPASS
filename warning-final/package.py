@@ -1,6 +1,7 @@
 from pathlib import Path
 import hashlib,json,subprocess,zipfile
 R=Path(__file__).resolve().parents[1];D=R/'dist/warning-final-release';D.mkdir(exist_ok=False)
+assert json.loads((R/'warning-final/SUMMARY.json').read_text())['acceptance'].startswith('PASS'),'A failed gate blocks release sealing'
 assert not subprocess.check_output(['git','status','--porcelain'],cwd=R),'Commit all evidence before sealing'
 head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=R).decode().strip()
 for args in [['git','archive','--format=zip','--prefix=RFP-COMPASS-Comp15/','-o',str(D/'RFP-COMPASS-Comp15-source.zip'),head],['git','bundle','create',str(D/'RFP-COMPASS-Comp15.bundle'),'--all']]:subprocess.run(args,cwd=R,check=True)
