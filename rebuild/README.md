@@ -2,7 +2,9 @@
 
 RFP Compass turns one source packet into a twelve-section Bid Compliance Card. Every bullet quotes a whole source statement with its exact ID and complete anchor. Non-source personal material stays only in Section 12; a mixed statement retains its genuine procurement requirements without editing its quotation.
 
-Current measured results, failed evidence, ties and limits: [results.md](../results.md) and [warning-final/REPORT.md](../warning-final/REPORT.md). The findings that drove this repair remain in [red-team-oct26/REPORT.md](../red-team-oct26/REPORT.md). The prior operating guide is preserved in `../warning-final/before/rebuild/README.md` and Git history. The failed warning-only model comparison remains in `../boundary-repair/REPORT.md`. This candidate is unpublished.
+The native repair candidate adds an audited Unicode export stage, clarified authority/expected-action routes, and narrower evaluation advisories. Fresh paired native acceptance is pending in `../native-repair/`; do not treat earlier acceptance as approval of this candidate.
+
+Prior measured results, failed evidence, ties and limits: [results.md](../results.md) and [warning-final/REPORT.md](../warning-final/REPORT.md). The findings that drove this repair remain in [red-team-oct26/REPORT.md](../red-team-oct26/REPORT.md). The prior operating guide is preserved in `../warning-final/before/rebuild/README.md` and Git history. The failed warning-only model comparison remains in `../boundary-repair/REPORT.md`. This candidate is unpublished.
 
 ## Use the folder
 

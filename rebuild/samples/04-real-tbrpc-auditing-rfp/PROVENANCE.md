@@ -16,3 +16,6 @@ Result: every packet statement appears word for word in the PDF. The PDF text le
 - the page-2 table of contents, including the attachment titles listed there (the attachment titles themselves are S153 and S203);
 - section headings, such as "3. Scope Of Services" and "RFP Questions and Response" (they appear in the anchors);
 - the word "Contact" (a label on page 1).
+
+## Native repair alignment, 2026-10-26
+The hand routing list and script-built reference card were aligned to the clarified contract: S047/S048 include authority section 10, S148 includes expected-action section 11, and the S139 reservation is administrative/addendum evidence rather than an evaluation method in section 7. This is an operator-built reference correction, not a new model response. All prior cards remain in Git history and the native-repair before snapshot.
