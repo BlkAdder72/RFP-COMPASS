@@ -2,7 +2,10 @@ from pathlib import Path
 import json,hashlib,subprocess
 R=Path(__file__).resolve().parents[1];D=R/'warning-final'
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
-def put(p,t):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(t,encoding='utf-8',newline='\n')
+def put(p,t):
+ if p.suffix=='.md':
+  for a,b in [('prior162','prior 162'),('all18','all 18'),('and27','and 27'),('all207','all 207'),('reproduces18','reproduces 18'),('Section12','Section 12'),('Comp13','Comp #13'),('October26','October 26'),('and53','and 53')]:t=t.replace(a,b)
+ p.parent.mkdir(parents=True,exist_ok=True);p.write_text(t,encoding='utf-8',newline='\n')
 m=read(D/'preservation.json');q=read(D/'scores-final.json');models=read(D/'model-results.json');full=read(D/'full-length-results.json');stages={f'F{i}':read(D/'stages'/f'F{i}'/'results.json') for i in range(1,5)}
 historical=read(D/'historical-control-replays-release.json');strict=read(D/'core-common-strict.json')
 accept=all(s['passed_required'] for s in stages.values()) and not stages['F4']['all_remaining_failures'] and all(x['passed_all_checks'] for x in models['rebuild'].values()) and full['rebuild']['passed'] and all(x['verdict']=='pass' for x in q['scores']['1']['rebuild'].values()) and all(x['passed'] for x in historical if x['arm']=='rebuild') and all(x['exit_code']==0 for x in strict)

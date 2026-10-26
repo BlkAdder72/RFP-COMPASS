@@ -2,7 +2,7 @@
 
 RFP Compass turns one source packet into a twelve-section Bid Compliance Card. Every bullet quotes a whole source statement with its exact ID and complete anchor. Non-source personal material stays only in Section 12; a mixed statement retains its genuine procurement requirements without editing its quotation.
 
-Current measured results, failed evidence, ties and limits: [results.md](../results.md) and [final-submission/REPORT.md](../final-submission/REPORT.md). The findings that drove this repair remain in [red-team-polarity/REPORT.md](../red-team-polarity/REPORT.md). The prior operating guide is preserved in `../final-submission/before/rebuild/README.md` and Git history. The failed warning-only model comparison remains in `../boundary-repair/REPORT.md`. This candidate is unpublished.
+Current measured results, failed evidence, ties and limits: [results.md](../results.md) and [warning-final/REPORT.md](../warning-final/REPORT.md). The findings that drove this repair remain in [red-team-oct26/REPORT.md](../red-team-oct26/REPORT.md). The prior operating guide is preserved in `../warning-final/before/rebuild/README.md` and Git history. The failed warning-only model comparison remains in `../boundary-repair/REPORT.md`. This candidate is unpublished.
 
 ## Use the folder
 
@@ -23,6 +23,6 @@ Validation rejects altered quotations or anchors, missing source IDs, wrong head
 
 ## Evidence and provenance
 
-`run-results/final-submission-full/` contains the exact latest full-RFP model evidence. `examples.md` identifies the script-built sample and its hand routing list; it is not a raw model transcript. All earlier runs, including failures, remain preserved. The parent repository contains the judged original, verbatim feedback, frozen questions, paired raw runs and offline compliance command. See the parent results for the actual acceptance state rather than treating any individual validator PASS as submission approval.
+`run-results/warning-final-full/` contains the exact latest full-RFP model evidence. `examples.md` identifies the script-built sample and its hand routing list; it is not a raw model transcript. All earlier runs, including failures, remain preserved. The parent repository contains the judged original, verbatim feedback, frozen questions, paired raw runs and offline compliance command. See the parent results for the actual acceptance state rather than treating any individual validator PASS as submission approval.
 
 The second failed candidate, including private leakage and a rejected full-RFP anchor, remains in `../submission-repair/REPORT.md`. The current results report both failed attempts separately.

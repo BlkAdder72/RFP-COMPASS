@@ -1,0 +1,70 @@
+{
+  "acceptance": "PASS all recorded gates",
+  "controls_of_207": {
+    "original": 128,
+    "before": 189,
+    "rebuild": 207
+  },
+  "controls_vs_before": {
+    "improved": 18,
+    "tied": 189,
+    "regressed": 0
+  },
+  "question_comparison": {
+    "improved": 5,
+    "tied": 3,
+    "regressed": 0
+  },
+  "model_combined_of_3": {
+    "original": 1,
+    "rebuild": 3
+  },
+  "full_RFP": {
+    "original": false,
+    "rebuild": true
+  },
+  "automatic_transport_retries": [
+    {
+      "path": "run-original/warning-final-core/C-official-email/stderr.txt",
+      "lines": [
+        "2026-10-26T14:57:55.353461Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 148.9998708s)... turn_id=01a178b7-cd01-7303-9bab-89e00bc898e5 retries=1 max_retries=5 sampling_error=exceeded retry limit, last status: 429 Too Many Requests"
+      ]
+    },
+    {
+      "path": "run-original/warning-final-new/C-opaque-citations/stderr.txt",
+      "lines": [
+        "2026-10-26T15:01:53.700991Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 511.99991s)... turn_id=01a178bb-6fa0-71c3-a745-06e489ac0ece retries=1 max_retries=5 sampling_error=exceeded retry limit, last status: 429 Too Many Requests"
+      ]
+    },
+    {
+      "path": "run-original/warning-final-full/part-5/stderr.txt",
+      "lines": [
+        "2026-10-26T15:18:35.068457Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 111.9999059s)... turn_id=01a178ca-b7f0-7d92-82ed-81ad53c19f6d retries=1 max_retries=5 sampling_error=exceeded retry limit, last status: 429 Too Many Requests"
+      ]
+    },
+    {
+      "path": "run-rebuild/warning-final-core/E-contract-expectation/stderr.txt",
+      "lines": [
+        "2026-10-26T15:29:44.557577Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 43.9999023s)... turn_id=01a178d4-ef34-7271-9bb7-e4bbff33422e retries=1 max_retries=5 sampling_error=exceeded retry limit, last status: 429 Too Many Requests"
+      ]
+    },
+    {
+      "path": "run-rebuild/warning-final-full/part-2/stderr.txt",
+      "lines": [
+        "2026-10-26T15:34:03.944999Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 385.9999064s)... turn_id=01a178d8-e422-75d3-a447-8c21dc4e2d0f retries=1 max_retries=5 sampling_error=exceeded retry limit, last status: 429 Too Many Requests"
+      ]
+    }
+  ],
+  "chronology": {
+    "freeze": "79257825",
+    "original_baseline": "d6833c94c89a0289172de299364d5bba1cc7a6d5",
+    "F1": "9f27bfab455fbc77c40f236aa3d263fdb4b00f6a",
+    "F2": "084dcb3085a77f752ad1101954d90f5391d29e5d",
+    "F3": "a2c9ae653c9655d1d1f36e449c78480521ea4f8e",
+    "F4": "225d921e91e1f476adf893429c98b1465624f116",
+    "candidate": "225d921e91e1f476adf893429c98b1465624f116"
+  },
+  "prior_files_preserved": 37416,
+  "sealed_artifacts_preserved": 53,
+  "published": false
+}

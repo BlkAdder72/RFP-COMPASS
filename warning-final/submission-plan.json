@@ -1,0 +1,8 @@
+{
+  "sentences": [
+    "I rebuilt my Comp #13 Translator entry, RFP-COMPASS: [PUBLIC_REPOSITORY_URL].",
+    "The feedback line that drove it was: \u201cA noisy-input test in `run-results/` showing a stapled thread held in Section 12 only.\u201d",
+    "The frozen paired tests and sequential warning repairs show the measured improvements, ties, retained failures and limits, with all original evidence and Git history preserved."
+  ],
+  "published": false
+}

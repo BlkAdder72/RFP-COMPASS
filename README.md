@@ -1,28 +1,15 @@
 # RFP-COMPASS — Competition 15: The Rebuild
 
-Local candidate; unpublished. Read [feedback.md](feedback.md), [questions.md](questions.md), then [results.md](results.md).
+Local candidate, unpublished. Start with [feedback.md](feedback.md), [questions.md](questions.md), then [results.md](results.md).
 
-The judged Comp #13 Translator original stays byte-for-byte under `original/`, pinned at `92847d2a17250fa18914d932826db63d99dcb75c` (tag `judged-original-comp13`). Source: https://github.com/BlkAdder72/RFP-COMPASS. All history, previous deliveries and failed evidence remain preserved.
+The judged Comp #13 original is preserved byte-for-byte in original/, pinned at 92847d2a17250fa18914d932826db63d99dcb75c (tag judged-original-comp13). Source: https://github.com/BlkAdder72/RFP-COMPASS.
 
-The feedback asked for personal material only in Section 12 without false date hints, explicit contractual-expectation handling, honest script-built example provenance and raw noisy-input evidence. Frozen Q1–Q8 precede the first rebuild. The latest repair addresses the seven finding families in `red-team-polarity/REPORT.md`; current measured outcomes, ties, failed attempts and limits are in results.md.
+The judges asked for unrelated personal material only in Section 12 without false date warnings, consistent S133 contractual-expectation handling, explicit script-built sample provenance and raw noisy-input evidence. Frozen Q1–Q8 address those requests and precede the first rebuild. Current results report wins, ties, failures and intentionally unchanged behavior.
 
-The warning-only attempt passed its controls but failed a new model context case. That complete failed comparison remains in `boundary-repair/REPORT.md`; this candidate also repairs statement-level routing boundaries in rules and the output schema. Do not mistake the earlier structural PASS for semantic acceptance.
+The October 26 review found four remaining warning issues. They were fixed and tested sequentially; all previous failed evidence is retained. Current report: results.md. Detailed stages and preservation: warning-final/. New paired raw runs: run-original/warning-final-* and run-rebuild/warning-final-*. Candidate folder: rebuild/. Exact packaged full-RFP raw evidence: rebuild/run-results/warning-final-full/.
 
-A second candidate retained genuine duties but leaked negative/optional personal records and failed an exact citation. Its complete failed comparison is in `submission-repair/REPORT.md`. The current candidate makes relevance decisions in source order and retrieves literal source-row fields for every emitted citation.
+Earlier acceptance reports describe their own recorded gates. red-team-oct26/REPORT.md and the failed boundary-repair/ and submission-repair/ comparisons remain preserved; they are not the current readiness status. Git history and before snapshots retain all earlier documents. Previously sealed packages remain unchanged.
 
-| Material | Location |
-|---|---|
-| Judged original and verbatim feedback | `original/`, `feedback.md` |
-| Frozen questions | `questions.md` |
-| Candidate knowledge and strict validator | `rebuild/` |
-| Latest protocol, before snapshots, controls and report | `final-submission/` |
-| Fresh paired model runs | `run-original/final-submission-*`, `run-rebuild/final-submission-*` |
-| Packaged full-RFP raw result | `rebuild/run-results/final-submission-full/` |
-| Latest red-team findings, preserved | `red-team-polarity/REPORT.md` |
-| Earlier repair trail | `submission-repair/`, `boundary-repair/`, `polarity-repair/`, `red-team-polarity/`, `scope-guard-repair/`, `scope-repair/`, `warning-repair/`, `final-repair/` and earlier folders |
-| Source ZIP and complete-history bundle | `dist/final-submission-release/` |
-| Three-sentence submission draft | `SUBMISSION_COMMENT.md` |
+Offline verification: python -B -X utf8 tools/verify_submission.py. It executes historical assertions unchanged at pinned commits, then evaluates current acceptance without model calls. Fresh runs use tools/run_arm.py and hardening/run_full.py with new output paths. Delivery: dist/warning-final-release/; read FINAL_VERIFICATION.json for actual fresh-clone status. Submission draft: SUBMISSION_COMMENT.md, unposted.
 
-Offline audit: `python -B -X utf8 tools/verify_submission.py`. Historical assertions run unchanged at their sealed commits in sibling clones, followed by current evidence checks; no model calls. In restricted Windows shells local Git execution may require permission. Fresh trials use unchanged tools/run_arm.py and hardening/run_full.py with entirely new output paths.
-
-The release FINAL_VERIFICATION.json records actual fresh-clone delivery status. Packaging compliance and model performance are separate. This finite warning heuristic is not a complete semantic classifier. Premium/VIP eligibility is unverified; the public URL and publication remain pending. Nothing has been published.
+Finite test passes do not prove universal semantic routing or native-Claude acceptance. Premium/VIP eligibility and final public URL remain unverified. Nothing is published.
