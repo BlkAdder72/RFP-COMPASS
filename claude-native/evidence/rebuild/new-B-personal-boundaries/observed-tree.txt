@@ -1,0 +1,287 @@
+Window: "Claude", App: claude.exe.
+	0 window Claude Secondary Actions: Raise
+		1 pane (disabled)
+		2 region Claude
+			3 region
+				4 region
+					5 region
+						6 button Minimize
+						7 button Maximize
+						8 button Close
+					9 region
+						10 region
+							11 region
+								12 region
+									13 document Value: file:///C:/Program%20Files/WindowsApps/Claude_3.6556.2.0_x64__pzs8sxrjxfjjc/app/resources/app.asar/.vite/renderer/main_window/index.html ID: RootWebArea
+										14 group ID: root
+								15 region
+									16 region
+										17 document Translation contract bid compliance - Claude Value: https://claude.ai/chat/b8d52215-05d4-4237-a52a-9bc0c7bc71b4 ID: RootWebArea
+											18 group
+												19 group ID: root
+													2204 heading Claude
+													2205 button Menu
+													2206 group
+														2207 button Show sidebar
+													2208 button Back
+													2209 button (disabled) Forward
+													2210 group
+														2277 tool bar Page tools
+															2278 heading Translation contract bid compliance
+																2279 button Translation contract bid compliance, rename session
+															2280 group
+															2281 button More options for Translation contract bid compliance
+															2339 status
+																2431 text Claude Desktop (Windows), Connected
+																2340 button Claude Desktop (Windows), Connected ID: base-ui-_r_ch1_
+																2432 text Computer actions available — press Tab until focus enters the card, Escape to return.
+															2282 group ID: dframe-header-actions-slot
+																2341 group ID: session-activity-header-toggle-slot
+																	2342 toggle button Browser
+																	2343 toggle button Activity panel
+																2344 group
+																	2345 button Share
+													2212 complementary Sidebar
+													2213 thumb Resize sidebar Value: 0
+													44 main
+														45 region Primary pane
+															2283 group
+															2284 status
+															2285 status
+															2286 group
+																2287 feed Chat messages
+																	2288 text Use the up and down arrow keys to move between messages.
+																	2289 article Message 1 of 2
+																		2290 heading You said: The attached translation-contract.md supplies the six named project files.
+																		2291 group
+																			2292 button source-packet.md Description: source-packet.md
+																			2294 text MD
+																		2295 group
+																			2296 button translation-contract.md Description: translation-contract.md
+																			2298 text MD
+																		2299 text The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+																		2405 tool bar Message actions
+																			2406 time
+																				2407 text just now
+																			2408 button Retry
+																			2409 button Edit
+																			2410 button Copy
+																			2411 status
+																		2301 status
+																	2302 article Message 2 of 2
+																		2412 heading Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+																		2358 group
+																			2366 text Sorting procurement records from personal correspondence.
+																		2361 status
+																			2362 text Sorting procurement records from personal correspondence.
+																		2365 heading RFP COMPASS — BID COMPLIANCE CARD
+																		2367 heading 1. Opportunity identity
+																		2368 list
+																			2369 list item not in source
+																		2370 heading 2. Scope, term, and program context stated
+																		2371 list
+																			2372 list item not in source
+																		2373 heading 3. Eligibility and qualifications stated
+																		2374 list
+																			2375 list item not in source
+																		2376 heading 4. Application stages and submission mechanics stated
+																		2377 list
+																			2378 list item “Applicants must return the signed certificate by November 18, 2027 at 2 PM.” [source: source-packet.md:S006; Packet paragraph 6]
+																		2379 heading 5. Mandatory attachments and forms stated
+																		2380 list
+																			2381 list item “Applicants must return the signed certificate by November 18, 2027 at 2 PM.” [source: source-packet.md:S006; Packet paragraph 6]
+																		2382 heading 6. Dates and events stated
+																		2383 list
+																			2384 list item “Applicants must return the signed certificate by November 18, 2027 at 2 PM.” [source: source-packet.md:S006; Packet paragraph 6]
+																		2385 heading 7. Evaluation stated
+																		2386 list
+																			2387 list item not in source
+																		2388 heading 8. Commercial, performance, and post-award terms stated
+																		2390 list
+																			2391 list item not in source
+																		2392 heading 9. Tables, schedules, and templates
+																		2393 list
+																			2394 list item not in source
+																		2395 heading 10. Definitions, authority, and administrative terms
+																		2396 list
+																			2397 list item not in source
+																		2398 heading 11. Addenda, conflicts, and open items
+																		2399 list
+																			2400 list item not in source
+																		2401 heading 12. Unmapped source evidence
+																		2402 list
+																			2403 list item “Personal correspondence (outside procurement):” [source: source-packet.md:S001; Packet paragraph 1]
+																			2404 list item “My birthday dinner is November 16, 2027 at 7 PM and my share is one hundred dollars.” [source: source-packet.md:S002; Packet paragraph 2]
+																			2413 list item “Participation does not hinge on attendance at our family reunion.” [source: source-packet.md:S003; Packet paragraph 3]
+																			2414 list item “My birthday dinner is November 17, 2027 at 7 PM.” [source: source-packet.md:S004; Packet paragraph 4]
+																			2415 list item “End of personal correspondence.” [source: source-packet.md:S005; Packet paragraph 5]
+																		2416 group Suggested actions
+																			2417 button Create a doc
+																		2418 tool bar Message actions
+																			2419 button Copy
+																			2420 status
+																			2421 button Read aloud
+																			2422 toggle button Good response
+																			2423 toggle button Bad response
+																			2424 button Retry
+																			2425 time
+																				2426 text just now
+																2389 button Scroll to bottom
+																2305 group
+																	2306 status
+																2307 status
+																2308 group
+																	2309 status
+																2310 status
+																	2346 text Permission mode is set to Auto.
+																	2347 text Claude runs on its own and pauses if anything looks unsafe. This includes using
+																	2348 link your connectors Value: https://claude.ai/customize/connectors/yours
+																	2349 text , Claude in Chrome, and apps on your computer, unless you turn them off.
+																	2350 link Learn more Value: https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork#h_e1353133dd
+																	2351 button Dismiss
+																2311 status
+																2312 status
+																2313 status
+																2314 group
+																	2315 edit (settable, string) Write your prompt to Claude Value: 
+																		2316 text 
+																	2317 status ID: skill-arg-hint-sr-t7ycvx
+																	2427 group
+																		2428 button (disabled) Send message
+																	2322 group
+																		2323 button Add files, connectors, and more ID: base-ui-_r_cfl_
+																		2324 group
+																			2429 button Dictate
+																			2325 group Use voice mode
+																				2326 button Use voice mode
+																				2327 button Microphone
+																		2355 group
+																		2328 note
+																			2329 link Claude is AI and can make mistakes. Value: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+																		2330 group
+																			2331 button Model: Opus 5.5 Medium ID: base-ui-_r_cgm_
+																				2332 text Opus 5.5
+																				2333 text 
+																				2334 text Medium
+																		2356 group
+																			2357 button Auto
+															2335 status
+																2430 text Claude finished the response
+															2337 status
+															2338 group
+													166 status
+												167 group ID: portal-root
+												168 status
+												169 group
+													170 status
+													171 region Notifications
+
+Document text: ```
+Claude
+Menu
+Show sidebar
+Back
+Forward
+Translation contract bid compliance
+￼
+More options for Translation contract bid compliance
+Claude Desktop (Windows), Connected
+Claude Desktop (Windows), Connected
+Computer actions available — press Tab until focus enters the card, Escape to return.
+Browser
+Activity panel
+Share
+￼
+Sidebar
+Resize sidebar
+￼
+￼
+￼
+Use the up and down arrow keys to move between messages.
+￼
+You said: The attached translation-contract.md supplies the six named project files.
+source-packet.md
+MD
+translation-contract.md
+MD
+The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+just now
+Retry
+Edit
+Copy
+￼
+￼
+Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+Sorting procurement records from personal correspondence.
+Sorting procurement records from personal correspondence.
+RFP COMPASS — BID COMPLIANCE CARD
+1. Opportunity identity
+• not in source
+2. Scope, term, and program context stated
+• not in source
+3. Eligibility and qualifications stated
+• not in source
+4. Application stages and submission mechanics stated
+• “Applicants must return the signed certificate by November 18, 2027 at 2 PM.” [source: source-packet.md:S006; Packet paragraph 6]
+5. Mandatory attachments and forms stated
+• “Applicants must return the signed certificate by November 18, 2027 at 2 PM.” [source: source-packet.md:S006; Packet paragraph 6]
+6. Dates and events stated
+• “Applicants must return the signed certificate by November 18, 2027 at 2 PM.” [source: source-packet.md:S006; Packet paragraph 6]
+7. Evaluation stated
+• not in source
+8. Commercial, performance, and post-award terms stated
+• not in source
+9. Tables, schedules, and templates
+• not in source
+10. Definitions, authority, and administrative terms
+• not in source
+11. Addenda, conflicts, and open items
+• not in source
+12. Unmapped source evidence
+• “Personal correspondence (outside procurement):” [source: source-packet.md:S001; Packet paragraph 1]
+• “My birthday dinner is November 16, 2027 at 7 PM and my share is one hundred dollars.” [source: source-packet.md:S002; Packet paragraph 2]
+• “Participation does not hinge on attendance at our family reunion.” [source: source-packet.md:S003; Packet paragraph 3]
+• “My birthday dinner is November 17, 2027 at 7 PM.” [source: source-packet.md:S004; Packet paragraph 4]
+• “End of personal correspondence.” [source: source-packet.md:S005; Packet paragraph 5]
+Create a doc
+Copy
+￼
+Read aloud
+Good response
+Bad response
+Retry
+just now
+Scroll to bottom
+￼
+￼
+￼
+Permission mode is set to Auto. Claude runs on its own and pauses if anything looks unsafe. This includes using your connectors, Claude in Chrome, and apps on your computer, unless you turn them off. Learn more
+Dismiss
+￼
+￼
+￼
+￼
+￼
+Send message
+Add files, connectors, and more
+Dictate
+Use voice mode
+Microphone
+￼
+Claude is AI and can make mistakes.
+Opus 5.5 
+Medium
+Auto
+￼
+￼
+Claude finished the response
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Notifications
+```
