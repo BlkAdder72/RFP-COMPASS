@@ -1,0 +1,252 @@
+{
+  "original": {
+    "core-A-stapled-thread": {
+      "chat_ids": [
+        "24b5d003-4b6c-4557-a591-6b7e86f3e3b7"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/core-A-stapled-thread/raw-response.md",
+          "sha256": "12ad8607f0321474bbe89e78228b42f3a2b72fdfc42d883bce8ce8c2f0eaf786",
+          "characters": 1701,
+          "bullets": 15
+        }
+      ]
+    },
+    "core-B-personal-note": {
+      "chat_ids": [
+        "e179a966-8766-49fa-b209-f665593e7650"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/core-B-personal-note/raw-response.md",
+          "sha256": "a979356013d49173c1b4fe44fa3fe4fec4eef40838d111a776e1785750bc819e",
+          "characters": 1277,
+          "bullets": 13
+        }
+      ]
+    },
+    "core-C-official-email": {
+      "chat_ids": [
+        "11356cbd-caac-4f0b-9913-e03a3a2b2c73"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/core-C-official-email/raw-response.md",
+          "sha256": "bbb45791bc3b42697c8bee1cc6f1f472531bb38f4ca8bf0092e90dcf6e041816",
+          "characters": 2002,
+          "bullets": 13
+        }
+      ]
+    },
+    "core-D-ai-instruction": {
+      "chat_ids": [
+        "c1c8adcb-99ec-4bf2-be41-053fc6ba0ec1"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/core-D-ai-instruction/raw-response.md",
+          "sha256": "b093c97869b39937f49b8224415e3aa052637bc394416d5162470d9f42a54daa",
+          "characters": 1273,
+          "bullets": 12
+        }
+      ]
+    },
+    "core-E-contract-expectation": {
+      "chat_ids": [
+        "bc1a4f79-1bfa-4064-ac50-ad87b3e3c254"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/core-E-contract-expectation/raw-response.md",
+          "sha256": "f4d4b6006461acd993f81e7f34f69ef0aa2ebc1cacdcec3f6688c1a8942fbe57",
+          "characters": 1212,
+          "bullets": 12
+        }
+      ]
+    },
+    "new-A-obligation-and-retrospective-scope": {
+      "chat_ids": [
+        "e585903f-30a5-4a61-ace0-430a91087b8d"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/new-A-obligation-and-retrospective-scope/raw-response.md",
+          "sha256": "1444e914952f7ff4d9b88245b6d467bbdfd84dc29aeb52821f7e4be212ec1d62",
+          "characters": 2248,
+          "bullets": 17
+        }
+      ]
+    },
+    "new-B-personal-boundaries": {
+      "chat_ids": [
+        "41173a6e-d5f8-480d-a18e-04ea25f467b3"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/new-B-personal-boundaries/raw-response.md",
+          "sha256": "fba85e67c7f798346af56397eeb7abd448edd7dfa4e0cc4a08ad69e7338fdd1a",
+          "characters": 1878,
+          "bullets": 17
+        }
+      ]
+    },
+    "new-C-opaque-citations": {
+      "chat_ids": [
+        "8f8a0589-6f04-4b47-b033-a735c2cb05d0"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/new-C-opaque-citations/raw-response.md",
+          "sha256": "0ccda385e2b82fabe0390180944fcfbc982d066dcbb9acd8d103e891b9b711cd",
+          "characters": 1726,
+          "bullets": 20
+        }
+      ]
+    },
+    "full-Z-full-length-noisy": {
+      "chat_ids": [
+        "408dd42b-0d18-4fbd-a078-a6c7a4858e55"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/original/full-Z-full-length-noisy/raw-response.md",
+          "sha256": "e26845b177f805354e6bcc820734c6cb45e1a86adac6505e590e8c8b8f0402aa",
+          "characters": 786,
+          "bullets": 4
+        }
+      ]
+    }
+  },
+  "rebuild": {
+    "core-A-stapled-thread": {
+      "chat_ids": [
+        "537bb0cb-a844-46c6-ad3c-2ef0abcdcf9c"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/core-A-stapled-thread/raw-response.md",
+          "sha256": "dbca5a6d08af2853c5d8cf54770f2358565f36b596a9d4ad970b155f6911c904",
+          "characters": 1701,
+          "bullets": 15
+        }
+      ]
+    },
+    "core-B-personal-note": {
+      "chat_ids": [
+        "b7d32246-f4cf-498e-8718-a889dcc97e66"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/core-B-personal-note/raw-response.md",
+          "sha256": "132f702a01471d8204afb47e3355dd610c5736123106c5dde3509ca4013c73b7",
+          "characters": 1277,
+          "bullets": 13
+        }
+      ]
+    },
+    "core-C-official-email": {
+      "chat_ids": [
+        "d19e817e-9808-40c0-80af-299353bb177f"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/core-C-official-email/raw-response.md",
+          "sha256": "bbb45791bc3b42697c8bee1cc6f1f472531bb38f4ca8bf0092e90dcf6e041816",
+          "characters": 2002,
+          "bullets": 13
+        }
+      ]
+    },
+    "core-D-ai-instruction": {
+      "chat_ids": [
+        "635aad96-fa5d-4dfe-b32b-a7ec5a92e566"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/core-D-ai-instruction/raw-response.md",
+          "sha256": "b093c97869b39937f49b8224415e3aa052637bc394416d5162470d9f42a54daa",
+          "characters": 1273,
+          "bullets": 12
+        }
+      ]
+    },
+    "core-E-contract-expectation": {
+      "chat_ids": [
+        "854480ab-655e-4074-a589-d46b115f8007"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/core-E-contract-expectation/raw-response.md",
+          "sha256": "f4d4b6006461acd993f81e7f34f69ef0aa2ebc1cacdcec3f6688c1a8942fbe57",
+          "characters": 1212,
+          "bullets": 12
+        }
+      ]
+    },
+    "new-A-obligation-and-retrospective-scope": {
+      "chat_ids": [
+        "ecb94171-3593-4961-9cfd-1ba0c3654371"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/new-A-obligation-and-retrospective-scope/raw-response.md",
+          "sha256": "a5ae7203a06e6841a5a1243844a2c231627c762221728cb9b3cfd2f5b73ac807",
+          "characters": 2359,
+          "bullets": 17
+        }
+      ]
+    },
+    "new-B-personal-boundaries": {
+      "chat_ids": [
+        "b8d52215-05d4-4237-a52a-9bc0c7bc71b4"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/new-B-personal-boundaries/raw-response.md",
+          "sha256": "5b916c0a0964fe5d5c360328a140b29c2a404a3535075def4f9cce4a2c1b2f4b",
+          "characters": 1619,
+          "bullets": 16
+        }
+      ]
+    },
+    "new-C-opaque-citations": {
+      "chat_ids": [
+        "c6776597-fded-46fc-9185-df5f7960ffa2"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/new-C-opaque-citations/raw-response.md",
+          "sha256": "09d8c04ea3bff3b7a10b842df4d1b283e21c230df6bf5542a7bbfbc89101098f",
+          "characters": 1714,
+          "bullets": 20
+        }
+      ]
+    },
+    "full-Z-full-length-noisy": {
+      "chat_ids": [
+        "b392c9b4-21ca-4d25-acca-a4d7b419d727"
+      ],
+      "raw_parts": [
+        {
+          "file": "evidence/rebuild/full-Z-full-length-noisy/raw-response-part-01.md",
+          "sha256": "add94989303d7b52dfc5aa99ae504bad6eb9f33f3ce8b2a5a1385333bb592393",
+          "characters": 30322,
+          "bullets": 141
+        },
+        {
+          "file": "evidence/rebuild/full-Z-full-length-noisy/raw-response-part-02.md",
+          "sha256": "c89e67929703506955d00a33f722020f915f6187d44f5feab8c15cbb29c1d559",
+          "characters": 20323,
+          "bullets": 98
+        },
+        {
+          "file": "evidence/rebuild/full-Z-full-length-noisy/raw-response-part-03.md",
+          "sha256": "ce882a36e1259e81cc90c1dde120897636a3993622f7fbd0fd4220b7c8a82938",
+          "characters": 22326,
+          "bullets": 129
+        }
+      ]
+    }
+  }
+}

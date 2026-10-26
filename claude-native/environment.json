@@ -1,5 +1,5 @@
 {
-  "status": "partial: original 9 of 9 raw; rebuild 2 raw plus core C rendered; desktop capture recovery failed",
+  "status": "complete: nine original and nine rebuild first-pass trials exported; acceptance failures retained",
   "platform": "native Claude Desktop on Windows via Computer Use",
   "visible_model": "Opus 5.5",
   "visible_reasoning": "Medium",
@@ -31,7 +31,14 @@
   "permission_mode_observed": "Auto",
   "original_baseline_commit": "9c194874",
   "protocol_commit": "426ed43c",
-  "raw_capture": "Claude Copy to fresh plain-text Notepad tab; save observed literal editor text",
-  "blocker": "no screenshot targets found for Microsoft.WindowsNotepad_8wekyb3d8bbwe!App",
-  "comparison_complete": false
+  "raw_capture": "Claude response Copy pasted into fresh plain-text Notepad tabs. Short cards saved from observed literal editor text; full-length parts saved through native Notepad Save As, UTF-8, to avoid 20000-character accessibility limit.",
+  "comparison_complete": true,
+  "acceptance_pass": false,
+  "rebuilt_evidence_commit": "b114d7e0",
+  "recovered_blocker": "no screenshot targets found for Microsoft.WindowsNotepad_8wekyb3d8bbwe!App",
+  "recovery": "User restored desktop; existing core C response copied without regeneration; remaining frozen trial order completed.",
+  "full_length_continuations": [
+    "continue",
+    "continue"
+  ]
 }
