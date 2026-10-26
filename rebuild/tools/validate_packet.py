@@ -73,7 +73,7 @@ OFFER_DELIVERY_CUE = re.compile(
 # Dependency constructions can carry participation requirements without a colon.
 DEPENDENCY_CUE = re.compile(
     r"\b(?:participation|admission|entry|eligibility)\b[^.;!?]*?\b"
-    r"(?:depends?\s+on|contingent\s+on|conditional\s+on|conditioned\s+on|determined\s+by)\b", re.IGNORECASE)
+    r"(?:depends?\s+on|hinges?\s+on|dependent\s+on|contingent\s+on|conditional\s+on|conditioned\s+on|determined\s+by)\b", re.IGNORECASE)
 # Only a literal body-supported reference can keep a private-looking nested
 # heading inside the inherited requirement. Anchors and output placement do not.
 SCOPE_REFERENCE = re.compile(r"\b(?:including|subsections?|sections?|labelled|labeled|titled|headed)\b", re.IGNORECASE)
@@ -126,7 +126,7 @@ def personal_hint_exclusions(statements, placed):
         # such as "Participation, not payment, depends on ...".
         return bool(re.search(
             r"\b(?:not|never|no\s+longer)\s+(?:\w+\s+){0,2}"
-            r"(?:depends?|contingent|conditional|conditioned|determined)\s+(?:on|by)\s*$",
+            r"(?:depends?|hinges?|dependent|contingent|conditional|conditioned|determined)\s+(?:on|by)\s*$",
             text, re.IGNORECASE))
 
     def private_activity_fragment(text):
