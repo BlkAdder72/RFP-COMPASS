@@ -1,0 +1,1 @@
+Unedited rebuilt final-repair full-length trial, copied byte-for-byte from run-rebuild/final-repair-v2-full. Source has 214 real statements plus seven synthetic personal-calendar statements. This is one targeted paired observation, not an independent holdout or universal guarantee. See final-repair/REPORT.md at repository root.

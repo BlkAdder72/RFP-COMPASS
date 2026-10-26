@@ -1,0 +1,135 @@
+{
+  "base_packet": "original\\samples\\04-real-tbrpc-auditing-rfp\\source-packet.md",
+  "base_sha256": "1595892b6ebd7f5e49b50075e9febe768e7de3d7951062cdf8edfdf0c5573805",
+  "original_statements": 214,
+  "total_statements": 221,
+  "noise_source": "hardening/calendar.txt",
+  "noise_only12": [
+    "S215",
+    "S216",
+    "S217",
+    "S218",
+    "S219",
+    "S220",
+    "S221"
+  ],
+  "routing": {
+    "S089": [
+      4,
+      5
+    ],
+    "S103": [
+      7
+    ],
+    "S114": [
+      6
+    ],
+    "S133": [
+      2,
+      8,
+      11
+    ],
+    "S209": [
+      9
+    ],
+    "S072": [
+      4,
+      5
+    ],
+    "S076": [
+      4,
+      5
+    ],
+    "S046": [
+      3
+    ],
+    "S047": [
+      3,
+      4,
+      5,
+      10
+    ],
+    "S048": [
+      3,
+      10
+    ],
+    "S065": [
+      4,
+      5
+    ],
+    "S066": [
+      4,
+      5
+    ],
+    "S075": [
+      4,
+      5
+    ],
+    "S077": [
+      4,
+      5
+    ],
+    "S079": [
+      4,
+      5,
+      10
+    ],
+    "S080": [
+      4,
+      5,
+      10
+    ],
+    "S081": [
+      8
+    ],
+    "S083": [
+      4,
+      5,
+      8
+    ],
+    "S148": [
+      8,
+      11
+    ],
+    "S150": [
+      8
+    ],
+    "S152": [
+      8
+    ],
+    "S098": [
+      4,
+      6,
+      10
+    ],
+    "S139": [
+      10,
+      11
+    ]
+  },
+  "checks": [
+    "all 221 exact statements covered",
+    "all twelve headings and exact anchors",
+    "continuations preserved; no repairing outputs",
+    "no personal date, money or contact REVIEW hints"
+  ],
+  "provenance": "214 original packet statements unchanged; seven synthetic calendar statements appended. Not a new real-world attachment or independent holdout.",
+  "additional_checks": [
+    "All prior exact citation and per-reply budget checks retained",
+    "17 previously retrospective semantic checks now frozen prospectively for this paired trial"
+  ],
+  "packet_sha256": "01526c6dccc0d05144b47d3ee1468c77f8d692d160418e187144cd1ab797a6bc",
+  "forbidden": {
+    "S081": [
+      3,
+      5
+    ],
+    "S152": [
+      3,
+      5
+    ],
+    "S139": [
+      7
+    ]
+  }
+}

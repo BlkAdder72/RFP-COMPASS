@@ -1,0 +1,17 @@
+{
+  "model": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "arm": "rebuild",
+  "started_utc": "2026-10-25T15:01:06.852230+00:00",
+  "knowledge_sha256": {
+    "CLAUDE_PROJECT_INSTRUCTIONS.txt": "73380f682df245560d855763f00456a49a52bad3533cb9020288fbe4eee9275b",
+    "identity.md": "653916c5840428f7cb2e78072ac9544267af6063103aa07600c67745c8dd289d",
+    "rules.md": "c15d7d5fb110afb0da0c8cbb4e244fa3a59c782931c638f1306f4700a033955c",
+    "examples.md": "4e0aa63cbf79451a339e105aed89ad66fca25898b700bb0e97fd397710038020",
+    "reference/input-schema.md": "01dc6060a8f872ffb080ce15650ae9b2a9c13ee4e2662ec99e8469369c0fd235",
+    "reference/output-schema.md": "789d1bc7cc5bc0fec5ac0d9594f58b18fd110bada1fd0476b81c8173bd9270bb"
+  },
+  "fixture_sha256": "01526c6dccc0d05144b47d3ee1468c77f8d692d160418e187144cd1ab797a6bc",
+  "sessions": "fresh persistent session; exact continue in same session, max eight parts; no retries",
+  "limitations": "host messages uncontrolled; same-session persistence differs from earlier ephemeral trials"
+}
