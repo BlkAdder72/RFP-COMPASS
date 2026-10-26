@@ -1,0 +1,332 @@
+{
+  "core-A-stapled-thread": {
+    "raw_sha256": "12ad8607f0321474bbe89e78228b42f3a2b72fdfc42d883bce8ce8c2f0eaf786",
+    "validation": {
+      "original": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "original\\tools\\validate_packet.py",
+          "route-repair\\inputs\\core-A-stapled-thread\\source-packet.md",
+          "route-repair\\evidence\\original\\core-A-stapled-thread\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      },
+      "rebuild": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "rebuild\\tools\\validate_packet.py",
+          "route-repair\\inputs\\core-A-stapled-thread\\source-packet.md",
+          "route-repair\\evidence\\original\\core-A-stapled-thread\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      }
+    }
+  },
+  "core-B-personal-note": {
+    "raw_sha256": "b7b81f4840b5baac2d42745997f787ec3bf57bb548d1f0e6e93d2924c99c64dc",
+    "validation": {
+      "original": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "original\\tools\\validate_packet.py",
+          "route-repair\\inputs\\core-B-personal-note\\source-packet.md",
+          "route-repair\\evidence\\original\\core-B-personal-note\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      },
+      "rebuild": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "rebuild\\tools\\validate_packet.py",
+          "route-repair\\inputs\\core-B-personal-note\\source-packet.md",
+          "route-repair\\evidence\\original\\core-B-personal-note\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      }
+    }
+  },
+  "core-C-official-email": {
+    "raw_sha256": "bbb45791bc3b42697c8bee1cc6f1f472531bb38f4ca8bf0092e90dcf6e041816",
+    "validation": {
+      "original": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "original\\tools\\validate_packet.py",
+          "route-repair\\inputs\\core-C-official-email\\source-packet.md",
+          "route-repair\\evidence\\original\\core-C-official-email\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      },
+      "rebuild": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "rebuild\\tools\\validate_packet.py",
+          "route-repair\\inputs\\core-C-official-email\\source-packet.md",
+          "route-repair\\evidence\\original\\core-C-official-email\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      }
+    }
+  },
+  "core-D-ai-instruction": {
+    "raw_sha256": "b093c97869b39937f49b8224415e3aa052637bc394416d5162470d9f42a54daa",
+    "validation": {
+      "original": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "original\\tools\\validate_packet.py",
+          "route-repair\\inputs\\core-D-ai-instruction\\source-packet.md",
+          "route-repair\\evidence\\original\\core-D-ai-instruction\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      },
+      "rebuild": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "rebuild\\tools\\validate_packet.py",
+          "route-repair\\inputs\\core-D-ai-instruction\\source-packet.md",
+          "route-repair\\evidence\\original\\core-D-ai-instruction\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      }
+    }
+  },
+  "core-E-contract-expectation": {
+    "raw_sha256": "f4d4b6006461acd993f81e7f34f69ef0aa2ebc1cacdcec3f6688c1a8942fbe57",
+    "validation": {
+      "original": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "original\\tools\\validate_packet.py",
+          "route-repair\\inputs\\core-E-contract-expectation\\source-packet.md",
+          "route-repair\\evidence\\original\\core-E-contract-expectation\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      },
+      "rebuild": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "rebuild\\tools\\validate_packet.py",
+          "route-repair\\inputs\\core-E-contract-expectation\\source-packet.md",
+          "route-repair\\evidence\\original\\core-E-contract-expectation\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      }
+    }
+  },
+  "new-A-obligation-and-retrospective-scope": {
+    "raw_sha256": "c4c4fb4454fb659226f561209562dfbb759a6d356dde2672b8d1d5d23dda7d5e",
+    "validation": {
+      "original": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "original\\tools\\validate_packet.py",
+          "route-repair\\inputs\\new-A-obligation-and-retrospective-scope\\source-packet.md",
+          "route-repair\\evidence\\original\\new-A-obligation-and-retrospective-scope\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      },
+      "rebuild": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "rebuild\\tools\\validate_packet.py",
+          "route-repair\\inputs\\new-A-obligation-and-retrospective-scope\\source-packet.md",
+          "route-repair\\evidence\\original\\new-A-obligation-and-retrospective-scope\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      }
+    }
+  },
+  "new-B-personal-boundaries": {
+    "raw_sha256": "fba85e67c7f798346af56397eeb7abd448edd7dfa4e0cc4a08ad69e7338fdd1a",
+    "validation": {
+      "original": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "original\\tools\\validate_packet.py",
+          "route-repair\\inputs\\new-B-personal-boundaries\\source-packet.md",
+          "route-repair\\evidence\\original\\new-B-personal-boundaries\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      },
+      "rebuild": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "rebuild\\tools\\validate_packet.py",
+          "route-repair\\inputs\\new-B-personal-boundaries\\source-packet.md",
+          "route-repair\\evidence\\original\\new-B-personal-boundaries\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      }
+    }
+  },
+  "new-C-opaque-citations": {
+    "raw_sha256": "0ccda385e2b82fabe0390180944fcfbc982d066dcbb9acd8d103e891b9b711cd",
+    "validation": {
+      "original": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "original\\tools\\validate_packet.py",
+          "route-repair\\inputs\\new-C-opaque-citations\\source-packet.md",
+          "route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md"
+        ],
+        "exit_code": 1,
+        "stdout": "FAIL\nroute-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet\nroute-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet\n",
+        "stderr": ""
+      },
+      "rebuild": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "rebuild\\tools\\validate_packet.py",
+          "route-repair\\inputs\\new-C-opaque-citations\\source-packet.md",
+          "route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md"
+        ],
+        "exit_code": 1,
+        "stdout": "FAIL\nroute-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet\nroute-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet\n",
+        "stderr": ""
+      }
+    }
+  },
+  "new-D-native-regressions": {
+    "raw_sha256": "784bb163c1072118d23b81c359ee6ebcbe45353b68ac3d3b9e278a6dd861415a",
+    "validation": {
+      "original": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "original\\tools\\validate_packet.py",
+          "route-repair\\inputs\\new-D-native-regressions\\source-packet.md",
+          "route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md"
+        ],
+        "exit_code": 1,
+        "stdout": "NOTE: REVIEW route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: S003 look like evaluation terms but are not in Section 7; confirm that is intended\nFAIL\nroute-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet\nroute-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet\nroute-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet\nroute-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet\n",
+        "stderr": ""
+      },
+      "rebuild": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "rebuild\\tools\\validate_packet.py",
+          "route-repair\\inputs\\new-D-native-regressions\\source-packet.md",
+          "route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md"
+        ],
+        "exit_code": 1,
+        "stdout": "FAIL\nroute-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet\nroute-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet\nroute-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet\nroute-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet\n",
+        "stderr": ""
+      }
+    }
+  },
+  "new-E-routing-families": {
+    "raw_sha256": "668a2e33e524a272d4ce8e49c63b9a04744f32f1526aa33143839e36622093a8",
+    "validation": {
+      "original": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "original\\tools\\validate_packet.py",
+          "route-repair\\inputs\\new-E-routing-families\\source-packet.md",
+          "route-repair\\evidence\\original\\new-E-routing-families\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "NOTE: REVIEW route-repair\\evidence\\original\\new-E-routing-families\\raw-response.md: S004 look like evaluation terms but are not in Section 7; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      },
+      "rebuild": {
+        "command": [
+          "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "rebuild\\tools\\validate_packet.py",
+          "route-repair\\inputs\\new-E-routing-families\\source-packet.md",
+          "route-repair\\evidence\\original\\new-E-routing-families\\raw-response.md"
+        ],
+        "exit_code": 0,
+        "stdout": "NOTE: REVIEW route-repair\\evidence\\original\\new-E-routing-families\\raw-response.md: S004 look like evaluation terms but are not in Section 7; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+        "stderr": ""
+      }
+    }
+  }
+}

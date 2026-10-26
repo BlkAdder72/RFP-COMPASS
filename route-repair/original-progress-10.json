@@ -1,0 +1,119 @@
+{
+  "completed_trials": [
+    {
+      "case": "core-A-stapled-thread",
+      "chat_ids": [
+        "2a94576f-e69b-460a-97b3-9d645aaa72e1"
+      ],
+      "files": {
+        "observed-tree.txt": "6e1dbb3df023bf3108976f024375792bc9cc34cc3c89c848a1ce3127339ca47e",
+        "raw-response.md": "12ad8607f0321474bbe89e78228b42f3a2b72fdfc42d883bce8ce8c2f0eaf786",
+        "rendered-ui.txt": "7e4cce56f213ef798d7b2f6e1756965b6baa7be25cfe98aae1db65f61f81ec7e"
+      }
+    },
+    {
+      "case": "core-B-personal-note",
+      "chat_ids": [
+        "4fa00326-7292-41bc-a3e6-c7371ce3d453"
+      ],
+      "files": {
+        "observed-tree.txt": "345a5d77cb68a1ed2a7575d62af95aa052336ed428a8e20addc374eb23b97a5c",
+        "raw-response.md": "b7b81f4840b5baac2d42745997f787ec3bf57bb548d1f0e6e93d2924c99c64dc",
+        "rendered-ui.txt": "010b7ba377f0a5e9874427791cfaf935f226a0f4341c1ba0ab84efe9e57cf9c0"
+      }
+    },
+    {
+      "case": "core-C-official-email",
+      "chat_ids": [
+        "795ab055-d131-4cd0-ab75-a2e06e61d9bd"
+      ],
+      "files": {
+        "observed-tree.txt": "90f3b37284db73151f7be2a6508e61ecf241297880f4f51203f280540c037840",
+        "raw-response.md": "bbb45791bc3b42697c8bee1cc6f1f472531bb38f4ca8bf0092e90dcf6e041816",
+        "rendered-ui.txt": "3f20bb47ddc660223b884d40557f07c651491a8c90c16b37ee807b1a9f3e8e77"
+      }
+    },
+    {
+      "case": "core-D-ai-instruction",
+      "chat_ids": [
+        "1fcfb57b-6957-4b9d-86aa-396ef8eb2871"
+      ],
+      "files": {
+        "observed-tree.txt": "246bac7261af24d4e6dc82dd7facb514eef07c067c75a82d6041dd00fc6a0b03",
+        "raw-response.md": "b093c97869b39937f49b8224415e3aa052637bc394416d5162470d9f42a54daa",
+        "rendered-ui.txt": "acf0d08b88b521527d2045dbcb33be5123675bd342491af6716f71d4934f3d71"
+      }
+    },
+    {
+      "case": "core-E-contract-expectation",
+      "chat_ids": [
+        "ddf4534b-0854-4b29-b7c6-04ac131052c6"
+      ],
+      "files": {
+        "observed-tree.txt": "b1788c582b3b91d4a02c1761e9b30ced13c432f2c0c2574cbef22eab80751c77",
+        "raw-response.md": "f4d4b6006461acd993f81e7f34f69ef0aa2ebc1cacdcec3f6688c1a8942fbe57",
+        "rendered-ui.txt": "b8b878aca7a5e3c2607425d9d88a142f21aacb21bc26ed56d770ba3cc11c2c3e"
+      }
+    },
+    {
+      "case": "new-A-obligation-and-retrospective-scope",
+      "chat_ids": [
+        "2a22c5f0-3add-4e22-ba73-21165a0e314d"
+      ],
+      "files": {
+        "observed-tree.txt": "4a17cdba8dca53bb0029eedb08ba18f5e7bb4b75d703fb53a40372eefa69b3ce",
+        "raw-response.md": "c4c4fb4454fb659226f561209562dfbb759a6d356dde2672b8d1d5d23dda7d5e",
+        "rendered-ui.txt": "5d7ae7ff6a37d3925167be397649d63a5176e9651686294c9ad07ecd60fb0151"
+      }
+    },
+    {
+      "case": "new-B-personal-boundaries",
+      "chat_ids": [
+        "746e12c6-7ca6-48f6-970c-fa72635724c5"
+      ],
+      "files": {
+        "observed-tree.txt": "05d166f877ebdafbaa29aa124100cf142348bdc0072cec49d22740359364c21f",
+        "raw-response.md": "fba85e67c7f798346af56397eeb7abd448edd7dfa4e0cc4a08ad69e7338fdd1a",
+        "rendered-ui.txt": "6b47d9eb09dd728a18d29f5a4b567954abf8b9e95ba1eb1bb38451734d3262e8"
+      }
+    },
+    {
+      "case": "new-C-opaque-citations",
+      "chat_ids": [
+        "4abd5916-adb5-4239-a7ee-2b7ea9f50791"
+      ],
+      "files": {
+        "observed-tree.txt": "c51270999598d76ef88535c8c2307116651ffffec7d6437ee8ca5bd8bb2101cc",
+        "raw-response.md": "0ccda385e2b82fabe0390180944fcfbc982d066dcbb9acd8d103e891b9b711cd",
+        "rendered-ui.txt": "cbbb062d77fec56866f1549288ed679915994c224bda3273c96b339d2624bf91"
+      }
+    },
+    {
+      "case": "new-D-native-regressions",
+      "chat_ids": [
+        "d887aa9a-c34b-423a-af56-9b42e1f5aa56"
+      ],
+      "files": {
+        "observed-tree.txt": "ed5e56a3b520506184e0acff67b85fc8ff19e21607a777762891982ede38cb1d",
+        "raw-response.md": "784bb163c1072118d23b81c359ee6ebcbe45353b68ac3d3b9e278a6dd861415a",
+        "rendered-ui.txt": "88664165072a3643a4c9ba426057d3844e9862db1ef97a52eca426a83dfbef8a"
+      }
+    },
+    {
+      "case": "new-E-routing-families",
+      "chat_ids": [
+        "0a37e8d5-9da9-4e00-9684-2c10f1b62e87"
+      ],
+      "files": {
+        "observed-tree.txt": "6be947d5371aaadc60e71e24fb5aaaf860b5f0c78fb9e472ba93cdf89ab24d77",
+        "raw-response.md": "668a2e33e524a272d4ce8e49c63b9a04744f32f1526aa33143839e36622093a8",
+        "rendered-ui.txt": "d95b9bb1551fb94cd3c34b7808ba8fe2a98c3f95924c4a2639734f394ed714fa"
+      }
+    }
+  ],
+  "pending": [
+    "full-Z-full-length-noisy"
+  ],
+  "product_edits_started": false,
+  "ui_interruption": "Foreground switched repeatedly during trial preparation; tenth unsent stray text replaced and exact common prompt verified before Send. Waiting for idle desktop before full trial."
+}

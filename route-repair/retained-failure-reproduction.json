@@ -1,0 +1,92 @@
+[
+  {
+    "case": "core-C-official-email",
+    "required_new_checks": {
+      "S003": [
+        8
+      ]
+    },
+    "positions": {
+      "S003": [
+        4,
+        5,
+        11
+      ]
+    },
+    "missing": {
+      "S003": [
+        8
+      ]
+    },
+    "raw_sha256": [
+      "83c23dfe068cb9ec6ea01000ace598756101a9c186a001303dcfa1f27a30a0ec"
+    ],
+    "strict_exit_code": 0,
+    "strict_stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "strict_stderr": "",
+    "note": "Expanded semantic checks; strict PASS never certifies placement. Raw new D has retained Unicode mismatch."
+  },
+  {
+    "case": "new-D-native-regressions",
+    "required_new_checks": {
+      "S003": [
+        11
+      ]
+    },
+    "positions": {
+      "S003": [
+        1,
+        10
+      ]
+    },
+    "missing": {
+      "S003": [
+        11
+      ]
+    },
+    "raw_sha256": [
+      "86c69771c4ce10da81a5e562ac0427e59b62de238f0cd01666f1b3ebf2554ab9"
+    ],
+    "strict_exit_code": 1,
+    "strict_stdout": "NOTE: PERSONAL HINT FILTER: S008; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nFAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet\n",
+    "strict_stderr": "",
+    "note": "Expanded semantic checks; strict PASS never certifies placement. Raw new D has retained Unicode mismatch."
+  },
+  {
+    "case": "full-Z-full-length-noisy",
+    "required_new_checks": {
+      "S098": [
+        10
+      ],
+      "S139": [
+        11
+      ]
+    },
+    "positions": {
+      "S098": [
+        4,
+        6
+      ],
+      "S139": [
+        10
+      ]
+    },
+    "missing": {
+      "S098": [
+        10
+      ],
+      "S139": [
+        11
+      ]
+    },
+    "raw_sha256": [
+      "72240883f991b66da01ebbc6be4fe4211e30b3296b0228ce3df0b5be79e8a6d4",
+      "2f6c2d2ffbb1b8b3c4bbc37fe03caa08de88f5388e387289933fc373eab90a64",
+      "ac4afdd9ee281e474835e9dc650652fca359c01950b1552db16ff5e43f4784a5"
+    ],
+    "strict_exit_code": 0,
+    "strict_stdout": "NOTE: PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\raw-response-part-01.md (+2 part(s)): S098 look like contact details but are not in Section 10; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "strict_stderr": "",
+    "note": "Expanded semantic checks; strict PASS never certifies placement. Raw new D has retained Unicode mismatch."
+  }
+]

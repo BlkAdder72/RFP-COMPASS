@@ -1,0 +1,295 @@
+Window: "Claude", App: claude.exe.
+	0 window Claude Secondary Actions: Raise
+		1 pane (disabled)
+		2 region Claude
+			3 region
+				4 region
+					5 region
+						6 button Minimize
+						7 button Maximize
+						8 button Close
+					9 region
+						10 region
+							11 region
+								12 region
+									13 document Value: file:///C:/Program%20Files/WindowsApps/Claude_3.6556.2.0_x64__pzs8sxrjxfjjc/app/resources/app.asar/.vite/renderer/main_window/index.html ID: RootWebArea
+										14 group ID: root
+								15 region
+									16 region
+										17 document Translation contract bid compliance - Claude Value: https://claude.ai/chat/4abd5916-adb5-4239-a7ee-2b7ea9f50791 ID: RootWebArea
+											18 group
+												19 group ID: root
+													3930 heading Claude
+													3931 button Menu
+													3932 group
+														3933 button Show sidebar
+													3934 button Back
+													3935 button (disabled) Forward
+													3936 group
+														4000 tool bar Page tools
+															4001 heading Translation contract bid compliance
+																4002 button Translation contract bid compliance, rename session
+															4003 group
+															4004 button More options for Translation contract bid compliance
+															4062 status
+																4159 text Claude Desktop (Windows), Connected
+																4063 button Claude Desktop (Windows), Connected ID: base-ui-_r_olc_
+																4064 text Computer actions available — press Tab until focus enters the card, Escape to return.
+															4005 group ID: dframe-header-actions-slot
+																4065 group ID: session-activity-header-toggle-slot
+																	4066 toggle button Browser
+																	4067 toggle button Activity panel
+																4068 group
+																	4069 button Share
+													3938 complementary Sidebar
+													3939 thumb Resize sidebar Value: 0
+													44 main
+														45 region Primary pane
+															4006 group
+															4007 status
+															4008 status
+															4009 group
+																4010 feed Chat messages
+																	4011 text Use the up and down arrow keys to move between messages.
+																	4012 article Message 1 of 2
+																		4013 heading You said: The attached translation-contract.md supplies the six named project files.
+																		4014 group
+																			4015 button source-packet.md Description: source-packet.md
+																			4017 text MD
+																		4018 group
+																			4019 button translation-contract.md Description: translation-contract.md
+																			4021 text MD
+																		4022 text The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+																		4122 tool bar Message actions
+																			4123 time
+																				4124 text just now
+																			4125 button Retry
+																			4126 button Edit
+																			4127 button Copy
+																			4128 status
+																		4024 status
+																	4025 article Message 2 of 2
+																		4129 heading Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+																		4082 group
+																			4090 text Inspecting packet entries for structural anomalies and odd characters.
+																		4085 status
+																			4086 text Inspecting packet entries for structural anomalies and odd characters.
+																		4089 heading RFP COMPASS — BID COMPLIANCE CARD
+																		4091 heading 1. Opportunity identity
+																		4092 list
+																			4093 list item not in source
+																		4094 heading 2. Scope, term, and program context stated
+																		4095 list
+																			4096 list item not in source
+																		4097 heading 3. Eligibility and qualifications stated
+																		4098 list
+																			4099 list item not in source
+																		4100 heading 4. Application stages and submission mechanics stated
+																		4101 list
+																			4102 list item “Applicants must include a signed declaration.” [source: source-packet.md:S001; Appendix p.﻿12]
+																			4103 list item “Applicants must include a signed declaration.” [source: source-packet.md:S002; Appendix p.12‏]
+																			4104 list item “Applicants must include a signed declaration.” [source: source-packet.md:S003; Appendix p.12 café]
+																			4105 list item “Applicants must include a signed declaration.” [source: source-packet.md:S004; Appendix p.12 ‘A’]
+																			4106 list item “Applicants must include a signed declaration.” [source: source-packet.md:S005; Appendix page 12]
+																		4107 heading 5. Mandatory attachments and forms stated
+																		4108 list
+																			4109 list item “Applicants must include a signed declaration.” [source: source-packet.md:S001; Appendix p.﻿12]
+																			4110 list item “Applicants must include a signed declaration.” [source: source-packet.md:S002; Appendix p.12‏]
+																			4111 list item “Applicants must include a signed declaration.” [source: source-packet.md:S003; Appendix p.12 café]
+																			4113 list item “Applicants must include a signed declaration.” [source: source-packet.md:S004; Appendix p.12 ‘A’]
+																			4114 list item “Applicants must include a signed declaration.” [source: source-packet.md:S005; Appendix page 12]
+																		4115 heading 6. Dates and events stated
+																		4116 list
+																			4117 list item not in source
+																		4118 heading 7. Evaluation stated
+																		4119 list
+																			4120 list item not in source
+																		4121 heading 8. Commercial, performance, and post-award terms stated
+																		4130 list
+																			4131 list item not in source
+																		4132 heading 9. Tables, schedules, and templates
+																		4133 list
+																			4134 list item not in source
+																		4135 heading 10. Definitions, authority, and administrative terms
+																		4136 list
+																			4137 list item not in source
+																		4138 heading 11. Addenda, conflicts, and open items
+																		4139 list
+																			4140 list item not in source
+																		4141 heading 12. Unmapped source evidence
+																		4142 list
+																			4143 list item not in source
+																		4144 group Suggested actions
+																			4145 button Create a doc
+																		4146 tool bar Message actions
+																			4147 button Copy
+																			4148 status
+																			4149 button Read aloud
+																			4150 toggle button Good response
+																			4151 toggle button Bad response
+																			4152 button Retry
+																			4153 time
+																				4154 text just now
+																4112 button Scroll to bottom
+																4028 group
+																	4029 status
+																4030 status
+																4031 group
+																	4032 status
+																4033 status
+																	4070 text Permission mode is set to Auto.
+																	4071 text Claude runs on its own and pauses if anything looks unsafe. This includes using
+																	4072 link your connectors Value: https://claude.ai/customize/connectors/yours
+																	4073 text , Claude in Chrome, and apps on your computer, unless you turn them off.
+																	4074 link Learn more Value: https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork#h_e1353133dd
+																	4075 button Dismiss
+																4034 status
+																4035 status
+																4036 status
+																4037 group
+																	4038 edit (settable, string) Write your prompt to Claude Value: 
+																		4039 text 
+																	4040 status ID: skill-arg-hint-sr-o2wlcc
+																	4155 group
+																		4156 button (disabled) Send message
+																	4045 group
+																		4046 button Add files, connectors, and more ID: base-ui-_r_ojv_
+																		4047 group
+																			4157 button Dictate
+																			4048 group Use voice mode
+																				4049 button Use voice mode
+																				4050 button Microphone
+																		4079 group
+																		4051 note
+																			4052 link Claude is AI and can make mistakes. Value: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+																		4053 group
+																			4054 button Model: Opus 5.5 Medium ID: base-ui-_r_ol0_
+																				4055 text Opus 5.5
+																				4056 text 
+																				4057 text Medium
+																		4080 group
+																			4081 button Auto
+															4058 status
+																4158 text Claude finished the response
+															4060 status
+															4061 group
+													168 status
+												169 group ID: portal-root
+												170 status
+												171 group
+													172 status
+													173 region Notifications
+
+Document text: ```
+Claude
+Menu
+Show sidebar
+Back
+Forward
+Translation contract bid compliance
+￼
+More options for Translation contract bid compliance
+Claude Desktop (Windows), Connected
+Claude Desktop (Windows), Connected
+Computer actions available — press Tab until focus enters the card, Escape to return.
+Browser
+Activity panel
+Share
+￼
+Sidebar
+Resize sidebar
+￼
+￼
+￼
+Use the up and down arrow keys to move between messages.
+￼
+You said: The attached translation-contract.md supplies the six named project files.
+source-packet.md
+MD
+translation-contract.md
+MD
+The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+just now
+Retry
+Edit
+Copy
+￼
+￼
+Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+Inspecting packet entries for structural anomalies and odd characters.
+Inspecting packet entries for structural anomalies and odd characters.
+RFP COMPASS — BID COMPLIANCE CARD
+1. Opportunity identity
+• not in source
+2. Scope, term, and program context stated
+• not in source
+3. Eligibility and qualifications stated
+• not in source
+4. Application stages and submission mechanics stated
+• “Applicants must include a signed declaration.” [source: source-packet.md:S001; Appendix p.﻿12]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S002; Appendix p.12‏]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S003; Appendix p.12 café]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S004; Appendix p.12 ‘A’]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S005; Appendix page 12]
+5. Mandatory attachments and forms stated
+• “Applicants must include a signed declaration.” [source: source-packet.md:S001; Appendix p.﻿12]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S002; Appendix p.12‏]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S003; Appendix p.12 café]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S004; Appendix p.12 ‘A’]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S005; Appendix page 12]
+6. Dates and events stated
+• not in source
+7. Evaluation stated
+• not in source
+8. Commercial, performance, and post-award terms stated
+• not in source
+9. Tables, schedules, and templates
+• not in source
+10. Definitions, authority, and administrative terms
+• not in source
+11. Addenda, conflicts, and open items
+• not in source
+12. Unmapped source evidence
+• not in source
+Create a doc
+Copy
+￼
+Read aloud
+Good response
+Bad response
+Retry
+just now
+Scroll to bottom
+￼
+￼
+￼
+Permission mode is set to Auto. Claude runs on its own and pauses if anything looks unsafe. This includes using your connectors, Claude in Chrome, and apps on your computer, unless you turn them off. Learn more
+Dismiss
+￼
+￼
+￼
+￼
+￼
+Send message
+Add files, connectors, and more
+Dictate
+Use voice mode
+Microphone
+￼
+Claude is AI and can make mistakes.
+Opus 5.5 
+Medium
+Auto
+￼
+￼
+Claude finished the response
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Notifications
+```

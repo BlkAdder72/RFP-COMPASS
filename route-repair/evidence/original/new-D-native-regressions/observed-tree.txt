@@ -1,0 +1,287 @@
+Window: "Claude", App: claude.exe.
+	0 window Claude Secondary Actions: Raise
+		1 pane (disabled)
+		2 region Claude
+			3 region
+				4 region
+					5 region
+						6 button Minimize
+						7 button Maximize
+						8 button Close
+					9 region
+						10 region
+							11 region
+								12 region
+									13 document Value: file:///C:/Program%20Files/WindowsApps/Claude_3.6556.2.0_x64__pzs8sxrjxfjjc/app/resources/app.asar/.vite/renderer/main_window/index.html ID: RootWebArea
+										14 group ID: root
+								15 region
+									16 region
+										17 document Translation contract bid compliance - Claude Value: https://claude.ai/chat/d887aa9a-c34b-423a-af56-9b42e1f5aa56 ID: RootWebArea
+											18 group
+												19 group ID: root
+													4504 heading Claude
+													4505 button Menu
+													4506 group
+														4507 button Show sidebar
+													4508 button Back
+													4509 button (disabled) Forward
+													4510 group
+														4574 tool bar Page tools
+															4575 heading Translation contract bid compliance
+																4576 button Translation contract bid compliance, rename session
+															4577 group
+															4578 button More options for Translation contract bid compliance
+															4636 status
+																4728 text Claude Desktop (Windows), Connected
+																4637 button Claude Desktop (Windows), Connected ID: base-ui-_r_p20_
+																4729 text Computer actions available — press Tab until focus enters the card, Escape to return.
+															4579 group ID: dframe-header-actions-slot
+																4638 group ID: session-activity-header-toggle-slot
+																	4639 toggle button Browser
+																	4640 toggle button Activity panel
+																4641 group
+																	4642 button Share
+													4512 complementary Sidebar
+													4513 thumb Resize sidebar Value: 0
+													44 main
+														45 region Primary pane
+															4580 group
+															4581 status
+															4582 status
+															4583 group
+																4584 feed Chat messages
+																	4585 text Use the up and down arrow keys to move between messages.
+																	4586 article Message 1 of 2
+																		4587 heading You said: The attached translation-contract.md supplies the six named project files.
+																		4588 group
+																			4589 button source-packet.md Description: source-packet.md
+																			4591 text MD
+																		4592 group
+																			4593 button translation-contract.md Description: translation-contract.md
+																			4595 text MD
+																		4596 text The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+																		4699 tool bar Message actions
+																			4700 time
+																				4701 text just now
+																			4702 button Retry
+																			4703 button Edit
+																			4704 button Copy
+																			4705 status
+																		4598 status
+																	4599 article Message 2 of 2
+																		4706 heading Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+																		4655 group Weighing edge cases against multiple section triggers at once. Description: Weighing edge cases against multiple section triggers at once.
+																			4664 text Weighing edge cases against multiple section triggers at once
+																			4660 button Weighing edge cases against multiple section triggers at once
+																		4658 status
+																			4659 text Weighing edge cases against multiple section triggers at once
+																		4663 heading RFP COMPASS — BID COMPLIANCE CARD
+																		4665 heading 1. Opportunity identity
+																		4666 list
+																			4667 list item “The Council reserves the right to modify this RFP, including the selection criteria.” [source: source-packet.md:S003; Notice paragraph 3]
+																		4668 heading 2. Scope, term, and program context stated
+																		4669 list
+																			4670 list item not in source
+																		4671 heading 3. Eligibility and qualifications stated
+																		4672 list
+																			4673 list item “Applicants must meet the Government Auditing Standards independence requirements.” [source: source-packet.md:S001; Notice paragraph 1]
+																		4674 heading 4. Application stages and submission mechanics stated
+																		4675 list
+																			4676 list item “Applicants must include a signed declaration.” [source: source-packet.md:S005; Appendix café]
+																			4677 list item “Applicants must return the completed certification.” [source: source-packet.md:S006; Annex Å]
+																		4678 heading 5. Mandatory attachments and forms stated
+																		4679 list
+																			4680 list item “Applicants must include a signed declaration.” [source: source-packet.md:S005; Appendix café]
+																			4681 list item “Applicants must return the completed certification.” [source: source-packet.md:S006; Annex Å]
+																		4682 heading 6. Dates and events stated
+																		4683 list
+																			4684 list item “My birthday dinner is November 16, 2027 at 7 PM; my share is twenty dollars.” [source: source-packet.md:S008; Note paragraph 2]
+																		4685 heading 7. Evaluation stated
+																		4687 list
+																			4688 list item “Evaluation criteria are weighted at 40 points for experience and 60 points for price.” [source: source-packet.md:S004; Notice paragraph 4]
+																		4689 heading 8. Commercial, performance, and post-award terms stated
+																		4690 list
+																			4691 list item “Awarded consultants will be expected to execute a service provider agreement.” [source: source-packet.md:S002; Notice paragraph 2]
+																			4692 list item “My birthday dinner is November 16, 2027 at 7 PM; my share is twenty dollars.” [source: source-packet.md:S008; Note paragraph 2]
+																		4693 heading 9. Tables, schedules, and templates
+																		4694 list
+																			4695 list item not in source
+																		4696 heading 10. Definitions, authority, and administrative terms
+																		4697 list
+																			4698 list item “The Council reserves the right to modify this RFP, including the selection criteria.” [source: source-packet.md:S003; Notice paragraph 3]
+																		4707 heading 11. Addenda, conflicts, and open items
+																		4708 list
+																			4709 list item not in source
+																		4710 heading 12. Unmapped source evidence
+																		4711 list
+																			4712 list item “Personal calendar:” [source: source-packet.md:S007; Note paragraph 1]
+																		4713 group Suggested actions
+																			4714 button Create a doc
+																		4715 tool bar Message actions
+																			4716 button Copy
+																			4717 status
+																			4718 button Read aloud
+																			4719 toggle button Good response
+																			4720 toggle button Bad response
+																			4721 button Retry
+																			4722 time
+																				4723 text just now
+																4686 button Scroll to bottom
+																4602 group
+																	4603 status
+																4604 status
+																4605 group
+																	4606 status
+																4607 status
+																	4643 text Permission mode is set to Auto.
+																	4644 text Claude runs on its own and pauses if anything looks unsafe. This includes using
+																	4645 link your connectors Value: https://claude.ai/customize/connectors/yours
+																	4646 text , Claude in Chrome, and apps on your computer, unless you turn them off.
+																	4647 link Learn more Value: https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork#h_e1353133dd
+																	4648 button Dismiss
+																4608 status
+																4609 status
+																4610 status
+																4611 group
+																	4612 edit (settable, string) Write your prompt to Claude Value: 
+																		4613 text 
+																	4614 status ID: skill-arg-hint-sr-4ex9ko
+																	4724 group
+																		4725 button (disabled) Send message
+																	4619 group
+																		4620 button Add files, connectors, and more ID: base-ui-_r_p0k_
+																		4621 group
+																			4726 button Dictate
+																			4622 group Use voice mode
+																				4623 button Use voice mode
+																				4624 button Microphone
+																		4652 group
+																		4625 note
+																			4626 link Claude is AI and can make mistakes. Value: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+																		4627 group
+																			4628 button Model: Opus 5.5 Medium ID: base-ui-_r_p1l_
+																				4629 text Opus 5.5
+																				4630 text 
+																				4631 text Medium
+																		4653 group
+																			4654 button Auto
+															4632 status
+																4727 text Claude finished the response
+															4634 status
+															4635 group
+													168 status
+												169 group ID: portal-root
+												170 status
+												171 group
+													172 status
+													173 region Notifications
+
+Document text: ```
+Claude
+Menu
+Show sidebar
+Back
+Forward
+Translation contract bid compliance
+￼
+More options for Translation contract bid compliance
+Claude Desktop (Windows), Connected
+Claude Desktop (Windows), Connected
+Computer actions available — press Tab until focus enters the card, Escape to return.
+Browser
+Activity panel
+Share
+￼
+Sidebar
+Resize sidebar
+￼
+￼
+￼
+Use the up and down arrow keys to move between messages.
+￼
+You said: The attached translation-contract.md supplies the six named project files.
+source-packet.md
+MD
+translation-contract.md
+MD
+The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+just now
+Retry
+Edit
+Copy
+￼
+￼
+Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+Weighing edge cases against multiple section triggers at once
+￼
+Weighing edge cases against multiple section triggers at once
+RFP COMPASS — BID COMPLIANCE CARD
+1. Opportunity identity
+• “The Council reserves the right to modify this RFP, including the selection criteria.” [source: source-packet.md:S003; Notice paragraph 3]
+2. Scope, term, and program context stated
+• not in source
+3. Eligibility and qualifications stated
+• “Applicants must meet the Government Auditing Standards independence requirements.” [source: source-packet.md:S001; Notice paragraph 1]
+4. Application stages and submission mechanics stated
+• “Applicants must include a signed declaration.” [source: source-packet.md:S005; Appendix café]
+• “Applicants must return the completed certification.” [source: source-packet.md:S006; Annex Å]
+5. Mandatory attachments and forms stated
+• “Applicants must include a signed declaration.” [source: source-packet.md:S005; Appendix café]
+• “Applicants must return the completed certification.” [source: source-packet.md:S006; Annex Å]
+6. Dates and events stated
+• “My birthday dinner is November 16, 2027 at 7 PM; my share is twenty dollars.” [source: source-packet.md:S008; Note paragraph 2]
+7. Evaluation stated
+• “Evaluation criteria are weighted at 40 points for experience and 60 points for price.” [source: source-packet.md:S004; Notice paragraph 4]
+8. Commercial, performance, and post-award terms stated
+• “Awarded consultants will be expected to execute a service provider agreement.” [source: source-packet.md:S002; Notice paragraph 2]
+• “My birthday dinner is November 16, 2027 at 7 PM; my share is twenty dollars.” [source: source-packet.md:S008; Note paragraph 2]
+9. Tables, schedules, and templates
+• not in source
+10. Definitions, authority, and administrative terms
+• “The Council reserves the right to modify this RFP, including the selection criteria.” [source: source-packet.md:S003; Notice paragraph 3]
+11. Addenda, conflicts, and open items
+• not in source
+12. Unmapped source evidence
+• “Personal calendar:” [source: source-packet.md:S007; Note paragraph 1]
+Create a doc
+Copy
+￼
+Read aloud
+Good response
+Bad response
+Retry
+just now
+Scroll to bottom
+￼
+￼
+￼
+Permission mode is set to Auto. Claude runs on its own and pauses if anything looks unsafe. This includes using your connectors, Claude in Chrome, and apps on your computer, unless you turn them off. Learn more
+Dismiss
+￼
+￼
+￼
+￼
+￼
+Send message
+Add files, connectors, and more
+Dictate
+Use voice mode
+Microphone
+￼
+Claude is AI and can make mistakes.
+Opus 5.5 
+Medium
+Auto
+￼
+￼
+Claude finished the response
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Notifications
+```

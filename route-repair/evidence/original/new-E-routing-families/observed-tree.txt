@@ -1,0 +1,305 @@
+Window: "Claude", App: claude.exe.
+	0 window Claude Secondary Actions: Raise
+		1 pane (disabled)
+		2 region Claude
+			3 region
+				4 region
+					5 region
+						6 button Minimize
+						7 button Maximize
+						8 button Close
+					9 region
+						10 region
+							11 region
+								12 region
+									13 document Value: file:///C:/Program%20Files/WindowsApps/Claude_3.6556.2.0_x64__pzs8sxrjxfjjc/app/resources/app.asar/.vite/renderer/main_window/index.html ID: RootWebArea
+										14 group ID: root
+								15 region
+									16 region
+										17 document Translation contract bid compliance card - Claude Value: https://claude.ai/chat/0a37e8d5-9da9-4e00-9684-2c10f1b62e87 ID: RootWebArea
+											18 group
+												19 group ID: root
+													5074 heading Claude
+													5075 button Menu
+													5076 group
+														5077 button Show sidebar
+													5078 button Back
+													5079 button (disabled) Forward
+													5080 group
+														5119 tool bar Page tools
+															5120 heading Translation contract bid compliance card
+																5121 button Translation contract bid compliance card, rename session
+															5122 group
+															5123 button More options for Translation contract bid compliance card
+															5181 status
+																5207 text Claude Desktop (Windows), Connected
+																5182 button Claude Desktop (Windows), Connected ID: base-ui-_r_pem_
+																5183 text Computer actions available — press Tab until focus enters the card, Escape to return.
+															5124 group ID: dframe-header-actions-slot
+																5184 group ID: session-activity-header-toggle-slot
+																	5185 toggle button Browser
+																	5186 toggle button Activity panel
+																5187 group
+																	5188 button Share
+													5082 complementary Sidebar
+													5083 thumb Resize sidebar Value: 0
+													44 main
+														45 region Primary pane
+															5125 group
+															5126 status
+															5127 status
+															5128 group
+																5129 feed Chat messages
+																	5130 text Use the up and down arrow keys to move between messages.
+																	5131 article Message 1 of 2
+																		5132 heading You said: The attached translation-contract.md supplies the six named project files.
+																		5133 group
+																			5134 button source-packet.md Description: source-packet.md
+																			5136 text MD
+																		5137 group
+																			5138 button translation-contract.md Description: translation-contract.md
+																			5140 text MD
+																		5141 text The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+																		5208 tool bar Message actions
+																			5209 time
+																				5210 text just now
+																			5211 button Retry
+																			5212 button Edit
+																			5213 button Copy
+																			5214 status
+																		5143 status
+																	5144 article Message 2 of 2
+																		5215 heading Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+																		5202 group Routing each clause to its matching requirement categories. Description: Routing each clause to its matching requirement categories.
+																			5216 text Routing each clause to its matching requirement categories
+																			5217 button Routing each clause to its matching requirement categories
+																		5205 status
+																			5206 text Routing each clause to its matching requirement categories
+																		5218 heading RFP COMPASS — BID COMPLIANCE CARD
+																		5219 heading 1. Opportunity identity
+																		5220 list
+																			5221 list item not in source
+																		5222 heading 2. Scope, term, and program context stated
+																		5223 list
+																			5224 list item not in source
+																		5225 heading 3. Eligibility and qualifications stated
+																		5226 list
+																			5227 list item not in source
+																		5228 heading 4. Application stages and submission mechanics stated
+																		5229 list
+																			5230 list item “Deliver proposals to Naomi Reed at bids@example.org by November 21, 2027 at 2 PM.” [source: source-packet.md:S006; Instructions paragraph 1]
+																				5231 link bids@example.org Value: mailto:bids@example.org
+																			5232 list item “Respondents must include a completed fee schedule.” [source: source-packet.md:S007; Instructions paragraph 2]
+																			5233 list item “Respondents must include a technical narrative.” [source: source-packet.md:S008; Instructions paragraph 3]
+																		5234 heading 5. Mandatory attachments and forms stated
+																		5235 list
+																			5236 list item “Respondents must include a completed fee schedule.” [source: source-packet.md:S007; Instructions paragraph 2]
+																			5237 list item “Respondents must include a technical narrative.” [source: source-packet.md:S008; Instructions paragraph 3]
+																		5238 heading 6. Dates and events stated
+																		5239 list
+																			5240 list item “For my birthday, email me at lee@example.net; dinner costs twenty dollars.” [source: source-packet.md:S002; Private note paragraph 2]
+																				5241 link lee@example.net Value: mailto:lee@example.net
+																			5242 list item “Deliver proposals to Naomi Reed at bids@example.org by November 21, 2027 at 2 PM.” [source: source-packet.md:S006; Instructions paragraph 1]
+																				5243 link bids@example.org Value: mailto:bids@example.org
+																		5244 heading 7. Evaluation stated
+																		5245 list
+																			5246 list item “Proposals will be scored using 40 points for experience and 60 points for price.” [source: source-packet.md:S005; Notice paragraph 2]
+																		5247 heading 8. Commercial, performance, and post-award terms stated
+																		5248 list
+																			5249 list item “For my birthday, email me at lee@example.net; dinner costs twenty dollars.” [source: source-packet.md:S002; Private note paragraph 2]
+																				5250 link lee@example.net Value: mailto:lee@example.net
+																			5251 list item “Respondents must include a completed fee schedule.” [source: source-packet.md:S007; Instructions paragraph 2]
+																			5252 list item “The supplier may propose an alternative payment schedule after award.” [source: source-packet.md:S009; Terms paragraph 1]
+																		5253 heading 9. Tables, schedules, and templates
+																		5254 list
+																			5255 list item not in source
+																		5256 heading 10. Definitions, authority, and administrative terms
+																		5257 list
+																			5258 list item “For my birthday, email me at lee@example.net; dinner costs twenty dollars.” [source: source-packet.md:S002; Private note paragraph 2]
+																				5259 link lee@example.net Value: mailto:lee@example.net
+																			5260 list item “The Authority may revise this solicitation, including its selection criteria, at its discretion.” [source: source-packet.md:S004; Notice paragraph 1]
+																			5261 list item “Deliver proposals to Naomi Reed at bids@example.org by November 21, 2027 at 2 PM.” [source: source-packet.md:S006; Instructions paragraph 1]
+																				5262 link bids@example.org Value: mailto:bids@example.org
+																		5263 heading 11. Addenda, conflicts, and open items
+																		5264 list
+																			5265 list item “No amendment has been issued.” [source: source-packet.md:S010; Status paragraph 1]
+																		5266 heading 12. Unmapped source evidence
+																		5267 list
+																			5268 list item “Personal correspondence (outside procurement):” [source: source-packet.md:S001; Private note paragraph 1]
+																			5269 list item “End of personal correspondence.” [source: source-packet.md:S003; Private note paragraph 3]
+																		5270 group Suggested actions
+																			5271 button Create a doc
+																		5272 tool bar Message actions
+																			5273 button Copy
+																			5274 status
+																			5275 button Read aloud
+																			5276 toggle button Good response
+																			5277 toggle button Bad response
+																			5278 button Retry
+																			5279 time
+																				5280 text just now
+																5285 button Scroll to bottom
+																5147 group
+																	5148 status
+																5149 status
+																5150 group
+																	5151 status
+																5152 status
+																	5189 text Permission mode is set to Auto.
+																	5190 text Claude runs on its own and pauses if anything looks unsafe. This includes using
+																	5191 link your connectors Value: https://claude.ai/customize/connectors/yours
+																	5192 text , Claude in Chrome, and apps on your computer, unless you turn them off.
+																	5193 link Learn more Value: https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork#h_e1353133dd
+																	5194 button Dismiss
+																5153 status
+																5154 status
+																5155 status
+																5156 group
+																	5157 edit (settable, string) Write your prompt to Claude Value: 
+																		5201 text 
+																	5159 status ID: skill-arg-hint-sr-6y3ovc
+																	5281 group
+																		5282 button (disabled) Send message
+																	5164 group
+																		5165 button Add files, connectors, and more ID: base-ui-_r_pd9_
+																		5166 group
+																			5283 button Dictate
+																			5167 group Use voice mode
+																				5168 button Use voice mode
+																				5169 button Microphone
+																		5198 group
+																		5170 note
+																			5171 link Claude is AI and can make mistakes. Value: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+																		5172 group
+																			5173 button Model: Opus 5.5 Medium ID: base-ui-_r_pea_
+																				5174 text Opus 5.5
+																				5175 text 
+																				5176 text Medium
+																		5199 group
+																			5200 button Auto
+															5177 status
+																5284 text Claude finished the response
+															5179 status
+															5180 group
+													168 status
+												169 group ID: portal-root
+												170 status
+												171 group
+													172 status
+													173 region Notifications
+
+Document text: ```
+Claude
+Menu
+Show sidebar
+Back
+Forward
+Translation contract bid compliance card
+￼
+More options for Translation contract bid compliance card
+Claude Desktop (Windows), Connected
+Claude Desktop (Windows), Connected
+Computer actions available — press Tab until focus enters the card, Escape to return.
+Browser
+Activity panel
+Share
+￼
+Sidebar
+Resize sidebar
+￼
+￼
+￼
+Use the up and down arrow keys to move between messages.
+￼
+You said: The attached translation-contract.md supplies the six named project files.
+source-packet.md
+MD
+translation-contract.md
+MD
+The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+just now
+Retry
+Edit
+Copy
+￼
+￼
+Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+Routing each clause to its matching requirement categories
+￼
+Routing each clause to its matching requirement categories
+RFP COMPASS — BID COMPLIANCE CARD
+1. Opportunity identity
+• not in source
+2. Scope, term, and program context stated
+• not in source
+3. Eligibility and qualifications stated
+• not in source
+4. Application stages and submission mechanics stated
+• “Deliver proposals to Naomi Reed at bids@example.org by November 21, 2027 at 2 PM.” [source: source-packet.md:S006; Instructions paragraph 1]
+• “Respondents must include a completed fee schedule.” [source: source-packet.md:S007; Instructions paragraph 2]
+• “Respondents must include a technical narrative.” [source: source-packet.md:S008; Instructions paragraph 3]
+5. Mandatory attachments and forms stated
+• “Respondents must include a completed fee schedule.” [source: source-packet.md:S007; Instructions paragraph 2]
+• “Respondents must include a technical narrative.” [source: source-packet.md:S008; Instructions paragraph 3]
+6. Dates and events stated
+• “For my birthday, email me at lee@example.net; dinner costs twenty dollars.” [source: source-packet.md:S002; Private note paragraph 2]
+• “Deliver proposals to Naomi Reed at bids@example.org by November 21, 2027 at 2 PM.” [source: source-packet.md:S006; Instructions paragraph 1]
+7. Evaluation stated
+• “Proposals will be scored using 40 points for experience and 60 points for price.” [source: source-packet.md:S005; Notice paragraph 2]
+8. Commercial, performance, and post-award terms stated
+• “For my birthday, email me at lee@example.net; dinner costs twenty dollars.” [source: source-packet.md:S002; Private note paragraph 2]
+• “Respondents must include a completed fee schedule.” [source: source-packet.md:S007; Instructions paragraph 2]
+• “The supplier may propose an alternative payment schedule after award.” [source: source-packet.md:S009; Terms paragraph 1]
+9. Tables, schedules, and templates
+• not in source
+10. Definitions, authority, and administrative terms
+• “For my birthday, email me at lee@example.net; dinner costs twenty dollars.” [source: source-packet.md:S002; Private note paragraph 2]
+• “The Authority may revise this solicitation, including its selection criteria, at its discretion.” [source: source-packet.md:S004; Notice paragraph 1]
+• “Deliver proposals to Naomi Reed at bids@example.org by November 21, 2027 at 2 PM.” [source: source-packet.md:S006; Instructions paragraph 1]
+11. Addenda, conflicts, and open items
+• “No amendment has been issued.” [source: source-packet.md:S010; Status paragraph 1]
+12. Unmapped source evidence
+• “Personal correspondence (outside procurement):” [source: source-packet.md:S001; Private note paragraph 1]
+• “End of personal correspondence.” [source: source-packet.md:S003; Private note paragraph 3]
+Create a doc
+Copy
+￼
+Read aloud
+Good response
+Bad response
+Retry
+just now
+Scroll to bottom
+￼
+￼
+￼
+Permission mode is set to Auto. Claude runs on its own and pauses if anything looks unsafe. This includes using your connectors, Claude in Chrome, and apps on your computer, unless you turn them off. Learn more
+Dismiss
+￼
+￼
+￼ 
+￼
+￼
+Send message
+Add files, connectors, and more
+Dictate
+Use voice mode
+Microphone
+￼
+Claude is AI and can make mistakes.
+Opus 5.5 
+Medium
+Auto
+￼
+￼
+Claude finished the response
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Notifications
+```
