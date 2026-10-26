@@ -1,0 +1,19 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\inputs\\new-B-personal-boundaries\\source-packet.md",
+  "source_sha256": "e32cb2db7080206e691c0f91dd23326afb85228fe3819ecf4b36032815d2b430",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-B-personal-boundaries\\raw-response.md",
+      "raw_sha256": "5b916c0a0964fe5d5c360328a140b29c2a404a3535075def4f9cce4a2c1b2f4b",
+      "output": "part-01.md",
+      "output_sha256": "5b916c0a0964fe5d5c360328a140b29c2a404a3535075def4f9cce4a2c1b2f4b",
+      "changes": []
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": [
+    "PERSONAL HINT FILTER: S002, S003, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof"
+  ]
+}

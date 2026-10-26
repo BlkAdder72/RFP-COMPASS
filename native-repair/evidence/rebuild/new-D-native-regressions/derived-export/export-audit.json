@@ -1,0 +1,148 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\inputs\\new-D-native-regressions\\source-packet.md",
+  "source_sha256": "d25171a4982fb1a4485201735262a1fd9d1ee53ffb1fbab696bd05ada0be9254",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md",
+      "raw_sha256": "86c69771c4ce10da81a5e562ac0427e59b62de238f0cd01666f1b3ebf2554ab9",
+      "output": "part-01.md",
+      "output_sha256": "07b53abde14603245d095d401f8e52c09f3b78ddc5ad31e9c87dc7fea3e06baf",
+      "changes": [
+        {
+          "line": 9,
+          "id": "S005",
+          "field": "anchor",
+          "before": "Appendix café",
+          "after": "Appendix café",
+          "before_codepoints": [
+            "U+0041",
+            "U+0070",
+            "U+0070",
+            "U+0065",
+            "U+006E",
+            "U+0064",
+            "U+0069",
+            "U+0078",
+            "U+0020",
+            "U+0063",
+            "U+0061",
+            "U+0066",
+            "U+00E9"
+          ],
+          "after_codepoints": [
+            "U+0041",
+            "U+0070",
+            "U+0070",
+            "U+0065",
+            "U+006E",
+            "U+0064",
+            "U+0069",
+            "U+0078",
+            "U+0020",
+            "U+0063",
+            "U+0061",
+            "U+0066",
+            "U+0065",
+            "U+0301"
+          ]
+        },
+        {
+          "line": 10,
+          "id": "S006",
+          "field": "anchor",
+          "before": "Annex Å",
+          "after": "Annex Å",
+          "before_codepoints": [
+            "U+0041",
+            "U+006E",
+            "U+006E",
+            "U+0065",
+            "U+0078",
+            "U+0020",
+            "U+00C5"
+          ],
+          "after_codepoints": [
+            "U+0041",
+            "U+006E",
+            "U+006E",
+            "U+0065",
+            "U+0078",
+            "U+0020",
+            "U+0041",
+            "U+030A"
+          ]
+        },
+        {
+          "line": 12,
+          "id": "S005",
+          "field": "anchor",
+          "before": "Appendix café",
+          "after": "Appendix café",
+          "before_codepoints": [
+            "U+0041",
+            "U+0070",
+            "U+0070",
+            "U+0065",
+            "U+006E",
+            "U+0064",
+            "U+0069",
+            "U+0078",
+            "U+0020",
+            "U+0063",
+            "U+0061",
+            "U+0066",
+            "U+00E9"
+          ],
+          "after_codepoints": [
+            "U+0041",
+            "U+0070",
+            "U+0070",
+            "U+0065",
+            "U+006E",
+            "U+0064",
+            "U+0069",
+            "U+0078",
+            "U+0020",
+            "U+0063",
+            "U+0061",
+            "U+0066",
+            "U+0065",
+            "U+0301"
+          ]
+        },
+        {
+          "line": 13,
+          "id": "S006",
+          "field": "anchor",
+          "before": "Annex Å",
+          "after": "Annex Å",
+          "before_codepoints": [
+            "U+0041",
+            "U+006E",
+            "U+006E",
+            "U+0065",
+            "U+0078",
+            "U+0020",
+            "U+00C5"
+          ],
+          "after_codepoints": [
+            "U+0041",
+            "U+006E",
+            "U+006E",
+            "U+0065",
+            "U+0078",
+            "U+0020",
+            "U+0041",
+            "U+030A"
+          ]
+        }
+      ]
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": [
+    "PERSONAL HINT FILTER: S008; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof"
+  ]
+}

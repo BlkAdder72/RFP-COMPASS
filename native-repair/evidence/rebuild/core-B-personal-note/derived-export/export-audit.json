@@ -1,0 +1,20 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\inputs\\core-B-personal-note\\source-packet.md",
+  "source_sha256": "8f9eea159395293aa85be724ed990e6cd80a373c39e7d1e6171a2a3bdd776567",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md",
+      "raw_sha256": "8fbaaf66490bdb1f246f11a3776f2026e739f6fd1015681c6d6478db38a03403",
+      "output": "part-01.md",
+      "output_sha256": "8fbaaf66490bdb1f246f11a3776f2026e739f6fd1015681c6d6478db38a03403",
+      "changes": []
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": [
+    "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\derived-export\\validation-inputs\\part-01.md: S003 look like dates or times but are not in Section 6; confirm that is intended",
+    "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\derived-export\\validation-inputs\\part-01.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most"
+  ]
+}

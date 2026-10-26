@@ -1,0 +1,30 @@
+{
+  "arm-validator": {
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\inputs\\core-B-personal-note\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md"
+    ],
+    "exit_code": 0,
+    "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: S003 look like dates or times but are not in Section 6; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  "common-strict": {
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\inputs\\core-B-personal-note\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md"
+    ],
+    "exit_code": 0,
+    "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: S003 look like dates or times but are not in Section 6; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  }
+}

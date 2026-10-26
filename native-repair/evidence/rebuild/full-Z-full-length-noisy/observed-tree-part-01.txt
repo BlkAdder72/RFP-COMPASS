@@ -1,0 +1,422 @@
+Window: "Claude", App: claude.exe.
+	0 window Claude Secondary Actions: Raise
+		1 pane (disabled)
+		2 region Claude
+			3 region
+				4 region
+					5 region
+						6 button Minimize
+						7 button Maximize
+						8 button Close
+					9 region
+						10 region
+							11 region
+								12 region
+									13 document Value: file:///C:/Program%20Files/WindowsApps/Claude_3.6556.2.0_x64__pzs8sxrjxfjjc/app/resources/app.asar/.vite/renderer/main_window/index.html ID: RootWebArea
+										14 group ID: root
+								15 region
+									16 region
+										17 document Translation contract bid compliance card - Claude Value: https://claude.ai/chat/6222ae61-2262-4c9b-94a8-8802914e5ac5 ID: RootWebArea
+											18 group
+												19 group ID: root
+													11486 heading Claude
+													11487 button Menu
+													11488 group
+														11489 button Show sidebar
+													11490 button Back
+													11491 button (disabled) Forward
+													11492 group
+														11559 tool bar Page tools
+															11560 heading Translation contract bid compliance card
+																11561 button Translation contract bid compliance card, rename session
+															11562 group
+															11563 button More options for Translation contract bid compliance card
+															11621 status
+																11800 text Claude Desktop (Windows), Connected
+																11622 button Claude Desktop (Windows), Connected ID: base-ui-_r_lbn_
+																11801 text Computer actions available — press Tab until focus enters the card, Escape to return.
+															11564 group ID: dframe-header-actions-slot
+																11623 group ID: session-activity-header-toggle-slot
+																	11624 toggle button Browser
+																	11625 toggle button Activity panel
+																11626 group
+																	11627 button Share
+													11494 complementary Sidebar
+													11495 thumb Resize sidebar Value: 0
+													44 main
+														45 region Primary pane
+															11565 group
+															11566 status
+															11567 status
+															11568 group
+																11569 feed Chat messages
+																	11570 text Use the up and down arrow keys to move between messages.
+																	11571 article Message 1 of 2
+																		11572 heading You said: The attached translation-contract.md supplies the six named project files.
+																		11573 group
+																			11574 button translation-contract.md Description: translation-contract.md
+																			11576 text MD
+																		11577 group
+																			11578 button source-packet.md Description: source-packet.md
+																			11580 text MD
+																		11581 text The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+																		11802 tool bar Message actions
+																			11803 time
+																				11804 text 2 minutes ago
+																			11805 button Retry
+																			11806 button Edit
+																			11807 button Copy
+																			11808 status
+																		11583 status
+																	11584 article Message 2 of 2
+																		11809 heading Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+																		11640 group Deciding where to split sections within the bullet limit. Description: Deciding where to split sections within the bullet limit.
+																			11658 text Deciding where to split sections within the bullet limit
+																			11645 button Deciding where to split sections within the bullet limit
+																		11643 status
+																			11644 text Deciding where to split sections within the bullet limit
+																		11657 heading RFP COMPASS — BID COMPLIANCE CARD
+																		11659 heading 1. Opportunity identity
+																		11660 list
+																			11661 list item “FROM: Maria Robles, Manager of Administration/Public Information, TBRPC” [source: source-packet.md:S001; TBRPC Auditing RFP p. 1 memo header]
+																			11662 list item “RE: Request for Proposals: Auditing Services for Tampa Bay Regional Planning Council (TBRPC)” [source: source-packet.md:S003; TBRPC Auditing RFP p. 1 memo header]
+																			11663 list item “The Tampa Bay Regional Planning Council (TBRPC) is seeking proposals from qualified independent auditors to provide auditing services.” [source: source-packet.md:S004; TBRPC Auditing RFP p. 1 memo body]
+																			11664 list item “The Tampa Bay Regional Planning Council (TBRPC) brings together governments to coordinate planning for the community’s future and provides an opportunity for sharing solutions among the local government jurisdictions in the six-county Tampa Bay region.” [source: source-packet.md:S010; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+																			11665 list item “The Tampa Bay Regional Planning Council (TBRPC) is seeking proposals from qualified independent auditors to provide auditing services.” [source: source-packet.md:S020; TBRPC Auditing RFP p. 3 §2 Introduction]
+																		11666 heading 2. Scope, term, and program context stated
+																		11667 list
+																			11668 list item “RE: Request for Proposals: Auditing Services for Tampa Bay Regional Planning Council (TBRPC)” [source: source-packet.md:S003; TBRPC Auditing RFP p. 1 memo header]
+																			11669 list item “The Tampa Bay Regional Planning Council (TBRPC) is seeking proposals from qualified independent auditors to provide auditing services.” [source: source-packet.md:S004; TBRPC Auditing RFP p. 1 memo body]
+																			11670 list item “The Tampa Bay Regional Planning Council (TBRPC) brings together governments to coordinate planning for the community’s future and provides an opportunity for sharing solutions among the local government jurisdictions in the six-county Tampa Bay region.” [source: source-packet.md:S010; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+																			11672 list item “The TBRPC was established as Florida’s first regional planning council in 1962, when representatives from St. Petersburg, Clearwater, and Tampa recognized the need for regional coordination.” [source: source-packet.md:S011; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+																			11673 list item “They believed growth and community issues extend beyond county and municipal boundaries, a concept that still defines the Council’s purpose today.” [source: source-packet.md:S012; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+																			11674 list item “The TBRPC is one of ten regional planning councils in Florida.” [source: source-packet.md:S013; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+																			11675 list item “The Council’s fiscal year is October 1st through September 30th.” [source: source-packet.md:S014; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+																			11676 list item “The Council currently uses QBO accounting software and will be converting to AccuFund for fiscal year 2027.” [source: source-packet.md:S015; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+																			11677 list item “The Council maintains one main operating checking account.” [source: source-packet.md:S016; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+																			11678 list item “Total accounts payable and payroll transactions issued throughout the year total approximately 1,000.” [source: source-packet.md:S017; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+																			11679 list item “The current operating budget is $3.7 million.” [source: source-packet.md:S018; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+																			11680 list item “The Council may require a single audit to be performed depending on the federal funding levels.” [source: source-packet.md:S019; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+																			11681 list item “The Tampa Bay Regional Planning Council (TBRPC) is seeking proposals from qualified independent auditors to provide auditing services.” [source: source-packet.md:S020; TBRPC Auditing RFP p. 3 §2 Introduction]
+																			11682 list item “The RFP will be for the fiscal years ending September 30, 2026, 2027, and 2028.” [source: source-packet.md:S022; TBRPC Auditing RFP p. 3 §2 Introduction]
+																			11683 list item “The contract for the fiscal years ending in 2027 and 2028 may be terminated by either party in writing no later than September 30, 2027, and September 30, 2028, respectively.” [source: source-packet.md:S023; TBRPC Auditing RFP p. 3 §2 Introduction]
+																			11684 list item “Audits shall be performed in accordance with the following:” [source: source-packet.md:S025; TBRPC Auditing RFP p. 3 §3 Scope of Services]
+																			11685 list item “Generally accepted auditing standards in the United States of America;” [source: source-packet.md:S026; TBRPC Auditing RFP p. 3 §3 auditing standards bullet]
+																			11686 list item “Government Auditing Standards, as issued by the Comptroller General of the United States;” [source: source-packet.md:S027; TBRPC Auditing RFP p. 4 §3 auditing standards bullet]
+																			11687 list item “The requirements of the State of Florida and the rules and regulations of the Auditor General;” [source: source-packet.md:S028; TBRPC Auditing RFP p. 4 §3 auditing standards bullet]
+																			11688 list item “Uniform Guidance (2 CFR 200) and Section 215.97 Florida Statutes, Single Audit Act;” [source: source-packet.md:S029; TBRPC Auditing RFP p. 4 §3 auditing standards bullet]
+																			11689 list item “Title 2 U.S. Code of Federal Regulations Part 200, Uniform Administrative Requirements Cost Principles, and Audit Requirements for Federal Awards (Uniform Guidance); and” [source: source-packet.md:S030; TBRPC Auditing RFP p. 4 §3 auditing standards bullet]
+																			11690 list item “Any other applicable Federal, State, and local laws or regulations.” [source: source-packet.md:S031; TBRPC Auditing RFP p. 4 §3 auditing standards bullet]
+																			11691 list item “The respondent will be required to complete the following deliverables:” [source: source-packet.md:S032; TBRPC Auditing RFP p. 4 §3 Scope of Services]
+																			11692 list item “Conduct a financial audit and a compliance audit in accordance with auditing standards detailed in Section II. C. Required Auditing Standards To Be Followed above.” [source: source-packet.md:S033; TBRPC Auditing RFP p. 4 §3 deliverables bullet]
+																			11693 list item “Complete a report on the fair presentation of the financial statements in conformity with generally accepted accounting principles (GAAP).” [source: source-packet.md:S034; TBRPC Auditing RFP p. 4 §3 deliverables bullet]
+																			11694 list item “Complete a report on internal control over financial reporting and on compliance and other matters based on an audit of the financial statement performed in accordance with Governmental Auditing Standards and a communication of internal control matters identified in the audit to those charged with governance and management.” [source: source-packet.md:S035; TBRPC Auditing RFP p. 4 §3 deliverables bullet]
+																			11695 list item “Complete a report on compliance for each major federal program and on internal control over compliance required by the Uniform Guidance and Chapter 10.550, Rules of the Auditor General and the Florida Single Audit Act, Section 215.97, Florida Statutes, as applicable.” [source: source-packet.md:S036; TBRPC Auditing RFP p. 4 §3 deliverables bullet]
+																			11696 list item “Present the audit to the Council’s Personnel, Executive Budget Committee, and Council Board.” [source: source-packet.md:S037; TBRPC Auditing RFP p. 4 §3 deliverables bullet]
+																			11697 list item “Prepare the Data Collection Form for Reporting on Audits of States, Local Governments, and Non-Profit Organizations as required by Uniform Guidance.” [source: source-packet.md:S038; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+																			11698 list item “Serve as audit and accounting consultant to the Council throughout the agreement period and as such provide necessary information and assistance on an as needed basis.” [source: source-packet.md:S039; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+																			11699 list item “Prepare all required tax returns for the Council.” [source: source-packet.md:S040; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+																			11700 list item “The Council is required to file one 990 Return of Organization Exempt from Income Tax.” [source: source-packet.md:S041; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+																			11701 list item “If the Auditing Firm, due to one or more accounting and/or reporting deficiencies, is required to give advice, testimony, or other such activity not within the scope of rendering, confirming, or justifying a report of audit services rendered, such service will be made without an additional charge to the Council.” [source: source-packet.md:S042; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+																			11702 list item “The Auditing Firm will obtain corrective action and submit audit reports to appropriate agencies.” [source: source-packet.md:S043; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+																			11703 list item “Any preliminary findings of possible fraud, misapplication or misappropriation of funds shall be immediately reported to the Executive Director of the Council.” [source: source-packet.md:S044; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+																			11704 list item “I. Terms of Agreement. It is expected that the contract shall be a three-year fixed-price contract.” [source: source-packet.md:S133; TBRPC Auditing RFP p. 12 §10.I]
+																			11705 list item “The contract is for audits of fiscal years 2026, 2027, and 2028.” [source: source-packet.md:S134; TBRPC Auditing RFP p. 12 §10.I]
+																			11706 list item “At the discretion of the Council, this audit contract can be renewed for up to three additional years.” [source: source-packet.md:S135; TBRPC Auditing RFP p. 12 §10.I]
+																			11707 list item “The audit should be completed in February of the year following the end of the fiscal year.” [source: source-packet.md:S137; TBRPC Auditing RFP p. 12 §10.I]
+																		11708 heading 3. Eligibility and qualifications stated
+																		11709 list
+																			11710 list item “The Consultant must have sufficient governmental accounting and auditing experience in performing an audit in accordance with the specifications outlined in this Request for Proposal (RFP).” [source: source-packet.md:S005; TBRPC Auditing RFP p. 1 memo body]
+																			11711 list item “The auditor must have sufficient governmental accounting and auditing experience in performing an audit in accordance with the specifications outlined in this Request for Proposal (RFP).” [source: source-packet.md:S021; TBRPC Auditing RFP p. 3 §2 Introduction]
+																			11712 list item “Auditor must meet the following minimum qualifications to be considered responsive to this RFP:” [source: source-packet.md:S045; TBRPC Auditing RFP p. 5 §4 Minimum Qualifications]
+																			11713 list item “I. The firm must have been established as a legal entity in the State of Florida and have performed continuous CPA services for a minimum of (5) years.” [source: source-packet.md:S046; TBRPC Auditing RFP p. 5 §4.I]
+																			11714 list item “II. The firm must submit an affirmation that proposer meets Government Auditing Standards independence requirements, as published by the U.S. General Accounting Office.” [source: source-packet.md:S047; TBRPC Auditing RFP p. 5 §4.II]
+																			11715 list item “III. Government Auditing Standards require the Certified Public Accountant in charge of the audit to have completed, within the preceding 2 years, at least 24 hours of continuing professional education that directly relates to government auditing and will enhance the professional proficiency of the auditor to perform audits or attestation agreements.” [source: source-packet.md:S048; TBRPC Auditing RFP p. 5 §4.III]
+																			11716 list item “IV. The firm must clearly state the government expertise of its staff at the local office level that will be assigned to this project in its proposal.” [source: source-packet.md:S049; TBRPC Auditing RFP p. 6 §4.IV]
+																			11717 list item “b. Indicate that the auditor has the availability and time to dedicate the personnel and resources necessary to provide auditing services and an affirmative statement that it is independent of TBRPC as defined by generally accepted auditing standards and the U.S. General Accounting Office’s Government Auditing Standards (2003).” [source: source-packet.md:S056; TBRPC Auditing RFP p. 6 §5.I.b]
+																			11718 list item “c. License to Practice in Florida – An affirmative statement should be included that the firm and/or its partners are properly licensed to practice in Florida, and all supervisory staff are licensed or qualified to be licensed to practice in Florida.” [source: source-packet.md:S057; TBRPC Auditing RFP p. 6 §5.I.c]
+																			11719 list item “d. Indicate that the auditor has the minimum qualifications listed in Section 4 above.” [source: source-packet.md:S058; TBRPC Auditing RFP p. 6 §5.I.d]
+																		11720 heading 4. Application stages and submission mechanics stated
+																		11721 list
+																			11722 list item “II. The firm must submit an affirmation that proposer meets Government Auditing Standards independence requirements, as published by the U.S. General Accounting Office.” [source: source-packet.md:S047; TBRPC Auditing RFP p. 5 §4.II]
+																			11723 list item “IV. The firm must clearly state the government expertise of its staff at the local office level that will be assigned to this project in its proposal.” [source: source-packet.md:S049; TBRPC Auditing RFP p. 6 §4.IV]
+																			11724 list item “All submittals must follow the format guidelines and content requirements listed below.” [source: source-packet.md:S050; TBRPC Auditing RFP p. 6 §5 Submittal Content, Format, and Instructions]
+																			11725 list item “Nonconforming submittals may be rejected as nonresponsive.” [source: source-packet.md:S051; TBRPC Auditing RFP p. 6 §5 Submittal Content, Format, and Instructions]
+																			11726 list item “I. Letter of Interest (5 pages maximum).” [source: source-packet.md:S052; TBRPC Auditing RFP p. 6 §5.I]
+																			11727 list item “Please include in the submittal a letter introducing the auditor and expressing the auditor’s interest in being considered for auditing services.” [source: source-packet.md:S053; TBRPC Auditing RFP p. 6 §5.I]
+																			11728 list item “The letter of interest should also include all the following:” [source: source-packet.md:S054; TBRPC Auditing RFP p. 6 §5.I]
+																			11729 list item “a. Describe the organization and provide the name of the entity, its mailing address, and telephone number.” [source: source-packet.md:S055; TBRPC Auditing RFP p. 6 §5.I.a]
+																			11730 list item “b. Indicate that the auditor has the availability and time to dedicate the personnel and resources necessary to provide auditing services and an affirmative statement that it is independent of TBRPC as defined by generally accepted auditing standards and the U.S. General Accounting Office’s Government Auditing Standards (2003).” [source: source-packet.md:S056; TBRPC Auditing RFP p. 6 §5.I.b]
+																			11731 list item “c. License to Practice in Florida – An affirmative statement should be included that the firm and/or its partners are properly licensed to practice in Florida, and all supervisory staff are licensed or qualified to be licensed to practice in Florida.” [source: source-packet.md:S057; TBRPC Auditing RFP p. 6 §5.I.c]
+																			11732 list item “d. Indicate that the auditor has the minimum qualifications listed in Section 4 above.” [source: source-packet.md:S058; TBRPC Auditing RFP p. 6 §5.I.d]
+																			11733 list item “e. Indicate the intention of the auditor to adhere to the provisions described in the RFP.” [source: source-packet.md:S059; TBRPC Auditing RFP p. 6 §5.I.e]
+																			11734 list item “Include a statement of the Auditing Firm’s understanding of the work to be performed.” [source: source-packet.md:S060; TBRPC Auditing RFP p. 6 §5.I.e]
+																			11735 list item “Include time estimates for completion of the audit.” [source: source-packet.md:S061; TBRPC Auditing RFP p. 6 §5.I.e]
+																			11736 list item “f. Identify the contact person responsible for the submittal, specifying the name, title, and contact information.” [source: source-packet.md:S062; TBRPC Auditing RFP p. 6 §5.I.f]
+																			11737 list item “Note that the person signing the letter of interest must be a legal representative authorized to bind the auditor to an agreement in the event of an award.” [source: source-packet.md:S063; TBRPC Auditing RFP p. 6 §5.I.f]
+																			11738 list item “II. Relevant Experience of Key Personnel and the Firm (10 pages maximum).” [source: source-packet.md:S064; TBRPC Auditing RFP p. 7 §5.II]
+																			11739 list item “a. Key Personnel Experience. The submittal must include resumes of the key personnel that are to be assigned if awarded a contract, detailing their qualifications, certifications, and areas of expertise.” [source: source-packet.md:S065; TBRPC Auditing RFP p. 7 §5.II.a]
+																			11740 list item “Indicate whether each person is registered or licensed to practice as a Certified Public Accountant in Florida.” [source: source-packet.md:S066; TBRPC Auditing RFP p. 7 §5.II.a]
+																			11741 list item “Provide information on the government auditing experience of each person, including information on relevant continuing professional education for the past three (3) years and membership in professional organizations relevant to the performance of this audit.” [source: source-packet.md:S067; TBRPC Auditing RFP p. 7 §5.II.a]
+																			11742 list item “b. Firm Experience. The Auditing Firm should describe its prior auditing experience.” [source: source-packet.md:S068; TBRPC Auditing RFP p. 7 §5.II.b]
+																			11743 list item “It should include the following categories:” [source: source-packet.md:S069; TBRPC Auditing RFP p. 7 §5.II.b]
+																			11744 list item “Prior experience with performing audits in accordance with the auditing standards.” [source: source-packet.md:S070; TBRPC Auditing RFP p. 7 §5.II.b bullet]
+																			11745 list item “Prior experience auditing similar multi-funded programs funded by the State of Florida and the Federal Government.” [source: source-packet.md:S071; TBRPC Auditing RFP p. 7 §5.II.b bullet]
+																			11746 list item “The Auditing Firm must include a copy of the most recent peer review report, the related letters of comments, and the firm’s response to the letter of comments.” [source: source-packet.md:S072; TBRPC Auditing RFP p. 7 §5.II.b bullet]
+																			11747 list item “c. General Firm Information. General firm information including the number of employees, location of firm headquarters, branch offices, and number of years in business may also be provided.” [source: source-packet.md:S073; TBRPC Auditing RFP p. 7 §5.II.c]
+																			11748 list item “Please note that general firm information is not a substitute for the specific information requested above.” [source: source-packet.md:S074; TBRPC Auditing RFP p. 7 §5.II.c]
+																			11749 list item “i. The firm is also required to submit a copy of the report on its most recent external quality control review, with a statement of whether that quality control review included a review of specific government engagements.” [source: source-packet.md:S075; TBRPC Auditing RFP p. 7 §5.II.c.i]
+																			11750 list item “ii. The firm shall also provide information on the results of any federal or state desk reviews or field reviews of its audits during the past three (3) years.” [source: source-packet.md:S076; TBRPC Auditing RFP p. 7 §5.II.c.ii]
+																			11751 list item “In addition, the firm shall provide information on the circumstances and status of any disciplinary action taken or pending against the firm during the past three (3) years with state regulatory bodies or professional organizations.” [source: source-packet.md:S077; TBRPC Auditing RFP pp. 7-8 §5.II.c.ii]
+																			11752 list item “III. Required Certifications. The firm must be able to provide the following certifications.” [source: source-packet.md:S078; TBRPC Auditing RFP p. 8 §5.III]
+																			11753 list item “a. Public Entity Crimes Certification. In accordance with Florida Statutes section 287.133(3) (a), the Consultant will complete and return as part of the RFP the Public Entity Crimes Certification form.” [source: source-packet.md:S079; TBRPC Auditing RFP p. 8 §5.III.a]
+																			11754 list item “b. Drug-Free Workplace Certification. In accordance with Florida Statutes section 287.087, the Consultant will complete and return as part of the RFP the Drug-Free Workplace Certification form.” [source: source-packet.md:S080; TBRPC Auditing RFP p. 8 §5.III.b]
+																			11755 list item “V. Fee Structure. Please include a Total All-Inclusive Maximum Price.” [source: source-packet.md:S083; TBRPC Auditing RFP p. 8 §5.V]
+																			11756 list item “The bid should contain all pricing information related to performing the audit engagement as described in this request for proposal.” [source: source-packet.md:S084; TBRPC Auditing RFP p. 8 §5.V]
+																			11757 list item “The total all-inclusive maximum price bid is to contain all direct and indirect costs including all out-of-pocket expenses.” [source: source-packet.md:S085; TBRPC Auditing RFP p. 8 §5.V]
+																			11758 list item “All out-of-pocket expenses should be included in Attachment B.” [source: source-packet.md:S086; TBRPC Auditing RFP p. 8 §5.V]
+																			11759 list item “VI. Client References. The consultant must provide a minimum of three (3) client references by completing Attachment A.” [source: source-packet.md:S089; TBRPC Auditing RFP p. 8 §5.VI]
+																			11760 list item “II. Exceptions. Any proprietary information revealed in the submission should be clearly identified as such.” [source: source-packet.md:S093; TBRPC Auditing RFP p. 9 §6.II]
+																			11761 list item “a. Proprietary Information. Proposers should note any exceptions to the RFP specifications or Terms and Conditions (including insurance requirements) on a separate sheet marked by exceptions attached to the price submission.” [source: source-packet.md:S094; TBRPC Auditing RFP p. 9 §6.II.a]
+																			11762 list item “a. Please use your auditor firm’s name in the file name of your electronic submissions.” [source: source-packet.md:S097; TBRPC Auditing RFP p. 9 §6.III.a]
+																			11763 list item “b. Consultants shall submit one electronic (.PDF) file or file share link of the information in Section 5 above to Maria Robles, Manager of Administration in writing via email maria@tbrpc.org by Friday, July 17, 2026, by 5:00 PM.” [source: source-packet.md:S098; TBRPC Auditing RFP p. 9 §6.III.b]
+																				11764 link maria@tbrpc.org Value: mailto:maria@tbrpc.org
+																			11765 list item “c. Submittals shall be clearly identified in the email subject line: “Statement of Qualifications for TBRPC Auditing Services”” [source: source-packet.md:S099; TBRPC Auditing RFP p. 9 §6.III.c]
+																			11766 list item “The Council may, at its discretion, request presentations from the top three scorers to clarify or negotiate modifications to the Firm’s proposals.” [source: source-packet.md:S120; TBRPC Auditing RFP p. 11 §9 Review and Notification Process]
+																			11767 list item “Therefore, proposals should be submitted initially on the most favorable terms, from both technical and price standpoints, which the Auditing Firm can propose.” [source: source-packet.md:S123; TBRPC Auditing RFP p. 11 §9 Review and Notification Process]
+																			11768 list item “CONTRACTOR: PROVIDE A MINIMUM OF THREE (3) REFERENCES FROM CUSTOMERS THAT ARE CAPABLE OF DISCUSSING YOUR COMPANY’S ABILITY TO PERFORM THE TECHNICAL TASKS DESCRIBED.” [source: source-packet.md:S154; TBRPC Auditing RFP p. 14 Attachment A instructions]
+																		11769 heading 5. Mandatory attachments and forms stated
+																		11770 list
+																			11771 list item “II. The firm must submit an affirmation that proposer meets Government Auditing Standards independence requirements, as published by the U.S. General Accounting Office.” [source: source-packet.md:S047; TBRPC Auditing RFP p. 5 §4.II]
+																			11772 list item “IV. The firm must clearly state the government expertise of its staff at the local office level that will be assigned to this project in its proposal.” [source: source-packet.md:S049; TBRPC Auditing RFP p. 6 §4.IV]
+																			11773 list item “I. Letter of Interest (5 pages maximum).” [source: source-packet.md:S052; TBRPC Auditing RFP p. 6 §5.I]
+																			11774 list item “Please include in the submittal a letter introducing the auditor and expressing the auditor’s interest in being considered for auditing services.” [source: source-packet.md:S053; TBRPC Auditing RFP p. 6 §5.I]
+																			11775 list item “The letter of interest should also include all the following:” [source: source-packet.md:S054; TBRPC Auditing RFP p. 6 §5.I]
+																			11776 list item “a. Describe the organization and provide the name of the entity, its mailing address, and telephone number.” [source: source-packet.md:S055; TBRPC Auditing RFP p. 6 §5.I.a]
+																			11777 list item “b. Indicate that the auditor has the availability and time to dedicate the personnel and resources necessary to provide auditing services and an affirmative statement that it is independent of TBRPC as defined by generally accepted auditing standards and the U.S. General Accounting Office’s Government Auditing Standards (2003).” [source: source-packet.md:S056; TBRPC Auditing RFP p. 6 §5.I.b]
+																			11778 list item “c. License to Practice in Florida – An affirmative statement should be included that the firm and/or its partners are properly licensed to practice in Florida, and all supervisory staff are licensed or qualified to be licensed to practice in Florida.” [source: source-packet.md:S057; TBRPC Auditing RFP p. 6 §5.I.c]
+																			11779 list item “d. Indicate that the auditor has the minimum qualifications listed in Section 4 above.” [source: source-packet.md:S058; TBRPC Auditing RFP p. 6 §5.I.d]
+																			11780 list item “e. Indicate the intention of the auditor to adhere to the provisions described in the RFP.” [source: source-packet.md:S059; TBRPC Auditing RFP p. 6 §5.I.e]
+																			11781 list item “Include a statement of the Auditing Firm’s understanding of the work to be performed.” [source: source-packet.md:S060; TBRPC Auditing RFP p. 6 §5.I.e]
+																			11782 list item “Include time estimates for completion of the audit.” [source: source-packet.md:S061; TBRPC Auditing RFP p. 6 §5.I.e]
+																			11783 list item “f. Identify the contact person responsible for the submittal, specifying the name, title, and contact information.” [source: source-packet.md:S062; TBRPC Auditing RFP p. 6 §5.I.f]
+																			11784 list item “Note that the person signing the letter of interest must be a legal representative authorized to bind the auditor to an agreement in the event of an award.” [source: source-packet.md:S063; TBRPC Auditing RFP p. 6 §5.I.f]
+																			11785 list item “II. Relevant Experience of Key Personnel and the Firm (10 pages maximum).” [source: source-packet.md:S064; TBRPC Auditing RFP p. 7 §5.II]
+																			11786 list item “a. Key Personnel Experience. The submittal must include resumes of the key personnel that are to be assigned if awarded a contract, detailing their qualifications, certifications, and areas of expertise.” [source: source-packet.md:S065; TBRPC Auditing RFP p. 7 §5.II.a]
+																			11787 list item “Indicate whether each person is registered or licensed to practice as a Certified Public Accountant in Florida.” [source: source-packet.md:S066; TBRPC Auditing RFP p. 7 §5.II.a]
+																			11788 list item “Provide information on the government auditing experience of each person, including information on relevant continuing professional education for the past three (3) years and membership in professional organizations relevant to the performance of this audit.” [source: source-packet.md:S067; TBRPC Auditing RFP p. 7 §5.II.a]
+																			11789 list item “b. Firm Experience. The Auditing Firm should describe its prior auditing experience.” [source: source-packet.md:S068; TBRPC Auditing RFP p. 7 §5.II.b]
+																			11790 list item “It should include the following categories:” [source: source-packet.md:S069; TBRPC Auditing RFP p. 7 §5.II.b]
+																			11791 list item “Prior experience with performing audits in accordance with the auditing standards.” [source: source-packet.md:S070; TBRPC Auditing RFP p. 7 §5.II.b bullet]
+																			11792 list item “Prior experience auditing similar multi-funded programs funded by the State of Florida and the Federal Government.” [source: source-packet.md:S071; TBRPC Auditing RFP p. 7 §5.II.b bullet]
+																			11793 list item “The Auditing Firm must include a copy of the most recent peer review report, the related letters of comments, and the firm’s response to the letter of comments.” [source: source-packet.md:S072; TBRPC Auditing RFP p. 7 §5.II.b bullet]
+																			11794 list item “i. The firm is also required to submit a copy of the report on its most recent external quality control review, with a statement of whether that quality control review included a review of specific government engagements.” [source: source-packet.md:S075; TBRPC Auditing RFP p. 7 §5.II.c.i]
+																			11795 list item “ii. The firm shall also provide information on the results of any federal or state desk reviews or field reviews of its audits during the past three (3) years.” [source: source-packet.md:S076; TBRPC Auditing RFP p. 7 §5.II.c.ii]
+																			11796 list item “In addition, the firm shall provide information on the circumstances and status of any disciplinary action taken or pending against the firm during the past three (3) years with state regulatory bodies or professional organizations.” [source: source-packet.md:S077; TBRPC Auditing RFP pp. 7-8 §5.II.c.ii]
+																			11797 list item “III. Required Certifications. The firm must be able to provide the following certifications.” [source: source-packet.md:S078; TBRPC Auditing RFP p. 8 §5.III]
+																			11798 list item “a. Public Entity Crimes Certification. In accordance with Florida Statutes section 287.133(3) (a), the Consultant will complete and return as part of the RFP the Public Entity Crimes Certification form.” [source: source-packet.md:S079; TBRPC Auditing RFP p. 8 §5.III.a]
+																			11799 list item “b. Drug-Free Workplace Certification. In accordance with Florida Statutes section 287.087, the Consultant will complete and return as part of the RFP the Drug-Free Workplace Certification form.” [source: source-packet.md:S080; TBRPC Auditing RFP p. 8 §5.III.b]
+																			11810 list item “V. Fee Structure. Please include a Total All-Inclusive Maximum Price.” [source: source-packet.md:S083; TBRPC Auditing RFP p. 8 §5.V]
+																			11811 list item “The bid should contain all pricing information related to performing the audit engagement as described in this request for proposal.” [source: source-packet.md:S084; TBRPC Auditing RFP p. 8 §5.V]
+																			11812 list item “The total all-inclusive maximum price bid is to contain all direct and indirect costs including all out-of-pocket expenses.” [source: source-packet.md:S085; TBRPC Auditing RFP p. 8 §5.V]
+																			11813 list item “All out-of-pocket expenses should be included in Attachment B.” [source: source-packet.md:S086; TBRPC Auditing RFP p. 8 §5.V]
+																			11814 list item “VI. Client References. The consultant must provide a minimum of three (3) client references by completing Attachment A.” [source: source-packet.md:S089; TBRPC Auditing RFP p. 8 §5.VI]
+																			11815 list item “ATTACHMENT A: OFFEROR REFERENCES FORM” [source: source-packet.md:S153; TBRPC Auditing RFP p. 14 Attachment A title]
+																			11816 list item “CONTRACTOR: PROVIDE A MINIMUM OF THREE (3) REFERENCES FROM CUSTOMERS THAT ARE CAPABLE OF DISCUSSING YOUR COMPANY’S ABILITY TO PERFORM THE TECHNICAL TASKS DESCRIBED.” [source: source-packet.md:S154; TBRPC Auditing RFP p. 14 Attachment A instructions]
+																			11817 list item “It is imperative that accurate contact names and phone numbers be given for the projects listed.” [source: source-packet.md:S155; TBRPC Auditing RFP p. 14 Attachment A instructions]
+																		11818 text <!-- RFP COMPASS: continued in next reply -->
+																		11819 group Suggested actions
+																			11820 button Create a doc
+																		11821 tool bar Message actions
+																			11822 button Copy
+																			11823 status
+																			11824 button Read aloud
+																			11825 toggle button Good response
+																			11826 toggle button Bad response
+																			11827 button Retry
+																			11828 time
+																				11829 text 2 minutes ago
+																11671 button Scroll to bottom
+																11587 group
+																	11588 status
+																11589 status
+																11590 group
+																	11591 status
+																11592 status
+																	11628 text Permission mode is set to Auto.
+																	11629 text Claude runs on its own and pauses if anything looks unsafe. This includes using
+																	11630 link your connectors Value: https://claude.ai/customize/connectors/yours
+																	11631 text , Claude in Chrome, and apps on your computer, unless you turn them off.
+																	11632 link Learn more Value: https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork#h_e1353133dd
+																	11633 button Dismiss
+																11593 status
+																11594 status
+																11595 status
+																11596 group
+																	11597 edit (settable, string) Write your prompt to Claude Value: 
+																		11598 text 
+																	11599 status ID: skill-arg-hint-sr-xcaq8e
+																	11830 group
+																		11831 button (disabled) Send message
+																	11604 group
+																		11605 button Add files, connectors, and more ID: base-ui-_r_laa_
+																		11606 group
+																			11832 button Dictate
+																			11607 group Use voice mode
+																				11608 button Use voice mode
+																				11609 button Microphone
+																		11637 group
+																		11610 note
+																			11611 link Claude is AI and can make mistakes. Value: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+																		11612 group
+																			11613 button Model: Opus 5.5 Medium ID: base-ui-_r_lbb_
+																				11614 text Opus 5.5
+																				11615 text 
+																				11616 text Medium
+																		11638 group
+																			11639 button Auto
+															11617 status
+																11833 text Claude finished the response
+															11619 status
+															11620 group
+													389 status
+												390 group ID: portal-root
+												391 status
+												392 group
+													393 status
+													394 region Notifications
+
+Document text: ```
+Claude
+Menu
+Show sidebar
+Back
+Forward
+Translation contract bid compliance card
+￼
+More options for Translation contract bid compliance card
+Claude Desktop (Windows), Connected
+Claude Desktop (Windows), Connected
+Computer actions available — press Tab until focus enters the card, Escape to return.
+Browser
+Activity panel
+Share
+￼
+Sidebar
+Resize sidebar
+￼
+￼
+￼
+Use the up and down arrow keys to move between messages.
+￼
+You said: The attached translation-contract.md supplies the six named project files.
+translation-contract.md
+MD
+source-packet.md
+MD
+The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+2 minutes ago
+Retry
+Edit
+Copy
+￼
+￼
+Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+Deciding where to split sections within the bullet limit
+￼
+Deciding where to split sections within the bullet limit
+RFP COMPASS — BID COMPLIANCE CARD
+1. Opportunity identity
+• “FROM: Maria Robles, Manager of Administration/Public Information, TBRPC” [source: source-packet.md:S001; TBRPC Auditing RFP p. 1 memo header]
+• “RE: Request for Proposals: Auditing Services for Tampa Bay Regional Planning Council (TBRPC)” [source: source-packet.md:S003; TBRPC Auditing RFP p. 1 memo header]
+• “The Tampa Bay Regional Planning Council (TBRPC) is seeking proposals from qualified independent auditors to provide auditing services.” [source: source-packet.md:S004; TBRPC Auditing RFP p. 1 memo body]
+• “The Tampa Bay Regional Planning Council (TBRPC) brings together governments to coordinate planning for the community’s future and provides an opportunity for sharing solutions among the local government jurisdictions in the six-county Tampa Bay region.” [source: source-packet.md:S010; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+• “The Tampa Bay Regional Planning Council (TBRPC) is seeking proposals from qualified independent auditors to provide auditing services.” [source: source-packet.md:S020; TBRPC Auditing RFP p. 3 §2 Introduction]
+2. Scope, term, and program context stated
+• “RE: Request for Proposals: Auditing Services for Tampa Bay Regional Planning Council (TBRPC)” [source: source-packet.md:S003; TBRPC Auditing RFP p. 1 memo header]
+• “The Tampa Bay Regional Planning Council (TBRPC) is seeking proposals from qualified independent auditors to provide auditing services.” [source: source-packet.md:S004; TBRPC Auditing RFP p. 1 memo body]
+• “The Tampa Bay Regional Planning Council (TBRPC) brings together governments to coordinate planning for the community’s future and provides an opportunity for sharing solutions among the local government jurisdictions in the six-county Tampa Bay region.” [source: source-packet.md:S010; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+• “The TBRPC was established as Florida’s first regional planning council in 1962, when representatives from St. Petersburg, Clearwater, and Tampa recognized the need for regional coordination.” [source: source-packet.md:S011; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+• “They believed growth and community issues extend beyond county and municipal boundaries, a concept that still defines the Council’s purpose today.” [source: source-packet.md:S012; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+• “The TBRPC is one of ten regional planning councils in Florida.” [source: source-packet.md:S013; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+• “The Council’s fiscal year is October 1st through September 30th.” [source: source-packet.md:S014; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+• “The Council currently uses QBO accounting software and will be converting to AccuFund for fiscal year 2027.” [source: source-packet.md:S015; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+• “The Council maintains one main operating checking account.” [source: source-packet.md:S016; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+• “Total accounts payable and payroll transactions issued throughout the year total approximately 1,000.” [source: source-packet.md:S017; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+• “The current operating budget is $3.7 million.” [source: source-packet.md:S018; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+• “The Council may require a single audit to be performed depending on the federal funding levels.” [source: source-packet.md:S019; TBRPC Auditing RFP p. 3 §1 About the TBRPC]
+• “The Tampa Bay Regional Planning Council (TBRPC) is seeking proposals from qualified independent auditors to provide auditing services.” [source: source-packet.md:S020; TBRPC Auditing RFP p. 3 §2 Introduction]
+• “The RFP will be for the fiscal years ending September 30, 2026, 2027, and 2028.” [source: source-packet.md:S022; TBRPC Auditing RFP p. 3 §2 Introduction]
+• “The contract for the fiscal years ending in 2027 and 2028 may be terminated by either party in writing no later than September 30, 2027, and September 30, 2028, respectively.” [source: source-packet.md:S023; TBRPC Auditing RFP p. 3 §2 Introduction]
+• “Audits shall be performed in accordance with the following:” [source: source-packet.md:S025; TBRPC Auditing RFP p. 3 §3 Scope of Services]
+• “Generally accepted auditing standards in the United States of America;” [source: source-packet.md:S026; TBRPC Auditing RFP p. 3 §3 auditing standards bullet]
+• “Government Auditing Standards, as issued by the Comptroller General of the United States;” [source: source-packet.md:S027; TBRPC Auditing RFP p. 4 §3 auditing standards bullet]
+• “The requirements of the State of Florida and the rules and regulations of the Auditor General;” [source: source-packet.md:S028; TBRPC Auditing RFP p. 4 §3 auditing standards bullet]
+• “Uniform Guidance (2 CFR 200) and Section 215.97 Florida Statutes, Single Audit Act;” [source: source-packet.md:S029; TBRPC Auditing RFP p. 4 §3 auditing standards bullet]
+• “Title 2 U.S. Code of Federal Regulations Part 200, Uniform Administrative Requirements Cost Principles, and Audit Requirements for Federal Awards (Uniform Guidance); and” [source: source-packet.md:S030; TBRPC Auditing RFP p. 4 §3 auditing standards bullet]
+• “Any other applicable Federal, State, and local laws or regulations.” [source: source-packet.md:S031; TBRPC Auditing RFP p. 4 §3 auditing standards bullet]
+• “The respondent will be required to complete the following deliverables:” [source: source-packet.md:S032; TBRPC Auditing RFP p. 4 §3 Scope of Services]
+• “Conduct a financial audit and a compliance audit in accordance with auditing standards detailed in Section II. C. Required Auditing Standards To Be Followed above.” [source: source-packet.md:S033; TBRPC Auditing RFP p. 4 §3 deliverables bullet]
+• “Complete a report on the fair presentation of the financial statements in conformity with generally accepted accounting principles (GAAP).” [source: source-packet.md:S034; TBRPC Auditing RFP p. 4 §3 deliverables bullet]
+• “Complete a report on internal control over financial reporting and on compliance and other matters based on an audit of the financial statement performed in accordance with Governmental Auditing Standards and a communication of internal control matters identified in the audit to those charged with governance and management.” [source: source-packet.md:S035; TBRPC Auditing RFP p. 4 §3 deliverables bullet]
+• “Complete a report on compliance for each major federal program and on internal control over compliance required by the Uniform Guidance and Chapter 10.550, Rules of the Auditor General and the Florida Single Audit Act, Section 215.97, Florida Statutes, as applicable.” [source: source-packet.md:S036; TBRPC Auditing RFP p. 4 §3 deliverables bullet]
+• “Present the audit to the Council’s Personnel, Executive Budget Committee, and Council Board.” [source: source-packet.md:S037; TBRPC Auditing RFP p. 4 §3 deliverables bullet]
+• “Prepare the Data Collection Form for Reporting on Audits of States, Local Governments, and Non-Profit Organizations as required by Uniform Guidance.” [source: source-packet.md:S038; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+• “Serve as audit and accounting consultant to the Council throughout the agreement period and as such provide necessary information and assistance on an as needed basis.” [source: source-packet.md:S039; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+• “Prepare all required tax returns for the Council.” [source: source-packet.md:S040; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+• “The Council is required to file one 990 Return of Organization Exempt from Income Tax.” [source: source-packet.md:S041; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+• “If the Auditing Firm, due to one or more accounting and/or reporting deficiencies, is required to give advice, testimony, or other such activity not within the scope of rendering, confirming, or justifying a report of audit services rendered, such service will be made without an additional charge to the Council.” [source: source-packet.md:S042; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+• “The Auditing Firm will obtain corrective action and submit audit reports to appropriate agencies.” [source: source-packet.md:S043; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+• “Any preliminary findings of possible fraud, misapplication or misappropriation of funds shall be immediately reported to the Executive Director of the Council.” [source: source-packet.md:S044; TBRPC Auditing RFP p. 5 §3 deliverables bullet]
+• “I. Terms of Agreement. It is expected that the contract shall be a three-year fixed-price contract.” [source: source-packet.md:S133; TBRPC Auditing RFP p. 12 §10.I]
+• “The contract is for audits of fiscal years 2026, 2027, and 2028.” [source: source-packet.md:S134; TBRPC Auditing RFP p. 12 §10.I]
+• “At the discretion of the Council, this audit contract can be renewed for up to three additional years.” [source: source-packet.md:S135; TBRPC Auditing RFP p. 12 §10.I]
+• “The audit should be completed in February of the year following the end of the fiscal year.” [source: source-packet.md:S137; TBRPC Auditing RFP p. 12 §10.I]
+3. Eligibility and qualifications stated
+• “The Consultant must have sufficient governmental accounting and auditing experience in performing an audit in accordance with the specifications outlined in this Request for Proposal (RFP).” [source: source-packet.md:S005; TBRPC Auditing RFP p. 1 memo body]
+• “The auditor must have sufficient governmental accounting and auditing experience in performing an audit in accordance with the specifications outlined in this Request for Proposal (RFP).” [source: source-packet.md:S021; TBRPC Auditing RFP p. 3 §2 Introduction]
+• “Auditor must meet the following minimum qualifications to be considered responsive to this RFP:” [source: source-packet.md:S045; TBRPC Auditing RFP p. 5 §4 Minimum Qualifications]
+• “I. The firm must have been established as a legal entity in the State of Florida and have performed continuous CPA services for a minimum of (5) years.” [source: source-packet.md:S046; TBRPC Auditing RFP p. 5 §4.I]
+• “II. The firm must submit an affirmation that proposer meets Government Auditing Standards independence requirements, as published by the U.S. General Accounting Office.” [source: source-packet.md:S047; TBRPC Auditing RFP p. 5 §4.II]
+• “III. Government Auditing Standards require the Certified Public Accountant in charge of the audit to have completed, within the preceding 2 years, at least 24 hours of continuing professional education that directly relates to government auditing and will enhance the professional proficiency of the auditor to perform audits or attestation agreements.” [source: source-packet.md:S048; TBRPC Auditing RFP p. 5 §4.III]
+• “IV. The firm must clearly state the government expertise of its staff at the local office level that will be assigned to this project in its proposal.” [source: source-packet.md:S049; TBRPC Auditing RFP p. 6 §4.IV]
+• “b. Indicate that the auditor has the availability and time to dedicate the personnel and resources necessary to provide auditing services and an affirmative statement that it is independent of TBRPC as defined by generally accepted auditing standards and the U.S. General Accounting Office’s Government Auditing Standards (2003).” [source: source-packet.md:S056; TBRPC Auditing RFP p. 6 §5.I.b]
+• “c. License to Practice in Florida – An affirmative statement should be included that the firm and/or its partners are properly licensed to practice in Florida, and all supervisory staff are licensed or qualified to be licensed to practice in Florida.” [source: source-packet.md:S057; TBRPC Auditing RFP p. 6 §5.I.c]
+• “d. Indicate that the auditor has the minimum qualifications listed in Section 4 above.” [source: source-packet.md:S058; TBRPC Auditing RFP p. 6 §5.I.d]
+4. Application stages and submission mechanics stated
+• “II. The firm must submit an affirmation that proposer meets Government Auditing Standards independence requirements, as published by the U.S. General Accounting Office.” [source: source-packet.md:S047; TBRPC Auditing RFP p. 5 §4.II]
+• “IV. The firm must clearly state the government expertise of its staff at the local office level that will be assigned to this project in its proposal.” [source: source-packet.md:S049; TBRPC Auditing RFP p. 6 §4.IV]
+• “All submittals must follow the format guidelines and content requirements listed below.” [source: source-packet.md:S050; TBRPC Auditing RFP p. 6 §5 Submittal Content, Format, and Instructions]
+• “Nonconforming submittals may be rejected as nonresponsive.” [source: source-packet.md:S051; TBRPC Auditing RFP p. 6 §5 Submittal Content, Format, and Instructions]
+• “I. Letter of Interest (5 pages maximum).” [source: source-packet.md:S052; TBRPC Auditing RFP p. 6 §5.I]
+• “Please include in the submittal a letter introducing the auditor and expressing the auditor’s interest in being considered for auditing services.” [source: source-packet.md:S053; TBRPC Auditing RFP p. 6 §5.I]
+• “The letter of interest should also include all the following:” [source: source-packet.md:S054; TBRPC Auditing RFP p. 6 §5.I]
+• “a. Describe the organization and provide the name of the entity, its mailing address, and telephone number.” [source: source-packet.md:S055; TBRPC Auditing RFP p. 6 §5.I.a]
+• “b. Indicate that the auditor has the availability and time to dedicate the personnel and resources necessary to provide auditing services and an affirmative statement that it is independent of TBRPC as defined by generally accepted auditing standards and the U.S. General Accounting Office’s Government Auditing Standards (2003).” [source: source-packet.md:S056; TBRPC Auditing RFP p. 6 §5.I.b]
+• “c. License to Practice in Florida – An affirmative statement should be included that the firm and/or its partners are properly licensed to practice in Florida, and all supervisory staff are licensed or qualified to be licensed to practice in Florida.” [source: source-packet.md:S057; TBRPC Auditing RFP p. 6 §5.I.c]
+• “d. Indicate that the auditor has the minimum qualifications listed in Section 4 above.” [source: source-packet.md:S058; TBRPC Auditing RFP p. 6 §5.I.d]
+• “e. Indicate the intention of the auditor to adhere to the provisions described in the RFP.” [source: source-packet.md:S059; TBRPC Auditing RFP p. 6 §5.I.e]
+• “Include a statement of the Auditing Firm’s understanding of the work to be performed.” [source: source-packet.md:S060; TBRPC Auditing RFP p. 6 §5.I.e]
+• “Include time estimates for completion of the audit.” [source: source-packet.md:S061; TBRPC Auditing RFP p. 6 §5.I.e]
+• “f. Identify the contact person responsible for the submittal, specifying the name, title, and contact information.” [source: source-packet.md:S062; TBRPC Auditing RFP p. 6 §5.I.f]
+• “Note that the person signing the letter of interest must be a legal representative authorized to bind the auditor to an agreement in the event of an award.” [source: source-packet.md:S063; TBRPC Auditing RFP p. 6 §5.I.f]
+• “II. Relevant Experience of Key Personnel and the Firm (10 pages maximum).” [source: source-packet.md:S064; TBRPC Auditing RFP p. 7 §5.II]
+• “a. Key Personnel Experience. The submittal must include resumes of the key personnel that are to be assigned if awarded a contract, detailing their qualifications, certifications, and areas of expertise.” [source: source-packet.md:S065; TBRPC Auditing RFP p. 7 §5.II.a]
+• “Indicate whether each person is registered or licensed to practice as a Certified Public Accountant in Florida.” [source: source-packet.md:S066; TBRPC Auditing RFP p. 7 §5.II.a]
+• “Provide information on the government auditing experience of each person, including information on relevant continuing professional education for the past three (3) years and membership in professional organizations relevant to the performance of this audit.” [source: source-packet.md:S067; TBRPC Auditing RFP p. 7 §5.II.a]
+• “b. Firm Experience. The Auditing Firm should describe its prior auditing experience.” [source: source-packet.md:S068; TBRPC Auditing RFP p. 7 §5.II.b]
+• “It should include the following categories:” [source: source-packet.md:S069; TBRPC Auditing RFP p. 7 §5.II.b]
+• “Prior experience with performing audits in accordance with the auditing standards.” [source: source-packet.md:S070; TBRPC Auditing RFP p. 7 §5.II.b bullet]
+• “Prior experience auditing similar multi-funded programs funded by the State of Florida and the Federal Government.” [source: source-packet.md:S071; TBRPC Auditing RFP p. 7 §5.II.b bullet]
+• “The Auditing Firm must include a copy of the most recent peer review report, the related letters of comments, and the firm’s response to the letter of comments.” [source: source-packet.md:S072; TBRPC Auditing RFP p. 7 §5.II.b bullet]
+• “c. General Firm Information. General firm information including the number of employees, location of firm headquarters, branch offices, and number of years in business may also be provided.” [source: source-packet.md:S073; TBRPC Auditing RFP p. 7 §5.II.c]
+• “Please note that general firm information is not a substitute for the specific information requested above.” [source: source-packet.md:S074; TBRPC Auditing RFP p. 7 §5.II.c]
+• “i. The firm is also required to submit a copy of the report on its most recent external quality control review, with a statement of whether that quality control review included a review of specific government engagements.” [source: source-packet.md:S075; TBRPC Auditing RFP p. 7 §5.II.c.i]
+• “ii. The firm shall also provide information on the results of any federal or state desk reviews or field reviews of its audits during the past three (3) years.” [source: source-packet.md:S076; TBRPC Auditing RFP p. 7 §5.II.c.ii]
+• “In addition, the firm shall provide information on the circumstances and status of any disciplinary action taken or pending against the firm during the past three (3) years with state regulatory bodies or professional organizations.” [source: source-packet.md:S077; TBRPC Auditing RFP pp. 7-8 §5.II.c.ii]
+• “III. Required Certifications. The firm must be able to provide the following certifications.” [source: source-packet.md:S078; TBRPC Auditing RFP p. 8 §5.III]
+• “a. Public Entity Crimes Certification. In accordance with Florida Statutes section 287.133(3) (a), the Consultant will complete and return as part of the RFP the Public Entity Crimes Certification form.” [source: source-packet.md:S079; TBRPC Auditing RFP p. 8 §5.III.a]
+• “b. Drug-Free Workplace Certification. In accordance with Florida Statutes section 287.087, the Consultant will complete and return as part of the RFP the Drug-Free Workplace Certification form.” [source: source-packet.md:S080; TBRPC Auditing RFP p. 8 §5.III.b]
+• “V. Fee Structure. Please include a Total All-Inclusive Maximum Price.” [source: source-packet.md:S083; TBRPC Auditing RFP p. 8 §5.V]
+• “The
+```

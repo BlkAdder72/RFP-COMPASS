@@ -4,7 +4,7 @@ import hashlib, json, re, subprocess, sys
 
 D=Path(__file__).resolve().parent
 R=D.parent
-inputs=json.loads((D/'inputs.json').read_text())
+inputs=json.loads((D/'final-inputs.json').read_text())
 expected=json.loads((D/'expectations.json').read_text())
 out={}
 def positions(text):
@@ -54,7 +54,23 @@ for arm in ('original','rebuild'):
         else:
             exp=json.loads((D/'full-expectations.json').read_text())
             checks={**{s+'_required':all(n in p.get(s,[]) for n in ns) for s,ns in exp['routing'].items()},**{s+'_exclusive':p.get(s)==[12] for s in exp['noise_only12']},**{s+'_forbidden_clear':all(n not in p.get(s,[]) for n in ns) for s,ns in exp['forbidden'].items()},'all221':set(p)==set(rows),'reply_budget':all(sum(line.startswith('- ') for line in t.splitlines())<=150 for t in texts),'no_personal_review_hint':not any('REVIEW' in line and any(s in line for s in exp['noise_only12']) for line in validations['arm-validator']['stdout'].splitlines())}
-        out[arm][key]={'status':'refusal' if text.startswith('INPUT NOT READY') else 'raw exported','strict_pass':validations['common-strict']['exit_code']==0,'literal_mismatches':mismatch,'semantic_checks':checks,'semantic_pass':all(checks.values()),'positions':p,'warnings':validations['arm-validator']['stdout']}
+        derived=trial/'derived-export'
+        export_cmd=[sys.executable,'-B','-X','utf8',str(R/'rebuild/tools/finalize_card.py'),str(source),*[str(part) for part in parts],'--output-dir',str(derived)]
+        process_record=trial/'export-process.json'
+        if not process_record.exists():
+            er=subprocess.run(export_cmd,capture_output=True,text=True,encoding='utf-8')
+            process_record.write_text(json.dumps({'command':export_cmd,'exit_code':er.returncode,'stdout':er.stdout,'stderr':er.stderr},ensure_ascii=False,indent=2),encoding='utf-8')
+        export=json.loads(process_record.read_text(encoding='utf-8'))
+        derived_result={'exit_code':export['exit_code'],'strict_pass':False,'semantic_pass':False,'changes':None}
+        if export['exit_code']==0:
+            audit=json.loads((derived/'export-audit.json').read_text(encoding='utf-8'))
+            assert audit['source_sha256']==hashlib.sha256(source.read_bytes()).hexdigest()
+            assert [x['raw_sha256'] for x in audit['parts']]==[hashlib.sha256(part.read_bytes()).hexdigest() for part in parts]
+            dp=[derived/x['output'] for x in audit['parts']]
+            dr=subprocess.run([sys.executable,'-B','-X','utf8',str(R/'rebuild/tools/validate_packet.py'),str(source),*[str(x) for x in dp]],capture_output=True,text=True,encoding='utf-8')
+            derived_result={'exit_code':dr.returncode,'strict_pass':dr.returncode==0,'semantic_pass':all(checks.values()),'changes':sum(len(x['changes']) for x in audit['parts']),'stdout':dr.stdout,'stderr':dr.stderr,'same_positions':positions('\n'.join(x.read_text(encoding='utf-8') for x in dp))==p}
+            assert derived_result['same_positions']
+        out[arm][key]={'status':'refusal' if text.startswith('INPUT NOT READY') else 'raw exported','strict_pass':validations['common-strict']['exit_code']==0,'literal_mismatches':mismatch,'derived_export':derived_result,'semantic_checks':checks,'semantic_pass':all(checks.values()),'positions':p,'warnings':validations['arm-validator']['stdout']}
 # Q7/Q8 remain direct local artifact/default-validator checks, not Claude turns.
 local={}
 for arm in ('original','rebuild'):

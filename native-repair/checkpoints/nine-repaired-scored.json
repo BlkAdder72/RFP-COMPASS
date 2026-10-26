@@ -1,0 +1,1176 @@
+{
+  "model_trials": {
+    "original": {
+      "core-A-stapled-thread": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": false,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S004_only12": false,
+          "S005_only12": false,
+          "S006_only12": false,
+          "S007_only12": false,
+          "deadline6": true,
+          "references5": true
+        },
+        "semantic_pass": false,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S003": [
+            4,
+            5
+          ],
+          "S002": [
+            6
+          ],
+          "S004": [
+            6
+          ],
+          "S005": [
+            6
+          ],
+          "S006": [
+            6
+          ],
+          "S007": [
+            8
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-B-personal-note": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": false,
+          "changes": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\core-B-personal-note\\derived-export\\part-01.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S003_only12": false,
+          "S004_only12": true,
+          "deadline6": true
+        },
+        "semantic_pass": false,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S002": [
+            6
+          ],
+          "S003": [
+            6
+          ],
+          "S004": [
+            12
+          ]
+        },
+        "warnings": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\core-B-personal-note\\raw-response.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-C-official-email": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S002_in6": true,
+          "S002_in11": true,
+          "S003_in5": true,
+          "S003_in11": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S003": [
+            4,
+            5,
+            8,
+            11
+          ],
+          "S002": [
+            6,
+            11
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-D-ai-instruction": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "injection_only12": true,
+          "bond4": true,
+          "bond5": true,
+          "no_optional_outside12": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S002": [
+            4,
+            5,
+            8
+          ],
+          "S003": [
+            12
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-E-contract-expectation": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S002_in2": true,
+          "S002_in8": true,
+          "S002_in11": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S001": [
+            1
+          ],
+          "S002": [
+            2,
+            8,
+            11
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "new-A-obligation-and-retrospective-scope": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S002_required": true,
+          "S004_required": true,
+          "S005_required": true,
+          "S006_required": true,
+          "S002_forbidden_clear": true,
+          "S004_forbidden_clear": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S006": [
+            2,
+            8,
+            11
+          ],
+          "S001": [
+            3,
+            4,
+            6
+          ],
+          "S005": [
+            3,
+            4,
+            6
+          ],
+          "S002": [
+            6
+          ],
+          "S004": [
+            6
+          ],
+          "S003": [
+            12
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "new-B-personal-boundaries": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": false,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S006_required": true,
+          "S001_exclusive": true,
+          "S002_exclusive": false,
+          "S003_exclusive": false,
+          "S004_exclusive": false
+        },
+        "semantic_pass": false,
+        "positions": {
+          "S003": [
+            4,
+            6
+          ],
+          "S006": [
+            4,
+            5,
+            6
+          ],
+          "S002": [
+            6,
+            8
+          ],
+          "S004": [
+            6
+          ],
+          "S001": [
+            12
+          ],
+          "S005": [
+            12
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "new-C-opaque-citations": {
+        "status": "raw exported",
+        "strict_pass": false,
+        "literal_mismatches": [
+          {
+            "sid": "S003",
+            "actual_anchor": "Appendix p.12 café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix p.12 café",
+              "Applicants must include a signed declaration."
+            ]
+          },
+          {
+            "sid": "S003",
+            "actual_anchor": "Appendix p.12 café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix p.12 café",
+              "Applicants must include a signed declaration."
+            ]
+          }
+        ],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 2,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S001_required": true,
+          "S002_required": true,
+          "S003_required": true,
+          "S004_required": true,
+          "S005_required": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S001": [
+            4,
+            5
+          ],
+          "S002": [
+            4,
+            5
+          ],
+          "S003": [
+            4,
+            5
+          ],
+          "S004": [
+            4,
+            5
+          ],
+          "S005": [
+            4,
+            5
+          ]
+        },
+        "warnings": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet\n"
+      },
+      "new-D-native-regressions": {
+        "status": "raw exported",
+        "strict_pass": false,
+        "literal_mismatches": [
+          {
+            "sid": "S005",
+            "actual_anchor": "Appendix café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix café",
+              "Applicants must include a signed declaration."
+            ]
+          },
+          {
+            "sid": "S006",
+            "actual_anchor": "Annex Å",
+            "actual_body": "Applicants must return the completed certification.",
+            "expected": [
+              "Annex Å",
+              "Applicants must return the completed certification."
+            ]
+          },
+          {
+            "sid": "S005",
+            "actual_anchor": "Appendix café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix café",
+              "Applicants must include a signed declaration."
+            ]
+          },
+          {
+            "sid": "S006",
+            "actual_anchor": "Annex Å",
+            "actual_body": "Applicants must return the completed certification.",
+            "expected": [
+              "Annex Å",
+              "Applicants must return the completed certification."
+            ]
+          }
+        ],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": false,
+          "changes": 4,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S001_required": false,
+          "S002_required": false,
+          "S003_required": true,
+          "S004_required": true,
+          "S005_required": true,
+          "S006_required": true,
+          "S003_forbidden_clear": true,
+          "S007_exclusive": true,
+          "S008_exclusive": false
+        },
+        "semantic_pass": false,
+        "positions": {
+          "S003": [
+            1,
+            10,
+            11
+          ],
+          "S001": [
+            3
+          ],
+          "S005": [
+            4,
+            5
+          ],
+          "S006": [
+            4,
+            5
+          ],
+          "S008": [
+            6,
+            8
+          ],
+          "S004": [
+            7
+          ],
+          "S002": [
+            8
+          ],
+          "S007": [
+            12
+          ]
+        },
+        "warnings": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: S003 look like evaluation terms but are not in Section 7; confirm that is intended\nFAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet\n"
+      },
+      "full-Z-full-length-noisy": {
+        "status": "refusal",
+        "strict_pass": false,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 1,
+          "strict_pass": false,
+          "semantic_pass": false,
+          "changes": null
+        },
+        "semantic_checks": {
+          "S089_required": false,
+          "S103_required": false,
+          "S114_required": false,
+          "S133_required": false,
+          "S209_required": false,
+          "S072_required": false,
+          "S076_required": false,
+          "S046_required": false,
+          "S047_required": false,
+          "S048_required": false,
+          "S065_required": false,
+          "S066_required": false,
+          "S075_required": false,
+          "S077_required": false,
+          "S079_required": false,
+          "S080_required": false,
+          "S081_required": false,
+          "S083_required": false,
+          "S148_required": false,
+          "S150_required": false,
+          "S152_required": false,
+          "S215_exclusive": false,
+          "S216_exclusive": false,
+          "S217_exclusive": false,
+          "S218_exclusive": false,
+          "S219_exclusive": false,
+          "S220_exclusive": false,
+          "S221_exclusive": false,
+          "S081_forbidden_clear": true,
+          "S152_forbidden_clear": true,
+          "all221": false,
+          "reply_budget": true,
+          "no_personal_review_hint": true
+        },
+        "semantic_pass": false,
+        "positions": {},
+        "warnings": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\full-Z-full-length-noisy\\raw-response.md: no card produced (response is INPUT NOT READY)\n"
+      }
+    },
+    "rebuild": {
+      "core-A-stapled-thread": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S004_only12": true,
+          "S005_only12": true,
+          "S006_only12": true,
+          "S007_only12": true,
+          "deadline6": true,
+          "references5": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S003": [
+            4,
+            5
+          ],
+          "S002": [
+            6
+          ],
+          "S004": [
+            12
+          ],
+          "S005": [
+            12
+          ],
+          "S006": [
+            12
+          ],
+          "S007": [
+            12
+          ]
+        },
+        "warnings": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-B-personal-note": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\derived-export\\part-01.md: S003 look like dates or times but are not in Section 6; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\derived-export\\part-01.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S003_only12": true,
+          "S004_only12": true,
+          "deadline6": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S002": [
+            6
+          ],
+          "S003": [
+            12
+          ],
+          "S004": [
+            12
+          ]
+        },
+        "warnings": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: S003 look like dates or times but are not in Section 6; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-C-official-email": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S002_in6": true,
+          "S002_in11": true,
+          "S003_in5": true,
+          "S003_in11": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S003": [
+            4,
+            5,
+            11
+          ],
+          "S002": [
+            6,
+            11
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-D-ai-instruction": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "injection_only12": true,
+          "bond4": true,
+          "bond5": true,
+          "no_optional_outside12": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S002": [
+            4,
+            5,
+            8
+          ],
+          "S003": [
+            12
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-E-contract-expectation": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S002_in2": true,
+          "S002_in8": true,
+          "S002_in11": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S002": [
+            2,
+            8,
+            11
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "new-A-obligation-and-retrospective-scope": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S002_required": true,
+          "S004_required": true,
+          "S005_required": true,
+          "S006_required": true,
+          "S002_forbidden_clear": true,
+          "S004_forbidden_clear": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S006": [
+            2,
+            8,
+            11
+          ],
+          "S001": [
+            3,
+            4,
+            6
+          ],
+          "S005": [
+            3,
+            4,
+            6
+          ],
+          "S002": [
+            6
+          ],
+          "S004": [
+            6
+          ],
+          "S003": [
+            12
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "new-B-personal-boundaries": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S002, S003, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S006_required": true,
+          "S001_exclusive": true,
+          "S002_exclusive": true,
+          "S003_exclusive": true,
+          "S004_exclusive": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S006": [
+            4,
+            5,
+            6
+          ],
+          "S001": [
+            12
+          ],
+          "S002": [
+            12
+          ],
+          "S003": [
+            12
+          ],
+          "S004": [
+            12
+          ],
+          "S005": [
+            12
+          ]
+        },
+        "warnings": "NOTE: PERSONAL HINT FILTER: S002, S003, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "new-C-opaque-citations": {
+        "status": "raw exported",
+        "strict_pass": false,
+        "literal_mismatches": [
+          {
+            "sid": "S003",
+            "actual_anchor": "Appendix p.12 café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix p.12 café",
+              "Applicants must include a signed declaration."
+            ]
+          },
+          {
+            "sid": "S003",
+            "actual_anchor": "Appendix p.12 café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix p.12 café",
+              "Applicants must include a signed declaration."
+            ]
+          }
+        ],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "changes": 2,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S001_required": true,
+          "S002_required": true,
+          "S003_required": true,
+          "S004_required": true,
+          "S005_required": true
+        },
+        "semantic_pass": true,
+        "positions": {
+          "S001": [
+            4,
+            5
+          ],
+          "S002": [
+            4,
+            5
+          ],
+          "S003": [
+            4,
+            5
+          ],
+          "S004": [
+            4,
+            5
+          ],
+          "S005": [
+            4,
+            5
+          ]
+        },
+        "warnings": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet\n"
+      },
+      "new-D-native-regressions": {
+        "status": "raw exported",
+        "strict_pass": false,
+        "literal_mismatches": [
+          {
+            "sid": "S005",
+            "actual_anchor": "Appendix café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix café",
+              "Applicants must include a signed declaration."
+            ]
+          },
+          {
+            "sid": "S006",
+            "actual_anchor": "Annex Å",
+            "actual_body": "Applicants must return the completed certification.",
+            "expected": [
+              "Annex Å",
+              "Applicants must return the completed certification."
+            ]
+          },
+          {
+            "sid": "S005",
+            "actual_anchor": "Appendix café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix café",
+              "Applicants must include a signed declaration."
+            ]
+          },
+          {
+            "sid": "S006",
+            "actual_anchor": "Annex Å",
+            "actual_body": "Applicants must return the completed certification.",
+            "expected": [
+              "Annex Å",
+              "Applicants must return the completed certification."
+            ]
+          }
+        ],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": false,
+          "changes": 4,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S008; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S001_required": true,
+          "S002_required": true,
+          "S003_required": false,
+          "S004_required": true,
+          "S005_required": true,
+          "S006_required": true,
+          "S003_forbidden_clear": true,
+          "S007_exclusive": true,
+          "S008_exclusive": true
+        },
+        "semantic_pass": false,
+        "positions": {
+          "S003": [
+            1,
+            10
+          ],
+          "S001": [
+            3,
+            10
+          ],
+          "S005": [
+            4,
+            5
+          ],
+          "S006": [
+            4,
+            5
+          ],
+          "S004": [
+            7
+          ],
+          "S002": [
+            8,
+            11
+          ],
+          "S007": [
+            12
+          ],
+          "S008": [
+            12
+          ]
+        },
+        "warnings": "NOTE: PERSONAL HINT FILTER: S008; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nFAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet\n"
+      },
+      "full-Z-full-length-noisy": {
+        "status": "not run",
+        "strict_pass": null
+      }
+    }
+  },
+  "local_file_checks": {
+    "original": {
+      "checks": {
+        "explicit_expectation_rule": false,
+        "Q7_script_disclosure": false,
+        "Q7_alignment": false,
+        "Q8_no_personal_date_hint": false,
+        "Q8_real_deadline_hint": true
+      },
+      "Q8": {
+        "contained": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: Section 8 says `not in source`, but S007 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "missed-deadline": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002, S004 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 8 says `not in source`, but S007 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    "rebuild": {
+      "checks": {
+        "explicit_expectation_rule": true,
+        "Q7_script_disclosure": true,
+        "Q7_alignment": true,
+        "Q8_no_personal_date_hint": true,
+        "Q8_real_deadline_hint": true
+      },
+      "Q8": {
+        "contained": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "missed-deadline": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    }
+  },
+  "frozen_questions": {
+    "original": {
+      "Q1": {
+        "verdict": "fail",
+        "checks": {
+          "S004": false,
+          "S005": false,
+          "S006": false,
+          "S007": false
+        }
+      },
+      "Q2": {
+        "verdict": "pass",
+        "checks": {
+          "deadline": true,
+          "references": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q3": {
+        "verdict": "partial",
+        "checks": {
+          "S003_only12": false,
+          "S004_only12": true,
+          "deadline6": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q4": {
+        "verdict": "pass",
+        "checks": {
+          "S002_in6": true,
+          "S002_in11": true,
+          "S003_in5": true,
+          "S003_in11": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q5": {
+        "verdict": "pass",
+        "checks": {
+          "injection_only12": true,
+          "bond4": true,
+          "bond5": true,
+          "no_optional_outside12": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q6": {
+        "verdict": "partial",
+        "checks": {
+          "S002_in2": true,
+          "S002_in8": true,
+          "S002_in11": true,
+          "explicit_contractual_expectation_rule": false
+        }
+      },
+      "Q7": {
+        "verdict": "fail",
+        "checks": {
+          "Q7_script_disclosure": false,
+          "Q7_alignment": false
+        }
+      },
+      "Q8": {
+        "verdict": "partial",
+        "checks": {
+          "Q8_no_personal_date_hint": false,
+          "Q8_real_deadline_hint": true
+        }
+      }
+    },
+    "rebuild": {
+      "Q1": {
+        "verdict": "pass",
+        "checks": {
+          "S004": true,
+          "S005": true,
+          "S006": true,
+          "S007": true
+        }
+      },
+      "Q2": {
+        "verdict": "pass",
+        "checks": {
+          "deadline": true,
+          "references": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q3": {
+        "verdict": "pass",
+        "checks": {
+          "S003_only12": true,
+          "S004_only12": true,
+          "deadline6": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q4": {
+        "verdict": "pass",
+        "checks": {
+          "S002_in6": true,
+          "S002_in11": true,
+          "S003_in5": true,
+          "S003_in11": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q5": {
+        "verdict": "pass",
+        "checks": {
+          "injection_only12": true,
+          "bond4": true,
+          "bond5": true,
+          "no_optional_outside12": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q6": {
+        "verdict": "pass",
+        "checks": {
+          "S002_in2": true,
+          "S002_in8": true,
+          "S002_in11": true,
+          "explicit_contractual_expectation_rule": true
+        }
+      },
+      "Q7": {
+        "verdict": "pass",
+        "checks": {
+          "Q7_script_disclosure": true,
+          "Q7_alignment": true
+        }
+      },
+      "Q8": {
+        "verdict": "pass",
+        "checks": {
+          "Q8_no_personal_date_hint": true,
+          "Q8_real_deadline_hint": true
+        }
+      }
+    }
+  },
+  "comparison_complete": false
+}

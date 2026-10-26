@@ -1,0 +1,278 @@
+Window: "Claude", App: claude.exe.
+	0 window Claude Secondary Actions: Raise
+		1 pane (disabled)
+		2 region Claude
+			3 region
+				4 region
+					5 region
+						6 button Minimize
+						7 button Maximize
+						8 button Close
+					9 region
+						10 region
+							11 region
+								12 region
+									13 document Value: file:///C:/Program%20Files/WindowsApps/Claude_3.6556.2.0_x64__pzs8sxrjxfjjc/app/resources/app.asar/.vite/renderer/main_window/index.html ID: RootWebArea
+										14 group ID: root
+								15 region
+									16 region
+										17 document Translation contract bid compliance - Claude Value: https://claude.ai/chat/d2d4e59a-1ee0-4eaf-8e6d-aa7ceda41ae7 ID: RootWebArea
+											18 group
+												19 group ID: root
+													8635 heading Claude
+													8636 button Menu
+													8637 group
+														8638 button Show sidebar
+													8639 button Back
+													8640 button (disabled) Forward
+													8641 group
+														8702 tool bar Page tools
+															8703 heading Translation contract bid compliance
+																8704 button Translation contract bid compliance, rename session
+															8705 group
+															8706 button More options for Translation contract bid compliance
+															8764 status
+																8851 text Claude Desktop (Windows), Connected
+																8765 button Claude Desktop (Windows), Connected ID: base-ui-_r_jcb_
+																8852 text Computer actions available — press Tab until focus enters the card, Escape to return.
+															8707 group ID: dframe-header-actions-slot
+																8766 group ID: session-activity-header-toggle-slot
+																	8767 toggle button Browser
+																	8768 toggle button Activity panel
+																8769 group
+																	8770 button Share
+													8643 complementary Sidebar
+													8644 thumb Resize sidebar Value: 0
+													44 main
+														45 region Primary pane
+															8708 group
+															8709 status
+															8710 status
+															8711 group
+																8712 feed Chat messages
+																	8713 text Use the up and down arrow keys to move between messages.
+																	8714 article Message 1 of 2
+																		8715 heading You said: The attached translation-contract.md supplies the six named project files.
+																		8716 group
+																			8717 button source-packet.md Description: source-packet.md
+																			8719 text MD
+																		8720 group
+																			8721 button translation-contract.md Description: translation-contract.md
+																			8723 text MD
+																		8724 text The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+																		8819 tool bar Message actions
+																			8820 time
+																				8821 text just now
+																			8822 button Retry
+																			8823 button Edit
+																			8824 button Copy
+																			8825 status
+																		8726 status
+																	8727 article Message 2 of 2
+																		8826 heading Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+																		8783 group
+																			8791 text Organizing a document packet for a proposal request.
+																		8786 status
+																			8787 text Organizing a document packet for a proposal request.
+																		8790 heading RFP COMPASS — BID COMPLIANCE CARD
+																		8792 heading 1. Opportunity identity
+																		8793 list
+																			8794 list item “REQUEST FOR PROPOSALS FOR AUDITING SERVICES” [source: source-packet.md:S001; TBRPC p. 1]
+																		8795 heading 2. Scope, term, and program context stated
+																		8796 list
+																			8797 list item “REQUEST FOR PROPOSALS FOR AUDITING SERVICES” [source: source-packet.md:S001; TBRPC p. 1]
+																			8798 list item “It is expected that the contract shall be a three-year fixed-price contract.” [source: source-packet.md:S002; TBRPC p. 12, original packet S133]
+																		8799 heading 3. Eligibility and qualifications stated
+																		8800 list
+																			8801 list item not in source
+																		8802 heading 4. Application stages and submission mechanics stated
+																		8803 list
+																			8804 list item not in source
+																		8805 heading 5. Mandatory attachments and forms stated
+																		8806 list
+																			8807 list item not in source
+																		8808 heading 6. Dates and events stated
+																		8809 list
+																			8810 list item not in source
+																		8811 heading 7. Evaluation stated
+																		8812 list
+																			8813 list item not in source
+																		8814 heading 8. Commercial, performance, and post-award terms stated
+																		8816 list
+																			8817 list item “It is expected that the contract shall be a three-year fixed-price contract.” [source: source-packet.md:S002; TBRPC p. 12, original packet S133]
+																		8818 heading 9. Tables, schedules, and templates
+																		8827 list
+																			8828 list item not in source
+																		8829 heading 10. Definitions, authority, and administrative terms
+																		8830 list
+																			8831 list item not in source
+																		8832 heading 11. Addenda, conflicts, and open items
+																		8833 list
+																			8834 list item “It is expected that the contract shall be a three-year fixed-price contract.” [source: source-packet.md:S002; TBRPC p. 12, original packet S133]
+																		8835 heading 12. Unmapped source evidence
+																		8836 list
+																			8837 list item not in source
+																		8838 tool bar Message actions
+																			8839 button Copy
+																			8840 status
+																			8841 button Read aloud
+																			8842 toggle button Good response
+																			8843 toggle button Bad response
+																			8844 button Retry
+																			8845 time
+																				8846 text just now
+																8815 button Scroll to bottom
+																8730 group
+																	8731 status
+																8732 status
+																8733 group
+																	8734 status
+																8735 status
+																	8771 text Permission mode is set to Auto.
+																	8772 text Claude runs on its own and pauses if anything looks unsafe. This includes using
+																	8773 link your connectors Value: https://claude.ai/customize/connectors/yours
+																	8774 text , Claude in Chrome, and apps on your computer, unless you turn them off.
+																	8775 link Learn more Value: https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork#h_e1353133dd
+																	8776 button Dismiss
+																8736 status
+																8737 status
+																8738 status
+																8739 group
+																	8740 edit (settable, string) Write your prompt to Claude Value: 
+																		8741 text 
+																	8742 status ID: skill-arg-hint-sr-g76l3z
+																	8847 group
+																		8848 button (disabled) Send message
+																	8747 group
+																		8748 button Add files, connectors, and more ID: base-ui-_r_jao_
+																		8749 group
+																			8849 button Dictate
+																			8750 group Use voice mode
+																				8751 button Use voice mode
+																				8752 button Microphone
+																		8780 group
+																		8753 note
+																			8754 link Claude is AI and can make mistakes. Value: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+																		8755 group
+																			8756 button Model: Opus 5.5 Medium ID: base-ui-_r_jbp_
+																				8757 text Opus 5.5
+																				8758 text 
+																				8759 text Medium
+																		8781 group
+																			8782 button Auto
+															8760 status
+																8850 text Claude finished the response
+															8762 status
+															8763 group
+													389 status
+												390 group ID: portal-root
+												391 status
+												392 group
+													393 status
+													394 region Notifications
+
+Document text: ```
+Claude
+Menu
+Show sidebar
+Back
+Forward
+Translation contract bid compliance
+￼
+More options for Translation contract bid compliance
+Claude Desktop (Windows), Connected
+Claude Desktop (Windows), Connected
+Computer actions available — press Tab until focus enters the card, Escape to return.
+Browser
+Activity panel
+Share
+￼
+Sidebar
+Resize sidebar
+￼
+￼
+￼
+Use the up and down arrow keys to move between messages.
+￼
+You said: The attached translation-contract.md supplies the six named project files.
+source-packet.md
+MD
+translation-contract.md
+MD
+The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+just now
+Retry
+Edit
+Copy
+￼
+￼
+Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+Organizing a document packet for a proposal request.
+Organizing a document packet for a proposal request.
+RFP COMPASS — BID COMPLIANCE CARD
+1. Opportunity identity
+• “REQUEST FOR PROPOSALS FOR AUDITING SERVICES” [source: source-packet.md:S001; TBRPC p. 1]
+2. Scope, term, and program context stated
+• “REQUEST FOR PROPOSALS FOR AUDITING SERVICES” [source: source-packet.md:S001; TBRPC p. 1]
+• “It is expected that the contract shall be a three-year fixed-price contract.” [source: source-packet.md:S002; TBRPC p. 12, original packet S133]
+3. Eligibility and qualifications stated
+• not in source
+4. Application stages and submission mechanics stated
+• not in source
+5. Mandatory attachments and forms stated
+• not in source
+6. Dates and events stated
+• not in source
+7. Evaluation stated
+• not in source
+8. Commercial, performance, and post-award terms stated
+• “It is expected that the contract shall be a three-year fixed-price contract.” [source: source-packet.md:S002; TBRPC p. 12, original packet S133]
+9. Tables, schedules, and templates
+• not in source
+10. Definitions, authority, and administrative terms
+• not in source
+11. Addenda, conflicts, and open items
+• “It is expected that the contract shall be a three-year fixed-price contract.” [source: source-packet.md:S002; TBRPC p. 12, original packet S133]
+12. Unmapped source evidence
+• not in source
+Copy
+￼
+Read aloud
+Good response
+Bad response
+Retry
+just now
+Scroll to bottom
+￼
+￼
+￼
+Permission mode is set to Auto. Claude runs on its own and pauses if anything looks unsafe. This includes using your connectors, Claude in Chrome, and apps on your computer, unless you turn them off. Learn more
+Dismiss
+￼
+￼
+￼
+￼
+￼
+Send message
+Add files, connectors, and more
+Dictate
+Use voice mode
+Microphone
+￼
+Claude is AI and can make mistakes.
+Opus 5.5 
+Medium
+Auto
+￼
+￼
+Claude finished the response
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Notifications
+```

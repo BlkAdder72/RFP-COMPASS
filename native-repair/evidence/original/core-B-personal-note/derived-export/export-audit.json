@@ -1,0 +1,19 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\inputs\\core-B-personal-note\\source-packet.md",
+  "source_sha256": "8f9eea159395293aa85be724ed990e6cd80a373c39e7d1e6171a2a3bdd776567",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\core-B-personal-note\\raw-response.md",
+      "raw_sha256": "a979356013d49173c1b4fe44fa3fe4fec4eef40838d111a776e1785750bc819e",
+      "output": "part-01.md",
+      "output_sha256": "a979356013d49173c1b4fe44fa3fe4fec4eef40838d111a776e1785750bc819e",
+      "changes": []
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": [
+    "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\core-B-personal-note\\derived-export\\validation-inputs\\part-01.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most"
+  ]
+}

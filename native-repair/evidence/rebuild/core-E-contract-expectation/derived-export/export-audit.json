@@ -1,0 +1,17 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\inputs\\core-E-contract-expectation\\source-packet.md",
+  "source_sha256": "3a4dab36755f799a73ebacec0a8930f76405cfec07131d72c3abf4bf9d60ffae",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-E-contract-expectation\\raw-response.md",
+      "raw_sha256": "a9698911e91ddb018db4957266527fb459cc19a0961393b7a64fdd86b8c654ff",
+      "output": "part-01.md",
+      "output_sha256": "a9698911e91ddb018db4957266527fb459cc19a0961393b7a64fdd86b8c654ff",
+      "changes": []
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": []
+}

@@ -1,0 +1,17 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\inputs\\new-A-obligation-and-retrospective-scope\\source-packet.md",
+  "source_sha256": "76db21032ec091316a123d5a2034cb1c4d9c355cf908ca7adeea4199a6156f95",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-A-obligation-and-retrospective-scope\\raw-response.md",
+      "raw_sha256": "a5ae7203a06e6841a5a1243844a2c231627c762221728cb9b3cfd2f5b73ac807",
+      "output": "part-01.md",
+      "output_sha256": "a5ae7203a06e6841a5a1243844a2c231627c762221728cb9b3cfd2f5b73ac807",
+      "changes": []
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": []
+}
