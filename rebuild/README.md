@@ -8,6 +8,16 @@ Current measured results, failed evidence, ties and limits: [results.md](../resu
 
 Supply `CLAUDE_PROJECT_INSTRUCTIONS.txt`, `identity.md`, `rules.md`, `examples.md`, `reference/input-schema.md` and `reference/output-schema.md`, plus one active packet named `source-packet.md`. Keep evaluator questions, expected answers, past runs and the opposite arm out of the translation session. Follow the source and output schemas; carry over complete statements and opaque anchors exactly. If a response continues, preserve each reply and send exactly `continue`.
 
+## Preserve and finalize the export
+
+Keep the exact raw Claude response parts. The default export step is:
+
+```text
+python -B -X utf8 tools/finalize_card.py source-packet.md raw-part-1.md raw-part-2.md --output-dir new-export
+```
+
+Use only the parts actually returned. The output folder must be new. This explicit transport step restores only canonically equivalent Unicode anchor drift from the matching source ID, with an unchanged exact quotation. It never changes routing, IDs, body text, whitespace or non-equivalent anchors. Every change and raw hash is recorded in `export-audit.json`; the raw files stay untouched. The ordinary strict validator runs before final part files are emitted. Rejected attempts retain `REJECTED.json` and validation inputs. A successful derived export is not a claim that the raw model response copied Unicode exactly. The same stage can be applied to the original arm for a fair operational comparison.
+
 ## Validate the output
 
 From this folder, with Python 3.10 or later:

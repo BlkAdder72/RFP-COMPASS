@@ -1,0 +1,287 @@
+[
+  {
+    "name": "control-01",
+    "passed": true,
+    "expected_success": true,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-01\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-01\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-01"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"validated derived export\", \"changes\": 2, \"parts\": 1}\n",
+    "stderr": ""
+  },
+  {
+    "name": "control-02",
+    "passed": true,
+    "expected_success": true,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-02\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-02\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-02"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"validated derived export\", \"changes\": 2, \"parts\": 1}\n",
+    "stderr": ""
+  },
+  {
+    "name": "control-03",
+    "passed": true,
+    "expected_success": true,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-03\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-03\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-03"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"validated derived export\", \"changes\": 2, \"parts\": 1}\n",
+    "stderr": ""
+  },
+  {
+    "name": "control-04",
+    "passed": true,
+    "expected_success": true,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-04\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-04\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-04"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"validated derived export\", \"changes\": 2, \"parts\": 1}\n",
+    "stderr": ""
+  },
+  {
+    "name": "control-05",
+    "passed": true,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-05\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-05\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-05"
+    ],
+    "exit_code": 1,
+    "stdout": "{\"status\": \"rejected\", \"errors\": [\"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-05\\\\validation-inputs\\\\part-01.md: ## 4. Application stages and submission mechanics stated: anchor for S001 does not match the packet\", \"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-05\\\\validation-inputs\\\\part-01.md: ## 5. Mandatory attachments and forms stated: anchor for S001 does not match the packet\"], \"notes\": []}\n",
+    "stderr": ""
+  },
+  {
+    "name": "control-06",
+    "passed": true,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-06\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-06\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-06"
+    ],
+    "exit_code": 1,
+    "stdout": "{\"status\": \"rejected\", \"errors\": [\"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-06\\\\validation-inputs\\\\part-01.md: ## 4. Application stages and submission mechanics stated: anchor for S001 does not match the packet\", \"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-06\\\\validation-inputs\\\\part-01.md: ## 5. Mandatory attachments and forms stated: anchor for S001 does not match the packet\"], \"notes\": []}\n",
+    "stderr": ""
+  },
+  {
+    "name": "control-07",
+    "passed": true,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-07\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-07\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-07"
+    ],
+    "exit_code": 1,
+    "stdout": "{\"status\": \"rejected\", \"errors\": [\"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-07\\\\validation-inputs\\\\part-01.md: ## 4. Application stages and submission mechanics stated: anchor for S001 does not match the packet\", \"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-07\\\\validation-inputs\\\\part-01.md: ## 5. Mandatory attachments and forms stated: anchor for S001 does not match the packet\"], \"notes\": []}\n",
+    "stderr": ""
+  },
+  {
+    "name": "control-08",
+    "passed": true,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-08\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-08\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-08"
+    ],
+    "exit_code": 1,
+    "stdout": "{\"status\": \"rejected\", \"errors\": [\"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-08\\\\validation-inputs\\\\part-01.md: ## 4. Application stages and submission mechanics stated: anchor for S001 does not match the packet\", \"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-08\\\\validation-inputs\\\\part-01.md: ## 5. Mandatory attachments and forms stated: anchor for S001 does not match the packet\"], \"notes\": []}\n",
+    "stderr": ""
+  },
+  {
+    "name": "control-09",
+    "passed": true,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-09\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-09\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-09"
+    ],
+    "exit_code": 1,
+    "stdout": "{\"status\": \"rejected\", \"errors\": [\"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-09\\\\validation-inputs\\\\part-01.md: ## 4. Application stages and submission mechanics stated: anchor for S001 does not match the packet\", \"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-09\\\\validation-inputs\\\\part-01.md: ## 5. Mandatory attachments and forms stated: anchor for S001 does not match the packet\"], \"notes\": []}\n",
+    "stderr": ""
+  },
+  {
+    "name": "control-10",
+    "passed": true,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-10\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-10\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-10"
+    ],
+    "exit_code": 1,
+    "stdout": "{\"status\": \"rejected\", \"errors\": [\"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-10\\\\validation-inputs\\\\part-01.md: ## 4. Application stages and submission mechanics stated: anchor for S001 does not match the packet\", \"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-10\\\\validation-inputs\\\\part-01.md: ## 5. Mandatory attachments and forms stated: anchor for S001 does not match the packet\"], \"notes\": []}\n",
+    "stderr": ""
+  },
+  {
+    "name": "control-11",
+    "passed": true,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-11\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-11\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-11"
+    ],
+    "exit_code": 1,
+    "stdout": "{\"status\": \"rejected\", \"errors\": [\"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-11\\\\validation-inputs\\\\part-01.md: ## 4. Application stages and submission mechanics stated: quotation does not match S001 at character 13: packet \u2026Applicants must include the decl\u2026 card \u2026Applicants may include the decla\u2026\", \"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-11\\\\validation-inputs\\\\part-01.md: ## 5. Mandatory attachments and forms stated: quotation does not match S001 at character 13: packet \u2026Applicants must include the decl\u2026 card \u2026Applicants may include the decla\u2026\"], \"notes\": []}\n",
+    "stderr": ""
+  },
+  {
+    "name": "control-12",
+    "passed": true,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-12\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-12\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-12"
+    ],
+    "exit_code": 1,
+    "stdout": "{\"status\": \"rejected\", \"errors\": [\"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-12\\\\validation-inputs\\\\part-01.md: ## 4. Application stages and submission mechanics stated: citation S002 does not exist in the packet\", \"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-12\\\\validation-inputs\\\\part-01.md: ## 5. Mandatory attachments and forms stated: citation S002 does not exist in the packet\", \"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\native-repair\\\\stages\\\\C1-citation-retest\\\\control-12\\\\validation-inputs\\\\part-01.md: source statements never cited: S001\"], \"notes\": []}\n",
+    "stderr": ""
+  },
+  {
+    "name": "control-13",
+    "passed": true,
+    "expected_success": true,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-13\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-13\\raw.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\control-13"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"validated derived export\", \"changes\": 0, \"parts\": 1}\n",
+    "stderr": ""
+  },
+  {
+    "name": "retained-original",
+    "passed": true,
+    "expected_success": true,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\claude-native\\inputs\\new-C-opaque-citations\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\claude-native\\evidence\\original\\new-C-opaque-citations\\raw-response.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\retained-original"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"validated derived export\", \"changes\": 2, \"parts\": 1}\n",
+    "stderr": ""
+  },
+  {
+    "name": "retained-rebuild",
+    "passed": true,
+    "expected_success": true,
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\claude-native\\inputs\\new-C-opaque-citations\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\claude-native\\evidence\\rebuild\\new-C-opaque-citations\\raw-response.md",
+      "--output-dir",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation-retest\\retained-rebuild"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"validated derived export\", \"changes\": 2, \"parts\": 1}\n",
+    "stderr": ""
+  }
+]
