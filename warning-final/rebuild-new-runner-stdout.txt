@@ -1,0 +1,6 @@
+RUN rebuild A-obligation-and-retrospective-scope
+SAVED
+RUN rebuild B-personal-boundaries
+SAVED
+RUN rebuild C-opaque-citations
+SAVED

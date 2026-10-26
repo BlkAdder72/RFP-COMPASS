@@ -43,6 +43,8 @@ for n,s in stages.items():text+=f"| {n} | {'PASS' if s['passed_required'] else '
 text+=f'''
 Final controls: original {controls['original']}/207; before {controls['before']}/207; repaired {controls['rebuild']}/207. Against before: {comp}. These controls include correct private cards, deliberately missed genuine dates and altered citations; all-12 deliberate omissions can pass structure while still requiring advisory hints. Structural PASS never proves semantic placement.
 
+One patch-driver setup assertion stopped after the passing F1 commit, before any F2 product edit. Correcting the patch-string quoting resumed the sequence without repeating a model trial or replacing a validator result. DRIVER_FIRST_ATTEMPT.txt and DRIVER_NOTE.md retain that interruption.
+
 ## Frozen questions and fresh fair model comparison
 
 Freeze {ch['freeze']}; completed fresh original baseline {ch['original_baseline']}; final validator candidate {ch['candidate']}. Each fix is separately committed after passing its own gate. Q1–Q8 remain identical to bfdd812 and the initial competition chronology remains in Git history.

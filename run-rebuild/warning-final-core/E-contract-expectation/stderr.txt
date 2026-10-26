@@ -1,0 +1,2 @@
+2026-10-26T15:29:42.895445Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-10-26T15:29:44.557577Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 43.9999023s)... turn_id=01a178d4-ef34-7271-9bb7-e4bbff33422e retries=1 max_retries=5 sampling_error=exceeded retry limit, last status: 429 Too Many Requests

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\hardening\\fixtures\\Z-full-length-noisy.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\submission-repair-full\\part-1\\bid-compliance-card.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\submission-repair-full\\part-2\\bid-compliance-card.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\submission-repair-full\\part-3\\bid-compliance-card.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\submission-repair-full\\part-4\\bid-compliance-card.md"
+  ],
+  "exit_code": 1,
+  "stdout": "NOTE: PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nFAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-rebuild\\submission-repair-full\\part-1\\bid-compliance-card.md (+3 part(s)): ## 6. Dates and events stated: anchor for S100 does not match the packet\n",
+  "stderr": "",
+  "part_sha256": {
+    "run-rebuild/submission-repair-full/part-1/bid-compliance-card.md": "242543a283f281a9259fc45ded4f39f2318c1f8fe2731109dd27137d7415884c",
+    "run-rebuild/submission-repair-full/part-2/bid-compliance-card.md": "5b91b131bbf95bff1b405e3c8ed4a04e496051a01a401738029d3e8cf0f95af0",
+    "run-rebuild/submission-repair-full/part-3/bid-compliance-card.md": "72f45f367d47bb583ae94add7b066050f8acc0b606782eb02fb03fe097a87876",
+    "run-rebuild/submission-repair-full/part-4/bid-compliance-card.md": "0fc3eee13bc4c7780dae5dfd3064690f083cea54f10015a98d91189b4e2caf4e"
+  }
+}

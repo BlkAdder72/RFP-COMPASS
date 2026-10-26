@@ -1,0 +1,18 @@
+{
+  "before": {
+    "source_sha256": "e32cb2db7080206e691c0f91dd23326afb85228fe3819ecf4b36032815d2b430",
+    "card_sha256": "d7758961ab15f92bceac0432e7339d8688cdfab0bee45f3adcd0c491215d1b96",
+    "validator_sha256": "38c31b38f0ca52d00bbdd412bfe4a2368a53954506b4057a38d42b8bfcecc10e",
+    "exit_code": 0,
+    "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\red-team-oct26\\run-rebuild\\B-personal-boundaries\\bid-compliance-card.md: S002, S004 look like dates or times but are not in Section 6; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  },
+  "after": {
+    "source_sha256": "e32cb2db7080206e691c0f91dd23326afb85228fe3819ecf4b36032815d2b430",
+    "card_sha256": "d7758961ab15f92bceac0432e7339d8688cdfab0bee45f3adcd0c491215d1b96",
+    "validator_sha256": "78330ac950d0cc18cd79afe1f928be2eb401140efa8052150a8506b8b8845452",
+    "exit_code": 0,
+    "stdout": "NOTE: PERSONAL HINT FILTER: S002, S003, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+    "stderr": ""
+  }
+}

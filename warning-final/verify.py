@@ -63,6 +63,13 @@ assert read(D/'full-length-results.json')['rebuild']['passed']
 assert all(x['verdict']=='pass' for x in read(D/'scores-final.json')['scores']['1']['rebuild'].values())
 assert all(x['exit_code']==0 for x in read(D/'core-common-strict.json'))
 assert read(D/'packaged-samples-validation.json')['exit_code']==0
+same=read(D/'same-card-warning-replay.json')
+source=R/'red-team-oct26/fixtures/B-personal-boundaries.md';card=R/'red-team-oct26/run-rebuild/B-personal-boundaries/bid-compliance-card.md'
+assert same['before']['source_sha256']==same['after']['source_sha256']==sha(source)
+assert same['before']['card_sha256']==same['after']['card_sha256']==sha(card)
+assert 'S002, S004' in same['before']['stdout'] and 'REVIEW' not in same['after']['stdout']
+assert same['after']['exit_code']==0 and same['after']['validator_sha256']==sha(R/'rebuild/tools/validate_packet.py')
+assert read(D/'scores-final.json')['sidecars_in_Q8'] is False
 parts=sorted((R/'run-rebuild/submission-repair-full').glob('part-*/bid-compliance-card.md'),key=lambda p:int(p.parent.name.split('-')[1]))
 rejected=subprocess.run([sys.executable,'-B','-X','utf8',str(R/'rebuild/tools/validate_packet.py'),str(R/'hardening/fixtures/Z-full-length-noisy.md'),*[str(p) for p in parts]],capture_output=True,text=True,encoding='utf-8');assert rejected.returncode!=0 and 'S100' in rejected.stdout
 base=R/'run-rebuild/warning-final-full';copy=R/'rebuild/run-results/warning-final-full'

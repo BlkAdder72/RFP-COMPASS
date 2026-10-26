@@ -1,0 +1,24 @@
+{
+  "provider": "OpenAI via authenticated Codex CLI",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "started_utc": "2026-10-26T15:30:43.276825+00:00",
+  "cli_version": "codex-cli 0.163.0-alpha.10.2",
+  "delivery": "UTF-8 stdin with inline named files",
+  "sessions": "fresh ephemeral session per fixture; user config ignored",
+  "tools": "host tools may exist; prohibited by wrapper; audit required",
+  "limitations": "Host system messages are not held byte-identical; one response per trial, no best-of selection",
+  "knowledge_sha256": {
+    "CLAUDE_PROJECT_INSTRUCTIONS.txt": "73380f682df245560d855763f00456a49a52bad3533cb9020288fbe4eee9275b",
+    "identity.md": "653916c5840428f7cb2e78072ac9544267af6063103aa07600c67745c8dd289d",
+    "rules.md": "7e9e35c57bb0afa3969fbf7893722fb3deda790e0a64c4256b609b4ebbbe0d87",
+    "examples.md": "4e0aa63cbf79451a339e105aed89ad66fca25898b700bb0e97fd397710038020",
+    "reference/input-schema.md": "01dc6060a8f872ffb080ce15650ae9b2a9c13ee4e2662ec99e8469369c0fd235",
+    "reference/output-schema.md": "11db1afe3c0574f06213a6f40bcf73278ea71089974e41a92e241d5155e677bb"
+  },
+  "fixture_order": [
+    "A-obligation-and-retrospective-scope.md",
+    "B-personal-boundaries.md",
+    "C-opaque-citations.md"
+  ]
+}
