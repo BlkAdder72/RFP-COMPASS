@@ -96,7 +96,9 @@ EXCLUSION_CUE = re.compile(r"\b(?:unrelated|exclud(?:ed|ing|es?)|outside|not\s+(
 PERSONAL_CONTRIBUTION = re.compile(r"\b(?:please\s+)?bring\s+\$\s*\d+(?:\.\d+)?\s+for\s+(?:lunch|dinner)\b", re.IGNORECASE)
 # A complete bounded private cost-share phrase, never an arbitrary action.
 SMALL_NUMBER = r"(?:one|two|three|four|five|six|seven|eight|nine)"
-WORD_NUMBER = r"(?:zero|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|" + SMALL_NUMBER + r"|(?:twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)(?:[ -]" + SMALL_NUMBER + r")?)"
+UNDER_HUNDRED = r"(?:zero|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|" + SMALL_NUMBER + r"|(?:twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)(?:[ -]" + SMALL_NUMBER + r")?)"
+UNDER_THOUSAND = r"(?:" + SMALL_NUMBER + r"\s+hundred(?:\s+(?:and\s+)?" + UNDER_HUNDRED + r")?|" + UNDER_HUNDRED + r")"
+WORD_NUMBER = r"(?:" + UNDER_THOUSAND + r"\s+thousand(?:\s+(?:and\s+)?" + UNDER_THOUSAND + r")?|" + UNDER_THOUSAND + r")"
 PERSONAL_SHARE = re.compile(r"(?:my|our|your|his|her|their)\s+share\s+(?:is|was)\s+(?:\$\s*\d+(?:\.\d{1,2})?|" + WORD_NUMBER + r"\s+dollars?)", re.IGNORECASE)
 # Explicit optionality prevents a new unknown-event scope. It never clears an
 # inherited duty, and independent procurement/clinical cues still take priority.
@@ -186,10 +188,13 @@ def personal_hint_exclusions(statements, placed):
         # A "with ... to <action>" adjunct cannot borrow a preceding private
         # activity. Pure private calendar adjuncts remain intact and are checked
         # against the same independent procurement/clinical vetoes.
+        # Collapse only a complete recognized private share in an analysis
+        # copy. Its internal number conjunction is not a separate obligation.
+        clause_body = PERSONAL_SHARE.sub(lambda m: m.group().split()[0] + " share is $0", body)
         clauses = [c.strip() for c in re.split(
             r"[;.!?](?:\s+|$)|(?:,\s*)?\b(?:and|but|while|also|then|or)\b\s+|"
             r"(?:,\s*)?\bwith\s+(?=[^.;!?]*\bto\s+\w+)",
-            body, flags=re.IGNORECASE) if c.strip()]
+            clause_body, flags=re.IGNORECASE) if c.strip()]
         private_statement = personal and bool(clauses) and all(
             personal_support(c) or PERSONAL_SHARE.fullmatch(c) or private_activity_fragment(c)
             for c in clauses)

@@ -1,0 +1,95 @@
+{
+  "stage": "F3",
+  "validator_sha256": "3e5d6e8e885c246c82aa45c9b10af4d60e6c72fa58d64edd4adf60806aeb5912",
+  "required_issues": [
+    "F1",
+    "F2",
+    "F3",
+    "guard",
+    "prior"
+  ],
+  "passed_required": true,
+  "failures_in_required_gate": [],
+  "all_remaining_failures": [
+    {
+      "case": "oct26-outside-procurement-private-heading",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false,
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\warning-final\\stages\\baseline\\oct26-outside-procurement-private-heading\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\warning-final\\stages\\baseline\\oct26-outside-procurement-private-heading\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\warning-final\\stages\\baseline\\oct26-outside-procurement-private-heading\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    },
+    {
+      "case": "private-annotation-201",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false,
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\warning-final\\stages\\baseline\\private-annotation-201\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\warning-final\\stages\\baseline\\private-annotation-201\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\warning-final\\stages\\baseline\\private-annotation-201\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    },
+    {
+      "case": "private-annotation-202",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false,
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\warning-final\\stages\\baseline\\private-annotation-202\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\warning-final\\stages\\baseline\\private-annotation-202\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\warning-final\\stages\\baseline\\private-annotation-202\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    },
+    {
+      "case": "private-annotation-203",
+      "issue": "F4",
+      "arm": "rebuild",
+      "valid": true,
+      "warning": true,
+      "passed": false,
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\warning-final\\stages\\baseline\\private-annotation-203\\source-packet.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\warning-final\\stages\\baseline\\private-annotation-203\\card.md"
+      ],
+      "exit_code": 0,
+      "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\warning-final\\stages\\baseline\\private-annotation-203\\card.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    }
+  ]
+}
