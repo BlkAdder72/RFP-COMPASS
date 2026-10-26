@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "authority_named": true,
+    "expected_execution": true,
+    "independent_sweep": true,
+    "no_test_ids_in_rules": true,
+    "strict_validator_unchanged": true
+  },
+  "passed": true,
+  "scope": "instruction coherence, not a model-behavior pass"
+}

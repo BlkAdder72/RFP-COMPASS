@@ -60,7 +60,7 @@ Apply the Section 12-only exceptions first. Test every remaining statement again
 9. **Tables, schedules, and templates.** The statement is a table header or row, a schedule entry, a checklist item, a form field, a blank or placeholder, an example, or an instruction for completing a template.
 10. **Definitions, authority, and administrative terms.** The statement:
     - defines a term with defining words ("means", "is defined as", "refers to", "shall mean"; a parenthetical abbreviation such as "(Authority)" is not a definition);
-    - cites a statute, rule or legal authority;
+    - cites a statute, rule or legal authority, including named government or professional standards that the source makes binding on eligibility, independence, personnel training or performance. A standard need not have a statute number to be cited authority. Keep its other placements too: an independence or training qualification may also belong in Section 3; an audit-performance obligation may also belong in Section 8. An ordinary service-quality promise without an identified authoritative standard does not qualify solely because it says "standard";
     - concerns confidentiality, public records or protests;
     - states an issuer right, reservation or administrative practice;
     - names a contact or question channel, or says where answers or updates are posted.
@@ -69,7 +69,7 @@ Apply the Section 12-only exceptions first. Test every remaining statement again
     - governs how addenda or amendments are issued, posted, acknowledged or read (for example "Respondents must acknowledge Addendum 1", "Updates … and any RFP addenda will be provided on the CSCR");
     - changes, extends, supersedes or corrects another term;
     - is expressly draft, tentative, "subject to change" or "to be determined";
-    - expressly describes a contractual term as expected or anticipated (for example an expected contract duration or pricing structure). The word "expected" alone is insufficient: an unrelated personal expectation stays subject to the Section 12-only exception;
+    - expressly describes a contractual term or action as expected or anticipated. This includes expected duration or pricing structure AND an awarded consultant being expected to sign, execute or enter a service provider agreement. Expected execution is still an expected contractual action, even when Section 8 already captures its post-award duty. Do not limit this trigger to duration, pricing or the literal noun "contract" in the same clause. The word "expected" alone is insufficient: an unrelated personal expectation stays subject to the Section 12-only exception;
     - names a conflict or discrepancy itself.
 
     Never infer a conflict and never decide which term controls.
