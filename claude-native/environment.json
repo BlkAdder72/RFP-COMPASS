@@ -1,0 +1,30 @@
+{
+  "status": "prepared; no model trial sent yet",
+  "platform": "native Claude Desktop on Windows via Computer Use",
+  "visible_model": "Opus 5.5",
+  "visible_reasoning": "Medium",
+  "project": "fresh chats outside existing projects",
+  "delivery": "native attachments: translation-contract.md and source-packet.md",
+  "prior_source": {
+    "original": {
+      "CLAUDE_PROJECT_INSTRUCTIONS.txt": "2934fd66787b35b12f3b9c5283560ce1ee5d866b9ef781ec3fc427db75ae09a6",
+      "identity.md": "653916c5840428f7cb2e78072ac9544267af6063103aa07600c67745c8dd289d",
+      "rules.md": "ef244920a5584c739c532b4b1a9726013d0ce505180520f9a06730c68d7f2e35",
+      "examples.md": "a2d303babc738abda9f8716f70e6bad65047fb42254022f624ad5a019ef177cf",
+      "reference/input-schema.md": "01dc6060a8f872ffb080ce15650ae9b2a9c13ee4e2662ec99e8469369c0fd235",
+      "reference/output-schema.md": "e026cc5f52f910217d9e8668396585fecacc08fb73674596d65059c0c20ddd38",
+      "bundle_sha256": "c7a397f00260c6215e1ebe69d2e7d78855a79bc0da3d874358abf80fb8ee0fe2"
+    },
+    "rebuild": {
+      "CLAUDE_PROJECT_INSTRUCTIONS.txt": "73380f682df245560d855763f00456a49a52bad3533cb9020288fbe4eee9275b",
+      "identity.md": "653916c5840428f7cb2e78072ac9544267af6063103aa07600c67745c8dd289d",
+      "rules.md": "7e9e35c57bb0afa3969fbf7893722fb3deda790e0a64c4256b609b4ebbbe0d87",
+      "examples.md": "4e0aa63cbf79451a339e105aed89ad66fca25898b700bb0e97fd397710038020",
+      "reference/input-schema.md": "01dc6060a8f872ffb080ce15650ae9b2a9c13ee4e2662ec99e8469369c0fd235",
+      "reference/output-schema.md": "11db1afe3c0574f06213a6f40bcf73278ea71089974e41a92e241d5155e677bb",
+      "bundle_sha256": "cda2dd5e97d30be6d38c8fb970e51a85bdc4c180f33b10882a8ad98ec202dcb4"
+    }
+  },
+  "VIP_eligibility": "confirmed by user 2026-10-26",
+  "published": false
+}
