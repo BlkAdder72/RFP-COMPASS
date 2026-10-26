@@ -1,0 +1,1 @@
+S001 | Notice paragraph 1 | III. TBRPC’s Right to Modify RFP. The TBRPC reserves the right at its sole discretion to modify this RFP (including but not limited to the selection criteria) should the TBRPC deem that it is in its best interests to do so.

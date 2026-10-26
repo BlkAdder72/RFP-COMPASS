@@ -53,6 +53,19 @@ LIKELY = {
     10: re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+|\(\d{3}\)\s?\d{3}-\d{4}|\b\d{3}-\d{3}-\d{4}\b"),
 }
 LIKELY_NAMES = {6: "dates or times", 7: "evaluation terms", 8: "money amounts", 10: "contact details"}
+# A reservation to modify an RFP is an administrative right. Its incidental
+# "including ... selection criteria" object supplies no scoring method by itself.
+# Remove only that complete object in an analysis copy, never the source/card.
+MODIFY_RESERVATION = re.compile(r"\breserves?\s+the\s+right\b[^.;!?]{0,100}\b(?:modify|amend|revise|change)\b[^.;!?]{0,60}\b(?:rfp|solicitation|request\s+for\s+proposals)\b", re.IGNORECASE)
+INCIDENTAL_CRITERIA = re.compile(r"\(\s*including(?:\s+but\s+not\s+limited\s+to)?\s+(?:the\s+)?(?:selection|evaluation)\s+criteria\s*\)|,\s*including(?:\s+but\s+not\s+limited\s+to)?\s+(?:the\s+)?(?:selection|evaluation)\s+criteria(?=\s*[.;!?]?\s*$)", re.IGNORECASE)
+EVALUATION_ACTION = re.compile(r"\b(?:review(?:ed|s)?|rank(?:ed|s|ing)?|short.?list\w*|scor\w*|evaluat\w*|weight\w*|points?)\b|\d", re.IGNORECASE)
+
+def likely_match(number, pattern, body):
+    if number == 7 and MODIFY_RESERVATION.search(body):
+        remainder=INCIDENTAL_CRITERIA.sub('', body)
+        if remainder != body and not pattern.search(remainder) and not EVALUATION_ACTION.search(remainder):
+            return False
+    return bool(pattern.search(body))
 # Body-supported, conservative personal evidence. Never classify from a filename,
 # source ID, date, or the card's own placement alone. Explicit requirements win.
 PROCUREMENT_CUE = re.compile(
@@ -416,7 +429,7 @@ def validate(source: Path, outputs: list[Path], review_path: Path | None = None)
         notes.append(f"PERSONAL HINT FILTER: {', '.join(sorted(personal))}; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof")
     for number, pattern in LIKELY.items():
         matching = [source_id for source_id, (_, body) in statements.items()
-                    if pattern.search(body) and source_id not in approved and source_id not in personal]
+                    if likely_match(number, pattern, body) and source_id not in approved and source_id not in personal]
         unplaced = [source_id for source_id in matching if source_id not in placed.get(number, set())]
         if matching and not placed.get(number):
             notes.append(f"REVIEW {output}: Section {number} says `not in source`, but {', '.join(matching[:8])} "
