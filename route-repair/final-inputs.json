@@ -10,12 +10,12 @@
       "bundle_sha256": "c7a397f00260c6215e1ebe69d2e7d78855a79bc0da3d874358abf80fb8ee0fe2"
     },
     "rebuild": {
-      "CLAUDE_PROJECT_INSTRUCTIONS.txt": "5385abb82047124db5a325de282eea1432848c91f2b44a74157d9f28fc03b448",
+      "CLAUDE_PROJECT_INSTRUCTIONS.txt": "010ee82d17e5030f82b3fdded53e772979ea821b313d1c249503770ed244f573",
       "identity.md": "653916c5840428f7cb2e78072ac9544267af6063103aa07600c67745c8dd289d",
-      "rules.md": "da70db11de36855f1c124b7849b232fe8edf207297e178275a451b59048545ba",
+      "rules.md": "b0c8c118c32f462b8c80bd333200ac4cc08ca57c7fd295da21184c6dcfa23def",
       "examples.md": "4e0aa63cbf79451a339e105aed89ad66fca25898b700bb0e97fd397710038020",
       "reference/input-schema.md": "01dc6060a8f872ffb080ce15650ae9b2a9c13ee4e2662ec99e8469369c0fd235",
-      "reference/output-schema.md": "3cef95166407e5defdc40e76c5fc611df4c4ff0a57ff870f698a1d9dcba8c49c",
+      "reference/output-schema.md": "7e3abc8a132914c104527b969ea358217eeff482fe77f915dccedd44c24bcefb",
       "bundle_sha256": "0c0808d7944bf80941d9011ca8ab299f307be15ec395cdcf5d0f3c77e2ff058c"
     }
   },
