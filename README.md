@@ -1,3 +1,5 @@
+> Current routing repair status: candidate implemented; fresh repaired Claude trials pending desktop recovery. No publication. See [current results](results.md) and [frozen candidate](route-repair/CANDIDATE.md). Earlier reports and sealed archives remain historical evidence.
+
 # RFP-COMPASS — Competition 15: The Rebuild
 
 Unpublished review candidate. Start with [feedback.md](feedback.md), [questions.md](questions.md), then [results.md](results.md). VIP eligibility is user-confirmed.

@@ -1,83 +1,83 @@
-# Native Claude repair comparison — completed, held for review
+# Routing repair comparison — unpublished
 
-Twenty first-pass native Claude App trials are preserved: ten original, ten repaired. The rebuild passes frozen Q1–Q8 and the full-length RFP's strict and selected semantic checks. Broader acceptance remains **FAIL**: the combined regression card omits one frozen required route, and raw Unicode citation copying still fails in both versions. Nothing is published. This report supersedes readiness claims in older reports without altering those reports or their evidence.
+**Status: INCOMPLETE; repaired Claude trials pending. Nothing has been published. Local instruction checks are not model-routing acceptance. This report supersedes earlier readiness claims while preserving every old report, failure, raw transcript and sealed package.
 
-## Repairs and sequential evidence
+## Changes and sequence
 
-1. **Citation transport, C1.** Added `rebuild/tools/finalize_card.py` and made it the documented default export step. It restores only canonically equivalent Unicode anchors from the same source ID when the entire quotation is already exact. It never changes routes, IDs, body text, whitespace, entities or non-equivalent citations. It preserves raw files, records codepoint changes and hashes, and runs the unchanged strict checks before emitting a derived card. Rejections retain validation inputs and REJECTED.json. This is an explicit operator tool, not improved raw model copying. The identical external tool was applied to both arms.
+The original remains pinned at judged commit 92847d2a17250fa18914d932826db63d99dcb75c; feedback.md is verbatim. Root questions Q1–Q8 remain unchanged and were committed before rebuild existed. The new protocol and source-bound expanded expectations were frozen at 83da4078. Ten fresh original native trials were committed at a9cc5cca; the eleventh, the full-RFP refusal, at 0d71781c. No product edit preceded those eleven original responses. The candidate content was frozen at cdd3df64; a7d96ab1 corrects only pre-trial file-hash portability, with identical Claude bundle bytes and all prior metadata retained.
 
-   The first test attempt had eight infrastructure failures from denied temporary-directory access; all stdout/stderr and failed outputs remain in stages/C1-citation. Replacing temporary staging with a new retained validation-inputs directory produced 15/15 passing checks in C1-citation-retest. Final C4 testing passed 17/17, including both versions' retained/fresh Unicode failures. Controls reject changed bodies, wrong IDs, page ranges, removed invisible characters, changed tab/NBSP, entity decoding and compatibility-only Unicode substitutions. No validation tolerance was added.
+Three instruction changes were made sequentially, each followed by retained local tests before the next:
 
-2. **Semantic routing, C2.** Clarified that binding named government/professional standards also route to section 10, and expected signing/execution of a service agreement also routes to section 11. Added independent sweeps so sections 3/8 do not substitute for those routes. Coherence checks passed 5/5; these were instruction checks, not model acceptance. Sample 04 and its hand routing list were aligned for S047/S048, S148 and S139, with explicit provenance. The before card is retained and the script roundtrip plus four packaged sample checks passed.
+1. R1 explicitly routes issuer rights to amend/revise/modify a solicitation into section 11 as an expressly revisable open item, as well as section 10 for issuer authority. A reservation to change criteria does not itself state actual scoring criteria or establish an issued amendment/conflict.
+2. R2 explicitly includes named submission recipients and delivery contacts in section 10, even when the statement already appears in submission mechanics or dates. Private contacts remain subject to section 12-only treatment.
+3. R3 explicitly includes required response pricing sheets and fee/rate/cost schedules in section 8, in addition to submission/form placements. A technical narrative alone does not establish commercial content. Private charges retain section 12-only protection.
 
-3. **False evaluation warning, C3.** Restricted only the evaluation advisory for a reservation to modify an RFP where selection criteria are merely an incidental object. Actual evaluation, ranking, weights, scores and combined reservation-plus-scoring remain protected. All 216 warning/corruption controls passed (207 prior controls plus nine new guards). Strict validation code is unchanged apart from the call to the advisory predicate. Same-card replay on both the retained and fresh native full-RFP cards removes the false S139 warning while retaining a genuine S098 contact-route warning in the fresh card. Personal-content warning controls and the original Q8 defective-deadline guard still pass.
+Each stage preserved the actual instruction snapshot and checks.json. Each passed contract consistency, byte-identity checks on validator/export, all four shipped samples, and rejection controls for altered quotation and altered anchor. These are offline consistency/strict-validation tests, not evidence that Claude followed the new routes. Sample 04's existing hand routing list already includes S098 in section 10 and S139 in section 11, so it was deliberately left unchanged; its script-built provenance remains disclosed.
 
-Each repair was tested before moving to the next. Protocol freeze 473b87dd preceded the ten fresh original trials committed at d3318dff. Citation repair 3fe49304, routing clarification b7cff67d and advisory repair 745159d9 precede candidate freeze b8f37d6a. Repaired native evidence is committed at da25a37f. The frozen questions and all prior failed evidence remain unchanged.
+The unchanged validation/export implementation also passed a fresh retained-control replay: 17/17 citation-export controls and 216/216 warning/corruption controls, with every expected rejection and warning output preserved under stages/R4-retained-validation.
 
-## Native method and limits
+Only CLAUDE_PROJECT_INSTRUCTIONS.txt, rules.md and reference/output-schema.md changed in the model contract. tools/validate_packet.py and tools/finalize_card.py are byte-identical to the before snapshot. No warning is suppressed to conceal a missing route. Source packets, frozen questions, identity, examples and input schema were not edited.
 
-Same ten-case order, identical source bytes and prompt, fresh ordinary chats outside projects, visible Opus 5.5 / Medium / Auto in both arms. Memory was observed enabled and left unchanged. Only the appropriate six-file translation-contract attachment and active source-packet attachment were supplied. Expected answers, scorer, tools, prior responses and opposite arm were excluded. File bundles preserve text but normalize file line endings; original-file and actual-bundle byte hashes are recorded separately. This approximates the folder contract in ordinary chats, not a configured Claude Project or independently verified server revision. No tools were requested or observed, but UI evidence cannot provide a machine tool-event audit or isolate account context and attachment parsing.
+## Fair native method
 
-No response regeneration, coaching, corrected answer or best-of selection. Full-RFP continuations were exactly `continue`, twice, after preserving each preceding part. Copy to fresh Notepad tabs preserved short raw Markdown; native UTF-8 Save As preserved all full-length parts because accessibility text caps at 20,000 characters. Rendered UI/text trees are supporting observations, not substitutes for complete raw files. Window capture/activation failures and one geometry mismatch were recovered by fresh window selection. When desktop recovery failed before the repaired arm, input stopped until the user restored it; no prompt or completed answer was retried.
+Eleven sources in the same frozen order for both arms: core A–E; new A–E; full Z. Identical common prompt and source bytes, fresh ordinary native Claude App chats outside projects, visible Opus 5.5 / Medium / Auto. Only the correct six-file contract bundle and active source packet are uploaded. No expectations, scorer, model tools, prior responses or opposite-arm answers are supplied. Actual bundle bytes and six original-file hashes are pinned separately because bundle text normalizes line endings. Account context and attachment parsing are uncontrolled; prior observed Memory was left unchanged. UI observation cannot provide a server-version pin or machine tool-event audit.
 
-## Paired cases
+Every first response is preserved without regeneration, coaching or selection. A full-card continuation is permitted only on the contractual marker, with exactly `continue`, after exporting the preceding part. Native response Copy to fresh Notepad tabs preserves raw Markdown; long parts use native Save As because accessibility text caps at 20,000 characters. Desktop focus changes during original preparation were recovered before sending the verified common prompt. Capture failures stop input after one recovery attempt; no failed capture counts as a model result.
 
-Columns show **raw strict / selected semantic / derived strict**. Derived strict checks shape, literal quotations, exact restored citations and coverage; it does not certify routing.
+Raw strict validation is reported separately from selected routing and the audited Unicode export. The identical export tool is applied externally to BOTH arms. It restores only canonically equivalent anchors from the same source ID when the whole quotation is already exact, preserves raw evidence, changes no routes, and still rejects non-equivalent citations, body changes, wrong IDs and spacing/entity substitutions. It is an explicit operator tool, not improved raw copying.
+
+## Paired results
+
+Cells show **raw strict / expanded selected semantics / derived strict**. Pending is never counted as passing. A strict pass certifies structure, literal text, exact anchors and coverage, not semantic routing or fidelity to the source PDF.
 
 | Case | Original | Rebuild |
 |---|---|---|
-| core-A-stapled-thread | Pass / Fail / Pass | Pass / Pass / Pass |
-| core-B-personal-note | Pass / Fail / Pass | Pass / Pass / Pass |
-| core-C-official-email | Pass / Pass / Pass | Pass / Pass / Pass |
-| core-D-ai-instruction | Pass / Pass / Pass | Pass / Pass / Pass |
-| core-E-contract-expectation | Pass / Pass / Pass | Pass / Pass / Pass |
-| new-A-obligation-and-retrospective-scope | Pass / Pass / Pass | Pass / Pass / Pass |
-| new-B-personal-boundaries | Pass / Fail / Pass | Pass / Pass / Pass |
-| new-C-opaque-citations | Fail / Pass / Pass | Fail / Pass / Pass |
-| new-D-native-regressions | Fail / Fail / Pass | Fail / Fail / Pass |
-| full-Z-full-length-noisy | Fail / Fail / Fail | Pass / Pass / Pass |
+| core-A-stapled-thread | Pass / Fail / Pass | Pending / Pending / Pending |
+| core-B-personal-note | Pass / Fail / Pass | Pending / Pending / Pending |
+| core-C-official-email | Pass / Pass / Pass | Pending / Pending / Pending |
+| core-D-ai-instruction | Pass / Pass / Pass | Pending / Pending / Pending |
+| core-E-contract-expectation | Pass / Pass / Pass | Pending / Pending / Pending |
+| new-A-obligation-and-retrospective-scope | Pass / Pass / Pass | Pending / Pending / Pending |
+| new-B-personal-boundaries | Pass / Fail / Pass | Pending / Pending / Pending |
+| new-C-opaque-citations | Fail / Pass / Pass | Pending / Pending / Pending |
+| new-D-native-regressions | Fail / Fail / Pass | Pending / Pending / Pending |
+| new-E-routing-families | Pass / Fail / Pass | Pending / Pending / Pending |
+| full-Z-full-length-noisy | Fail / Fail / Fail | Pending / Pending / Pending |
 
-Across all ten cases: original raw strict 7/10, selected semantic 5/10, derived strict 9/10; rebuilt raw strict 8/10, selected semantic 9/10, derived strict 10/10. Requiring both derived strict and selected semantics gives 5/10 versus 9/10. These are finite, feedback-derived checks, not blinded statistical estimates or proof of general superiority. The original full-RFP refusal remains counted as failure, never silently excluded.
+The original full-RFP response refuses the packet, citing its blank separator and unrelated personal calendar. That first-pass refusal is counted as failure, retained without corrective follow-up. New C has two raw Unicode anchor changes and new D four; both fail raw strict checks but pass the same audited export applied to both arms. The full source retains all 221 statements, including seven noise records. Its new expanded expectations require S098 in 4/6/10 and S139 in 10/11 but not 7.
 
 ## Frozen feedback questions
 
 | Question | Original | Rebuild |
 |---|---|---|
-| Q1 | fail | pass |
-| Q2 | pass | pass |
-| Q3 | partial | pass |
-| Q4 | pass | pass |
-| Q5 | pass | pass |
-| Q6 | partial | pass |
-| Q7 | fail | pass |
-| Q8 | partial | pass |
+| Q1 | fail | pending |
+| Q2 | pass | pending |
+| Q3 | partial | pending |
+| Q4 | pass | pending |
+| Q5 | pass | pending |
+| Q6 | partial | pending |
+| Q7 | fail | pending |
+| Q8 | partial | pending |
 
-Five question verdicts improve and three tie. Q6's model card alone ties; the original written trigger still lacks the explicit contractual-expectation rule. Q7 and Q8 are direct artifact/default-validator checks, not additional Claude conversations. The genuine missed-deadline REVIEW in Q8 is required to remain visible.
+Q1/Q2 use core A, Q3 B, Q4 C, Q5 D, Q6 E. Q7 and Q8 are direct artifact/default-validator checks, not extra model conversations. Q8 requires both no false personal-date warning and a retained genuine missed-deadline warning. Core C's new S003-in-8 check is prospective expanded coverage and does not silently change frozen Q4. The actual pricing source says “To clarify the submission requirements, respondents must include a signed pricing sheet with their proposal.” The older native report's description that a revised sheet replaced an earlier one was inaccurate; the old report remains preserved, and this report corrects that characterization.
 
-## Full-length result
+New E and the expanded full/core checks are disclosed feedback-derived regression checks, not a blind holdout or statistical generalization test. Read the source and every failed subcheck, not only aggregate scores.
 
-The source has 221 statements, including seven calendar/noise statements. The repaired card has three parts of 137, 150 and 83 bullets; all IDs are covered, literal quotations and complete anchors pass strict comparison, and every frozen required/forbidden route passes. S047/S048 now include section 10 and S148 includes section 11. Personal S215–S221 remain exclusively in section 12, with no personal REVIEW hint. S081/S152 remain outside the forbidden mandatory-form routes. No Unicode restoration was needed for this full card. S098 is absent from section 10 even though it names the submission contact; the default validator correctly flags this genuine remaining route issue. Frozen full expectations do not require S098, so the selected semantic pass does not imply a complete route audit.
+## Failed selected subchecks
 
-The original refuses the same valid packet, citing a blank separator and the calendar's unrelatedness. That refusal is retained without corrective follow-up. The older native full-card failures remain in claude-native/ and are separately identified from this fresh success.
+- original / core-A-stapled-thread: S004_only12, S005_only12, S006_only12, S007_only12.
+- original / core-B-personal-note: S003_only12, S004_only12.
+- original / new-B-personal-boundaries: S002_exclusive, S003_exclusive, S004_exclusive.
+- original / new-D-native-regressions: S001_required, S002_required, S003_required, S008_exclusive.
+- original / new-E-routing-families: S004_required, S002_exclusive.
+- original / full-Z-full-length-noisy: S089_required, S103_required, S114_required, S133_required, S209_required, S072_required, S076_required, S046_required, S047_required, S048_required, S065_required, S066_required, S075_required, S077_required, S079_required, S080_required, S081_required, S083_required, S148_required, S150_required, S152_required, S098_required, S139_required, S215_exclusive, S216_exclusive, S217_exclusive, S218_exclusive, S219_exclusive, S220_exclusive, S221_exclusive, all221.
 
-## Ties, regressions and publication hold
+## Ties, regressions and remaining risk
 
-- Both arms still compose decomposed accents in new C (two anchors) and new D (four anchors). Raw strict validation rejects all six occurrences per arm. Derived exports restore them with unchanged routes and full audit trails. This is a shared raw-model failure; applying the export tool fairly benefits both arms.
-- New D improves the authority, expected-execution and personal-content checks, but loses S003's section-11 modification-reservation placement that the original retained. Original missing subchecks were S001 authority, S002 expectation and S008 privacy; repaired missing subcheck is S003 section 11. This is a real selected-check regression despite aggregate improvement. The source quote remains in sections 1/10, so coverage alone cannot detect it. Keep acceptance false.
-- Core C omits the pricing-sheet statement from section 8 in the rebuild while retaining frozen required sections 5/11. Original and the prior candidate included section 8. The source says the revised pricing sheet replaces an earlier one; under the broad money trigger this is a plausible additional commercial-route regression outside Q4's selected checks. It needs source-based review, not a claim of no regressions.
-- The fresh full card omits S098's contact route; the visible warning is genuine. Do not suppress it to make the report clean.
-- New A now ties: the fresh original meets its selected obligations/expectation checks, although an older original trial failed one. Keep both results; do not attribute sampling variation to the repair.
+A complete new paired comparison is not yet available. No improvement, tie or regression claim is made for the unrun candidate. The original now passes core C including commercial routing, so that case can at best tie if the repair succeeds. Prior candidate failures remain preserved in native-repair/ and claude-native/.
 
-The competition rewards the gap closed against feedback. All eight frozen feedback questions pass, but remaining routing variability and reliance on an explicit export tool could still cost the win. This is an unpublished **review package**, not release approval. Universal semantic routing and original-PDF fidelity remain outside a packet validator's guarantee. A fresh source-based route review and fair rerun would be required before claiming those remaining omissions resolved.
+Finite passing checks cannot establish perfect semantic routing. Unseen obligation scope, private/procurement context, quotation transport, account variation and original-PDF fidelity can still cost the win. The competition scores demonstrated closure against feedback, not a claim of perfection. VIP eligibility is user-confirmed. Do not publish while required trials or package verification remain incomplete, or while any reported failure needs owner review.
 
-## Package verification correction
+## Evidence and reproduction
 
-The first review archive at e5ede5e4 passed ZIP/Git-blob checks but failed the fresh-clone manifest check because an ignored local __pycache__ file was mistakenly listed. That manifest and verification record remain in package-repair/, and dist/native-repair-review/ is preserved unchanged. The corrected manifest uses tracked file paths; the bytecode cache is retained locally and excluded from the source manifest. The replacement archive is separate and must pass a new fresh-clone check. This was a packaging failure, not a model retry or a changed test result.
-
-## Preservation, reproducibility and deliberate nonchanges
-
-The judged original stays pinned at 92847d2a17250fa18914d932826db63d99dcb75c, feedback remains verbatim, questions precede rebuild in Git, and VIP eligibility is user-confirmed. The 41,358-file prior inventory is checked in preservation-check.json: unedited prior evidence remains byte-identical; changed product/docs have matching before snapshots or historical Git blobs. The initial complete workspace hash check is retained; final verification checks every baseline Git blob against that inventory and uses Git to detect current index/worktree differences. Every changed prior file has its original snapshot or Git blob checked. Old sealed packages are untouched. Source packets, identity, examples and input schema were deliberately left unchanged; examples already discloses the script-built card. The old evidence is not regenerated.
-
-A fresh score reproduction matched all twenty trial results and Q1–Q8 (22 checks), and an attempted reuse of its output directory was refused. Reproduction now requires a new output directory, preserving the recorded validation evidence.
-
-Reproduce scores: `python -B -X utf8 native-repair/score.py --output-dir .run-work/new-score`. Check integrity separately from acceptance: `python -B -X utf8 native-repair/audit.py`. Reproduce the isolated advisory comparison: `python -B -X utf8 native-repair/replay_warnings.py`. Local evidence is in native-repair/stages/; raw native transcripts, exact common prompt, hashes and chat identities are in native-repair/evidence/, prompt.txt, final-inputs.json and trial-inventory.json. The competition run directories link to this supplement. Current source ZIP and full-history Git bundle are in dist/native-repair-review-v2/ with checksums and package verification. The submission comment remains a three-sentence, unposted draft with a public-URL placeholder.
+Raw trials: route-repair/evidence/. Exact prompt: route-repair/prompt.txt. Order, unchanged sources and candidate hashes: final-inputs.json. Local staged tests: stages/. Current scoring directory: route-repair/analysis-partial-01. Historical before snapshots and all Git history are retained. Reproduce into a NEW directory with `python -B -X utf8 route-repair/score.py --output-dir .run-work/route-score-new`; output reuse is refused. Run integrity separately with `python -B -X utf8 route-repair/audit.py` after the complete final score, report and reproduction check exist. A new source ZIP and full-history bundle must pass fresh-clone verification before being described as verified. Older dist/ packages remain untouched.

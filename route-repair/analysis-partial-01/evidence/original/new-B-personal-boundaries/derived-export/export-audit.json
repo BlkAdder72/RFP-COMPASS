@@ -1,0 +1,17 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-B-personal-boundaries\\source-packet.md",
+  "source_sha256": "e32cb2db7080206e691c0f91dd23326afb85228fe3819ecf4b36032815d2b430",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-B-personal-boundaries\\raw-response.md",
+      "raw_sha256": "fba85e67c7f798346af56397eeb7abd448edd7dfa4e0cc4a08ad69e7338fdd1a",
+      "output": "part-01.md",
+      "output_sha256": "fba85e67c7f798346af56397eeb7abd448edd7dfa4e0cc4a08ad69e7338fdd1a",
+      "changes": []
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": []
+}

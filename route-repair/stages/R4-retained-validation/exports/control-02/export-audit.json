@@ -1,0 +1,46 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-02\\source-packet.md",
+  "source_sha256": "216f3d106b26a8d5b50c400863253941c4a436a1d05c63072403751f2edfaa54",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\stages\\C1-citation\\control-02\\raw.md",
+      "raw_sha256": "e6ccf576434990454b79676b641ee218b2c903445dfb3970be87a996da6d9fc4",
+      "output": "part-01.md",
+      "output_sha256": "ca904b4cebea70061984a302d43d3f495c0fc40fc19534d04aeb4131e637b3a4",
+      "changes": [
+        {
+          "line": 9,
+          "id": "S001",
+          "field": "anchor",
+          "before": "Å",
+          "after": "Å",
+          "before_codepoints": [
+            "U+00C5"
+          ],
+          "after_codepoints": [
+            "U+0041",
+            "U+030A"
+          ]
+        },
+        {
+          "line": 11,
+          "id": "S001",
+          "field": "anchor",
+          "before": "Å",
+          "after": "Å",
+          "before_codepoints": [
+            "U+00C5"
+          ],
+          "after_codepoints": [
+            "U+0041",
+            "U+030A"
+          ]
+        }
+      ]
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": []
+}
