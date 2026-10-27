@@ -1,0 +1,66 @@
+{
+  "kind": "offline contract consistency and unchanged strict-validation controls; not model routing acceptance",
+  "checks": {
+    "byte_identical:tools/validate_packet.py": true,
+    "byte_identical:tools/finalize_card.py": true,
+    "private_exceptions_retained": true,
+    "reservation_route": true,
+    "four_shipped_samples": true,
+    "altered_quote": true,
+    "altered_anchor": true
+  },
+  "commands": [
+    {
+      "label": "four_shipped_samples",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "PASS (4 cards): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    },
+    {
+      "label": "altered_quote",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\C-official-email.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\stages\\R1-reservations\\altered_quote.md"
+      ],
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\stages\\R1-reservations\\altered_quote.md: ## 4. Application stages and submission mechanics stated: quotation does not match S003 at character 68: packet …ents must include a signed pricing sheet… card …ents must include a unsigned pricing she…\n",
+      "stderr": ""
+    },
+    {
+      "label": "altered_anchor",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\C-official-email.md",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\stages\\R1-reservations\\altered_anchor.md"
+      ],
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\stages\\R1-reservations\\altered_anchor.md: ## 1. Opportunity identity: anchor for S001 does not match the packet\n",
+      "stderr": ""
+    }
+  ],
+  "hashes": {
+    "CLAUDE_PROJECT_INSTRUCTIONS.txt": "59cff86cb9c9208ce30b3750c044dcd7547dcb2f60bc59993170dadc23546c48",
+    "rules.md": "f078b9c190561a119e3774d8b334fe288e6c0a45bebc3bd1248d705f783cf7e0",
+    "reference/output-schema.md": "63fb8dd3b586a62016ddb6df22301a3d5f6f6fa73dd8b3cd55d7e2f79d8f727b"
+  },
+  "passed": true
+}

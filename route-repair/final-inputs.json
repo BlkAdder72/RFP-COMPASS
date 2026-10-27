@@ -1,0 +1,71 @@
+{
+  "knowledge": {
+    "original": {
+      "CLAUDE_PROJECT_INSTRUCTIONS.txt": "2934fd66787b35b12f3b9c5283560ce1ee5d866b9ef781ec3fc427db75ae09a6",
+      "identity.md": "653916c5840428f7cb2e78072ac9544267af6063103aa07600c67745c8dd289d",
+      "rules.md": "ef244920a5584c739c532b4b1a9726013d0ce505180520f9a06730c68d7f2e35",
+      "examples.md": "a2d303babc738abda9f8716f70e6bad65047fb42254022f624ad5a019ef177cf",
+      "reference/input-schema.md": "01dc6060a8f872ffb080ce15650ae9b2a9c13ee4e2662ec99e8469369c0fd235",
+      "reference/output-schema.md": "e026cc5f52f910217d9e8668396585fecacc08fb73674596d65059c0c20ddd38",
+      "bundle_sha256": "c7a397f00260c6215e1ebe69d2e7d78855a79bc0da3d874358abf80fb8ee0fe2"
+    },
+    "rebuild": {
+      "CLAUDE_PROJECT_INSTRUCTIONS.txt": "5385abb82047124db5a325de282eea1432848c91f2b44a74157d9f28fc03b448",
+      "identity.md": "653916c5840428f7cb2e78072ac9544267af6063103aa07600c67745c8dd289d",
+      "rules.md": "da70db11de36855f1c124b7849b232fe8edf207297e178275a451b59048545ba",
+      "examples.md": "4e0aa63cbf79451a339e105aed89ad66fca25898b700bb0e97fd397710038020",
+      "reference/input-schema.md": "01dc6060a8f872ffb080ce15650ae9b2a9c13ee4e2662ec99e8469369c0fd235",
+      "reference/output-schema.md": "3cef95166407e5defdc40e76c5fc611df4c4ff0a57ff870f698a1d9dcba8c49c",
+      "bundle_sha256": "0c0808d7944bf80941d9011ca8ab299f307be15ec395cdcf5d0f3c77e2ff058c"
+    }
+  },
+  "fixtures": {
+    "core-A-stapled-thread": {
+      "source": "fixtures/A-stapled-thread.md",
+      "sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038"
+    },
+    "core-B-personal-note": {
+      "source": "fixtures/B-personal-note.md",
+      "sha256": "8f9eea159395293aa85be724ed990e6cd80a373c39e7d1e6171a2a3bdd776567"
+    },
+    "core-C-official-email": {
+      "source": "fixtures/C-official-email.md",
+      "sha256": "57b1f1ebbe4ad2c59d7128c54d4fdb34da4b95fd7cc9a447cb9219ef70405a02"
+    },
+    "core-D-ai-instruction": {
+      "source": "fixtures/D-ai-instruction.md",
+      "sha256": "dae3c6f26930395a4e439793e0d127c2b108f5a9fdf17af0fcebfc615dea21d3"
+    },
+    "core-E-contract-expectation": {
+      "source": "fixtures/E-contract-expectation.md",
+      "sha256": "3a4dab36755f799a73ebacec0a8930f76405cfec07131d72c3abf4bf9d60ffae"
+    },
+    "new-A-obligation-and-retrospective-scope": {
+      "source": "warning-final/fixtures/A-obligation-and-retrospective-scope.md",
+      "sha256": "76db21032ec091316a123d5a2034cb1c4d9c355cf908ca7adeea4199a6156f95"
+    },
+    "new-B-personal-boundaries": {
+      "source": "warning-final/fixtures/B-personal-boundaries.md",
+      "sha256": "e32cb2db7080206e691c0f91dd23326afb85228fe3819ecf4b36032815d2b430"
+    },
+    "new-C-opaque-citations": {
+      "source": "warning-final/fixtures/C-opaque-citations.md",
+      "sha256": "b7e0ab25173870ce31e0a68caab986ae53df0f3b6ad461d7785db7f97c018b3e"
+    },
+    "new-D-native-regressions": {
+      "source": "native-repair/inputs/new-D-native-regressions/source-packet.md",
+      "sha256": "d25171a4982fb1a4485201735262a1fd9d1ee53ffb1fbab696bd05ada0be9254"
+    },
+    "new-E-routing-families": {
+      "source": "route-repair/inputs/new-E-routing-families/source-packet.md",
+      "sha256": "e27ffb67abb700efbd32c8004291918ae5d3ac08af82172216468d0302b7b6c4"
+    },
+    "full-Z-full-length-noisy": {
+      "source": "hardening/fixtures/Z-full-length-noisy.md",
+      "sha256": "01526c6dccc0d05144b47d3ee1468c77f8d692d160418e187144cd1ab797a6bc"
+    }
+  },
+  "prompt": {
+    "sha256": "4457ccd90960e7ff311a6962c38f4760276f1765a4cfe06c056de75d540f382f"
+  }
+}

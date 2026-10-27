@@ -55,3 +55,9 @@
     - each `- not in source` marker.
 
     tools/validate_packet.py checks structure, quotations and coverage mechanically, across parts. It cannot check section placement or original-document fidelity.
+
+- Independent routing check: issuer reservations to amend, revise or modify solicitation terms belong in Sections 10 and 11, including a reserved right to change criteria. Check for this open item even with no issued amendment; a possible change to criteria does not itself state evaluation content. Apply Section 12-only exceptions first.
+
+- Independent routing check: submission recipients and delivery contacts belong in Section 10 even when the same statement is already in Sections 4 and 6. Check every solicitation ID, including instructions saying where or to whom to deliver a response. Preserve private contacts only in Section 12 when the exception applies; do not treat every name or email as a procurement contact.
+
+- Independent routing check: required pricing forms, including response pricing sheets and fee/rate/cost schedules, belong in Section 8 in addition to their submission/form placements. Commercial content can apply before award. Do not infer money from a technical narrative alone; private costs stay subject to Section 12-only handling.
