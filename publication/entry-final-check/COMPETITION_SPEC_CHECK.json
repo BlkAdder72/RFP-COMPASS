@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checked_public_source_commit": "392c6485c3c157bc241033564eebc56826ad61c3",
+  "specification": "packaging/competition-spec.txt",
+  "checks": {
+    "required_root_layout": true,
+    "ICM_five_parts_shipped": true,
+    "judged_original_all_134_files_exact": true,
+    "public_main_and_judged_tag_unchanged": true,
+    "feedback_verbatim_to_user_supplied_file": true,
+    "questions_committed_before_original_runs_before_rebuild": true,
+    "eight_frozen_questions_with_expected_answers": true,
+    "both_initial_raw_control_arms_and_prompts_present": true,
+    "initial_control_settings_match": true,
+    "latest_native_comparison_complete": true,
+    "all_eight_rebuild_feedback_questions_pass": true,
+    "report_ties_limits_and_unchanged_behavior_explicit": true,
+    "native_and_original_control_not_conflated": true,
+    "historical_audit_complete": true,
+    "report_and_saved_evidence_integrity": true,
+    "public_default_branch_is_rebuild": true
+  },
+  "original_files_verified": 134,
+  "VIP_eligibility": "user-confirmed; not independently verified",
+  "remaining_disclosed_limits": "Two native raw Unicode citation cases fail in both arms; exact export correction is separately reported; finite tests and model/account context limits remain",
+  "competition_comment_posted": false,
+  "model_calls": 0,
+  "checked_at_utc": "2026-10-28T22:04:40.041322+00:00"
+}
