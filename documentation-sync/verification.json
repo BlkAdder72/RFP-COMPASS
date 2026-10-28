@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "checks": {
+    "frozen_model:original:CLAUDE_PROJECT_INSTRUCTIONS.txt": true,
+    "frozen_model:original:identity.md": true,
+    "frozen_model:original:rules.md": true,
+    "frozen_model:original:examples.md": true,
+    "frozen_model:original:reference/input-schema.md": true,
+    "frozen_model:original:reference/output-schema.md": true,
+    "frozen_model:original:bundle_sha256": true,
+    "frozen_model:rebuild:CLAUDE_PROJECT_INSTRUCTIONS.txt": true,
+    "frozen_model:rebuild:identity.md": true,
+    "frozen_model:rebuild:rules.md": true,
+    "frozen_model:rebuild:examples.md": true,
+    "frozen_model:rebuild:reference/input-schema.md": true,
+    "frozen_model:rebuild:reference/output-schema.md": true,
+    "frozen_model:rebuild:bundle_sha256": true,
+    "validator_unchanged": true,
+    "exporter_unchanged": true,
+    "prior_inventory_exact": true,
+    "all_prior_canonical_blobs_preserved": true,
+    "only_authorized_current_docs_and_packaging_changed": true,
+    "every_changed_file_has_exact_before_version": true,
+    "historical_reports_and_raw_untouched": true,
+    "required_layout": true,
+    "report_mirror": true,
+    "documented_export_counts": true,
+    "documented_question_verdicts": true,
+    "current_document_links_exist": true,
+    "icm_responsibilities_explicit": true,
+    "stale_current_claims_removed": true,
+    "submission_gate_retains_hold": true
+  },
+  "prior_commit": "43108f35e5cad41b543a7ff9b0f1941ff8c947ec",
+  "prior_files_checked": 43455,
+  "changed_prior_files": [
+    "README.md",
+    "SUBMISSION_COMMENT.md",
+    "packaging/COMPLIANCE.md",
+    "rebuild/README.md",
+    "results.md",
+    "route-repair/CANDIDATE.md",
+    "route-repair/REPORT.md",
+    "route-repair/RESUME.md",
+    "route-repair/write_report.py",
+    "validator-note-repair/REPORT.md",
+    "validator-note-repair/build_manifest.py",
+    "validator-note-repair/package_review.py"
+  ],
+  "bad_links": [],
+  "completed_exports": {
+    "original": 11,
+    "rebuild": 3
+  },
+  "model_calls": 0,
+  "published": false,
+  "submission_ready": false,
+  "submission_gate": {
+    "exit_code": 2,
+    "stdout": "HOLD: latest route-repair comparison is incomplete. Run route-repair/offline_review.py --output-dir NEW --require-complete for offline checks; exit 2 retains the submission block.\n",
+    "stderr": ""
+  }
+}

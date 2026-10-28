@@ -1,8 +1,11 @@
 """Package an explicitly incomplete offline review snapshot, never a release."""
 from pathlib import Path
 import argparse,hashlib,json,os,subprocess,sys,zipfile
-R=Path(__file__).resolve().parents[1];D=R/'validator-note-repair';P=R/'dist/validator-note-repair-review-v2'
-p=argparse.ArgumentParser();p.add_argument('--checkout-dir',required=True,type=Path);a=p.parse_args();C=a.checkout_dir.resolve()
+R=Path(__file__).resolve().parents[1];D=R/'validator-note-repair'
+p=argparse.ArgumentParser();p.add_argument('--checkout-dir',required=True,type=Path)
+p.add_argument('--package-dir',type=Path,default=R/'dist/validator-note-repair-review-v2')
+p.add_argument('--documentation-check',action='store_true')
+a=p.parse_args();C=a.checkout_dir.resolve();P=a.package_dir.resolve()
 assert not P.exists() and not C.exists(),'Preserve earlier archives and checkouts'
 assert not subprocess.check_output(['git','status','--porcelain'],cwd=R),'Commit the source and evidence first'
 proof=json.loads((D/'FINAL_INTEGRITY.json').read_text());assert proof['passed'] and proof['after_sha256']==hashlib.sha256((R/'rebuild/tools/validate_packet.py').read_bytes()).hexdigest()
@@ -34,6 +37,8 @@ manifest=json.loads((F/'validator-note-repair/EVIDENCE_SHA256.json').read_text()
 assert all(hashlib.sha256((F/n).read_bytes()).hexdigest()==h for n,h in manifest.items())
 run('fresh differential cases',[sys.executable,'-B','-X','utf8',str(F/'validator-note-repair/test_repair.py'),'--stage','final','--output-dir',str(F/'.run-work/fresh-warning-check')],C)
 run('fresh delta and preservation integrity',[sys.executable,'-B','-X','utf8',str(F/'validator-note-repair/verify_integrity.py'),'--output',str(F/'.run-work/fresh-integrity.json')],C)
+if a.documentation_check:
+ run('fresh documentation and ICM integrity',[sys.executable,'-B','-X','utf8',str(F/'documentation-sync/verify.py'),'--output',str(F/'.run-work/fresh-documentation.json')],C)
 run('submission still blocked',[sys.executable,'-B','-X','utf8','tools/verify_submission.py'],C,2)
 run('clean checkout',['git','status','--porcelain'],C);assert not records[-1]['stdout']
 arts=[source.name,bundle.name]

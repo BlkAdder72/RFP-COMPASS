@@ -1,5 +1,11 @@
-# Current local competition compliance
+# Current competition compliance status — HOLD
 
-PASS all recorded gates. Unpublished. Current report: warning-final/REPORT.md and root results.md. Root Q1–Q8 unchanged; original, verbatim feedback and every earlier evidence file remain preserved, with before snapshots of seven mutable files and 53 old sealed artifacts. Only the warning analysis changes product behavior; all six model knowledge files and strict validation from def difference onward are unchanged. Four sequential gates,207 controls, fresh core/new/full paired runs, default Q8 and source-bound routing/opaque citation checks are separate.
+The ICM folder architecture and required competition layout are retained. The judged original is pinned and untouched, feedback is preserved verbatim, and eight feedback-derived questions were committed before the rebuild. VIP eligibility is user-confirmed. Nothing is published.
 
-The offline launcher preserves nine pinned historical audits and runs warning-final/verify.py as the current hard gate. Delivery: dist/warning-final-release/; FINAL_VERIFICATION.json determines fresh-clone completion. The submission draft is three unposted sentences. Native-Claude acceptance, Premium/VIP eligibility and public URL remain unverified. Nothing published.
+The latest native comparison is incomplete: all 11 original responses are exported; 3 repaired responses are exported; the fourth repaired response finished but has no verified raw export; seven later repaired cases remain unrun. Available evidence passes Q1–Q4/Q7/Q8; Q5/Q6 remain pending. No new Claude runs are authorized by the current instruction.
+
+The two false personal-note review hints are fixed offline. Strict validation, exporter logic and the six-file ICM model contract are unchanged. The validator repair's 263-case differential checks, 60 CLI comparisons, 216 warning/corruption controls and 17 citation controls are preserved in [validator-note-repair/REPORT.md](../validator-note-repair/REPORT.md). These are offline checks, not completed native acceptance.
+
+Current reports: [results.md](../results.md) and [documentation-sync/REPORT.md](../documentation-sync/REPORT.md). Current source/history review snapshot: dist/documentation-sync-review/, with checksums and fresh-clone verification. It remains explicitly incomplete for submission. The final command is `python -B -X utf8 tools/verify_submission.py` from the repository root; it intentionally returns HOLD while the final native comparison is missing.
+
+Existing JSON receipts and assembly/verification scripts in packaging/ describe earlier revisions. Their PASS values are historical results, not approval for the latest candidate. The former contents of this compliance page are preserved in documentation-sync/before/packaging/COMPLIANCE.md and Git. Earlier packages, failed archives and raw evidence remain untouched.

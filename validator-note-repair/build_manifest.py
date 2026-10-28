@@ -4,7 +4,7 @@ import hashlib,json,subprocess
 R=Path(__file__).resolve().parents[1];D=R/'validator-note-repair';P=D/'EVIDENCE_SHA256.json'
 assert not P.exists(),'Do not overwrite an evidence manifest'
 items=[]
-for row in subprocess.check_output(['git','ls-files','--stage','-z','--','validator-note-repair','route-repair','rebuild','README.md','results.md','SUBMISSION_COMMENT.md','tools/verify_submission.py'],cwd=R).split(b'\0'):
+for row in subprocess.check_output(['git','ls-files','--stage','-z','--','validator-note-repair','route-repair','documentation-sync','rebuild','README.md','results.md','SUBMISSION_COMMENT.md','packaging/COMPLIANCE.md','run-original/README.md','run-rebuild/README.md','tools/verify_submission.py'],cwd=R).split(b'\0'):
  if row:
   fields,name=row.split(b'\t',1);name=name.decode()
   if name!='validator-note-repair/EVIDENCE_SHA256.json':items.append((name,fields.decode().split()[1]))
