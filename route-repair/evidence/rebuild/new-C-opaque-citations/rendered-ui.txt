@@ -1,0 +1,116 @@
+Claude
+Menu
+Show sidebar
+Back
+Forward
+Translation contract bid compliance
+￼
+More options for Translation contract bid compliance
+Claude Desktop (Windows), Connected
+Claude Desktop (Windows), Connected
+Computer actions available — press Tab until focus enters the card, Escape to return.
+Browser
+Activity panel
+Share
+￼
+Sidebar
+Resize sidebar
+￼
+￼
+￼
+Use the up and down arrow keys to move between messages.
+￼
+You said: The attached translation-contract.md supplies the six named project files.
+source-packet.md
+MD
+translation-contract.md
+MD
+The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+just now
+Retry
+Edit
+Copy
+￼
+￼
+Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+Checking the packet's anchor strings for hidden characters
+￼
+Checking the packet's anchor strings for hidden characters
+RFP COMPASS — BID COMPLIANCE CARD
+1. Opportunity identity
+• not in source
+2. Scope, term, and program context stated
+• not in source
+3. Eligibility and qualifications stated
+• not in source
+4. Application stages and submission mechanics stated
+• “Applicants must include a signed declaration.” [source: source-packet.md:S001; Appendix p.﻿12]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S002; Appendix p.12‏]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S003; Appendix p.12 café]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S004; Appendix p.12 ‘A’]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S005; Appendix page 12]
+5. Mandatory attachments and forms stated
+• “Applicants must include a signed declaration.” [source: source-packet.md:S001; Appendix p.﻿12]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S002; Appendix p.12‏]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S003; Appendix p.12 café]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S004; Appendix p.12 ‘A’]
+• “Applicants must include a signed declaration.” [source: source-packet.md:S005; Appendix page 12]
+6. Dates and events stated
+• not in source
+7. Evaluation stated
+• not in source
+8. Commercial, performance, and post-award terms stated
+• not in source
+9. Tables, schedules, and templates
+• not in source
+10. Definitions, authority, and administrative terms
+• not in source
+11. Addenda, conflicts, and open items
+• not in source
+12. Unmapped source evidence
+• not in source
+Create a doc
+Copy
+￼
+Read aloud
+Good response
+Bad response
+Retry
+just now
+￼
+￼
+￼
+You can change the font of Claude’s responses
+Hover a font to try it. Click to keep it.
+Aa
+Aa
+Close
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Send message
+Add files, connectors, and more
+Dictate
+Use voice mode
+Microphone
+￼
+Claude is AI and can make mistakes.
+Opus 5.5 
+Medium
+Auto
+￼
+￼
+Claude finished the response
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Notifications

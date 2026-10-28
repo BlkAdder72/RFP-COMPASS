@@ -1,0 +1,292 @@
+Window: "Claude", App: claude.exe.
+	0 window Claude Secondary Actions: Raise
+		1 pane (disabled)
+		2 region Claude
+			3 region
+				4 region
+					5 region
+						6 button Minimize
+						7 button Maximize
+						8 button Close
+					9 region
+						10 region
+							11 region
+								12 region
+									13 document Value: file:///C:/Program%20Files/WindowsApps/Claude_3.6556.2.0_x64__pzs8sxrjxfjjc/app/resources/app.asar/.vite/renderer/main_window/index.html ID: RootWebArea
+										14 group ID: root
+								15 region
+									16 region
+										17 document Translation contract bid compliance card - Claude Value: https://claude.ai/chat/fd27414c-815f-4877-af82-3e0dcd4e4a57 ID: RootWebArea
+											18 group
+												19 group ID: root
+													890 heading Claude
+													891 button Menu
+													892 group
+														893 button Show sidebar
+													894 button Back
+													895 button (disabled) Forward
+													896 group
+														960 tool bar Page tools
+															961 heading Translation contract bid compliance card
+																962 button Translation contract bid compliance card, rename session
+															963 group
+															964 button More options for Translation contract bid compliance card
+															1022 status
+																1109 text Claude Desktop (Windows), Connected
+																1023 button Claude Desktop (Windows), Connected ID: base-ui-_r_uj0_
+																1110 text Computer actions available — press Tab until focus enters the card, Escape to return.
+															965 group ID: dframe-header-actions-slot
+																1024 group ID: session-activity-header-toggle-slot
+																	1025 toggle button Browser
+																	1026 toggle button Activity panel
+																1027 group
+																	1028 button Share
+													898 complementary Sidebar
+													899 thumb Resize sidebar Value: 0
+													20 main
+														21 region Primary pane
+															966 group
+															967 status
+															968 status
+															969 group
+																970 feed Chat messages
+																	971 text Use the up and down arrow keys to move between messages.
+																	972 article Message 1 of 2
+																		973 heading You said: The attached translation-contract.md supplies the six named project files.
+																		974 group
+																			975 button source-packet.md Description: source-packet.md
+																			977 text MD
+																		978 group
+																			979 button translation-contract.md Description: translation-contract.md
+																			981 text MD
+																		982 text The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+																		1083 tool bar Message actions
+																			1084 time
+																				1085 text just now
+																			1086 button Retry
+																			1087 button Edit
+																			1088 button Copy
+																			1089 status
+																		984 status
+																	985 article Message 2 of 2
+																		1090 heading Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+																		1035 group Separating personal entries from the procurement records. Description: Separating personal entries from the procurement records.
+																			1044 text Separating personal entries from the procurement records
+																			1040 button Separating personal entries from the procurement records
+																		1038 status
+																			1039 text Separating personal entries from the procurement records
+																		1043 heading RFP COMPASS — BID COMPLIANCE CARD
+																		1045 heading 1. Opportunity identity
+																		1046 list
+																			1047 list item not in source
+																		1048 heading 2. Scope, term, and program context stated
+																		1049 list
+																			1050 list item not in source
+																		1051 heading 3. Eligibility and qualifications stated
+																		1052 list
+																			1053 list item not in source
+																		1054 heading 4. Application stages and submission mechanics stated
+																		1055 list
+																			1056 list item “Applicants must return the signed certificate by November 18, 2027 at 2 PM.” [source: source-packet.md:S006; Packet paragraph 6]
+																		1057 heading 5. Mandatory attachments and forms stated
+																		1058 list
+																			1059 list item “Applicants must return the signed certificate by November 18, 2027 at 2 PM.” [source: source-packet.md:S006; Packet paragraph 6]
+																		1060 heading 6. Dates and events stated
+																		1061 list
+																			1062 list item “Applicants must return the signed certificate by November 18, 2027 at 2 PM.” [source: source-packet.md:S006; Packet paragraph 6]
+																		1063 heading 7. Evaluation stated
+																		1064 list
+																			1065 list item not in source
+																		1066 heading 8. Commercial, performance, and post-award terms stated
+																		1067 list
+																			1068 list item not in source
+																		1070 heading 9. Tables, schedules, and templates
+																		1071 list
+																			1072 list item not in source
+																		1073 heading 10. Definitions, authority, and administrative terms
+																		1074 list
+																			1075 list item not in source
+																		1076 heading 11. Addenda, conflicts, and open items
+																		1077 list
+																			1078 list item not in source
+																		1079 heading 12. Unmapped source evidence
+																		1080 list
+																			1081 list item “Personal correspondence (outside procurement):” [source: source-packet.md:S001; Packet paragraph 1]
+																			1082 list item “My birthday dinner is November 16, 2027 at 7 PM and my share is one hundred dollars.” [source: source-packet.md:S002; Packet paragraph 2]
+																			1091 list item “Participation does not hinge on attendance at our family reunion.” [source: source-packet.md:S003; Packet paragraph 3]
+																			1092 list item “My birthday dinner is November 17, 2027 at 7 PM.” [source: source-packet.md:S004; Packet paragraph 4]
+																			1093 list item “End of personal correspondence.” [source: source-packet.md:S005; Packet paragraph 5]
+																		1094 group Suggested actions
+																			1095 button Create a doc
+																		1096 tool bar Message actions
+																			1097 button Copy
+																			1098 status
+																			1099 button Read aloud
+																			1100 toggle button Good response
+																			1101 toggle button Bad response
+																			1102 button Retry
+																			1103 time
+																				1104 text just now
+																988 group
+																	989 status
+																990 status
+																1111 group You can change the font of Claude’s responses
+																	1112 text You can change the font of Claude’s responses
+																	1113 text Hover a font to try it. Click to keep it.
+																	1114 button Aa, Anthropic Serif
+																	1115 button Aa, Anthropic Sans
+																	1116 button Close
+																991 group
+																	992 status
+																993 status
+																994 status
+																995 status
+																996 status
+																997 group
+																	998 edit (settable, string) Write your prompt to Claude Value: 
+																		999 text 
+																	1000 status ID: skill-arg-hint-sr-plo1by
+																	1105 group
+																		1106 button (disabled) Send message
+																	1005 group
+																		1006 button Add files, connectors, and more ID: base-ui-_r_uhj_
+																		1007 group
+																			1107 button Dictate
+																			1008 group Use voice mode
+																				1009 button Use voice mode
+																				1010 button Microphone
+																		1032 group
+																		1011 note
+																			1012 link Claude is AI and can make mistakes. Value: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+																		1013 group
+																			1014 button Model: Opus 5.5 Medium ID: base-ui-_r_uik_
+																				1015 text Opus 5.5
+																				1016 text 
+																				1017 text Medium
+																		1033 group
+																			1034 button Auto
+															1018 status
+																1108 text Claude finished the response
+															1020 status
+															1021 group
+													31 status
+												32 group ID: portal-root
+												170 status
+												171 group
+													172 status
+													173 region Notifications
+
+Document text: ```
+Claude
+Menu
+Show sidebar
+Back
+Forward
+Translation contract bid compliance card
+￼
+More options for Translation contract bid compliance card
+Claude Desktop (Windows), Connected
+Claude Desktop (Windows), Connected
+Computer actions available — press Tab until focus enters the card, Escape to return.
+Browser
+Activity panel
+Share
+￼
+Sidebar
+Resize sidebar
+￼
+￼
+￼
+Use the up and down arrow keys to move between messages.
+￼
+You said: The attached translation-contract.md supplies the six named project files.
+source-packet.md
+MD
+translation-contract.md
+MD
+The attached translation-contract.md supplies the six named project files. Use the attached source-packet.md as the only active input. Apply the RFP Compass contract and return bid-compliance-card.md. Do not use tools, browse, access other files or sessions, or discuss this evaluation.
+just now
+Retry
+Edit
+Copy
+￼
+￼
+Claude responded: RFP COMPASS — BID COMPLIANCE CARD
+Separating personal entries from the procurement records
+￼
+Separating personal entries from the procurement records
+RFP COMPASS — BID COMPLIANCE CARD
+1. Opportunity identity
+• not in source
+2. Scope, term, and program context stated
+• not in source
+3. Eligibility and qualifications stated
+• not in source
+4. Application stages and submission mechanics stated
+• “Applicants must return the signed certificate by November 18, 2027 at 2 PM.” [source: source-packet.md:S006; Packet paragraph 6]
+5. Mandatory attachments and forms stated
+• “Applicants must return the signed certificate by November 18, 2027 at 2 PM.” [source: source-packet.md:S006; Packet paragraph 6]
+6. Dates and events stated
+• “Applicants must return the signed certificate by November 18, 2027 at 2 PM.” [source: source-packet.md:S006; Packet paragraph 6]
+7. Evaluation stated
+• not in source
+8. Commercial, performance, and post-award terms stated
+• not in source
+9. Tables, schedules, and templates
+• not in source
+10. Definitions, authority, and administrative terms
+• not in source
+11. Addenda, conflicts, and open items
+• not in source
+12. Unmapped source evidence
+• “Personal correspondence (outside procurement):” [source: source-packet.md:S001; Packet paragraph 1]
+• “My birthday dinner is November 16, 2027 at 7 PM and my share is one hundred dollars.” [source: source-packet.md:S002; Packet paragraph 2]
+• “Participation does not hinge on attendance at our family reunion.” [source: source-packet.md:S003; Packet paragraph 3]
+• “My birthday dinner is November 17, 2027 at 7 PM.” [source: source-packet.md:S004; Packet paragraph 4]
+• “End of personal correspondence.” [source: source-packet.md:S005; Packet paragraph 5]
+Create a doc
+Copy
+￼
+Read aloud
+Good response
+Bad response
+Retry
+just now
+￼
+￼
+￼
+You can change the font of Claude’s responses
+Hover a font to try it. Click to keep it.
+Aa
+Aa
+Close
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Send message
+Add files, connectors, and more
+Dictate
+Use voice mode
+Microphone
+￼
+Claude is AI and can make mistakes.
+Opus 5.5 
+Medium
+Auto
+￼
+￼
+Claude finished the response
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Notifications
+```
