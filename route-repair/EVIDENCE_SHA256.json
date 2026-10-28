@@ -1,10 +1,10 @@
 {
-  "CANDIDATE.md": "015a83331a06f4981289d23b963d046061c8ceffd218c121ddfacd02f3b07439",
+  "CANDIDATE.md": "02a00e157741649432c409186c1e15faf61e9c7c3f39d5fda77af105b4e34fb1",
   "OFFLINE_UPDATE_2026-10-28.md": "7cd3294192aebfca667ce22014c4b4cd2c402474b353cd950971af61611da404",
   "PROTOCOL.md": "cc469700b10f958f94d98606d97b0edda7531698a5609aacf9db41909e0940ef",
-  "REPORT.md": "42da6e76d91ad968d7d73aa3fa0ffc2d66a0fb36cfc3a8c40fd11e86aa29430b",
+  "REPORT.md": "848c33fee959aa0bc56974084c15cc33f9f5612feec6ff1e84366b73d8ee2acc",
   "RESUME-REPAIRED-PROGRESS-04.md": "69b151ea270ba2c8a50b552147f32560b1959106dc8ea9ad3766d28777a24cf8",
-  "RESUME.md": "a66c75ca629461132907feeb31050ae8c6219c9f6cf5c818ab4df1ae2937edc8",
+  "RESUME.md": "1293680c7ba24093a8cde954c47032cbfa8adb7e65b69ad3e57d8b6e25c4d66c",
   "analysis-partial-01/evidence/original/core-A-stapled-thread/derived-export/export-audit.json": "aee549eb0dab693936b88c8e020652ec2f88e0a03c1c18f3d4aa0f8f5829921b",
   "analysis-partial-01/evidence/original/core-A-stapled-thread/derived-export/part-01.md": "12ad8607f0321474bbe89e78228b42f3a2b72fdfc42d883bce8ce8c2f0eaf786",
   "analysis-partial-01/evidence/original/core-A-stapled-thread/derived-export/validation-inputs/part-01.md": "12ad8607f0321474bbe89e78228b42f3a2b72fdfc42d883bce8ce8c2f0eaf786",
@@ -64,6 +64,7 @@
   "baseline-partial-validation/results.json": "abaad51eac205c898595e701fbd099ad4e63c2dfc7424cbda038af4cf631236f",
   "before/README.md": "c3bd57832fbfa5ea0be5db49adda68726b1845604f7916f8d4e2c9c9882113e1",
   "before/SUBMISSION_COMMENT.md": "a0d32f113a3454df6765538d56a5edfdb1c643f8cde4eaf749d448b580a77ab8",
+  "before/packaging/COMPLIANCE.md": "e818e1b556d228bbbe89741b28e97e9407252cbcc52932c96e3ea41acb1d5363",
   "before/rebuild/.gitattributes": "3131783d82f971e1a661deab7c0888410a6cdf225968b5a0989816e70a1878c6",
   "before/rebuild/.gitignore": "b16d0cb976d4dea8128a50a6dfcea110db842948dc29a49600489c5ffa2cf1d3",
   "before/rebuild/CLAUDE_PROJECT_INSTRUCTIONS.txt": "e2465736f49790cda7aef0f503ea0370da98025ef9b67b5dd290f9762de943b1",
@@ -891,5 +892,5 @@
   "stages/R4-retained-validation/exports/retained-rebuild/validation-inputs/part-01.md": "9e5678382b8f95af8648b4498d2a483640e41ef43ccc2bc2466ff063a2563d31",
   "stages/R4-retained-validation/warning-results.json": "ac85eab204de207d703c2b1897bb279d03904a6ab97e39b085586b48dc93e4cc",
   "verify_package.py": "8b86452f56359d3b4be8197b3352be40e72fbe3c9c62e6a5d705e1320b8badc9",
-  "write_report.py": "9857f34a87441d731d631e86755f69f7d34228366df4035643ea29e85e791123"
+  "write_report.py": "6397cbd806164201818c7e36697c816f562271a8f7b720bd8159d63d376f5941"
 }

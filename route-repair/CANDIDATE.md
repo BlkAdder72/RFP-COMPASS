@@ -6,4 +6,4 @@ The later authorized offline repair changed only two private-form warning predic
 
 Current original exports: 11 of 11. Current repaired exports: 3 of 11. The fourth response was submitted and finished, but its raw export is not verified. Seven further cases remain unrun. Read RESUME.md; do not regenerate the fourth response, rerun Claude or publish under the present instruction.
 
-Q1–Q4/Q7/Q8 pass in available saved evidence; Q5/Q6 remain pending. Older native-repair results describe older candidates. The latest verified review snapshot is dist/documentation-sync-review/ at the repository root; it does not establish final native acceptance. Source packets, common prompt, questions and raw evidence remain unchanged.
+Q1–Q4/Q7/Q8 pass in available saved evidence; Q5/Q6 remain pending. Older native-repair results describe older candidates. The latest verified review snapshot is dist/documentation-sync-review-v2/ at the repository root; it does not establish final native acceptance. Source packets, common prompt, questions and raw evidence remain unchanged.

@@ -39,9 +39,11 @@ Historical protocols, reports, first-pass evidence and earlier compliance JSON a
 
 ```text
 python -B -X utf8 documentation-sync/verify.py --output .run-work/new-documentation-check.json
-python -B -X utf8 validator-note-repair/package_review.py --package-dir dist/documentation-sync-review --checkout-dir NEW_ABSOLUTE_DIRECTORY --documentation-check
+python -B -X utf8 validator-note-repair/package_review.py --package-dir dist/documentation-sync-review-v2 --checkout-dir NEW_ABSOLUTE_DIRECTORY --documentation-check
 ```
 
-Output paths must be new. The current review snapshot is `dist/documentation-sync-review/`, containing the source ZIP, full Git-history bundle, SHA256 checksums, package metadata and fresh-clone verification. Archive verification checks every Git-tracked source file and the canonical manifest; fresh-clone checks include documentation/ICM integrity, the 263-case validator regression suite, preservation and the retained submission HOLD. The existing Windows long-path handling and preserved canonical sample variant remain in effect.
+Output paths must be new. The current review snapshot is `dist/documentation-sync-review-v2/`, containing the source ZIP, full Git-history bundle, SHA256 checksums, package metadata and fresh-clone verification. Archive verification checks every Git-tracked source file and the canonical manifest; fresh-clone checks include documentation/ICM integrity, the 263-case validator regression suite, preservation and the retained submission HOLD. The existing Windows long-path handling and preserved canonical sample variant remain in effect.
 
 This review package does not establish complete competition readiness. The latest native comparison and final submission audit remain incomplete, and nothing is published.
+
+The first documentation snapshot remains preserved at dist/documentation-sync-review/ with FAILED.json. Its fresh documentation check falsely reported missing ../ links because Windows extended paths require lexical normalization; version 2 normalizes each target before checking it, with no checks removed. Version 2 also supplies the exact pre-update compliance page required by the older routing audit; no preservation assertion is relaxed.

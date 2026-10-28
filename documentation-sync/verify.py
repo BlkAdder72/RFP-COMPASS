@@ -32,6 +32,9 @@ for n in changed:
  prior=subprocess.check_output(['git','show',old['prior_commit']+':'+n],cwd=cwd)
  before_ok=before_ok and snapshot.is_file() and snapshot.read_bytes().replace(b'\r\n',b'\n')==prior.replace(b'\r\n',b'\n')
 checks['every_changed_file_has_exact_before_version']=before_ok
+route=json.loads((R/'route-repair/preservation.json').read_text())
+route_changed=[n for n in subprocess.check_output(['git','diff','--name-only','-z',route['target'],'--'],cwd=cwd).decode().split('\0') if n in route['tracked_sha256']]
+checks['older_route_audit_before_versions_complete']=all((R/'route-repair/before'/n).is_file() and sha(R/'route-repair/before'/n)==route['tracked_sha256'][n] for n in route_changed)
 checks['historical_reports_and_raw_untouched']=not any(n.startswith(('original/','native-repair/','claude-native/','warning-final/','route-repair/evidence/','route-repair/offline-review-2026-10-28/')) for n in changed)
 checks['required_layout']=all((R/n).exists() for n in ['original','rebuild','feedback.md','questions.md','results.md','run-original','run-rebuild'])
 checks['report_mirror']=(R/'results.md').read_bytes()==(R/'route-repair/REPORT.md').read_bytes()
@@ -45,7 +48,9 @@ for n in docs:
  for target in re.findall(r'\]\(([^)]+)\)',text):
   if target.startswith(('https://','http://')):continue
   target=target.split('#',1)[0]
-  if target and not(path.parent/target).exists():bad_links.append({'document':n,'target':target})
+  # Extended Windows paths do not normalize '..' inside the filesystem call.
+  # Resolve the Markdown-relative path lexically before checking its target.
+  if target and not Path(os.path.normpath(str(path.parent/target))).exists():bad_links.append({'document':n,'target':target})
 checks['current_document_links_exist']=not bad_links
 inner=(R/'rebuild/README.md').read_text(encoding='utf-8')
 checks['icm_responsibilities_explicit']=all(n in inner for n in ['identity.md','rules.md','examples.md','reference/','outside the model'])
