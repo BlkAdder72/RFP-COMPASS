@@ -1,6 +1,6 @@
 """Verify the authorized validator-only delta and preserve all prior evidence."""
 from pathlib import Path
-import argparse,ast,copy,hashlib,json,subprocess
+import argparse,ast,copy,hashlib,json,os,subprocess
 R=Path(__file__).resolve().parents[1];D=R/'validator-note-repair'
 p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);a=p.parse_args()
 assert not a.output.exists(),'Do not overwrite a verification receipt'
@@ -23,7 +23,7 @@ pres=json.loads((D/'preservation.json').read_text());changed=[];unpreserved=[]
 portable=json.loads((D/'portability.json').read_text())['variants']
 portable_ok=True
 for name,v in portable.items():
- canonical=subprocess.check_output(['git','show',pres['commit']+':'+name],cwd=R)
+ canonical=subprocess.check_output(['git','show',pres['commit']+':'+name],cwd=str(R)[4:] if os.name=='nt' and str(R).startswith('\\\\?\\') else R)
  snapshot=R/v['working_snapshot']
  portable_ok=portable_ok and sha(snapshot)==pres['tracked_sha256'][name]==v['prior_working_sha256'] and hashlib.sha256(canonical).hexdigest()==v['git_canonical_sha256'] and snapshot.read_bytes().replace(b'\r\n',b'\n')==canonical.replace(b'\r\n',b'\n')
  portable_ok=portable_ok and not name.startswith(('route-repair/evidence/','native-repair/evidence/','claude-native/evidence/'))

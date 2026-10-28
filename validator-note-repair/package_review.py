@@ -1,7 +1,7 @@
 """Package an explicitly incomplete offline review snapshot, never a release."""
 from pathlib import Path
-import argparse,hashlib,json,subprocess,sys,zipfile
-R=Path(__file__).resolve().parents[1];D=R/'validator-note-repair';P=R/'dist/validator-note-repair-review'
+import argparse,hashlib,json,os,subprocess,sys,zipfile
+R=Path(__file__).resolve().parents[1];D=R/'validator-note-repair';P=R/'dist/validator-note-repair-review-v2'
 p=argparse.ArgumentParser();p.add_argument('--checkout-dir',required=True,type=Path);a=p.parse_args();C=a.checkout_dir.resolve()
 assert not P.exists() and not C.exists(),'Preserve earlier archives and checkouts'
 assert not subprocess.check_output(['git','status','--porcelain'],cwd=R),'Commit the source and evidence first'
@@ -29,10 +29,11 @@ run('independent full-history clone',['git','-c','core.longpaths=true','clone','
 run('long paths',['git','config','core.longpaths','true'],C)
 run('exact checkout',['git','checkout','--quiet','--detach',head],C)
 assert subprocess.check_output(['git','rev-parse','HEAD'],cwd=C,text=True).strip()==head
-manifest=json.loads((C/'validator-note-repair/EVIDENCE_SHA256.json').read_text())
-assert all(hashlib.sha256((C/n).read_bytes()).hexdigest()==h for n,h in manifest.items())
-run('fresh differential cases',[sys.executable,'-B','-X','utf8','validator-note-repair/test_repair.py','--stage','final','--output-dir','.run-work/fresh-warning-check'],C)
-run('fresh delta and preservation integrity',[sys.executable,'-B','-X','utf8','validator-note-repair/verify_integrity.py','--output','.run-work/fresh-integrity.json'],C)
+F=Path('\\\\?\\'+str(C)) if os.name=='nt' else C
+manifest=json.loads((F/'validator-note-repair/EVIDENCE_SHA256.json').read_text())
+assert all(hashlib.sha256((F/n).read_bytes()).hexdigest()==h for n,h in manifest.items())
+run('fresh differential cases',[sys.executable,'-B','-X','utf8',str(F/'validator-note-repair/test_repair.py'),'--stage','final','--output-dir',str(F/'.run-work/fresh-warning-check')],C)
+run('fresh delta and preservation integrity',[sys.executable,'-B','-X','utf8',str(F/'validator-note-repair/verify_integrity.py'),'--output',str(F/'.run-work/fresh-integrity.json')],C)
 run('submission still blocked',[sys.executable,'-B','-X','utf8','tools/verify_submission.py'],C,2)
 run('clean checkout',['git','status','--porcelain'],C);assert not records[-1]['stdout']
 arts=[source.name,bundle.name]

@@ -1,5 +1,5 @@
 {
-  "README.md": "4c78055c748e393150704a2fed3de3ba750cd123cdf62ff14825925385ae3ccd",
+  "README.md": "da57d380c0c8a3d71b49a697811c0229edd3640a4c163a72ad4ab4f3197c8513",
   "SUBMISSION_COMMENT.md": "94423b96d1bc98bf08318e1ef0fee8589dcd50c07f4d24e40388004e2ecbe708",
   "rebuild/.gitattributes": "3131783d82f971e1a661deab7c0888410a6cdf225968b5a0989816e70a1878c6",
   "rebuild/.gitignore": "b16d0cb976d4dea8128a50a6dfcea110db842948dc29a49600489c5ffa2cf1d3",
@@ -1462,7 +1462,7 @@
   "tools/verify_submission.py": "120d6271bb8797220861f8f8069b079c17b5ed764930c9086d76fa6440b473d9",
   "validator-note-repair/FINAL_INTEGRITY.json": "c4bc62d215268d686604c238cf5691d6aa80c3403d1cb8c5b928a90b75ac0855",
   "validator-note-repair/PROTOCOL.md": "acdff98816d9644dc3f6f97b836066e0652d8e3179030faaeab3056aec38cd67",
-  "validator-note-repair/REPORT.md": "91e80d66a9ac55e257767afcdad3a0369426acc26b13a335d1270815aa697a12",
+  "validator-note-repair/REPORT.md": "023f01805310fe6a21829a3ea2f20a1b2893f99fd4cf1896f93ce9319882ba5c",
   "validator-note-repair/analysis/evidence/original/core-A-stapled-thread/derived-export/export-audit.json": "aee549eb0dab693936b88c8e020652ec2f88e0a03c1c18f3d4aa0f8f5829921b",
   "validator-note-repair/analysis/evidence/original/core-A-stapled-thread/derived-export/part-01.md": "12ad8607f0321474bbe89e78228b42f3a2b72fdfc42d883bce8ce8c2f0eaf786",
   "validator-note-repair/analysis/evidence/original/core-A-stapled-thread/derived-export/validation-inputs/part-01.md": "12ad8607f0321474bbe89e78228b42f3a2b72fdfc42d883bce8ce8c2f0eaf786",
@@ -1596,8 +1596,9 @@
   "validator-note-repair/compare_cli.py": "72ab9bd203ad43c2eed302d0a270abb22f3ddf72216e5b04a6511554e3d4d515",
   "validator-note-repair/historical-native-replay-initial.json": "8d463ea0f97c2a76d2a31be36c2d1b60ef11f5a8100776fed9ff3105c3486182",
   "validator-note-repair/historical-native-replay.json": "4fdd6311bd1ec48e1639d2700e1211236107dd820199fd0c8cd99602aed10cbb",
+  "validator-note-repair/history/EVIDENCE_SHA256-87c717b8.json": "72ae6c76204d2dc5a808a904e15ab0ecca9b6e99702b9403167cad358bfa1846",
   "validator-note-repair/initial-integrity.json": "43770f7fe9a1b6366de0278ae8ce8457895994800c7879abf6458e816fa12bbf",
-  "validator-note-repair/package_review.py": "3467bfa68d07d009d83018441d6e754d0a74526f04aac8f49de7ed0f8a0862a1",
+  "validator-note-repair/package_review.py": "5cac2761fd8425281f7fc98de986c14944ca7225b35d5b1eeae0a58edc9427f5",
   "validator-note-repair/portability.json": "5ae58ae19c8666a1472ac8a2273dba19643f935bc1671141d381fb21d3aeeb0c",
   "validator-note-repair/portability/working-snapshots/rebuild/samples/04-real-tbrpc-auditing-rfp/bid-compliance-card.md": "f4cd390230baeb696d4f32c31de2948c3c1fe1392d01785599bc0579f231be34",
   "validator-note-repair/portable-integrity.json": "c4bc62d215268d686604c238cf5691d6aa80c3403d1cb8c5b928a90b75ac0855",
@@ -1746,5 +1747,5 @@
   "validator-note-repair/stage-2-contact/results.json": "eea10138a4f2c3911fbf1ea8d4f06c19b60a4137c90ff5f838f6316a4d56f89b",
   "validator-note-repair/stage-2-contact/validate_packet.py": "3e7aa8c9308cf3c0cd0a10815421804222cce1e3d4357014ad6540bf3af4f9c2",
   "validator-note-repair/test_repair.py": "ba5d80d0c1dfb18a02ea4e52c5cd52ad814319874b137a859a69d0268c526858",
-  "validator-note-repair/verify_integrity.py": "3be406f38b6209fbd558533830968e84fa1f489da00a7a695a797155f877cb88"
+  "validator-note-repair/verify_integrity.py": "bca8d6a899808416a2412999b3ebb2a808410b212f741e298989cd1bca6a0651"
 }
