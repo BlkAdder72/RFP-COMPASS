@@ -1,6 +1,9 @@
 from pathlib import Path,PureWindowsPath
-import json,subprocess,sys
-D=Path(__file__).resolve().parent;R=D.parent;O=D/'stages/R4-retained-validation';O.mkdir(parents=True,exist_ok=False);results=[]
+import argparse,json,subprocess,sys
+D=Path(__file__).resolve().parent;R=D.parent
+parser=argparse.ArgumentParser(description='Replay retained offline controls into a new directory without changing evidence.')
+parser.add_argument('--output-dir',type=Path,default=D/'stages/R4-retained-validation')
+O=parser.parse_args().output_dir.resolve();O.mkdir(parents=True,exist_ok=False);results=[]
 for kind,path in [('export','native-repair/stages/C4-final-export/results.json'),('warning','native-repair/stages/C3-warning/results.json')]:
  rows=json.loads((R/path).read_text(encoding='utf-8'))
  for i,row in enumerate(rows):

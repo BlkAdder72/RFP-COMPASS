@@ -1,0 +1,6 @@
+{
+  "original": "route-repair/offline-review-2026-10-28/baseline.zip",
+  "preserved_at": ".run-work/offline-review-baseline-2026-10-28.zip",
+  "sha256": "12110532c0a4b4dd5059d4bba6e3d5524286f56917cc4db23c694118c6e06780",
+  "reason": "Reproducible historical Git archive kept outside submission source to avoid recursive package duplication"
+}

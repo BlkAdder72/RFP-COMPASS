@@ -97,11 +97,14 @@ for arm in ('original','rebuild'):
 frozen={}
 for arm in out:
     cases=out[arm]; core={k[5]:v for k,v in cases.items() if k.startswith('core-')}
-    if len(core)!=5 or any('semantic_checks' not in v for v in core.values()): continue
+    # Grade each available question independently; an unfinished later chat must
+    # not hide completed feedback checks or the independent Q7/Q8 inspections.
+    available={k:v for k,v in core.items() if 'semantic_checks' in v}
+    core={k:available.get(k,{'semantic_checks':{},'strict_pass':None}) for k in 'ABCDE'}
     a,b,c,d,e=[core[k] for k in 'ABCDE']; lc=local[arm]['checks']
     checks={
-      'Q1':{s:a['semantic_checks'][s+'_only12'] for s in ('S004','S005','S006','S007')},
-      'Q2':{'deadline':a['semantic_checks']['deadline6'],'references':a['semantic_checks']['references5'],'shape_quotes_coverage':a['strict_pass']},
+      'Q1':{s:a['semantic_checks'].get(s+'_only12') for s in ('S004','S005','S006','S007')},
+      'Q2':{'deadline':a['semantic_checks'].get('deadline6'),'references':a['semantic_checks'].get('references5'),'shape_quotes_coverage':a['strict_pass']},
       'Q3':{**b['semantic_checks'],'shape_quotes_coverage':b['strict_pass']},
       'Q4':{**c['semantic_checks'],'shape_quotes_coverage':c['strict_pass']},
       'Q5':{**d['semantic_checks'],'shape_quotes_coverage':d['strict_pass']},
@@ -109,6 +112,7 @@ for arm in out:
       'Q7':{k:v for k,v in lc.items() if k.startswith('Q7')},
       'Q8':{k:v for k,v in lc.items() if k.startswith('Q8')},
     }
-    frozen[arm]={q:{'verdict':'pass' if all(v.values()) else 'partial' if any(v.values()) else 'fail','checks':v} for q,v in checks.items()}
+    needed={'Q1':'A','Q2':'A','Q3':'B','Q4':'C','Q5':'D','Q6':'E'}
+    frozen[arm]={q:{'verdict':'pending' if q in needed and needed[q] not in available else 'pass' if all(v.values()) else 'partial' if any(v.values()) else 'fail','checks':v} for q,v in checks.items()}
 (OUTPUT/'scores.json').write_text(json.dumps({'model_trials':out,'local_file_checks':local,'frozen_questions':frozen,'comparison_complete':all(v['status'] in ('refusal','raw exported') for a in out.values() for v in a.values())},ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({a:{k:{n:v[n] for n in ('status','strict_pass','semantic_pass') if n in v} for k,v in d.items()} for a,d in out.items()},indent=2))

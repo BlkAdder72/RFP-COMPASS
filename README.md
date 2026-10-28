@@ -1,15 +1,24 @@
-> Current routing repair status: candidate implemented; fresh repaired Claude trials pending desktop recovery. No publication. See [current results](results.md) and [frozen candidate](route-repair/CANDIDATE.md). Earlier reports and sealed archives remain historical evidence.
-
 # RFP-COMPASS — Competition 15: The Rebuild
 
-Unpublished review candidate. Start with [feedback.md](feedback.md), [questions.md](questions.md), then [results.md](results.md). VIP eligibility is user-confirmed.
+**Unpublished; final native acceptance and release verification remain incomplete.** VIP eligibility is user-confirmed. Start with [judges' feedback](feedback.md), [frozen questions](questions.md), and [current results](results.md).
 
-The judged Comp #13 original remains untouched in original/, pinned at 92847d2a17250fa18914d932826db63d99dcb75c (tag judged-original-comp13). Source: https://github.com/BlkAdder72/RFP-COMPASS. Frozen Q1–Q8 were committed before the initial rebuild; every later repair and failed comparison remains in Git and on disk.
+This rebuild addresses the judges' noisy-input failure: unrelated personal content belongs only in section 12, while genuine procurement content remains usable. It also makes contractual-expectation routing explicit, discloses the script-built sample, and passes the specified Q8 personal-date warning test while retaining genuine missed-deadline warnings. Broader false warnings remain disclosed in the report.
 
-The judges asked for personal material only in section 12 without false date warnings, consistent contractual-expectation routing, visible script-built provenance, and noisy-input receipts. The latest twenty-trial native Claude comparison passes all eight feedback questions and the full-RFP selected checks. Broader acceptance remains failed: one combined-case route regresses, a contact-route omission remains, and both arms need the explicit audited export step for decomposed Unicode anchors. Read the report before treating a validator PASS as readiness.
+The judged Comp #13 entry is untouched in [original/](original/), pinned at `92847d2a17250fa18914d932826db63d99dcb75c` (tag `judged-original-comp13`). Source: [BlkAdder72/RFP-COMPASS](https://github.com/BlkAdder72/RFP-COMPASS). Eight feedback questions were committed before the first rebuild. Historical reports, failures, raw evidence and Git history remain preserved.
 
-Candidate: [rebuild/](rebuild/). Latest native evidence, frozen inputs and detailed stages: [native-repair/](native-repair/). [run-original/](run-original/) and [run-rebuild/](run-rebuild/) retain all comparisons and link to the native supplement. The older claude-native/ and warning-final/ reports describe their own versions; they are preserved evidence, not current acceptance.
+## Current evidence
 
-Offline integrity check: `python -B -X utf8 native-repair/audit.py`. Reproduce scores: `python -B -X utf8 native-repair/score.py --output-dir .run-work/new-score`. Full historical-plus-current audit: `python -B -X utf8 tools/verify_submission.py`. Integrity and behavioral acceptance are reported separately. Full source ZIP and recoverable Git history: dist/native-repair-review-v2/, with checksums and package verification. Submission draft: [SUBMISSION_COMMENT.md](SUBMISSION_COMMENT.md), unposted.
+The latest candidate is [rebuild/](rebuild/), frozen for the [route-repair protocol](route-repair/PROTOCOL.md). All 11 original native first-pass responses are preserved. Three repaired responses are fully exported and pass strict validation and selected routing checks: personal thread and personal note improve; official clarification ties. Local provenance and default warning checks pass. A fourth repaired response finished but its raw export is blocked; seven subsequent cases remain unrun. These gaps include remaining routing regressions, citation variants and the full-length noisy RFP.
 
-Finite passes do not prove perfect semantic routing or original-PDF fidelity. Nothing is published.
+The October 28 update makes no Claude calls and changes no frozen candidate, question, fixture or raw response. See [offline review](route-repair/offline-review-2026-10-28/review.json) and [restart checkpoint](route-repair/RESUME-REPAIRED-PROGRESS-04.md). Do not regenerate the fourth response.
+
+## Review and reproduction
+
+- Current report: [results.md](results.md), mirrored in [route-repair/REPORT.md](route-repair/REPORT.md).
+- Exact inputs, hashes and order: [final-inputs.json](route-repair/final-inputs.json); exact [prompt](route-repair/prompt.txt).
+- Raw evidence: [original](route-repair/evidence/original/) and [rebuild](route-repair/evidence/rebuild/); control pointers in [run-original/](run-original/) and [run-rebuild/](run-rebuild/).
+- Offline check: `python -B -X utf8 route-repair/offline_review.py --output-dir .run-work/new-offline-check`. Add `--require-complete` for a nonzero submission gate while native evidence is incomplete. Output directories must be new.
+- Re-score existing evidence only: `python -B -X utf8 route-repair/score.py --output-dir .run-work/new-score`.
+- Final submission audit: `python -B -X utf8 tools/verify_submission.py`. This intentionally returns HOLD while the final comparison is missing; passing offline checks alone cannot release the entry.
+
+Older `native-repair/`, `claude-native/` and `dist/` packages describe earlier candidates. No final `dist/route-repair-review/` package has been sealed. The [submission comment](SUBMISSION_COMMENT.md) is an unposted draft. Complete the retained native evidence, final report, clean-source archive, full-history bundle and fresh-clone verification before submission. Integrity, raw citation accuracy and semantic routing are separate checks; finite passes do not prove perfection or original-PDF fidelity.

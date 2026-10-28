@@ -1,0 +1,125 @@
+{
+  "scope": "offline integrity and available evidence only; no native model acceptance implied",
+  "offline_integrity_pass": true,
+  "submission_ready": false,
+  "comparison_complete": false,
+  "completed_exports": {
+    "original": 11,
+    "rebuild": 3
+  },
+  "checks": {
+    "frozen:original:CLAUDE_PROJECT_INSTRUCTIONS.txt": true,
+    "frozen:original:identity.md": true,
+    "frozen:original:rules.md": true,
+    "frozen:original:examples.md": true,
+    "frozen:original:reference/input-schema.md": true,
+    "frozen:original:reference/output-schema.md": true,
+    "frozen:original:bundle_sha256": true,
+    "frozen:rebuild:CLAUDE_PROJECT_INSTRUCTIONS.txt": true,
+    "frozen:rebuild:identity.md": true,
+    "frozen:rebuild:rules.md": true,
+    "frozen:rebuild:examples.md": true,
+    "frozen:rebuild:reference/input-schema.md": true,
+    "frozen:rebuild:reference/output-schema.md": true,
+    "frozen:rebuild:bundle_sha256": true,
+    "fixture:core-A-stapled-thread": true,
+    "fixture:core-B-personal-note": true,
+    "fixture:core-C-official-email": true,
+    "fixture:core-D-ai-instruction": true,
+    "fixture:core-E-contract-expectation": true,
+    "fixture:new-A-obligation-and-retrospective-scope": true,
+    "fixture:new-B-personal-boundaries": true,
+    "fixture:new-C-opaque-citations": true,
+    "fixture:new-D-native-regressions": true,
+    "fixture:new-E-routing-families": true,
+    "fixture:full-Z-full-length-noisy": true,
+    "protocol:PROTOCOL.md": true,
+    "protocol:expectations.json": true,
+    "protocol:full-expectations.json": true,
+    "protocol:inputs.json": true,
+    "protocol:prompt.txt": true,
+    "questions_frozen": true,
+    "questions_before_rebuild": true,
+    "judged_pin": true,
+    "validation_unchanged:tools/validate_packet.py": true,
+    "validation_unchanged:tools/finalize_card.py": true,
+    "feedback_unchanged": true,
+    "baseline_archive": true,
+    "all_baseline_blobs": true,
+    "original_worktree_untouched": true,
+    "changed_prior_files_preserved": true,
+    "historical_evidence_untouched": true,
+    "samples": true,
+    "score": true,
+    "controls": true,
+    "export_controls": true,
+    "warning_controls": true
+  },
+  "commands": [
+    {
+      "label": "baseline_archive",
+      "command": [
+        "git",
+        "archive",
+        "--format=zip",
+        "-o",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\offline-review-2026-10-28\\baseline.zip",
+        "5e30129b3af677ef43fccb3dcec4c452182ffab6"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "label": "samples",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "rebuild/tools/validate_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS (4 cards): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+      "stderr": ""
+    },
+    {
+      "label": "score",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "route-repair/score.py",
+        "--output-dir",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\offline-review-2026-10-28\\analysis"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"original\": {\n    \"core-A-stapled-thread\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": true,\n      \"semantic_pass\": false\n    },\n    \"core-B-personal-note\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": true,\n      \"semantic_pass\": false\n    },\n    \"core-C-official-email\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": true,\n      \"semantic_pass\": true\n    },\n    \"core-D-ai-instruction\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": true,\n      \"semantic_pass\": true\n    },\n    \"core-E-contract-expectation\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": true,\n      \"semantic_pass\": true\n    },\n    \"new-A-obligation-and-retrospective-scope\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": true,\n      \"semantic_pass\": true\n    },\n    \"new-B-personal-boundaries\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": true,\n      \"semantic_pass\": false\n    },\n    \"new-C-opaque-citations\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": false,\n      \"semantic_pass\": true\n    },\n    \"new-D-native-regressions\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": false,\n      \"semantic_pass\": false\n    },\n    \"new-E-routing-families\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": true,\n      \"semantic_pass\": false\n    },\n    \"full-Z-full-length-noisy\": {\n      \"status\": \"refusal\",\n      \"strict_pass\": false,\n      \"semantic_pass\": false\n    }\n  },\n  \"rebuild\": {\n    \"core-A-stapled-thread\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": true,\n      \"semantic_pass\": true\n    },\n    \"core-B-personal-note\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": true,\n      \"semantic_pass\": true\n    },\n    \"core-C-official-email\": {\n      \"status\": \"raw exported\",\n      \"strict_pass\": true,\n      \"semantic_pass\": true\n    },\n    \"core-D-ai-instruction\": {\n      \"status\": \"not run\",\n      \"strict_pass\": null\n    },\n    \"core-E-contract-expectation\": {\n      \"status\": \"not run\",\n      \"strict_pass\": null\n    },\n    \"new-A-obligation-and-retrospective-scope\": {\n      \"status\": \"not run\",\n      \"strict_pass\": null\n    },\n    \"new-B-personal-boundaries\": {\n      \"status\": \"not run\",\n      \"strict_pass\": null\n    },\n    \"new-C-opaque-citations\": {\n      \"status\": \"not run\",\n      \"strict_pass\": null\n    },\n    \"new-D-native-regressions\": {\n      \"status\": \"not run\",\n      \"strict_pass\": null\n    },\n    \"new-E-routing-families\": {\n      \"status\": \"not run\",\n      \"strict_pass\": null\n    },\n    \"full-Z-full-length-noisy\": {\n      \"status\": \"not run\",\n      \"strict_pass\": null\n    }\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "controls",
+      "command": [
+        "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "route-repair/run_validations.py",
+        "--output-dir",
+        "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\offline-review-2026-10-28\\controls"
+      ],
+      "exit_code": 0,
+      "stdout": "export 17 True\nwarning 216 True\n",
+      "stderr": ""
+    }
+  ],
+  "published": false,
+  "real_model_calls": 0,
+  "baseline_files_checked": 42270,
+  "remaining": [
+    "Export existing fourth repaired response without regeneration",
+    "Seven further repaired native trials remain excluded by current instruction",
+    "Update final paired report and seal/verify final competition package after complete evidence"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\finalize_card.py",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\full-Z-full-length-noisy\\source-packet.md",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\full-Z-full-length-noisy\\raw-response.md",
+    "--output-dir",
+    "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\offline-review-2026-10-28\\analysis\\evidence\\original\\full-Z-full-length-noisy\\derived-export"
+  ],
+  "exit_code": 1,
+  "stdout": "{\"status\": \"rejected\", \"errors\": [\"C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\route-repair\\\\offline-review-2026-10-28\\\\analysis\\\\evidence\\\\original\\\\full-Z-full-length-noisy\\\\derived-export\\\\validation-inputs\\\\part-01.md: no card produced (response is INPUT NOT READY)\"], \"notes\": []}\n",
+  "stderr": ""
+}

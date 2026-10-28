@@ -21,7 +21,9 @@ for arm in ['original','rebuild']:
 complete=s['comparison_complete'];accept=complete and all(v.get('expanded_semantic_pass') and v.get('derived_export',{}).get('strict_pass') for v in s['model_trials']['rebuild'].values())
 text='''# Routing repair comparison — unpublished
 
-**Status: '''+('complete; selected acceptance '+('PASS' if accept else 'FAIL') if complete else 'INCOMPLETE; repaired Claude trials pending')+'''. Nothing has been published. Local instruction checks are not model-routing acceptance. This report supersedes earlier readiness claims while preserving every old report, failure, raw transcript and sealed package.
+**Status: '''+('complete; selected acceptance '+('PASS' if accept else 'FAIL') if complete else 'INCOMPLETE; remaining repaired Claude trials excluded by current user direction')+'''.** Nothing has been published. Local instruction checks are not model-routing acceptance. This report supersedes earlier readiness claims while preserving every old report, failure, raw transcript and sealed package.
+
+As of the October 28 offline review, three repaired first-pass responses are completely exported (core A, B and C). Core D was submitted once and visibly finished, but capture failed during export verification; it is not scored because its raw response is not saved. Seven subsequent repaired cases have not run. No native Claude run or regeneration was performed during this update. The scorer's missing-evidence label for core D must not be read as proof it was never submitted; consult RESUME-REPAIRED-PROGRESS-04.md before recovery.
 
 ## Changes and sequence
 
@@ -65,6 +67,8 @@ The original full-RFP response refuses the packet, citing its blank separator an
 
 Q1/Q2 use core A, Q3 B, Q4 C, Q5 D, Q6 E. Q7 and Q8 are direct artifact/default-validator checks, not extra model conversations. Q8 requires both no false personal-date warning and a retained genuine missed-deadline warning. Core C's new S003-in-8 check is prospective expanded coverage and does not silently change frozen Q4. The actual pricing source says “To clarify the submission requirements, respondents must include a signed pricing sheet with their proposal.” The older native report's description that a revised sheet replaced an earlier one was inaccurate; the old report remains preserved, and this report corrects that characterization.
 
+The broader core-B personal-note case still produces false advisory REVIEW hints for dentist date S003 (section 6) and birthday contact S004 (section 10), despite correct section-12-only placement and a strict PASS. Frozen Q8 tests fixture A, not B. Its pass must not be generalized to elimination of all personal-content warnings. These retained warnings are unresolved limitations, not evidence of routing failure or grounds to suppress genuine procurement warnings. The October 28 offline update does not change the validator or the frozen model contract.
+
 New E and the expanded full/core checks are disclosed feedback-derived regression checks, not a blind holdout or statistical generalization test. Read the source and every failed subcheck, not only aggregate scores.
 
 ## Failed selected subchecks
@@ -73,7 +77,7 @@ New E and the expanded full/core checks are disclosed feedback-derived regressio
 
 ## Ties, regressions and remaining risk
 
-'''+('Fresh repaired trial outcomes are listed above. Any failed routing or raw validation remains a real failure even if aggregate scores improve.' if complete else 'A complete new paired comparison is not yet available. No improvement, tie or regression claim is made for the unrun candidate. The original now passes core C including commercial routing, so that case can at best tie if the repair succeeds. Prior candidate failures remain preserved in native-repair/ and claude-native/.')+'''
+'''+('Fresh repaired trial outcomes are listed above. Any failed routing or raw validation remains a real failure even if aggregate scores improve.' if complete else 'The three exported repaired cases all pass raw strict, expanded selected routing and derived strict checks. Core A and B improve personal-content containment against the original; core C ties the original. Local Q7 provenance and Q8 warning checks also improve. No regressions were detected in those completed checks. The remaining routing, citation and full-RFP cases are unverified, so no overall acceptance or no-regression claim is supported. Prior candidate failures remain preserved in native-repair/ and claude-native/.')+'''
 
 Finite passing checks cannot establish perfect semantic routing. Unseen obligation scope, private/procurement context, quotation transport, account variation and original-PDF fidelity can still cost the win. The competition scores demonstrated closure against feedback, not a claim of perfection. VIP eligibility is user-confirmed. Do not publish while required trials or package verification remain incomplete, or while any reported failure needs owner review.
 

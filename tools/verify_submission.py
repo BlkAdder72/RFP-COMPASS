@@ -12,6 +12,11 @@ def pythonpath(p):
  s=str(p)
  return '\\\\?\\'+s if os.name=='nt' and not s.startswith('\\\\?\\') else s
 work_root=R/'.run-work';work_root.mkdir(exist_ok=True)
+# Fail early on incomplete current evidence instead of invoking an obsolete
+# candidate audit after ten historical clones. This does not relax any gate.
+if not (R/'route-repair/analysis-final/scores.json').exists():
+ print('HOLD: latest route-repair comparison is incomplete. Run route-repair/offline_review.py --output-dir NEW --require-complete for offline checks; exit 2 retains the submission block.')
+ raise SystemExit(2)
 work=Path(tempfile.mkdtemp(prefix='rfp-comp15-historical-',dir=work_root))
 # Do not invoke the older clone-launcher recursively: Git rejects its inherited
 # extended-path destination. Keep all historical assertion code unchanged instead.
@@ -24,5 +29,5 @@ temp=Path(tempfile.mkdtemp(prefix='ha-',dir=work));C=temp/'s'
 run('warning-final-clone',['git','-c','core.longpaths=true','clone','--quiet','--shared','--no-checkout',gitpath(R),gitpath(C)],R)
 run('warning-final-checkout',['git','-c','core.longpaths=true','checkout','--quiet','--detach','5adeb3d7'],C)
 run('warning-final-unchanged-audit',[sys.executable,'-B','-X','utf8',pythonpath(C/'warning-final/verify.py')],C)
-run('current-native-repair-integrity',[sys.executable,'-B','-X','utf8',pythonpath(R/'native-repair/audit.py')],R)
+run('current-route-repair-integrity',[sys.executable,'-B','-X','utf8',pythonpath(R/'route-repair/audit.py')],R)
 print(json.dumps({'offline_audit':'PASS','real_model_calls':0,'published':False,'checks':records},indent=2))

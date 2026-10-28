@@ -1,0 +1,19 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-E-routing-families\\source-packet.md",
+  "source_sha256": "e27ffb67abb700efbd32c8004291918ae5d3ac08af82172216468d0302b7b6c4",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-E-routing-families\\raw-response.md",
+      "raw_sha256": "668a2e33e524a272d4ce8e49c63b9a04744f32f1526aa33143839e36622093a8",
+      "output": "part-01.md",
+      "output_sha256": "668a2e33e524a272d4ce8e49c63b9a04744f32f1526aa33143839e36622093a8",
+      "changes": []
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": [
+    "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\offline-review-2026-10-28\\analysis\\evidence\\original\\new-E-routing-families\\derived-export\\validation-inputs\\part-01.md: S004 look like evaluation terms but are not in Section 7; confirm that is intended"
+  ]
+}
