@@ -6,4 +6,4 @@ The current eleven-case routing protocol, exact prompt, order and hashes are in 
 
 All 11 original and 11 repaired native first-pass trials are exported. Core D was recovered without regeneration. Repaired frozen Q1–Q8 pass. Repaired results: 9/11 raw strict, 11/11 expanded selected semantics, 11/11 strict after the identical audited Unicode export. Raw citation failures remain failures; export does not change routing. See results.md for every paired result and any full-RFP failure.
 
-See [current results](../results.md) and [final audit](../route-repair/FINAL_CHECK.json). No original trial was rerun. Nothing is published.
+See [current results](../results.md) and [final audit](../route-repair/FINAL_CHECK.json). No original trial was rerun. The rebuild is published on the default branch `codex/competition-15-rebuild`; the competition comment has not been posted.

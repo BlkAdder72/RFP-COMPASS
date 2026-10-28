@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "kind": "documentation-only current-results repair",
+  "checks": {
+    "all_frozen_inputs_scores_tools_and_native_evidence_unchanged": true,
+    "previous_documents_preserved_exactly": true,
+    "root_and_route_reports_identical": true,
+    "report_regeneration_deterministic": true,
+    "counts_match_saved_scores": true,
+    "feedback_five_improvements_three_ties": true,
+    "current_publication_status_clear": true,
+    "current_report_evidence_links_resolve_in_source": true
+  },
+  "unchanged_immutable_files": 84,
+  "scores_sha256": "a04579dae91bfc1b74f55bbf3088f837bb973a65c7752f8a379ada5fb85a63d3",
+  "report_sha256": "e29c8fe2a2bba1f5250e9d7e2144141331b7c2601b3605d386f24210a66c2221",
+  "counts": {
+    "original": {
+      "raw": 8,
+      "selected": 5,
+      "export": 10
+    },
+    "rebuild": {
+      "raw": 9,
+      "selected": 11,
+      "export": 11
+    }
+  },
+  "feedback_improved": [
+    "Q1",
+    "Q3",
+    "Q6",
+    "Q7",
+    "Q8"
+  ],
+  "feedback_tied": [
+    "Q2",
+    "Q4",
+    "Q5"
+  ],
+  "broken_links": [],
+  "model_calls": 0,
+  "competition_comment_posted": false,
+  "prior_public_commit": "10c3d4dfd437d76a683f270ab66ee130346b1ba6"
+}

@@ -23,6 +23,6 @@ The resumed run is authorized by the October 28 user instruction. Prior offline-
 - Raw evidence: [original](route-repair/evidence/original/) and [rebuild](route-repair/evidence/rebuild/); control pointers in [run-original/](run-original/) and [run-rebuild/](run-rebuild/).
 - Offline check: `python -B -X utf8 route-repair/offline_review.py --output-dir .run-work/new-offline-check`. Add `--require-complete` for a nonzero submission gate while native evidence is incomplete. Output directories must be new.
 - Re-score existing evidence only: `python -B -X utf8 route-repair/score.py --output-dir .run-work/new-score`.
-- Final submission audit: `python -B -X utf8 tools/verify_submission.py`. This intentionally returns HOLD while the final comparison is missing; passing offline checks alone cannot release the entry.
+- Final submission audit: `python -B -X utf8 tools/verify_submission.py`. The completed audit passes; its ten historical snapshots and current integrity result are retained in `route-repair/HISTORICAL_AUDIT.json`.
 
 The sealed pre-publication review artifacts are in `dist/route-repair-review-v2/`: source ZIP, complete Git-history bundle, SHA256 checksums and fresh-clone receipt. Earlier incomplete and failed archives remain preserved. The [submission comment](SUBMISSION_COMMENT.md) is an unposted draft. The final receipts pass; integrity and semantic acceptance remain separate, and the two raw Unicode citation failures remain disclosed.

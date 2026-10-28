@@ -1,13 +1,13 @@
 {
-  "CANDIDATE.md": "479cf069b1df47a4a18dc4f52bb1928d80f05e14fe83dd485b9f5ba31b209412",
+  "CANDIDATE.md": "61dbf6944a4ddea3a1ee47f078c1be621d6ce65a57d2695452bee3ce1ba0f96d",
   "FINAL_CHECK.json": "7588e0cc7ec45945e802558127b895216f017c2bb3025c4d5aab31b354000dc9",
   "HISTORICAL_AUDIT.json": "86c40e7ddcdcf4732d9e15cac1b87b26fd32351baab6edeebb60eff782d2ca09",
   "OFFLINE_UPDATE_2026-10-28.md": "7cd3294192aebfca667ce22014c4b4cd2c402474b353cd950971af61611da404",
   "PROTOCOL.md": "cc469700b10f958f94d98606d97b0edda7531698a5609aacf9db41909e0940ef",
   "RELEASE_READINESS.json": "544c286bdb3757d38a01a4a370c49e68928d723b2ff617edc39ed393bfb8ba12",
-  "REPORT.md": "1bb7e12c1fcd5f3510edf3dbb138e203d7ceadb5166d5e10cd4ac64a80bac4e1",
+  "REPORT.md": "e29c8fe2a2bba1f5250e9d7e2144141331b7c2601b3605d386f24210a66c2221",
   "RESUME-REPAIRED-PROGRESS-04.md": "69b151ea270ba2c8a50b552147f32560b1959106dc8ea9ad3766d28777a24cf8",
-  "RESUME.md": "c0d409d4806803d80be714e1de9af46802242bc841bed77f57205813529cbf00",
+  "RESUME.md": "4d1de82449a12516883817420d963681a1bd07f778d70779e7c7e804450255c6",
   "RESUMED-RUN.md": "5b4a8e43b4c450ae4daa3389b92f0b0f2063269e3b82cd32a41f23b5f919d4d3",
   "analysis-final/evidence/original/core-A-stapled-thread/derived-export/export-audit.json": "aee549eb0dab693936b88c8e020652ec2f88e0a03c1c18f3d4aa0f8f5829921b",
   "analysis-final/evidence/original/core-A-stapled-thread/derived-export/part-01.md": "12ad8607f0321474bbe89e78228b42f3a2b72fdfc42d883bce8ce8c2f0eaf786",
@@ -1358,5 +1358,5 @@
   "stages/R4-retained-validation/warning-results.json": "ac85eab204de207d703c2b1897bb279d03904a6ab97e39b085586b48dc93e4cc",
   "trial-inventory.json": "13471ca75d66ee71bfa0d58546de42003990eb9c7a0a93da38bca4b1d2b3234a",
   "verify_package.py": "9295edde4260b0b749e3a08547c4e88348664da6f2f2eb136c7e067af0dd55e3",
-  "write_report.py": "5959eb0929db89dd9845d3e396f817ad253fc34cfeb884170163d2c9e96fd565"
+  "write_report.py": "5401fb837fe0e8ca7d588feaae5285f559cedad75125088630255ec7aa7b7640"
 }

@@ -2,7 +2,7 @@
 
 RFP Compass converts one designated source packet into a fixed twelve-section Bid Compliance Card. Every populated bullet quotes a whole source statement with its exact ID and complete anchor. Clearly unrelated personal material belongs only in section 12; mixed statements retain their genuine procurement placements without changing their quotations.
 
-**Unpublished; latest native comparison complete, with raw-copy limitations disclosed.** Start with the parent [current results](../results.md), [frozen feedback questions](../questions.md) and [current documentation index](../documentation-sync/REPORT.md). Earlier full-RFP and twenty-trial results describe earlier candidates, not acceptance of this one.
+**Published for Competition 15; native comparison complete, with raw citation limitations disclosed.** Start with the parent [current results](../results.md), [frozen feedback questions](../questions.md) and [current documentation index](../documentation-sync/REPORT.md). Earlier full-RFP and twenty-trial results describe earlier candidates, not acceptance of this one.
 
 ## ICM architecture
 
@@ -51,4 +51,4 @@ The latest offline warning repair passed 263 differential cases per stage, 60 CL
 
 ## Evidence and package status
 
-The [current results](../results.md) distinguish raw strict checks, selected routing and derived exports. Historical reports, raw evidence, frozen questions and judged original remain preserved. The final source ZIP, full-history bundle, checksums and fresh-clone receipt are in `../dist/route-repair-review-v2/`. Nothing is published.
+The [current results](../results.md) distinguish raw strict checks, selected routing and derived exports. Historical reports, raw evidence, frozen questions and judged original remain preserved. The final source ZIP, full-history bundle, checksums and fresh-clone receipt are in `../dist/route-repair-review-v2/`. The rebuild is published on the default branch `codex/competition-15-rebuild`; the competition comment has not been posted.
