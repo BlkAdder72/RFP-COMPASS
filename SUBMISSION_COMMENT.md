@@ -1,5 +1,3 @@
-# Submission comment — unposted draft
+# Competition 15 submission comment — draft, not posted
 
-I rebuilt my Comp #13 Translator entry, RFP-COMPASS: https://github.com/BlkAdder72/RFP-COMPASS. The feedback line that drove it was: “A noisy-input test in `run-results/` showing a stapled thread held in Section 12 only.” The preserved old/new comparison closes that containment gap and reports ties, raw Unicode citation failures, and all selected test outcomes in `results.md`.
-
-Before posting: confirm the actual final commit has been pushed to the public repository and is accessible. The local source/history package does not publish it. See route-repair/REPORT.md and the final package receipt for measured limits. Nothing has been posted or pushed.
+I rebuilt my Comp #13 Translator entry, RFP-COMPASS: https://github.com/BlkAdder72/RFP-COMPASS, around the judges’ challenge: “A noisy-input test in `run-results/` showing a stapled thread held in Section 12 only.” The rebuild keeps unrelated personal content solely in Section 12 and removes the tested false personal-content warnings while retaining genuine procurement warnings; it also makes expected contract terms explicit in Section 11 and identifies the committed sample as script-built. With the judged original, frozen questions and raw old/new runs preserved, five of eight feedback-question outcomes improve and three tie, the full 221-statement noisy RFP passes all selected checks, and the two raw Unicode citation failures shared by both versions remain openly reported in `results.md`.

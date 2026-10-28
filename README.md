@@ -1,10 +1,12 @@
 # RFP-COMPASS — Competition 15: The Rebuild
 
-**Unpublished; native comparison complete. Inspect final audit and package receipt before submission.** VIP eligibility is user-confirmed. Start with [judges' feedback](feedback.md), [frozen questions](questions.md), and [current results](results.md).
+**Published for Competition 15; native comparison and final verification complete.** VIP eligibility is user-confirmed. Start with [judges' feedback](feedback.md), [frozen questions](questions.md), and [current results](results.md).
 
 This rebuild addresses the judges' noisy-input failure: unrelated personal content belongs only in section 12, while genuine procurement content remains usable. It also makes contractual-expectation routing explicit, discloses the script-built sample, and passes the specified Q8 personal-date warning test while retaining genuine missed-deadline warnings. The two saved personal-note false warnings are repaired offline with preserved strict validation; finite warning coverage remains disclosed in the report.
 
 The judged Comp #13 entry is untouched in [original/](original/), pinned at `92847d2a17250fa18914d932826db63d99dcb75c` (tag `judged-original-comp13`). Source: [BlkAdder72/RFP-COMPASS](https://github.com/BlkAdder72/RFP-COMPASS). Eight feedback questions were committed before the first rebuild. Historical reports, failures, raw evidence and Git history remain preserved.
+
+The default branch is `codex/competition-15-rebuild`; the judged `main` branch and `judged-original-comp13` tag remain untouched. [Publication notes](publication/README.md) identify the verified source, preserved snapshots and release checks. Reports and package receipts marked unpublished record their pre-publication verification state; their evidence has not been rewritten. The competition comment has not been posted.
 
 ## Current evidence
 
@@ -23,4 +25,4 @@ The resumed run is authorized by the October 28 user instruction. Prior offline-
 - Re-score existing evidence only: `python -B -X utf8 route-repair/score.py --output-dir .run-work/new-score`.
 - Final submission audit: `python -B -X utf8 tools/verify_submission.py`. This intentionally returns HOLD while the final comparison is missing; passing offline checks alone cannot release the entry.
 
-Final unpublished review artifacts are in `dist/route-repair-review-v2/`: source ZIP, complete Git-history bundle, SHA256 checksums and fresh-clone receipt. Earlier incomplete and failed archives remain preserved. The [submission comment](SUBMISSION_COMMENT.md) is an unposted draft. Inspect the final receipt before publishing; integrity and semantic acceptance are separate.
+The sealed pre-publication review artifacts are in `dist/route-repair-review-v2/`: source ZIP, complete Git-history bundle, SHA256 checksums and fresh-clone receipt. Earlier incomplete and failed archives remain preserved. The [submission comment](SUBMISSION_COMMENT.md) is an unposted draft. The final receipts pass; integrity and semantic acceptance remain separate, and the two raw Unicode citation failures remain disclosed.
