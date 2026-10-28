@@ -2,7 +2,7 @@
   "CANDIDATE.md": "2770cdeb179bb798619404dd120c8e9336851981130a27882f1c9b7beafd3e21",
   "OFFLINE_UPDATE_2026-10-28.md": "7cd3294192aebfca667ce22014c4b4cd2c402474b353cd950971af61611da404",
   "PROTOCOL.md": "cc469700b10f958f94d98606d97b0edda7531698a5609aacf9db41909e0940ef",
-  "REPORT.md": "f5782a16a4800c6fcf07a7757fce3b0531c54a9298f14448968988b487dedb2d",
+  "REPORT.md": "304b12772b203714745da1d6764986e417f90e6f2b98a8c501cd81f21c36d835",
   "RESUME-REPAIRED-PROGRESS-04.md": "69b151ea270ba2c8a50b552147f32560b1959106dc8ea9ad3766d28777a24cf8",
   "RESUME.md": "0c8736fa4c668c75ef6c667a3827c0632c71e70d27778bce594868daff29b0b3",
   "analysis-partial-01/evidence/original/core-A-stapled-thread/derived-export/export-audit.json": "aee549eb0dab693936b88c8e020652ec2f88e0a03c1c18f3d4aa0f8f5829921b",
@@ -60,7 +60,7 @@
   "analysis-partial-01/evidence/original/new-E-routing-families/export-process.json": "d963a878075b0d231374b970eb2b81214314e7203e02c02282f29a069e214e25",
   "analysis-partial-01/evidence/original/new-E-routing-families/validation.json": "41ef3d46916920bc27d8a5948f082f51ce831b76004be167c194536d497de391",
   "analysis-partial-01/scores.json": "c617831e17782d7f165a7111e604c9c06ada1b2dd06a3389b566afa66fe3ebf3",
-  "audit.py": "f331eb67c6bb4b69bb5c24510397b44d39a39568cafb43a75725954955021812",
+  "audit.py": "4d9232003d03c758acfbc3ba469bf6c61e07cfb6a270e0891eaa2f95ce051f22",
   "baseline-partial-validation/results.json": "abaad51eac205c898595e701fbd099ad4e63c2dfc7424cbda038af4cf631236f",
   "before/README.md": "c3bd57832fbfa5ea0be5db49adda68726b1845604f7916f8d4e2c9c9882113e1",
   "before/SUBMISSION_COMMENT.md": "a0d32f113a3454df6765538d56a5edfdb1c643f8cde4eaf749d448b580a77ab8",
@@ -819,7 +819,7 @@
   "offline-review-2026-10-28/controls/warning-results.json": "ac85eab204de207d703c2b1897bb279d03904a6ab97e39b085586b48dc93e4cc",
   "offline-review-2026-10-28/review.json": "e620e0a2aad19bf592c0ad9303c402fc659cfcc4ef69c1ae40f2d9b576267511",
   "offline-review-2026-10-28/verification.json": "df91f96defc3920038081cf59b6f2bcb34c58d774fa7f4c424a2f2c0dffe088e",
-  "offline_review.py": "67c7bbf27d58f24c0fe41758a6bb41d3e421baaa6289fba74e6ee1100717ec2f",
+  "offline_review.py": "457b90cd0a876148a89db3d56551e58ef654b65d973e9b9c39667d270357b809",
   "original-progress-10.json": "2f198732bfae43e5c78a4bcd940c1107c7676dc76ba9f5657806e8df91ad1384",
   "package.py": "58e775b48eb9127235d7595e9ecb5712814fb84dd80170262e54e3ff5711cdb7",
   "preservation.json": "69d44be59529e7ffda16ae48e1b33ea845027ccecf7fb9a41fa2296ecbaa34fa",
@@ -891,5 +891,5 @@
   "stages/R4-retained-validation/exports/retained-rebuild/validation-inputs/part-01.md": "9e5678382b8f95af8648b4498d2a483640e41ef43ccc2bc2466ff063a2563d31",
   "stages/R4-retained-validation/warning-results.json": "ac85eab204de207d703c2b1897bb279d03904a6ab97e39b085586b48dc93e4cc",
   "verify_package.py": "8b86452f56359d3b4be8197b3352be40e72fbe3c9c62e6a5d705e1320b8badc9",
-  "write_report.py": "31dfcf98414a860c69adad89ffebdce195e53a58da11c7f3e89aa498bfc4f9d6"
+  "write_report.py": "b6a2e36d1491c9160293d494e50e2c27c9a7c9b364ca72c4169f9869960b1f4f"
 }

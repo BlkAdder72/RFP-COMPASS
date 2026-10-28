@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": {
+    "independent_cases_identical": true,
+    "frozen_question_verdicts_unchanged": true,
+    "saved_routes_and_strict_verdicts_unchanged": true,
+    "two_saved_false_hints_gone": true,
+    "report_mirrored": true,
+    "stage-1-dentist_candidate_snapshot": true,
+    "stage-2-contact_candidate_snapshot": true
+  },
+  "normalization": "Only output directory prefixes; all substantive errors, warnings and routes compared",
+  "model_calls": 0,
+  "published": false
+}

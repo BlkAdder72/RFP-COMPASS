@@ -1,0 +1,612 @@
+{
+  "passed": true,
+  "cases": 21,
+  "checks": {
+    "original/core-A-stapled-thread/raw": true,
+    "original/core-B-personal-note/raw": true,
+    "original/core-C-official-email/raw": true,
+    "original/core-D-ai-instruction/raw": true,
+    "original/core-E-contract-expectation/raw": true,
+    "original/full-Z-full-length-noisy/raw": true,
+    "original/full-Z-full-length-noisy/raw:warnings": true,
+    "original/new-A-obligation-and-retrospective-scope/raw": true,
+    "original/new-B-personal-boundaries/raw": true,
+    "original/new-C-opaque-citations/raw": true,
+    "original/new-D-native-regressions/raw": true,
+    "rebuild/core-A-stapled-thread/raw": true,
+    "rebuild/core-B-personal-note/raw": true,
+    "rebuild/core-C-official-email/raw": true,
+    "rebuild/core-D-ai-instruction/raw": true,
+    "rebuild/core-E-contract-expectation/raw": true,
+    "rebuild/full-Z-full-length-noisy/raw": true,
+    "rebuild/full-Z-full-length-noisy/raw:warnings": true,
+    "rebuild/full-Z-full-length-noisy/preserved-derived": true,
+    "rebuild/full-Z-full-length-noisy/preserved-derived:warnings": true,
+    "rebuild/new-A-obligation-and-retrospective-scope/raw": true,
+    "rebuild/new-B-personal-boundaries/raw": true,
+    "rebuild/new-C-opaque-citations/raw": true,
+    "rebuild/new-D-native-regressions/raw": true
+  },
+  "records": [
+    {
+      "case": "original/core-A-stapled-thread/raw",
+      "source": "native-repair/inputs/core-A-stapled-thread/source-packet.md",
+      "parts": [
+        "native-repair/evidence/original/core-A-stapled-thread/raw-response.md"
+      ],
+      "source_statements": 7,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "original/core-B-personal-note/raw",
+      "source": "native-repair/inputs/core-B-personal-note/source-packet.md",
+      "parts": [
+        "native-repair/evidence/original/core-B-personal-note/raw-response.md"
+      ],
+      "source_statements": 4,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": [
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\core-B-personal-note\\raw-response.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most"
+          ]
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": [
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\core-B-personal-note\\raw-response.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most"
+          ]
+        },
+        "candidate": {
+          "errors": [],
+          "notes": [
+            "PERSONAL HINT FILTER: S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof"
+          ]
+        }
+      }
+    },
+    {
+      "case": "original/core-C-official-email/raw",
+      "source": "native-repair/inputs/core-C-official-email/source-packet.md",
+      "parts": [
+        "native-repair/evidence/original/core-C-official-email/raw-response.md"
+      ],
+      "source_statements": 3,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "original/core-D-ai-instruction/raw",
+      "source": "native-repair/inputs/core-D-ai-instruction/source-packet.md",
+      "parts": [
+        "native-repair/evidence/original/core-D-ai-instruction/raw-response.md"
+      ],
+      "source_statements": 3,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "original/core-E-contract-expectation/raw",
+      "source": "native-repair/inputs/core-E-contract-expectation/source-packet.md",
+      "parts": [
+        "native-repair/evidence/original/core-E-contract-expectation/raw-response.md"
+      ],
+      "source_statements": 2,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "original/full-Z-full-length-noisy/raw",
+      "source": "native-repair/inputs/full-Z-full-length-noisy/source-packet.md",
+      "parts": [
+        "native-repair/evidence/original/full-Z-full-length-noisy/raw-response.md"
+      ],
+      "source_statements": 222,
+      "results": {
+        "judged-original": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\full-Z-full-length-noisy\\raw-response.md: no card produced (response is INPUT NOT READY)"
+          ],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\full-Z-full-length-noisy\\raw-response.md: no card produced (response is INPUT NOT READY)"
+          ],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\full-Z-full-length-noisy\\raw-response.md: no card produced (response is INPUT NOT READY)"
+          ],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "original/new-A-obligation-and-retrospective-scope/raw",
+      "source": "native-repair/inputs/new-A-obligation-and-retrospective-scope/source-packet.md",
+      "parts": [
+        "native-repair/evidence/original/new-A-obligation-and-retrospective-scope/raw-response.md"
+      ],
+      "source_statements": 6,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "original/new-B-personal-boundaries/raw",
+      "source": "native-repair/inputs/new-B-personal-boundaries/source-packet.md",
+      "parts": [
+        "native-repair/evidence/original/new-B-personal-boundaries/raw-response.md"
+      ],
+      "source_statements": 6,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "original/new-C-opaque-citations/raw",
+      "source": "native-repair/inputs/new-C-opaque-citations/source-packet.md",
+      "parts": [
+        "native-repair/evidence/original/new-C-opaque-citations/raw-response.md"
+      ],
+      "source_statements": 5,
+      "results": {
+        "judged-original": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet"
+          ],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet"
+          ],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet"
+          ],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "original/new-D-native-regressions/raw",
+      "source": "native-repair/inputs/new-D-native-regressions/source-packet.md",
+      "parts": [
+        "native-repair/evidence/original/new-D-native-regressions/raw-response.md"
+      ],
+      "source_statements": 8,
+      "results": {
+        "judged-original": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet"
+          ],
+          "notes": [
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: S003 look like evaluation terms but are not in Section 7; confirm that is intended"
+          ]
+        },
+        "pre-fix": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet"
+          ],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet"
+          ],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "rebuild/core-A-stapled-thread/raw",
+      "source": "native-repair/inputs/core-A-stapled-thread/source-packet.md",
+      "parts": [
+        "native-repair/evidence/rebuild/core-A-stapled-thread/raw-response.md"
+      ],
+      "source_statements": 7,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": [
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-A-stapled-thread\\raw-response.md: S004 look like dates or times but are not in Section 6; confirm that is intended",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-A-stapled-thread\\raw-response.md: Section 8 says `not in source`, but S007 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most"
+          ]
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": [
+            "PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof"
+          ]
+        },
+        "candidate": {
+          "errors": [],
+          "notes": [
+            "PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof"
+          ]
+        }
+      }
+    },
+    {
+      "case": "rebuild/core-B-personal-note/raw",
+      "source": "native-repair/inputs/core-B-personal-note/source-packet.md",
+      "parts": [
+        "native-repair/evidence/rebuild/core-B-personal-note/raw-response.md"
+      ],
+      "source_statements": 4,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": [
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: S003 look like dates or times but are not in Section 6; confirm that is intended",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most"
+          ]
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": [
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: S003 look like dates or times but are not in Section 6; confirm that is intended",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most"
+          ]
+        },
+        "candidate": {
+          "errors": [],
+          "notes": [
+            "PERSONAL HINT FILTER: S003, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof"
+          ]
+        }
+      }
+    },
+    {
+      "case": "rebuild/core-C-official-email/raw",
+      "source": "native-repair/inputs/core-C-official-email/source-packet.md",
+      "parts": [
+        "native-repair/evidence/rebuild/core-C-official-email/raw-response.md"
+      ],
+      "source_statements": 3,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "rebuild/core-D-ai-instruction/raw",
+      "source": "native-repair/inputs/core-D-ai-instruction/source-packet.md",
+      "parts": [
+        "native-repair/evidence/rebuild/core-D-ai-instruction/raw-response.md"
+      ],
+      "source_statements": 3,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "rebuild/core-E-contract-expectation/raw",
+      "source": "native-repair/inputs/core-E-contract-expectation/source-packet.md",
+      "parts": [
+        "native-repair/evidence/rebuild/core-E-contract-expectation/raw-response.md"
+      ],
+      "source_statements": 2,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "rebuild/full-Z-full-length-noisy/raw",
+      "source": "native-repair/inputs/full-Z-full-length-noisy/source-packet.md",
+      "parts": [
+        "native-repair/evidence/rebuild/full-Z-full-length-noisy/raw-response-part-01.md",
+        "native-repair/evidence/rebuild/full-Z-full-length-noisy/raw-response-part-02.md",
+        "native-repair/evidence/rebuild/full-Z-full-length-noisy/raw-response-part-03.md"
+      ],
+      "source_statements": 222,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": [
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\raw-response-part-01.md (+2 part(s)): S216, S217, S218, S219, S221 look like dates or times but are not in Section 6; confirm that is intended",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\raw-response-part-01.md (+2 part(s)): S139 look like evaluation terms but are not in Section 7; confirm that is intended",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\raw-response-part-01.md (+2 part(s)): S219 look like money amounts but are not in Section 8; confirm that is intended",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\raw-response-part-01.md (+2 part(s)): S098, S220 look like contact details but are not in Section 10; confirm that is intended"
+          ]
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": [
+            "PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\raw-response-part-01.md (+2 part(s)): S098 look like contact details but are not in Section 10; confirm that is intended"
+          ]
+        },
+        "candidate": {
+          "errors": [],
+          "notes": [
+            "PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\raw-response-part-01.md (+2 part(s)): S098 look like contact details but are not in Section 10; confirm that is intended"
+          ]
+        }
+      }
+    },
+    {
+      "case": "rebuild/full-Z-full-length-noisy/preserved-derived",
+      "source": "native-repair/inputs/full-Z-full-length-noisy/source-packet.md",
+      "parts": [
+        "native-repair/evidence/rebuild/full-Z-full-length-noisy/derived-export/part-01.md",
+        "native-repair/evidence/rebuild/full-Z-full-length-noisy/derived-export/part-02.md",
+        "native-repair/evidence/rebuild/full-Z-full-length-noisy/derived-export/part-03.md"
+      ],
+      "source_statements": 222,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": [
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\derived-export\\part-01.md (+2 part(s)): S216, S217, S218, S219, S221 look like dates or times but are not in Section 6; confirm that is intended",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\derived-export\\part-01.md (+2 part(s)): S139 look like evaluation terms but are not in Section 7; confirm that is intended",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\derived-export\\part-01.md (+2 part(s)): S219 look like money amounts but are not in Section 8; confirm that is intended",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\derived-export\\part-01.md (+2 part(s)): S098, S220 look like contact details but are not in Section 10; confirm that is intended"
+          ]
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": [
+            "PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\derived-export\\part-01.md (+2 part(s)): S098 look like contact details but are not in Section 10; confirm that is intended"
+          ]
+        },
+        "candidate": {
+          "errors": [],
+          "notes": [
+            "PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\derived-export\\part-01.md (+2 part(s)): S098 look like contact details but are not in Section 10; confirm that is intended"
+          ]
+        }
+      }
+    },
+    {
+      "case": "rebuild/new-A-obligation-and-retrospective-scope/raw",
+      "source": "native-repair/inputs/new-A-obligation-and-retrospective-scope/source-packet.md",
+      "parts": [
+        "native-repair/evidence/rebuild/new-A-obligation-and-retrospective-scope/raw-response.md"
+      ],
+      "source_statements": 6,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "rebuild/new-B-personal-boundaries/raw",
+      "source": "native-repair/inputs/new-B-personal-boundaries/source-packet.md",
+      "parts": [
+        "native-repair/evidence/rebuild/new-B-personal-boundaries/raw-response.md"
+      ],
+      "source_statements": 6,
+      "results": {
+        "judged-original": {
+          "errors": [],
+          "notes": [
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-B-personal-boundaries\\raw-response.md: S002, S004 look like dates or times but are not in Section 6; confirm that is intended"
+          ]
+        },
+        "pre-fix": {
+          "errors": [],
+          "notes": [
+            "PERSONAL HINT FILTER: S002, S003, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof"
+          ]
+        },
+        "candidate": {
+          "errors": [],
+          "notes": [
+            "PERSONAL HINT FILTER: S002, S003, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof"
+          ]
+        }
+      }
+    },
+    {
+      "case": "rebuild/new-C-opaque-citations/raw",
+      "source": "native-repair/inputs/new-C-opaque-citations/source-packet.md",
+      "parts": [
+        "native-repair/evidence/rebuild/new-C-opaque-citations/raw-response.md"
+      ],
+      "source_statements": 5,
+      "results": {
+        "judged-original": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet"
+          ],
+          "notes": []
+        },
+        "pre-fix": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet"
+          ],
+          "notes": []
+        },
+        "candidate": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet"
+          ],
+          "notes": []
+        }
+      }
+    },
+    {
+      "case": "rebuild/new-D-native-regressions/raw",
+      "source": "native-repair/inputs/new-D-native-regressions/source-packet.md",
+      "parts": [
+        "native-repair/evidence/rebuild/new-D-native-regressions/raw-response.md"
+      ],
+      "source_statements": 8,
+      "results": {
+        "judged-original": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet"
+          ],
+          "notes": [
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: Section 6 says `not in source`, but S008 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most",
+            "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: S003 look like evaluation terms but are not in Section 7; confirm that is intended"
+          ]
+        },
+        "pre-fix": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet"
+          ],
+          "notes": [
+            "PERSONAL HINT FILTER: S008; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof"
+          ]
+        },
+        "candidate": {
+          "errors": [
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\native-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet"
+          ],
+          "notes": [
+            "PERSONAL HINT FILTER: S008; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof"
+          ]
+        }
+      }
+    }
+  ],
+  "model_calls": 0,
+  "published": false
+}

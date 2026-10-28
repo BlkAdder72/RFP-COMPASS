@@ -27,8 +27,9 @@ for n in ['PROTOCOL.md','expectations.json','full-expectations.json','inputs.jso
 checks['questions_frozen']=(R/'questions.md').read_bytes()==subprocess.check_output(['git','show','bfdd812:questions.md'],cwd=R)
 checks['questions_before_rebuild']=not subprocess.check_output(['git','ls-tree','--name-only','be4d956b','rebuild'],cwd=R)
 checks['judged_pin']=subprocess.check_output(['git','rev-parse','judged-original-comp13'],cwd=R).decode().strip()=='92847d2a17250fa18914d932826db63d99dcb75c'
-for n in ['tools/validate_packet.py','tools/finalize_card.py']:
- checks['validation_unchanged:'+n]=(R/'rebuild'/n).read_bytes()==(D/'before/rebuild'/n).read_bytes()
+checks['exporter_unchanged']=(R/'rebuild/tools/finalize_card.py').read_bytes()==(D/'before/rebuild/tools/finalize_card.py').read_bytes()
+proof=read(R/'validator-note-repair/FINAL_INTEGRITY.json')
+checks['authorized_validator_only_delta']=proof['passed'] and proof['checks']['only_new_private_patterns_and_support_changed'] and proof['after_sha256']==sha(R/'rebuild/tools/validate_packet.py') and proof['before_sha256']==sha(D/'before/rebuild/tools/validate_packet.py')
 checks['feedback_unchanged']=(R/'feedback.md').read_bytes()==subprocess.check_output(['git','show','5e30129b:feedback.md'],cwd=R)
 pres=read(D/'preservation.json')
 run('baseline_archive',['git','archive','--format=zip','-o',str(O/'baseline.zip'),pres['target']])

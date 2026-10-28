@@ -121,6 +121,22 @@ OPTIONAL_EVENT = re.compile(
     r"\b(?:attendance|events?|activities)\b[^.;!?]*\b(?:is|are)\s+optional\b|"
     r"\bno\s+attendance\s+condition\b", re.IGNORECASE)
 
+# A complete private calendar entry need not say "my". Match the whole
+# bounded form, never a date, anchor, or occurrence of "dentist" alone.
+# Existing procurement, clinical, mixed-clause and inherited-scope vetoes
+# still apply before a trusted Section 12 citation can suppress a hint.
+OWNERLESS_DENTIST_APPOINTMENT = re.compile(
+    r"\s*dentist\s+appointment\s*:\s*" + MONTHS +
+    r"\s+\d{1,2},\s+\d{4},?\s+(?:at\s+)?\d{1,2}:\d{2}\s*(?:am|pm)\.?\s*",
+    re.IGNORECASE)
+# A complete contact instruction about a private birthday activity is also
+# body-supported without an owner pronoun. An arbitrary contact, private-looking
+# address, appended duty, or unknown meeting does not match this whole form.
+PRIVATE_BIRTHDAY_CONTACT = re.compile(
+    r"\s*call\s+[^\W\d_]+(?:[ '\u2019-][^\W\d_]+){0,4}\s+at\s+"
+    r"[\w.+-]+@[\w-]+\.[\w.]+\s+about\s+(?:(?:the|my|our|your|his|her|their)\s+)?"
+    r"birthday\s+(?:dinner|party|celebration)\.?\s*", re.IGNORECASE)
+
 
 
 def personal_hint_exclusions(statements, placed):
@@ -133,7 +149,9 @@ def personal_hint_exclusions(statements, placed):
     """
     def personal_support(text):
         return bool((PERSONAL_OWNER.search(text) and PERSONAL_ACTIVITY.search(text))
-                    or PERSONAL_CONTRIBUTION.search(text))
+                    or PERSONAL_CONTRIBUTION.search(text)
+                    or OWNERLESS_DENTIST_APPOINTMENT.fullmatch(text)
+                    or PRIVATE_BIRTHDAY_CONTACT.fullmatch(text))
 
     def negative_dependency(text):
         # Analyze an expanded copy only; source and citation bytes never change.

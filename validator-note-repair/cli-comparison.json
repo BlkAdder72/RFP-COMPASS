@@ -1,0 +1,970 @@
+{
+  "passed": true,
+  "checks": {
+    "saved:original:core-A-stapled-thread": true,
+    "saved:original:core-B-personal-note": true,
+    "saved:original:core-C-official-email": true,
+    "saved:original:core-D-ai-instruction": true,
+    "saved:original:core-E-contract-expectation": true,
+    "saved:original:new-A-obligation-and-retrospective-scope": true,
+    "saved:original:new-B-personal-boundaries": true,
+    "saved:original:new-C-opaque-citations": true,
+    "saved:original:new-D-native-regressions": true,
+    "saved:original:new-E-routing-families": true,
+    "saved:original:full-Z-full-length-noisy": true,
+    "saved:rebuild:core-A-stapled-thread": true,
+    "saved:rebuild:core-B-personal-note": true,
+    "saved:rebuild:core-C-official-email": true,
+    "Q8:contained": true,
+    "Q8:missed-deadline": true,
+    "sample:01-real-public-notice": true,
+    "sample:02-sparse": true,
+    "sample:03-conflicting": true,
+    "sample:04-real-tbrpc-auditing-rfp": true
+  },
+  "records": [
+    {
+      "case": "saved:original:core-A-stapled-thread",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-A-stapled-thread\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-A-stapled-thread\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-A-stapled-thread\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-A-stapled-thread\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-A-stapled-thread\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-A-stapled-thread\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:original:core-B-personal-note",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-B-personal-note\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-B-personal-note\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-B-personal-note\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-B-personal-note\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-B-personal-note\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-B-personal-note\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:original:core-C-official-email",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-C-official-email\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-C-official-email\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-C-official-email\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-C-official-email\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-C-official-email\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-C-official-email\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:original:core-D-ai-instruction",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-D-ai-instruction\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-D-ai-instruction\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-D-ai-instruction\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-D-ai-instruction\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-D-ai-instruction\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-D-ai-instruction\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:original:core-E-contract-expectation",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-E-contract-expectation\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-E-contract-expectation\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-E-contract-expectation\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-E-contract-expectation\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-E-contract-expectation\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\core-E-contract-expectation\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:original:new-A-obligation-and-retrospective-scope",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-A-obligation-and-retrospective-scope\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-A-obligation-and-retrospective-scope\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-A-obligation-and-retrospective-scope\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-A-obligation-and-retrospective-scope\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-A-obligation-and-retrospective-scope\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-A-obligation-and-retrospective-scope\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:original:new-B-personal-boundaries",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-B-personal-boundaries\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-B-personal-boundaries\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-B-personal-boundaries\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-B-personal-boundaries\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-B-personal-boundaries\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-B-personal-boundaries\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:original:new-C-opaque-citations",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-C-opaque-citations\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md"
+          ],
+          "exit_code": 1,
+          "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-C-opaque-citations\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md"
+          ],
+          "exit_code": 1,
+          "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-C-opaque-citations\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md"
+          ],
+          "exit_code": 1,
+          "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:original:new-D-native-regressions",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-D-native-regressions\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md"
+          ],
+          "exit_code": 1,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: S003 look like evaluation terms but are not in Section 7; confirm that is intended\nFAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-D-native-regressions\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md"
+          ],
+          "exit_code": 1,
+          "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-D-native-regressions\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md"
+          ],
+          "exit_code": 1,
+          "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:original:new-E-routing-families",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-E-routing-families\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-E-routing-families\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-E-routing-families\\raw-response.md: S004 look like evaluation terms but are not in Section 7; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-E-routing-families\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-E-routing-families\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-E-routing-families\\raw-response.md: S004 look like evaluation terms but are not in Section 7; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-E-routing-families\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-E-routing-families\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-E-routing-families\\raw-response.md: S004 look like evaluation terms but are not in Section 7; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:original:full-Z-full-length-noisy",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\full-Z-full-length-noisy\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\full-Z-full-length-noisy\\raw-response.md"
+          ],
+          "exit_code": 1,
+          "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\full-Z-full-length-noisy\\raw-response.md: no card produced (response is INPUT NOT READY)\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\full-Z-full-length-noisy\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\full-Z-full-length-noisy\\raw-response.md"
+          ],
+          "exit_code": 1,
+          "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\full-Z-full-length-noisy\\raw-response.md: no card produced (response is INPUT NOT READY)\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\full-Z-full-length-noisy\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\full-Z-full-length-noisy\\raw-response.md"
+          ],
+          "exit_code": 1,
+          "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\full-Z-full-length-noisy\\raw-response.md: no card produced (response is INPUT NOT READY)\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:rebuild:core-A-stapled-thread",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-A-stapled-thread\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-A-stapled-thread\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-A-stapled-thread\\raw-response.md: S004 look like dates or times but are not in Section 6; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-A-stapled-thread\\raw-response.md: Section 8 says `not in source`, but S007 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-A-stapled-thread\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-A-stapled-thread\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-A-stapled-thread\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-A-stapled-thread\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:rebuild:core-B-personal-note",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-B-personal-note\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: S003 look like dates or times but are not in Section 6; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-B-personal-note\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: S003 look like dates or times but are not in Section 6; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md: Section 10 says `not in source`, but S004 look like contact details. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-B-personal-note\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-B-personal-note\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S003, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "saved:rebuild:core-C-official-email",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-C-official-email\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-C-official-email\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-C-official-email\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-C-official-email\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-C-official-email\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-C-official-email\\raw-response.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "Q8:contained",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: Section 8 says `not in source`, but S007 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "Q8:missed-deadline",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002, S004 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 8 says `not in source`, but S007 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "sample:01-real-public-notice",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\01-real-public-notice\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\01-real-public-notice\\bid-compliance-card.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\01-real-public-notice\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\01-real-public-notice\\bid-compliance-card.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\01-real-public-notice\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\01-real-public-notice\\bid-compliance-card.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "sample:02-sparse",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\02-sparse\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\02-sparse\\bid-compliance-card.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\02-sparse\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\02-sparse\\bid-compliance-card.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\02-sparse\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\02-sparse\\bid-compliance-card.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "sample:03-conflicting",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\03-conflicting\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\03-conflicting\\bid-compliance-card.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\03-conflicting\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\03-conflicting\\bid-compliance-card.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\03-conflicting\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\03-conflicting\\bid-compliance-card.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "case": "sample:04-real-tbrpc-auditing-rfp",
+      "results": {
+        "judged-original": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\04-real-tbrpc-auditing-rfp\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\04-real-tbrpc-auditing-rfp\\bid-compliance-card.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\04-real-tbrpc-auditing-rfp\\bid-compliance-card.md: S139 look like evaluation terms but are not in Section 7; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "pre-fix": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\validator-note-repair\\before\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\04-real-tbrpc-auditing-rfp\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\04-real-tbrpc-auditing-rfp\\bid-compliance-card.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "candidate": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\04-real-tbrpc-auditing-rfp\\source-packet.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\samples\\04-real-tbrpc-auditing-rfp\\bid-compliance-card.md"
+          ],
+          "exit_code": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    }
+  ],
+  "cli_calls": 60,
+  "model_calls": 0,
+  "published": false
+}

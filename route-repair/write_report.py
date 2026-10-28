@@ -1,7 +1,7 @@
 from pathlib import Path
 import json,sys
 D=Path(__file__).resolve().parent;R=D.parent
-A=D/(sys.argv[1] if len(sys.argv)>1 else 'analysis-final');s=json.loads((A/'scores.json').read_text(encoding='utf-8'))
+A=(D/(sys.argv[1] if len(sys.argv)>1 else 'analysis-final')).resolve();s=json.loads((A/'scores.json').read_text(encoding='utf-8'))
 def state(v):
  if v is None:return 'Pending'
  return 'Pass' if v else 'Fail'
@@ -37,9 +37,15 @@ Three instruction changes were made sequentially, each followed by retained loca
 
 Each stage preserved the actual instruction snapshot and checks.json. Each passed contract consistency, byte-identity checks on validator/export, all four shipped samples, and rejection controls for altered quotation and altered anchor. These are offline consistency/strict-validation tests, not evidence that Claude followed the new routes. Sample 04's existing hand routing list already includes S098 in section 10 and S139 in section 11, so it was deliberately left unchanged; its script-built provenance remains disclosed.
 
-The unchanged validation/export implementation also passed a fresh retained-control replay: 17/17 citation-export controls and 216/216 warning/corruption controls, with every expected rejection and warning output preserved under stages/R4-retained-validation.
+At the native candidate freeze, the then-unchanged validation/export implementation passed a retained-control replay: 17/17 citation-export controls and 216/216 warning/corruption controls, with every expected rejection and warning output preserved under stages/R4-retained-validation. The later offline-only warning repair is disclosed separately below.
 
-Only CLAUDE_PROJECT_INSTRUCTIONS.txt, rules.md and reference/output-schema.md changed in the model contract. tools/validate_packet.py and tools/finalize_card.py are byte-identical to the before snapshot. No warning is suppressed to conceal a missing route. Source packets, frozen questions, identity, examples and input schema were not edited.
+Only CLAUDE_PROJECT_INSTRUCTIONS.txt, rules.md and reference/output-schema.md changed in the model contract. The six-file native contract remains frozen. The later validator-only repair adds two bounded source-body forms; tools/finalize_card.py and the strict validation logic remain unchanged. No warning is suppressed to conceal a missing route. Source packets, frozen questions, identity, examples and input schema were not edited.
+
+## Offline-only personal-note warning repair
+
+The pre-fix core-B card passed strict checks and kept S003/S004 only in section 12, but produced two false advisory hints for a dentist date and birthday contact. The filter required an owner pronoun even for those complete private forms. The repair recognizes a whole dentist appointment entry and a whole contact instruction about a birthday activity. It does not classify from an anchor, source ID, date alone, private-looking email address or output placement. Procurement/clinical context, mixed clauses, inherited scope, exact citations and section-12-only placement still veto suppression.
+
+The two edits were tested sequentially. Each stage passed 263 identical differential cases against the judged-original and pre-fix validators, including all 216 retained warning/corruption controls and all 14 saved native response cards. Four shipped samples, frozen Q8 checks, mixed-context cases and quotation/anchor/ID rejection controls passed. The final replay also passed 17/17 export controls. Both false hints are absent from the unchanged saved core-B response; all retained adversarial hints and strict error outcomes are unchanged from the pre-fix rebuild. These are validator tests on saved outputs, not new Claude trials or proof that pending routing cases pass. See validator-note-repair/ for frozen tests, before snapshots, stage results, CLI comparisons and integrity proof.
 
 ## Fair native method
 
@@ -67,7 +73,7 @@ The original full-RFP response refuses the packet, citing its blank separator an
 
 Q1/Q2 use core A, Q3 B, Q4 C, Q5 D, Q6 E. Q7 and Q8 are direct artifact/default-validator checks, not extra model conversations. Q8 requires both no false personal-date warning and a retained genuine missed-deadline warning. Core C's new S003-in-8 check is prospective expanded coverage and does not silently change frozen Q4. The actual pricing source says “To clarify the submission requirements, respondents must include a signed pricing sheet with their proposal.” The older native report's description that a revised sheet replaced an earlier one was inaccurate; the old report remains preserved, and this report corrects that characterization.
 
-The broader core-B personal-note case still produces false advisory REVIEW hints for dentist date S003 (section 6) and birthday contact S004 (section 10), despite correct section-12-only placement and a strict PASS. Frozen Q8 tests fixture A, not B. Its pass must not be generalized to elimination of all personal-content warnings. These retained warnings are unresolved limitations, not evidence of routing failure or grounds to suppress genuine procurement warnings. The October 28 offline update does not change the validator or the frozen model contract.
+The offline-only repair removes the two previously recorded core-B advisory hints without changing the saved card. Frozen Q8 still tests fixture A, not B. Its pass and the new core-B checks must not be generalized to elimination of all possible false warnings. The conservative warning filter remains finite; unknown or mixed-purpose wording can still require human review. Historical pre-fix warnings remain preserved.
 
 New E and the expanded full/core checks are disclosed feedback-derived regression checks, not a blind holdout or statistical generalization test. Read the source and every failed subcheck, not only aggregate scores.
 

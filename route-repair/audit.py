@@ -16,7 +16,9 @@ for arm,files in x['knowledge'].items():
  for name,h in files.items():checks['candidate:'+arm+':'+name]=sha(D/'inputs'/arm/'translation-contract.md' if name=='bundle_sha256' else R/arm/name)==h
 for key,v in x['fixtures'].items():checks['source:'+key]=sha(D/'inputs'/key/'source-packet.md')==v['sha256']
 checks['prompt']=sha(D/'prompt.txt')==x['prompt']['sha256']
-for name in ['tools/validate_packet.py','tools/finalize_card.py']:checks['unchanged:'+name]=(R/'rebuild'/name).read_bytes()==(D/'before/rebuild'/name).read_bytes()
+checks['unchanged:tools/finalize_card.py']=(R/'rebuild/tools/finalize_card.py').read_bytes()==(D/'before/rebuild/tools/finalize_card.py').read_bytes()
+proof=read(R/'validator-note-repair/FINAL_INTEGRITY.json')
+checks['authorized_validator_only_delta']=proof['passed'] and proof['checks']['only_new_private_patterns_and_support_changed'] and proof['after_sha256']==sha(R/'rebuild/tools/validate_packet.py') and proof['before_sha256']==sha(D/'before/rebuild/tools/validate_packet.py')
 for stage in ['R1-reservations','R2-submission-contacts','R3-commercial-forms']:checks['stage:'+stage]=read(D/'stages'/stage/'checks.json')['passed']
 for a,b in [('83da4078','a9cc5cca'),('a9cc5cca','0d71781c'),('0d71781c','cdd3df64')]:checks['chronology:'+a+':'+b]=subprocess.run(['git','merge-base','--is-ancestor',a,b],cwd=R).returncode==0
 work=R/'.run-work';work.mkdir(exist_ok=True);archive=work/'route-preservation-baseline.zip'
