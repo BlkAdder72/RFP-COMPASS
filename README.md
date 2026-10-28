@@ -1,6 +1,6 @@
 # RFP-COMPASS — Competition 15: The Rebuild
 
-**Unpublished; the latest native comparison and final submission audit remain incomplete.** VIP eligibility is user-confirmed. Start with [judges' feedback](feedback.md), [frozen questions](questions.md), and [current results](results.md).
+**Unpublished; native comparison complete. Inspect final audit and package receipt before submission.** VIP eligibility is user-confirmed. Start with [judges' feedback](feedback.md), [frozen questions](questions.md), and [current results](results.md).
 
 This rebuild addresses the judges' noisy-input failure: unrelated personal content belongs only in section 12, while genuine procurement content remains usable. It also makes contractual-expectation routing explicit, discloses the script-built sample, and passes the specified Q8 personal-date warning test while retaining genuine missed-deadline warnings. The two saved personal-note false warnings are repaired offline with preserved strict validation; finite warning coverage remains disclosed in the report.
 
@@ -8,9 +8,9 @@ The judged Comp #13 entry is untouched in [original/](original/), pinned at `928
 
 ## Current evidence
 
-The latest candidate is [rebuild/](rebuild/). Its six-file ICM model contract remains frozen for the [route-repair protocol](route-repair/PROTOCOL.md); later documentation and the authorized validator-only repair are versioned separately. All 11 original native first-pass responses are preserved. Three repaired responses are fully exported and pass strict validation and selected routing checks: personal thread and personal note improve; official clarification ties. Local provenance and default warning checks pass. A fourth repaired response finished but its raw export is blocked; seven subsequent cases remain unrun. These gaps include remaining routing regressions, citation variants and the full-length noisy RFP.
+The latest candidate is [rebuild/](rebuild/). Its six-file ICM contract, frozen questions, sources and common prompt remain unchanged. All 11 original and 11 repaired native first-pass trials are exported. Core D was recovered without regeneration. Repaired frozen Q1–Q8 pass. Repaired results: 9/11 raw strict, 11/11 expanded selected semantics, 11/11 strict after the identical audited Unicode export. Raw citation failures remain failures; export does not change routing. See results.md for every paired result and any full-RFP failure.
 
-The October 28 update makes no Claude calls and changes no frozen model contract, question, fixture or raw response. The subsequent authorized validator-only fix is separately versioned in validator-note-repair/. See [validator repair](validator-note-repair/REPORT.md) and the [earlier offline review](route-repair/offline-review-2026-10-28/review.json) and [restart checkpoint](route-repair/RESUME-REPAIRED-PROGRESS-04.md). Do not regenerate the fourth response.
+The resumed run is authorized by the October 28 user instruction. Prior offline-only reports remain historical. No response was regenerated and no original trial was repeated.
 
 ## Review and reproduction
 
@@ -23,4 +23,4 @@ The October 28 update makes no Claude calls and changes no frozen model contract
 - Re-score existing evidence only: `python -B -X utf8 route-repair/score.py --output-dir .run-work/new-score`.
 - Final submission audit: `python -B -X utf8 tools/verify_submission.py`. This intentionally returns HOLD while the final comparison is missing; passing offline checks alone cannot release the entry.
 
-Older `native-repair/`, `claude-native/` and `dist/` packages describe earlier candidates. No final `dist/route-repair-review/` package has been sealed. The current `dist/documentation-sync-review-v2/` is an explicitly incomplete offline review snapshot, with its own checksums and full Git-history bundle; it is not a submission-ready release. The [submission comment](SUBMISSION_COMMENT.md) is an unposted draft. The review ZIP/history bundle pass their offline and fresh-clone checks; complete the retained native comparison and final submission audit before claiming release readiness. Integrity, raw citation accuracy and semantic routing are separate checks; finite passes do not prove perfection or original-PDF fidelity.
+Final unpublished review artifacts are in `dist/route-repair-review/`: source ZIP, complete Git-history bundle, SHA256 checksums and fresh-clone receipt. Earlier incomplete and failed archives remain preserved. The [submission comment](SUBMISSION_COMMENT.md) is an unposted draft. Inspect the final receipt before publishing; integrity and semantic acceptance are separate.

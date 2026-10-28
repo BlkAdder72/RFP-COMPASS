@@ -1,0 +1,33 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\full-Z-full-length-noisy\\source-packet.md",
+  "source_sha256": "01526c6dccc0d05144b47d3ee1468c77f8d692d160418e187144cd1ab797a6bc",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\raw-response-part-01.md",
+      "raw_sha256": "f0edeb3cfa0dfeb97b4cf2f6c78d495bf82c67dc1e6f0a3016a30ed73981cad4",
+      "output": "part-01.md",
+      "output_sha256": "f0edeb3cfa0dfeb97b4cf2f6c78d495bf82c67dc1e6f0a3016a30ed73981cad4",
+      "changes": []
+    },
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\raw-response-part-02.md",
+      "raw_sha256": "bfc35646e2bc989fa4cc62d2016829403f36671e489bcce89b5dcd9e102f2c28",
+      "output": "part-02.md",
+      "output_sha256": "bfc35646e2bc989fa4cc62d2016829403f36671e489bcce89b5dcd9e102f2c28",
+      "changes": []
+    },
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\full-Z-full-length-noisy\\raw-response-part-03.md",
+      "raw_sha256": "5cb6bcb2d4365c7bb55c8214da5fc21d777be9060666574a79a3a768c68f952d",
+      "output": "part-03.md",
+      "output_sha256": "5cb6bcb2d4365c7bb55c8214da5fc21d777be9060666574a79a3a768c68f952d",
+      "changes": []
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": [
+    "PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof"
+  ]
+}

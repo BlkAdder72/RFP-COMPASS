@@ -1,0 +1,20 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-E-routing-families\\source-packet.md",
+  "source_sha256": "e27ffb67abb700efbd32c8004291918ae5d3ac08af82172216468d0302b7b6c4",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\new-E-routing-families\\raw-response.md",
+      "raw_sha256": "66c1a61e785293b497fa5c99c96ae11ace7de40ba2594b46233a90674703df44",
+      "output": "part-01.md",
+      "output_sha256": "66c1a61e785293b497fa5c99c96ae11ace7de40ba2594b46233a90674703df44",
+      "changes": []
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": [
+    "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\analysis-final\\evidence\\rebuild\\new-E-routing-families\\derived-export\\validation-inputs\\part-01.md: S004 look like evaluation terms but are not in Section 7; confirm that is intended",
+    "REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\analysis-final\\evidence\\rebuild\\new-E-routing-families\\derived-export\\validation-inputs\\part-01.md: S002 look like contact details but are not in Section 10; confirm that is intended"
+  ]
+}

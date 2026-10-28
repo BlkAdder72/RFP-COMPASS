@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "method": "independent fresh score; exact JSON comparison with only analysis-output directory prefixes normalized",
+  "first": "route-repair/analysis-final",
+  "second": ".run-work/route-reproduction"
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "label": "legacy-clone",
+    "exit_code": 128,
+    "stdout": "",
+    "stderr": "      0 [main] sh (102448) C:\\Program Files\\Git\\usr\\bin\\sh.exe: *** fatal error - NtCreateDirectoryObject(\\BaseNamedObjects\\msys-2.0S5-1888ae32e00d56aa): 0xC0000022\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.\n"
+  }
+]

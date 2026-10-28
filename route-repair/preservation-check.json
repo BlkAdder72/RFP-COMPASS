@@ -1,0 +1,19 @@
+{
+  "method": "all baseline Git blobs SHA256 checked against frozen inventory; Git diff detects changed prior files; changed files match before snapshots; old evidence unchanged",
+  "prior_source": "5e30129b3af677ef43fccb3dcec4c452182ffab6",
+  "prior_tracked_files_checked": 42270,
+  "changed_with_preserved_before": [
+    "README.md",
+    "SUBMISSION_COMMENT.md",
+    "packaging/COMPLIANCE.md",
+    "rebuild/CLAUDE_PROJECT_INSTRUCTIONS.txt",
+    "rebuild/README.md",
+    "rebuild/reference/output-schema.md",
+    "rebuild/rules.md",
+    "rebuild/tools/validate_packet.py",
+    "results.md",
+    "tools/verify_submission.py"
+  ],
+  "unpreserved": [],
+  "passed": true
+}

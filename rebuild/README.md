@@ -2,7 +2,7 @@
 
 RFP Compass converts one designated source packet into a fixed twelve-section Bid Compliance Card. Every populated bullet quotes a whole source statement with its exact ID and complete anchor. Clearly unrelated personal material belongs only in section 12; mixed statements retain their genuine procurement placements without changing their quotations.
 
-**Unpublished; the latest native comparison is incomplete.** Start with the parent [current results](../results.md), [frozen feedback questions](../questions.md) and [current documentation index](../documentation-sync/REPORT.md). Earlier full-RFP and twenty-trial results describe earlier candidates, not acceptance of this one.
+**Unpublished; latest native comparison complete, with raw-copy limitations disclosed.** Start with the parent [current results](../results.md), [frozen feedback questions](../questions.md) and [current documentation index](../documentation-sync/REPORT.md). Earlier full-RFP and twenty-trial results describe earlier candidates, not acceptance of this one.
 
 ## ICM architecture
 
@@ -20,15 +20,13 @@ Each part keeps one job:
 
 ## Current evidence
 
-All 11 original first-pass native responses are saved in [route-repair/evidence/original/](../route-repair/evidence/original/). Three repaired responses are completely exported in [route-repair/evidence/rebuild/](../route-repair/evidence/rebuild/): personal-thread containment improves, personal-note containment improves, and official clarification ties. Each passes raw strict validation and selected routing checks. The fourth repaired response finished but has no verified raw export; seven subsequent cases remain unrun. Do not regenerate that fourth response or count it as passing.
-
-In the latest saved comparison, Q1–Q4, Q7 and Q8 pass; Q5 and Q6 remain pending. Q7/Q8 include local artifact/default-validator checks. Earlier Q1–Q8 passes and earlier full-RFP cards remain preserved under [native-repair/](../native-repair/), with their failures and limitations; they cannot establish completion of the current comparison.
+All 11 original and 11 repaired native first-pass trials are exported. Core D was recovered without regeneration. Repaired frozen Q1–Q8 pass. Repaired results: 9/11 raw strict, 11/11 expanded selected semantics, 11/11 strict after the identical audited Unicode export. Raw citation failures remain failures; export does not change routing. See results.md for every paired result and any full-RFP failure.
 
 The two false personal-note advisory warnings were fixed offline using bounded whole-text patterns. The [repair report](../validator-note-repair/REPORT.md) preserves both pre-fix warnings, sequential tests, comparisons with the judged-original and pre-fix validators, and unchanged strict-validation proof. No Claude run was repeated for that fix. Unknown or mixed-purpose wording can still need human review.
 
 ## Use the folder
 
-Supply only CLAUDE_PROJECT_INSTRUCTIONS.txt, identity.md, rules.md, examples.md, reference/input-schema.md and reference/output-schema.md, plus the active packet named source-packet.md. Keep evaluator questions, expected answers, past responses, tools and the opposite arm out of the model session. Preserve each first-pass response. If the contract explicitly requests continuation, send exactly `continue` and retain every part. Current user direction excludes further Claude runs.
+Supply only CLAUDE_PROJECT_INSTRUCTIONS.txt, identity.md, rules.md, examples.md, reference/input-schema.md and reference/output-schema.md, plus the active packet named source-packet.md. Keep evaluator questions, expected answers, past responses, tools and the opposite arm out of the model session. Preserve each first-pass response. If the contract explicitly requests continuation, send exactly `continue` and retain every part. The resumed comparison is complete; do not regenerate saved responses.
 
 ## Preserve and finalize an existing export
 
@@ -49,8 +47,8 @@ python -B -X utf8 tools/validate_packet.py source-packet.md part-1.md part-2.md
 
 With no arguments, the validator checks the four packaged samples. It rejects changed quotations/anchors, missing IDs, wrong headings/order, extra prose and malformed continuation boundaries. REVIEW hints are advisory. A strict PASS does not prove semantic placement, the truth of `not in source`, or fidelity to the original PDF. PDF tracing is separate and requires pdfplumber; see [tools/trace_card.py](tools/trace_card.py).
 
-The latest offline warning repair passed 263 differential cases per stage, 60 CLI comparisons, 216 retained warning/corruption controls and 17 citation-export controls. Earlier full-length saved cards were replayed offline without changing strict outcomes or existing full-RFP hints. These checks verify saved outputs and tooling; they do not fill the missing native trials.
+The latest offline warning repair passed 263 differential cases per stage, 60 CLI comparisons, 216 retained warning/corruption controls and 17 citation-export controls. Earlier full-length saved cards were replayed offline without changing strict outcomes or existing full-RFP hints. These checks verify saved outputs and tooling; they are distinct from the now-complete native comparison.
 
 ## Evidence and package status
 
-The [restart guide](../route-repair/RESUME.md) records the interrupted fourth response. The [current results](../results.md) distinguish raw strict checks, selected routing and derived exports. Historical reports, raw evidence, frozen questions and judged original remain unchanged. The current source ZIP, full-history bundle and package-verification receipts are in `../dist/documentation-sync-review-v2/`, explicitly labelled an incomplete offline review snapshot. Older archives, including the verified validator-repair v2 package and the first failed package, remain preserved. Final submission stays on HOLD; nothing is published.
+The [current results](../results.md) distinguish raw strict checks, selected routing and derived exports. Historical reports, raw evidence, frozen questions and judged original remain preserved. The final source ZIP, full-history bundle, checksums and fresh-clone receipt are in `../dist/route-repair-review/`. Nothing is published.

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "current_documents_checked": [
+    "README.md",
+    "rebuild/README.md",
+    "results.md",
+    "route-repair/REPORT.md",
+    "route-repair/CANDIDATE.md",
+    "route-repair/RESUME.md",
+    "SUBMISSION_COMMENT.md",
+    "packaging/COMPLIANCE.md",
+    "documentation-sync/REPORT.md",
+    "run-original/README.md",
+    "run-rebuild/README.md"
+  ],
+  "broken_local_links": [],
+  "root_report_matches": true,
+  "ICM_contract": "six uploaded files byte-frozen; verified independently by audit.py",
+  "published": false
+}

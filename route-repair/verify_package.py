@@ -1,6 +1,6 @@
 """Verify the review bundle in a fresh checkout and retain complete command results."""
 from pathlib import Path, PureWindowsPath
-import argparse,hashlib,json,subprocess,sys
+import argparse,hashlib,json,subprocess,sys,os
 R=Path(__file__).resolve().parents[1]; D=R/'dist/route-repair-review'
 meta=json.loads((D/'PACKAGE.json').read_text()); records=[]
 parser=argparse.ArgumentParser()
@@ -21,9 +21,10 @@ run('fresh clone',['git','-c','core.longpaths=true','clone','--quiet','--no-chec
 run('long path configuration',['git','config','core.longpaths','true'],C)
 run('pinned checkout',['git','checkout','--quiet','--detach',meta['commit']],C)
 assert subprocess.check_output(['git','rev-parse','HEAD'],cwd=C).decode().strip()==meta['commit']
-manifest=json.loads((C/'route-repair/EVIDENCE_SHA256.json').read_text())
-assert set(manifest)=={p.relative_to(C/'route-repair').as_posix() for p in (C/'route-repair').rglob('*') if p.is_file() and p!=C/'route-repair/EVIDENCE_SHA256.json'}
-assert all(hashlib.sha256((C/'route-repair'/n).read_bytes()).hexdigest()==h for n,h in manifest.items())
+F=Path(chr(92)*2+'?'+chr(92)+str(C)) if os.name=='nt' else C
+manifest=json.loads((F/'route-repair/EVIDENCE_SHA256.json').read_text())
+assert set(manifest)=={p.relative_to(F/'route-repair').as_posix() for p in (F/'route-repair').rglob('*') if p.is_file() and p!=F/'route-repair/EVIDENCE_SHA256.json'}
+assert all(hashlib.sha256((F/'route-repair'/n).read_bytes()).hexdigest()==h for n,h in manifest.items())
 run('fresh evidence integrity',[sys.executable,'-u','-B','-X','utf8','route-repair/audit.py'],C)
 audit=json.loads((C/'route-repair/FINAL_CHECK.json').read_text())
 assert audit['integrity_pass'] and audit['behavioral_acceptance']==meta['behavioral_acceptance']
@@ -43,5 +44,5 @@ for row in json.loads((C/'native-repair/stages/C4-final-export/results.json').re
     else:assert (out/'export-audit.json').is_file()
 run('unchanged source status',['git','status','--porcelain'],C)
 assert not records[-1]['stdout'], 'Verification must not alter tracked source'
-(D/'PACKAGE_VERIFICATION.json').write_text(json.dumps({'status':'PASS integrity and reproducibility; HOLD behavioral acceptance','source_commit':meta['commit'],'checks':records,'behavioral_acceptance':audit['behavioral_acceptance'],'published':False},ensure_ascii=False,indent=2),encoding='utf-8')
+(D/'PACKAGE_VERIFICATION.json').write_text(json.dumps({'status':'PASS integrity and reproducibility; inspect behavioral acceptance and raw citation limits','source_commit':meta['commit'],'checks':records,'behavioral_acceptance':audit['behavioral_acceptance'],'published':False},ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({'verified_commands':len(records),'fresh_clone':str(C),'integrity_pass':True,'behavioral_acceptance':audit['behavioral_acceptance'],'published':False}))

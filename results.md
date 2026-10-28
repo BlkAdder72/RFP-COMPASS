@@ -1,8 +1,8 @@
 # Routing repair comparison — unpublished
 
-**Status: INCOMPLETE; remaining repaired Claude trials excluded by current user direction.** Nothing has been published. Local instruction checks are not model-routing acceptance. This report supersedes earlier readiness claims while preserving every old report, failure, raw transcript and sealed package.
+**Status: complete; selected acceptance PASS.** Nothing has been published. Local instruction checks are not model-routing acceptance. This report supersedes earlier readiness claims while preserving every old report, failure, raw transcript and sealed package.
 
-As of the October 28 offline review, three repaired first-pass responses are completely exported (core A, B and C). Core D was submitted once and visibly finished, but capture failed during export verification; it is not scored because its raw response is not saved. Seven subsequent repaired cases have not run. No native Claude run or regeneration was performed during this update. The scorer's missing-evidence label for core D must not be read as proof it was never submitted; consult RESUME-REPAIRED-PROGRESS-04.md before recovery.
+The October 28 resumed run recovered core D's existing first response without regeneration and completed the remaining seven repaired cases under the frozen protocol. Core D's preserved UI timeline includes later unrelated user activity and tool actions after the original test answer; only the original first answer was copied and scored. No model-contract or source edit was made during these trials. The later validator-only warning repair remains separately disclosed below.
 
 ## Changes and sequence
 
@@ -43,14 +43,14 @@ Cells show **raw strict / expanded selected semantics / derived strict**. Pendin
 | core-A-stapled-thread | Pass / Fail / Pass | Pass / Pass / Pass |
 | core-B-personal-note | Pass / Fail / Pass | Pass / Pass / Pass |
 | core-C-official-email | Pass / Pass / Pass | Pass / Pass / Pass |
-| core-D-ai-instruction | Pass / Pass / Pass | Pending / Pending / Pending |
-| core-E-contract-expectation | Pass / Pass / Pass | Pending / Pending / Pending |
-| new-A-obligation-and-retrospective-scope | Pass / Pass / Pass | Pending / Pending / Pending |
-| new-B-personal-boundaries | Pass / Fail / Pass | Pending / Pending / Pending |
-| new-C-opaque-citations | Fail / Pass / Pass | Pending / Pending / Pending |
-| new-D-native-regressions | Fail / Fail / Pass | Pending / Pending / Pending |
-| new-E-routing-families | Pass / Fail / Pass | Pending / Pending / Pending |
-| full-Z-full-length-noisy | Fail / Fail / Fail | Pending / Pending / Pending |
+| core-D-ai-instruction | Pass / Pass / Pass | Pass / Pass / Pass |
+| core-E-contract-expectation | Pass / Pass / Pass | Pass / Pass / Pass |
+| new-A-obligation-and-retrospective-scope | Pass / Pass / Pass | Pass / Pass / Pass |
+| new-B-personal-boundaries | Pass / Fail / Pass | Pass / Pass / Pass |
+| new-C-opaque-citations | Fail / Pass / Pass | Fail / Pass / Pass |
+| new-D-native-regressions | Fail / Fail / Pass | Fail / Pass / Pass |
+| new-E-routing-families | Pass / Fail / Pass | Pass / Pass / Pass |
+| full-Z-full-length-noisy | Fail / Fail / Fail | Pass / Pass / Pass |
 
 The original full-RFP response refuses the packet, citing its blank separator and unrelated personal calendar. That first-pass refusal is counted as failure, retained without corrective follow-up. New C has two raw Unicode anchor changes and new D four; both fail raw strict checks but pass the same audited export applied to both arms. The full source retains all 221 statements, including seven noise records. Its new expanded expectations require S098 in 4/6/10 and S139 in 10/11 but not 7.
 
@@ -62,8 +62,8 @@ The original full-RFP response refuses the packet, citing its blank separator an
 | Q2 | pass | pass |
 | Q3 | partial | pass |
 | Q4 | pass | pass |
-| Q5 | pass | pending |
-| Q6 | partial | pending |
+| Q5 | pass | pass |
+| Q6 | partial | pass |
 | Q7 | fail | pass |
 | Q8 | partial | pass |
 
@@ -84,10 +84,10 @@ New E and the expanded full/core checks are disclosed feedback-derived regressio
 
 ## Ties, regressions and remaining risk
 
-The three exported repaired cases all pass raw strict, expanded selected routing and derived strict checks. Core A and B improve personal-content containment against the original; core C ties the original. Local Q7 provenance and Q8 warning checks also improve. No regressions were detected in those completed checks. The remaining routing, citation and full-RFP cases are unverified, so no overall acceptance or no-regression claim is supported. Prior candidate failures remain preserved in native-repair/ and claude-native/.
+Fresh repaired trial outcomes are listed above. Any failed routing or raw validation remains a real failure even if aggregate scores improve.
 
 Finite passing checks cannot establish perfect semantic routing. Unseen obligation scope, private/procurement context, quotation transport, account variation and original-PDF fidelity can still cost the win. The competition scores demonstrated closure against feedback, not a claim of perfection. VIP eligibility is user-confirmed. Do not publish while required trials or package verification remain incomplete, or while any reported failure needs owner review.
 
 ## Evidence and reproduction
 
-Raw trials: route-repair/evidence/. Exact prompt: route-repair/prompt.txt. Order, unchanged sources and candidate hashes: final-inputs.json. Local staged tests: stages/. Current scoring directory: validator-note-repair/analysis. Historical before snapshots and all Git history are retained. Reproduce into a NEW directory with `python -B -X utf8 route-repair/score.py --output-dir .run-work/route-score-new`; output reuse is refused. Run integrity separately with `python -B -X utf8 route-repair/audit.py` after the complete final score, report and reproduction check exist. The documentation-aligned offline review ZIP/full-history bundle is in dist/documentation-sync-review-v2/, with checksums and fresh-clone verification. Earlier verified and failed packages remain preserved. This offline package does not close the incomplete native comparison or authorize final submission. See documentation-sync/REPORT.md for current entry points and version boundaries.
+Raw trials: route-repair/evidence/. Exact prompt: route-repair/prompt.txt. Order, unchanged sources and candidate hashes: final-inputs.json. Local staged tests: stages/. Current scoring directory: route-repair/analysis-final. Historical before snapshots and all Git history are retained. Reproduce into a NEW directory with `python -B -X utf8 route-repair/score.py --output-dir .run-work/route-score-new`; output reuse is refused. Run integrity separately with `python -B -X utf8 route-repair/audit.py` after the complete final score, report and reproduction check exist. The final resumed source ZIP and full-history bundle are in dist/route-repair-review/, with checksums and a separate fresh-clone verification receipt. Earlier verified, incomplete and failed packages remain preserved. Package integrity is distinct from behavioral acceptance and raw citation accuracy. Nothing is published.

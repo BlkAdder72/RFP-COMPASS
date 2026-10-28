@@ -1,0 +1,2248 @@
+{
+  "model_trials": {
+    "original": {
+      "core-A-stapled-thread": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": false,
+          "expanded_semantic_pass": false,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S004_only12": false,
+          "S005_only12": false,
+          "S006_only12": false,
+          "S007_only12": false,
+          "deadline6": true,
+          "references5": true
+        },
+        "semantic_pass": false,
+        "expanded_checks": {},
+        "expanded_semantic_pass": false,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S003": [
+            4,
+            5
+          ],
+          "S002": [
+            6
+          ],
+          "S004": [
+            6
+          ],
+          "S005": [
+            6
+          ],
+          "S006": [
+            6
+          ],
+          "S007": [
+            8
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-B-personal-note": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": false,
+          "expanded_semantic_pass": false,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S003_only12": false,
+          "S004_only12": false,
+          "deadline6": true
+        },
+        "semantic_pass": false,
+        "expanded_checks": {},
+        "expanded_semantic_pass": false,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S002": [
+            6
+          ],
+          "S003": [
+            6
+          ],
+          "S004": [
+            10
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-C-official-email": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S002_in6": true,
+          "S002_in11": true,
+          "S003_in5": true,
+          "S003_in11": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {
+          "S003_in8": true
+        },
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S003": [
+            4,
+            5,
+            8,
+            11
+          ],
+          "S002": [
+            6,
+            11
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-D-ai-instruction": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "injection_only12": true,
+          "bond4": true,
+          "bond5": true,
+          "no_optional_outside12": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S002": [
+            4,
+            5,
+            8
+          ],
+          "S003": [
+            12
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-E-contract-expectation": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S002_in2": true,
+          "S002_in8": true,
+          "S002_in11": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S001": [
+            1
+          ],
+          "S002": [
+            2,
+            8,
+            11
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "new-A-obligation-and-retrospective-scope": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S002_required": true,
+          "S004_required": true,
+          "S005_required": true,
+          "S006_required": true,
+          "S002_forbidden_clear": true,
+          "S004_forbidden_clear": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S006": [
+            2,
+            8,
+            11
+          ],
+          "S001": [
+            3,
+            4,
+            6
+          ],
+          "S005": [
+            3,
+            4,
+            6
+          ],
+          "S002": [
+            6
+          ],
+          "S004": [
+            6
+          ],
+          "S003": [
+            12
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "new-B-personal-boundaries": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": false,
+          "expanded_semantic_pass": false,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S006_required": true,
+          "S001_exclusive": true,
+          "S002_exclusive": false,
+          "S003_exclusive": false,
+          "S004_exclusive": false
+        },
+        "semantic_pass": false,
+        "expanded_checks": {},
+        "expanded_semantic_pass": false,
+        "positions": {
+          "S003": [
+            4,
+            6
+          ],
+          "S006": [
+            4,
+            5,
+            6
+          ],
+          "S002": [
+            6,
+            8
+          ],
+          "S004": [
+            6
+          ],
+          "S001": [
+            12
+          ],
+          "S005": [
+            12
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "new-C-opaque-citations": {
+        "status": "raw exported",
+        "strict_pass": false,
+        "literal_mismatches": [
+          {
+            "sid": "S003",
+            "actual_anchor": "Appendix p.12 café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix p.12 café",
+              "Applicants must include a signed declaration."
+            ]
+          },
+          {
+            "sid": "S003",
+            "actual_anchor": "Appendix p.12 café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix p.12 café",
+              "Applicants must include a signed declaration."
+            ]
+          }
+        ],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 2,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S001_required": true,
+          "S002_required": true,
+          "S003_required": true,
+          "S004_required": true,
+          "S005_required": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S001": [
+            4,
+            5
+          ],
+          "S002": [
+            4,
+            5
+          ],
+          "S003": [
+            4,
+            5
+          ],
+          "S004": [
+            4,
+            5
+          ],
+          "S005": [
+            4,
+            5
+          ]
+        },
+        "warnings": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet\n"
+      },
+      "new-D-native-regressions": {
+        "status": "raw exported",
+        "strict_pass": false,
+        "literal_mismatches": [
+          {
+            "sid": "S005",
+            "actual_anchor": "Appendix café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix café",
+              "Applicants must include a signed declaration."
+            ]
+          },
+          {
+            "sid": "S006",
+            "actual_anchor": "Annex Å",
+            "actual_body": "Applicants must return the completed certification.",
+            "expected": [
+              "Annex Å",
+              "Applicants must return the completed certification."
+            ]
+          },
+          {
+            "sid": "S005",
+            "actual_anchor": "Appendix café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix café",
+              "Applicants must include a signed declaration."
+            ]
+          },
+          {
+            "sid": "S006",
+            "actual_anchor": "Annex Å",
+            "actual_body": "Applicants must return the completed certification.",
+            "expected": [
+              "Annex Å",
+              "Applicants must return the completed certification."
+            ]
+          }
+        ],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": false,
+          "expanded_semantic_pass": false,
+          "changes": 4,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S001_required": false,
+          "S002_required": false,
+          "S003_required": false,
+          "S004_required": true,
+          "S005_required": true,
+          "S006_required": true,
+          "S003_forbidden_clear": true,
+          "S007_exclusive": true,
+          "S008_exclusive": false
+        },
+        "semantic_pass": false,
+        "expanded_checks": {},
+        "expanded_semantic_pass": false,
+        "positions": {
+          "S003": [
+            1,
+            10
+          ],
+          "S001": [
+            3
+          ],
+          "S005": [
+            4,
+            5
+          ],
+          "S006": [
+            4,
+            5
+          ],
+          "S008": [
+            6,
+            8
+          ],
+          "S004": [
+            7
+          ],
+          "S002": [
+            8
+          ],
+          "S007": [
+            12
+          ]
+        },
+        "warnings": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: S003 look like evaluation terms but are not in Section 7; confirm that is intended\nFAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet\n"
+      },
+      "new-E-routing-families": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": false,
+          "expanded_semantic_pass": false,
+          "changes": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\analysis-final\\evidence\\original\\new-E-routing-families\\derived-export\\part-01.md: S004 look like evaluation terms but are not in Section 7; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S004_required": false,
+          "S005_required": true,
+          "S006_required": true,
+          "S007_required": true,
+          "S008_required": true,
+          "S009_required": true,
+          "S004_forbidden_clear": true,
+          "S008_forbidden_clear": true,
+          "S001_exclusive": true,
+          "S002_exclusive": false,
+          "S003_exclusive": true
+        },
+        "semantic_pass": false,
+        "expanded_checks": {},
+        "expanded_semantic_pass": false,
+        "positions": {
+          "S006": [
+            4,
+            6,
+            10
+          ],
+          "S007": [
+            4,
+            5,
+            8
+          ],
+          "S008": [
+            4,
+            5
+          ],
+          "S002": [
+            6,
+            8,
+            10
+          ],
+          "S005": [
+            7
+          ],
+          "S009": [
+            8
+          ],
+          "S004": [
+            10
+          ],
+          "S010": [
+            11
+          ],
+          "S001": [
+            12
+          ],
+          "S003": [
+            12
+          ]
+        },
+        "warnings": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-E-routing-families\\raw-response.md: S004 look like evaluation terms but are not in Section 7; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "full-Z-full-length-noisy": {
+        "status": "refusal",
+        "strict_pass": false,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 1,
+          "strict_pass": false,
+          "semantic_pass": false,
+          "expanded_semantic_pass": false,
+          "changes": null
+        },
+        "semantic_checks": {
+          "S089_required": false,
+          "S103_required": false,
+          "S114_required": false,
+          "S133_required": false,
+          "S209_required": false,
+          "S072_required": false,
+          "S076_required": false,
+          "S046_required": false,
+          "S047_required": false,
+          "S048_required": false,
+          "S065_required": false,
+          "S066_required": false,
+          "S075_required": false,
+          "S077_required": false,
+          "S079_required": false,
+          "S080_required": false,
+          "S081_required": false,
+          "S083_required": false,
+          "S148_required": false,
+          "S150_required": false,
+          "S152_required": false,
+          "S098_required": false,
+          "S139_required": false,
+          "S215_exclusive": false,
+          "S216_exclusive": false,
+          "S217_exclusive": false,
+          "S218_exclusive": false,
+          "S219_exclusive": false,
+          "S220_exclusive": false,
+          "S221_exclusive": false,
+          "S081_forbidden_clear": true,
+          "S152_forbidden_clear": true,
+          "S139_forbidden_clear": true,
+          "all221": false,
+          "reply_budget": true,
+          "no_personal_review_hint": true
+        },
+        "semantic_pass": false,
+        "expanded_checks": {},
+        "expanded_semantic_pass": false,
+        "positions": {},
+        "warnings": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\full-Z-full-length-noisy\\raw-response.md: no card produced (response is INPUT NOT READY)\n"
+      }
+    },
+    "rebuild": {
+      "core-A-stapled-thread": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S004_only12": true,
+          "S005_only12": true,
+          "S006_only12": true,
+          "S007_only12": true,
+          "deadline6": true,
+          "references5": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S003": [
+            4,
+            5
+          ],
+          "S002": [
+            6
+          ],
+          "S004": [
+            12
+          ],
+          "S005": [
+            12
+          ],
+          "S006": [
+            12
+          ],
+          "S007": [
+            12
+          ]
+        },
+        "warnings": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-B-personal-note": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S003, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S003_only12": true,
+          "S004_only12": true,
+          "deadline6": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S002": [
+            6
+          ],
+          "S003": [
+            12
+          ],
+          "S004": [
+            12
+          ]
+        },
+        "warnings": "NOTE: PERSONAL HINT FILTER: S003, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-C-official-email": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S002_in6": true,
+          "S002_in11": true,
+          "S003_in5": true,
+          "S003_in11": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {
+          "S003_in8": true
+        },
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S003": [
+            4,
+            5,
+            8,
+            11
+          ],
+          "S002": [
+            6,
+            11
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-D-ai-instruction": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "injection_only12": true,
+          "bond4": true,
+          "bond5": true,
+          "no_optional_outside12": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S001": [
+            1,
+            2
+          ],
+          "S002": [
+            4,
+            5,
+            8
+          ],
+          "S003": [
+            12
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "core-E-contract-expectation": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S002_in2": true,
+          "S002_in8": true,
+          "S002_in11": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S001": [
+            1
+          ],
+          "S002": [
+            2,
+            8,
+            11
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "new-A-obligation-and-retrospective-scope": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S002_required": true,
+          "S004_required": true,
+          "S005_required": true,
+          "S006_required": true,
+          "S002_forbidden_clear": true,
+          "S004_forbidden_clear": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S006": [
+            2,
+            8,
+            11
+          ],
+          "S001": [
+            3,
+            4,
+            6
+          ],
+          "S005": [
+            3,
+            4,
+            6
+          ],
+          "S002": [
+            6
+          ],
+          "S004": [
+            6
+          ],
+          "S003": [
+            12
+          ]
+        },
+        "warnings": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "new-B-personal-boundaries": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S002, S003, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S006_required": true,
+          "S001_exclusive": true,
+          "S002_exclusive": true,
+          "S003_exclusive": true,
+          "S004_exclusive": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S006": [
+            4,
+            5,
+            6
+          ],
+          "S001": [
+            12
+          ],
+          "S002": [
+            12
+          ],
+          "S003": [
+            12
+          ],
+          "S004": [
+            12
+          ],
+          "S005": [
+            12
+          ]
+        },
+        "warnings": "NOTE: PERSONAL HINT FILTER: S002, S003, S004; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "new-C-opaque-citations": {
+        "status": "raw exported",
+        "strict_pass": false,
+        "literal_mismatches": [
+          {
+            "sid": "S003",
+            "actual_anchor": "Appendix p.12 café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix p.12 café",
+              "Applicants must include a signed declaration."
+            ]
+          },
+          {
+            "sid": "S003",
+            "actual_anchor": "Appendix p.12 café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix p.12 café",
+              "Applicants must include a signed declaration."
+            ]
+          }
+        ],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 2,
+          "stdout": "PASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S001_required": true,
+          "S002_required": true,
+          "S003_required": true,
+          "S004_required": true,
+          "S005_required": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S001": [
+            4,
+            5
+          ],
+          "S002": [
+            4,
+            5
+          ],
+          "S003": [
+            4,
+            5
+          ],
+          "S004": [
+            4,
+            5
+          ],
+          "S005": [
+            4,
+            5
+          ]
+        },
+        "warnings": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\new-C-opaque-citations\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S003 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\new-C-opaque-citations\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S003 does not match the packet\n"
+      },
+      "new-D-native-regressions": {
+        "status": "raw exported",
+        "strict_pass": false,
+        "literal_mismatches": [
+          {
+            "sid": "S005",
+            "actual_anchor": "Appendix café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix café",
+              "Applicants must include a signed declaration."
+            ]
+          },
+          {
+            "sid": "S006",
+            "actual_anchor": "Annex Å",
+            "actual_body": "Applicants must return the completed certification.",
+            "expected": [
+              "Annex Å",
+              "Applicants must return the completed certification."
+            ]
+          },
+          {
+            "sid": "S005",
+            "actual_anchor": "Appendix café",
+            "actual_body": "Applicants must include a signed declaration.",
+            "expected": [
+              "Appendix café",
+              "Applicants must include a signed declaration."
+            ]
+          },
+          {
+            "sid": "S006",
+            "actual_anchor": "Annex Å",
+            "actual_body": "Applicants must return the completed certification.",
+            "expected": [
+              "Annex Å",
+              "Applicants must return the completed certification."
+            ]
+          }
+        ],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 4,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S008; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S001_required": true,
+          "S002_required": true,
+          "S003_required": true,
+          "S004_required": true,
+          "S005_required": true,
+          "S006_required": true,
+          "S003_forbidden_clear": true,
+          "S007_exclusive": true,
+          "S008_exclusive": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S003": [
+            1,
+            10,
+            11
+          ],
+          "S001": [
+            3,
+            10
+          ],
+          "S005": [
+            4,
+            5
+          ],
+          "S006": [
+            4,
+            5
+          ],
+          "S004": [
+            7
+          ],
+          "S002": [
+            8,
+            11
+          ],
+          "S007": [
+            12
+          ],
+          "S008": [
+            12
+          ]
+        },
+        "warnings": "NOTE: PERSONAL HINT FILTER: S008; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nFAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet\n"
+      },
+      "new-E-routing-families": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\analysis-final\\evidence\\rebuild\\new-E-routing-families\\derived-export\\part-01.md: S004 look like evaluation terms but are not in Section 7; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\analysis-final\\evidence\\rebuild\\new-E-routing-families\\derived-export\\part-01.md: S002 look like contact details but are not in Section 10; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S004_required": true,
+          "S005_required": true,
+          "S006_required": true,
+          "S007_required": true,
+          "S008_required": true,
+          "S009_required": true,
+          "S004_forbidden_clear": true,
+          "S008_forbidden_clear": true,
+          "S001_exclusive": true,
+          "S002_exclusive": true,
+          "S003_exclusive": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S004": [
+            1,
+            10,
+            11
+          ],
+          "S006": [
+            4,
+            6,
+            10
+          ],
+          "S007": [
+            4,
+            5,
+            8
+          ],
+          "S008": [
+            4,
+            5
+          ],
+          "S005": [
+            7
+          ],
+          "S009": [
+            8
+          ],
+          "S010": [
+            11
+          ],
+          "S001": [
+            12
+          ],
+          "S002": [
+            12
+          ],
+          "S003": [
+            12
+          ]
+        },
+        "warnings": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\new-E-routing-families\\raw-response.md: S004 look like evaluation terms but are not in Section 7; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\new-E-routing-families\\raw-response.md: S002 look like contact details but are not in Section 10; confirm that is intended\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      },
+      "full-Z-full-length-noisy": {
+        "status": "raw exported",
+        "strict_pass": true,
+        "literal_mismatches": [],
+        "derived_export": {
+          "exit_code": 0,
+          "strict_pass": true,
+          "semantic_pass": true,
+          "expanded_semantic_pass": true,
+          "changes": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": "",
+          "same_positions": true
+        },
+        "semantic_checks": {
+          "S089_required": true,
+          "S103_required": true,
+          "S114_required": true,
+          "S133_required": true,
+          "S209_required": true,
+          "S072_required": true,
+          "S076_required": true,
+          "S046_required": true,
+          "S047_required": true,
+          "S048_required": true,
+          "S065_required": true,
+          "S066_required": true,
+          "S075_required": true,
+          "S077_required": true,
+          "S079_required": true,
+          "S080_required": true,
+          "S081_required": true,
+          "S083_required": true,
+          "S148_required": true,
+          "S150_required": true,
+          "S152_required": true,
+          "S098_required": true,
+          "S139_required": true,
+          "S215_exclusive": true,
+          "S216_exclusive": true,
+          "S217_exclusive": true,
+          "S218_exclusive": true,
+          "S219_exclusive": true,
+          "S220_exclusive": true,
+          "S221_exclusive": true,
+          "S081_forbidden_clear": true,
+          "S152_forbidden_clear": true,
+          "S139_forbidden_clear": true,
+          "all221": true,
+          "reply_budget": true,
+          "no_personal_review_hint": true
+        },
+        "semantic_pass": true,
+        "expanded_checks": {},
+        "expanded_semantic_pass": true,
+        "positions": {
+          "S001": [
+            1
+          ],
+          "S003": [
+            1,
+            2
+          ],
+          "S004": [
+            1,
+            2
+          ],
+          "S010": [
+            1,
+            2
+          ],
+          "S020": [
+            1,
+            2
+          ],
+          "S011": [
+            2
+          ],
+          "S012": [
+            2
+          ],
+          "S013": [
+            2
+          ],
+          "S014": [
+            2,
+            6
+          ],
+          "S015": [
+            2
+          ],
+          "S016": [
+            2
+          ],
+          "S017": [
+            2
+          ],
+          "S018": [
+            2,
+            8
+          ],
+          "S019": [
+            2,
+            8
+          ],
+          "S022": [
+            2,
+            6
+          ],
+          "S025": [
+            2,
+            8
+          ],
+          "S026": [
+            2,
+            8,
+            10
+          ],
+          "S027": [
+            2,
+            8,
+            10
+          ],
+          "S028": [
+            2,
+            8,
+            10
+          ],
+          "S029": [
+            2,
+            8,
+            10
+          ],
+          "S030": [
+            2,
+            8,
+            10
+          ],
+          "S031": [
+            2,
+            8,
+            10
+          ],
+          "S032": [
+            2,
+            8
+          ],
+          "S033": [
+            2,
+            8
+          ],
+          "S034": [
+            2,
+            8,
+            10
+          ],
+          "S035": [
+            2,
+            8,
+            10
+          ],
+          "S036": [
+            2,
+            8,
+            10
+          ],
+          "S037": [
+            2,
+            8
+          ],
+          "S038": [
+            2,
+            8,
+            10
+          ],
+          "S039": [
+            2,
+            8
+          ],
+          "S040": [
+            2,
+            8
+          ],
+          "S041": [
+            2,
+            8
+          ],
+          "S042": [
+            2,
+            8
+          ],
+          "S043": [
+            2,
+            8
+          ],
+          "S044": [
+            2,
+            8
+          ],
+          "S133": [
+            2,
+            8,
+            11
+          ],
+          "S134": [
+            2,
+            8
+          ],
+          "S135": [
+            2,
+            8
+          ],
+          "S005": [
+            3
+          ],
+          "S021": [
+            3
+          ],
+          "S045": [
+            3
+          ],
+          "S046": [
+            3
+          ],
+          "S047": [
+            3,
+            4,
+            5,
+            10
+          ],
+          "S048": [
+            3,
+            10
+          ],
+          "S049": [
+            3,
+            4,
+            5
+          ],
+          "S056": [
+            3,
+            4,
+            5,
+            10
+          ],
+          "S057": [
+            3,
+            4,
+            5
+          ],
+          "S058": [
+            3,
+            4,
+            5
+          ],
+          "S050": [
+            4
+          ],
+          "S051": [
+            4,
+            7,
+            10
+          ],
+          "S052": [
+            4,
+            5
+          ],
+          "S053": [
+            4,
+            5
+          ],
+          "S054": [
+            4,
+            5
+          ],
+          "S055": [
+            4,
+            5
+          ],
+          "S059": [
+            4,
+            5
+          ],
+          "S060": [
+            4,
+            5
+          ],
+          "S061": [
+            4,
+            5
+          ],
+          "S062": [
+            4,
+            5
+          ],
+          "S063": [
+            4
+          ],
+          "S064": [
+            4,
+            5
+          ],
+          "S065": [
+            4,
+            5
+          ],
+          "S066": [
+            4,
+            5
+          ],
+          "S067": [
+            4,
+            5
+          ],
+          "S068": [
+            4,
+            5
+          ],
+          "S069": [
+            4,
+            5
+          ],
+          "S070": [
+            4,
+            5
+          ],
+          "S071": [
+            4,
+            5
+          ],
+          "S072": [
+            4,
+            5
+          ],
+          "S073": [
+            4
+          ],
+          "S074": [
+            4
+          ],
+          "S075": [
+            4,
+            5
+          ],
+          "S076": [
+            4,
+            5
+          ],
+          "S077": [
+            4,
+            5
+          ],
+          "S078": [
+            4,
+            5
+          ],
+          "S079": [
+            4,
+            5,
+            10
+          ],
+          "S080": [
+            4,
+            5,
+            10
+          ],
+          "S083": [
+            4,
+            5,
+            8
+          ],
+          "S084": [
+            4,
+            5,
+            8
+          ],
+          "S085": [
+            4,
+            5,
+            8
+          ],
+          "S086": [
+            4,
+            5,
+            8,
+            9
+          ],
+          "S089": [
+            4,
+            5,
+            9
+          ],
+          "S093": [
+            4,
+            10
+          ],
+          "S094": [
+            4,
+            8
+          ],
+          "S097": [
+            4
+          ],
+          "S098": [
+            4,
+            6,
+            10
+          ],
+          "S099": [
+            4
+          ],
+          "S120": [
+            4,
+            7,
+            10
+          ],
+          "S123": [
+            4,
+            8
+          ],
+          "S154": [
+            4,
+            5,
+            9
+          ],
+          "S203": [
+            5,
+            8,
+            9
+          ],
+          "S002": [
+            6
+          ],
+          "S008": [
+            6
+          ],
+          "S009": [
+            6
+          ],
+          "S023": [
+            6,
+            8
+          ],
+          "S091": [
+            6,
+            10
+          ],
+          "S092": [
+            6,
+            10,
+            11
+          ],
+          "S111": [
+            6,
+            9
+          ],
+          "S112": [
+            6,
+            9
+          ],
+          "S113": [
+            6,
+            9,
+            11
+          ],
+          "S114": [
+            6,
+            9
+          ],
+          "S115": [
+            6,
+            9
+          ],
+          "S116": [
+            6,
+            9
+          ],
+          "S117": [
+            6,
+            9
+          ],
+          "S118": [
+            6,
+            10
+          ],
+          "S119": [
+            6,
+            10
+          ],
+          "S127": [
+            6,
+            10
+          ],
+          "S128": [
+            6,
+            10
+          ],
+          "S129": [
+            6,
+            10
+          ],
+          "S132": [
+            6,
+            10
+          ],
+          "S137": [
+            6,
+            8
+          ],
+          "S090": [
+            7,
+            10
+          ],
+          "S100": [
+            7
+          ],
+          "S101": [
+            7
+          ],
+          "S102": [
+            7
+          ],
+          "S103": [
+            7
+          ],
+          "S104": [
+            7
+          ],
+          "S105": [
+            7,
+            8
+          ],
+          "S106": [
+            7
+          ],
+          "S107": [
+            7
+          ],
+          "S108": [
+            7
+          ],
+          "S109": [
+            7,
+            10
+          ],
+          "S121": [
+            7
+          ],
+          "S122": [
+            7,
+            10
+          ],
+          "S124": [
+            7
+          ],
+          "S125": [
+            7,
+            10
+          ],
+          "S024": [
+            8,
+            11
+          ],
+          "S081": [
+            8,
+            10
+          ],
+          "S082": [
+            8
+          ],
+          "S087": [
+            8
+          ],
+          "S088": [
+            8
+          ],
+          "S126": [
+            8
+          ],
+          "S136": [
+            8
+          ],
+          "S145": [
+            8,
+            10
+          ],
+          "S148": [
+            8,
+            11
+          ],
+          "S149": [
+            8
+          ],
+          "S150": [
+            8,
+            10
+          ],
+          "S152": [
+            8
+          ],
+          "S204": [
+            8,
+            9
+          ],
+          "S205": [
+            8,
+            9
+          ],
+          "S206": [
+            8,
+            9
+          ],
+          "S207": [
+            8,
+            9
+          ],
+          "S208": [
+            8,
+            9
+          ],
+          "S209": [
+            8,
+            9
+          ],
+          "S210": [
+            8,
+            9
+          ],
+          "S211": [
+            8,
+            9
+          ],
+          "S212": [
+            8,
+            9
+          ],
+          "S213": [
+            8,
+            9
+          ],
+          "S214": [
+            8,
+            9
+          ],
+          "S110": [
+            9
+          ],
+          "S153": [
+            9
+          ],
+          "S155": [
+            9
+          ],
+          "S156": [
+            9
+          ],
+          "S157": [
+            9
+          ],
+          "S158": [
+            9
+          ],
+          "S159": [
+            9
+          ],
+          "S160": [
+            9
+          ],
+          "S161": [
+            9
+          ],
+          "S162": [
+            9
+          ],
+          "S163": [
+            9
+          ],
+          "S164": [
+            9
+          ],
+          "S165": [
+            9
+          ],
+          "S166": [
+            9
+          ],
+          "S167": [
+            9
+          ],
+          "S168": [
+            9
+          ],
+          "S169": [
+            9
+          ],
+          "S170": [
+            9
+          ],
+          "S171": [
+            9
+          ],
+          "S172": [
+            9
+          ],
+          "S173": [
+            9
+          ],
+          "S174": [
+            9
+          ],
+          "S175": [
+            9
+          ],
+          "S176": [
+            9
+          ],
+          "S177": [
+            9
+          ],
+          "S178": [
+            9
+          ],
+          "S179": [
+            9
+          ],
+          "S180": [
+            9
+          ],
+          "S181": [
+            9
+          ],
+          "S182": [
+            9
+          ],
+          "S183": [
+            9
+          ],
+          "S184": [
+            9
+          ],
+          "S185": [
+            9
+          ],
+          "S186": [
+            9
+          ],
+          "S187": [
+            9
+          ],
+          "S188": [
+            9
+          ],
+          "S189": [
+            9
+          ],
+          "S190": [
+            9
+          ],
+          "S191": [
+            9
+          ],
+          "S192": [
+            9
+          ],
+          "S193": [
+            9
+          ],
+          "S194": [
+            9
+          ],
+          "S195": [
+            9
+          ],
+          "S196": [
+            9
+          ],
+          "S197": [
+            9
+          ],
+          "S198": [
+            9
+          ],
+          "S199": [
+            9
+          ],
+          "S200": [
+            9
+          ],
+          "S201": [
+            9
+          ],
+          "S202": [
+            9
+          ],
+          "S006": [
+            10
+          ],
+          "S007": [
+            10
+          ],
+          "S095": [
+            10
+          ],
+          "S130": [
+            10
+          ],
+          "S131": [
+            10
+          ],
+          "S138": [
+            10
+          ],
+          "S139": [
+            10,
+            11
+          ],
+          "S140": [
+            10,
+            11
+          ],
+          "S141": [
+            10,
+            11
+          ],
+          "S142": [
+            10
+          ],
+          "S143": [
+            10
+          ],
+          "S144": [
+            10,
+            11
+          ],
+          "S146": [
+            10
+          ],
+          "S147": [
+            10
+          ],
+          "S151": [
+            10
+          ],
+          "S096": [
+            12
+          ],
+          "S215": [
+            12
+          ],
+          "S216": [
+            12
+          ],
+          "S217": [
+            12
+          ],
+          "S218": [
+            12
+          ],
+          "S219": [
+            12
+          ],
+          "S220": [
+            12
+          ],
+          "S221": [
+            12
+          ]
+        },
+        "warnings": "NOTE: PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n"
+      }
+    }
+  },
+  "local_file_checks": {
+    "original": {
+      "checks": {
+        "explicit_expectation_rule": false,
+        "Q7_script_disclosure": false,
+        "Q7_alignment": false,
+        "Q8_no_personal_date_hint": false,
+        "Q8_real_deadline_hint": true
+      },
+      "Q8": {
+        "contained": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: S004 look like dates or times but are not in Section 6; confirm that is intended\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md: Section 8 says `not in source`, but S007 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "missed-deadline": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002, S004 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 8 says `not in source`, but S007 look like money amounts. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    },
+    "rebuild": {
+      "checks": {
+        "explicit_expectation_rule": true,
+        "Q7_script_disclosure": true,
+        "Q7_alignment": true,
+        "Q8_no_personal_date_hint": true,
+        "Q8_real_deadline_hint": true
+      },
+      "Q8": {
+        "contained": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\contained.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        },
+        "missed-deadline": {
+          "command": [
+            "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\fixtures\\A-stapled-thread.md",
+            "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md"
+          ],
+          "exit_code": 0,
+          "stdout": "NOTE: PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\nNOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\run-original\\Q8-validator\\missed-deadline.md: Section 6 says `not in source`, but S002 look like dates or times. Check the section trigger; a false `not in source` is the one error that matters most\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\n",
+          "stderr": ""
+        }
+      }
+    }
+  },
+  "frozen_questions": {
+    "original": {
+      "Q1": {
+        "verdict": "fail",
+        "checks": {
+          "S004": false,
+          "S005": false,
+          "S006": false,
+          "S007": false
+        }
+      },
+      "Q2": {
+        "verdict": "pass",
+        "checks": {
+          "deadline": true,
+          "references": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q3": {
+        "verdict": "partial",
+        "checks": {
+          "S003_only12": false,
+          "S004_only12": false,
+          "deadline6": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q4": {
+        "verdict": "pass",
+        "checks": {
+          "S002_in6": true,
+          "S002_in11": true,
+          "S003_in5": true,
+          "S003_in11": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q5": {
+        "verdict": "pass",
+        "checks": {
+          "injection_only12": true,
+          "bond4": true,
+          "bond5": true,
+          "no_optional_outside12": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q6": {
+        "verdict": "partial",
+        "checks": {
+          "S002_in2": true,
+          "S002_in8": true,
+          "S002_in11": true,
+          "explicit_contractual_expectation_rule": false
+        }
+      },
+      "Q7": {
+        "verdict": "fail",
+        "checks": {
+          "Q7_script_disclosure": false,
+          "Q7_alignment": false
+        }
+      },
+      "Q8": {
+        "verdict": "partial",
+        "checks": {
+          "Q8_no_personal_date_hint": false,
+          "Q8_real_deadline_hint": true
+        }
+      }
+    },
+    "rebuild": {
+      "Q1": {
+        "verdict": "pass",
+        "checks": {
+          "S004": true,
+          "S005": true,
+          "S006": true,
+          "S007": true
+        }
+      },
+      "Q2": {
+        "verdict": "pass",
+        "checks": {
+          "deadline": true,
+          "references": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q3": {
+        "verdict": "pass",
+        "checks": {
+          "S003_only12": true,
+          "S004_only12": true,
+          "deadline6": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q4": {
+        "verdict": "pass",
+        "checks": {
+          "S002_in6": true,
+          "S002_in11": true,
+          "S003_in5": true,
+          "S003_in11": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q5": {
+        "verdict": "pass",
+        "checks": {
+          "injection_only12": true,
+          "bond4": true,
+          "bond5": true,
+          "no_optional_outside12": true,
+          "shape_quotes_coverage": true
+        }
+      },
+      "Q6": {
+        "verdict": "pass",
+        "checks": {
+          "S002_in2": true,
+          "S002_in8": true,
+          "S002_in11": true,
+          "explicit_contractual_expectation_rule": true
+        }
+      },
+      "Q7": {
+        "verdict": "pass",
+        "checks": {
+          "Q7_script_disclosure": true,
+          "Q7_alignment": true
+        }
+      },
+      "Q8": {
+        "verdict": "pass",
+        "checks": {
+          "Q8_no_personal_date_hint": true,
+          "Q8_real_deadline_hint": true
+        }
+      }
+    }
+  },
+  "comparison_complete": true
+}

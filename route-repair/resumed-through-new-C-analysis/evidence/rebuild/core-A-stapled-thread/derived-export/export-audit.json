@@ -1,0 +1,19 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-A-stapled-thread\\source-packet.md",
+  "source_sha256": "c04ac7b84809c3c5046fe910053d47bf2db7ed904721b53079ac32ede3ae6038",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-A-stapled-thread\\raw-response.md",
+      "raw_sha256": "dbca5a6d08af2853c5d8cf54770f2358565f36b596a9d4ad970b155f6911c904",
+      "output": "part-01.md",
+      "output_sha256": "dbca5a6d08af2853c5d8cf54770f2358565f36b596a9d4ad970b155f6911c904",
+      "changes": []
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": [
+    "PERSONAL HINT FILTER: S004, S007; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof"
+  ]
+}

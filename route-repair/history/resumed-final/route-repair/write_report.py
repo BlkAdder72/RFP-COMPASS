@@ -1,0 +1,95 @@
+from pathlib import Path
+import json,sys
+D=Path(__file__).resolve().parent;R=D.parent
+A=(D/(sys.argv[1] if len(sys.argv)>1 else 'analysis-final')).resolve();s=json.loads((A/'scores.json').read_text(encoding='utf-8'))
+def state(v):
+ if v is None:return 'Pending'
+ return 'Pass' if v else 'Fail'
+rows=[]
+for key in s['model_trials']['original']:
+ cells=[]
+ for arm in ['original','rebuild']:
+  v=s['model_trials'][arm][key];cells.append(' / '.join(state(a) for a in [v.get('strict_pass'),v.get('expanded_semantic_pass'),v.get('derived_export',{}).get('strict_pass')]))
+ rows.append('| '+key+' | '+' | '.join(cells)+' |')
+qrows=[]
+for q in ['Q'+str(i) for i in range(1,9)]:qrows.append('| '+q+' | '+s['frozen_questions'].get('original',{}).get(q,{}).get('verdict','pending')+' | '+s['frozen_questions'].get('rebuild',{}).get(q,{}).get('verdict','pending')+' |')
+fail=[]
+for arm in ['original','rebuild']:
+ for k,v in s['model_trials'][arm].items():
+  missing=[n for n,b in {**v.get('semantic_checks',{}),**v.get('expanded_checks',{})}.items() if not b]
+  if missing:fail.append('- '+arm+' / '+k+': '+', '.join(missing)+'.')
+complete=s['comparison_complete'];accept=complete and all(v.get('expanded_semantic_pass') and v.get('derived_export',{}).get('strict_pass') for v in s['model_trials']['rebuild'].values())
+text='''# Routing repair comparison — unpublished
+
+**Status: '''+('complete; selected acceptance '+('PASS' if accept else 'FAIL') if complete else 'INCOMPLETE; remaining repaired Claude trials excluded by current user direction')+'''.** Nothing has been published. Local instruction checks are not model-routing acceptance. This report supersedes earlier readiness claims while preserving every old report, failure, raw transcript and sealed package.
+
+As of the October 28 offline review, three repaired first-pass responses are completely exported (core A, B and C). Core D was submitted once and visibly finished, but capture failed during export verification; it is not scored because its raw response is not saved. Seven subsequent repaired cases have not run. No native Claude run or regeneration was performed during this update. The scorer's missing-evidence label for core D must not be read as proof it was never submitted; consult RESUME-REPAIRED-PROGRESS-04.md before recovery.
+
+## Changes and sequence
+
+The original remains pinned at judged commit 92847d2a17250fa18914d932826db63d99dcb75c; feedback.md is verbatim. Root questions Q1–Q8 remain unchanged and were committed before rebuild existed. The new protocol and source-bound expanded expectations were frozen at 83da4078. Ten fresh original native trials were committed at a9cc5cca; the eleventh, the full-RFP refusal, at 0d71781c. No product edit preceded those eleven original responses. The six-file model-contract content was frozen at cdd3df64; a7d96ab1 corrects only pre-trial file-hash portability, with identical Claude bundle bytes and all prior metadata retained.
+
+Three instruction changes were made sequentially, each followed by retained local tests before the next:
+
+1. R1 explicitly routes issuer rights to amend/revise/modify a solicitation into section 11 as an expressly revisable open item, as well as section 10 for issuer authority. A reservation to change criteria does not itself state actual scoring criteria or establish an issued amendment/conflict.
+2. R2 explicitly includes named submission recipients and delivery contacts in section 10, even when the statement already appears in submission mechanics or dates. Private contacts remain subject to section 12-only treatment.
+3. R3 explicitly includes required response pricing sheets and fee/rate/cost schedules in section 8, in addition to submission/form placements. A technical narrative alone does not establish commercial content. Private charges retain section 12-only protection.
+
+Each stage preserved the actual instruction snapshot and checks.json. Each passed contract consistency, byte-identity checks on validator/export, all four shipped samples, and rejection controls for altered quotation and altered anchor. These are offline consistency/strict-validation tests, not evidence that Claude followed the new routes. Sample 04's existing hand routing list already includes S098 in section 10 and S139 in section 11, so it was deliberately left unchanged; its script-built provenance remains disclosed.
+
+At the native candidate freeze, the then-unchanged validation/export implementation passed a retained-control replay: 17/17 citation-export controls and 216/216 warning/corruption controls, with every expected rejection and warning output preserved under stages/R4-retained-validation. The later offline-only warning repair is disclosed separately below.
+
+Only CLAUDE_PROJECT_INSTRUCTIONS.txt, rules.md and reference/output-schema.md changed in the model contract. The six-file native contract remains frozen. The later validator-only repair adds two bounded source-body forms; tools/finalize_card.py and the strict validation logic remain unchanged. No warning is suppressed to conceal a missing route. Source packets, frozen questions, identity, examples and input schema were not edited.
+
+## Offline-only personal-note warning repair
+
+The pre-fix core-B card passed strict checks and kept S003/S004 only in section 12, but produced two false advisory hints for a dentist date and birthday contact. The filter required an owner pronoun even for those complete private forms. The repair recognizes a whole dentist appointment entry and a whole contact instruction about a birthday activity. It does not classify from an anchor, source ID, date alone, private-looking email address or output placement. Procurement/clinical context, mixed clauses, inherited scope, exact citations and section-12-only placement still veto suppression.
+
+The two edits were tested sequentially. Each stage passed 263 identical differential cases against the judged-original and pre-fix validators, including all 216 retained warning/corruption controls and all 14 saved native response cards. Four shipped samples, frozen Q8 checks, mixed-context cases and quotation/anchor/ID rejection controls passed. The final replay also passed 17/17 export controls. Both false hints are absent from the unchanged saved core-B response; all retained adversarial hints and strict error outcomes are unchanged from the pre-fix rebuild. These are validator tests on saved outputs, not new Claude trials or proof that pending routing cases pass. See validator-note-repair/ for frozen tests, before snapshots, stage results, CLI comparisons and integrity proof.
+
+## Fair native method
+
+Eleven sources in the same frozen order for both arms: core A–E; new A–E; full Z. Identical common prompt and source bytes, fresh ordinary native Claude App chats outside projects, visible Opus 5.5 / Medium / Auto. Only the correct six-file contract bundle and active source packet are uploaded. No expectations, scorer, model tools, prior responses or opposite-arm answers are supplied. Actual bundle bytes and six original-file hashes are pinned separately because bundle text normalizes line endings. Account context and attachment parsing are uncontrolled; prior observed Memory was left unchanged. UI observation cannot provide a server-version pin or machine tool-event audit.
+
+Every first response is preserved without regeneration, coaching or selection. A full-card continuation is permitted only on the contractual marker, with exactly `continue`, after exporting the preceding part. Native response Copy to fresh Notepad tabs preserves raw Markdown; long parts use native Save As because accessibility text caps at 20,000 characters. Desktop focus changes during original preparation were recovered before sending the verified common prompt. Capture failures stop input after one recovery attempt; no failed capture counts as a model result.
+
+Raw strict validation is reported separately from selected routing and the audited Unicode export. The identical export tool is applied externally to BOTH arms. It restores only canonically equivalent anchors from the same source ID when the whole quotation is already exact, preserves raw evidence, changes no routes, and still rejects non-equivalent citations, body changes, wrong IDs and spacing/entity substitutions. It is an explicit operator tool, not improved raw copying.
+
+## Paired results
+
+Cells show **raw strict / expanded selected semantics / derived strict**. Pending is never counted as passing. A strict pass certifies structure, literal text, exact anchors and coverage, not semantic routing or fidelity to the source PDF.
+
+| Case | Original | Rebuild |
+|---|---|---|
+'''+ '\n'.join(rows)+'''
+
+The original full-RFP response refuses the packet, citing its blank separator and unrelated personal calendar. That first-pass refusal is counted as failure, retained without corrective follow-up. New C has two raw Unicode anchor changes and new D four; both fail raw strict checks but pass the same audited export applied to both arms. The full source retains all 221 statements, including seven noise records. Its new expanded expectations require S098 in 4/6/10 and S139 in 10/11 but not 7.
+
+## Frozen feedback questions
+
+| Question | Original | Rebuild |
+|---|---|---|
+'''+ '\n'.join(qrows)+'''
+
+Q1/Q2 use core A, Q3 B, Q4 C, Q5 D, Q6 E. Q7 and Q8 are direct artifact/default-validator checks, not extra model conversations. Q8 requires both no false personal-date warning and a retained genuine missed-deadline warning. Core C's new S003-in-8 check is prospective expanded coverage and does not silently change frozen Q4. The actual pricing source says “To clarify the submission requirements, respondents must include a signed pricing sheet with their proposal.” The older native report's description that a revised sheet replaced an earlier one was inaccurate; the old report remains preserved, and this report corrects that characterization.
+
+The offline-only repair removes the two previously recorded core-B advisory hints without changing the saved card. Frozen Q8 still tests fixture A, not B. Its pass and the new core-B checks must not be generalized to elimination of all possible false warnings. The conservative warning filter remains finite; unknown or mixed-purpose wording can still require human review. Historical pre-fix warnings remain preserved.
+
+New E and the expanded full/core checks are disclosed feedback-derived regression checks, not a blind holdout or statistical generalization test. Read the source and every failed subcheck, not only aggregate scores.
+
+## Failed selected subchecks
+
+'''+ ('\n'.join(fail) if fail else 'No recorded failed subchecks; pending cases do not establish success.')+'''
+
+## Ties, regressions and remaining risk
+
+'''+('Fresh repaired trial outcomes are listed above. Any failed routing or raw validation remains a real failure even if aggregate scores improve.' if complete else 'The three exported repaired cases all pass raw strict, expanded selected routing and derived strict checks. Core A and B improve personal-content containment against the original; core C ties the original. Local Q7 provenance and Q8 warning checks also improve. No regressions were detected in those completed checks. The remaining routing, citation and full-RFP cases are unverified, so no overall acceptance or no-regression claim is supported. Prior candidate failures remain preserved in native-repair/ and claude-native/.')+'''
+
+Finite passing checks cannot establish perfect semantic routing. Unseen obligation scope, private/procurement context, quotation transport, account variation and original-PDF fidelity can still cost the win. The competition scores demonstrated closure against feedback, not a claim of perfection. VIP eligibility is user-confirmed. Do not publish while required trials or package verification remain incomplete, or while any reported failure needs owner review.
+
+## Evidence and reproduction
+
+Raw trials: route-repair/evidence/. Exact prompt: route-repair/prompt.txt. Order, unchanged sources and candidate hashes: final-inputs.json. Local staged tests: stages/. Current scoring directory: '''+A.relative_to(R).as_posix()+'''. Historical before snapshots and all Git history are retained. Reproduce into a NEW directory with `python -B -X utf8 route-repair/score.py --output-dir .run-work/route-score-new`; output reuse is refused. Run integrity separately with `python -B -X utf8 route-repair/audit.py` after the complete final score, report and reproduction check exist. The documentation-aligned offline review ZIP/full-history bundle is in dist/documentation-sync-review-v2/, with checksums and fresh-clone verification. Earlier verified and failed packages remain preserved. This offline package does not close the incomplete native comparison or authorize final submission. See documentation-sync/REPORT.md for current entry points and version boundaries.
+'''
+(D/'REPORT.md').write_bytes(text.encode('utf-8'));(R/'results.md').write_bytes(text.encode('utf-8'))
+print('Report updated:', 'complete' if complete else 'pending repaired trials')

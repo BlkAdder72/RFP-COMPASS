@@ -1,0 +1,30 @@
+{
+  "arm-validator": {
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\original\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-D-native-regressions\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md"
+    ],
+    "exit_code": 1,
+    "stdout": "NOTE: REVIEW C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: S003 look like evaluation terms but are not in Section 7; confirm that is intended\nFAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet\n",
+    "stderr": ""
+  },
+  "common-strict": {
+    "command": [
+      "C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\rebuild\\tools\\validate_packet.py",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\new-D-native-regressions\\source-packet.md",
+      "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md"
+    ],
+    "exit_code": 1,
+    "stdout": "FAIL\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 4. Application stages and submission mechanics stated: anchor for S006 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S005 does not match the packet\nC:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\original\\new-D-native-regressions\\raw-response.md: ## 5. Mandatory attachments and forms stated: anchor for S006 does not match the packet\n",
+    "stderr": ""
+  }
+}

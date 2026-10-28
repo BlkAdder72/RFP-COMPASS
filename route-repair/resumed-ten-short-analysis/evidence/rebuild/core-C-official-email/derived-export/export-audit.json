@@ -1,0 +1,17 @@
+{
+  "status": "validated derived export",
+  "source": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\inputs\\core-C-official-email\\source-packet.md",
+  "source_sha256": "57b1f1ebbe4ad2c59d7128c54d4fdb34da4b95fd7cc9a447cb9219ef70405a02",
+  "raw_model_success_claimed": false,
+  "parts": [
+    {
+      "raw_path": "C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\evidence\\rebuild\\core-C-official-email\\raw-response.md",
+      "raw_sha256": "bbb45791bc3b42697c8bee1cc6f1f472531bb38f4ca8bf0092e90dcf6e041816",
+      "output": "part-01.md",
+      "output_sha256": "bbb45791bc3b42697c8bee1cc6f1f472531bb38f4ca8bf0092e90dcf6e041816",
+      "changes": []
+    }
+  ],
+  "strict_errors": [],
+  "strict_notes": []
+}
