@@ -29,5 +29,5 @@ temp=Path(tempfile.mkdtemp(prefix='ha-',dir=work));C=temp/'s'
 run('warning-final-clone',['git','-c','core.longpaths=true','clone','--quiet','--shared','--no-checkout',gitpath(R),gitpath(C)],R)
 run('warning-final-checkout',['git','-c','core.longpaths=true','checkout','--quiet','--detach','5adeb3d7'],C)
 run('warning-final-unchanged-audit',[sys.executable,'-B','-X','utf8',pythonpath(C/'warning-final/verify.py')],C)
-run('current-route-repair-integrity',[sys.executable,'-B','-X','utf8',pythonpath(R/'route-repair/audit.py')],R)
+run('current-route-repair-integrity',[sys.executable,'-B','-X','utf8',gitpath(R/'route-repair/audit.py')],R)
 print(json.dumps({'offline_audit':'PASS','real_model_calls':0,'published':False,'checks':records},indent=2))

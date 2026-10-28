@@ -1,0 +1,188 @@
+[
+  {
+    "label": "legacy-clone",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "legacy-checkout",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "legacy-unchanged-audit",
+    "exit_code": 0,
+    "stdout": "{\n  \"fresh_revision_audit\": {\n    \"status\": \"PASS\",\n    \"prior_tracked_files_preserved\": 2756,\n    \"frozen_questions_unchanged\": true,\n    \"local_prior_delivery_artifacts_verified\": 0,\n    \"prior_delivery_binaries_not_in_checkout\": [\n      \"FINAL_VERIFICATION.json\",\n      \"RELEASE.json\",\n      \"RFP-COMPASS-Comp15-source.zip\",\n      \"RFP-COMPASS-Comp15.bundle\",\n      \"SHA256SUMS.txt\"\n    ],\n    \"fresh_model_responses\": 20,\n    \"default_checker_cases\": 51,\n    \"archived_reference_replays\": 92,\n    \"model_free_runner_cases\": 7,\n    \"fresh_question_comparisons\": {\n      \"improved\": 10,\n      \"tied\": 6,\n      \"regressed\": 0\n    },\n    \"Q8_default_no_sidecar\": \"PASS for rebuild in both repeats\",\n    \"initial_test_assertion_correction\": \"Preserved initial 50/51 result; corrected missing-heading expectation, no validator change\",\n    \"limitations\": \"Bounded source-text classifier; ambiguous statements retain hints; host system variation remains uncontrolled.\"\n  },\n  \"total_raw_model_responses\": 116,\n  \"local_compliance\": \"PASS\",\n  \"preserved_prepackage_files\": 1287,\n  \"judged_original_files\": 134,\n  \"raw_model_responses_verified\": 42,\n  \"historical_repair_checks_audited\": 75,\n  \"final_root_validator_checks\": 50,\n  \"git_sequence\": \"PASS; questions and baseline precede first rebuild; all later stages retained\",\n  \"review_record_dependency\": \"Default bounded source-text filter passes Q8 without sidecars; optional manual records are not used in the paired comparison\",\n  \"external_gates\": {\n    \"publication\": \"NOT PERFORMED, as requested\",\n    \"public_submission_link\": \"PENDING publication\",\n    \"premium_or_vip_eligibility\": \"NOT VERIFIED\"\n  },\n  \"hardening\": {\n    \"status\": \"PASS: evidence integrity; performance regression explicitly recorded\",\n    \"prior_tracked_files_preserved\": 4084,\n    \"local_prior_artifacts_verified\": 0,\n    \"optional_prior_artifacts_absent\": [\n      \"FINAL_VERIFICATION.json\",\n      \"RELEASE.json\",\n      \"RFP-COMPASS-Comp15-source.zip\",\n      \"RFP-COMPASS-Comp15.bundle\",\n      \"SHA256SUMS.txt\"\n    ],\n    \"questions_unchanged\": true,\n    \"fresh_core_sessions\": 10,\n    \"fresh_full_sessions\": 2,\n    \"fresh_model_turns\": 18,\n    \"deterministic_controls\": {\n      \"before\": {\n        \"original\": 18,\n        \"rebuild\": 14\n      },\n      \"after\": {\n        \"original\": 18,\n        \"rebuild\": 25\n      },\n      \"after-v2\": {\n        \"original\": 18,\n        \"rebuild\": 26\n      },\n      \"after-v3\": {\n        \"original\": 18,\n        \"rebuild\": 26\n      },\n      \"after-v4\": {\n        \"original\": 18,\n        \"rebuild\": 26\n      }\n    },\n    \"broader_header_guards\": {\n      \"guards-before\": {\n        \"original\": 5,\n        \"rebuild\": 1\n      },\n      \"guards-after\": {\n        \"original\": 5,\n        \"rebuild\": 6\n      },\n      \"guards-final\": {\n        \"original\": 5,\n        \"rebuild\": 6\n      }\n    },\n    \"per_statement_trust_controls\": {\n      \"original\": 5,\n      \"rebuild\": 8,\n      \"cases_per_arm\": 8\n    },\n    \"prior_controls\": 51,\n    \"archived_card_replays\": 92,\n    \"core_question_comparisons\": {\n      \"improved\": 5,\n      \"tied\": 3,\n      \"regressed\": 0\n    },\n    \"full_length_checks\": {\n      \"original\": {\n        \"exact_shape_quotes_coverage\": true,\n        \"exact_statement_text\": true,\n        \"exact_anchors\": true,\n        \"all_221_ids\": true,\n        \"noise_only12\": false,\n        \"genuine_routing\": true,\n        \"no_personal_review_hints\": true,\n        \"max150_bullets_per_reply\": true,\n        \"complete\": true\n      },\n      \"rebuild\": {\n        \"exact_shape_quotes_coverage\": false,\n        \"exact_statement_text\": true,\n        \"exact_anchors\": false,\n        \"all_221_ids\": true,\n        \"noise_only12\": true,\n        \"genuine_routing\": true,\n        \"no_personal_review_hints\": true,\n        \"max150_bullets_per_reply\": true,\n        \"complete\": true\n      }\n    },\n    \"open_full_length_regression\": \"Rebuild S072 anchor omits bullet in Sections 4 and 5; raw output retained and correctly rejected. No clean full-length pass claimed.\",\n    \"publication\": \"NOT PERFORMED\",\n    \"limits\": \"Bounded English hint classifier; synthetic known fixtures; one fresh pair per fixture; no statistical or fresh Claude claim.\"\n  },\n  \"candidate_performance\": \"Fresh rebuild full-length run passes every frozen check; S072 exact-anchor failure not reproduced; historical failures preserved\",\n  \"citation_repair\": {\n    \"status\": \"PASS: evidence integrity\",\n    \"prior_tracked_files_preserved\": 8000,\n    \"local_prior_artifacts_verified\": 0,\n    \"optional_prior_artifacts_absent\": [\n      \"FINAL_VERIFICATION.json\",\n      \"RELEASE.json\",\n      \"RFP-COMPASS-Comp15-source.zip\",\n      \"RFP-COMPASS-Comp15.bundle\",\n      \"SHA256SUMS.txt\"\n    ],\n    \"questions_unchanged\": true,\n    \"both_validators_byte_identical\": true,\n    \"changed_model_knowledge\": [\n      \"CLAUDE_PROJECT_INSTRUCTIONS.txt\",\n      \"rules.md\",\n      \"reference/output-schema.md\",\n      \"examples.md\"\n    ],\n    \"fresh_core_sessions_across_two_attempts\": 20,\n    \"fresh_full_sessions_across_two_attempts\": 4,\n    \"fresh_model_turns\": 36,\n    \"full_reply_counts\": {\n      \"attempt-1\": {\n        \"original\": 4,\n        \"rebuild\": 4\n      },\n      \"attempt-2\": {\n        \"original\": 4,\n        \"rebuild\": 4\n      }\n    },\n    \"first_repair_failed_and_preserved\": true,\n    \"exact_anchor_rejection_controls\": 22,\n    \"core_question_comparisons\": {\n      \"improved\": 5,\n      \"tied\": 3,\n      \"regressed\": 0\n    },\n    \"full_length_checks\": {\n      \"original\": {\n        \"exact_shape_quotes_coverage\": true,\n        \"exact_statement_text\": true,\n        \"exact_anchors\": true,\n        \"all_221_ids\": true,\n        \"noise_only12\": false,\n        \"genuine_routing\": true,\n        \"no_personal_review_hints\": true,\n        \"max150_bullets_per_reply\": true,\n        \"complete\": true\n      },\n      \"rebuild\": {\n        \"exact_shape_quotes_coverage\": true,\n        \"exact_statement_text\": true,\n        \"exact_anchors\": true,\n        \"all_221_ids\": true,\n        \"noise_only12\": true,\n        \"genuine_routing\": true,\n        \"no_personal_review_hints\": true,\n        \"max150_bullets_per_reply\": true,\n        \"complete\": true\n      }\n    },\n    \"S072_copying_fix_observed\": true,\n    \"S072_routes_to_4_and_5\": true,\n    \"performance_summary\": \"Fresh rebuild full-length run passes every frozen check; S072 exact-anchor failure not reproduced; historical failures preserved\",\n    \"publication\": \"NOT PERFORMED\",\n    \"limits\": \"Two versioned attempts; first failed and retained. One new pair on known input for final version; not a deterministic copying guarantee, no raw corrections or statistical claim.\"\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "final-repair-clone",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "final-repair-checkout",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "final-repair-unchanged-audit",
+    "exit_code": 0,
+    "stdout": "{\n  \"preserved_S100_failure_still_rejected\": true,\n  \"status\": \"PASS: evidence integrity; consult performance separately\",\n  \"preserved_tracked_files\": 8742,\n  \"frozen_questions_unchanged\": true,\n  \"prior_local_artifacts_verified\": [],\n  \"prior_local_artifacts_absent_in_source_clone\": [\n    \"FINAL_VERIFICATION.json\",\n    \"RELEASE.json\",\n    \"RFP-COMPASS-Comp15-source.zip\",\n    \"RFP-COMPASS-Comp15.bundle\",\n    \"SHA256SUMS.txt\"\n  ],\n  \"fresh_raw_model_turns\": 47,\n  \"core_comparisons\": {\n    \"improved\": 5,\n    \"tied\": 3,\n    \"regressed\": 0\n  },\n  \"full_performance\": {\n    \"original\": {\n      \"exact_shape_quotes_coverage\": false,\n      \"exact_statement_text\": true,\n      \"exact_anchors\": false,\n      \"all_221_ids\": true,\n      \"noise_only12\": false,\n      \"genuine_routing\": false,\n      \"no_personal_review_hints\": true,\n      \"max150_bullets_per_reply\": true,\n      \"complete\": true\n    },\n    \"rebuild\": {\n      \"exact_shape_quotes_coverage\": true,\n      \"exact_statement_text\": true,\n      \"exact_anchors\": true,\n      \"all_221_ids\": true,\n      \"noise_only12\": true,\n      \"genuine_routing\": true,\n      \"no_personal_review_hints\": true,\n      \"max150_bullets_per_reply\": true,\n      \"complete\": true\n    }\n  },\n  \"new_performance\": {\n    \"original\": {\n      \"U-unseen-citations\": false,\n      \"V-required-response-info\": false,\n      \"W-personal-graduation\": false\n    },\n    \"rebuild\": {\n      \"U-unseen-citations\": true,\n      \"V-required-response-info\": true,\n      \"W-personal-graduation\": true\n    }\n  },\n  \"control_cases\": 137,\n  \"rebuild_control_failures\": [],\n  \"full_validation\": {\n    \"original\": {\n      \"exit_code\": 1,\n      \"stdout\": \"FAIL\\n\\\\\\\\?\\\\C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\.run-work\\\\rfp-comp15-historical-q2dp_55q\\\\ha-qnadgad5\\\\s\\\\run-original\\\\final-repair-v2-full\\\\part-1\\\\bid-compliance-card.md (+2 part(s)): ## 6. Dates and events stated: anchor for S100 does not match the packet\\n\",\n      \"stderr\": \"\"\n    },\n    \"rebuild\": {\n      \"exit_code\": 0,\n      \"stdout\": \"NOTE: PERSONAL HINT FILTER: S216, S217, S218, S219, S220, S221; personal activity in source text, no procurement cue, quoted only in Section 12; bounded heuristic, not semantic proof\\nPASS (1 card): fixed shape, no extra text, entire-statement quotations, exact citations, ID order, full source coverage.\\n\",\n      \"stderr\": \"\"\n    }\n  },\n  \"published\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "warning-repair-clone",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "warning-repair-checkout",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "warning-repair-unchanged-audit",
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"preserved_prior_files\": 10568,\n  \"local_prior_artifacts_verified\": 0,\n  \"raw_turns_verified\": 26,\n  \"frozen_questions\": \"unchanged\",\n  \"strict_validation_implementation\": \"unchanged\",\n  \"six_model_knowledge_files_each_arm\": \"unchanged\",\n  \"published\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "scope-repair-clone",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "scope-repair-checkout",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "scope-repair-unchanged-audit",
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"preserved_prior_files\": 12957,\n  \"local_prior_artifacts_verified\": 0,\n  \"raw_turns_verified\": 26,\n  \"frozen_questions\": \"unchanged\",\n  \"strict_validation_implementation\": \"unchanged\",\n  \"six_model_knowledge_files_each_arm\": \"unchanged\",\n  \"published\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "scope-guard-repair-clone",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "scope-guard-repair-checkout",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "scope-guard-repair-unchanged-audit",
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"prior_files_preserved\": 17646,\n  \"prior_sealed_artifacts_present_verified\": 0,\n  \"raw_turns_verified\": 26,\n  \"frozen_questions\": \"unchanged\",\n  \"strict_implementation\": \"unchanged\",\n  \"six_model_knowledge_files\": \"unchanged\",\n  \"warning_controls\": 87,\n  \"published\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "polarity-repair-clone",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "polarity-repair-checkout",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "polarity-repair-unchanged-audit",
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"prior_files_preserved\": 22013,\n  \"prior_sealed_artifacts_present_verified\": 0,\n  \"raw_turns_verified\": 25,\n  \"frozen_questions\": \"unchanged\",\n  \"strict_implementation\": \"unchanged\",\n  \"six_model_knowledge_files\": \"unchanged\",\n  \"warning_controls\": 120,\n  \"published\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "boundary-repair-clone",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "boundary-repair-checkout",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "boundary-repair-unchanged-audit",
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"prior_files_preserved\": 27828,\n  \"sealed_artifacts_in_original_workspace\": 47,\n  \"raw_turns_verified\": 26,\n  \"frozen_questions\": \"unchanged\",\n  \"strict_implementation\": \"unchanged\",\n  \"six_model_knowledge_files\": \"unchanged\",\n  \"warning_controls\": 162,\n  \"published\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "submission-repair-clone",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "submission-repair-checkout",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "submission-repair-unchanged-audit",
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"PASS preserved-failure integrity\",\n  \"behavioral_acceptance\": \"HOLD \\u2014 B semantic failure preserved\",\n  \"prior_files_preserved\": 31996,\n  \"sealed_artifacts_in_original_workspace\": 47,\n  \"raw_turns_verified\": 29,\n  \"frozen_questions\": \"unchanged\",\n  \"strict_implementation\": \"unchanged\",\n  \"model_knowledge\": \"rules and output schema changed; other four unchanged\",\n  \"warning_controls\": 162,\n  \"published\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "final-submission-clone",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "final-submission-checkout",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "final-submission-unchanged-audit",
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"behavioral_acceptance\": \"PASS all final recorded gates\",\n  \"prior_files_preserved\": 34562,\n  \"sealed_artifacts_in_original_workspace\": 47,\n  \"raw_turns_verified\": 28,\n  \"frozen_questions\": \"unchanged\",\n  \"strict_implementation\": \"unchanged\",\n  \"model_knowledge\": \"rules and output schema changed; other four unchanged\",\n  \"warning_controls\": 162,\n  \"published\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "warning-final-clone",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "warning-final-checkout",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "warning-final-unchanged-audit",
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"behavioral_acceptance\": \"all recorded repair gates pass\",\n  \"manifest_check\": \"PASS\",\n  \"sequential_issues_tested\": 4,\n  \"controls\": 207,\n  \"raw_turns_verified\": 25,\n  \"prior_files_preserved\": 37416,\n  \"old_sealed_artifacts\": 53,\n  \"frozen_questions\": \"unchanged\",\n  \"six_model_knowledge_files\": \"unchanged\",\n  \"strict_checks\": \"byte-identical\",\n  \"automatic_transport_retries\": [\n    {\n      \"path\": \"run-original/warning-final-core/C-official-email\",\n      \"client_transport_retries\": [\n        \"2026-10-26T14:57:55.353461Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 148.9998708s)... turn_id=01a178b7-cd01-7303-9bab-89e00bc898e5 retries=1 max_retries=5 sampling_error=exceeded retry limit, last status: 429 Too Many Requests\"\n      ]\n    },\n    {\n      \"path\": \"run-original/warning-final-new/C-opaque-citations\",\n      \"client_transport_retries\": [\n        \"2026-10-26T15:01:53.700991Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 511.99991s)... turn_id=01a178bb-6fa0-71c3-a745-06e489ac0ece retries=1 max_retries=5 sampling_error=exceeded retry limit, last status: 429 Too Many Requests\"\n      ]\n    },\n    {\n      \"path\": \"run-original/warning-final-full/part-5\",\n      \"client_transport_retries\": [\n        \"2026-10-26T15:18:35.068457Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 111.9999059s)... turn_id=01a178ca-b7f0-7d92-82ed-81ad53c19f6d retries=1 max_retries=5 sampling_error=exceeded retry limit, last status: 429 Too Many Requests\"\n      ]\n    },\n    {\n      \"path\": \"run-rebuild/warning-final-core/E-contract-expectation\",\n      \"client_transport_retries\": [\n        \"2026-10-26T15:29:44.557577Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 43.9999023s)... turn_id=01a178d4-ef34-7271-9bb7-e4bbff33422e retries=1 max_retries=5 sampling_error=exceeded retry limit, last status: 429 Too Many Requests\"\n      ]\n    },\n    {\n      \"path\": \"run-rebuild/warning-final-full/part-2\",\n      \"client_transport_retries\": [\n        \"2026-10-26T15:34:03.944999Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 385.9999064s)... turn_id=01a178d8-e422-75d3-a447-8c21dc4e2d0f retries=1 max_retries=5 sampling_error=exceeded retry limit, last status: 429 Too Many Requests\"\n      ]\n    }\n  ],\n  \"published\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "current-route-repair-integrity",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "fatal: could not open '//?/C:/Users/mmazu/OneDrive/Documents/ChatGPT/Competition 15/.run-work/route-preservation-baseline.zip' for writing: No such file or directory\nTraceback (most recent call last):\n  File \"\\\\?\\C:\\Users\\mmazu\\OneDrive\\Documents\\ChatGPT\\Competition 15\\route-repair\\audit.py\", line 25, in <module>\n    subprocess.run(['git','archive','--format=zip','-o',str(archive),pres['target']],cwd=R,check=True)\n  File \"C:\\Users\\mmazu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['git', 'archive', '--format=zip', '-o', '\\\\\\\\?\\\\C:\\\\Users\\\\mmazu\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\Competition 15\\\\.run-work\\\\route-preservation-baseline.zip', '5e30129b3af677ef43fccb3dcec4c452182ffab6']' returned non-zero exit status 128.\n"
+  }
+]

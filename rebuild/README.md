@@ -51,4 +51,4 @@ The latest offline warning repair passed 263 differential cases per stage, 60 CL
 
 ## Evidence and package status
 
-The [current results](../results.md) distinguish raw strict checks, selected routing and derived exports. Historical reports, raw evidence, frozen questions and judged original remain preserved. The final source ZIP, full-history bundle, checksums and fresh-clone receipt are in `../dist/route-repair-review/`. Nothing is published.
+The [current results](../results.md) distinguish raw strict checks, selected routing and derived exports. Historical reports, raw evidence, frozen questions and judged original remain preserved. The final source ZIP, full-history bundle, checksums and fresh-clone receipt are in `../dist/route-repair-review-v2/`. Nothing is published.

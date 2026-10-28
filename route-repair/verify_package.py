@@ -1,11 +1,12 @@
 """Verify the review bundle in a fresh checkout and retain complete command results."""
 from pathlib import Path, PureWindowsPath
 import argparse,hashlib,json,subprocess,sys,os
-R=Path(__file__).resolve().parents[1]; D=R/'dist/route-repair-review'
-meta=json.loads((D/'PACKAGE.json').read_text()); records=[]
+R=Path(__file__).resolve().parents[1]; records=[]
 parser=argparse.ArgumentParser()
 parser.add_argument('--checkout-dir',type=Path,default=R/'.run-work/route-review-verified')
-C=parser.parse_args().checkout_dir.resolve()
+parser.add_argument('--package-dir',type=Path,default=R/'dist/route-repair-review-v2')
+args=parser.parse_args();C=args.checkout_dir.resolve();D=args.package_dir.resolve()
+meta=json.loads((D/'PACKAGE.json').read_text())
 assert not C.exists(),'Fresh checkout path must not exist'
 C.parent.mkdir(exist_ok=True)
 def run(label,cmd,cwd,expected=0):

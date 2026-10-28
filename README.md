@@ -23,4 +23,4 @@ The resumed run is authorized by the October 28 user instruction. Prior offline-
 - Re-score existing evidence only: `python -B -X utf8 route-repair/score.py --output-dir .run-work/new-score`.
 - Final submission audit: `python -B -X utf8 tools/verify_submission.py`. This intentionally returns HOLD while the final comparison is missing; passing offline checks alone cannot release the entry.
 
-Final unpublished review artifacts are in `dist/route-repair-review/`: source ZIP, complete Git-history bundle, SHA256 checksums and fresh-clone receipt. Earlier incomplete and failed archives remain preserved. The [submission comment](SUBMISSION_COMMENT.md) is an unposted draft. Inspect the final receipt before publishing; integrity and semantic acceptance are separate.
+Final unpublished review artifacts are in `dist/route-repair-review-v2/`: source ZIP, complete Git-history bundle, SHA256 checksums and fresh-clone receipt. Earlier incomplete and failed archives remain preserved. The [submission comment](SUBMISSION_COMMENT.md) is an unposted draft. Inspect the final receipt before publishing; integrity and semantic acceptance are separate.

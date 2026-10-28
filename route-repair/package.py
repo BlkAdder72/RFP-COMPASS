@@ -1,7 +1,8 @@
 """Seal an unpublished review archive; never treat integrity as behavioral acceptance."""
 from pathlib import Path
-import hashlib,json,subprocess,zipfile
-R=Path(__file__).resolve().parents[1];D=R/'dist/route-repair-review'
+import hashlib,json,subprocess,zipfile,argparse
+R=Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser();parser.add_argument('--package-dir',type=Path,default=R/'dist/route-repair-review-v2');D=parser.parse_args().package_dir.resolve()
 assert not subprocess.check_output(['git','status','--porcelain'],cwd=R),'Commit all evidence before packaging'
 audit=json.loads((R/'route-repair/FINAL_CHECK.json').read_text())
 assert audit.get('comparison_complete'), 'Complete both native arms before sealing this package'

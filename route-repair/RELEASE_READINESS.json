@@ -1,0 +1,17 @@
+{
+  "ready_locally": true,
+  "ready_to_post_public_link": false,
+  "repository_url": "https://github.com/BlkAdder72/RFP-COMPASS",
+  "verified_public_visibility": "public",
+  "verified_public_default_branch": "main",
+  "verified_public_default_commit": "92847d2a17250fa18914d932826db63d99dcb75c",
+  "publication_required": "Publish the verified rebuild to a new preserved branch and make it the submission/default branch, preserving judged main and history; verify the live competition layout before posting. No publication authorized.",
+  "historical_audit": "PASS ten pinned snapshots plus current integrity; preserved Windows wrapper failure and affected-step retry",
+  "candidate_changed": false,
+  "questions_changed": false,
+  "new_claude_runs": 0,
+  "raw_copy_limit": "Two Unicode citation failures shared by both versions; 9/11 raw strict, 11/11 after the same audited export",
+  "final_package": "dist/route-repair-review-v2/",
+  "checked_at_utc": "2026-10-28T21:35:01.758346+00:00",
+  "published": false
+}

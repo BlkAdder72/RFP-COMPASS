@@ -6,4 +6,4 @@ The later authorized offline repair changed only two private-form warning predic
 
 All 11 original and 11 repaired native first-pass trials are exported. Core D was recovered without regeneration. Repaired frozen Q1–Q8 pass. Repaired results: 9/11 raw strict, 11/11 expanded selected semantics, 11/11 strict after the identical audited Unicode export. Raw citation failures remain failures; export does not change routing. See results.md for every paired result and any full-RFP failure.
 
-The final unpublished package is dist/route-repair-review/ at repository root. Preserve all prior failed evidence and older packages.
+The final unpublished package is dist/route-repair-review-v2/ at repository root. Preserve all prior failed evidence and older packages.
