@@ -32,6 +32,8 @@ Baseline records describe the pre-fix checkout; do not overwrite or rerun them a
 
 ## Package and remaining limits
 
+A nested Git attribute normalized the shipped sample-04 card from Windows CRLF to Git LF. The original working bytes are preserved in portability/working-snapshots/, and portability.json verifies the pinned Git equivalent differs only in line endings. No raw response has a portability exception. The archive manifest hashes canonical Git bytes, and fresh-clone verification checks those exact bytes.
+
 `dist/validator-note-repair-review/` contains an explicitly incomplete offline review snapshot: current source ZIP, full Git-history bundle, SHA256 checksums and fresh-clone verification. Older archives are preserved. This does not replace the final competition package gate or establish pending native acceptance.
 
 Three current repaired responses are completely exported. The fourth finished but still needs recovery/export, and seven later native cases remain unrun. The final submission audit must continue returning HOLD. The finite warning grammar can still produce review hints on unfamiliar private wording; the repair establishes the two specific false-warning closures plus preserved adversarial controls, not universal semantic certainty.

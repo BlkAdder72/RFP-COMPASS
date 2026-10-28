@@ -20,10 +20,18 @@ x=json.loads((R/'route-repair/final-inputs.json').read_text())
 for arm,files in x['knowledge'].items():
  for name,h in files.items():checks['model_contract:'+arm+':'+name]=sha(R/'route-repair/inputs'/arm/'translation-contract.md' if name=='bundle_sha256' else R/arm/name)==h
 pres=json.loads((D/'preservation.json').read_text());changed=[];unpreserved=[]
+portable=json.loads((D/'portability.json').read_text())['variants']
+portable_ok=True
+for name,v in portable.items():
+ canonical=subprocess.check_output(['git','show',pres['commit']+':'+name],cwd=R)
+ snapshot=R/v['working_snapshot']
+ portable_ok=portable_ok and sha(snapshot)==pres['tracked_sha256'][name]==v['prior_working_sha256'] and hashlib.sha256(canonical).hexdigest()==v['git_canonical_sha256'] and snapshot.read_bytes().replace(b'\r\n',b'\n')==canonical.replace(b'\r\n',b'\n')
+ portable_ok=portable_ok and not name.startswith(('route-repair/evidence/','native-repair/evidence/','claude-native/evidence/'))
+checks['canonical_variants_exactly_verified']=portable_ok
 # Compare all prior tracked files in the working tree, including ignored-looking
 # evidence paths. Allow changes only with their exact pre-update snapshot.
 for name,h in pres['tracked_sha256'].items():
- if not(R/name).is_file() or sha(R/name)!=h:
+ if not(R/name).is_file() or sha(R/name) not in {h,portable.get(name,{}).get('git_canonical_sha256')}:
   changed.append(name)
   if not(D/'before'/name).is_file() or sha(D/'before'/name)!=h:unpreserved.append(name)
 checks['every_changed_prior_file_preserved']=not unpreserved

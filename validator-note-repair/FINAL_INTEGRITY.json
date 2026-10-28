@@ -17,6 +17,7 @@
     "model_contract:rebuild:reference/input-schema.md": true,
     "model_contract:rebuild:reference/output-schema.md": true,
     "model_contract:rebuild:bundle_sha256": true,
+    "canonical_variants_exactly_verified": true,
     "every_changed_prior_file_preserved": true,
     "historical_and_raw_evidence_unchanged": true,
     "stage:baseline": true,

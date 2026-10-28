@@ -1,0 +1,13 @@
+{
+  "prior_commit": "4c579b765740cbbebafeccea032c49eca0bf990f",
+  "variants": {
+    "rebuild/samples/04-real-tbrpc-auditing-rfp/bid-compliance-card.md": {
+      "prior_working_sha256": "f4cd390230baeb696d4f32c31de2948c3c1fe1392d01785599bc0579f231be34",
+      "git_canonical_sha256": "8a71431512953390657653f1b28b4b54544a30322c38af6a3cd1cc1eb8dbf1cc",
+      "working_snapshot": "validator-note-repair/portability/working-snapshots/rebuild/samples/04-real-tbrpc-auditing-rfp/bid-compliance-card.md",
+      "difference": "CRLF/LF only"
+    }
+  },
+  "raw_evidence_variants": 0,
+  "initial_manifest_assertion": "Detected canonical Git versus Windows working-copy mismatch on shipped sample 04; packaging paused until exact variants were preserved and checked"
+}
